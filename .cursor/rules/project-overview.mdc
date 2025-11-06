@@ -1,0 +1,68 @@
+---
+alwaysApply: true
+---
+
+### 项目概览
+- Astro + Svelte + Tailwind 的静态博客主题（Fuwari）
+- 项目名：HMTBlog；默认演示配置尚未完全本地化
+
+### 技术栈与关键依赖
+- Astro 5.x、Svelte 5、Tailwind 3、Pagefind 搜索
+- Expressive Code 代码高亮，Swup 页面过渡，Sitemap、RSS 集成
+
+### 运行与构建
+- 开发：`pnpm dev`（默认端口 4321）
+- 构建：`pnpm build`（构建后执行 Pagefind 索引）
+- Node 20+，pnpm 9+
+
+### 路由与页面
+- `/` 与 `/page/{n}/`：主页与分页（每页 8 篇，见 `src/constants/constants.ts`）
+- `/archive/`：归档
+- `/about/`：关于
+- `/posts/{slug}/`：文章详情
+- `/rss.xml`：RSS
+- `/robots.txt`：Robots
+- `/sitemap-index.xml`：站点地图（由 `@astrojs/sitemap` 生成）
+
+### 内容系统
+- 目录：`src/content/posts/`（文章），`src/content/spec/`
+- Schema：见 `src/content/config.ts`（title, published, updated?, draft, description, image, tags[], category, lang 等；含内部 prev/next 字段）
+- Frontmatter 编辑配置：`frontmatter.json`
+
+### 站点配置
+- 主题与导航：`src/config.ts`（`siteConfig`、`navBarConfig`、`profileConfig`、`licenseConfig`、`expressiveCodeConfig`）
+- 站点域名与 Markdown/插件：`astro.config.mjs`（需将 `site` 改为你的生产域名）
+- 样式与主题：Tailwind、`src/styles/*`；亮暗切换与色相可配
+- 国际化：`src/i18n/*`（包含 `zh_CN.ts` 等）
+- 搜索：`pagefind.yml`（排除选择器）
+- 其他：`svelte.config.js`、`tailwind.config.cjs`、`postcss.config.mjs`
+
+### 插件与扩展
+- remark/rehype：数学、目录锚点、Admonition、自定义组件、阅读时长、摘录等
+- Expressive Code：自定义复制按钮、语言徽章、折叠、行号
+- Swup：平滑过渡，容器 `main`、`#toc`
+
+### 接口与服务端
+- 无后端业务接口；为纯静态站点
+- Astro API 路由：
+  - GET `/rss.xml`（聚合文章）
+  - GET `/robots.txt`（按 `import.meta.env.SITE` 生成）
+- 站点地图由插件生成（`/sitemap-index.xml`）
+
+### 部署
+- Vercel/Netlify/GitHub Pages 均可；`vercel.json` 当前为空
+- 部署前请设置 `astro.config.mjs` 的 `site`
+
+### 当前状态
+- 模板已就绪；演示配置与内容仍保留；未替换站点域名与品牌文案
+
+### 规划（短期）
+- 更新 `astro.config.mjs.site`、`src/config.ts`（标题/副标题/语言/导航/头像等）
+- 清理示例文章，新建实际内容
+- 配置 favicon、社交链接与 License
+- 验证搜索、RSS、站点地图与分页在生产环境正常
+- 部署至目标平台并开启自定义域名/HTTPS
+
+### 最近记录（最多 10 条，倒序）
+- 2025-11-06 20:32 初始化概览，梳理路由/接口/配置
+
