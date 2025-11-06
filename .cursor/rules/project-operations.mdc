@@ -1,0 +1,111 @@
+---
+alwaysApply: true
+---
+
+### 项目操作说明（HMTBlog）
+
+- 开发预览：`pnpm dev`（默认端口 4321）
+- 新建文章：`pnpm new-post <文件名或子路径>` → 在 `src/content/posts/` 编辑
+- 新建页面：在 `src/pages/` 新增 `xxx.astro` 或 `xxx.md` → 自动路由 `/xxx/`
+- 构建站点：`pnpm build`（完成后自动执行 Pagefind 索引）
+- 预览构建：`pnpm preview`
+- 一键构建并本地静态服务：双击 `build-serve.bat`（端口 8024）
+- 站点配置：
+  - 基本信息与导航：`src/config.ts`
+  - 生产域名：`astro.config.mjs` 的 `site`
+  - 内容 Schema：`src/content/config.ts`
+
+### 约定与提醒
+
+- 文章 Frontmatter 字段需满足 `src/content/config.ts`；`draft: true` 不会出现在列表与 RSS。
+- 部署前务必设置 `astro.config.mjs.site`，`/robots.txt` 与站点地图依赖该值。
+- 当有“新功能/重大改动”合入时，必须同步更新本文件要点，确保操作指南与当前实现保持一致（由助手自动检查并修改）。
+
+### 最近记录（最多 10 条，倒序）
+- 2025-11-06 21:50 创建项目操作说明，设为默认加入上下文
+- 2025-11-06 22:00 增加 `build-serve.bat` 一键构建并在 8024 端口提供静态服务
+- 2025-11-06 22:22 补充 posts Frontmatter 可用变量说明
+- 2025-11-06 22:26 说明“单文件 vs 目录型（index.md）文章”的差异与建议
+- 2025-11-06 22:29 约定默认创建“目录型”文章；现有 uv-learning 改为目录型
+- 2025-11-06 22:35 调整 Markdown 粘贴图片：默认保存到当前目录 ./
+
+### 文章 Frontmatter 变量说明（`src/content/posts/*.md`）
+
+以下字段由 `src/content/config.ts` 的 Schema 定义，必须满足类型约束：
+
+- **title (string, 必填)**: 文章标题，用于列表、详情页标题与 SEO。
+- **published (date, 必填)**: 首次发布时间；用于首页与归档的时间排序（新→旧）。
+- **updated (date, 可选)**: 最近更新时间；用于文章内“更新于”的展示与 SEO 元数据。
+- **draft (boolean, 可选，默认 false)**: 草稿开关；为 `true` 时在生产环境不会出现在列表与 RSS 中。
+- **description (string, 可选，默认空)**: 简介/摘要；用于卡片、详情页副标题与 SEO description。
+- **image (string, 可选，默认空)**: 封面图路径或完整 URL；用于卡片/详情页头图与社交分享卡片。
+- **tags (string[], 可选，默认 [])**: 标签列表；用于标签聚合统计、侧边栏标签挂件与页面内展示。
+- **category (string | null, 可选，默认空字符串)**: 文章分类；为空或 null 时归入“未分类”。
+- **lang (string, 可选，默认空)**: 文章语言代码（如 `zh-CN`）；影响多语言展示与搜索索引元数据。
+
+内部字段（请保持默认，不建议手填，构建时会自动赋值）：
+
+- **prevTitle (string, 默认空)**: 上一篇文章标题（按 `published` 排序自动计算）。
+- **prevSlug (string, 默认空)**: 上一篇文章的 `slug`（自动计算）。
+- **nextTitle (string, 默认空)**: 下一篇文章标题（自动计算）。
+- **nextSlug (string, 默认空)**: 下一篇文章的 `slug`（自动计算）。
+
+说明：`prev*`/`next*` 四个字段在构建阶段由 `getSortedPosts()` 动态覆盖（见 `src/utils/content-utils.ts`），即使手动填写也会被替换，因此请不要手工维护，保持默认空值即可。
+
+与 frontmatter 并存的系统字段（自动提供，非 frontmatter）：
+
+- **slug (string)**: 由文件路径生成的唯一标识，用于文章路由（如 `/posts/{slug}/`）。
+- **body (string)**: Markdown 源文内容（列表模式下通常不直接使用）。
+
+写作与校验要点：
+
+- 必填项仅有 `title`、`published`；其余字段可按需补充。
+- `published`/`updated` 建议使用 `YYYY-MM-DD` 或包含时分秒的 ISO 格式，确保解析稳定。
+- `draft: true` 的文章不会出现在生产环境列表与 RSS，但开发模式下仍可预览。
+- 图片路径建议放在 `public/` 或 `src/assets/` 并使用相对路径，发布到 CDN 时可改为完整 URL。
+
+### 文章文件结构：单文件 vs 目录型（index.md）
+
+- **路径形式**
+  - **单文件**：`src/content/posts/markdown.md`
+  - **目录型**：`src/content/posts/guide/index.md`（同目录可放配图，如 `cover.jpeg`）
+
+- **路由/slug**（两者一致的规则）
+  - 单文件 `markdown.md` → `slug: markdown` → 路由：`/posts/markdown/`
+  - 目录型 `guide/index.md` → `slug: guide` → 路由：`/posts/guide/`
+  - 说明：slug 由相对路径推导，`index.md` 的上级目录名即 slug。
+
+- **资源组织**
+  - 单文件：配图通常放 `public/` 或 `src/assets/`，frontmatter `image` 常写绝对或站内相对路径。
+  - 目录型：可与文章同目录放置资源（如 `./cover.jpeg`、`./diagram.png`）；Markdown 正文中使用相对路径 `![alt](./cover.jpeg)` 更直观。
+
+- **frontmatter `image` 的取值建议**
+  - 单文件：使用 `/favicon/...`、`/assets/...` 或 `https://...` 完整 URL。
+  - 目录型：可直接用相对路径 `./cover.jpeg`；注意该字段是 string（非 `image()` 类型），由模板直接作为 `src` 使用。
+
+- **构建与功能影响**
+  - 时间排序、分页、标签/分类统计、prev/next 导航等功能与文件结构无关；均由 `published` 与 `getSortedPosts()` 决定。
+  - `draft` 行为一致：生产环境下 `draft: true` 的文章不出现在列表和 RSS；开发模式仍可预览。
+
+- **何时用目录型**
+  - 需要多张插图/附件并希望与文章同目录管理。
+  - 需要封面图、示例代码、视频截图等一并打包维护。
+
+- **何时用单文件**
+  - 内容简单、外部资源少；或统一使用全局 `public/`、`src/assets/` 资源。
+
+- **脚手架命令提示**
+  - 新建文章可直接指定子路径：`pnpm new-post guide/index` 将生成目录型文章骨架。
+  - 默认建议使用“目录型”结构（含 `index.md` 与同目录资源），便于配图与附件管理。
+
+### 编辑器与 Markdown 粘贴图片约定
+
+- VS Code 工作区配置在 `.vscode/settings.json`：
+  - `pasteImage.path = "${currentFileDir}"`：图片粘贴保存到当前 Markdown 文件所在目录（即 `./`）。
+  - `pasteImage.namePrefix = ""`：禁用自动前缀，避免生成 `image/index-*.png` 命名。
+  - `pasteImage.insertPattern = "![${imageFileNameWithoutExt}](${imageFilePath})"`：使用相对路径插入。
+  - `markdown-preview-enhanced.imageFolderPath = "."`、`useRelativeFilePath = true`：MPE 的图片目录同样指向当前目录。
+  - 如遇其他粘贴类扩展，请以本规则为准，保持图片与 `index.md` 同目录优先。
+
+
+
