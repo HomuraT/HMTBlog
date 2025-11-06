@@ -15,17 +15,51 @@ pnpm-debug.log*
 
 # environment variables
 .env
+.env.local
+.env.development
 .env.production
+.env.test
+.env.*.local
+!.env.example
+!.env*.example
 
-# macOS-specific files
-.DS_Store
-
-.vercel
-
+# package manager artifacts
 package-lock.json
 bun.lockb
 yarn.lock
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
 
-# ide
-.idea
+# editor and tooling
+.idea/
+.vscode/
+.vscode-test/
+.history/
+.fleet/
 *.iml
+*.suo
+*.njsproj
+*.ntvs*
+*.sw?
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# dependency caches
+.pnpm-store/
+.npm/
+.tmp/
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+
+# deployment cache
+.vercel
+.netlify
+
