@@ -1,7 +1,7 @@
 # 关于
-这是 [Fuwari](https://github.com/saicaca/fuwari) 的演示站点。
+这是 [HMT博客](https://github.com/HomuraT/HMTBlog) 的源码仓库。
 
-::github{repo="saicaca/fuwari"}
+::github{repo="HomuraT/HMTBlog"}
 
 > ### 本站使用的图片来源
 > - [Unsplash](https://unsplash.com/)

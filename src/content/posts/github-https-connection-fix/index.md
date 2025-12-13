@@ -77,6 +77,42 @@ git clone https://github.com/xxx/xxx.git
 
 如果一切正常，应该可以成功连接和克隆了。
 
+## 方案 2：禁用 HTTP/2（备选方案）
+
+如果上述修改 hosts 的方案配置后仍然失败，可以尝试临时禁用 HTTP/2 协议。这个方法在某些网络环境下非常有效：
+
+### 临时禁用（仅本次操作）
+
+```bash
+# 临时禁用 HTTP/2，仅对当前命令生效
+GIT_CURL_VERBOSE=1 GIT_TRACE=1 git -c http.version=HTTP/1.1 push
+```
+
+这个命令会：
+- `GIT_CURL_VERBOSE=1`：显示详细的 curl 调试信息
+- `GIT_TRACE=1`：显示 Git 的详细跟踪信息
+- `-c http.version=HTTP/1.1`：强制使用 HTTP/1.1 协议
+
+### 全局禁用 HTTP/2
+
+如果临时禁用有效，可以将其设置为全局配置：
+
+```bash
+# 全局禁用 HTTP/2
+git config --global http.version HTTP/1.1
+```
+
+这样设置后，所有的 Git HTTPS 操作都会使用 HTTP/1.1 协议，无需每次都手动指定。
+
+### 恢复 HTTP/2
+
+如果以后想恢复使用 HTTP/2，可以执行：
+
+```bash
+# 恢复默认设置（使用 HTTP/2）
+git config --global --unset http.version
+```
+
 ## 实际案例分析
 
 在我遇到的实际案例中：
