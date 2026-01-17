@@ -26,6 +26,6 @@ lang: 'zh-CN'
 
 ### [NIKKE - Unbreakable (Old Tales)](https://www.youtube.com/watch?v=FopHtdnCLg4&list=RDFopHtdnCLg4&start_radio=1)
 
-<img src="/images/hmt/playlist/nikke-Hurricanes.png" style="height: 200px; width: auto;">
+<img src="/images/hmt/playlist/nikke-Rising Higher.png" style="height: 200px; width: auto;">
 
 ### [NIKKE - Rising Higher](https://www.youtube.com/watch?v=6wt5_a7vT7M&list=RDCVVUjePzG0I&index=3)
