@@ -13,6 +13,7 @@ lang: ''
 
 - [2024] Xiao, G. (2024). <a href="/papers/vkg/Xiao - Introduction to Virtual Knowledge Graphs.pdf"><i>1. Introduction to Virtual Knowledge Graphs</i></a>. University of Bergen, Norway.
 - [2024] Xiao, G. (2024). <a href="/papers/vkg/Xiao - Virtual Knowledge Graphs Query Processing.pdf"><i>2. Virtual Knowledge Graphs Query Processing</i></a>. University of Bergen, Norway.
+- [2024] Calvanese, D., & Lanti, D. (2024). <a href="/papers/vkg/tutorial-design-vkg.pdf"><i>Designing Virtual Knowledge Graphs</i></a>. Tutorial at the 36th Int. Conf. on Advanced Information Systems Engineering (CAiSE 2024), Limassol, Cyprus.
 - [2019] Xiao, G., Ding, L., Cogrel, B., & Calvanese, D. (2019). <a href="https://direct.mit.edu/dint/article-pdf/1/3/201/683759/dint_a_00011.pdf"><i>Virtual knowledge graphs: An overview of systems and use cases</i></a>. Data Intelligence, 1(3), 201-223.
 
 # VKG 构造 (VKG Generation / Mapping Generation)
@@ -20,6 +21,10 @@ lang: ''
 RODI 是一个关系到本体映射生成质量的基准测试，包含科学会议、地理数据和油气勘探等领域的测试场景，通过评估系统处理关系模式和本体特性的能力以及映射在查询回答中的表现，对七个映射生成系统进行了综合评估。
 - [2025] Xiao, G., Ren, L., Qi, G., Xue, H., Panfilo, M. D., & Lanti, D. (2025, August). <a href="https://www.ijcai.org/proceedings/2025/0525.pdf"><i>LLM4VKG: Leveraging large language models for virtual knowledge graph construction</i></a>. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI).
 LLM4VKG 利用大语言模型自动化 VKG 构建过程，包括本体开发、模式分析和映射创建，有效解决命名歧义和匹配问题。
+
+# VKG 问答
+- [2025] Feng, Y., Zhang, P., Xiao, G., Ding, L., & Meng, L. (2025). <a href="https://arxiv.org/pdf/2503.14251"><i>Towards a Barrier-free GeoQA Portal: Natural Language Interaction with Geospatial Data Using Multi-Agent LLMs and Semantic Search</i></a>. International Journal of Applied Earth Observation and Geoinformation.
+提出一个无障碍地理问答门户，通过多智能体 LLM 框架实现自然语言交互，将复杂查询分解为子任务并分配给不同智能体处理,支持默认和自定义数据输入,并基于语义搜索提高数据检索的容错性,降低非专家用户使用地理信息门户的门槛。
 
 
 # VKG 应用
@@ -53,8 +58,32 @@ VKG 在 3D 城市数据集成中的应用，通过 CityGML-KG 框架将 3DCityDB
 VKG 在德国地形数据集成中的应用，通过 ATKIS-DLM-KG 框架将 ATKIS 数字景观模型（DLM）中按主题和几何类型分散的 Shapefile 数据集成为统一的知识图谱，支持跨主题的语义查询和关联分析。
 
 # VKG 公开资源
-
+## ontop
 ::github{repo="ontop/ontop"}
 :::note
 最先进的VKG系统Ontop，官网为[https://ontop-vkg.org/](https://ontop-vkg.org/)
 :::
+
+## LLM4VKG
+::github{repo="HomuraT/LLM4VKG"}
+:::note
+IJCAI2025论文LLM4VKG: Leveraging large language models for virtual knowledge graph construction的仓库
+:::
+
+## GeoQA
+::github{repo="nitpicker55555/Geo-QA-Paper"}
+:::note
+论文Towards a Barrier-free GeoQA Portal: Natural Language Interaction with Geospatial Data Using Multi-Agent LLMs and Semantic Search的仓库
+:::
+
+## 公开VKG
+### BGEE
+::github{repo="ontop/ontop-patterns-tutorial"}
+### DEST
+::github{repo="ontopic-vkg/destination-tutorial"}
+### NPD
+::github{repo="ontop/npd-benchmark"}
+### Südtirol
+::github{repo="dinglinfang/suedTirolOpenDataOBDA"}
+### ATKIS
+::github{repo="apano-on/atkis"}
