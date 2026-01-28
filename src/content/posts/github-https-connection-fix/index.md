@@ -3,7 +3,7 @@ title: GitHub HTTPS 连接问题解决方案
 published: 2025-12-01
 description: '解决服务器上 SSH 可以连接 GitHub 但 HTTPS 连接失败的问题，通过修改 hosts 文件指向可用 IP 地址'
 image: ''
-tags: ['GitHub', 'Git', '网络问题', 'Linux']
+tags: ['GitHub', 'Linux', '服务器配置']
 category: '技术笔记'
 draft: false 
 lang: 'zh-CN'
