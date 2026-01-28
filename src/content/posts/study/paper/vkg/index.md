@@ -21,6 +21,8 @@ lang: ''
 RODI 是一个关系到本体映射生成质量的基准测试，包含科学会议、地理数据和油气勘探等领域的测试场景，通过评估系统处理关系模式和本体特性的能力以及映射在查询回答中的表现，对七个映射生成系统进行了综合评估。
 - [2025] Xiao, G., Ren, L., Qi, G., Xue, H., Panfilo, M. D., & Lanti, D. (2025, August). <a href="https://www.ijcai.org/proceedings/2025/0525.pdf"><i>LLM4VKG: Leveraging large language models for virtual knowledge graph construction</i></a>. In Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI).
 LLM4VKG 利用大语言模型自动化 VKG 构建过程，包括本体开发、模式分析和映射创建，有效解决命名歧义和匹配问题。
+- [2025] Kosten, C., Lanti, D., Cudré-Mauroux, P., & Stockinger, K. (2025, June). <a href="https://digitalcollection.zhaw.ch/server/api/core/bitstreams/0d11c310-c829-4f58-9a02-2021840f4604/content"><i>Bootstrapping Text-to-SQL Resources for Knowledge Graph Question Answering</i></a>. In 2025 IEEE Swiss Conference on Data Science (SDS) (pp. 8-15). IEEE.
+本文展示如何将数据库社区现有的 SQL 和关系数据库资源转换为 SPARQL 和知识图谱问答（KGQA）基准测试，通过扩展 Ontop VKG 系统的 bootstrapper 开发 MPBoot 工具，利用 R2RML 的灵活性克服 Direct Mapping 的局限性，基于查询负载分析学习 KG 的丰富模式信息，创建了目前规模最大且最复杂的 KGQA 基准测试，并演示了该方法在 ScienceBenchmark 数据集上的应用。
 
 # VKG 问答
 - [2025] Feng, Y., Zhang, P., Xiao, G., Ding, L., & Meng, L. (2025). <a href="https://arxiv.org/pdf/2503.14251"><i>Towards a Barrier-free GeoQA Portal: Natural Language Interaction with Geospatial Data Using Multi-Agent LLMs and Semantic Search</i></a>. International Journal of Applied Earth Observation and Geoinformation.
