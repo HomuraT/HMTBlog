@@ -3,7 +3,7 @@ title: Sudo 误删/权限丢失后的不重启救援指南
 published: 2026-02-13
 description: '记录一次服务器 sudo 权限意外丢失后的紧急救援过程，利用 Docker 挂载宿主机根目录进行提权修复。'
 image: ''
-tags: [Linux, Sudo, Server, Docker, 运维]
+tags: [Linux, Docker, 服务器维护]
 category: Tech
 draft: false 
 lang: ''
