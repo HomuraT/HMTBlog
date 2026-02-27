@@ -63,8 +63,9 @@ VKG 在德国地形数据集成中的应用，通过 ATKIS-DLM-KG 框架将 ATKI
 ## ontop
 ::github{repo="ontop/ontop"}
 :::note
-最先进的VKG系统Ontop，官网为[https://ontop-vkg.org/](https://ontop-vkg.org/)
+最先进的VKG系统Ontop，官网为[https://ontop-vkg.org/](https://ontop-vkg.org/)，<a href="/docs/Introduction-Ontop.pdf"><i>Ontop 完整文档</i></a>。
 :::
+
 
 ## LLM4VKG
 ::github{repo="HomuraT/LLM4VKG"}
