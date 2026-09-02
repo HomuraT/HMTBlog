@@ -30,8 +30,8 @@ Xiao, G., Xue, H., **Ren, L.**, Geng, Y., Qi, G., Zhang, S., Guo, D., Di Panfilo
 `Virtual Knowledge Graph` `Large Language Models`
 
 **Code as Representation: A Compilable Parsing Paradigm for Academic Documents**<br>
-Jin, R., Wang, J., L. Mingyu, Gao, Y., L. Yunxuan, Dong, K., Qi, G., **Ren, L.**, Chen, Y., et al.<br>
-*ACM International Conference on Multimedia (ACM MM)*<br>
+Jin, R., Wang, J., Liang, M., Gao, Y., Li, Y., Dong, K., Qi, G., **Ren, L.**, Chen, Y., Dai, X., Li, J., Wu, T., and Haffari, G.<br>
+*ACM International Conference on Multimedia (ACM MM 2026)*<br>
 `Document Parsing` `Multimodality` · [论文](https://arxiv.org/abs/2608.17550)
 
 ### 2025
