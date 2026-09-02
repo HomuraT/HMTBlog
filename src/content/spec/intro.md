@@ -82,5 +82,6 @@ Fang, W., Liu, Y., Ouyang, C., **Ren, L.**, Li, J., and Wan, Y.<br>
 
 ## 联系方式
 
+- 邮箱：[renlin@seu.edu.cn](mailto:renlin@seu.edu.cn)
+- Google Scholar：[学术主页](https://scholar.google.com/citations?user=FZ_bjkQAAAAJ&hl=en)
 - GitHub：[HomuraT](https://github.com/HomuraT)
-- 邮箱：`your@email.com`
