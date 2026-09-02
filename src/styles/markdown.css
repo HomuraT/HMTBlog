@@ -1,3 +1,10 @@
+/* 本文件用 @apply 引用了 main.css 中 @layer components 定义的 .link 等自定义类。
+   src/components/misc/ImageWrapper.astro 的 import.meta.glob("../../**") 会把 src/ 下
+   每个 CSS 各自作为独立 PostCSS 入口并发处理，完成顺序不确定；若本文件先于 main.css
+   处理完，Tailwind 尚未注册 .link，构建就会报 "The `link` class does not exist"。
+   显式 @import 让 postcss-import 把 main.css 内联进来，消除这个竞态。 */
+@import "./main.css";
+
 .custom-md {
     h1 {
         @apply text-3xl;
