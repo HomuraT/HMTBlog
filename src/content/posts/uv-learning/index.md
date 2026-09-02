@@ -5,7 +5,7 @@ updated: 2025-11-06
 draft: false
 description: "基于 Rust 的极速 Python 包与项目管理器 UV：安装、环境与包管理、运行、导出/锁定、版本管理、常见问题与最佳实践速查。"
 image: ""
-tags: ["Python", "UV", "包管理", "工具笔记"]
+tags: ["Python", "工具笔记"]
 category: "学习记录"
 lang: "zh-CN"
 prevTitle: ""

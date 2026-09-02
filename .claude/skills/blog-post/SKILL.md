@@ -1,0 +1,264 @@
+---
+name: blog-post
+description: 在本博客(Fuwari/Astro)中新建或编辑文章时使用。涵盖 frontmatter 规范、目录约定、图片路径规则、扩展 Markdown 语法(提示框/GitHub 卡片/剧透/数学公式/视频嵌入)、Expressive Code 代码块标记，以及发布到 blog.homura.work 的流程和常见构建失败排查。
+---
+
+# 写博客文章
+
+本站是 Astro + Fuwari，内容源是 `src/content/posts/` 下的 Markdown。推送到 `main` 后 Cloudflare Pages 自动构建部署到 `blog.homura.work`。
+
+## 快速开始
+
+```bash
+pnpm new-post tech/server/nginx调优   # 建文件并生成 frontmatter，支持多级目录
+pnpm dev                              # 本地预览 http://localhost:4321
+pnpm build                            # 推送前自检，能提前发现 frontmatter 错误
+git add . && git commit -m "post: xxx" && git push origin main
+```
+
+推送后 2-4 分钟自动上线，无需任何手动部署操作。
+
+## 文件放哪
+
+带图片的文章用目录形式，纯文字可以用单个 `.md`：
+
+```
+src/content/posts/
+├── uv-learning/index.md          # 单篇
+├── tech/server/init/index.md     # 按主题分层
+└── seu/20251213_xxx/
+    ├── index.md
+    └── images/                   # 配图跟文章放一起
+```
+
+本站现有的分层习惯：`tech/`（技术）、`study/paper/`（论文资源）、`seu/`（学校事务）、`hmt/`（个人）。**注意目录结构和 URL 无关**，路由只取文件名/目录名末段，分层纯粹是为了整理源文件。
+
+## Frontmatter
+
+schema 定义在 `src/content/config.ts`，用 zod 校验，**写错会直接导致构建失败**（线上保持原样不更新）。
+
+```yaml
+---
+title: 文章标题
+published: 2026-09-02
+description: '一句话摘要，显示在列表页'
+image: ''
+tags: [Linux, 服务器维护]
+category: '技术笔记'
+draft: false
+lang: 'zh-CN'
+---
+```
+
+| 字段 | 必填 | 说明 |
+|---|---|---|
+| `title` | ✅ | 字符串。含冒号时要加引号 |
+| `published` | ✅ | 日期，必须 `2026-09-02` 格式 |
+| `updated` | | 日期，可选 |
+| `description` | | 列表页摘要。留空会自动截取正文开头 |
+| `image` | | 封面图，见下方路径规则 |
+| `tags` | | **必须是数组** `[a, b]` |
+| `category` | | 单个字符串 |
+| `draft` | | `true` 则线上不显示（本地 dev 仍可见） |
+| `lang` | | 留空继承站点默认 `zh_CN` |
+
+## 分类和标签的约定
+
+**职责分工**：`category` 回答「这篇属于哪一块」，`tags` 回答「涉及什么技术」。同一个词不要既当分类又当标签。
+
+现有分类（新文章尽量复用，别造同义词）：`技术笔记`、`学习记录`、`论文或资源整理`、`东南大学`、`HMT`
+
+现有标签，按使用频率：
+
+| 标签 | 说明 |
+|---|---|
+| `Linux`、`服务器维护` | 主力标签，服务器相关的文章基本都挂这两个 |
+| `Docker`、`GitHub`、`Python`、`工具笔记` | 技术向 |
+| `LLM`、`Agent`、`VKG` | 研究向 |
+| `娱乐` | 个人向 |
+
+**新建标签前先问一句：这个标签以后还会有第二篇文章吗？**
+
+会 → 建。不会 → 别建，写进 `description` 里就行，搜索照样能搜到，不用占标签位。只出现一次的标签没有聚合作用，点进去只有一篇文章，等于标题的劣化版。
+
+已经踩过的坑：`服务器配置` 和 `服务器维护` 是同义词，已合并到后者；`UV`、`包管理` 是标题和正文里已有的信息，作为标签属于冗余，已删除。一篇文章 2-3 个标签足够。
+
+## 图片路径的三种写法
+
+`image` 字段和正文里的图片都遵循同一套规则：
+
+1. `http://` / `https://` 开头 → 外链图片
+2. `/` 开头 → 找 `public/` 目录，如 `/images/hmt/xxx.png` 对应 `public/images/hmt/xxx.png`
+3. 都不是 → 相对当前 markdown 文件，如 `./cover.jpg`
+
+正文图片推荐 `![说明](./images/xxx.png)` 放在文章目录里，跟着文章走不会失联。需要控制尺寸时可以直接写 HTML：
+
+```html
+<img src="/images/xxx.png" style="height: 200px; width: auto;">
+```
+
+## 扩展语法
+
+### 提示框
+
+五种类型：`note` `tip` `important` `warning` `caution`
+
+```markdown
+:::note
+需要读者留意的信息。
+:::
+
+:::warning[自定义标题]
+标题可以自己写。
+:::
+```
+
+GitHub 风格也支持，会自动转换：
+
+```markdown
+> [!TIP]
+> 这样写也行。
+```
+
+### GitHub 仓库卡片
+
+页面加载时实时拉取 GitHub API 显示仓库信息：
+
+```markdown
+::github{repo="HomuraT/HMTBlog"}
+```
+
+### 剧透（默认打码，鼠标悬停显示）
+
+```markdown
+结局是 :spoiler[主角其实早就死了]。
+```
+
+### 数学公式
+
+KaTeX 已启用，行内 `$E = mc^2$`，块级：
+
+```markdown
+$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+```
+
+### 视频嵌入
+
+直接粘贴平台的 iframe 代码：
+
+```html
+<!-- YouTube -->
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+
+<!-- Bilibili -->
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&p=1" scrolling="no" border="0" frameborder="no" allowfullscreen="true"></iframe>
+```
+
+## 代码块（Expressive Code）
+
+基础三要素——语言、标题、行号：
+
+````markdown
+```js title="server.js" showLineNumbers
+console.log('hello')
+```
+````
+
+**默认行为**（配置在 `astro.config.mjs`）：自动换行开启；`shellsession` 语言不显示行号。
+
+### 高亮标记
+
+````markdown
+```js {1, 4, 7-8}          # 按行号高亮
+```js del={2} ins={3-4}    # 标红删除 / 标绿新增
+```js "某段文字"            # 高亮行内指定文字
+```js /ye[sp]/             # 正则匹配高亮
+```js ins="新增" del="删除"  # 指定行内文字的标记类型
+```
+````
+
+带说明标签的高亮：
+
+````markdown
+```js {"这里填值:":5-6} ins={"然后加上这段:":10-12}
+```
+````
+
+### diff
+
+````markdown
+```diff lang="js"
+  function foo() {
+-   console.log('旧代码')
++   console.log('新代码')
+  }
+```
+````
+
+用 `diff lang="js"` 可以同时保留 JS 语法高亮和 diff 标记。
+
+### 折叠长代码
+
+````markdown
+```js collapse={1-5, 12-14}
+```
+````
+
+把样板代码折起来，读者点击展开。
+
+### 框体类型
+
+````markdown
+```bash                    # 自动渲染成终端窗口
+```js title="a.js"         # 有 title 渲染成编辑器标签
+```sh frame="none"         # 去掉框体
+```ps frame="code"         # 强制用编辑器框而非终端框
+```
+````
+
+### 换行控制
+
+````markdown
+```js wrap=false           # 关闭自动换行，改为横向滚动
+```js wrap preserveIndent=false
+```
+````
+
+## 发布流程
+
+1. 写完本地 `pnpm dev` 看效果
+2. **`pnpm build` 自检**（重要，能挡掉 90% 的构建失败）
+3. `git push origin main`
+4. Cloudflare Pages 自动构建，2-4 分钟上线
+
+推非 `main` 分支会生成独立预览 URL，不影响线上。部署列表里任何历史版本都能一键回滚。
+
+## 构建失败排查
+
+按出现频率排序：
+
+| 症状 | 原因 |
+|---|---|
+| zod 校验报错 | `published` 日期格式不对，或写成了 `2026/09/02` |
+| zod 校验报错 | `tags` 写成了 `tags: linux` 而不是 `tags: [linux]` |
+| YAML 解析报错 | `title` 里有冒号但没加引号 |
+| 构建成功但图片 404 | 混淆了 `/` 开头（public）和 `./` 开头（相对文件）两种路径 |
+| 搜索框搜不到东西 | 构建命令漏了 pagefind，必须跑 `pnpm build` 而不是 `astro build` |
+
+Cloudflare 构建失败时线上保持原样，不会挂掉。日志在 Pages 项目的部署列表里。
+
+## 活参考
+
+模板文章都设成了 `draft: true`——线上不显示，但 `pnpm dev` 本地照常能看（`src/utils/content-utils.ts:9` 只在 PROD 下过滤草稿）。想看某个语法的实际渲染效果，本地起 dev 打开对应文章：
+
+| 文件 | 内容 |
+|---|---|
+| `src/content/posts/markdown-extended.md` | 提示框、GitHub 卡片、剧透 |
+| `src/content/posts/expressive-code.md` | 代码块全部特性的实例 |
+| `src/content/posts/markdown.md` | 基础 Markdown 语法 |
+| `src/content/posts/video.md` | 视频嵌入 |
+| `src/content/posts/guide/index.md` | Fuwari 官方说明 |
+
+需要恢复某篇到线上，把 `draft` 改回 `false` 即可。
