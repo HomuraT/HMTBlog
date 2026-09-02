@@ -20,12 +20,12 @@ Dai, X., Xin, Z., Hu, H., **Ren, L.**, Jin, R., Xiao, G., Qi, G., Dong, K., Du, 
 `Large Reasoning Models` `Preference Optimization` · [论文](https://arxiv.org/abs/2607.19962)
 
 **NaVQA: Mitigating Silent Failures in Question Answering over Virtual Knowledge Graph**<br>
-Xiao, G., Xue, H., **Ren, L.**, Geng, Y., Qi, G., Zhang, S., Guo, D., Di Panfilo, M., et al.<br>
+Xiao, G., Xue, H., **Ren, L.**, Geng, Y., Qi, G., Zhang, S., Guo, D., Di Panfilo, M., Lanti, D., and Ding, L.<br>
 *Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI-26)*<br>
 `Virtual Knowledge Graph` `Question Answering`
 
 **Information-Needs-Guided Virtual Knowledge Graph Enrichment via Large Language Models**<br>
-**Ren, L.**, Xiao, G., Qi, G., Du, W., Geng, Y., Xue, H., Yue, Z., Li, M., Di Panfilo, M., et al.<br>
+**Ren, L.**, Xiao, G., Qi, G., Du, W., Geng, Y., Xue, H., Yue, Z., Li, M., Di Panfilo, M., Lanti, D., Hamaz, K., and Ding, L.<br>
 *Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI-26)*<br>
 `Virtual Knowledge Graph` `Large Language Models`
 
