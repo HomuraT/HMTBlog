@@ -45,6 +45,10 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
+			name: "个人简介",
+			url: "/intro/", // 内部链接不要带 base path，会自动加上
+		},
+		{
 			name: "GitHub",
 			url: "https://github.com/HomuraT", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab

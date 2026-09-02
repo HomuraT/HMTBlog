@@ -1,6 +1,6 @@
 ---
 name: blog-post
-description: 在本博客(Fuwari/Astro)中新建或编辑文章时使用。涵盖 frontmatter 规范、目录约定、图片路径规则、扩展 Markdown 语法(提示框/GitHub 卡片/剧透/数学公式/视频嵌入)、Expressive Code 代码块标记，以及发布到 blog.homura.work 的流程和常见构建失败排查。
+description: 在本博客(Fuwari/Astro)中新建或编辑文章、或新增独立页面与导航栏条目时使用。涵盖 frontmatter 规范、目录约定、分类标签约定、图片路径规则、扩展 Markdown 语法(提示框/GitHub 卡片/剧透/数学公式/视频嵌入)、Expressive Code 代码块标记、独立页面与导航栏的添加方式，以及发布到 blog.homura.work 的流程和常见构建失败排查。
 ---
 
 # 写博客文章
@@ -225,6 +225,46 @@ console.log('hello')
 ```js wrap preserveIndent=false
 ```
 ````
+
+## 新增独立页面（非文章）
+
+「关于」「个人简介」这类不属于博客文章的页面，走 `spec` collection。**不要放进 `src/content/posts/`**——会混进文章列表、归档和 RSS。
+
+要求「加一个页面」时，默认理解成**导航栏多一个入口 + 一个独立页面**，不是在首页塞一个区块。
+
+三步：
+
+1. **内容** —— `src/content/spec/<name>.md`，不需要 frontmatter
+2. **页面** —— `src/pages/<name>.astro`，照抄 `about.astro` 或 `intro.astro` 的结构
+3. **导航栏** —— `src/config.ts` 的 `navBarConfig.links` 加一条：
+
+```ts
+{
+    name: "个人简介",
+    url: "/intro/",   // 内部链接不要带 base path，会自动加上
+},
+```
+
+`LinkPreset` 枚举只是内置几个页面的快捷方式。自定义页面直接写 `{ name, url }` 即可，**不用改枚举，也不用加 i18n key**。数组顺序就是导航栏显示顺序。
+
+### 什么时候该用 `Markdown.astro` 组件
+
+`src/components/misc/Markdown.astro` 第 10 行写死了 `data-pagefind-body`——**用了它，该页面就会被加进搜索索引**。
+
+| 场景 | 用不用 |
+|---|---|
+| 独立内容页（关于、个人简介） | ✅ 用，它们本来就该能被搜到 |
+| 首页、列表页等导航性页面 | ❌ 别用，否则搜任何词都多出一条指向首页的冗余结果 |
+
+后者若仍需渲染 markdown，直接套一样的样式类，绕开这个标记：
+
+```
+class="prose dark:prose-invert prose-base !max-w-none custom-md"
+```
+
+注意 `data-pagefind-ignore` 加在外层**没用**——只要子树里存在 `data-pagefind-body`，页面依然会被索引，只是内容为空，反而产生一条空摘要的结果。
+
+自检方法：`pnpm build` 后看 `Indexed N pages`，N 应等于「已发布文章数 + 独立内容页数」。莫名多一页，基本就是这里。
 
 ## 发布流程
 
