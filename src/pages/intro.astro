@@ -12,7 +12,7 @@ if (!introPost) {
 const { Content } = await render(introPost);
 ---
 <MainGridLayout title="个人简介" description="个人简介">
-    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+    <div id="intro-root" class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">
                 <Content />
@@ -20,3 +20,499 @@ const { Content } = await render(introPost);
         </div>
     </div>
 </MainGridLayout>
+
+<!-- 内容来自 <Content />（另一个组件的 slot），拿不到 Astro 的 scoped 属性，
+     所以这里必须用 is:global，靠 #intro-root 前缀限制作用范围。 -->
+<style is:global>
+/* ============================================================ 滚动渐入 ==== */
+/* .fx 由脚本添加：没有 JS 时下面这些初始隐藏状态不会生效，内容照常可见 */
+#intro-root.fx .fx-reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+        opacity .55s cubic-bezier(.22, 1, .36, 1),
+        transform .55s cubic-bezier(.22, 1, .36, 1);
+}
+#intro-root.fx .fx-reveal.is-in {
+    opacity: 1;
+    transform: none;
+}
+
+/* ================================================================ 标题 ==== */
+/* 用 -webkit-text-fill-color 而不是 color: transparent，
+   这样 currentColor 仍然是主题的正文色，明暗模式都能跟着走 */
+#intro-root .fx-name {
+    background-image: linear-gradient(100deg,
+        currentColor 0%, currentColor 42%,
+        var(--primary) 50%,
+        currentColor 58%, currentColor 100%);
+    background-size: 220% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fx-name-sweep 1.5s cubic-bezier(.22, 1, .36, 1) .3s both;
+}
+#intro-root .fx-name .anchor {
+    -webkit-text-fill-color: var(--primary);
+}
+@keyframes fx-name-sweep {
+    from { background-position: 100% 0; }
+    to   { background-position: 0 0; }
+}
+
+/* 标题下方自绘的渐变横线 */
+#intro-root .fx-rule {
+    height: 2px;
+    margin: -.35rem 0 1.4rem;
+    border-radius: 2px;
+    background: linear-gradient(to right, var(--primary), transparent 70%);
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform .9s cubic-bezier(.22, 1, .36, 1) .35s;
+}
+#intro-root.fx .fx-rule.is-in { transform: scaleX(1); }
+
+/* ======================================================== 研究兴趣胶囊 ==== */
+#intro-root .fx-chips {
+    list-style: none;
+    padding: 0;
+    margin: .7rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+#intro-root .fx-chip {
+    margin: 0;
+    padding: .35rem .9rem;
+    border-radius: 9999px;
+    background: var(--btn-regular-bg);
+    color: var(--btn-content);
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.45;
+    cursor: default;
+}
+#intro-root.fx .fx-chip {
+    /* 覆盖 .fx-reveal 的默认位移，胶囊用带缩放的弹入 */
+    transform: translateY(10px) scale(.94);
+}
+#intro-root.fx .fx-chip.is-in { transform: none; }
+#intro-root .fx-chip:hover {
+    transform: translateY(-3px);
+    background: var(--btn-regular-bg-hover);
+    box-shadow: 0 8px 18px -8px var(--primary);
+}
+
+/* ============================================================ 教育时间线 == */
+#intro-root .fx-timeline {
+    position: relative;
+    padding-left: 1.7rem;
+}
+#intro-root .fx-timeline::before {
+    content: "";
+    position: absolute;
+    left: calc(.35rem - 1px);
+    top: .7rem;
+    bottom: .9rem;
+    width: 2px;
+    border-radius: 2px;
+    background: linear-gradient(to bottom, var(--primary), transparent);
+    opacity: .5;
+}
+#intro-root .fx-edu { position: relative; }
+#intro-root .fx-edu::before {
+    content: "";
+    position: absolute;
+    left: -1.7rem;
+    top: .55rem;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 9999px;
+    background: var(--card-bg);
+    border: 2px solid var(--primary);
+    transition: transform .3s cubic-bezier(.22, 1, .36, 1), box-shadow .3s;
+}
+#intro-root .fx-edu:hover::before {
+    transform: scale(1.4);
+    box-shadow: 0 0 0 5px var(--link-underline);
+}
+
+/* ============================================================== 论文条目 == */
+#intro-root .fx-year {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    letter-spacing: .05em;
+}
+#intro-root .fx-year::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    background: linear-gradient(to right, var(--line-divider), transparent);
+}
+
+#intro-root .fx-pub {
+    position: relative;
+    margin: 0 0 .3rem;
+    padding: .7rem .9rem .7rem 1rem;
+    border-radius: var(--radius-large);
+    transition:
+        background .3s ease,
+        transform .3s cubic-bezier(.22, 1, .36, 1),
+        opacity .55s cubic-bezier(.22, 1, .36, 1);
+}
+#intro-root .fx-pub::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: .7rem;
+    bottom: .7rem;
+    width: 3px;
+    border-radius: 3px;
+    background: var(--primary);
+    transform: scaleY(0);
+    transition: transform .35s cubic-bezier(.22, 1, .36, 1);
+}
+#intro-root .fx-pub:hover {
+    background: var(--btn-plain-bg-hover);
+    transform: translateX(5px);
+}
+#intro-root .fx-pub:hover::before { transform: scaleY(1); }
+
+/* 关键词 `code` 改成描边小标签，鼠标移到条目上才填色 */
+#intro-root .fx-pub code {
+    background: transparent;
+    border: 1px solid var(--line-color);
+    color: var(--btn-content);
+    font-family: inherit;
+    font-size: .75rem;
+    padding: .12rem .6rem;
+    border-radius: 9999px;
+    white-space: nowrap;
+    transition: background .3s, border-color .3s;
+}
+#intro-root .fx-pub:hover code {
+    border-color: transparent;
+    background: var(--btn-regular-bg);
+}
+
+/* ============================================================== 联系方式 == */
+#intro-root .fx-contact {
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+    margin: .7rem 0 0;
+}
+#intro-root .fx-crow {
+    display: flex;
+    align-items: baseline;
+    gap: .8rem;
+    padding: .32rem .7rem;
+    border-radius: .6rem;
+    transition: background .25s ease, transform .25s cubic-bezier(.22, 1, .36, 1),
+        opacity .55s cubic-bezier(.22, 1, .36, 1);
+}
+#intro-root .fx-crow:hover {
+    background: var(--btn-plain-bg-hover);
+    transform: translateX(4px);
+}
+
+/* 整行就是那个 <a>。带 .no-styling 是为了让 markdown.css 里的
+   `a:not(.no-styling)` 规则放行，但 prose 自己的 a 样式还得在这里压掉。 */
+#intro-root a.fx-crow {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+#intro-root a.fx-crow:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+#intro-root .fx-crow-plain { cursor: default; }
+
+/* 原本的 <a> 降级成 <span>，样式照抄 markdown.css 的链接外观 */
+#intro-root .fx-clink {
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: underline dashed var(--link-underline);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    transition: text-decoration-color .25s ease;
+}
+#intro-root .fx-crow:hover .fx-clink {
+    text-decoration-color: transparent;
+}
+
+#intro-root .fx-ckey {
+    flex: 0 0 auto;
+    min-width: 9rem;
+    font-size: .78rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--btn-content);
+    opacity: .85;
+}
+@media (max-width: 640px) {
+    #intro-root .fx-crow {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .1rem;
+    }
+    #intro-root .fx-ckey { min-width: 0; }
+}
+
+/* ========================================================== 无障碍降级 ==== */
+@media (prefers-reduced-motion: reduce) {
+    #intro-root.fx .fx-reveal,
+    #intro-root.fx .fx-chip,
+    #intro-root.fx .fx-rule {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    #intro-root .fx-name {
+        animation: none !important;
+        -webkit-text-fill-color: currentColor !important;
+    }
+}
+</style>
+
+<script>
+// Swup 只替换 <main>，本脚本作为 ES module 只会执行一次，
+// 所以必须挂到 page:view 上，跳转回来时对新 DOM 重新初始化。
+// 参见 src/layouts/Layout.astro:451 的同款写法。
+let observer: IntersectionObserver | null = null;
+
+function stagger(items: Element[], step = 45): void {
+    items.forEach((el, i) => {
+        (el as HTMLElement).style.transitionDelay = `${i * step}ms`;
+    });
+}
+
+function reveal(el: Element): void {
+    el.classList.add("fx-reveal");
+    observer?.observe(el);
+}
+
+/**
+ * 离站的链接一律开新标签页，别顶掉当前页面。
+ * 必须在 buildContactRows 之前跑：那边是靠拷贝行内 <a> 的属性来生成整行的
+ * <a>，属性先加好，target/rel 才会一起被带上去。
+ * 顺带一个好处：swup 会跳过带 target 的链接，CV 那个 PDF 不会再被
+ * 当成站内页面去做转场。
+ */
+function openExternalInNewTab(md: Element): void {
+    for (const a of md.querySelectorAll("a[href]")) {
+        const href = a.getAttribute("href") ?? "";
+
+        // mailto: / tel: 交给系统处理，开空白标签页没意义
+        if (/^[a-z][a-z0-9+.-]*:/i.test(href) && !/^https?:/i.test(href)) continue;
+        // 页内锚点（含标题旁边的 # 链接）
+        if (href.startsWith("#")) continue;
+
+        let target: URL;
+        try {
+            target = new URL(href, location.href);
+        } catch {
+            continue;
+        }
+
+        const isExternal = target.origin !== location.origin;
+        // 站内的附件（CV 的 PDF）也开新标签，站内页面则保留 swup 转场
+        const isAsset = /\.(pdf|zip|png|jpe?g|gif|svg|webp)$/i.test(target.pathname);
+        if (!isExternal && !isAsset) continue;
+
+        a.setAttribute("target", "_blank");
+        a.setAttribute("rel", "noopener noreferrer");
+    }
+}
+
+/** 把 Contact 那一段 <strong>标签</strong>　值<br> 拆成可独立悬停的行 */
+function buildContactRows(section: Element): void {
+    const p = section.querySelector(":scope > p");
+    if (!p) return;
+
+    const wrap = document.createElement("div");
+    wrap.className = "fx-contact";
+
+    for (const raw of p.innerHTML.split(/<br\s*\/?>/i)) {
+        const m = raw.match(/^\s*<strong>([\s\S]*?)<\/strong>([\s\S]*)$/i);
+        if (!m) continue;
+
+        const val = document.createElement("span");
+        val.className = "fx-cval";
+        // 内容来自本仓库的 markdown，不是用户输入
+        val.innerHTML = m[2].replace(/^[\s　]+/, "");
+
+        // 整行可点：把行本身做成 <a>，行内原来的 <a> 降级成 <span>。
+        // 不能直接嵌套 <a>（非法 HTML，浏览器会拆开）。这样做的好处是
+        // 中键新标签页、右键复制链接、Tab 聚焦、状态栏预览全都还在。
+        const inner = val.querySelector("a");
+        let row: HTMLElement;
+
+        if (inner) {
+            const anchor = document.createElement("a");
+            for (const attr of Array.from(inner.attributes)) {
+                if (attr.name !== "class") anchor.setAttribute(attr.name, attr.value);
+            }
+            anchor.className = "fx-crow no-styling";
+
+            const text = document.createElement("span");
+            text.className = "fx-clink";
+            text.append(...Array.from(inner.childNodes));
+            inner.replaceWith(text);
+
+            row = anchor;
+        } else {
+            row = document.createElement("div");
+            row.className = "fx-crow fx-crow-plain";
+        }
+
+        const key = document.createElement("span");
+        key.className = "fx-ckey";
+        key.textContent = m[1].trim();
+
+        row.append(key, val);
+        wrap.appendChild(row);
+    }
+
+    if (!wrap.children.length) return;
+    p.replaceWith(wrap);
+
+    const rows = Array.from(wrap.children);
+    stagger(rows, 55);
+    for (const row of rows) reveal(row);
+}
+
+function enhance(md: HTMLElement): void {
+    openExternalInNewTab(md);
+
+    const hero = md.querySelector(":scope > section");
+    if (!hero) return;
+
+    // 姓名 + 自绘横线
+    const h1 = hero.querySelector(":scope > h1");
+    if (h1) {
+        h1.classList.add("fx-name");
+        const rule = document.createElement("div");
+        rule.className = "fx-rule";
+        h1.after(rule);
+        observer?.observe(rule);
+    }
+
+    // 开头三段简介
+    for (const p of hero.querySelectorAll(":scope > p")) reveal(p);
+
+    for (const section of hero.querySelectorAll<HTMLElement>(":scope > section")) {
+        const id = section.querySelector(":scope > h2")?.id ?? "";
+
+        const heading = section.querySelector(":scope > h2");
+        if (heading) reveal(heading);
+
+        if (id === "contact") {
+            buildContactRows(section);
+            continue;
+        }
+
+        if (id === "research-interests") {
+            const ul = section.querySelector(":scope > ul");
+            if (!ul) continue;
+            ul.classList.add("fx-chips");
+            const chips = Array.from(ul.children);
+            stagger(chips, 60);
+            for (const li of chips) {
+                li.classList.add("fx-chip");
+                reveal(li);
+            }
+            continue;
+        }
+
+        if (id === "education") {
+            section.classList.add("fx-timeline");
+            const entries = Array.from(section.querySelectorAll(":scope > p"));
+            stagger(entries, 90);
+            for (const p of entries) {
+                p.classList.add("fx-edu");
+                reveal(p);
+            }
+            continue;
+        }
+
+        if (id === "publications") {
+            // 「My name is in bold...」那段说明
+            for (const p of section.querySelectorAll(":scope > p")) reveal(p);
+
+            for (const year of section.querySelectorAll(":scope > section")) {
+                const h3 = year.querySelector(":scope > h3");
+                if (h3) {
+                    h3.classList.add("fx-year");
+                    reveal(h3);
+                }
+                const pubs = Array.from(year.querySelectorAll(":scope > p"));
+                stagger(pubs, 70);
+                for (const p of pubs) {
+                    p.classList.add("fx-pub");
+                    reveal(p);
+                }
+            }
+            continue;
+        }
+
+        reveal(section);
+    }
+}
+
+function init(): void {
+    const root = document.getElementById("intro-root");
+    if (!root) return;
+
+    const md = root.querySelector<HTMLElement>(".custom-md");
+    if (!md) return;
+
+    observer?.disconnect();
+    observer = new IntersectionObserver(
+        entries => {
+            for (const e of entries) {
+                if (!e.isIntersecting) continue;
+                e.target.classList.add("is-in");
+                observer?.unobserve(e.target);
+            }
+        },
+        { rootMargin: "0px 0px -6% 0px", threshold: 0.05 },
+    );
+
+    // .fx 一加上，.fx-reveal 就变成 opacity:0，后面必须有人把它们点亮，
+    // 所以整段包 try/catch：万一抛异常就把 .fx 摘掉，让内容原样显示。
+    root.classList.add("fx");
+    try {
+        if (md.dataset.fx === "done") {
+            // swup 缓存有可能把已增强的 DOM 原样存下来再还原回来，
+            // 这时结构都在，只需要重新接管观察。
+            for (const el of md.querySelectorAll(".fx-reveal, .fx-rule")) {
+                if (!el.classList.contains("is-in")) observer.observe(el);
+            }
+        } else {
+            md.dataset.fx = "done";
+            enhance(md);
+        }
+    } catch (err) {
+        console.error("[intro] 特效初始化失败，已回退到无特效显示", err);
+        root.classList.remove("fx");
+        observer.disconnect();
+        observer = null;
+    }
+}
+
+const setup = (): void => {
+    init();
+    window.swup.hooks.on("page:view", init);
+};
+
+if (window?.swup?.hooks) {
+    setup();
+} else {
+    document.addEventListener("swup:enable", setup);
+}
+</script>
