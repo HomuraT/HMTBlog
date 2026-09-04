@@ -9,6 +9,10 @@ draft: false
 lang: ''
 ---
 
+:::note
+没接触过 VKG 的话，先看[虚拟知识图谱（VKG）入门](/posts/study/vkg/)，再回来按这份清单读论文。
+:::
+
 # VKG 基础
 
 - [2024] Xiao, G. (2024). <a href="/papers/vkg/Xiao - Introduction to Virtual Knowledge Graphs.pdf"><i>1. Introduction to Virtual Knowledge Graphs</i></a>. University of Bergen, Norway.

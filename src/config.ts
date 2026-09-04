@@ -64,7 +64,7 @@ export const navBarConfig: NavBarConfig = {
 /**
  * 引导主页（"/"）的内容。文章列表已经移到 "/blog/"。
  *
- * links 里写 slug 就够了 —— 标题从文章 frontmatter 里读，不用在这儿重复维护。
+ * links 里写 slug 就够了，标题从文章 frontmatter 里读，不用在这儿重复维护。
  * slug 就是 src/content/posts 下去掉后缀的路径，
  * 例如 src/content/posts/tech/server/init/index.md -> "tech/server/init"。
  * 写错的 slug 会在构建时直接报错，不会悄悄变成死链。
@@ -95,7 +95,8 @@ export const homeConfig: HomeConfig = {
 		{
 			title: "知识表示与虚拟知识图谱",
 			icon: "material-symbols:schema-outline-rounded",
-			links: [{ slug: "study/paper/vkg" }],
+			// 入门文章排在文献清单前面，新人按这个顺序看
+			links: [{ slug: "study/vkg" }, { slug: "study/paper/vkg" }],
 		},
 		{
 			title: "服务器与运维",
