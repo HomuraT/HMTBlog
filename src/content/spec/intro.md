@@ -32,15 +32,13 @@ advisors Prof. [Guohui Xiao](https://scholar.google.com/citations?user=hbek3dcAA
 
 **June 2024, Master of Electronic Information**<br>
 University of South China, Hengyang, Hunan, China<br>
-School of Computer Science<br>
+School of Computer Science and Technology<br>
 advisors Prof. [Yongbin Liu](https://scholar.google.com/citations?user=9sXgL3MAAAAJ) and Prof. [Chunping Ouyang](https://scholar.google.com/citations?user=JVw3XD0AAAAJ)<br>
 thesis "Research on Debiasing Knowledge Graphs based on Causal Inference" (in Chinese)
 
-<!-- 待确认：南华大学院系英文全称（暂用 School of Computer Science，Yongbin Liu 老师 Scholar 上写的是 School of Computer） -->
-
 **June 2021, Bachelor of Engineering in Software Engineering**<br>
 University of South China, Hengyang, Hunan, China<br>
-School of Computer Science<br>
+School of Computer Science and Technology<br>
 thesis "Causal Relation Extraction from Financial Text" (in Chinese)
 
 ## Publications
