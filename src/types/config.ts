@@ -60,6 +60,44 @@ export type NavBarConfig = {
 	links: (NavBarLink | LinkPreset)[];
 };
 
+/** 首页导航卡片里的一项：要么指向站内笔记（slug），要么是任意 url */
+export type HomeLink = {
+	/** posts 集合里的 slug，如 "tech/server/init"。标题/摘要/日期自动取自 frontmatter */
+	slug?: string;
+	/** 任意链接。给了 url 就必须自己写 title */
+	url?: string;
+	/** 覆盖自动取到的标题；url 形式时必填 */
+	title?: string;
+	/** 覆盖自动取到的摘要 */
+	description?: string;
+	/** 外链会开新标签页并显示斜箭头。不填时按 url 是否 http(s) 开头自动判断 */
+	external?: boolean;
+};
+
+export type HomeSection = {
+	title: string;
+	description?: string;
+	/** astro-icon 图标名，见 https://icones.js.org/ */
+	icon: string;
+	links: HomeLink[];
+};
+
+export type HomeConfig = {
+	title: string;
+	subtitle?: string;
+	description?: string;
+	/** 顶部那排快捷按钮 */
+	actions: {
+		name: string;
+		url: string;
+		icon: string;
+		external?: boolean;
+	}[];
+	sections: HomeSection[];
+	/** 底部「最新文章」列几篇，0 表示不显示这一块 */
+	recentPostCount: number;
+};
+
 export type ProfileConfig = {
 	avatar?: string;
 	name: string;

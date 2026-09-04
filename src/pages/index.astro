@@ -1,0 +1,186 @@
+---
+import { getCollection } from "astro:content";
+import GuideCard from "@components/home/GuideCard.astro";
+import { Icon } from "astro-icon/components";
+import { homeConfig } from "../config";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+import type { HomeLink } from "../types/config";
+import { getSortedPostsList } from "../utils/content-utils";
+import { formatDateToYYYYMMDD } from "../utils/date-utils";
+import { getPostUrlBySlug, url } from "../utils/url-utils";
+
+// 用不过滤草稿的全集来解析 slug，这样写错的 slug 和「指向了草稿」这两种情况
+// 能报出不一样的信息，而不是笼统地说「找不到」。
+const allPosts = await getCollection("posts");
+const bySlug = new Map(allPosts.map((p) => [p.slug, p]));
+
+interface ResolvedLink {
+	href: string;
+	title: string;
+	description?: string;
+	meta?: string;
+	external: boolean;
+}
+
+function resolveLink(link: HomeLink): ResolvedLink {
+	if (link.slug) {
+		const entry = bySlug.get(link.slug);
+		if (!entry) {
+			throw new Error(
+				`homeConfig: 找不到 slug 为 "${link.slug}" 的文章。当前可用的 slug：\n  ${[...bySlug.keys()].sort().join("\n  ")}`,
+			);
+		}
+		if (import.meta.env.PROD && entry.data.draft) {
+			throw new Error(
+				`homeConfig: "${link.slug}" 是草稿（draft: true），生产构建不会生成它的页面，首页链上去就是死链。` +
+					"要么把它发布，要么先从 homeConfig.sections 里去掉。",
+			);
+		}
+
+		const category = entry.data.category?.trim();
+		return {
+			href: getPostUrlBySlug(entry.slug),
+			title: link.title ?? entry.data.title,
+			description: link.description ?? entry.data.description ?? "",
+			meta: [formatDateToYYYYMMDD(entry.data.published), category || undefined]
+				.filter(Boolean)
+				.join("  ·  "),
+			external: false,
+		};
+	}
+
+	if (!link.url || !link.title) {
+		throw new Error(
+			`homeConfig: 每一项要么给 slug，要么同时给 url 和 title。有问题的一项：${JSON.stringify(link)}`,
+		);
+	}
+
+	const isExternal = link.external ?? /^https?:\/\//i.test(link.url);
+	return {
+		href: isExternal ? link.url : url(link.url),
+		title: link.title,
+		description: link.description,
+		external: isExternal,
+	};
+}
+
+const sections = homeConfig.sections.map((section) => ({
+	...section,
+	resolved: section.links.map(resolveLink),
+}));
+
+const recentPosts = homeConfig.recentPostCount
+	? (await getSortedPostsList()).slice(0, homeConfig.recentPostCount)
+	: [];
+
+// onload 动画的出场顺序：hero -> 各个板块 -> 最新文章
+const delay = (i: number) =>
+	`animation-delay: calc(var(--content-delay) + ${i * 75}ms)`;
+---
+
+<MainGridLayout title={homeConfig.title} description={homeConfig.description}>
+    <!-- 顶部：站点介绍 + 快捷入口 -->
+    <div class="card-base px-6 md:px-9 py-8 md:py-9 mb-4 onload-animation" style={delay(0)}>
+        <h1 class="text-3xl md:text-4xl font-bold text-90 mb-2">{homeConfig.title}</h1>
+        {homeConfig.subtitle &&
+            <p class="text-lg text-75 mb-3">{homeConfig.subtitle}</p>}
+        {homeConfig.description &&
+            <p class="text-sm text-50 leading-relaxed max-w-2xl">{homeConfig.description}</p>}
+
+        <div class="flex flex-wrap gap-2 mt-7">
+            {homeConfig.actions.map(action => (
+                <a href={action.external ? action.url : url(action.url)}
+                   target={action.external ? "_blank" : null}
+                   rel={action.external ? "noopener noreferrer" : null}
+                   aria-label={action.name}
+                   class="btn-regular h-10 rounded-lg px-4 gap-2 text-sm font-medium active:scale-95"
+                >
+                    <Icon name={action.icon} class="text-[1.15rem]"></Icon>
+                    {action.name}
+                </a>
+            ))}
+        </div>
+    </div>
+
+    <!-- 中间：按主题分组的笔记入口 -->
+    {sections.map((section, i) => (
+        <div class="card-base px-6 md:px-9 py-6 mb-4 onload-animation" style={delay(i + 1)}>
+            <div class="flex items-center gap-3">
+                <div class="meta-icon !w-9 !h-9 !mr-0 shrink-0">
+                    <Icon name={section.icon} class="text-[1.25rem]"></Icon>
+                </div>
+                <h2 class="text-xl font-bold text-90">{section.title}</h2>
+            </div>
+            {section.description &&
+                <p class="text-sm text-50 mt-2 md:ml-12">{section.description}</p>}
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-2 gap-y-1 mt-4">
+                {section.resolved.map(link => (
+                    <GuideCard
+                        href={link.href}
+                        title={link.title}
+                        description={link.description}
+                        meta={link.meta}
+                        external={link.external}
+                    ></GuideCard>
+                ))}
+            </div>
+        </div>
+    ))}
+
+    <!-- 底部：最新文章 -->
+    {recentPosts.length > 0 && (
+        <div class="card-base px-6 md:px-9 py-6 mb-4 onload-animation" style={delay(sections.length + 1)}>
+            <div class="flex items-center justify-between gap-3 flex-wrap">
+                <div class="flex items-center gap-3">
+                    <div class="meta-icon !w-9 !h-9 !mr-0 shrink-0">
+                        <Icon name="material-symbols:article-outline-rounded" class="text-[1.25rem]"></Icon>
+                    </div>
+                    <h2 class="text-xl font-bold text-90">最新文章</h2>
+                </div>
+                <a href={url("/blog/")} aria-label="查看全部文章"
+                   class="btn-plain rounded-lg h-9 px-3 gap-1 text-sm font-medium active:scale-95"
+                >
+                    查看全部
+                    <Icon name="material-symbols:arrow-right-alt-rounded" class="text-[1.15rem]"></Icon>
+                </a>
+            </div>
+
+            <div class="flex flex-col mt-3">
+                {recentPosts.map(post => (
+                    <a href={getPostUrlBySlug(post.slug)}
+                       class="recent-row group flex items-baseline gap-3 rounded-xl px-4 py-2.5 transition
+                              hover:bg-[var(--btn-plain-bg-hover)] active:bg-[var(--btn-plain-bg-active)]"
+                    >
+                        <span class="flex-1 min-w-0 truncate font-medium text-90 transition group-hover:text-[var(--primary)]">
+                            {post.data.title}
+                        </span>
+                        <span class="shrink-0 text-sm text-30">{formatDateToYYYYMMDD(post.data.published)}</span>
+                    </a>
+                ))}
+            </div>
+        </div>
+    )}
+</MainGridLayout>
+
+<style>
+/* 和 GuideCard 一样的左侧竖条，让两块的悬停手感一致 */
+.recent-row {
+    position: relative;
+}
+.recent-row::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: .5rem;
+    bottom: .5rem;
+    width: 3px;
+    border-radius: 3px;
+    background: var(--primary);
+    transform: scaleY(0);
+    transition: transform .3s cubic-bezier(.22, 1, .36, 1);
+}
+.recent-row:hover::before {
+    transform: scaleY(1);
+}
+</style>
