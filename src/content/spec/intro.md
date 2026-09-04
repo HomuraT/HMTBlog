@@ -12,6 +12,7 @@ Earlier work, carried out during the bachelor's and master's studies, applied ca
 **E-mail**　[renlin@seu.edu.cn](mailto:renlin@seu.edu.cn)<br>
 **Google Scholar**　[Citations](https://scholar.google.com/citations?user=FZ_bjkQAAAAJ&hl=en)<br>
 **GitHub**　[HomuraT](https://github.com/HomuraT)<br>
+**CSDN**　[Blog](https://blog.csdn.net/qq_42464569)<br>
 **Address**　School of Computer Science and Engineering, Southeast University, Nanjing, China
 
 ## Research Interests
