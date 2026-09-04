@@ -1,0 +1,231 @@
+% Curriculum Vitae of Lin Ren
+% Compile with XeLaTeX:  latexmk -xelatex cv.tex
+% or simply:             make
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.9in,top=0.8in,bottom=0.8in]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+% ---------------------------------------------------------------- fonts ----
+% Fonts are loaded by file name rather than family name: both TeX Gyre and
+% Fandol ship with TeX Live, so this compiles anywhere a TeX Live install
+% exists, without depending on fontconfig or system-installed fonts.
+\setmainfont{texgyrepagella-regular.otf}[
+  BoldFont       = texgyrepagella-bold.otf,
+  ItalicFont     = texgyrepagella-italic.otf,
+  BoldItalicFont = texgyrepagella-bolditalic.otf,
+]
+\setCJKmainfont{FandolSong-Regular.otf}[BoldFont=FandolSong-Bold.otf]
+
+% ---------------------------------------------------------------- colors ---
+\definecolor{linkcolor}{HTML}{1A4B8C}
+\definecolor{rulecolor}{HTML}{999999}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkcolor,
+  pdftitle={Curriculum Vitae of Lin Ren},
+  pdfauthor={Lin Ren},
+}
+
+% -------------------------------------------------------------- sections ---
+\titleformat{\section}
+  {\large\scshape}{}{0em}{}[\vspace{-0.6em}\textcolor{rulecolor}{\rule{\linewidth}{0.4pt}}]
+\titlespacing*{\section}{0pt}{1.3em}{0.7em}
+
+% Year heading inside Publications
+\newcommand{\yearhead}[1]{%
+  \par\vspace{1.0em}%
+  \noindent{\bfseries\large #1}%
+  \par\vspace{-0.35em}%
+}
+
+% ----------------------------------------------------------- publications --
+% Each entry is a hanging-indent block: title, authors, venue.
+% \interlinepenalty and \nobreak keep an entry atomic, so a page break can
+% never separate a title from its author list or venue.
+\newcommand{\pubblock}[3]{%
+  \par\vspace{0.55em}%
+  \begingroup
+  \setlength{\parindent}{0pt}%
+  \interlinepenalty=10000
+  \hangindent=1.2em\hangafter=1
+  #1\par\nobreak
+  #2\par\nobreak
+  \textit{#3}\par
+  \endgroup
+}
+% With a public link on the title
+\newcommand{\pubL}[5]{\pubblock{\href{#1}{\textbf{#2}}#5}{#3}{#4}}
+% Without a public link
+\newcommand{\pubN}[4]{\pubblock{\textbf{#1}#4}{#2}{#3}}
+% Trailing code link, or empty. Wrapped in \mbox so that "| code" never gets
+% split across a line break.
+\newcommand{\code}[1]{\ \mbox{\textcolor{rulecolor}{\textbar}\ \href{#1}{code}}}
+
+% Own name, highlighted in author lists
+\newcommand{\me}{\textbf{Ren, L.}}
+
+% -------------------------------------------------------------- education --
+\newcommand{\edu}[4]{%
+  \par\vspace{0.55em}%
+  \begingroup
+  \setlength{\parindent}{0pt}%
+  \interlinepenalty=10000
+  \textbf{#1}\par\nobreak
+  #2\par\nobreak
+  #3\par\nobreak
+  #4
+  \endgroup
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% ==================================================================== head ==
+\begin{center}
+  {\LARGE\bfseries Lin Ren (任林)}\\[0.55em]
+  School of Computer Science and Engineering, Southeast University, Nanjing, China\\[0.35em]
+  \href{mailto:renlin@seu.edu.cn}{renlin@seu.edu.cn}
+  \ \textcolor{rulecolor}{\textbar}\
+  \href{https://scholar.google.com/citations?user=FZ_bjkQAAAAJ&hl=en}{Google Scholar}
+  \ \textcolor{rulecolor}{\textbar}\
+  \href{https://github.com/HomuraT}{GitHub}
+  \ \textcolor{rulecolor}{\textbar}\
+  \href{https://blog.homura.work/intro/}{blog.homura.work}
+\end{center}
+
+\vspace{0.9em}
+
+% ================================================================= summary ==
+\noindent
+Lin Ren is a Ph.D. student at the School of Computer Science and Engineering,
+Southeast University, China, advised by
+Prof.~\href{https://scholar.google.com/citations?user=hbek3dcAAAAJ}{Guohui Xiao} and
+Prof.~\href{https://scholar.google.com/citations?user=1gw3LJQAAAAJ}{Guilin Qi}.
+His primary research interest is \textit{Knowledge Representation and Reasoning} (KRR),
+with contributions from knowledge graphs, natural language processing, and large
+language models. A particular emphasis is on \textit{Virtual Knowledge Graphs} (VKGs),
+also known as \textit{Ontology-based Data Access} (OBDA).
+
+\section{Research Interests}
+
+\begin{itemize}[leftmargin=1.3em,itemsep=0.15em,topsep=0.2em,parsep=0pt]
+  \item Knowledge Representation and Reasoning (KRR)
+  \item Virtual Knowledge Graphs, Ontology-based Data Access (OBDA)
+  \item Answer Set Programming (ASP)
+  \item Large Language Models
+  \item Causal Inference
+  \item Information Extraction
+\end{itemize}
+
+% =============================================================== education ==
+\section{Education}
+
+\edu{Sept 2024 - present, Ph.D. student in Software Engineering}
+    {Southeast University, Nanjing, China}
+    {School of Computer Science and Engineering}
+    {advisors Prof.~\href{https://scholar.google.com/citations?user=hbek3dcAAAAJ}{Guohui Xiao}
+     and Prof.~\href{https://scholar.google.com/citations?user=1gw3LJQAAAAJ}{Guilin Qi}}
+
+\edu{June 2024, Master of Electronic Information}
+    {University of South China, Hengyang, Hunan, China}
+    {School of Computer Science}
+    {advisors Prof.~\href{https://scholar.google.com/citations?user=9sXgL3MAAAAJ}{Yongbin Liu}
+     and Prof.~\href{https://scholar.google.com/citations?user=JVw3XD0AAAAJ}{Chunping Ouyang}\\
+     thesis ``Research on Debiasing Knowledge Graphs based on Causal Inference'' (in Chinese)}
+
+\edu{June 2021, Bachelor of Engineering in Software Engineering}
+    {University of South China, Hengyang, Hunan, China}
+    {School of Computer Science}
+    {thesis ``Causal Relation Extraction from Financial Text'' (in Chinese)}
+
+% ============================================================ publications ==
+\section{Publications}
+
+\vspace{0.3em}
+\noindent My name is in bold. Titles link to the paper where a public version is available.
+
+\yearhead{2026}
+
+\pubL{https://arxiv.org/abs/2607.19962}
+     {EvoThink: Evolving Thinking in Large Reasoning Models via Self-Pruning and Aha-Moment Preference Optimization}
+     {Dai, X., Xin, Z., Hu, H., \me, Jin, R., Xiao, G., Qi, G., Dong, K., Du, Z., and Zhang, Y.}
+     {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI-26)}
+     {}
+
+\pubN{NaVQA: Mitigating Silent Failures in Question Answering over Virtual Knowledge Graph}
+     {Xiao, G., Xue, H., \me, Geng, Y., Qi, G., Zhang, S., Guo, D., Di Panfilo, M., Lanti, D., and Ding, L.}
+     {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI-26)}
+     {}
+
+\pubN{Information-Needs-Guided Virtual Knowledge Graph Enrichment via Large Language Models}
+     {\me, Xiao, G., Qi, G., Du, W., Geng, Y., Xue, H., Yue, Z., Li, M., Di Panfilo, M., Lanti, D., Hamaz, K., and Ding, L.}
+     {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI-26)}
+     {}
+
+\pubL{https://arxiv.org/abs/2608.17550}
+     {Code as Representation: A Compilable Parsing Paradigm for Academic Documents}
+     {Jin, R., Wang, J., Liang, M., Gao, Y., Li, Y., Dong, K., Qi, G., \me, Chen, Y., Dai, X., Li, J., Wu, T., and Haffari, G.}
+     {ACM International Conference on Multimedia (ACM MM 2026)}
+     {}
+
+\yearhead{2025}
+
+\pubL{https://www.researchgate.net/profile/Davide-Lanti/publication/395683255_LLM4VKG_Leveraging_Large_Language_Models_for_Virtual_Knowledge_Graph_Construction/links/69777530153d64061ee9895e/LLM4VKG-Leveraging-Large-Language-Models-for-Virtual-Knowledge-Graph-Construction.pdf}
+     {LLM4VKG: Leveraging Large Language Models for Virtual Knowledge Graph Construction}
+     {Xiao, G., \me, Qi, G., Xue, H., Panfilo, M. D., and Lanti, D.}
+     {Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI-25)}
+     {\code{https://github.com/HomuraT/LLM4VKG}}
+
+\pubL{https://www.sciencedirect.com/science/article/pii/S156625352500154X}
+     {DyLas: A dynamic label alignment strategy for large-scale multi-label text classification}
+     {\me, Liu, Y., Ouyang, C., Yu, Y., Zhou, S., He, Y., and Wan, Y.}
+     {Information Fusion, 120, 103081}
+     {\code{https://github.com/HomuraT/DyLas}}
+
+\pubN{Can LLMs Solve ASP Problems? Insights from a Benchmarking Study}
+     {\me, Xiao, G., Qi, G., Geng, Y., and Xue, H.}
+     {International Conference on Principles of Knowledge Representation and Reasoning (KR 2025)}
+     {}
+
+\yearhead{2024}
+
+\pubL{https://www.proquest.com/openview/4ca30830e494c88fcd8ec156df97f7a6/1?pq-origsite=gscholar\&cbl=2048897}
+     {Multimodal emotion recognition based on hierarchical fusion strategy and contextual information embedding}
+     {Minglong, S., Chunping, O., Yongbin, L., and \textbf{Lin, R.}}
+     {Beijing Da Xue Xue Bao, 60(3), 393-402}
+     {}
+
+\yearhead{2023}
+
+\pubL{https://aclanthology.org/2023.findings-emnlp.173/}
+     {CoVariance-based causal debiasing for entity and relation extraction}
+     {\me, Liu, Y., Cao, Y., and Ouyang, C.}
+     {Findings of the Association for Computational Linguistics: EMNLP 2023, 2627-2640}
+     {\code{https://github.com/HomuraT/OVO}}
+
+\pubL{https://link.springer.com/chapter/10.1007/978-3-031-47240-4_18}
+     {Causal inference-based debiasing framework for knowledge graph completion}
+     {\me, Liu, Y., and Ouyang, C.}
+     {International Semantic Web Conference (ISWC 2023), 328-347. Cham: Springer Nature Switzerland}
+     {\code{https://github.com/HomuraT/CIDF}}
+
+\pubL{https://www.sciencedirect.com/science/article/pii/S0306457323001450}
+     {Counterfactual can be strong in medical question and answering}
+     {Yang, Z., Liu, Y., Ouyang, C., \me, and Wen, W.}
+     {Information Processing \& Management, 60(4), 103408}
+     {}
+
+\pubL{https://www.sciencedirect.com/science/article/pii/S2666651023000116}
+     {Joint span and token framework for few-shot named entity recognition}
+     {Fang, W., Liu, Y., Ouyang, C., \me, Li, J., and Wan, Y.}
+     {AI Open, 4, 111-119}
+     {}
+
+\end{document}

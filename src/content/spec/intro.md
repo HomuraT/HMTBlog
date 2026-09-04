@@ -1,16 +1,51 @@
-# 个人简介
+# Lin Ren (任林)
 
-## 关于我
+Lin Ren is a Ph.D. student at the School of Computer Science and Engineering, Southeast University, China, advised by Prof. [Guohui Xiao](https://scholar.google.com/citations?user=hbek3dcAAAAJ) and Prof. [Guilin Qi](https://scholar.google.com/citations?user=1gw3LJQAAAAJ). Before joining Southeast University, Lin received a master's degree in 2024 and a bachelor's degree in 2021, both from the University of South China.
 
-这里放一两段自我介绍。
+Lin's primary research interest is *Knowledge Representation and Reasoning* (KRR), with contributions from knowledge graphs, natural language processing, and large language models. A particular emphasis is on *Virtual Knowledge Graphs* (VKGs), also known as *Ontology-based Data Access* (OBDA), where the aim is to reduce the manual effort of constructing mappings and to suppress silent failures in question answering. A second line of work evaluates and strengthens the symbolic reasoning ability of large language models, including systematic benchmarking on Answer Set Programming (ASP).
 
-## 研究方向
+Earlier work, carried out during the bachelor's and master's studies, applied causal inference to natural language processing, covering causal relation extraction in financial text as well as debiasing for information extraction and knowledge graph completion. The code behind most of these works is released as open source on GitHub.
 
-因果推断、信息抽取、知识图谱，以及大语言模型在这些任务上的应用。
+## Contact
 
-## 论文
+**CV**　[PDF](/docs/Lin-Ren-CV.pdf)<br>
+**E-mail**　[renlin@seu.edu.cn](mailto:renlin@seu.edu.cn)<br>
+**Google Scholar**　[Citations](https://scholar.google.com/citations?user=FZ_bjkQAAAAJ&hl=en)<br>
+**GitHub**　[HomuraT](https://github.com/HomuraT)<br>
+**Address**　School of Computer Science and Engineering, Southeast University, Nanjing, China
 
-粗体为本人署名。标题可点击跳转至论文，尚无公开链接的条目标题为纯文本。
+## Research Interests
+
+- Knowledge Representation and Reasoning (KRR)
+- Virtual Knowledge Graphs, Ontology-based Data Access (OBDA)
+- Answer Set Programming (ASP)
+- Large Language Models
+- Causal Inference
+- Information Extraction
+
+## Education
+
+**Sept 2024 - present, Ph.D. student in Software Engineering**<br>
+Southeast University, Nanjing, China<br>
+School of Computer Science and Engineering<br>
+advisors Prof. [Guohui Xiao](https://scholar.google.com/citations?user=hbek3dcAAAAJ) and Prof. [Guilin Qi](https://scholar.google.com/citations?user=1gw3LJQAAAAJ)
+
+**June 2024, Master of Electronic Information**<br>
+University of South China, Hengyang, Hunan, China<br>
+School of Computer Science<br>
+advisors Prof. [Yongbin Liu](https://scholar.google.com/citations?user=9sXgL3MAAAAJ) and Prof. [Chunping Ouyang](https://scholar.google.com/citations?user=JVw3XD0AAAAJ)<br>
+thesis "Research on Debiasing Knowledge Graphs based on Causal Inference" (in Chinese)
+
+<!-- 待确认：南华大学院系英文全称（暂用 School of Computer Science，Yongbin Liu 老师 Scholar 上写的是 School of Computer） -->
+
+**June 2021, Bachelor of Engineering in Software Engineering**<br>
+University of South China, Hengyang, Hunan, China<br>
+School of Computer Science<br>
+thesis "Causal Relation Extraction from Financial Text" (in Chinese)
+
+## Publications
+
+My name is in bold. Titles link to the paper where a public version is available; entries without a public link are shown as plain text.
 
 ### 2026
 
@@ -39,12 +74,12 @@ Jin, R., Wang, J., Liang, M., Gao, Y., Li, Y., Dong, K., Qi, G., **Ren, L.**, Ch
 [**LLM4VKG: Leveraging Large Language Models for Virtual Knowledge Graph Construction**](https://www.researchgate.net/profile/Davide-Lanti/publication/395683255_LLM4VKG_Leveraging_Large_Language_Models_for_Virtual_Knowledge_Graph_Construction/links/69777530153d64061ee9895e/LLM4VKG-Leveraging-Large-Language-Models-for-Virtual-Knowledge-Graph-Construction.pdf)<br>
 Xiao, G., **Ren, L.**, Qi, G., Xue, H., Panfilo, M. D., and Lanti, D.<br>
 *Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI-25)*<br>
-`Virtual Knowledge Graph` `Large Language Models` · [代码](https://github.com/HomuraT/LLM4VKG)
+`Virtual Knowledge Graph` `Large Language Models` · [code](https://github.com/HomuraT/LLM4VKG)
 
 [**DyLas: A dynamic label alignment strategy for large-scale multi-label text classification**](https://www.sciencedirect.com/science/article/pii/S156625352500154X)<br>
 **Ren, L.**, Liu, Y., Ouyang, C., Yu, Y., Zhou, S., He, Y., and Wan, Y.<br>
 *Information Fusion, 120, 103081*<br>
-`Large-scale Multi-label Text Classification` `Large Language Model` `Causal Inference` · [代码](https://github.com/HomuraT/DyLas)
+`Large-scale Multi-label Text Classification` `Large Language Model` `Causal Inference` · [code](https://github.com/HomuraT/DyLas)
 
 **Can LLMs Solve ASP Problems? Insights from a Benchmarking Study**<br>
 **Ren, L.**, Xiao, G., Qi, G., Geng, Y., and Xue, H.<br>
@@ -63,12 +98,12 @@ Minglong, S., Chunping, O., Yongbin, L., and **Lin, R.**<br>
 [**CoVariance-based causal debiasing for entity and relation extraction**](https://aclanthology.org/2023.findings-emnlp.173/)<br>
 **Ren, L.**, Liu, Y., Cao, Y., and Ouyang, C.<br>
 *Findings of the Association for Computational Linguistics: EMNLP 2023, 2627-2640*<br>
-`Information Extraction` `Causal Inference` · [代码](https://github.com/HomuraT/OVO)
+`Information Extraction` `Causal Inference` · [code](https://github.com/HomuraT/OVO)
 
 [**Causal inference-based debiasing framework for knowledge graph completion**](https://link.springer.com/chapter/10.1007/978-3-031-47240-4_18)<br>
 **Ren, L.**, Liu, Y., and Ouyang, C.<br>
 *International Semantic Web Conference (ISWC 2023), 328-347. Cham: Springer Nature Switzerland*<br>
-`Knowledge Graph Completion` `Causal Inference` · [代码](https://github.com/HomuraT/CIDF)
+`Knowledge Graph Completion` `Causal Inference` · [code](https://github.com/HomuraT/CIDF)
 
 [**Counterfactual can be strong in medical question and answering**](https://www.sciencedirect.com/science/article/pii/S0306457323001450)<br>
 Yang, Z., Liu, Y., Ouyang, C., **Ren, L.**, and Wen, W.<br>
@@ -79,9 +114,3 @@ Yang, Z., Liu, Y., Ouyang, C., **Ren, L.**, and Wen, W.<br>
 Fang, W., Liu, Y., Ouyang, C., **Ren, L.**, Li, J., and Wan, Y.<br>
 *AI Open, 4, 111-119*<br>
 `Information Extraction` `Few-shot Learning`
-
-## 联系方式
-
-- 邮箱：[renlin@seu.edu.cn](mailto:renlin@seu.edu.cn)
-- Google Scholar：[学术主页](https://scholar.google.com/citations?user=FZ_bjkQAAAAJ&hl=en)
-- GitHub：[HomuraT](https://github.com/HomuraT)

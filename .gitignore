@@ -1,6 +1,22 @@
 # build output
 dist/
 
+# LaTeX build artifacts (cv/)
+# Note: only cv/*.pdf is ignored, NOT public/docs/*.pdf -- the installed copy
+# at public/docs/Lin-Ren-CV.pdf must stay in the repo, since Cloudflare Pages
+# has no LaTeX toolchain and cannot regenerate it.
+cv/*.aux
+cv/*.bbl
+cv/*.blg
+cv/*.fdb_latexmk
+cv/*.fls
+cv/*.log
+cv/*.out
+cv/*.pdf
+cv/*.synctex.gz
+cv/*.toc
+cv/*.xdv
+
 # generated types
 .astro/
 
