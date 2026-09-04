@@ -80,10 +80,10 @@ Xiao, G., **Ren, L.**, Qi, G., Xue, H., Panfilo, M. D., and Lanti, D.<br>
 *Information Fusion, 120, 103081*<br>
 `Large-scale Multi-label Text Classification` `Large Language Model` `Causal Inference` · [code](https://github.com/HomuraT/DyLas)
 
-**Can LLMs Solve ASP Problems? Insights from a Benchmarking Study**<br>
+[**Can LLMs Solve ASP Problems? Insights from a Benchmarking Study**](https://www.researchgate.net/profile/Yishuai-Geng/publication/397299141_Can_LLMs_Solve_ASP_Problems_Insights_from_a_Benchmarking_Study/links/69b7589ac325e338e8ea374b/Can-LLMs-Solve-ASP-Problems-Insights-from-a-Benchmarking-Study.pdf)<br>
 **Ren, L.**, Xiao, G., Qi, G., Geng, Y., and Xue, H.<br>
 *International Conference on Principles of Knowledge Representation and Reasoning (KR 2025)*<br>
-`Answer Set Programming` `Large Language Models` `Benchmark`
+`Answer Set Programming` `Large Language Models` `Benchmark` · [code](https://github.com/HomuraT/ASPBench)
 
 ### 2024
 
