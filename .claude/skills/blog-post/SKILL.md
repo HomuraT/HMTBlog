@@ -247,6 +247,8 @@ console.log('hello')
 
 `LinkPreset` 枚举只是内置几个页面的快捷方式。自定义页面直接写 `{ name, url }` 即可，**不用改枚举，也不用加 i18n key**。数组顺序就是导航栏显示顺序。
 
+页面需要客户端 JS（滚动特效、DOM 增强等）的，**别把 `<script>` 直接写在页面文件里**——Swup 跳转时它不会执行，必须走 `Layout.astro` 的统一入口，见下方 [Swup 坑一](#坑一只存在于某一页的-script客户端跳转时根本不会执行)。
+
 ### 什么时候该用 `Markdown.astro` 组件
 
 `src/components/misc/Markdown.astro` 第 10 行写死了 `data-pagefind-body`——**用了它，该页面就会被加进搜索索引**。
@@ -289,19 +291,69 @@ containers: ["main", "#toc"],
 globalInstance: true,
 ```
 
-**站内跳转不会重新加载页面**，Swup 只把 `<main>` 和 `#toc` 的 DOM 整块替换掉。后果：
+**站内跳转不会重新加载页面**，Swup 只把 `<main>` 和 `#toc` 的 DOM 整块替换掉。这带来**两个独立的坑**，都不报错，很容易只修了第二个就以为搞定了。
 
-- `<script>` 里的初始化代码**只在首次加载时执行一次**
-- 用户点一次导航栏，`<main>` 内的 DOM 全被换掉，绑的事件监听器和元素引用**全部失效**
-- 表现是：第一次进页面正常，跳转回来特效就死了，**而且控制台不报任何错**
+#### 坑一：只存在于某一页的 `<script>`，客户端跳转时根本不会执行
 
-正确写法（照抄 `src/layouts/Layout.astro:451`，项目自己就是这么做的）：
+Astro 把 `.astro` 里的 `<script>` **就地输出到那一页的 HTML**。而 Swup 换页时只替换 containers，`updateHead` 只管 `<head>`——两头都不沾的脚本压根不会被插进页面。
+
+特别注意：`<style>` / `<script>` 写在 `</MainGridLayout>` **之后**（这是很自然的写法），产出的 HTML 里它们会落在 `</body></html>` **后面**。整页加载时浏览器容错解析照样执行，所以本地刷新一看「没问题」。
+
+> **表现：从别的页面点进去没特效，按 F5 刷新就有了。** 这是这个坑的标志性症状，见到就直接往这查。
+
+确诊（不要靠猜，量一下位置）：
+
+```bash
+pnpm build
+python3 - <<'EOF'
+h = open('dist/intro/index.html', encoding='utf-8').read()
+print("</head>        :", h.find('</head>'))
+print("<main>         :", h.find('<main id="swup-container"'), "->", h.find('</main>'))
+print("</body></html> :", h.find('</body></html>'))
+print("你的脚本       :", h.find('getElementById("intro-root")'))   # 换成脚本里的特征字符串
+EOF
+```
+
+脚本偏移量不在 `<main>` 区间内、也不在 `</head>` 之前，就是它。
+
+**正确写法：特效单独成模块，由 `Layout.astro` 按需动态 import。** `Layout.astro` 的 `<script>` 每个页面都有、一直活着，是唯一可靠的入口。
+
+```ts
+// src/scripts/intro-fx.ts
+export function initIntroEffects(): void {
+  const root = document.getElementById('intro-root')
+  if (!root) return          // 幂等：不在这一页直接返回，可重复调用
+  // ...特效逻辑
+}
+```
 
 ```js
-function init() {
-  // 特效初始化，必须能重复执行
+// src/layouts/Layout.astro 的 <script> 里
+async function loadPageEffects() {
+  if (document.getElementById('intro-root')) {
+    const { initIntroEffects } = await import('../scripts/intro-fx')
+    initIntroEffects()
+  }
 }
 
+function init() { /* ...原有内容... */ loadPageEffects() }   // 首次加载
+init()
+
+// setup() 里的 page:view 钩子中再调一次                     // 后续每次跳转
+window.swup.hooks.on('page:view', () => { /* ... */ loadPageEffects() })
+```
+
+动态 import 会被打成独立 chunk，**别的页面不会下载**，所以不用心疼把它挂在全局入口上。
+
+不要试图把 `<script>` 塞进 `<main>` 里赌 Swup 会执行容器内的脚本：那取决于 `replaceContent` 里 `cloneNode(true)` 对 script "already started" 标志的处理（`swup/src/modules/replaceContent.ts`），版本之间不保证；而且就算执行了，每次进页面都会新建一份模块作用域、重复注册 `page:view` 监听，越攒越多。
+
+#### 坑二：跳走再回来，DOM 已经被换掉
+
+`<main>` 整块替换，之前绑的事件监听器和元素引用**全部失效**。所以初始化函数必须能重复执行，并挂在 `page:view` 上——上面 `loadPageEffects()` 同时解决了这个问题。
+
+如果脚本本来就每页都要跑（不是页面特效），直接写在 `Layout.astro` 里，用项目自己的写法（`src/layouts/Layout.astro` 的 `setup()`）：
+
+```js
 const setup = () => {
   init();                                    // 立即执行一次
   window.swup.hooks.on('page:view', init);   // 之后每次跳转再执行
@@ -316,6 +368,12 @@ if (window?.swup?.hooks) {
 ```
 
 `page:view` 是「新页面 DOM 已就位」的时机。其他可用钩子：`content:replace`、`visit:start`、`visit:end`、`link:click`，Layout.astro 里都有实际用例。
+
+#### CSS 不受影响
+
+Astro 总是把 `<style>` 抽成 `<head>` 里的 `<link rel="stylesheet">`，而且当前构建会把各页面的样式表**链到所有页面**上。所以样式没有上述问题，只有 `<script>` 有。
+
+真实案例：`src/pages/intro.astro` + `src/scripts/intro-fx.ts` + `Layout.astro` 的 `loadPageEffects()` 就是按这个结构修出来的，可直接照抄。
 
 ### 其他
 
@@ -343,7 +401,8 @@ if (window?.swup?.hooks) {
 | YAML 解析报错 | `title` 里有冒号但没加引号 |
 | 构建成功但图片 404 | 混淆了 `/` 开头（public）和 `./` 开头（相对文件）两种路径 |
 | 搜索框搜不到东西 | 构建命令漏了 pagefind，必须跑 `pnpm build` 而不是 `astro build` |
-| 特效跳转后失效但不报错 | 没在 `swup` 的 `page:view` 上重新初始化，见上方 Swup 一节 |
+| 第一次进页面没特效、刷新一下就有 | 页面自己的 `<script>` 在 Swup 跳转时没被执行，见上方 Swup 坑一 |
+| 特效跳转后失效但不报错 | 没在 `swup` 的 `page:view` 上重新初始化，见上方 Swup 坑二 |
 | `The 'xxx' class does not exist` | Tailwind `@apply` 自定义类的竞态，见下 |
 
 最后一条已经踩过一次：`ImageWrapper.astro:32` 的 `import.meta.glob("../../**")` 会把 `src/` 下每个 CSS 各自作为独立 PostCSS 入口并发处理，完成顺序不确定。若某个文件先于定义 `@layer components` 的 `main.css` 处理完，`@apply` 就会找不到类。
