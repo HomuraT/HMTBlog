@@ -363,12 +363,29 @@ function showBanner() {
 	banner.classList.remove('opacity-0', 'scale-105');
 }
 
+/**
+ * 页面级特效脚本的统一入口。
+ *
+ * 为什么必须放在这里，而不是各自的页面文件里：Astro 会把 .astro 的 <script>
+ * 就地输出到那一页的 HTML 里，而 swup 客户端跳转只替换 containers（main / #toc），
+ * 容器外的 <script> 压根不会被插入，于是「只存在于某一页」的脚本第一次跳过去时
+ * 不执行，只有整页刷新才跑得起来。本文件的脚本每页都有，一直活着，
+ * 从这里按需 import 才可靠。动态 import 会被打成单独的 chunk，别的页面不会下载。
+ */
+async function loadPageEffects() {
+	if (document.getElementById('intro-root')) {
+		const { initIntroEffects } = await import('../scripts/intro-fx')
+		initIntroEffects()
+	}
+}
+
 function init() {
 	// disableAnimation()()		// TODO
 	loadTheme();
 	loadHue();
 	initCustomScrollbar();
 	showBanner();
+	loadPageEffects();
 }
 
 /* Load settings when entering the site */
@@ -432,6 +449,9 @@ const setup = () => {
 		if (heightExtend) {
 			heightExtend.classList.remove('hidden')
 		}
+
+		// 新页面的 DOM 已经换好了，该上特效的上特效
+		loadPageEffects()
 	});
 	window.swup.hooks.on('visit:end', (_visit: {to: {url: string}}) => {
 		setTimeout(() => {
