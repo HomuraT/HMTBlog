@@ -1,6 +1,6 @@
 ---
 name: blog-post
-description: 在本博客(Fuwari/Astro)中新建或编辑文章、或新增独立页面与导航栏条目时使用。涵盖 frontmatter 规范、目录约定、分类标签约定、图片路径规则、扩展 Markdown 语法(提示框/GitHub 卡片/剧透/数学公式/视频嵌入)、Expressive Code 代码块标记、独立页面与导航栏的添加方式，以及发布到 blog.homura.work 的流程和常见构建失败排查。
+description: 在本博客(Fuwari/Astro)中新建或编辑文章、新增独立页面与导航栏条目、或写页面特效与客户端 JS 时使用。涵盖 frontmatter 规范、目录约定、分类标签约定、图片路径规则、扩展 Markdown 语法(提示框/GitHub 卡片/剧透/数学公式/视频嵌入)、Expressive Code 代码块标记、独立页面与导航栏的添加方式、Swup 页面转场下客户端脚本的正确初始化方式，以及发布到 blog.homura.work 的流程和常见构建失败排查。
 ---
 
 # 写博客文章
@@ -266,6 +266,63 @@ class="prose dark:prose-invert prose-base !max-w-none custom-md"
 
 自检方法：`pnpm build` 后看 `Indexed N pages`，N 应等于「已发布文章数 + 独立内容页数」。莫名多一页，基本就是这里。
 
+## 页面特效与客户端 JS
+
+三个层次，按需要的复杂度选：
+
+| 层次 | 用在哪 | 说明 |
+|---|---|---|
+| Markdown 里直接写 HTML | `.md` 正文 | 没配 sanitizer，原样放行。`<br>`、`<iframe>`、行内 `<style>` 都能用 |
+| `.astro` 组件/页面 | `src/pages/`、`src/components/` | 纯 HTML + scoped `<style>` + `<script>`，主力手段 |
+| Svelte 5 岛屿 | 需要状态和交互 | `client:load` / `client:visible` 挂载 |
+
+Svelte 现成例子：`ArchivePanel.svelte`、`Search.svelte`、`LightDarkSwitch.svelte`、`DisplaySettings.svelte`。
+
+配色用主题的 CSS 变量（`var(--primary)`、`var(--radius-large)`、`var(--link-underline)`），会自动跟随用户在侧栏调的色相和明暗模式。写死颜色在暗色模式下会翻车。
+
+### ⚠️ Swup：本项目做特效最容易翻车的地方
+
+站点开了 Swup 页面转场，`astro.config.mjs` 里配置了：
+
+```js
+containers: ["main", "#toc"],
+globalInstance: true,
+```
+
+**站内跳转不会重新加载页面**，Swup 只把 `<main>` 和 `#toc` 的 DOM 整块替换掉。后果：
+
+- `<script>` 里的初始化代码**只在首次加载时执行一次**
+- 用户点一次导航栏，`<main>` 内的 DOM 全被换掉，绑的事件监听器和元素引用**全部失效**
+- 表现是：第一次进页面正常，跳转回来特效就死了，**而且控制台不报任何错**
+
+正确写法（照抄 `src/layouts/Layout.astro:451`，项目自己就是这么做的）：
+
+```js
+function init() {
+  // 特效初始化，必须能重复执行
+}
+
+const setup = () => {
+  init();                                    // 立即执行一次
+  window.swup.hooks.on('page:view', init);   // 之后每次跳转再执行
+};
+
+// swup 可能尚未就绪，两种情况都要覆盖
+if (window?.swup?.hooks) {
+  setup();
+} else {
+  document.addEventListener('swup:enable', setup);
+}
+```
+
+`page:view` 是「新页面 DOM 已就位」的时机。其他可用钩子：`content:replace`、`visit:start`、`visit:end`、`link:click`，Layout.astro 里都有实际用例。
+
+### 其他
+
+- Astro 的 `<script>` 默认被 Vite 打包成 ES module 并 defer。要引 CDN 外链或需要立即执行，加 `is:inline`。
+- 动画库正常 `pnpm add` 即可（GSAP、Motion One 等），Astro 会打包。
+- **静态资源一律放 `public/`，别放 `src/`。**`src/components/misc/ImageWrapper.astro:32` 有个 `import.meta.glob("../../**")`，会把 `src/` 下每个文件都拉进模块图，见下方构建失败排查。
+
 ## 发布流程
 
 1. 写完本地 `pnpm dev` 看效果
@@ -286,6 +343,14 @@ class="prose dark:prose-invert prose-base !max-w-none custom-md"
 | YAML 解析报错 | `title` 里有冒号但没加引号 |
 | 构建成功但图片 404 | 混淆了 `/` 开头（public）和 `./` 开头（相对文件）两种路径 |
 | 搜索框搜不到东西 | 构建命令漏了 pagefind，必须跑 `pnpm build` 而不是 `astro build` |
+| 特效跳转后失效但不报错 | 没在 `swup` 的 `page:view` 上重新初始化，见上方 Swup 一节 |
+| `The 'xxx' class does not exist` | Tailwind `@apply` 自定义类的竞态，见下 |
+
+最后一条已经踩过一次：`ImageWrapper.astro:32` 的 `import.meta.glob("../../**")` 会把 `src/` 下每个 CSS 各自作为独立 PostCSS 入口并发处理，完成顺序不确定。若某个文件先于定义 `@layer components` 的 `main.css` 处理完，`@apply` 就会找不到类。
+
+特征是**本地构建永远成功、Cloudflare 偶发失败**（并发时序不同）。解决办法是在依赖方顶部显式 `@import "./main.css";`，让 postcss-import 内联进来消除竞态——`src/styles/markdown.css` 顶部就是这么修的，注释写在那里。
+
+那个 glob 是 Fuwari 处理动态图片的 workaround，**不要**改窄成只匹配图片扩展名，会导致全站样式丢失。
 
 Cloudflare 构建失败时线上保持原样，不会挂掉。日志在 Pages 项目的部署列表里。
 
