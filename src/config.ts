@@ -62,21 +62,22 @@ export const profileConfig: ProfileConfig = {
 	bio: "比希望更炽热，比绝望更深邃的，是爱啊！",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "GitHub",
+			icon: "fa6-brands:github", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
 			url: "https://github.com/HomuraT",
+		},
+		{
+			name: "Google Scholar",
+			icon: "fa6-brands:google-scholar",
+			url: "https://scholar.google.com/citations?user=FZ_bjkQAAAAJ&hl=en",
+		},
+		{
+			name: "CSDN",
+			// Only icon set here that has a CSDN logo, hence @iconify-json/simple-icons
+			icon: "simple-icons:csdn",
+			url: "https://blog.csdn.net/qq_42464569",
 		},
 	],
 };
