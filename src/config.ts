@@ -64,16 +64,16 @@ export const navBarConfig: NavBarConfig = {
 /**
  * 引导主页（"/"）的内容。文章列表已经移到 "/blog/"。
  *
- * links 里写 slug 就够了 —— 标题、摘要、日期都从文章 frontmatter 里读，
- * 不用在这儿重复维护。slug 就是 src/content/posts 下去掉后缀的路径，
+ * links 里写 slug 就够了 —— 标题从文章 frontmatter 里读，不用在这儿重复维护。
+ * slug 就是 src/content/posts 下去掉后缀的路径，
  * 例如 src/content/posts/tech/server/init/index.md -> "tech/server/init"。
  * 写错的 slug 会在构建时直接报错，不会悄悄变成死链。
  */
 export const homeConfig: HomeConfig = {
 	title: "HMT",
-	subtitle: "比希望更炽热，比绝望更深邃的，是爱啊！",
+	subtitle: "技术笔记与科研记录",
 	description:
-		"这里堆着我平时的笔记：服务器怎么配、论文读到哪、工具怎么用。下面按主题挑了几篇常翻的，剩下的都在博客和归档里。",
+		"这里放平时积累的笔记，主要是服务器配置与运维、论文和资料整理、工具使用。下面按主题列了几篇常用的，全部内容见博客和归档。",
 	actions: [
 		{
 			name: "全部博客",
@@ -93,8 +93,12 @@ export const homeConfig: HomeConfig = {
 	],
 	sections: [
 		{
+			title: "知识表示与虚拟知识图谱",
+			icon: "material-symbols:schema-outline-rounded",
+			links: [{ slug: "study/paper/vkg" }],
+		},
+		{
 			title: "服务器与运维",
-			description: "从零配一台机器，以及把自己作坏之后怎么救回来。",
 			icon: "material-symbols:terminal-rounded",
 			links: [
 				{ slug: "tech/server/init" },
@@ -106,19 +110,16 @@ export const homeConfig: HomeConfig = {
 		},
 		{
 			title: "科研与论文",
-			description: "读过的论文和攒下来的资料，按方向分开放。",
 			icon: "material-symbols:lab-research-outline-rounded",
-			links: [{ slug: "study/paper/agent" }, { slug: "study/paper/vkg" }],
+			links: [{ slug: "study/paper/agent" }],
 		},
 		{
 			title: "工具与效率",
-			description: "用顺手了就懒得换的那些东西。",
 			icon: "material-symbols:build-outline-rounded",
 			links: [{ slug: "uv-learning" }],
 		},
 		{
 			title: "校园与杂项",
-			description: "东南大学的各种流程，以及一些和技术无关的收藏。",
 			icon: "material-symbols:school-outline-rounded",
 			links: [{ slug: "seu/20251213_因公出国报销" }, { slug: "hmt/playlist" }],
 		},

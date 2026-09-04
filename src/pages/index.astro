@@ -17,8 +17,6 @@ const bySlug = new Map(allPosts.map((p) => [p.slug, p]));
 interface ResolvedLink {
 	href: string;
 	title: string;
-	description?: string;
-	meta?: string;
 	external: boolean;
 }
 
@@ -37,14 +35,9 @@ function resolveLink(link: HomeLink): ResolvedLink {
 			);
 		}
 
-		const category = entry.data.category?.trim();
 		return {
 			href: getPostUrlBySlug(entry.slug),
 			title: link.title ?? entry.data.title,
-			description: link.description ?? entry.data.description ?? "",
-			meta: [formatDateToYYYYMMDD(entry.data.published), category || undefined]
-				.filter(Boolean)
-				.join("  ·  "),
 			external: false,
 		};
 	}
@@ -59,7 +52,6 @@ function resolveLink(link: HomeLink): ResolvedLink {
 	return {
 		href: isExternal ? link.url : url(link.url),
 		title: link.title,
-		description: link.description,
 		external: isExternal,
 	};
 }
@@ -111,18 +103,10 @@ const delay = (i: number) =>
                 </div>
                 <h2 class="text-xl font-bold text-90">{section.title}</h2>
             </div>
-            {section.description &&
-                <p class="text-sm text-50 mt-2 md:ml-12">{section.description}</p>}
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-2 gap-y-1 mt-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-2 gap-y-0.5 mt-3">
                 {section.resolved.map(link => (
-                    <GuideCard
-                        href={link.href}
-                        title={link.title}
-                        description={link.description}
-                        meta={link.meta}
-                        external={link.external}
-                    ></GuideCard>
+                    <GuideCard href={link.href} title={link.title} external={link.external}></GuideCard>
                 ))}
             </div>
         </div>

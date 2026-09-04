@@ -4,31 +4,25 @@ import { Icon } from "astro-icon/components";
 interface Props {
 	href: string;
 	title: string;
-	description?: string;
-	meta?: string;
 	external?: boolean;
 	class?: string;
 	style?: string;
 }
 
-const { href, title, description, meta, external = false, style } = Astro.props;
+const { href, title, external = false, style } = Astro.props;
 const className = Astro.props.class;
 ---
 <a href={href}
    target={external ? "_blank" : null}
    rel={external ? "noopener noreferrer" : null}
    style={style}
-   class:list={[className, "guide-card group relative block rounded-xl pl-4 pr-3 py-3 transition",
+   class:list={[className, "guide-card group relative flex items-center gap-2 rounded-xl pl-4 pr-3 py-2.5 transition",
        "hover:bg-[var(--btn-plain-bg-hover)] active:bg-[var(--btn-plain-bg-active)]"]}
 >
-    <div class="flex items-start gap-2">
-        <span class="flex-1 min-w-0 font-medium text-90 transition group-hover:text-[var(--primary)]">{title}</span>
-        <Icon name={external ? "material-symbols:north-east-rounded" : "material-symbols:chevron-right-rounded"}
-              class="shrink-0 mt-[0.15rem] text-[1.1rem] text-30 transition group-hover:text-[var(--primary)]"
-        ></Icon>
-    </div>
-    {description && <div class="mt-0.5 text-sm text-50 line-clamp-2">{description}</div>}
-    {meta && <div class="mt-1.5 text-xs text-30">{meta}</div>}
+    <span class="flex-1 min-w-0 font-medium text-90 transition group-hover:text-[var(--primary)]">{title}</span>
+    <Icon name={external ? "material-symbols:north-east-rounded" : "material-symbols:chevron-right-rounded"}
+          class="shrink-0 text-[1.1rem] text-30 transition group-hover:text-[var(--primary)]"
+    ></Icon>
 </a>
 
 <style>
@@ -37,8 +31,8 @@ const className = Astro.props.class;
     content: "";
     position: absolute;
     left: 0;
-    top: .75rem;
-    bottom: .75rem;
+    top: .5rem;
+    bottom: .5rem;
     width: 3px;
     border-radius: 3px;
     background: var(--primary);
