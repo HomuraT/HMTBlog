@@ -24,8 +24,8 @@ lang: "zh-CN"
 </div>
 </div>
 
-:::tip[打包下载]
-[tikz-card-figure.zip](/files/tikz-card-figure.zip)，2.0 MB，93 个文件。只用模板时取 `assets/`（两个样式包、三个骨架、36 张范例的 `.tex` 源码与 PNG 渲染）和 `scripts/`（七个 Python 脚本）两个目录，用法见下文「快速上手」。整个目录同时是一个 Claude Code skill：解包后置于 `~/.claude/skills/` 下，Claude Code 画图时会按 `SKILL.md` 与 `references/` 五份文档里的规范执行。
+:::tip[获取方式]
+样式包、模板、范例和脚本都在 GitHub 仓库 [HomuraT/tikz-paper-figure](https://github.com/HomuraT/tikz-paper-figure)。只用模板时取 `skills/tikz-paper-figure/assets/`（两个样式包、三个骨架、36 张范例的 `.tex` 源码与 PNG 渲染）和同级的 `scripts/`（八个 Python 脚本）两个目录，用法见下文「快速上手」。`skills/tikz-paper-figure/` 整个目录是一个 Claude Code skill：复制到 `~/.claude/skills/` 下，Claude Code 画图时会按 `SKILL.md` 与 `references/` 五份文档里的规范执行。仓库另有两个跑通的完整案例（`examples/`）和三条验收任务（`tests/`）。
 :::
 
 ## 配图的一致性问题
@@ -49,9 +49,11 @@ lang: "zh-CN"
 
 所有视觉决定集中在样式包里，图文件只负责摆放元素和填数据。卡片类样式在 `cardfig.sty`，数据图样式在 `plotfig.sty`，两个包共用同一套字体（Source Sans Pro 与 Inconsolata）和同一套调色板。
 
+仓库里的 `skills/tikz-paper-figure/` 是 skill 本体，也是安装单元：
+
 ```text frame="none" showLineNumbers=false
-   tikz-card-figure/
-   ├── SKILL.md              工作流与设计规则
+   skills/tikz-paper-figure/
+   ├── SKILL.md              工作流、设计规则、修订约定与交付规则
    ├── assets/
    │   ├── cardfig.sty       调色板、几何长度、图层、卡片与条形面板的宏
    │   ├── plotfig.sty       pgfplots 的 paper 坐标系样式、直接标注、参考线
@@ -66,6 +68,7 @@ lang: "zh-CN"
    │   ├── plots.md          图表选型、样式表、尺寸表、逐图配方
    │   └── pitfalls.md       编译与排版问题及其处理
    └── scripts/
+       ├── check_env.py        列出本机缺哪些 TeX 宏包与工具，缺了影响哪个脚本
        ├── build_figure.py     编译、清理、宽度检查、渲染 PNG
        ├── bars_from_csv.py    结果 CSV 生成排序好的条形面板
        ├── flows_from_csv.py   记录型 CSV 生成平行集（流向图）
@@ -79,14 +82,14 @@ lang: "zh-CN"
 
 ## 快速上手
 
-环境是 TeX Live 与 Python 3。编译由 `latexmk` 调用 `pdflatex`，字体包 `sourcesanspro`、`inconsolata`、`fontawesome5` 在 TeX Live 的完整安装里都有；`pdfinfo` 与 `pdftoppm` 来自 poppler，只在检查页面尺寸和生成预览 PNG 时用到；`gallery_sheet.py` 与 `compare_sheet.py` 另外依赖 Pillow。
+环境是 TeX Live 与 Python 3。编译由 `latexmk` 调用 `pdflatex`，字体包 `sourcesanspro`、`inconsolata`、`fontawesome5` 在 TeX Live 的完整安装里都有；`pdfinfo` 与 `pdftoppm` 来自 poppler，只在检查页面尺寸和生成预览 PNG 时用到；`gallery_sheet.py` 另外依赖 Pillow。先跑一次 `scripts/check_env.py`，它把这些逐项查一遍，缺什么、缺了哪个脚本用不了都列出来。
 
 1. 把 `assets/cardfig.sty` 和 `assets/plotfig.sty` 复制到论文仓库的 `figures/` 目录。
 2. 从 `assets/examples/` 里挑与目标最接近的范例（下文每张范例图都能从选型表点到），复制为 `figures/name.tex`，替换数据与文字。没有合适范例时从 `assets/` 下的三个 `template*.tex` 骨架起手。
 3. 在论文仓库根目录运行构建脚本。它切到图所在目录调用 latexmk，清掉辅助文件，打印页面尺寸与宽度判定，再把 PNG 预览写到 `--png-dir`：
 
    ```bash
-   python path/to/tikz-card-figure/scripts/build_figure.py figures/name.tex --png-dir figures
+   python path/to/tikz-paper-figure/skills/tikz-paper-figure/scripts/build_figure.py figures/name.tex --png-dir figures
    ```
 
 4. 打开 PNG 看一遍，对照文末「构建与自检」的检查项修改。两三轮是正常的。
