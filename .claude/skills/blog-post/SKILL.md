@@ -280,6 +280,31 @@ lang: 'zh-CN'
 <img src="/images/xxx.png" style="height: 200px; width: auto;">
 ```
 
+按设计尺寸缩放显示的三个容器类定义在 `src/styles/markdown.css`，容器里仍写 Markdown 图片语法，图片优化与灯箱都保留。`figrow` 是双列网格，窄屏自动折成单列；`fig-half` 与 `fig-wide` 把单张图限制到栏宽的 52% 与 78% 并居中。容器标签与图片之间必须空一行，否则图片语法不会被解析：
+
+````markdown
+<div class="figrow">
+<div id="ex-a">
+
+![说明](./images/a.png)
+
+</div>
+<div>
+
+![说明](./images/b.png)
+
+</div>
+</div>
+
+<div class="fig-half">
+
+![说明](./images/c.png)
+
+</div>
+````
+
+`id` 可选，供正文里的 `[a](#ex-a)` 跳转。`tech/latex/tikz-paper-figure` 的 36 张范例图是这套用法的实例：论文里半栏宽的图两两并排，通栏图保持原宽。
+
 ## 扩展语法
 
 ### 提示框

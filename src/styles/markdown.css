@@ -126,3 +126,37 @@
     }
     
 }
+
+/* 配图排版。figrow：双列网格，窄屏自动折成单列；fig-half / fig-wide：半宽、四分之三宽居中。
+   容器里仍写 Markdown 图片语法，图片优化与灯箱不受影响。用法见 .claude/skills/blog-post/SKILL.md。 */
+.custom-md .figrow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 1rem;
+    align-items: start;
+    margin: 2em 0;
+}
+.custom-md .figrow p,
+.custom-md .figrow img,
+.custom-md .fig-half p,
+.custom-md .fig-half img,
+.custom-md .fig-wide p,
+.custom-md .fig-wide img {
+    margin: 0;
+}
+.custom-md .fig-half,
+.custom-md .fig-wide {
+    margin: 2em auto;
+}
+.custom-md .fig-half {
+    max-width: 52%;
+}
+.custom-md .fig-wide {
+    max-width: 78%;
+}
+@media (max-width: 640px) {
+    .custom-md .fig-half,
+    .custom-md .fig-wide {
+        max-width: 100%;
+    }
+}

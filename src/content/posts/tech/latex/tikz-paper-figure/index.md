@@ -1,5 +1,5 @@
 ---
-title: "TikZ 论文配图规范"
+title: "用 TikZ 统一论文配图：样式规范、模板与构建流程"
 published: 2026-09-07
 description: "用 standalone TikZ 文档统一论文配图：卡片式先导图、榜单条形图、pgfplots 数据图、多面板组合图四类模板，36 张范例，以及配色语义、几何预算、图表选型、构建自检和常见错误。样式包与脚本附打包下载。"
 image: "./images/teaser-points.png"
@@ -9,8 +9,23 @@ draft: false
 lang: "zh-CN"
 ---
 
+论文里的示意图和实验图往往由不同工具生成，字体、配色和尺寸各自为政。这里把常用的 TikZ 与 pgfplots 设置整理成一套可复用的模板：每张图先定下在论文里的最终尺寸，样式集中在两个包里管理，图文件只负责内容和数据。封面是卡片式先导图（teaser figure，论文首页的总览图），下面两张是数据图，同一套字体与配色。
+
+<div class="figrow">
+<div>
+
+![分组柱状图，每根柱上印数值，图例为一行色块](./images/grouped-bars.png)
+
+</div>
+<div>
+
+![训练损失曲线，对数纵轴，各随机种子为淡线，均值为实线](./images/training-curves.png)
+
+</div>
+</div>
+
 :::tip[打包下载]
-[tikz-card-figure.zip](/files/tikz-card-figure.zip)，2.0 MB，93 个文件：两个样式包、三个骨架、36 张范例的 `.tex` 源码与 PNG 渲染、七个 Python 脚本、五份参考文档。目录本身是一个 Claude Code skill，解包后置于 `~/.claude/skills/` 下即可使用；仅需模板库时取 `assets/` 和 `scripts/` 两个目录。
+[tikz-card-figure.zip](/files/tikz-card-figure.zip)，2.0 MB，93 个文件。只用模板时取 `assets/`（两个样式包、三个骨架、36 张范例的 `.tex` 源码与 PNG 渲染）和 `scripts/`（七个 Python 脚本）两个目录，用法见下文「快速上手」。整个目录同时是一个 Claude Code skill：解包后置于 `~/.claude/skills/` 下，Claude Code 画图时会按 `SKILL.md` 与 `references/` 五份文档里的规范执行。
 :::
 
 ## 配图的一致性问题
@@ -46,7 +61,7 @@ lang: "zh-CN"
    │   └── examples/         36 张成品图，每张含 .tex 源码与 PNG 渲染
    ├── references/
    │   ├── gallery.md        36 张图一页总览，每张写它回答什么问题
-   │   ├── principles.md     Wilke《Fundamentals of Data Visualization》的蒸馏稿
+   │   ├── principles.md     Wilke《Fundamentals of Data Visualization》的要点笔记
    │   ├── elements.md       每个构件的代码及其形状的依据
    │   ├── plots.md          图表选型、样式表、尺寸表、逐图配方
    │   └── pitfalls.md       编译与排版问题及其处理
@@ -62,6 +77,21 @@ lang: "zh-CN"
 
 论文仓库要自带这两个 `.sty` 的副本。Overleaf 只从仓库编译，读不到本机 texmf 树下的文件。编译只用到 `assets/` 里的两个 `.sty`，`SKILL.md` 和 `references/` 是文档。
 
+## 快速上手
+
+环境是 TeX Live 与 Python 3。编译由 `latexmk` 调用 `pdflatex`，字体包 `sourcesanspro`、`inconsolata`、`fontawesome5` 在 TeX Live 的完整安装里都有；`pdfinfo` 与 `pdftoppm` 来自 poppler，只在检查页面尺寸和生成预览 PNG 时用到；`gallery_sheet.py` 与 `compare_sheet.py` 另外依赖 Pillow。
+
+1. 把 `assets/cardfig.sty` 和 `assets/plotfig.sty` 复制到论文仓库的 `figures/` 目录。
+2. 从 `assets/examples/` 里挑与目标最接近的范例（下文每张范例图都能从选型表点到），复制为 `figures/name.tex`，替换数据与文字。没有合适范例时从 `assets/` 下的三个 `template*.tex` 骨架起手。
+3. 在论文仓库根目录运行构建脚本。它切到图所在目录调用 latexmk，清掉辅助文件，打印页面尺寸与宽度判定，再把 PNG 预览写到 `--png-dir`：
+
+   ```bash
+   python path/to/tikz-card-figure/scripts/build_figure.py figures/name.tex --png-dir figures
+   ```
+
+4. 打开 PNG 看一遍，对照文末「构建与自检」的检查项修改。两三轮是正常的。
+5. 主文件里写 `\graphicspath{{figures/}}`，正文用 `\includegraphics{name.pdf}` 引入，不带 `width` 选项。图按正文宽度设计，编译出来的尺寸就是最终尺寸。
+
 ## 四类模板的适用场景
 
 1. **卡片式先导图**：一行卡片，每张卡一个论点，一条具体例子贯穿全部卡片。用于 Figure 1、方法总览、流程分解。形态取自 SWE-bench、Spider 2.0、BIRD 的 Figure 1。
@@ -69,7 +99,7 @@ lang: "zh-CN"
 3. **pgfplots 数据图**：折线带置信带、训练曲线、scaling law、分组柱、点图、消融条形、瀑布图、漏斗图、哑铃图、斜率图、胜负条、配对散点、Pareto 散点、ROC 与 PR、校准图、热力图、直方图、ECDF、密度图、山脊图、箱线图、抖动点、边缘直方图散点、堆叠占比、环形图、树图、平行集、雷达图。用于实验分析与数据集统计。
 4. **多面板组合图**：小多图、共享横轴的上下双面板、局部放大插图、不同图型并排。用于一张图回答一组相关问题。
 
-选型依据来自 Claus Wilke 的《Fundamentals of Data Visualization》，蒸馏稿在 `references/principles.md`，每节附原书章节链接。书里对失败图的三档说法值得先记住：**ugly** 只是不好看但读得懂，**bad** 是感知层面出了问题（含糊、误导），**wrong** 是数学上错了（条的长度对不上它的数值）。三档都不沾的图才算合格。
+选型依据来自 Claus Wilke 的《Fundamentals of Data Visualization》，要点笔记在 `references/principles.md`，每节附原书章节链接。书的[导论](https://clauswilke.com/dataviz/introduction.html)对失败图有三档说法：**ugly** 只是不好看但读得懂，**bad** 是感知层面出了问题（含糊、误导），**wrong** 是数学上错了（条的长度对不上它的数值）。三档都不沾的图才算合格。
 
 ## 配色与字号
 
@@ -93,7 +123,7 @@ lang: "zh-CN"
 
 ### 半透明叠加用浅色
 
-平行集的色带、叠加的密度曲线、树图的分组各自要在重叠处混色。深色按 0.5 不透明度相加会发灰，所以这几张图不用调色板，改用 `setpink`、`setblue`、`setyellow` 等浅色，它们是从书里那张桥梁平行集上反推出来的底色：粉压蓝混出紫，蓝压黄混出绿。这类图里没有"本方法"，蓝色在其中不承载语义。
+平行集的色带、叠加的密度曲线、树图的分组各自要在重叠处混色。深色按 0.5 不透明度相加会发灰，所以这几张图不用调色板，改用 `setpink`、`setblue`、`setyellow` 等浅色，它们是从书里[嵌套比例一章](https://clauswilke.com/dataviz/nested-proportions.html)那张桥梁平行集上反推出来的底色：粉压蓝混出紫，蓝压黄混出绿。这类图里没有"本方法"，蓝色在其中不承载语义。
 
 有序分组（模型规模、难度档）用同一色相的明度梯队，例如 `kept!25` 到 `kept!85`；无序分组才用不同色相。
 
@@ -103,9 +133,9 @@ lang: "zh-CN"
 python scripts/palette_check.py --sty figures/plotfig.sty --only kept,addc,dbA,dbB,gold
 ```
 
-脚本按 Machado 2009 的矩阵模拟三类色盲，打出两两之间的 CIE76 色差与灰度明度。这套调色板实测：蓝与橙对任何观察者都安全；蓝与紫在绿色盲下色差只有 15；橙与金在红绿色盲下 2 到 6；五个色相的 L\* 全落在 40 到 58，黑白打印会变成同一片灰。调色板没有为此改动，卡片依赖它，代价由实心标记与直接标注来补：颜色从不是两个东西之间唯一的区别。书里明确反对用虚线区分数据线，虚线只留给参考线。
+脚本按 Machado 2009 的矩阵模拟三类色盲，打出两两之间的 CIE76 色差与灰度明度。这套调色板在该模拟下的结果：蓝与橙在三类模拟里都保持可分；蓝与紫在绿色盲模拟下色差只有 15；橙与金在红绿色盲模拟下 2 到 6；五个色相的 L\* 全落在 40 到 58，黑白打印会变成同一片灰。模拟比较的是大色块，细线和小标记比色块更难分辨，Wilke 在[色彩陷阱一章](https://clauswilke.com/dataviz/color-pitfalls.html)专门提到这一点，所以定稿前还要看一遍灰度渲染和线宽。调色板没有为此改动，卡片依赖它，代价由实心标记与直接标注来补，颜色在任何一张图里都不做两个序列之间唯一的区别。Wilke 在[冗余编码一章](https://clauswilke.com/dataviz/redundant-coding.html)的意见是虚线和点线带来视觉噪声，并让读者多做一次线型与图例的匹配；本模板据此把数据线全画成实线，虚线只留给参考线。
 
-字号：标题 8.5pt 粗体，正文 6.5 到 7pt，脚注带 6.3pt，下限 6pt。标识符（表名、列名、类名、文件名）用等宽字体，叙述文字用无衬线。
+字号：标题 8.5pt 粗体，正文 6.5 到 7pt，卡片底部的脚注带 6.3pt，下限 6pt。标识符（表名、列名、类名、文件名）用等宽字体，叙述文字用无衬线。
 
 ## 卡片式先导图
 
@@ -178,11 +208,19 @@ python scripts/palette_check.py --sty figures/plotfig.sty --only kept,addc,dbA,d
 
 ![三个阶段的卡片，带阶段箭头、外键、类框与图例](./images/pipeline-stages.png)
 
+<div class="fig-wide">
+
 ![输入与输出两张卡，含问题页、schema 表、SQL 代码框与结果表](./images/io-two-cards.png)
+
+</div>
 
 ## 榜单条形图
 
+<div id="ex-bench-bars">
+
 ![2 x 3 面板网格，每格一个基准，六个系统，本方法为蓝色条](./images/bench-bars.png)
+
+</div>
 
 目标形态是 2 x 3 的面板网格，每格一个基准名加六行，每行是系统名、小图标、灰色条、末端的等宽分数。本方法的条为蓝色。整张图没有坐标轴、刻度和网格线，所有条共用一个刻度 `\barmax`（百分数用 100），所以某一格里的短条表示分数低，与坐标轴无关。
 
@@ -237,142 +275,263 @@ python scripts/bars_from_csv.py results.csv --ours "Ours" --cols 2 --out figures
 
 | 段落要回答的问题 | 图表 | 范例 |
 |---|---|---|
-| 少数系统在少数基准上的绝对数值对比 | 分组柱，每根柱上印数值 | `grouped-bars` |
-| 本方法在众多基准上的排名 | 条形面板，见上一节 | `bench-bars` |
-| 数值都挤在窄区间里时的排名 | 截断坐标轴的点图，数值印在点旁 | `dots` |
-| 从完整系统里去掉某个部件，损失多少 | 消融条形，末端印分数与下降量，满配处一条参考线 | `ablation` |
-| 从基线逐步加上各部件，怎么累加到最终分数 | 瀑布图，首尾是从零起的整条，中间是悬浮的增量 | `waterfall` |
-| 数据构建的每个阶段还剩多少 | 漏斗条，按流程顺序排列，印计数与留存率 | `funnel` |
-| 各系统犯多少错，错在哪类 | 堆叠计数条，总数印在每叠之上 | `stacked-counts` |
+| 少数系统在少数基准上的绝对数值对比 | 分组柱，每根柱上印数值 | [`grouped-bars`](#ex-grouped-bars) |
+| 本方法在众多基准上的排名 | 条形面板，见上一节 | [`bench-bars`](#ex-bench-bars) |
+| 数值都挤在窄区间里时的排名 | 截断坐标轴的点图，数值印在点旁 | [`dots`](#ex-dots) |
+| 从完整系统里去掉某个部件，损失多少 | 消融条形，末端印分数与下降量，满配处一条参考线 | [`ablation`](#ex-ablation) |
+| 从基线逐步加上各部件，怎么累加到最终分数 | 瀑布图，首尾是从零起的整条，中间是悬浮的增量 | [`waterfall`](#ex-waterfall) |
+| 数据构建的每个阶段还剩多少 | 漏斗条，按流程顺序排列，印计数与留存率 | [`funnel`](#ex-funnel) |
+| 各系统犯多少错，错在哪类 | 堆叠计数条，总数印在每叠之上 | [`stacked-counts`](#ex-stacked-counts) |
 
 **增益与配对数据**
 
 | 段落要回答的问题 | 图表 | 范例 |
 |---|---|---|
-| 在十项以内的基准上相对基线提升了多少 | 哑铃图，须是增益的置信区间 | `dumbbell` |
-| 逐题看是否都有提升，还是整体平移 | 配对散点加 x = y 线，不画网格 | `parity` |
-| 两种条件之间谁涨了谁跌了，各多少 | 斜率图，一系统一条线，名字在左值在右 | `slope` |
-| 与各对手两两比较的胜率 | 居中的胜平负条，平局压在零上，胜向右负向左 | `win-tie-loss` |
+| 在十项以内的基准上相对基线提升了多少 | 哑铃图，须是增益的置信区间 | [`dumbbell`](#ex-dumbbell) |
+| 逐题看是否都有提升，还是整体平移 | 配对散点加 x = y 线，不画网格 | [`parity`](#ex-parity) |
+| 两种条件之间谁涨了谁跌了，各多少 | 斜率图，一系统一条线，名字在左值在右 | [`slope`](#ex-slope) |
+| 与各对手两两比较的胜率 | 居中的胜平负条，平局压在零上，胜向右负向左 | [`win-tie-loss`](#ex-win-tie-loss) |
 
 **随有序横轴的趋势**
 
 | 段落要回答的问题 | 图表 | 范例 |
 |---|---|---|
-| 若干系统的分数随数据量、算力或时间如何增长 | 折线加置信带，末端直接标名 | `curves-bands` |
-| 训练怎么收敛，不同随机种子散多少 | 对数纵轴的损失曲线，各次运行淡线压在均值之后 | `training-curves` |
-| 某指标是否服从幂律，能否预测下一个点 | 双对数散点，拟合线只画在拟合区间内，留出点画空心标记 | `scaling-law` |
-| 哪些系统的开销与质量相称 | 开销对质量散点加 Pareto 前沿 | `pareto` |
+| 若干系统的分数随数据量、算力或时间如何增长 | 折线加置信带，末端直接标名 | [`curves-bands`](#ex-curves-bands) |
+| 训练怎么收敛，不同随机种子散多少 | 对数纵轴的损失曲线，各次运行淡线压在均值之后 | [`training-curves`](#ex-training-curves) |
+| 某指标是否服从幂律，能否预测下一个点 | 双对数散点，拟合线只画在拟合区间内，留出点画空心标记 | [`scaling-law`](#ex-scaling-law) |
+| 哪些系统的开销与质量相称 | 开销对质量散点加 Pareto 前沿 | [`pareto`](#ex-pareto) |
 
 **分类器质量**
 
 | 段落要回答的问题 | 图表 | 范例 |
 |---|---|---|
-| 假正例与召回如何取舍，正例稀少时谁更好 | ROC 与 PR 并排，AUC 写进标注，随机水平为参考线 | `roc-pr` |
-| 模型给出的置信度是否诚实 | 可靠性图，各置信区间的准确率对 x = y 线，印出 ECE | `calibration` |
+| 假正例与召回如何取舍，正例稀少时谁更好 | ROC 与 PR 并排，AUC 写进标注，随机水平为参考线 | [`roc-pr`](#ex-roc-pr) |
+| 模型给出的置信度是否诚实 | 可靠性图，各置信区间的准确率对 x = y 线，印出 ECE | [`calibration`](#ex-calibration) |
 
 **分布**
 
 | 段落要回答的问题 | 图表 | 范例 |
 |---|---|---|
-| 某个统计量怎么分布（长度、每组条目数） | 直方图，小整数时一格一根柱 | `histogram-ecdf` (a) |
-| 重尾统计量在各系统上怎么分布 | 对数横轴的 ECDF，直接标名 | `histogram-ecdf` (b) |
-| 两三个分组之间同一统计量的差别 | 叠加的半透明密度曲线，峰顶标名，不要纵轴 | `densities` |
-| 沿有序变量看分布怎么移动，四档以上 | 山脊图，纵轴承载分组名 | `ridgeline` |
-| 每个系统数十条目的分数怎么散 | 箱线图，本方法为蓝 | `boxplots` |
-| 每个系统只有几次运行时怎么散（n 小于十） | 抖动点加四分位框与中位线 | `strips` |
-| 两个变量的关系，同时看各自的分布 | 散点加两侧边缘直方图 | `scatter-margins` |
+| 某个统计量怎么分布（长度、每组条目数） | 直方图，小整数时一格一根柱 | [`histogram-ecdf`](#ex-histogram-ecdf) (a) |
+| 重尾统计量在各系统上怎么分布 | 对数横轴的 ECDF，直接标名 | [`histogram-ecdf`](#ex-histogram-ecdf) (b) |
+| 两三个分组之间同一统计量的差别 | 叠加的半透明密度曲线，峰顶标名，不要纵轴 | [`densities`](#ex-densities) |
+| 沿有序变量看分布怎么移动，四档以上 | 山脊图，纵轴承载分组名 | [`ridgeline`](#ex-ridgeline) |
+| 每个系统数十条目的分数怎么散 | 箱线图，本方法为蓝 | [`boxplots`](#ex-boxplots) |
+| 每个系统只有几次运行时怎么散（n 小于十） | 抖动点加四分位框与中位线 | [`strips`](#ex-strips) |
+| 两个变量的关系，同时看各自的分布 | 散点加两侧边缘直方图 | [`scatter-margins`](#ex-scatter-margins) |
 
 **构成与占比**
 
 | 段落要回答的问题 | 图表 | 范例 |
 |---|---|---|
-| 每个分组由什么构成，只关心占比的漂移 | 100% 堆叠横条，每段印百分数 | `stacked-100` |
-| 数据集的单维构成，最多四块 | 环形图，总数放在中心 | `donuts` |
-| 两层嵌套的分类变量怎么切分总体 | 树图，分组给色相，条目给明度，印出数字 | `treemap` |
-| 三个以上分类变量之间怎么对应 | 平行集，色带按最左变量着色 | `flows` |
+| 每个分组由什么构成，只关心占比的漂移 | 100% 堆叠横条，每段印百分数 | [`stacked-100`](#ex-stacked-100) |
+| 数据集的单维构成，最多四块 | 环形图，总数放在中心 | [`donuts`](#ex-donuts) |
+| 两层嵌套的分类变量怎么切分总体 | 树图，分组给色相，条目给明度，印出数字 | [`treemap`](#ex-treemap) |
+| 三个以上分类变量之间怎么对应 | 平行集，色带按最左变量着色 | [`flows`](#ex-flows) |
 
 **矩阵与多维度**
 
 | 段落要回答的问题 | 图表 | 范例 |
 |---|---|---|
-| 任意方阵，例如每个源到每个目标的迁移，或超过三十个数的表 | 带数字的热力图，行按明确的准则排序 | `heatmap` |
-| 多项能力上的整体形状对比 | 雷达图，仅在正文讨论形状时使用 | `radar` |
+| 任意方阵，例如每个源到每个目标的迁移，或超过三十个数的表 | 带数字的热力图，行按明确的准则排序 | [`heatmap`](#ex-heatmap) |
+| 多项能力上的整体形状对比 | 雷达图，仅在正文讨论形状时使用 | [`radar`](#ex-radar) |
 
 印了数值的柱状图不需要 y 轴。带末端标注的折线图不需要图例。热力图在读者要引用其中数字时才把数字印上去。雷达图是伪装的图例，系统不超过三个，轴不超过六条。散点上的第三个数值变量写成标签或另开一格，不要用气泡大小，也不要加第三个轴。横轴不构成顺序时不要连线，改画柱或点。同一横轴上的两个量画成上下两格，不画双纵轴。
 
 ### 范例
 
-分组与上面的选型表一致。`references/gallery.md` 把全部 36 张排成一页，每张写它回答什么问题，`scripts/gallery_sheet.py` 把它们拼成一张总览图。
+分组与上面的选型表一致，图按论文里的设计宽度等比显示，半栏宽的图两两并排，点击看原图。`references/gallery.md` 把全部 36 张排成一页，每张写它回答什么问题，`scripts/gallery_sheet.py` 把它们拼成一张总览图。
 
 **数量与对比**
 
+<div class="figrow">
+<div id="ex-grouped-bars">
+
 ![分组柱状图，每根柱上印数值，图例为一行色块](./images/grouped-bars.png)
+
+</div>
+<div id="ex-dots">
 
 ![点图，数值集中在 84 到 92，坐标轴截断到数据范围，数值印在点旁](./images/dots.png)
 
+</div>
+</div>
+
+<div class="figrow">
+<div id="ex-ablation">
+
 ![消融条形图，满配为蓝条，各变体为灰条，末端印分数与橙色下降量](./images/ablation.png)
+
+</div>
+<div id="ex-waterfall">
 
 ![瀑布图，基线与最终分数为整条，中间四个部件为悬浮增量](./images/waterfall.png)
 
+</div>
+</div>
+
+<div class="figrow">
+<div id="ex-funnel">
+
 ![漏斗条形图，六个构建阶段按流程排列，印计数与留存率](./images/funnel.png)
+
+</div>
+<div id="ex-stacked-counts">
 
 ![堆叠计数柱状图，四类错误分层，总数印在每叠之上](./images/stacked-counts.png)
 
+</div>
+</div>
+
 **增益与配对数据**
+
+<div class="figrow">
+<div id="ex-dumbbell">
 
 ![哑铃图，成对圆点带增益的置信区间，提升量印在右侧](./images/dumbbell.png)
 
+</div>
+<div id="ex-parity">
+
 ![配对散点图，逐题对比基线与本方法，对角线为参考](./images/parity.png)
+
+</div>
+</div>
+
+<div class="figrow">
+<div id="ex-slope">
 
 ![斜率图，七个系统从零样本到微调各一条线，两条下降的为橙色](./images/slope.png)
 
+</div>
+<div id="ex-win-tie-loss">
+
 ![居中的胜平负条形图，平局压在零上，胜向右负向左，各段印百分数](./images/win-tie-loss.png)
+
+</div>
+</div>
 
 **随有序横轴的趋势**
 
+<div id="ex-curves-bands">
+
 ![两格折线图，带置信带、末端标注与一处注释](./images/curves-bands.png)
+
+</div>
+
+<div class="figrow">
+<div id="ex-training-curves">
 
 ![训练损失曲线，对数纵轴，各随机种子为淡线，均值为实线](./images/training-curves.png)
 
+</div>
+<div id="ex-scaling-law">
+
 ![双对数的 scaling law 图，拟合线只画在拟合区间，留出模型为空心标记](./images/scaling-law.png)
+
+</div>
+</div>
+
+<div id="ex-pareto" class="fig-half">
 
 ![Pareto 散点图，对数横轴，前沿为阶梯线，被支配区域浅蓝](./images/pareto.png)
 
+</div>
+
 **分类器质量**
+
+<div id="ex-roc-pr" class="fig-wide">
 
 ![ROC 与 PR 两格方图，三个分类器，AUC 写进标注](./images/roc-pr.png)
 
+</div>
+
+<div id="ex-calibration" class="fig-half">
+
 ![可靠性图，十个置信区间的准确率对角线偏低，印出 ECE](./images/calibration.png)
+
+</div>
 
 **分布**
 
+<div id="ex-histogram-ecdf">
+
 ![两格图，左为整数直方图，右为对数横轴的 ECDF](./images/histogram-ecdf.png)
+
+</div>
+
+<div class="figrow">
+<div id="ex-densities">
 
 ![三条叠加的密度曲线，浅色半透明，峰顶标名，无纵轴](./images/densities.png)
 
+</div>
+<div id="ex-ridgeline">
+
 ![山脊图，六档模型规模的分数分布逐档右移，明度递增](./images/ridgeline.png)
+
+</div>
+</div>
+
+<div class="figrow">
+<div id="ex-boxplots">
 
 ![横向箱线图，按中位数排序，本方法在最上为蓝色](./images/boxplots.png)
 
+</div>
+<div id="ex-strips">
+
 ![抖动点图，每行八次运行，浅色四分位框与深色中位线](./images/strips.png)
+
+</div>
+</div>
+
+<div id="ex-scatter-margins" class="fig-half">
 
 ![散点图，上方与右侧各带一个边缘直方图](./images/scatter-margins.png)
 
+</div>
+
 **构成与占比**
+
+<div id="ex-stacked-100" class="fig-wide">
 
 ![100% 堆叠横条，各段印百分数](./images/stacked-100.png)
 
+</div>
+
+<div id="ex-donuts">
+
 ![三个环形图，总数放在中心，扇区标签在外侧](./images/donuts.png)
+
+</div>
+
+<div id="ex-treemap" class="fig-half">
 
 ![树图，四个来源分组各一色相，组内条目按明度排列，印出名字与数量](./images/treemap.png)
 
+</div>
+
+<div id="ex-flows">
+
 ![平行集，四个变量四列，灰色节点条竖排名字，色带按最左变量着色](./images/flows.png)
+
+</div>
 
 **矩阵与多维度**
 
+<div class="figrow">
+<div id="ex-heatmap">
+
 ![带数字的迁移热力图，单色 colormap 加色带](./images/heatmap.png)
 
+</div>
+<div id="ex-radar">
+
 ![雷达图，多边形网格，三个系统半透明叠加](./images/radar.png)
+
+</div>
+</div>
 
 ### 尺寸
 
@@ -464,11 +623,20 @@ python scripts/treemap_from_csv.py data.csv --width 6.2 --height 4.2 --out figur
 
 小多图的共享项（`xmode`、刻度、`ymin`/`ymax`、轴标题）写在 `groupplot` 环境上，每个 `\nextgroupplot` 只带自己的数据与标题，刻度标签靠 `x descriptions at=edge bottom` 与 `y descriptions at=edge left` 收到外缘。图例只在第一格生成一次：那一格写 `legend to name=smlegend` 并逐个 `\addlegendentry`，网格之后用 `\node[anchor=south] at ($(group c2r1.north)+(0,0.55cm)$) {\pgfplotslegendfromname{smlegend}};` 摆出来。纵向间距要够放下下一行的标题。
 
+<div class="figrow">
+<div>
+
 ![上下两格共享横轴，上格为准确率，下格为开销](./images/stacked-panels.png)
 
-同一横轴上的两个量画成上下两格，横轴在底部设一次（`x descriptions at=edge bottom`），每格自己设高度、纵轴范围和 `y label top`。这是双纵轴图的替代画法，书里不用双纵轴。
+</div>
+<div>
 
 ![折线图右下角嵌入放大插图，主图上用细框标出被放大的区间](./images/inset-zoom.png)
+
+</div>
+</div>
+
+同一横轴上的两个量画成上下两格，横轴在底部设一次（`x descriptions at=edge bottom`），每格自己设高度、纵轴范围和 `y label top`。这是双纵轴图的替代画法，书里不用双纵轴。
 
 插图是第二个坐标系，用 `at={(main.south east)}, anchor=south east` 加位移摆进主图，要 `clip=true`（`paper` 默认 `clip=false`）、白色背景、`axis lines*=box` 的细灰边框和 5.5pt 刻度，曲线颜色与主图一致。主图上用细灰矩形标出被放大的区间，连接线在两个坐标系都画完之后再从存好的 `\coordinate` 画出。插图压住曲线时换一个角。
 
