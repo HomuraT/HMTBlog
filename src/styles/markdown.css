@@ -161,19 +161,31 @@
     }
 }
 
-/* Compact article galleries: overview and decorative art retain lightbox access. */
+/* Compact article galleries and shallow opening banners. */
 .custom-md .figure-gallery {
     max-width: 34rem;
     margin: 1.5rem auto;
 }
-.custom-md .figure-aside {
-    width: 72%;
-    max-width: 20rem;
-    margin: 2rem auto 1rem;
+.custom-md .figure-banner {
+    margin: 0 0 2rem;
+    overflow: hidden;
+    border-radius: 0.75rem;
+}
+.custom-md .figure-banner img {
+    width: 100%;
+    aspect-ratio: 3.5 / 1;
+    object-fit: cover;
+    object-position: center 35%;
+    height: auto;
+}
+@media (max-width: 640px) {
+    .custom-md .figure-banner img {
+        aspect-ratio: 2.5 / 1;
+    }
 }
 .custom-md .figure-gallery p,
 .custom-md .figure-gallery img,
-.custom-md .figure-aside p,
-.custom-md .figure-aside img {
+.custom-md .figure-banner p,
+.custom-md .figure-banner img {
     margin: 0;
 }

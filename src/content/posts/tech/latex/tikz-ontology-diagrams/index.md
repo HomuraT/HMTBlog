@@ -9,6 +9,12 @@ draft: false
 lang: "zh-CN"
 ---
 
+<div class="figure-banner">
+
+![晓美焰与紫色节点连线组成的关系网络](./images/homura.png)
+
+</div>
+
 `tikz-paper-figure` 的 ontology 扩展收录了 9 个示例：3 张常见本体记法图，以及 6 张使用 `softontology.sty` 的说明性关系图。图册覆盖类、实例、属性值、映射与数据来源，便于按要表达的关系选择模板。
 
 ## 图册总览
@@ -36,14 +42,6 @@ lang: "zh-CN"
 RDF 的数据模型可参照 [W3C RDF 1.1 Primer](https://www.w3.org/TR/rdf11-primer/#section-triple)，VOWL 的实现参考 [WebVOWL 项目](https://github.com/VisualDataWeb/WebVOWL)。柔和风格示例采用局部图例说明节点与边的角色，`soft` 指视觉处理，不涉及模糊本体或概率语义。
 
 `softontology.sty` 集中定义类、实体、字面量、引用和关系的外观。密集示例通过按角色分行、集中共享节点、错开入边锚点与预留折线路径来减少拥挤。三张密集图各含 26–28 个内容节点，计数包括字面量，不含标题和图例；同样的节点数换成不规则拓扑，仍需重新安排版面。
-
-<div class="figure-aside">
-
-![AI 生成的晓美焰主题插画，角色旁有抽象节点与连线，作为关系图册的装饰](./images/homura.png)
-
-</div>
-
-*晓美焰主题插画由 AI 生成；背景网络为装饰性图案。*
 
 ## 快速使用
 

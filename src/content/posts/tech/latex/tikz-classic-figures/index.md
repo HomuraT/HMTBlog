@@ -9,6 +9,12 @@ draft: false
 lang: "zh-CN"
 ---
 
+<div class="figure-banner">
+
+![晓美焰在手稿旁绘制曲线，背景有紫色坐标图](./images/homura.png)
+
+</div>
+
 `tikz-paper-figure` 的 classic 扩展收录了 18 个科学数据图示例。DejaVu Sans 字体、tab10 配色、四边框与图例样式统一放进 `classicfig.sty`，便于给已有 Python 图补充风格接近的 TikZ 配图。
 
 ## 图册总览
@@ -37,14 +43,6 @@ lang: "zh-CN"
 classic 是本项目的名称，取用了 Matplotlib 2 以后默认外观的若干特征。Matplotlib 自身的 `plt.style.use('classic')` 恢复的是 1.x 风格，参见[官方样式变更说明](https://matplotlib.org/2.0.0/users/dflt_style_changes.html)。原有 `plotfig.sty` 则采用 Source Sans Pro 与固定语义配色，两套样式适合不同的论文配图语境。
 
 数据计算与版面安排分开处理：NumPy 计算拟合、残差、核密度和箱线统计；pgfplots 绘制数据、文字与面板。较长序列写入 `.dat` 文件，部分短坐标、拟合参数和统计量仍需从脚本输出手工粘贴到 TeX。数据变化后，应一并核对参数框和文字，现有流程没有自动同步所有数值。
-
-<div class="figure-aside">
-
-![AI 生成的晓美焰主题插画，角色旁有抽象科学曲线，作为图册点缀而非实验结果](./images/homura.png)
-
-</div>
-
-*晓美焰主题插画由 AI 生成；画面中的曲线仅作装饰。*
 
 ## 快速使用
 
