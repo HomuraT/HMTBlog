@@ -1,7 +1,8 @@
 ---
 title: "用 TikZ 统一论文配图：样式规范、模板与构建流程"
 published: 2026-09-07
-description: "用 standalone TikZ 文档统一论文配图：卡片式先导图、榜单条形图、pgfplots 数据图、多面板组合图四类模板，36 张范例，以及配色语义、几何预算、图表选型、构建自检和常见错误。样式包与脚本附打包下载。"
+updated: 2026-09-30
+description: "用 standalone TikZ 文档统一论文配图：卡片式先导图、榜单条形图、pgfplots 数据图、多面板组合图四类模板，36 张范例，以及配色语义、几何预算、图表选型、构建自检和常见错误。样式包与脚本见 GitHub 仓库。"
 image: "./images/teaser-points.png"
 tags: ["LaTeX", "工具笔记"]
 category: "技术笔记"
@@ -26,6 +27,10 @@ lang: "zh-CN"
 
 :::tip[获取方式]
 样式包、模板、范例和脚本都在 GitHub 仓库 [HomuraT/tikz-paper-figure](https://github.com/HomuraT/tikz-paper-figure)。只用模板时取 `skills/tikz-paper-figure/assets/`（两个样式包、三个骨架、36 张范例的 `.tex` 源码与 PNG 渲染）和同级的 `scripts/`（八个 Python 脚本）两个目录，用法见下文「快速上手」。`skills/tikz-paper-figure/` 整个目录是一个 Claude Code skill：复制到 `~/.claude/skills/` 下，Claude Code 画图时会按 `SKILL.md` 与 `references/` 五份文档里的规范执行。仓库另有两个跑通的完整案例（`examples/`）和三条验收任务（`tests/`）。
+:::
+
+:::note[版本记录]
+本文的两个样式包与 36 张范例对应 v0.1.0 的 house 风格。后续新增的 18 张 classic 示例见 [Matplotlib 风格的科学配图](/posts/tech/latex/tikz-classic-figures/)，9 张本体与关系图见 [本体与 RDF 配图](/posts/tech/latex/tikz-ontology-diagrams/)。v0.2.2 共包含 63 张范例，新文分别说明新增样式、数据流程和布局。
 :::
 
 ## 配图的一致性问题
