@@ -160,3 +160,20 @@
         max-width: 100%;
     }
 }
+
+/* Compact article galleries: overview and decorative art retain lightbox access. */
+.custom-md .figure-gallery {
+    max-width: 34rem;
+    margin: 1.5rem auto;
+}
+.custom-md .figure-aside {
+    width: 72%;
+    max-width: 20rem;
+    margin: 2rem auto 1rem;
+}
+.custom-md .figure-gallery p,
+.custom-md .figure-gallery img,
+.custom-md .figure-aside p,
+.custom-md .figure-aside img {
+    margin: 0;
+}
