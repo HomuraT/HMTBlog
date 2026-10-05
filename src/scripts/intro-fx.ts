@@ -48,7 +48,9 @@ function openExternalInNewTab(md: Element): void {
 
 		const isExternal = target.origin !== location.origin;
 		// 站内的附件（CV 的 PDF）也开新标签，站内页面则保留 swup 转场
-		const isAsset = /\.(pdf|zip|png|jpe?g|gif|svg|webp)$/i.test(target.pathname);
+		const isAsset = /\.(pdf|zip|png|jpe?g|gif|svg|webp)$/i.test(
+			target.pathname,
+		);
 		if (!isExternal && !isAsset) continue;
 
 		a.setAttribute("target", "_blank");
@@ -132,7 +134,9 @@ function enhance(md: HTMLElement): void {
 	// 开头三段简介
 	for (const p of hero.querySelectorAll(":scope > p")) reveal(p);
 
-	for (const section of hero.querySelectorAll<HTMLElement>(":scope > section")) {
+	for (const section of hero.querySelectorAll<HTMLElement>(
+		":scope > section",
+	)) {
 		const id = section.querySelector(":scope > h2")?.id ?? "";
 
 		const heading = section.querySelector(":scope > h2");
@@ -201,7 +205,7 @@ export function initIntroEffects(): void {
 
 	observer?.disconnect();
 	observer = new IntersectionObserver(
-		entries => {
+		(entries) => {
 			for (const e of entries) {
 				if (!e.isIntersecting) continue;
 				e.target.classList.add("is-in");
