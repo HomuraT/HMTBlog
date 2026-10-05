@@ -18,7 +18,8 @@ Status: Reading
 organization: University of Toronto, University of Waterloo, Vector Institute  
 publisher : ICLR  
 year: 2023  
-code: https://github.com/keirp/automatic\_prompt\_engineer  
+code: [automatic_prompt_engineer](https://github.com/keirp/automatic_prompt_engineer)
+
 paper: https://sites.google.com/view/automatic-prompt-engineer
 
 # 介绍

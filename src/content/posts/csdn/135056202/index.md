@@ -27,7 +27,7 @@ year: 2018
 
 code: https://github.com/malllabiisc/cesi
 
-paper: http://malllabiisc.github.io/publications/papers/cesi\_www18.pdf
+paper: [CESI 论文 PDF](https://malllabiisc.github.io/publications/papers/cesi_www18.pdf)
 
 # 介绍
 
@@ -66,7 +66,7 @@ paper: http://malllabiisc.github.io/publications/papers/cesi\_www18.pdf
 
 ![](/images/csdn/4447ea6bb7cc49cce95fd4e4.png)
 
-𝜂是三元组得分，*ηi*![](/images/csdn/2b994e7d4482834e502fc2a3.png) 是正样本，*ηj*![](/images/csdn/3d3ec931c9bb4285dcfe1351.png) 是负样本；*ev*![](/images/csdn/3e3e3997c19b5a03dc4fef8c.png) 和*e**v'*![](/images/csdn/fb25974d269c83c9b678891b.png) 是等价信息，因此尝试拉近距离，*r*![](/images/csdn/5df844c862f2621507244b71.png) 同理；最后是正则化损失函数。
+$\eta$ 是三元组得分，$\eta_i$ 和 $\eta_j$ 分别对应正、负样本；$e_v$ 和 $e_{v'}$ 是等价实体的嵌入，因此尝试拉近它们的距离，关系嵌入 $r$ 同理；最后是正则化损失函数。
 
 # 评价指标
 
@@ -78,13 +78,13 @@ C表示预测出来的簇，E表示完全正确的簇。样例如下：
 
 ![](/images/csdn/e3352314f4c3660d20a11637.png)
 
-大致意思是，如果一个簇中指包含一个概念，则视为正确的簇，可以不全，但不能有其他概念，如例子中的*c2*![](/images/csdn/4fecca34b31f6c3bd359dbeb.png) 和*c3*![](/images/csdn/6d8c5ab81cf74482ee8e124e.png) 为正确的簇，其中*c2*![](/images/csdn/deddb11f84358daa398c0a8f.png) 虽然少了一个New York City，但没有其他概念。相比之下*c1*![](/images/csdn/fd0ef2863619137bc522e079.png) 因为包含了两个概念，所以不算正确的簇。
+大致意思是，如果一个簇中只包含一个概念，则视为正确的簇，可以不全，但不能有其他概念，如例子中的 $c_2$ 和 $c_3$ 为正确的簇，其中 $c_2$ 虽然少了一个 New York City，但没有其他概念。相比之下，$c_1$ 因为包含了两个概念，所以不算正确的簇。
 
 ## Micro
 
 ![](/images/csdn/1f0ebe0e1d4f4add4584443f.png)
 
-大致意思为，统计每个预测簇中包含的最多概念的个数并求和。比如，*c1*![](/images/csdn/6e88ffd4a4f368d2c6b66761.png) 中包含两个概念*e1*![](/images/csdn/8fa19ed1bc09e11471ebd439.png) 和*e2*![](/images/csdn/ef58ea1711100efc5bfa9a73.png) ，但*e1*![](/images/csdn/9a7e58d2258d83707bc30d2b.png) 数量多，因此只统计*e1*![](/images/csdn/8c5d16702d1fa252eaa51dd6.png) 的个数，即2个。
+大致意思为，统计每个预测簇中包含的最多概念的个数并求和。比如，$c_1$ 中包含两个概念 $e_1$ 和 $e_2$，但 $e_1$ 数量多，因此只统计 $e_1$ 的个数，即 2 个。
 
 ## Pairwise
 
@@ -92,9 +92,9 @@ C表示预测出来的簇，E表示完全正确的簇。样例如下：
 
 大致意思是，穷举每个簇中的所有概念对组合（不看顺序，顺序颠倒不算额外概念对），统计其中属于同一个概念的数量。
 
-P的分母是按照C的结果计算总体概念对的数量（*C**2c*![](/images/csdn/b715b191f5dcbc716106aae2.png) ），R的结果是按照标准答案计算总体概念对数量（*C**2e*![](/images/csdn/c38dcfedead63a57ba4b57c8.png) ）；P和R的分子是相同的。
+$P$ 的分母是按预测簇 $C$ 计算的总体概念对数量，即 $\sum_{c \in C}\binom{|c|}{2}$；$R$ 的分母是按标准答案簇 $E$ 计算的总体概念对数量，即 $\sum_{e \in E}\binom{|e|}{2}$。$P$ 和 $R$ 的分子相同，都是预测簇中属于同一个真实概念的配对数量。
 
-对于*c1*![](/images/csdn/405eb35aa48359efdaf51ad3.png) ，有3个元素，可以组成*C**2**3=3*![](/images/csdn/eed05c19f4e4ac9a4ea4c4d3.png) 个组合{(America, USA), (America, New York City), (USA, New York City)}，但只有(America, USA)属于同一个概念，因此计数1；同样，对于*c2*![](/images/csdn/9c65fd2c606d81b63b3868ab.png) ，也有三种组合，且三种组合都属于同一个概念，因此计数3；对于*c3*![](/images/csdn/c982373cd01b5a92f96218c5.png) ，由于簇中只有一个元素，因此没有组合。
+对于 $c_1$，有 3 个元素，可以组成 $\binom{3}{2}=3$ 个组合 {(America, USA), (America, New York City), (USA, New York City)}，但只有 (America, USA) 属于同一个概念，因此计数 1；同样，对于 $c_2$，也有三种组合，且三种组合都属于同一个概念，因此计数 3；对于 $c_3$，由于簇中只有一个元素，因此没有组合。
 
 那么分子就是 1+3+0=4。
 
