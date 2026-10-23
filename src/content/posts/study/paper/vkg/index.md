@@ -28,7 +28,13 @@ LLM4VKG 利用大语言模型自动化 VKG 构建过程，包括本体开发、�
 - [2025] Kosten, C., Lanti, D., Cudré-Mauroux, P., & Stockinger, K. (2025, June). <a href="https://digitalcollection.zhaw.ch/server/api/core/bitstreams/0d11c310-c829-4f58-9a02-2021840f4604/content"><i>Bootstrapping Text-to-SQL Resources for Knowledge Graph Question Answering</i></a>. In 2025 IEEE Swiss Conference on Data Science (SDS) (pp. 8-15). IEEE.
 本文展示如何将数据库社区现有的 SQL 和关系数据库资源转换为 SPARQL 和知识图谱问答（KGQA）基准测试，通过扩展 Ontop VKG 系统的 bootstrapper 开发 MPBoot 工具，利用 R2RML 的灵活性克服 Direct Mapping 的局限性，基于查询负载分析学习 KG 的丰富模式信息，创建了目前规模最大且最复杂的 KGQA 基准测试，并演示了该方法在 ScienceBenchmark 数据集上的应用。
 
+# VKG 增强 (VKG Enrichment)
+- [2026] Ren, L., Xiao, G., Qi, G., Du, W., Geng, Y., Xue, H., Yue, Z., Li, M., Di Panfilo, M., Lanti, D., Hamaz, K., & Ding, L. (2026). <a href="https://www.ijcai.org/proceedings/2026/0448.pdf"><i>Information-Needs-Guided Virtual Knowledge Graph Enrichment via Large Language Models</i></a>. In Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI) (pp. 4026-4034).
+面向部署后不断变化的信息需求，该工作提出信息需求引导的虚拟知识图谱增强任务（IN-VKGE），利用大语言模型与 SPARQL 执行反馈迭代判断现有图谱能否满足需求，并生成本体和映射的增强建议。在两个真实 VKG 上的实验表明，该框架优于现有方法，所生成建议也获得了较高的专家评价。
+
 # VKG 问答
+- [2026] Xiao, G., Xue, H., Ren, L., Geng, Y., Qi, G., Zhang, S., Guo, D., Di Panfilo, M., Lanti, D., & Ding, L. (2026). <a href="https://www.ijcai.org/proceedings/2026/0455.pdf"><i>NaVQA: Mitigating Silent Failures in Question Answering over Virtual Knowledge Graph</i></a>. In Proceedings of the 35th International Joint Conference on Artificial Intelligence (IJCAI) (pp. 4088-4096).
+NaVQA 针对 VKG 问答中因使用未映射本体元素而产生空结果的“静默失败”，利用映射信息识别并索引活跃本体元素，再借助大语言模型迭代构建查询图，生成 SPARQL 查询。在三个真实 VKG 上的实验表明，该方法有效缓解静默失败，并优于现有基线。
 - [2025] Feng, Y., Zhang, P., Xiao, G., Ding, L., & Meng, L. (2025). <a href="https://arxiv.org/pdf/2503.14251"><i>Towards a Barrier-free GeoQA Portal: Natural Language Interaction with Geospatial Data Using Multi-Agent LLMs and Semantic Search</i></a>. International Journal of Applied Earth Observation and Geoinformation.
 提出一个无障碍地理问答门户，通过多智能体 LLM 框架实现自然语言交互，将复杂查询分解为子任务并分配给不同智能体处理,支持默认和自定义数据输入,并基于语义搜索提高数据检索的容错性,降低非专家用户使用地理信息门户的门槛。
 
@@ -75,6 +81,18 @@ VKG 在德国地形数据集成中的应用，通过 ATKIS-DLM-KG 框架将 ATKI
 ::github{repo="HomuraT/LLM4VKG"}
 :::note
 IJCAI2025论文LLM4VKG: Leveraging large language models for virtual knowledge graph construction的仓库
+:::
+
+## IN-VKGEnrichment
+::github{repo="HomuraT/IN-VKGEnrichment"}
+:::note
+IJCAI 2026 论文 Information-Needs-Guided Virtual Knowledge Graph Enrichment via Large Language Models 的代码与数据。
+:::
+
+## NaVQA
+::github{repo="TheX1ay/NaVQA"}
+:::note
+IJCAI 2026 论文 NaVQA: Mitigating Silent Failures in Question Answering over Virtual Knowledge Graph 的代码与数据。
 :::
 
 ## GeoQA
