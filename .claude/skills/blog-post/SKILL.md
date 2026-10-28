@@ -614,7 +614,7 @@ Astro 总是把 `<style>` 抽成 `<head>` 里的 `<link rel="stylesheet">`，而
 | `src/styles/magic.css` | 主题色 `--homura` `--madoka` `--gem-gold`，`.magic-card` 毛玻璃与指针光斑，时停样式 |
 | `src/scripts/magic/` | `ambient.ts` 常驻特效（只初始化一次）、`home-hero.ts` + `soul-gem.ts` 首页主视觉（three.js 按需加载）、`time-stop.ts` 时间停止、`lifecycle.ts` 页面生命周期 |
 
-`public/images/fx/` 下的素材由 codex 生成：表盘、齿轮组、结界拼贴、蔷薇缎带是黑线白底的线稿，处理成「白色 + 透明度」的 webp 遮罩，用 `.mbg-art` 加 `--src` / `--art` 两个变量上色，颜色跟随主题；四根黑羽是透明底的彩色图，由 `ambient.ts` 画到画布上。换素材时保持同样的格式即可，不用改代码。
+`public/images/fx/` 下的素材由 codex 生成：焰的沙漏盾与三根指针、齿轮组、Homulilly 结界拼贴、页脚花饰是黑线白底的线稿，处理成「白色 + 透明度」的 webp 遮罩，用 `.mbg-art` 加 `--src` / `--art` 两个变量上色，颜色跟随主题；四根黑羽是透明底的彩色图，由 `ambient.ts` 画到画布上。换素材时保持同样的格式即可，不用改代码。
 
 卡片要有指针光斑，在 `card-base` 旁边加 `magic-card` 类即可。别加在导航栏里的卡片上：`magic-card` 带 `backdrop-filter`，会让里面 `position: fixed` 的浮动面板定位错乱。
 

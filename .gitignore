@@ -1,6 +1,9 @@
 # build output
 dist/
 
+# 本地参考资料（设定 PDF、截图等），不进仓库
+/resources/
+
 # LaTeX build artifacts (cv/)
 # Note: only cv/*.pdf is ignored, NOT public/docs/*.pdf -- the installed copy
 # at public/docs/Lin-Ren-CV.pdf must stay in the repo, since Cloudflare Pages
