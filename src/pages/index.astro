@@ -12,7 +12,7 @@ import { getPostUrlBySlug, url } from "../utils/url-utils";
 // 用不过滤草稿的全集来解析 slug，这样写错的 slug 和「指向了草稿」这两种情况
 // 能报出不一样的信息，而不是笼统地说「找不到」。
 const allPosts = await getCollection("posts");
-const bySlug = new Map(allPosts.map((p) => [p.slug, p]));
+const bySlug = new Map(allPosts.map((p) => [p.id, p]));
 
 interface ResolvedLink {
 	href: string;
@@ -36,7 +36,7 @@ function resolveLink(link: HomeLink): ResolvedLink {
 		}
 
 		return {
-			href: getPostUrlBySlug(entry.slug),
+			href: getPostUrlBySlug(entry.id),
 			title: link.title ?? entry.data.title,
 			external: false,
 		};

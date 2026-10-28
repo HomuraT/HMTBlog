@@ -1,0 +1,5 @@
+/* 原先由 @astrojs/tailwind 集成自动注入（它不支持 Astro 7），现在由 Layout.astro 显式引入，
+   Tailwind 本身仍通过 postcss.config.mjs 运行。 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -31,6 +31,11 @@ export function getCategoryUrl(category: string | null): string {
 	return url(`/archive/?category=${encodeURIComponent(category.trim())}`);
 }
 
+/** 文章源文件所在目录（相对 src/content/posts/），供封面等相对路径图片解析 */
+export function getPostDir(filePath: string | undefined): string {
+	return getDir((filePath ?? "").replace(/^(\.\/)?src\/content\/posts\//, ""));
+}
+
 export function getDir(path: string): string {
 	const lastSlashIndex = path.lastIndexOf("/");
 	if (lastSlashIndex < 0) {

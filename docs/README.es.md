@@ -19,7 +19,7 @@ Un tema estático para blogs construido con [Astro](https://astro.build).
 
 ## 👀 requiere
 
-- Node.js <= 22
+- Node.js >= 22.23.4
 - pnpm <= 9
 
 ## 🚀 Cómo Usar 1

@@ -1,6 +1,10 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 
+// id 沿用 Astro 默认规则（逐段 slug 化、去掉 index.md），与旧版 entry.slug 一致，文章 URL 不变
 const postsCollection = defineCollection({
+	loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
 	schema: z.object({
 		title: z.string(),
 		published: z.date(),
@@ -20,6 +24,7 @@ const postsCollection = defineCollection({
 	}),
 });
 const specCollection = defineCollection({
+	loader: glob({ pattern: "**/*.md", base: "./src/content/spec" }),
 	schema: z.object({}),
 });
 export const collections = {

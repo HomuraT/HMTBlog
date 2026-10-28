@@ -12,6 +12,7 @@ description: 在本博客(Fuwari/Astro)中新建或编辑文章、新增独立�
 ```bash
 pnpm new-post tech/server/nginx调优   # 建文件并生成 frontmatter，支持多级目录
 pnpm dev                              # 本地预览 http://localhost:4321
+pnpm astro dev stop                   # Astro 7 的 dev server 在后台运行，用完要手动停；status / logs 查看状态和日志
 pnpm build                            # 推送前自检，能提前发现 frontmatter 错误
 git add . && git commit -m "post: xxx" && git push origin main
 ```
@@ -45,7 +46,7 @@ src/content/posts/
 
 ## Frontmatter
 
-schema 定义在 `src/content/config.ts`，用 zod 校验，**写错会直接导致构建失败**（线上保持原样不更新）。
+schema 定义在 `src/content.config.ts`（Astro 7 的 Content Layer，`glob` 加载器），用 zod 校验，**写错会直接导致构建失败**（线上保持原样不更新）。
 
 ```yaml
 ---
