@@ -5,6 +5,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
+import MagicBackground from "@components/fx/MagicBackground.astro";
 import { profileConfig, siteConfig } from "@/config";
 import {
 	AUTO_MODE,
@@ -20,6 +21,7 @@ import { defaultFavicons } from "../constants/icon";
 import type { Favicon } from "../types/config";
 import { pathsEqual, url } from "../utils/url-utils";
 import "katex/dist/katex.css";
+import "../styles/magic.css";
 
 interface Props {
 	title?: string;
@@ -153,6 +155,7 @@ const bannerOffset =
 		  data-overlayscrollbars-initialize
 	>
 		<ConfigCarrier></ConfigCarrier>
+		<MagicBackground></MagicBackground>
 		<slot />
 
 		<!-- increase the page height during page transition to prevent the scrolling animation from jumping -->
@@ -212,6 +215,8 @@ import {
 	MAIN_PANEL_OVERLAPS_BANNER_HEIGHT
 } from "../constants/constants";
 import { siteConfig } from '../config';
+import { initAmbient, refreshAmbient } from "../scripts/magic/ambient";
+import { endPage, pageSignal } from "../scripts/magic/lifecycle";
 
 /* Preload fonts */
 // (async function() {
@@ -378,6 +383,12 @@ async function loadPageEffects() {
 		const { initIntroEffects } = await import('../scripts/intro-fx')
 		initIntroEffects()
 	}
+	const hero = document.getElementById('magic-hero')
+	if (hero) {
+		const { initHomeHero } = await import('../scripts/magic/home-hero')
+		initHomeHero(hero, pageSignal())
+	}
+	refreshAmbient()
 }
 
 function init() {
@@ -386,6 +397,7 @@ function init() {
 	loadHue();
 	initCustomScrollbar();
 	showBanner();
+	initAmbient();
 	loadPageEffects();
 }
 
@@ -423,6 +435,8 @@ const setup = () => {
 		}
 	})
 	window.swup.hooks.on('content:replace', initCustomScrollbar)
+	// 旧页面的特效（渲染循环、监听器）在 DOM 被换掉之前收尾
+	window.swup.hooks.on('content:replace', endPage, { before: true })
 	window.swup.hooks.on('visit:start', (visit: {to: {url: string}}) => {
 		// change banner height immediately when a link is clicked
 		const bodyElement = document.querySelector('body')

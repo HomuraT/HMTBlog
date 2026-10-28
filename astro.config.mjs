@@ -157,6 +157,8 @@ export default defineConfig({
 	},
 	vite: {
 		build: {
+			// 首页灵魂宝石的 three.js chunk 约 600 kB（gzip 150 kB），只在首页按需加载
+			chunkSizeWarningLimit: 700,
 			rolldownOptions: {
 				onwarn(warning, warn) {
 					// temporarily suppress this warning

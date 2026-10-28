@@ -1,0 +1,38 @@
+---
+/**
+ * 全站魔法背景：极光、结界菱格、魔女结界拼贴、魔法时钟与齿轮、飘落的黑羽。
+ *
+ * 放在 Layout 的 <body> 下、swup 容器之外，换页时保留，不会重新初始化。
+ * 表盘、齿轮、结界拼贴是 public/images/fx/ 下的单色线稿，在 magic.css 里当 mask 用，
+ * 颜色随主题变量变化。三根花式指针按真实时间走动，羽毛画在 #mbg-feathers 上，
+ * 二者都由 src/scripts/magic/ambient.ts 驱动。
+ */
+---
+
+<div id="magic-bg" aria-hidden="true">
+	<div class="mbg-aurora"></div>
+	<div class="mbg-lattice"></div>
+	<div class="mbg-art mbg-barrier"></div>
+	<div class="mbg-art mbg-cog"></div>
+
+	<div class="mbg-clock">
+		<div class="mbg-art mbg-clock-face"></div>
+		<!-- 花式指针也是线稿遮罩，ambient.ts 按本地时间设置 transform -->
+		<div id="mbg-hour" class="mbg-art mbg-hand mbg-hand-hour"></div>
+		<div id="mbg-minute" class="mbg-art mbg-hand mbg-hand-minute"></div>
+		<div id="mbg-second" class="mbg-art mbg-hand mbg-hand-second"></div>
+	</div>
+
+	<canvas id="mbg-feathers"></canvas>
+</div>
+
+<div id="reading-progress" aria-hidden="true"><span></span></div>
+<div id="fx-shards" aria-hidden="true"></div>
+
+<div id="time-stop-layer" aria-hidden="true">
+	<div class="ts-dial">
+		<div class="mbg-art ts-face"></div>
+		<div class="mbg-art mbg-hand mbg-hand-minute ts-hand"></div>
+	</div>
+	<p class="ts-caption">時間停止</p>
+</div>

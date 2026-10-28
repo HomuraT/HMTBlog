@@ -604,6 +604,22 @@ Astro 总是把 `<style>` 抽成 `<head>` 里的 `<link rel="stylesheet">`，而
 
 真实案例：`src/pages/intro.astro` + `src/scripts/intro-fx.ts` + `Layout.astro` 的 `loadPageEffects()` 就是按这个结构修出来的，可直接照抄。
 
+### 魔法少女主题特效
+
+全站的小圆/晓美焰特效分三块，改动前先看对应文件：
+
+| 文件 | 内容 |
+|---|---|
+| `src/components/fx/MagicBackground.astro` | swup 容器外的常驻层：魔法时钟、齿轮、菱格、黑羽画布、阅读进度条、时停层 |
+| `src/styles/magic.css` | 主题色 `--homura` `--madoka` `--gem-gold`，`.magic-card` 毛玻璃与指针光斑，时停样式 |
+| `src/scripts/magic/` | `ambient.ts` 常驻特效（只初始化一次）、`home-hero.ts` + `soul-gem.ts` 首页主视觉（three.js 按需加载）、`time-stop.ts` 时间停止、`lifecycle.ts` 页面生命周期 |
+
+`public/images/fx/` 下的素材由 codex 生成：表盘、齿轮组、结界拼贴、蔷薇缎带是黑线白底的线稿，处理成「白色 + 透明度」的 webp 遮罩，用 `.mbg-art` 加 `--src` / `--art` 两个变量上色，颜色跟随主题；四根黑羽是透明底的彩色图，由 `ambient.ts` 画到画布上。换素材时保持同样的格式即可，不用改代码。
+
+卡片要有指针光斑，在 `card-base` 旁边加 `magic-card` 类即可。别加在导航栏里的卡片上：`magic-card` 带 `backdrop-filter`，会让里面 `position: fixed` 的浮动面板定位错乱。
+
+页面级特效里有渲染循环或事件监听的，用 `pageSignal()` 拿到的 `AbortSignal` 注册清理。`Layout.astro` 在 swup 的 `content:replace` 之前调用 `endPage()` 中止它，不然离开首页后 three.js 还会在后台空转。由脚本驱动的动画用 `isTimeStopped()` / `onTimeStop()` 响应时停，CSS 动画由 `html.time-stopped` 统一暂停。
+
 ### 其他
 
 - Astro 的 `<script>` 默认被 Vite 打包成 ES module 并 defer。要引 CDN 外链或需要立即执行，加 `is:inline`。

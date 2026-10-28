@@ -1,0 +1,437 @@
+/*
+ * 魔法少女小圆主题的全站特效样式。
+ * 结构见 src/components/fx/MagicBackground.astro，驱动脚本见 src/scripts/magic/。
+ * 这里不用 @apply，避免 ImageWrapper 的 glob 带来的 PostCSS 竞态（见 markdown.css 顶部注释）。
+ */
+
+:root {
+	/* 焰紫、圆粉、灵魂宝石托座的金 */
+	--homura: oklch(0.58 0.17 300);
+	--homura-soft: oklch(0.58 0.17 300 / 0.12);
+	--madoka: oklch(0.74 0.15 350);
+	--gem-gold: oklch(0.78 0.12 85);
+	--magic-line: oklch(0.42 0.12 300 / 0.16);
+	--magic-line-strong: oklch(0.42 0.14 300 / 0.28);
+	--magic-lattice: oklch(0.55 0.12 300 / 0.05);
+	--magic-clock: oklch(0.45 0.12 300 / 0.2);
+	--magic-barrier: oklch(0.45 0.12 320 / 0.16);
+	--magic-hand: oklch(0.42 0.14 300 / 0.42);
+	--magic-aurora-a: oklch(0.72 0.14 300 / 0.35);
+	--magic-aurora-b: oklch(0.82 0.11 350 / 0.32);
+	--magic-glass: color-mix(in oklch, var(--card-bg) 84%, transparent);
+	--ease-magic: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root.dark {
+	--homura: oklch(0.72 0.16 300);
+	--homura-soft: oklch(0.72 0.16 300 / 0.14);
+	--madoka: oklch(0.78 0.14 350);
+	--gem-gold: oklch(0.82 0.11 85);
+	--magic-line: oklch(0.82 0.1 300 / 0.1);
+	--magic-line-strong: oklch(0.85 0.12 300 / 0.2);
+	--magic-lattice: oklch(0.8 0.1 300 / 0.035);
+	--magic-clock: oklch(0.8 0.1 300 / 0.13);
+	--magic-barrier: oklch(0.8 0.1 320 / 0.1);
+	--magic-hand: oklch(0.85 0.12 300 / 0.3);
+	--magic-aurora-a: oklch(0.5 0.2 300 / 0.4);
+	--magic-aurora-b: oklch(0.55 0.17 350 / 0.22);
+	--magic-glass: color-mix(in oklch, var(--card-bg) 80%, transparent);
+}
+
+/* ── 背景层 ─────────────────────────────────────────── */
+
+#magic-bg {
+	position: fixed;
+	inset: 0;
+	z-index: -1;
+	overflow: hidden;
+	pointer-events: none;
+	contain: strict;
+}
+
+.mbg-aurora {
+	position: absolute;
+	inset: -20%;
+	background:
+		radial-gradient(closest-side at 78% 22%, var(--magic-aurora-a), transparent),
+		radial-gradient(closest-side at 18% 82%, var(--magic-aurora-b), transparent);
+	filter: blur(70px);
+	animation: mbg-drift 26s ease-in-out infinite alternate;
+}
+
+@keyframes mbg-drift {
+	to {
+		transform: translate(-5%, 6%) rotate(6deg) scale(1.06);
+	}
+}
+
+/* 菱格：头像背景与魔女结界里的小丑格纹 */
+.mbg-lattice {
+	position: absolute;
+	inset: 0;
+	-webkit-mask-image: radial-gradient(ellipse 70% 80% at 85% 70%, #000 10%, transparent 70%);
+	mask-image: radial-gradient(ellipse 70% 80% at 85% 70%, #000 10%, transparent 70%);
+}
+
+.mbg-lattice::before {
+	content: "";
+	position: absolute;
+	inset: -60%;
+	background: repeating-conic-gradient(var(--magic-lattice) 0 25%, transparent 0 50%) 0 0 / 72px 72px;
+	transform: scaleY(1.5) rotate(45deg);
+}
+
+/* 单色线稿：素材是白色 + 透明度的遮罩，颜色由 --art 决定（做法取自 VKG 站的 .line-art） */
+.mbg-art {
+	background: var(--art, var(--magic-line-strong));
+	-webkit-mask: var(--src) center / contain no-repeat;
+	mask: var(--src) center / contain no-repeat;
+}
+
+.mbg-clock {
+	position: absolute;
+	right: max(-22vmin, -260px);
+	bottom: max(-26vmin, -300px);
+	width: min(96vmin, 1040px);
+	aspect-ratio: 1;
+}
+
+.mbg-clock-face {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.mbg-clock-face {
+	--src: url("/images/fx/clock-dial.webp");
+	--art: var(--magic-clock);
+	animation: mbg-spin 360s linear infinite;
+}
+
+/* 左上角的齿轮组 */
+.mbg-cog {
+	--src: url("/images/fx/gear-cluster.webp");
+	--art: var(--magic-line);
+	position: absolute;
+	left: -90px;
+	top: 14vh;
+	width: 340px;
+	aspect-ratio: 640 / 615;
+	animation: mbg-sway 40s ease-in-out infinite alternate;
+}
+
+/* 左下角的魔女结界拼贴：玫瑰、剪刀、蝴蝶、阶梯 */
+.mbg-barrier {
+	--src: url("/images/fx/barrier-collage.webp");
+	--art: var(--magic-barrier);
+	position: absolute;
+	left: -40px;
+	bottom: -40px;
+	width: min(68vmin, 760px);
+	aspect-ratio: 1;
+	-webkit-mask-position: left bottom;
+	mask-position: left bottom;
+}
+
+/*
+ * 花式指针：--len 是指针图片高度占表盘直径的比例，--ar 是图片宽高比，
+ * --px / --py 是转轴圆心在图片里的相对位置（由切图脚本量出）。
+ * 元素定位成让转轴正好落在表盘中心，再绕转轴旋转。表盘是正方形，所以高度和宽度的百分比可以混用。
+ */
+.mbg-hand {
+	--art: var(--magic-hand);
+	position: absolute;
+	height: var(--len);
+	aspect-ratio: var(--ar);
+	left: calc(50% - var(--len) * var(--ar) * var(--px));
+	top: calc(50% - var(--len) * var(--py));
+	transform-origin: calc(var(--px) * 100%) calc(var(--py) * 100%);
+}
+
+.mbg-hand-hour {
+	--src: url("/images/fx/hand-hour.webp");
+	--len: 26.5%;
+	--ar: 0.2417;
+	--px: 0.4926;
+	--py: 0.9452;
+}
+
+.mbg-hand-minute {
+	--src: url("/images/fx/hand-minute.webp");
+	--len: 37.4%;
+	--ar: 0.1141;
+	--px: 0.4961;
+	--py: 0.9635;
+}
+
+.mbg-hand-second {
+	--src: url("/images/fx/hand-second.webp");
+	--art: color-mix(in oklch, var(--madoka) 60%, transparent);
+	--len: 45.8%;
+	--ar: 0.0704;
+	--px: 0.495;
+	--py: 0.8733;
+}
+
+@keyframes mbg-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes mbg-sway {
+	to {
+		transform: rotate(18deg);
+	}
+}
+
+#mbg-feathers {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 768px) {
+	.mbg-cog {
+		display: none;
+	}
+
+	.mbg-clock {
+		opacity: 0.7;
+	}
+
+	.mbg-barrier {
+		width: 90vw;
+		opacity: 0.7;
+	}
+}
+
+/* ── 卡片：毛玻璃与指针光斑 ─────────────────────────── */
+
+.magic-card {
+	position: relative;
+	isolation: isolate;
+	background-color: var(--magic-glass);
+	-webkit-backdrop-filter: blur(14px) saturate(1.3);
+	backdrop-filter: blur(14px) saturate(1.3);
+}
+
+.magic-card::before,
+.magic-card::after {
+	content: "";
+	position: absolute;
+	border-radius: inherit;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.45s;
+}
+
+/* 跟随指针的描边 */
+.magic-card::before {
+	inset: 0;
+	z-index: 2;
+	padding: 1px;
+	background: radial-gradient(
+		300px circle at var(--mx, 50%) var(--my, 50%),
+		var(--homura),
+		color-mix(in oklch, var(--madoka) 60%, transparent) 35%,
+		transparent 65%
+	);
+	-webkit-mask:
+		linear-gradient(#000 0 0) content-box,
+		linear-gradient(#000 0 0);
+	-webkit-mask-composite: xor;
+	mask-composite: exclude;
+}
+
+/* 跟随指针的内部光晕 */
+.magic-card::after {
+	inset: 0;
+	z-index: -1;
+	background: radial-gradient(
+		440px circle at var(--mx, 50%) var(--my, 50%),
+		var(--homura-soft),
+		transparent 65%
+	);
+}
+
+.magic-card:hover::before,
+.magic-card:hover::after {
+	opacity: 1;
+}
+
+/* ── 页脚的蔷薇缎带花饰 ─────────────────────────────── */
+
+.fx-divider {
+	--src: url("/images/fx/rose-ribbon.webp");
+	--art: linear-gradient(90deg, var(--homura), var(--madoka) 50%, var(--homura));
+	width: min(24rem, 80%);
+	aspect-ratio: 1200 / 213;
+	margin: 2.5rem auto 1.75rem;
+	opacity: 0.7;
+}
+
+/* ── 阅读进度：文章页顶部的紫粉进度条 ───────────────── */
+
+#reading-progress {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 60;
+	height: 3px;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+#reading-progress.is-active {
+	opacity: 1;
+}
+
+#reading-progress span {
+	position: absolute;
+	inset: 0 auto 0 0;
+	width: calc(var(--progress, 0) * 100%);
+	background: linear-gradient(90deg, var(--homura), var(--madoka));
+	box-shadow: 0 0 12px var(--homura);
+}
+
+/* 进度条末端的菱形宝石 */
+#reading-progress span::after {
+	content: "";
+	position: absolute;
+	right: -5px;
+	top: -3.5px;
+	width: 10px;
+	height: 10px;
+	background: var(--madoka);
+	transform: rotate(45deg) scaleY(1.2);
+	box-shadow: 0 0 10px 2px var(--madoka);
+}
+
+/* ── 点击时迸出的碎晶 ───────────────────────────────── */
+
+#fx-shards {
+	position: fixed;
+	inset: 0;
+	z-index: 9998;
+	pointer-events: none;
+	overflow: hidden;
+}
+
+.fx-shard {
+	position: absolute;
+	width: 7px;
+	height: 11px;
+	margin: -5.5px 0 0 -3.5px;
+	clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	background: var(--shard, var(--homura));
+	filter: drop-shadow(0 0 4px var(--shard, var(--homura)));
+}
+
+/* ── 时间停止 ───────────────────────────────────────── */
+
+#time-stop-layer {
+	position: fixed;
+	inset: 0;
+	z-index: 9999;
+	pointer-events: none;
+	background: oklch(0.35 0.08 300 / 0.06);
+	-webkit-backdrop-filter: grayscale(1) contrast(1.08);
+	backdrop-filter: grayscale(1) contrast(1.08);
+	clip-path: circle(0 at var(--ts-x, 50%) var(--ts-y, 50%));
+	transition: clip-path 1.1s var(--ease-magic);
+}
+
+html.time-stopped #time-stop-layer {
+	clip-path: circle(var(--ts-r, 150vmax) at var(--ts-x, 50%) var(--ts-y, 50%));
+}
+
+.ts-dial {
+	position: absolute;
+	left: var(--ts-x, 50%);
+	top: var(--ts-y, 50%);
+	width: min(72vmin, 680px);
+	aspect-ratio: 1;
+	translate: -50% -50%;
+	opacity: 0;
+	scale: 1.4;
+	transition:
+		opacity 0.6s,
+		scale 1.1s var(--ease-magic);
+}
+
+.ts-face {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	--src: url("/images/fx/clock-dial.webp");
+	--art: oklch(0.55 0.02 300 / 0.55);
+}
+
+:root.dark .ts-face {
+	--art: oklch(0.8 0.02 300 / 0.5);
+}
+
+/* 时停时分针转两圈后停在正上方 */
+.ts-dial .ts-hand {
+	--art: oklch(0.55 0.03 300 / 0.75);
+	rotate: -720deg;
+	transition: rotate 1.4s var(--ease-magic);
+}
+
+:root.dark .ts-dial .ts-hand {
+	--art: oklch(0.85 0.03 300 / 0.7);
+}
+
+html.time-stopped .ts-dial {
+	opacity: 1;
+	scale: 1;
+}
+
+html.time-stopped .ts-hand {
+	rotate: 0deg;
+}
+
+.ts-caption {
+	position: absolute;
+	left: 50%;
+	bottom: 12vh;
+	translate: -50% 0;
+	margin: 0;
+	font: 600 clamp(1.5rem, 4vw, 2.6rem) / 1 "Noto Serif CJK JP", "Noto Serif SC", "Songti SC", serif;
+	letter-spacing: 0.6em;
+	padding-left: 0.6em;
+	color: oklch(0.4 0.02 300 / 0.85);
+	text-shadow: 0 0 18px oklch(1 0 0 / 0.6);
+	opacity: 0;
+	transition: opacity 0.6s 0.3s;
+}
+
+:root.dark .ts-caption {
+	color: oklch(0.92 0.02 300 / 0.85);
+	text-shadow: 0 0 18px oklch(0 0 0 / 0.6);
+}
+
+html.time-stopped .ts-caption {
+	opacity: 1;
+}
+
+/* 时停期间冻结全站 CSS 动画，时停层自己用的是 transition，不受影响 */
+html.time-stopped *,
+html.time-stopped *::before,
+html.time-stopped *::after {
+	animation-play-state: paused !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.mbg-aurora,
+	.mbg-clock-face,
+	.mbg-cog {
+		animation: none;
+	}
+}

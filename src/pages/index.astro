@@ -5,7 +5,7 @@ import { Icon } from "astro-icon/components";
 import { homeConfig } from "../config";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 import type { HomeLink } from "../types/config";
-import { getSortedPostsList } from "../utils/content-utils";
+import { getCategoryList, getSortedPostsList } from "../utils/content-utils";
 import { formatDateToYYYYMMDD } from "../utils/date-utils";
 import { getPostUrlBySlug, url } from "../utils/url-utils";
 
@@ -61,9 +61,16 @@ const sections = homeConfig.sections.map((section) => ({
 	resolved: section.links.map(resolveLink),
 }));
 
+const sortedPosts = await getSortedPostsList();
 const recentPosts = homeConfig.recentPostCount
-	? (await getSortedPostsList()).slice(0, homeConfig.recentPostCount)
+	? sortedPosts.slice(0, homeConfig.recentPostCount)
 	: [];
+
+// 主视觉下方的三项数字
+const categoryCount = (await getCategoryList()).length;
+const lastUpdated = sortedPosts[0]
+	? formatDateToYYYYMMDD(sortedPosts[0].data.published)
+	: "";
 
 // onload 动画的出场顺序：hero -> 各个板块 -> 最新文章
 const delay = (i: number) =>
@@ -71,32 +78,73 @@ const delay = (i: number) =>
 ---
 
 <MainGridLayout title={homeConfig.title} description={homeConfig.description}>
-    <!-- 顶部：站点介绍 + 快捷入口 -->
-    <div class="card-base px-6 md:px-9 py-8 md:py-9 mb-4 onload-animation" style={delay(0)}>
-        <h1 class="text-3xl md:text-4xl font-bold text-90 mb-2">{homeConfig.title}</h1>
-        {homeConfig.subtitle &&
-            <p class="text-lg text-75 mb-3">{homeConfig.subtitle}</p>}
-        {homeConfig.description &&
-            <p class="text-sm text-50 leading-relaxed max-w-2xl">{homeConfig.description}</p>}
-
-        <div class="flex flex-wrap gap-2 mt-7">
-            {homeConfig.actions.map(action => (
-                <a href={action.external ? action.url : url(action.url)}
-                   target={action.external ? "_blank" : null}
-                   rel={action.external ? "noopener noreferrer" : null}
-                   aria-label={action.name}
-                   class="btn-regular h-10 rounded-lg px-4 gap-2 text-sm font-medium active:scale-95"
-                >
-                    <Icon name={action.icon} class="text-[1.15rem]"></Icon>
-                    {action.name}
-                </a>
-            ))}
+    <!-- 顶部：站点介绍 + 灵魂宝石主视觉，特效见 src/scripts/magic/home-hero.ts -->
+    <section id="magic-hero" class="card-base magic-card hero mb-4 onload-animation" style={delay(0)}>
+        <div class="hero-bg" aria-hidden="true">
+            <div class="hero-lattice"></div>
+            <div class="hero-aurora"></div>
+            <div class="hero-pointer"></div>
         </div>
-    </div>
+
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <p class="hero-label text-50">
+                    <span class="live-dot"></span>
+                    Puella Magi · 时间回溯者的笔记
+                </p>
+                <h1 class="hero-title"><span data-decode>{homeConfig.title}</span></h1>
+                {homeConfig.subtitle &&
+                    <p class="hero-subtitle text-75" data-decode>{homeConfig.subtitle}</p>}
+                {homeConfig.description &&
+                    <p class="hero-desc text-sm text-50 leading-relaxed">{homeConfig.description}</p>}
+
+                <div class="flex flex-wrap gap-2 mt-6">
+                    {homeConfig.actions.map((action, i) => (
+                        <a href={action.external ? action.url : url(action.url)}
+                           target={action.external ? "_blank" : null}
+                           rel={action.external ? "noopener noreferrer" : null}
+                           aria-label={action.name}
+                           class:list={["hero-btn h-10 rounded-lg px-4 gap-2 text-sm font-medium active:scale-95",
+                               i === 0 ? "hero-btn-primary" : "btn-regular"]}
+                        >
+                            <Icon name={action.icon} class="text-[1.15rem]"></Icon>
+                            {action.name}
+                        </a>
+                    ))}
+                </div>
+
+                <dl class="hero-facts text-90">
+                    <div>
+                        <dt class="text-30">文章</dt>
+                        <dd><span data-count={sortedPosts.length}>{sortedPosts.length}</span> 篇</dd>
+                    </div>
+                    <div>
+                        <dt class="text-30">分类</dt>
+                        <dd><span data-count={categoryCount}>{categoryCount}</span> 个</dd>
+                    </div>
+                    {lastUpdated && <div>
+                        <dt class="text-30">最近更新</dt>
+                        <dd><time datetime={lastUpdated}>{lastUpdated}</time></dd>
+                    </div>}
+                </dl>
+            </div>
+
+            <div class="hero-visual" data-tilt>
+                <div class="gem-stage" data-soul-gem>
+                    <!-- WebGL 不可用或加载完成前显示的 CSS 宝石 -->
+                    <div class="gem-fallback" aria-hidden="true"><span></span></div>
+                    <button type="button" class="gem-hint text-50" data-time-stop>
+                        <Icon name="material-symbols:hourglass-outline-rounded" class="text-[1rem]"></Icon>
+                        点击灵魂宝石 · 时间停止
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 中间：按主题分组的笔记入口 -->
     {sections.map((section, i) => (
-        <div class="card-base px-6 md:px-9 py-6 mb-4 onload-animation" style={delay(i + 1)}>
+        <div class="card-base magic-card px-6 md:px-9 py-6 mb-4 onload-animation" style={delay(i + 1)}>
             <div class="flex items-center gap-3">
                 <div class="meta-icon !w-9 !h-9 !mr-0 shrink-0">
                     <Icon name={section.icon} class="text-[1.25rem]"></Icon>
@@ -114,7 +162,7 @@ const delay = (i: number) =>
 
     <!-- 底部：最新文章 -->
     {recentPosts.length > 0 && (
-        <div class="card-base px-6 md:px-9 py-6 mb-4 onload-animation" style={delay(sections.length + 1)}>
+        <div class="card-base magic-card px-6 md:px-9 py-6 mb-4 onload-animation" style={delay(sections.length + 1)}>
             <div class="flex items-center justify-between gap-3 flex-wrap">
                 <div class="flex items-center gap-3">
                     <div class="meta-icon !w-9 !h-9 !mr-0 shrink-0">
@@ -166,5 +214,230 @@ const delay = (i: number) =>
 }
 .recent-row:hover::before {
     transform: scaleY(1);
+}
+
+/* ── 主视觉 ── */
+.hero {
+    --px: 75%;
+    --py: 40%;
+    /* 灵魂宝石画布的背景色，soul-gem.ts 读取它，与卡片底色保持一致 */
+    --gem-bg: var(--card-bg);
+    overflow: hidden;
+}
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+.hero-lattice {
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(var(--magic-lattice) 0 25%, transparent 0 50%) 0 0 / 40px 60px;
+    -webkit-mask-image: radial-gradient(ellipse 60% 90% at 80% 50%, #000 15%, transparent 75%);
+    mask-image: radial-gradient(ellipse 60% 90% at 80% 50%, #000 15%, transparent 75%);
+    opacity: 1.6;
+}
+.hero-aurora {
+    position: absolute;
+    top: -40%;
+    right: -15%;
+    width: 75%;
+    height: 160%;
+    background:
+        radial-gradient(closest-side at 60% 40%, var(--magic-aurora-a), transparent),
+        radial-gradient(closest-side at 30% 70%, var(--magic-aurora-b), transparent);
+    filter: blur(50px);
+    opacity: 0.7;
+    animation: hero-drift 18s ease-in-out infinite alternate;
+}
+@keyframes hero-drift {
+    to { transform: translate(-6%, 8%) rotate(8deg) scale(1.08); }
+}
+.hero-pointer {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(520px circle at var(--px) var(--py), var(--homura-soft), transparent 60%);
+}
+.hero-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1.5rem 2rem 2.25rem;
+}
+.hero-label {
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .25rem .85rem .25rem .6rem;
+    border-radius: 999px;
+    border: 1px solid var(--line-divider);
+    background: color-mix(in oklch, var(--card-bg) 70%, transparent);
+    font-size: .8rem;
+    letter-spacing: .02em;
+}
+.live-dot {
+    position: relative;
+    width: 7px;
+    height: 9px;
+    background: var(--homura);
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+.live-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--madoka);
+    animation: ping 2s cubic-bezier(.22, 1, .36, 1) infinite;
+}
+@keyframes ping {
+    to { transform: scale(2.6); opacity: 0; }
+}
+.hero-title {
+    margin: 1.4rem 0 .5rem;
+    font-size: clamp(3.4rem, 7vw, 5.4rem);
+    font-weight: 800;
+    line-height: .95;
+    letter-spacing: -0.04em;
+}
+.hero-title span {
+    display: inline-block;
+    background: linear-gradient(100deg, var(--homura) 10%, var(--madoka) 55%, var(--homura) 90%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: hero-shine 7s linear infinite;
+    filter: drop-shadow(0 6px 24px color-mix(in oklch, var(--homura) 35%, transparent));
+}
+@keyframes hero-shine {
+    to { background-position: -200% 0; }
+}
+.hero-subtitle {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: .75rem;
+}
+.hero-desc {
+    max-width: 34rem;
+}
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .25s cubic-bezier(.22, 1, .36, 1), box-shadow .25s, filter .25s;
+}
+.hero-btn-primary {
+    color: white;
+    background: linear-gradient(120deg, var(--homura), var(--madoka));
+    box-shadow: 0 8px 28px -10px var(--homura);
+}
+.hero-btn-primary:hover {
+    filter: brightness(1.08);
+    box-shadow: 0 10px 34px -8px var(--madoka);
+}
+.hero-facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem 2rem;
+    margin-top: 1.75rem;
+    padding-top: 1.1rem;
+    border-top: 1px dashed var(--line-divider);
+}
+.hero-facts dt {
+    font-size: .75rem;
+    margin-bottom: .1rem;
+}
+.hero-facts dd {
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+.hero-facts dd span {
+    font-size: 1.35rem;
+    color: var(--primary);
+}
+.hero-visual {
+    --rx: 0deg;
+    --ry: 0deg;
+    perspective: 900px;
+}
+.gem-stage {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 26rem;
+    margin-inline: auto;
+    transform: rotateX(var(--rx)) rotateY(var(--ry));
+    transition: transform .6s cubic-bezier(.22, 1, .36, 1);
+}
+.gem-stage :global(.gem-canvas) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-mask-image: radial-gradient(closest-side, #000 72%, transparent 100%);
+    mask-image: radial-gradient(closest-side, #000 72%, transparent 100%);
+}
+.gem-fallback {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    display: grid;
+    place-items: center;
+    transition: opacity .6s;
+}
+.gem-fallback span {
+    width: 26%;
+    aspect-ratio: 2 / 3;
+    border-radius: 50% 50% 46% 46% / 40% 40% 60% 60%;
+    background:
+        radial-gradient(circle at 50% 45%, oklch(0.95 0.08 320), transparent 25%),
+        linear-gradient(135deg, oklch(0.62 0.2 300), oklch(0.35 0.16 295));
+    box-shadow: 0 0 60px 10px color-mix(in oklch, var(--homura) 45%, transparent);
+    animation: gem-float 4s ease-in-out infinite alternate;
+}
+@keyframes gem-float {
+    to { transform: translateY(-8px); }
+}
+.gem-stage:global(.is-ready) .gem-fallback {
+    opacity: 0;
+}
+.gem-hint {
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    translate: -50% 0;
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .3rem .8rem;
+    border-radius: 999px;
+    font-size: .75rem;
+    white-space: nowrap;
+    background: color-mix(in oklch, var(--card-bg) 75%, transparent);
+    border: 1px solid var(--line-divider);
+    opacity: .75;
+    transition: opacity .3s, color .3s, border-color .3s;
+}
+.gem-hint:hover,
+.gem-stage:global(.is-hover) .gem-hint {
+    opacity: 1;
+    color: var(--primary);
+    border-color: color-mix(in oklch, var(--homura) 50%, transparent);
+}
+@media (max-width: 768px) {
+    .hero-inner {
+        grid-template-columns: 1fr;
+        padding: 1.75rem 1.5rem 1.25rem;
+    }
+    .hero-visual {
+        order: -1;
+        margin: -1rem 0 .5rem;
+    }
+    .gem-stage {
+        max-width: 17rem;
+    }
 }
 </style>
