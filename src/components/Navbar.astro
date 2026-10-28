@@ -27,19 +27,8 @@ let links: NavBarLink[] = navBarConfig.links.map(
         "card-base !overflow-visible max-w-[var(--page-width)] h-[4.5rem] !rounded-t-none mx-auto flex items-center justify-between px-4"]}>
         <a href={url('/')} class="btn-plain scale-animation rounded-lg h-[3.25rem] px-5 font-bold active:scale-95">
             <div class="flex flex-row text-[var(--primary)] items-center text-md">
-                <!-- 灵魂宝石徽记 -->
-                <svg class="nav-gem mr-2" viewBox="0 0 24 32" aria-hidden="true">
-                    <defs>
-                        <linearGradient id="nav-gem-fill" x1="0" y1="0" x2="1" y2="1">
-                            <stop offset="0" stop-color="oklch(0.85 0.1 320)"></stop>
-                            <stop offset="0.45" stop-color="oklch(0.62 0.2 300)"></stop>
-                            <stop offset="1" stop-color="oklch(0.36 0.16 295)"></stop>
-                        </linearGradient>
-                    </defs>
-                    <path d="M12 3 L20 15 L12 30 L4 15 Z" fill="url(#nav-gem-fill)"></path>
-                    <path d="M4 15 H20 M12 3 L9 15 L12 30 M12 3 L15 15 L12 30" fill="none" stroke="white" stroke-opacity=".45" stroke-width=".8"></path>
-                    <path d="M7.5 9 H16.5" stroke="oklch(0.8 0.12 85)" stroke-width="1.6" stroke-linecap="round"></path>
-                </svg>
+                <!-- 灵魂宝石徽记：首页同一颗宝石（黑暗宝珠形态）的小图 -->
+                <img class="nav-gem mr-2" src={url('/images/fx/dark-orb-icon.webp')} alt="" width="28" height="28" decoding="async" />
                 {siteConfig.title}
             </div>
         </a>
@@ -154,14 +143,15 @@ if (document.readyState === 'loading') {
 
 <style>
 .nav-gem {
-    width: 1.15rem;
-    height: 1.55rem;
-    margin-bottom: 0.15rem;
-    filter: drop-shadow(0 0 6px oklch(0.65 0.2 300 / 0.55));
+    width: 1.85rem;
+    height: 1.85rem;
+    margin-bottom: 0.1rem;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px oklch(0.6 0.22 300 / 0.55));
     transition: transform .5s cubic-bezier(.22, 1, .36, 1), filter .3s;
 }
 a:hover .nav-gem {
-    transform: rotateY(180deg) scale(1.1);
-    filter: drop-shadow(0 0 10px oklch(0.75 0.18 330 / 0.8));
+    transform: translateY(-2px) scale(1.12) rotate(-6deg);
+    filter: drop-shadow(0 0 9px oklch(0.7 0.22 310 / 0.85));
 }
 </style>

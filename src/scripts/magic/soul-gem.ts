@@ -1,11 +1,12 @@
 /**
- * 首页主视觉：晓美焰的灵魂宝石。
+ * 首页主视觉：晓美焰的灵魂宝石，采用《叛逆的物语》中的黑暗宝珠（Dark Orb）形态，
+ * 即她的灵魂宝石在剧情中变化后的样子。
  *
- * 蛋形紫水晶（全透射、色散、虹彩），内部翻涌着灵魂之火，金色冠与杯用爪扣住宝石，
- * 冠顶托着焰的菱形徽记；背后是缓慢转动的焰之盾与齿轮，外圈两道倾斜的魔法环，
- * 四周飘着紫、粉、金三色光点。点击宝石触发时间停止。
+ * 宝珠本体是 codex 依据实物道具照片画的插画，核心上叠一层着色器做的流动紫光；
+ * 背后是缓慢转动的焰之盾与齿轮，
+ * 外圈两道倾斜的魔法环，四周飘着紫、粉、金三色光点。点击灵魂宝石触发时间停止。
  *
- * 不用泛光后期：透射材质的高光远超 1，泛光会把整颗宝石糊成白色，改用背后的光晕精灵。
+ * 不用泛光后期，改用背后的光晕精灵。
  *
  * 只在首页按需加载（Layout.astro → loadPageEffects），three.js 打成独立 chunk。
  */
@@ -18,6 +19,34 @@ import {
 	watchVisibility,
 } from "./lifecycle";
 import { isTimeStopped, onTimeStop, toggleTimeStop } from "./time-stop";
+
+/** 三维值噪声与分形叠加，供宝珠窗内的光流着色器使用。 */
+const NOISE_GLSL = /* glsl */ `
+	float hash(vec3 p) {
+		p = fract(p * 0.3183099 + 0.1);
+		p *= 17.0;
+		return fract(p.x * p.y * p.z * (p.x + p.y + p.z));
+	}
+	float noise(vec3 x) {
+		vec3 i = floor(x);
+		vec3 f = fract(x);
+		f = f * f * (3.0 - 2.0 * f);
+		return mix(
+			mix(mix(hash(i), hash(i + vec3(1, 0, 0)), f.x), mix(hash(i + vec3(0, 1, 0)), hash(i + vec3(1, 1, 0)), f.x), f.y),
+			mix(mix(hash(i + vec3(0, 0, 1)), hash(i + vec3(1, 0, 1)), f.x), mix(hash(i + vec3(0, 1, 1)), hash(i + vec3(1, 1, 1)), f.x), f.y),
+			f.z);
+	}
+	float fbm(vec3 p) {
+		float v = 0.0;
+		float a = 0.5;
+		for (int i = 0; i < 4; i++) {
+			v += a * noise(p);
+			p = p * 2.03 + vec3(1.7, 9.2, 3.1);
+			a *= 0.5;
+		}
+		return v;
+	}
+`;
 
 const ROMAN = [
 	"XII",
@@ -249,147 +278,92 @@ export function initSoulGem(container: HTMLElement, signal: AbortSignal): void {
 		return item;
 	};
 
-	// ── 宝石 ──
-	// 灵魂宝石的默认形态是蛋形（形似法贝热彩蛋），上下嵌着金属托座，顶端是主人的徽记。
-	// 焰的徽记是菱形，所以冠顶托着一颗紫色菱形宝石。
+	// ── 黑暗宝珠 ──
+	// codex 依据《叛逆的物语》黑暗宝珠实物道具照片画的插画（public/images/fx/dark-orb.webp），
+	// 贴在一块面片上；dark-orb-core.webp 是从插画里抠出的发光核心与玻璃珠，
+	// 在上面叠一层缓慢流动的紫光，让核心像在呼吸。
 	const root = new THREE.Group();
 	scene.add(root);
 	const gemGroup = new THREE.Group();
 	root.add(gemGroup);
 
-	const EGG_H = 1.18;
-	const EGG_R = 0.74;
-	/** 蛋形半径：下宽上窄。 */
-	const eggRadius = (y: number) => {
-		const t = Math.max(-1, Math.min(1, y / EGG_H));
-		return EGG_R * Math.sqrt(1 - t * t) * (1 - 0.13 * t);
-	};
-	const eggProfile: THREE.Vector2[] = [];
-	for (let i = 0; i <= 96; i++) {
-		const y = -EGG_H + (i / 96) * EGG_H * 2;
-		eggProfile.push(new THREE.Vector2(Math.max(eggRadius(y), 0.0001), y));
-	}
-	const gemGeometry = keep(new THREE.LatheGeometry(eggProfile, 96));
-	const gemMaterial = keep(
-		new THREE.MeshPhysicalMaterial({
-			color: 0xd2b0ff,
-			emissive: 0x2a0860,
-			emissiveIntensity: 0.35,
-			metalness: 0,
-			roughness: 0.03,
-			transmission: 1,
-			thickness: 1.6,
-			ior: 1.65,
-			dispersion: 3,
-			attenuationColor: new THREE.Color(0xa24cff),
-			attenuationDistance: 0.9,
-			iridescence: 0.45,
-			iridescenceIOR: 1.4,
-			clearcoat: 1,
-			clearcoatRoughness: 0.02,
-			specularIntensity: 1,
-			envMapIntensity: 1.5,
-		}),
-	);
-	const gem = new THREE.Mesh(gemGeometry, gemMaterial);
-	gemGroup.add(gem);
-
-	// 宝石中心的亮核：不透明，透过透射材质能看到被折射的样子
-	const coreMaterial = keep(
+	const ORB_H = 3.1;
+	const ORB_ASPECT = 0.9973;
+	const orbPlane = keep(new THREE.PlaneGeometry(ORB_H * ORB_ASPECT, ORB_H));
+	const orbMaterial0 = keep(
 		new THREE.MeshBasicMaterial({
-			color: new THREE.Color(1.6, 0.9, 2.4),
+			transparent: true,
+			alphaTest: 0.02,
 			toneMapped: false,
 		}),
 	);
-	const core = new THREE.Mesh(
-		keep(new THREE.IcosahedronGeometry(0.16, 3)),
-		coreMaterial,
-	);
-	core.scale.set(1, 1.3, 1);
-	gemGroup.add(core);
-	const coreLight = new THREE.PointLight(0xb070ff, 4, 5, 1.8);
-	gemGroup.add(coreLight);
+	const gem = new THREE.Mesh(orbPlane, orbMaterial0);
+	gemGroup.add(gem);
 
-	// 灵魂之火：在宝石内部翻涌的紫粉色光雾，叠加在宝石之上，不参与深度测试
-	const soulUniforms = {
+	const coreUniforms = {
+		uMask: { value: null as THREE.Texture | null },
 		uTime: { value: 0 },
 		uGlow: { value: 1 },
-		uColorA: { value: new THREE.Color(0x7a3cff) },
-		uColorB: { value: new THREE.Color(0xff8fd0) },
+		uColorA: { value: new THREE.Color(0x8a3cff) },
+		uColorB: { value: new THREE.Color(0xf4ccff) },
 	};
-	const soulMaterial = keep(
+	const coreMaterial = keep(
 		new THREE.ShaderMaterial({
-			uniforms: soulUniforms,
+			uniforms: coreUniforms,
 			transparent: true,
-			depthTest: false,
 			depthWrite: false,
 			blending: THREE.AdditiveBlending,
 			vertexShader: /* glsl */ `
-				varying vec3 vPos;
-				varying vec3 vNormal;
-				varying vec3 vView;
+				varying vec2 vUv;
 				void main() {
-					vPos = position;
-					vec4 mv = modelViewMatrix * vec4(position, 1.0);
-					vNormal = normalize(normalMatrix * normal);
-					vView = normalize(-mv.xyz);
-					gl_Position = projectionMatrix * mv;
+					vUv = uv;
+					gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
 				}
 			`,
 			fragmentShader: /* glsl */ `
+				uniform sampler2D uMask;
 				uniform float uTime;
 				uniform float uGlow;
 				uniform vec3 uColorA;
 				uniform vec3 uColorB;
-				varying vec3 vPos;
-				varying vec3 vNormal;
-				varying vec3 vView;
-				float hash(vec3 p) {
-					p = fract(p * 0.3183099 + 0.1);
-					p *= 17.0;
-					return fract(p.x * p.y * p.z * (p.x + p.y + p.z));
-				}
-				float noise(vec3 x) {
-					vec3 i = floor(x);
-					vec3 f = fract(x);
-					f = f * f * (3.0 - 2.0 * f);
-					return mix(
-						mix(mix(hash(i), hash(i + vec3(1, 0, 0)), f.x), mix(hash(i + vec3(0, 1, 0)), hash(i + vec3(1, 1, 0)), f.x), f.y),
-						mix(mix(hash(i + vec3(0, 0, 1)), hash(i + vec3(1, 0, 1)), f.x), mix(hash(i + vec3(0, 1, 1)), hash(i + vec3(1, 1, 1)), f.x), f.y),
-						f.z);
-				}
-				float fbm(vec3 p) {
-					float v = 0.0;
-					float a = 0.5;
-					for (int i = 0; i < 4; i++) {
-						v += a * noise(p);
-						p = p * 2.03 + vec3(1.7, 9.2, 3.1);
-						a *= 0.5;
-					}
-					return v;
-				}
+				varying vec2 vUv;
+				${NOISE_GLSL}
 				void main() {
-					float facing = abs(dot(normalize(vNormal), normalize(vView)));
-					vec3 p = vPos * 2.4 + vec3(0.0, -uTime * 0.45, uTime * 0.12);
-					float n = fbm(p + fbm(p * 1.3 + uTime * 0.08));
-					float wisps = smoothstep(0.42, 0.78, n);
-					float body = pow(facing, 1.6);
-					vec3 col = mix(uColorA, uColorB, smoothstep(0.5, 0.85, n));
-					float strength = (0.18 + wisps * 0.9) * body + pow(1.0 - facing, 3.0) * 0.12;
-					gl_FragColor = vec4(col * strength * uGlow, 1.0);
+					float mask = texture2D(uMask, vUv).a;
+					if (mask < 0.01) discard;
+					vec3 p = vec3(vUv * vec2(5.0, 6.0), 0.0) + vec3(0.0, -uTime * 0.35, uTime * 0.2);
+					float n = fbm(p + fbm(p * 1.5 + uTime * 0.1));
+					// 光雾自下而上缓慢流动，亮处偏粉白
+					float wisps = smoothstep(0.42, 0.85, n);
+					vec3 col = mix(uColorA, uColorB, wisps);
+					gl_FragColor = vec4(col * mask * (0.18 + wisps * 0.55) * uGlow, 1.0);
 				}
 			`,
 		}),
 	);
-	const soul = new THREE.Mesh(
-		keep(new THREE.SphereGeometry(1, 48, 32)),
-		soulMaterial,
-	);
-	soul.scale.set(EGG_R * 0.78, EGG_H * 0.8, EGG_R * 0.78);
-	soul.renderOrder = 2;
-	gemGroup.add(soul);
+	const coreLayer = new THREE.Mesh(orbPlane, coreMaterial);
+	coreLayer.position.z = 0.01;
+	coreLayer.renderOrder = 3;
+	gemGroup.add(coreLayer);
 
-	// 宝石背后的柔光晕
+	const assetBase = `${import.meta.env.BASE_URL.replace(/\/$/, "")}/images/fx`;
+	const textureLoader = new THREE.TextureLoader();
+	const loadTexture = (name: string) =>
+		textureLoader.loadAsync(`${assetBase}/${name}`).then((texture) => {
+			texture.colorSpace = THREE.SRGBColorSpace;
+			texture.anisotropy = 4;
+			return keep(texture);
+		});
+	const orbTextures = Promise.all([
+		loadTexture("dark-orb.webp"),
+		loadTexture("dark-orb-core.webp"),
+	]).then(([orbMap, coreMask]) => {
+		orbMaterial0.map = orbMap;
+		orbMaterial0.needsUpdate = true;
+		coreUniforms.uMask.value = coreMask;
+	});
+
+	// 背后的柔光晕
 	const haloMaterial = keep(
 		new THREE.SpriteMaterial({
 			map: keep(dotTexture()),
@@ -404,156 +378,6 @@ export function initSoulGem(container: HTMLElement, signal: AbortSignal): void {
 	halo.scale.set(3.4, 3.8, 1);
 	halo.position.z = -0.9;
 	root.add(halo);
-
-	// ── 金色托座 ──
-	const gold = keep(
-		new THREE.MeshPhysicalMaterial({
-			color: 0xe9c27a,
-			metalness: 1,
-			roughness: 0.24,
-			clearcoat: 0.4,
-			clearcoatRoughness: 0.15,
-			envMapIntensity: 1.4,
-		}),
-	);
-	/** 贴着蛋面、向外偏移 lift 的一段轮廓，用来做冠和杯。 */
-	const shellProfile = (y0: number, y1: number, lift: number) => {
-		const pts: THREE.Vector2[] = [];
-		for (let i = 0; i <= 32; i++) {
-			const y = y0 + ((y1 - y0) * i) / 32;
-			pts.push(new THREE.Vector2(eggRadius(y) + lift, y));
-		}
-		return pts;
-	};
-
-	// 顶冠：贴合蛋顶的金壳
-	const capProfile = shellProfile(EGG_H * 0.76, EGG_H, 0.025);
-	capProfile.push(new THREE.Vector2(0.0001, EGG_H + 0.025));
-	const cap = new THREE.Mesh(
-		keep(new THREE.LatheGeometry(capProfile, 64)),
-		gold,
-	);
-	gemGroup.add(cap);
-
-	// 底杯：贴合蛋底的金壳，下端收成尖
-	const cupProfile = [
-		new THREE.Vector2(0.0001, -EGG_H - 0.32),
-		new THREE.Vector2(0.05, -EGG_H - 0.12),
-		...shellProfile(-EGG_H, -EGG_H * 0.74, 0.025),
-	];
-	const cup = new THREE.Mesh(
-		keep(new THREE.LatheGeometry(cupProfile, 64)),
-		gold,
-	);
-	gemGroup.add(cup);
-
-	// 冠沿与杯沿的串珠
-	const beadGeometry = keep(new THREE.SphereGeometry(0.032, 12, 8));
-	const addBeadRing = (y: number, count: number) => {
-		const r = eggRadius(y) + 0.04;
-		const beads = new THREE.InstancedMesh(beadGeometry, gold, count);
-		const m = new THREE.Matrix4();
-		for (let i = 0; i < count; i++) {
-			const a = (i / count) * Math.PI * 2;
-			m.makeTranslation(Math.cos(a) * r, y, Math.sin(a) * r);
-			beads.setMatrixAt(i, m);
-		}
-		gemGroup.add(beads);
-	};
-	addBeadRing(EGG_H * 0.76, 32);
-	addBeadRing(-EGG_H * 0.74, 28);
-	const rimGeometry = keep(
-		new THREE.TorusGeometry(eggRadius(EGG_H * 0.76) + 0.035, 0.014, 8, 96),
-	);
-	const rimTop = new THREE.Mesh(rimGeometry, gold);
-	rimTop.rotation.x = Math.PI / 2;
-	rimTop.position.y = EGG_H * 0.76 - 0.04;
-	gemGroup.add(rimTop);
-
-	// 爪：沿蛋面从冠沿、杯沿伸向腰线，末端一颗小珠
-	const clawRadius = 0.022;
-	const addClaws = (
-		from: number,
-		to: number,
-		count: number,
-		offset: number,
-	) => {
-		for (let i = 0; i < count; i++) {
-			const a = (i / count) * Math.PI * 2 + offset;
-			const pts: THREE.Vector3[] = [];
-			for (let k = 0; k <= 12; k++) {
-				const y = from + ((to - from) * k) / 12;
-				// 爪子中段稍稍鼓起，末端收回贴住宝石
-				const lift = 0.03 + Math.sin((k / 12) * Math.PI) * 0.03;
-				const r = eggRadius(y) + lift;
-				pts.push(new THREE.Vector3(Math.cos(a) * r, y, Math.sin(a) * r));
-			}
-			const claw = new THREE.Mesh(
-				keep(
-					new THREE.TubeGeometry(
-						new THREE.CatmullRomCurve3(pts),
-						24,
-						clawRadius,
-						8,
-						false,
-					),
-				),
-				gold,
-			);
-			gemGroup.add(claw);
-			const tip = new THREE.Mesh(beadGeometry, gold);
-			tip.position.copy(pts[pts.length - 1]);
-			tip.scale.setScalar(1.3);
-			gemGroup.add(tip);
-		}
-	};
-	addClaws(EGG_H * 0.76, EGG_H * 0.18, 8, 0);
-	addClaws(-EGG_H * 0.74, -EGG_H * 0.3, 8, Math.PI / 8);
-
-	// 冠顶：短颈、托环，托着焰的菱形徽记
-	const neck = new THREE.Mesh(
-		keep(
-			new THREE.LatheGeometry(
-				[
-					[0.12, 0],
-					[0.06, 0.08],
-					[0.045, 0.18],
-					[0.08, 0.22],
-					[0.0001, 0.24],
-				].map(([x, y]) => new THREE.Vector2(x, y)),
-				32,
-			),
-		),
-		gold,
-	);
-	neck.position.y = EGG_H;
-	gemGroup.add(neck);
-	const emblemRing = new THREE.Mesh(
-		keep(new THREE.TorusGeometry(0.17, 0.016, 8, 48)),
-		gold,
-	);
-	emblemRing.position.y = EGG_H + 0.43;
-	gemGroup.add(emblemRing);
-	const emblemMaterial = keep(
-		new THREE.MeshPhysicalMaterial({
-			color: 0xc79bff,
-			emissive: 0x5a18c0,
-			emissiveIntensity: 0.6,
-			roughness: 0.05,
-			transmission: 0.6,
-			thickness: 0.3,
-			ior: 1.8,
-			clearcoat: 1,
-			flatShading: true,
-		}),
-	);
-	const emblem = new THREE.Mesh(
-		keep(new THREE.OctahedronGeometry(0.13, 0)),
-		emblemMaterial,
-	);
-	emblem.scale.set(0.8, 1.45, 0.55);
-	emblem.position.y = EGG_H + 0.43;
-	gemGroup.add(emblem);
 
 	// ── 表盘与齿轮 ──
 	const dialMap = keep(dialTexture());
@@ -740,7 +564,7 @@ export function initSoulGem(container: HTMLElement, signal: AbortSignal): void {
 		ringMaterialA.color.set(dark ? 0xc9a2ff : 0x8a5ad8);
 		ringMaterialB.color.set(dark ? 0xff9ccf : 0xd8609e);
 		orbMaterial.color.set(dark ? 0xf4d8ff : 0xb070e8);
-		hemi.intensity = dark ? 0.8 : 1.3;
+		hemi.intensity = dark ? 0.8 : 0.85;
 	};
 	applyTheme();
 	watchTheme(() => {
@@ -782,7 +606,7 @@ export function initSoulGem(container: HTMLElement, signal: AbortSignal): void {
 	};
 	const hitGem = () => {
 		raycaster.setFromCamera(pointer, camera);
-		return raycaster.intersectObject(gem, false).length > 0;
+		return raycaster.intersectObject(gemGroup, true).length > 0;
 	};
 	canvas.addEventListener(
 		"pointermove",
@@ -835,21 +659,21 @@ export function initSoulGem(container: HTMLElement, signal: AbortSignal): void {
 		const step = frozen ? 0 : dt;
 		elapsed += step;
 
-		gemGroup.rotation.y += step * 0.45;
+		// 插画是一块面片，只做极轻的摆动，避免露出它是平的
+		gemGroup.rotation.z = Math.sin(elapsed * 0.6) * 0.025;
 		gemGroup.position.y = Math.sin(elapsed * 1.2) * 0.08;
 		root.rotation.x +=
 			(target.y * -0.18 - root.rotation.x) * Math.min(1, dt * 3);
 		root.rotation.y +=
 			(target.x * 0.32 - root.rotation.y) * Math.min(1, dt * 3);
+		// 宝珠面片抵消整体倾斜，始终正对镜头；周围的盾、齿轮、魔法环照常有视差
+		gemGroup.rotation.x = -root.rotation.x;
+		gemGroup.rotation.y = -root.rotation.y;
 
 		glow += ((hover ? 1 : 0) - glow) * Math.min(1, dt * 6);
-		const pulse = 0.85 + Math.sin(elapsed * 2.2) * 0.15 + glow * 0.5;
-		coreMaterial.color.setRGB(1.5 * pulse, 0.85 * pulse, 2.4 * pulse);
-		coreLight.intensity = 3 + pulse * 2.5;
-		gemMaterial.emissiveIntensity = 0.3 + glow * 0.6;
-		soulUniforms.uTime.value = elapsed;
-		soulUniforms.uGlow.value = 0.9 + glow * 0.8 + Math.sin(elapsed * 2.2) * 0.1;
-		emblem.rotation.y = elapsed * 1.2;
+		const pulse = Math.sin(elapsed * 2.2) * 0.1;
+		coreUniforms.uTime.value = elapsed;
+		coreUniforms.uGlow.value = 1 + glow * 0.9 + pulse * 2;
 		halo.scale.set(3.4 * (0.96 + glow * 0.12), 3.8 * (0.96 + glow * 0.12), 1);
 
 		dial.rotation.z -= step * 0.06;
@@ -897,8 +721,16 @@ export function initSoulGem(container: HTMLElement, signal: AbortSignal): void {
 		cancelAnimationFrame(frame);
 	};
 
-	renderFrame(0);
-	container.classList.add("is-ready");
+	// three.js 并行编译着色器，没编译完的物体那一帧直接不画，瓮身会露出背后的光晕。
+	// 等全部编译完再显示画布（之前由 CSS 画的宝石占位）。
+	const reveal = () => {
+		if (signal.aborted) return;
+		renderFrame(0);
+		container.classList.add("is-ready");
+	};
+	orbTextures
+		.then(() => renderer.compileAsync(scene, camera))
+		.then(reveal, reveal);
 	watchVisibility(
 		container,
 		(v) => {

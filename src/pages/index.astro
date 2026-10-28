@@ -78,7 +78,7 @@ const delay = (i: number) =>
 ---
 
 <MainGridLayout title={homeConfig.title} description={homeConfig.description}>
-    <!-- 顶部：站点介绍 + 灵魂宝石主视觉，特效见 src/scripts/magic/home-hero.ts -->
+    <!-- 顶部：站点介绍 + 灵魂宝石（黑暗宝珠形态）主视觉，特效见 src/scripts/magic/home-hero.ts -->
     <section id="magic-hero" class="card-base magic-card hero mb-4 onload-animation" style={delay(0)}>
         <div class="hero-bg" aria-hidden="true">
             <div class="hero-lattice"></div>
@@ -380,6 +380,14 @@ const delay = (i: number) =>
     -webkit-mask-image: radial-gradient(closest-side, #000 72%, transparent 100%);
     mask-image: radial-gradient(closest-side, #000 72%, transparent 100%);
 }
+/* 着色器编译完成前画面不完整，先藏起来 */
+.gem-stage :global(.gem-canvas) {
+    opacity: 0;
+    transition: opacity .6s;
+}
+.gem-stage:global(.is-ready) :global(.gem-canvas) {
+    opacity: 1;
+}
 .gem-fallback {
     position: absolute;
     inset: 0;
@@ -388,15 +396,29 @@ const delay = (i: number) =>
     place-items: center;
     transition: opacity .6s;
 }
+/* 占位剪影：黑色瓮身 + 顶上的紫色宝珠 */
 .gem-fallback span {
-    width: 26%;
-    aspect-ratio: 2 / 3;
-    border-radius: 50% 50% 46% 46% / 40% 40% 60% 60%;
+    position: relative;
+    width: 30%;
+    aspect-ratio: 4 / 5;
+    border-radius: 42% 42% 30% 30% / 34% 34% 50% 50%;
     background:
-        radial-gradient(circle at 50% 45%, oklch(0.95 0.08 320), transparent 25%),
-        linear-gradient(135deg, oklch(0.62 0.2 300), oklch(0.35 0.16 295));
-    box-shadow: 0 0 60px 10px color-mix(in oklch, var(--homura) 45%, transparent);
+        radial-gradient(ellipse 18% 26% at 28% 58%, oklch(0.7 0.2 305), transparent 100%),
+        radial-gradient(ellipse 18% 26% at 72% 58%, oklch(0.7 0.2 305), transparent 100%),
+        linear-gradient(160deg, oklch(0.32 0.05 300), oklch(0.16 0.04 300));
+    box-shadow: 0 0 60px 6px color-mix(in oklch, var(--homura) 40%, transparent);
     animation: gem-float 4s ease-in-out infinite alternate;
+}
+.gem-fallback span::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -26%;
+    width: 30%;
+    aspect-ratio: 1;
+    translate: -50% 0;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, oklch(0.85 0.12 310), oklch(0.55 0.22 300));
 }
 @keyframes gem-float {
     to { transform: translateY(-8px); }
