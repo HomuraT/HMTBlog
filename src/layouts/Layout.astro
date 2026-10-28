@@ -22,6 +22,7 @@ import type { Favicon } from "../types/config";
 import { pathsEqual, url } from "../utils/url-utils";
 import "katex/dist/katex.css";
 import "../styles/magic.css";
+import "../styles/gfx-demo.css";
 
 interface Props {
 	title?: string;
@@ -387,6 +388,11 @@ async function loadPageEffects() {
 	if (hero) {
 		const { initHomeHero } = await import('../scripts/magic/home-hero')
 		initHomeHero(hero, pageSignal())
+	}
+	// 《网页图形与动画的技术路线》一文中的交互示例
+	if (document.querySelector('[data-gfx]')) {
+		const { initGfxDemos } = await import('../scripts/gfx/index')
+		initGfxDemos(pageSignal())
 	}
 	refreshAmbient()
 }

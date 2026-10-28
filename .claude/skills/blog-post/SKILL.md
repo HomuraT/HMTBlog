@@ -620,6 +620,16 @@ Astro 总是把 `<style>` 抽成 `<head>` 里的 `<link rel="stylesheet">`，而
 
 页面级特效里有渲染循环或事件监听的，用 `pageSignal()` 拿到的 `AbortSignal` 注册清理。`Layout.astro` 在 swup 的 `content:replace` 之前调用 `endPage()` 中止它，不然离开首页后 three.js 还会在后台空转。由脚本驱动的动画用 `isTimeStopped()` / `onTimeStop()` 响应时停，CSS 动画由 `html.time-stopped` 统一暂停。
 
+### 文章里的交互示例
+
+文章正文可以嵌入实时运行的图形示例，`tech/frontend/web-graphics` 是现成的例子。正文里写一个占位元素：
+
+```html
+<div class="gfx-demo not-prose" data-gfx="pixi"><p class="gfx-hint">示例说明</p></div>
+```
+
+`data-gfx` 的值对应 `src/scripts/gfx/demos/` 下的模块，在 `src/scripts/gfx/index.ts` 的 `demos` 表里登记。每个模块导出 `mount(el, signal)`，元素接近视口时才动态加载，库也随之打成独立 chunk。`not-prose` 让示例避开正文排版样式；动画循环用 `shared.ts` 的 `runLoop()`，不可见时自动暂停，`signal` 中止时清理。素材放在 `public/images/gfx/`。
+
 ### 其他
 
 - Astro 的 `<script>` 默认被 Vite 打包成 ES module 并 defer。要引 CDN 外链或需要立即执行，加 `is:inline`。

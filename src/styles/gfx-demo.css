@@ -1,0 +1,310 @@
+/*
+ * 文章《网页图形与动画的技术路线》里交互示例的样式，脚本见 src/scripts/gfx/。
+ * 舞台在明暗模式下都用深色，示例里的颜色不必分两套。
+ */
+
+.gfx-demo {
+	--gfx-bg:
+		radial-gradient(120% 90% at 70% 0%, oklch(0.3 0.09 300) 0%, transparent 60%),
+		radial-gradient(90% 80% at 0% 100%, oklch(0.28 0.08 350) 0%, transparent 55%),
+		oklch(0.16 0.03 300);
+	position: relative;
+	margin: 1.25rem 0 1.75rem;
+	aspect-ratio: 16 / 9;
+	min-height: 240px;
+	border-radius: var(--radius-large);
+	overflow: hidden;
+	background: var(--gfx-bg);
+	color: oklch(0.92 0.02 300);
+	box-shadow: inset 0 0 0 1px oklch(0.75 0.12 300 / 0.18);
+	user-select: none;
+	touch-action: pan-y;
+}
+
+.gfx-demo > canvas,
+.gfx-demo > .gfx-stage {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.gfx-demo > canvas {
+	cursor: crosshair;
+}
+
+/* 左下角的说明标签 */
+.gfx-hint {
+	position: absolute;
+	left: 0.75rem;
+	bottom: 0.65rem;
+	z-index: 3;
+	margin: 0;
+	padding: 0.2rem 0.65rem;
+	border-radius: 999px;
+	font-size: 0.75rem;
+	line-height: 1.6;
+	color: oklch(0.92 0.03 300);
+	background: oklch(0.2 0.04 300 / 0.65);
+	backdrop-filter: blur(6px);
+	pointer-events: none;
+}
+
+/* 右上角的控制按钮 */
+.gfx-controls {
+	position: absolute;
+	top: 0.65rem;
+	right: 0.65rem;
+	z-index: 3;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+}
+
+.gfx-controls button {
+	padding: 0.25rem 0.7rem;
+	border-radius: 0.5rem;
+	font-size: 0.75rem;
+	color: oklch(0.95 0.02 300);
+	background: oklch(0.32 0.08 300 / 0.75);
+	border: 1px solid oklch(0.75 0.12 300 / 0.35);
+	transition: background-color 0.2s, transform 0.2s;
+}
+
+.gfx-controls button:hover {
+	background: oklch(0.45 0.14 300 / 0.85);
+}
+
+.gfx-controls button:active {
+	transform: scale(0.95);
+}
+
+/* 左上角的状态标签，比如降级说明 */
+.gfx-badge {
+	position: absolute;
+	left: 0.75rem;
+	top: 0.65rem;
+	z-index: 3;
+	margin: 0;
+	max-width: calc(100% - 1.5rem);
+	padding: 0.2rem 0.65rem;
+	border-radius: 999px;
+	font-size: 0.72rem;
+	line-height: 1.6;
+	color: oklch(0.92 0.06 60);
+	background: oklch(0.3 0.06 40 / 0.7);
+	backdrop-filter: blur(6px);
+	pointer-events: none;
+}
+
+.gfx-notice {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	margin: 0;
+	padding: 1.5rem;
+	text-align: center;
+	font-size: 0.9rem;
+	color: oklch(0.85 0.04 300);
+}
+
+.gfx-demo.is-loading::after {
+	content: "加载中";
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	font-size: 0.85rem;
+	color: oklch(0.8 0.05 300);
+	animation: gfx-blink 1.2s ease-in-out infinite alternate;
+}
+
+.gfx-demo.is-error::after {
+	content: "示例加载失败";
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	font-size: 0.85rem;
+	color: oklch(0.8 0.1 20);
+}
+
+@keyframes gfx-blink {
+	to {
+		opacity: 0.4;
+	}
+}
+
+/* ── CSS 滚动驱动动画：纯 CSS，没有脚本 ───────────────────── */
+
+.gfx-scroll {
+	aspect-ratio: auto;
+	height: 360px;
+}
+
+.gfx-scroll-track {
+	position: absolute;
+	inset: 0;
+	overflow-y: auto;
+	padding: 3.5rem 1.25rem 45%;
+	scroll-timeline: --gfx-loop block;
+	scrollbar-width: thin;
+	scrollbar-color: oklch(0.6 0.14 300 / 0.6) transparent;
+}
+
+/* 顶部进度条：跟随滚动容器的滚动进度伸长 */
+.gfx-scroll-progress {
+	position: sticky;
+	top: -2.75rem;
+	z-index: 2;
+	height: 4px;
+	margin: -2.75rem -1.25rem 2.5rem;
+	transform-origin: left;
+	background: linear-gradient(90deg, oklch(0.62 0.2 300), oklch(0.75 0.16 350));
+	animation: gfx-grow linear both;
+	animation-timeline: --gfx-loop;
+}
+
+@keyframes gfx-grow {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(1);
+	}
+}
+
+/* 每张卡片在穿过可视区域时淡入、放大，离开时淡出 */
+.gfx-scroll-card {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	gap: 0.9rem;
+	margin: 0 auto 1rem;
+	max-width: 30rem;
+	padding: 0.8rem 1rem;
+	border-radius: 0.9rem;
+	background: oklch(0.24 0.05 300 / 0.85);
+	border: 1px solid oklch(0.7 0.12 300 / 0.25);
+	animation: gfx-pass linear both;
+	animation-timeline: view(block);
+}
+
+.gfx-scroll-card img {
+	width: 3.2rem;
+	height: 3.2rem;
+	object-fit: contain;
+}
+
+.gfx-scroll-card strong {
+	display: block;
+	font-size: 0.95rem;
+	color: oklch(0.88 0.08 310);
+}
+
+.gfx-scroll-card span {
+	font-size: 0.8rem;
+	color: oklch(0.8 0.03 300);
+}
+
+@keyframes gfx-pass {
+	0% {
+		opacity: 0;
+		transform: translateX(-2.5rem) scale(0.9);
+	}
+	35%,
+	65% {
+		opacity: 1;
+		transform: none;
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(2.5rem) scale(0.9);
+	}
+}
+
+@supports not (animation-timeline: view()) {
+	.gfx-scroll::before {
+		content: "当前浏览器不支持滚动驱动动画，以下为静态内容";
+		position: absolute;
+		top: 0.7rem;
+		left: 1rem;
+		z-index: 3;
+		font-size: 0.75rem;
+		color: oklch(0.8 0.05 300);
+	}
+}
+
+/* ── View Transitions 角色卡 ───────────────────────────── */
+
+.gfx-cards {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 0.6rem;
+	padding: 2.8rem 0.9rem 2.6rem;
+}
+
+/* 放大的卡占第一列两行，其余五张填进右侧 3 × 2 */
+.gfx-cards.is-focus {
+	grid-template-columns: 1.7fr 1fr 1fr 1fr;
+}
+
+.gfx-card {
+	position: relative;
+	display: grid;
+	place-items: center;
+	border-radius: 0.8rem;
+	background: oklch(0.26 0.06 300 / 0.8);
+	border: 1px solid oklch(0.7 0.12 300 / 0.25);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.gfx-card img {
+	max-width: 85%;
+	max-height: 82%;
+	object-fit: contain;
+	pointer-events: none;
+}
+
+.gfx-card span {
+	position: absolute;
+	bottom: 0.35rem;
+	font-size: 0.7rem;
+	color: oklch(0.86 0.04 300);
+}
+
+.gfx-card.is-big {
+	grid-row: span 2;
+	background: oklch(0.3 0.09 305 / 0.9);
+}
+
+/* ── DOM 动画示例里的通用小元素 ─────────────────────────── */
+
+.gfx-sprite {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 72px;
+	height: 72px;
+	object-fit: contain;
+	pointer-events: none;
+	will-change: transform;
+}
+
+@media (max-width: 640px) {
+	.gfx-demo {
+		aspect-ratio: 4 / 3;
+	}
+
+	.gfx-cards {
+		grid-template-columns: repeat(3, 1fr);
+		padding: 2.6rem 0.5rem 2.4rem;
+		gap: 0.4rem;
+	}
+}
