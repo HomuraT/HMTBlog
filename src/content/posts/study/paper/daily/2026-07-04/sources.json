@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-07-04",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.01977v1",
+			"title": "OntoLearner: A Modular Python Library for Ontology Learning with Large Language Models",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.01977v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.02512v1",
+			"title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02512v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02514v1",
+			"title": "Distributed Attacks in Persistent-State AI Control",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02514v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02517v1",
+			"title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02517v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02509v1",
+			"title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02509v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02501v1",
+			"title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02501v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02255v1",
+			"title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02255v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02510v1",
+			"title": "Online Safety Monitoring for LLMs",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02510v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"ontolearner-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.01977v1#page=7",
+			"item": "Figure 1",
+			"pdf_page": 7,
+			"authors": "Hamed Babaei Giglou、Jennifer D’Souza、Andrei Aioanei、Nandana Mihindukulasooriya、Sören Auer",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.01977v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [125, 120, 1405, 835],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1280, 715],
+			"sha256": "f34d81b01d6d8ecf29267a287b6b34ba56c81858e40eb4664638a0f9f051ecd1",
+			"source_pdf_sha256": "32f128fc00dec4022e2e184e7f9cffbee3c4a40a54836cee5af96f364bf18fed"
+		}
+	}
+}

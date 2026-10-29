@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-07-07",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.00924v1",
+			"title": "Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.00924v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.01061v1",
+			"title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01061v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01232v1",
+			"title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01232v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.04434v1",
+			"title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+			"version_submitted": "2026-07-05",
+			"source": "https://arxiv.org/abs/2607.04434v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.05247v1",
+			"title": "Vision Pretraining for Dense Spatial Perception",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.05247v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.05155v1",
+			"title": "EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.05155v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.04425v1",
+			"title": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
+			"version_submitted": "2026-07-05",
+			"source": "https://arxiv.org/abs/2607.04425v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02032v1",
+			"title": "PACE: A Proxy for Agentic Capability Evaluation",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02032v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02234v1",
+			"title": "Purified OPSD: On-Policy Self-Distillation Without Losing How to Think",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02234v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.00924v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.00924v1#page=3",
+			"license": "CC BY-NC-ND 4.0",
+			"reason": "非商业、禁止演绎限制与本站用途及裁切方式的适用关系未确认"
+		}
+	]
+}

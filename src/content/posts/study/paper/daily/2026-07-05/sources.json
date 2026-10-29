@@ -1,0 +1,88 @@
+{
+	"digest_date": "2026-07-05",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.01773v1",
+			"title": "Verifiable Knowledge Expansion through Retrieval-Grounded Formal Concept Analysis",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.01773v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.00003v1",
+			"title": "From \"Strings\" to \"Things\" for Personal Knowledge Graphs: Evaluating LLM Triple Extraction for Recommendation Systems",
+			"version_submitted": "2026-04-18",
+			"source": "https://arxiv.org/abs/2607.00003v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01531v1",
+			"title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01531v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.00784v1",
+			"title": "LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.00784v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01775v1",
+			"title": "Set Diffusion: Interpolating Token Orderings Between Autoregression and Diffusion for Fast and Flexible Decoding",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.01775v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01224v1",
+			"title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01224v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01120v1",
+			"title": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01120v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01051v1",
+			"title": "AutoSpeed: Annotation-Free Stage-Adaptive Motion Speed Learning for Robot Manipulation",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01051v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.32026v1",
+			"title": "AdaJEPA: An Adaptive Latent World Model",
+			"version_submitted": "2026-06-30",
+			"source": "https://arxiv.org/abs/2606.32026v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"verifiable-fca-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.01773v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"authors": "Yujin Yang、Heejung Lee",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.01773v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [125, 200, 1408, 838],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1283, 638],
+			"sha256": "b14ef532a3cabe32ea63b47f67dcaf223d2cb970d157ef0e8cd07e88e8b2f1c0",
+			"source_pdf_sha256": "6662a81b00a6c049035857d86f2ecadd36281d1f2652a41aa97a031874f99e33"
+		}
+	}
+}

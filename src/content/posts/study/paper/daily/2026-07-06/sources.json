@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-07-06",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.01179v1",
+			"title": "QuasiMoTTo: Quasi-Monte Carlo Test-Time Scaling",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01179v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.19464v1",
+			"title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+			"version_submitted": "2026-06-17",
+			"source": "https://arxiv.org/abs/2606.19464v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.13669v1",
+			"title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13669v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01693v1",
+			"title": "A Mathematical Introduction to Diffusion Models",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.01693v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.00272v1",
+			"title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+			"version_submitted": "2026-06-30",
+			"source": "https://arxiv.org/abs/2607.00272v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02515v1",
+			"title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02515v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01233v1",
+			"title": "Measuring the Gap Between Human and LLM Research Ideas",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01233v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.02375v1",
+			"title": "Representation Distribution Matching for One-Step Visual Generation",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.02375v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01763v1",
+			"title": "Denser $\\neq$ Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
+			"version_submitted": "2026-07-02",
+			"source": "https://arxiv.org/abs/2607.01763v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.01179v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.01179v1#page=2",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-07-01",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.24618v1",
+			"title": "Abstractions of Queries in Ontology-Based Data Access",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24618v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.28076v1",
+			"title": "Ontology-Guided Evidence Path Inference for Multi-hop Knowledge Graph Question Answering",
+			"version_submitted": "2026-06-26",
+			"source": "https://arxiv.org/abs/2606.28076v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.30534v1",
+			"title": "Orca: The World is in Your Mind",
+			"version_submitted": "2026-06-29",
+			"source": "https://arxiv.org/abs/2606.30534v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.30616v1",
+			"title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+			"version_submitted": "2026-06-29",
+			"source": "https://arxiv.org/abs/2606.30616v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.29718v1",
+			"title": "Diagnosing and Mitigating Context Rot in Long-horizon Search",
+			"version_submitted": "2026-06-29",
+			"source": "https://arxiv.org/abs/2606.29718v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.29537v1",
+			"title": "OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+			"version_submitted": "2026-06-28",
+			"source": "https://arxiv.org/abs/2606.29537v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.30755v1",
+			"title": "Understanding and Evaluating Claw-like Agent Security Through a Computer-Systems Lens",
+			"version_submitted": "2026-06-29",
+			"source": "https://arxiv.org/abs/2606.30755v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.29708v1",
+			"title": "Demystifying the Design Space and Best Practices for Heterogeneous LLM Inference and Serving",
+			"version_submitted": "2026-06-29",
+			"source": "https://arxiv.org/abs/2606.29708v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.24618v1",
+			"item": "Table 1",
+			"source": "https://arxiv.org/pdf/2606.24618v1#page=2",
+			"license": "CC BY-NC-SA 4.0",
+			"reason": "本站用途与非商业限制的适用关系未确认"
+		}
+	]
+}

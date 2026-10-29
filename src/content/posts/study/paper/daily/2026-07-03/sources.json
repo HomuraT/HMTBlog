@@ -1,0 +1,67 @@
+{
+	"digest_date": "2026-07-03",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.00464v1",
+			"title": "MolSafeEval: A Benchmark for Uncovering Safety Risks in AI-Generated Molecules",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.00464v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.31614v1",
+			"title": "Automating Cause-Effect Specification with Knowledge Graphs and Large Language Models",
+			"version_submitted": "2026-06-30",
+			"source": "https://arxiv.org/abs/2606.31614v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.00678v1",
+			"title": "ABot-M0.5: Unified Mobility-and-Manipulation World Action Model",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.00678v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.31410v1",
+			"title": "Xiaomi-GUI-0 Technical Report",
+			"version_submitted": "2026-06-30",
+			"source": "https://arxiv.org/abs/2606.31410v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.29957v1",
+			"title": "SWE-Together: Evaluating Coding Agents in Interactive User Sessions",
+			"version_submitted": "2026-06-29",
+			"source": "https://arxiv.org/abs/2606.29957v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01232v1",
+			"title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01232v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.01202v1",
+			"title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video",
+			"version_submitted": "2026-07-01",
+			"source": "https://arxiv.org/abs/2607.01202v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.00464v1",
+			"item": "Table 2",
+			"source": "https://arxiv.org/pdf/2607.00464v1#page=6",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}
