@@ -1,0 +1,88 @@
+{
+	"digest_date": "2026-05-21",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 and public submission metadata; digest date is recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2605.21488v1",
+			"title": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
+			"source": "https://arxiv.org/abs/2605.21488v1",
+			"first_submitted": "2026-05-20",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.19932v1",
+			"title": "PEEK: Context Map as an Orientation Cache for Long-Context LLM Agents",
+			"source": "https://arxiv.org/abs/2605.19932v1",
+			"first_submitted": "2026-05-19",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.17072v1",
+			"title": "RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation",
+			"source": "https://arxiv.org/abs/2605.17072v1",
+			"first_submitted": "2026-05-16",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.16068v1",
+			"title": "Relational Database Data Lineage Ontology",
+			"source": "https://arxiv.org/abs/2605.16068v1",
+			"first_submitted": "2026-05-15",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.16714v1",
+			"title": "GRID: Graph Representation of Intelligence Data for Security Text Knowledge Graph Construction",
+			"source": "https://arxiv.org/abs/2605.16714v1",
+			"first_submitted": "2026-05-15",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.19150v1",
+			"title": "Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models",
+			"source": "https://arxiv.org/abs/2605.19150v1",
+			"first_submitted": "2026-05-18",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.17204v1",
+			"title": "Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies",
+			"source": "https://arxiv.org/abs/2605.17204v1",
+			"first_submitted": "2026-05-17",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.19376v1",
+			"title": "Generative Recursive Reasoning",
+			"source": "https://arxiv.org/abs/2605.19376v1",
+			"first_submitted": "2026-05-19",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.18703v1",
+			"title": "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL",
+			"source": "https://arxiv.org/abs/2605.18703v1",
+			"first_submitted": "2026-05-18",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"peek-figure1.png": {
+			"source": "https://arxiv.org/pdf/2605.19932v1#page=1",
+			"figure": 1,
+			"pdf_page": 1,
+			"authors": "Zhuohan Gu、Qizheng Zhang、Omar Khattab、Samuel Madden",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2605.19932v1",
+			"change": "Cropped original figure and labels only; figure content and colors unchanged.",
+			"crop_pixels": [270, 1395, 1270, 1635],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1000, 240],
+			"sha256": "e68212de119729f06a67ed11b851a8d2a865a8e78d93c97b74abfb1a62163230",
+			"source_pdf_sha256": "285c346a826761c9cc13bc752c0b75684edc77ae6a213df9236bbd5b19af1109"
+		}
+	}
+}

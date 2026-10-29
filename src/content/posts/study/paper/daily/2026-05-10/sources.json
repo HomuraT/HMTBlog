@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-05-10",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 and public submission metadata; digest date is recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2605.04050v1",
+			"title": "LCM: Lossless Context Management",
+			"source": "https://arxiv.org/abs/2605.04050v1",
+			"first_submitted": "2026-02-14",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.04061v1",
+			"title": "Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning",
+			"source": "https://arxiv.org/abs/2605.04061v1",
+			"first_submitted": "2026-04-10",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.04064v1",
+			"title": "Improving Medical VQA through Trajectory-Aware Process Supervision",
+			"source": "https://arxiv.org/abs/2605.04064v1",
+			"first_submitted": "2026-04-10",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2512.05594v1",
+			"title": "Ontology Learning with LLMs: A Benchmark Study on Axiom Identification",
+			"source": "https://arxiv.org/abs/2512.05594v1",
+			"first_submitted": "2025-12-05",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2506.01232v1",
+			"title": "Retrieval-Augmented Generation of Ontologies from Relational Databases",
+			"source": "https://arxiv.org/abs/2506.01232v1",
+			"first_submitted": "2025-06-02",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.04065v1",
+			"title": "Free Energy-Driven Reinforcement Learning with Adaptive Advantage Shaping for Unsupervised Reasoning in LLMs",
+			"source": "https://arxiv.org/abs/2605.04065v1",
+			"first_submitted": "2026-04-11",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.04070v1",
+			"title": "Toward Human-AI Complementarity Across Diverse Tasks",
+			"source": "https://arxiv.org/abs/2605.04070v1",
+			"first_submitted": "2026-04-13",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.04057v1",
+			"title": "Structured Progressive Knowledge Activation for LLM-Driven Neural Architecture Search",
+			"source": "https://arxiv.org/abs/2605.04057v1",
+			"first_submitted": "2026-04-10",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"lcm-figure1.png": {
+			"source": "https://arxiv.org/pdf/2605.04050v1#page=2",
+			"figure": 1,
+			"pdf_page": 2,
+			"authors": "Clint Ehrlich、Theodore Blackman",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2605.04050v1",
+			"change": "Cropped original figure and labels only; figure content and colors unchanged.",
+			"crop_pixels": [180, 205, 1310, 785],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1130, 580],
+			"sha256": "69714bdda983f98c83485f2c3580e514240a4e40594d1184cba0ca4ec7d84339",
+			"source_pdf_sha256": "342b84f1abe236d2d7a81a767ecbe3f3fe1a142a1d7b92a1e3441d5b8781f2c3"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-05-14",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 and public submission metadata; digest date is recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2605.13778v1",
+			"title": "Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs",
+			"source": "https://arxiv.org/abs/2605.13778v1",
+			"first_submitted": "2026-05-13",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.12357v1",
+			"title": "$δ$-mem: Efficient Online Memory for Large Language Models",
+			"source": "https://arxiv.org/abs/2605.12357v1",
+			"first_submitted": "2026-05-12",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.12466v1",
+			"title": "Solve the Loop: Attractor Models for Language and Reasoning",
+			"source": "https://arxiv.org/abs/2605.12466v1",
+			"first_submitted": "2026-05-12",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.10853v1",
+			"title": "A Benchmark for Gap and Overlap Analysis as a Test of KG Task Readiness",
+			"source": "https://arxiv.org/abs/2604.10853v1",
+			"first_submitted": "2026-04-12",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.13724v1",
+			"title": "AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation",
+			"source": "https://arxiv.org/abs/2605.13724v1",
+			"first_submitted": "2026-05-13",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.11182v1",
+			"title": "The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes",
+			"source": "https://arxiv.org/abs/2605.11182v1",
+			"first_submitted": "2026-05-11",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.12090v1",
+			"title": "World Action Models: The Next Frontier in Embodied AI",
+			"source": "https://arxiv.org/abs/2605.12090v1",
+			"first_submitted": "2026-05-12",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"attractor-figure1.png": {
+			"source": "https://arxiv.org/pdf/2605.12466v1#page=1",
+			"figure": 1,
+			"pdf_page": 1,
+			"authors": "Jacob Fein-Ashley、Paria Rashidinejad",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2605.12466v1",
+			"change": "Cropped original figure and labels only; figure content and colors unchanged.",
+			"crop_pixels": [175, 1150, 1355, 1660],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1180, 510],
+			"sha256": "274aa66cce4852236430d540a9e93bcd7b980d9642e4c82e4bbfc5d8ee53ddf3",
+			"source_pdf_sha256": "c379c509c442023dceff9428e41bec4807e86fad8dedd62416d21e3cab921346"
+		}
+	}
+}

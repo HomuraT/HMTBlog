@@ -1,0 +1,72 @@
+{
+	"digest_date": "2026-05-11",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 and public submission metadata; digest date is recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2605.06638v1",
+			"title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+			"source": "https://arxiv.org/abs/2605.06638v1",
+			"first_submitted": "2026-05-07",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.08063v1",
+			"title": "Flow-OPD: On-Policy Distillation for Flow Matching Models",
+			"source": "https://arxiv.org/abs/2605.08063v1",
+			"first_submitted": "2026-05-08",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.06747v1",
+			"title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours",
+			"source": "https://arxiv.org/abs/2605.06747v1",
+			"first_submitted": "2026-05-07",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2603.21188v1",
+			"title": "Ontology-Compliant Knowledge Graphs",
+			"source": "https://arxiv.org/abs/2603.21188v1",
+			"first_submitted": "2026-03-22",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2603.23136v1",
+			"title": "HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature",
+			"source": "https://arxiv.org/abs/2603.23136v1",
+			"first_submitted": "2026-03-24",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.08083v1",
+			"title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+			"source": "https://arxiv.org/abs/2605.08083v1",
+			"first_submitted": "2026-05-08",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.08078v1",
+			"title": "Normalizing Trajectory Models",
+			"source": "https://arxiv.org/abs/2605.08078v1",
+			"first_submitted": "2026-05-08",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.06593v1",
+			"title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
+			"source": "https://arxiv.org/abs/2605.06593v1",
+			"first_submitted": "2026-05-07",
+			"verification_scope": "Historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2605.06638v1",
+			"figure": 1,
+			"reason": "Only arXiv non-exclusive distribution license established; no open figure reproduction license confirmed. Original figure linked, not reproduced."
+		}
+	]
+}
