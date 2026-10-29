@@ -14,8 +14,8 @@ lang: 'zh-CN'
 
 | 论文 | 研究焦点 | 本期图表 |
 |---|---|---|
-| [SFE-O](#sfe-o) | 工程参数及其来源 | 本体概念图与实例验证 |
-| [GEPA-Curator](#gepa-curator) | 反思优化的经验筛选 | AppWorld 结果与误差线 |
+| [SFE-O](#sfe-o) | 工程参数及其来源 | 原论文架构图与实例验证 |
+| [GEPA-Curator](#gepa-curator) | 反思优化的经验筛选 | 原论文表格与 AppWorld 结果 |
 | [Evolving Agent Teams](#evolving-agent-teams) | 优化停滞后的团队调整 | 预算条件与加速比 |
 | [RuleTrek](#ruletrek) | 分散资料中的规则推理 | 给定规则与端到端评分 |
 | [CBE](#cbe) | 等价表述下的推理稳定性 | 原论文能力曲线 |
@@ -30,9 +30,9 @@ lang: 'zh-CN'
 
 超临界二氧化碳萃取的原料、工艺和产物数据分散在报告、计算模型与外部数据库中。SFE-O 用 OWL 2 连接生物质、过程和产物，记录实测、计算、外部资料及拟合参数的来源，并显式表示计算依赖，复用 QUDT、PROV-O 等语义资源。
 
-![SFE-O 原创概念示意：生物质、过程与产物相连，参数来源和计算依赖支撑查询及一致性验证。](./images/sfeo-evidence.png)
+![SFE-O 原论文 Figure 1：模块化本体架构，以及与 QUDT、OWL-Time、PROV-O 等外部语义资源的关系。](./images/sfeo-evidence.png)
 
-*图 1｜本站依据 SFE-O 的知识模型和第 VII 节绘制的概念示意，非论文原图。验证依据见[原文第 7–8 页](https://arxiv.org/pdf/2610.37123#page=7)。*
+*图 1｜Thomas Pallet 等，SFE-O，[Figure 1，PDF 第 6 页](https://arxiv.org/pdf/2610.37123#page=6)。原论文截图，保留完整架构图与图例，裁去页内其他文字与空白；未改动图内内容。验证依据见[原文第 7–8 页](https://arxiv.org/pdf/2610.37123#page=7)。*
 
 ### 实例与验证
 
@@ -54,9 +54,9 @@ Agent 系统 · 首版 2026-10-27 · [论文](https://arxiv.org/abs/2610.37651) 
 
 失败轨迹可能包含提示词问题，也可能来自环境限制或评判噪声。GEPA-Curator 在当前批次中筛选有学习价值的任务，并检索同一任务的可靠成功轨迹，给反思优化提供对照。筛选针对当前阶段，困难任务不会因此永久退出训练。
 
-![AppWorld 任务完成率：Test-N 上 GEPA、ACE、GEPA-Curator 为 38.0、55.7、58.7%；Test-C 为 27.8、34.5、46.2%，含标准差误差线。](./images/gepa-appworld.png)
+![GEPA-Curator 原论文 Table 2 节选：Seed 行及 Gemini 3.1 Pro 优化器下 GEPA、ACE、GEPA-Curator 的结果，数值含标准差。](./images/gepa-appworld.png)
 
-*图 2｜本站据[Table 2](https://arxiv.org/pdf/2610.37651#page=6)的数据重绘，非论文原图。横轴为 Task Goal Completion（%），误差线为 5 次运行的标准差。*
+*图 2｜Zack Yu、Nicholas Lee 等，GEPA-Curator，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.37651#page=6)。原论文表格截图，保留表头、Seed 行和 Gemini 3.1 Pro 部分；裁去 Claude Opus 5 部分及页内其他内容，未改动保留的数值。AppWorld 指标为 Task Goal Completion（%），± 后为标准差；下表摘录 AppWorld 两列。*
 
 ### 实验结果与条件
 
@@ -78,9 +78,9 @@ Agent 系统 · 首版 2026-10-27 · [论文](https://arxiv.org/abs/2610.36848) 
 
 GPU 内核搜索容易停在局部有效的实现上。Evolving Agent Teams 由监督 Agent 诊断停滞并重新组织团队，将学习记录、演化历史和产物保存在持久化文件中，支持后续角色调整与优化。
 
-![Evolving Agent Teams 的 MLA decode 几何平均加速比：匹配预算 0.74 倍，追加预算 1.21 倍；生产 FlashInfer 基线为 1。](./images/eat-budget.png)
+![Evolving Agent Teams 原论文 Figure 3：四类内核任务的预算受控进度曲线和逐工作负载加速比，含扩展预算结果。](./images/eat-budget.png)
 
-*图 3｜本站据[Figure 3 与第 4.2–4.3 节](https://arxiv.org/pdf/2610.36848#page=7)重绘。Figure 3 标注匹配预算结果为 0.74×，同页正文写为 0.75×，图中采用原图标注；追加预算的 1.21×来自正文报告。两种预算不构成等成本比较。*
+*图 3｜Shiyi Cao 等，Evolving Agent Teams，[Figure 3，PDF 第 7 页](https://arxiv.org/pdf/2610.36848#page=7)。原论文截图，保留 (a) 预算受控曲线和 (b) 逐工作负载加速比及图例，裁去页内其他文字与空白；未改动图内内容。(a) 实线为两次运行中的最佳结果，虚线为另一次运行；(b) 的 ext. 表示追加预算。MLA decode 匹配预算结果在图中标为 0.74×，同页正文写为 0.75×；下表追加预算的 1.21×来自正文报告，两种预算不构成等成本比较。*
 
 ### 实验结果与条件
 
@@ -102,9 +102,9 @@ GPU 内核搜索容易停在局部有效的实现上。Evolving Agent Teams 由�
 
 实际任务的规则和事实常分散在多个文件中。RuleTrek 分别测试规则识别（RI）、已给定必要规则时的演绎（RD）和自行识别并应用规则的端到端任务（E2E），便于定位信息整合与规则应用的问题。
 
-![RuleTrek 七个模型的 RD 与 E2E 综合评分对照，端到端评分低于已给定规则时的评分；各值详见下表。](./images/ruletrek-rd-e2e.png)
+![RuleTrek 原论文 Table 2 的平均分列：11 个模型的 RI、RD 与 E2E 综合评分。](./images/ruletrek-rd-e2e.png)
 
-*图 4｜本站据[Table 2](https://arxiv.org/pdf/2610.19698#page=6)重绘，节选 7 个模型，并非完整榜单。圆点为 RD，方点为 E2E；两者均为 0–100 综合评分，融合答案正确性与推理评分，不是简单准确率。*
+*图 4｜Chenhao Yuan、Bohan Yu、Yinhao Xu 等，RuleTrek，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.19698#page=6)。原论文表格截图，保留全部 11 个模型的名称及 Avg. 下 RI、RD、E2E 三列，裁去六个领域的分列；未改动保留的数值、排序或着色。下表另摘录 7 个模型的 RD 与 E2E，均为 0–100 综合评分，融合答案正确性与推理评分，不是简单准确率。*
 
 ### 实验结果与条件
 
@@ -150,4 +150,4 @@ GPT-4.1 的 front/behind 排序任务：
 
 ---
 
-图 1–4 为本站原创概念示意或据公开论文数值重绘的图表；原图、原表链接与实验条件已逐项给出。图 5 为按 CC BY 4.0 引用的论文原图，作者与变更说明见图注。
+图 1–4 为原论文图表的必要截图节选，来源、作者及裁剪范围见各图注；对应 arXiv 版本标注 non-exclusive distribution，博客转载原图的许可尚未确认，本文不将其表述为已获授权或开放许可。这些外部图表不适用本站页脚的默认许可。图 5 按 CC BY 4.0 引用，作者与变更说明见图注。
