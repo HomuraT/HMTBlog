@@ -1,0 +1,33 @@
+{
+	"digest_date": "2026-10-28",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "2610.35598v1",
+			"pdf_url": "https://arxiv.org/pdf/2610.35598v1",
+			"source": "https://arxiv.org/abs/2610.35598v1",
+			"version_public_date": "2026-10-26",
+			"title": "Evolve on Graph: Self-Evolving Knowledge Graph Reasoning without Question Annotations",
+			"authors": "Zongyuan Sun , Shuai Zhao , Ke Shu , Ziyue Zhu , Shangyang Wu , Yuanlin Lin , Tao Wang , Shiyue Li , Yingjun Du , Anh Tuan Luu , Haoran Luo",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"pdf_page": 6,
+			"crop_pdf_points": [48, 76, 565, 447],
+			"pages": 12,
+			"version": "2610.35598v1",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": true,
+			"cited_evidence": "工业图谱往往缺少问答标注。Evolve on Graph 让同一个模型轮流出题和解题，同时用图上的可执行逻辑确定答案集合，而非完全依赖模型自评。\n\n## 方法与问题\n\nSVTS 采样推理拓扑并执行一阶逻辑查询，得到可验证骨架和完整答案集，再由出题者生成多跳问题。课程机制依据解题者分数方差，使题目接近能力边界。\n\n## 实验证据\n\nTable 2 的五个公开 KGQA 基准上，Qwen-2.5-7B 的 EoG 平均 Hit@1 为 61.55、F1 为 56.31；同骨干 Graph Reranker 为 54.09、44.26，均为百分制。论文另有工业图谱实验，合计六个基准。不能把公开五项均值与只覆盖部分任务的全监督方法均值直接排名。\n\n## 我的判断\n\n无标注指不依赖人工或闭源教师问答标签，不代表没有监督：图谱事实、可执行逻辑与课程共同提供信号。图谱内可验证不保证外部事实真实，部署前仍需检查题目泄漏、拓扑覆盖与推理成本。"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"item": "Table 2",
+			"source": "https://arxiv.org/pdf/2610.35598v1#page=6",
+			"reason": "arXiv non-exclusive distribution permission does not establish open screenshot republication rights."
+		}
+	]
+}

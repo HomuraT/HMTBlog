@@ -1,0 +1,41 @@
+{
+	"digest_date": "2026-10-26",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "2610.26528v1",
+			"pdf_url": "https://arxiv.org/pdf/2610.26528v1",
+			"source": "https://arxiv.org/abs/2610.26528v1",
+			"version_public_date": "2026-10-19",
+			"title": "A Semantic Knowledge Graph Construction Pipeline for Vehicle Intention Prediction in nuScenes",
+			"authors": "Khaled Nowara , Mohamed Manzour , Catherine Elias",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"pdf_page": 4,
+			"crop_pdf_points": [82, 60, 532, 365],
+			"pages": 11,
+			"version": "2610.26528v1",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": true,
+			"cited_evidence": "交通场景知识图谱不等于更准的驾驶意图预测器。NIKG 在感知结果与下游模型之间提供可查询、可验证的语义上下文。\n\n## 方法与问题\n\n流水线以 ego pose、跟踪目标标注与关键帧时序构建 OWL 支撑的 Turtle 图，显式表示相对自车运动、空间配置与碰撞时间风险，可供 SPARQL 特征提取和神经符号分析。配图仅使用论文的本体示意，不复制 nuScenes 相机画面。\n\n## 实验证据\n\nnuScenes mini 的 10 个场景产生 404 个关键帧、211,335 个三元组。论文协议下，相对运动标签的前向一致性为 92.5%。这是时序标签自洽性，不是意图预测或碰撞预测准确率，也没有完成真实道路驾驶决策安全验证。\n\n## 我的判断\n\n应把它当作语义数据产品。下一步固定预测器和数据划分，对照有无图特征的泛化效果，并加入感知误检与轨迹断裂。图规模和一致性不能替代下游预测收益证据。"
+		}
+	],
+	"figures": {
+		"nikg-figure2.png": {
+			"authors": "Khaled Nowara , Mohamed Manzour , Catherine Elias",
+			"source": "https://arxiv.org/pdf/2610.26528v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.26528v1",
+			"crop_pdf_points": [82, 60, 532, 365],
+			"change": "Rectangular original PDF screenshot; complete figure/table and caption retained; no data modification.",
+			"image_size": [1125, 763],
+			"sha256": "c385c3dff655e1dfd6aa246f87af11064a7b8995f9f1de4049e88ce77075f088",
+			"source_pdf_sha256": "40eefc77c54effb906e93389925295b2ae56ce1d4de40e5d91d385f6028c5658"
+		}
+	}
+}

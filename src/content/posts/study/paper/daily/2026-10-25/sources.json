@@ -1,0 +1,41 @@
+{
+	"digest_date": "2026-10-25",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "2610.24322v1",
+			"pdf_url": "https://arxiv.org/pdf/2610.24322v1",
+			"source": "https://arxiv.org/abs/2610.24322v1",
+			"version_public_date": "2026-10-16",
+			"title": "Continuous Ontology Assurance through External Resources -- An Ontology Engineering Method with a Case Study in Software Language Engineering",
+			"authors": "Ralf Lämmel",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"pdf_page": 1,
+			"crop_pdf_points": [70, 508, 278, 676],
+			"pages": 8,
+			"version": "2610.24322v1",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": true,
+			"cited_evidence": "外部世界持续变化，本体维护需要有范围和证据。COATER 将局部本体与外部资源之间的审查封装成可执行组件，称为 arrow。\n\n## 方法与问题\n\n每个 arrow 定义范围、资源与检查方式，产生支持或挑战公理的证据，再由人或 Agent 辅助分流。案例针对软件语言工程 FSL 本体，按公理汇总覆盖，涉及语言、概念化与软件工程活动。\n\n## 实验证据\n\n一个 LLM 辅助 Wikipedia 链接练习，将符合既定链接政策的实体从 600 个中的 405 个增加到 600 个。这只表示该链接规范达标，不是整体本体准确率达到 100%，也不是完备率。其他外部资源提出的挑战仍需领域判断，不能自动当成本体错误。\n\n## 我的判断\n\n维护应能说明为什么建议修改，以及尚未覆盖什么。应给 arrow 版本化，记录资源时间、失效链接和人工裁决，避免把外部来源偏差直接当作权威。原文作者名为 Ralf Lämmel。"
+		}
+	],
+	"figures": {
+		"coater-figure1.png": {
+			"authors": "Ralf Lämmel",
+			"source": "https://arxiv.org/pdf/2610.24322v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.24322v1",
+			"crop_pdf_points": [70, 508, 278, 676],
+			"change": "Rectangular original PDF screenshot; complete figure/table and caption retained; no data modification.",
+			"image_size": [520, 420],
+			"sha256": "9fd9060dc62f75596bacdc6d450e97e48a72a996044e0e3857f3dcb645789557",
+			"source_pdf_sha256": "030b5c283151b2fb79cc4e4a18544e8e60307794e217112f4ddcb220cc01c07b"
+		}
+	}
+}

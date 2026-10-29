@@ -1,0 +1,41 @@
+{
+	"digest_date": "2026-10-24",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "2610.30755v1",
+			"pdf_url": "https://arxiv.org/pdf/2610.30755v1",
+			"source": "https://arxiv.org/abs/2610.30755v1",
+			"version_public_date": "2026-10-22",
+			"title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+			"authors": "Zhengye Bao , Shengtao Zhang , Haokai Zhang , Shiqi Lou , Muning Wen , Minnan Luo",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"pdf_page": 1,
+			"crop_pdf_points": [65, 398, 532, 723],
+			"pages": 62,
+			"version": "2610.30755v1",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": true,
+			"cited_evidence": "复杂记忆系统需要先回答一个基线问题：直接检索原始历史能做到什么？Raw-RAG 对未经记忆变换的历史做稠密检索与重排序，再交给读取模型回答。\n\n## 方法与问题\n\n论文比较 LoCoMo、LongMemEval、MEME 与 MemoryAgentBench，区分必要证据覆盖率与读取模型利用率。需要保留的不只是答案值，还包括关系与推导路径。\n\n## 实验证据\n\n七个基准—模型设置中，Raw-RAG 在所比较记忆系统里六个排名第一，领先最强对比 Agent 记忆系统 0.13–5.53 分。范围限于论文系统与配置，不等于每个子任务都领先。Table 3 的 LongMemEval 总体准确率为 87.53，Memora 为 87.40，差距仅 0.13 分，本文不宣称统计显著。Figure 1 的左图使用分区截断线性刻度，柱形视觉长度不宜直接跨区比较。\n\n## 我的判断\n\n应先保留原历史追溯层，再证明摘要、更新与结构化的收益。即使完整访问变换后记忆仍有差距，提示压缩可能丢失关系链；这不证明复杂记忆永远无用，实时更新、删除要求与成本仍需单独评估。"
+		}
+	],
+	"figures": {
+		"raw-rag-figure1.png": {
+			"authors": "Zhengye Bao , Shengtao Zhang , Haokai Zhang , Shiqi Lou , Muning Wen , Minnan Luo",
+			"source": "https://arxiv.org/pdf/2610.30755v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.30755v1",
+			"crop_pdf_points": [65, 398, 532, 723],
+			"change": "Rectangular original PDF screenshot; complete figure/table and caption retained; no data modification.",
+			"image_size": [1168, 813],
+			"sha256": "a1e73c0cacb1e72f0e951da9723c9eb08a4d81c0d7fc7dadfeb3cfff6d135873",
+			"source_pdf_sha256": "7e5d208d9af9a44f3ad1e65b57576e0ddb9855330e16340c5d0063193366a042"
+		}
+	}
+}
