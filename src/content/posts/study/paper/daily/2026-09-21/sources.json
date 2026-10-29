@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-09-21",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or official fixed commits available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.19491v1",
+			"title": "Efficiently Linking Unstructured Data for Multi-step Reasoning",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.19491v1",
+			"fulltext": "https://arxiv.org/html/2609.19491v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20649v2",
+			"title": "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation",
+			"version_submitted": "2026-09-18",
+			"source": "https://arxiv.org/abs/2609.20649v2",
+			"fulltext": "https://arxiv.org/html/2609.20649v2",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20784v1",
+			"title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20784v1",
+			"fulltext": "https://arxiv.org/html/2609.20784v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19244v1",
+			"title": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.19244v1",
+			"fulltext": "https://arxiv.org/html/2609.19244v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20744v2",
+			"title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+			"version_submitted": "2026-09-21",
+			"source": "https://arxiv.org/abs/2609.20744v2",
+			"fulltext": "https://arxiv.org/html/2609.20744v2",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19526v1",
+			"title": "Self Improvement via Fast Tree-search",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.19526v1",
+			"fulltext": "https://arxiv.org/html/2609.19526v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"retireopd-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.20784v1#page=1",
+			"arxiv": "2609.20784v1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"authors": "Yan Yu , Zhengxi Lu , Yizhou Liu , Yichen Pan , Aozhe Wang , Qipeng Chen , Hua Yang , Wenqi Zhang , Weiming Lu , Qianglong Chen , Yongliang Shen",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.20784v1",
+			"change": "Cropped complete original figure, caption and required labels; no redrawing or data modification.",
+			"crop_pdf_points": [105, 455, 510, 696],
+			"render_scale": 2.5,
+			"image_size": [1013, 602],
+			"sha256": "19f9213033e5b5ea7d2c214d6fb5cf42c1caf3dcd31cf47b95ac072ac8b8674f",
+			"source_pdf_sha256": "afce88a7783f3cee1f0def28983d1aa7e9c8e8dadc0f5a9f1f13b6a032934cc2"
+		}
+	}
+}

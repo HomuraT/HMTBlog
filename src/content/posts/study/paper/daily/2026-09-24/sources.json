@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-24",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or official fixed commits available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.26658v1",
+			"title": "Discovery-Driven Integration of Disjoint Tables via Text",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26658v1",
+			"fulltext": "https://arxiv.org/html/2609.26658v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.26368v1",
+			"title": "HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26368v1",
+			"fulltext": "https://arxiv.org/html/2609.26368v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"title": "Reinforcing Agents with Collective Skills",
+			"source": "https://github.com/NVlabs/Skill2Env/blob/9beb0b64a70290f862c8374bbef21f2ac88992ab/paper/Skill2Env_arXiv.pdf",
+			"commit": "9beb0b64a70290f862c8374bbef21f2ac88992ab",
+			"committed_at": "2026-09-21T09:35:11Z",
+			"source_pdf_sha256": "dc826c7121672eb52ee8626726f39e2855344bb56a8555851f073cc381db8fc6",
+			"verification_scope": "Official fixed commit timestamp, historical PDF and cited result conditions checked; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.26781v1",
+			"title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26781v1",
+			"fulltext": "https://arxiv.org/html/2609.26781v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.26550v1",
+			"title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26550v1",
+			"fulltext": "https://arxiv.org/html/2609.26550v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.26796v1",
+			"title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26796v1",
+			"fulltext": "https://arxiv.org/html/2609.26796v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.26795v1",
+			"title": "ϕ-RIE: From Photorealistic Reconstruction to Interactive Environments",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26795v1",
+			"fulltext": "https://arxiv.org/html/2609.26795v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"flash-dllm-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.26796v1#page=2",
+			"arxiv": "2609.26796v1",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"authors": "Quan Nguyen-Tri , Mukul Ranjan , Zhiqiang Shen",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.26796v1",
+			"change": "Cropped complete original figure, caption and required labels; no redrawing or data modification.",
+			"crop_pdf_points": [105, 72, 510, 255],
+			"render_scale": 2.5,
+			"image_size": [1013, 458],
+			"sha256": "d9104ad4f05e6af14a26fefc92ec88912b2e315dca0bb598a8a509ca9ff42355",
+			"source_pdf_sha256": "9a094f4548273a0c8eaef90fbc8c85068ed9a14d19a093f4a995edf85519dcce"
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-22",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or official fixed commits available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.21564v1",
+			"title": "kgsteward: a tool for building, reproducing and maintaining distributed knowledge graphs",
+			"version_submitted": "2026-09-18",
+			"source": "https://arxiv.org/abs/2609.21564v1",
+			"fulltext": "https://arxiv.org/html/2609.21564v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.21133v1",
+			"title": "The Stochastic Shift: A New Evaluation Paradigm for Text-to-SQL with AI Operators",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.21133v1",
+			"fulltext": "https://arxiv.org/html/2609.21133v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+			"source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/73875d00b30a89ef8cc353a0b60b0e9f9561952d/MiMo_V2_6_technical_report.pdf",
+			"commit": "73875d00b30a89ef8cc353a0b60b0e9f9561952d",
+			"committed_at": "2026-09-22T03:52:00Z",
+			"source_pdf_sha256": "fb81e6e083801b3358f084ed6be953dc23b0d2e434690f4541d5eae03e01e7af",
+			"verification_scope": "Official fixed commit timestamp, historical PDF and cited result conditions checked; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.24432v1",
+			"title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+			"version_submitted": "2026-09-21",
+			"source": "https://arxiv.org/abs/2609.24432v1",
+			"fulltext": "https://arxiv.org/html/2609.24432v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.22068v1",
+			"title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+			"version_submitted": "2026-09-18",
+			"source": "https://arxiv.org/abs/2609.22068v1",
+			"fulltext": "https://arxiv.org/html/2609.22068v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20794v1",
+			"title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20794v1",
+			"fulltext": "https://arxiv.org/html/2609.20794v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20971v1",
+			"title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20971v1",
+			"fulltext": "https://arxiv.org/html/2609.20971v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"sql-evaluation-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.21133v1#page=4",
+			"arxiv": "2609.21133v1",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Tarfah Alrashed , Fatma Ozcan , Per Jacobsson , Tal Neiman , Xianshun Chen",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.21133v1",
+			"change": "Cropped complete original figure, caption and required labels; no redrawing or data modification.",
+			"crop_pdf_points": [50, 80, 565, 345],
+			"render_scale": 2.5,
+			"image_size": [1287, 662],
+			"sha256": "083edbe1a709037847b0422bcc69dc35179b356210ca135844752a45a6bd3361",
+			"source_pdf_sha256": "958a4ca1982022ce6d4a468fa1bafd47e39bf297a55489a2664d6e4e810e4b1d"
+		}
+	}
+}

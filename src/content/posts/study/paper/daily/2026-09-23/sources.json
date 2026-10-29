@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-23",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or official fixed commits available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.24236v1",
+			"title": "Efficient Dense Vector Search within Knowledge Graph Content Embeddings",
+			"version_submitted": "2026-09-21",
+			"source": "https://arxiv.org/abs/2609.24236v1",
+			"fulltext": "https://arxiv.org/html/2609.24236v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.23032v1",
+			"title": "Same Pattern, Different Answer: A Reference Semantics and Divergence Map for GQL and SQL/PGQ Path Patterns",
+			"version_submitted": "2026-09-19",
+			"source": "https://arxiv.org/abs/2609.23032v1",
+			"fulltext": "https://arxiv.org/html/2609.23032v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.24972v2",
+			"title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+			"version_submitted": "2026-09-23",
+			"source": "https://arxiv.org/abs/2609.24972v2",
+			"fulltext": "https://arxiv.org/html/2609.24972v2",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.24984v1",
+			"title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+			"version_submitted": "2026-09-21",
+			"source": "https://arxiv.org/abs/2609.24984v1",
+			"fulltext": "https://arxiv.org/html/2609.24984v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.24881v2",
+			"title": "Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.24881v2",
+			"fulltext": "https://arxiv.org/html/2609.24881v2",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.23980v1",
+			"title": "MobileCybench: Evaluating Agent Vulnerability Discovery via Executable Probes",
+			"version_submitted": "2026-09-21",
+			"source": "https://arxiv.org/abs/2609.23980v1",
+			"fulltext": "https://arxiv.org/html/2609.23980v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.23881v1",
+			"title": "MotionJEPA: Preventing Temporal Feature Collapse by Capturing Visual Changes in Latent Space",
+			"version_submitted": "2026-09-20",
+			"source": "https://arxiv.org/abs/2609.23881v1",
+			"fulltext": "https://arxiv.org/html/2609.23881v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"pinocchio-figure2.png": {
+			"source": "https://arxiv.org/pdf/2609.24881v2#page=6",
+			"arxiv": "2609.24881v2",
+			"item": "Figure 2",
+			"pdf_page": 6,
+			"authors": "Kevin David Hayes , Arka Pal , Haosong Zhang , Tom Goldstein , Micah Goldblum",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.24881v2",
+			"change": "Cropped complete original figure, caption and required labels; no redrawing or data modification.",
+			"crop_pdf_points": [105, 300, 510, 552],
+			"render_scale": 2.5,
+			"image_size": [1013, 630],
+			"sha256": "b1a91173431f271164338760497984acdc067c2f0039b5732e9ecf38c26df046",
+			"source_pdf_sha256": "460119602a74a7c99d7c9245c7709db4863908d07526f5d80d9c1f2b2af34153"
+		}
+	}
+}

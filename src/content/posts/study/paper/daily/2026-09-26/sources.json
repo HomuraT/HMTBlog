@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-26",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or official fixed commits available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.25607v1",
+			"title": "ArticleMiner: Ontology-Guided Knowledge Graph Construction from Scientific Publications",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.25607v1",
+			"fulltext": "https://arxiv.org/html/2609.25607v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.13776v1",
+			"title": "Surprising Effectiveness of Self-Demonstrations in Enhancing Schema-Ontology Mapping with LLMs",
+			"version_submitted": "2026-09-12",
+			"source": "https://arxiv.org/abs/2609.13776v1",
+			"fulltext": "https://arxiv.org/html/2609.13776v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30266v1",
+			"title": "LLM Agents Can Easily Tamper With Their Own Traces",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30266v1",
+			"fulltext": "https://arxiv.org/html/2609.30266v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.29444v1",
+			"title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.29444v1",
+			"fulltext": "https://arxiv.org/html/2609.29444v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30063v1",
+			"title": "Self-Play Pretraining with Zero Data",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30063v1",
+			"fulltext": "https://arxiv.org/html/2609.30063v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30247v1",
+			"title": "Rolling-WAM: World Action Models with Rolling Imagination",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30247v1",
+			"fulltext": "https://arxiv.org/html/2609.30247v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.28654v1",
+			"title": "Training Object Permanence in World Models",
+			"version_submitted": "2026-09-23",
+			"source": "https://arxiv.org/abs/2609.28654v1",
+			"fulltext": "https://arxiv.org/html/2609.28654v1",
+			"verification_scope": "Title, version submission and cited method/result conditions checked against explicit historical primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"articleminer-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.25607v1#page=3",
+			"arxiv": "2609.25607v1",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"authors": "Md Abrar Jahin , Craig A. Knoblock , Jay Pujara",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.25607v1",
+			"change": "Cropped complete original figure, caption and required labels; no redrawing or data modification.",
+			"crop_pdf_points": [65, 60, 550, 395],
+			"render_scale": 2.5,
+			"image_size": [1213, 838],
+			"sha256": "1cef6dc631b358463609edc54fec2fc1d139d23060d58acc900a248133e5c050",
+			"source_pdf_sha256": "6844f3ef79b79a8bc04a136f34854de7a9c58ba8b7152f92b256b0df12d55850"
+		}
+	}
+}
