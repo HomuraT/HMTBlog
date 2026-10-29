@@ -1,0 +1,63 @@
+{
+	"digest_date": "2026-07-14",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.08700v1",
+			"title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution",
+			"version_submitted": "2026-07-09",
+			"source": "https://arxiv.org/abs/2607.08700v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.09000v1",
+			"title": "RaMark: Radioactive Watermarking for Generated Tabular Data",
+			"version_submitted": "2026-07-10",
+			"source": "https://arxiv.org/abs/2607.09000v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.09600v1",
+			"title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+			"version_submitted": "2026-07-10",
+			"source": "https://arxiv.org/abs/2607.09600v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.09800v1",
+			"title": "The Silent Freeze: Predicting When Low-Precision Training Stops Learning",
+			"version_submitted": "2026-07-09",
+			"source": "https://arxiv.org/abs/2607.09800v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.09900v1",
+			"title": "AfterVibe: What Remains When the Conversation Ends",
+			"version_submitted": "2026-07-10",
+			"source": "https://arxiv.org/abs/2607.09900v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"citation-verifier-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.08700v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Ethan Leung、Elias Lumer、Corey Feld、Austin Huber、Vamse Kumar Subbiah、Kevin Paul",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.08700v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [175, 162, 1355, 1065],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1180, 903],
+			"sha256": "a69174818787108ba667e46c38c02493fe6bcc629d36d70a145e3cd69576b6ea",
+			"source_pdf_sha256": "947fc082439f4116e5b1371acbfc4315247560f6c1e09c11a072eee681a8dbb1"
+		}
+	},
+	"verification_notes": [
+		"Six initial council models and eight evaluated judges are distinct sets."
+	]
+}

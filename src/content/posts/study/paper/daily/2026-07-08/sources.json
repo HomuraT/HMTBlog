@@ -1,0 +1,77 @@
+{
+	"digest_date": "2026-07-08",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.05970v1",
+			"title": "Faithful or Findable? Evaluating LLM-Generated Metadata for RDF Dataset Search",
+			"version_submitted": "2026-07-07",
+			"source": "https://arxiv.org/abs/2607.05970v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.05001v1",
+			"title": "TACTIC-KG: Toward Small Agent Teams for Cyber Threat Intelligence Knowledge Graph Construction",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.05001v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.04439v1",
+			"title": "ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes",
+			"version_submitted": "2026-07-05",
+			"source": "https://arxiv.org/abs/2607.04439v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.05378v1",
+			"title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.05378v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.05391v1",
+			"title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.05391v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.05394v1",
+			"title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.05394v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.04988v1",
+			"title": "InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.04988v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.05373v1",
+			"title": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space",
+			"version_submitted": "2026-07-06",
+			"source": "https://arxiv.org/abs/2607.05373v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.05970v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.05970v1#page=4",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	],
+	"verification_notes": [
+		"Faithfulness uses model judges and different authoritative evidence by generation setting; not a uniform human factual gold standard."
+	]
+}

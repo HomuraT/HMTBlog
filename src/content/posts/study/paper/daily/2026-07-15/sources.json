@@ -1,0 +1,63 @@
+{
+	"digest_date": "2026-07-15",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.11464v1",
+			"title": "FAIR GraphRAG: A Retrieval-Augmented Generation Approach for Semantic Data Analysis",
+			"version_submitted": "2026-07-13",
+			"source": "https://arxiv.org/abs/2607.11464v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.24618v1",
+			"title": "Abstractions of Queries in Ontology-Based Data Access",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24618v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.11643v1",
+			"title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
+			"version_submitted": "2026-07-13",
+			"source": "https://arxiv.org/abs/2607.11643v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.11505v1",
+			"title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
+			"version_submitted": "2026-07-13",
+			"source": "https://arxiv.org/abs/2607.11505v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.11562v1",
+			"title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+			"version_submitted": "2026-07-13",
+			"source": "https://arxiv.org/abs/2607.11562v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.11886v1",
+			"title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+			"version_submitted": "2026-07-13",
+			"source": "https://arxiv.org/abs/2607.11886v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.11464v1",
+			"item": "Table II",
+			"source": "https://arxiv.org/pdf/2607.11464v1#page=7",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	],
+	"verification_notes": [
+		"RNA-sequencing, not single-cell; first80 rows,42 questions; FAIR and baseline graphs differ in information richness; missing licensing criterion R1.1 retained."
+	]
+}

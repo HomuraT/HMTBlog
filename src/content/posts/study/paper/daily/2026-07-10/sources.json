@@ -1,0 +1,46 @@
+{
+	"digest_date": "2026-07-10",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.07459v1",
+			"title": "EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI",
+			"version_submitted": "2026-07-08",
+			"source": "https://arxiv.org/abs/2607.07459v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.07508v1",
+			"title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+			"version_submitted": "2026-07-08",
+			"source": "https://arxiv.org/abs/2607.07508v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.07534v1",
+			"title": "Infinite Worlds with Versatile Interactions",
+			"version_submitted": "2026-07-08",
+			"source": "https://arxiv.org/abs/2607.07534v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.07675v1",
+			"title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+			"version_submitted": "2026-07-08",
+			"source": "https://arxiv.org/abs/2607.07675v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.07459v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.07459v1#page=1",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}

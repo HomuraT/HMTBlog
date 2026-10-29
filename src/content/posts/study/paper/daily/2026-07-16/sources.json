@@ -1,0 +1,70 @@
+{
+	"digest_date": "2026-07-16",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.11948v1",
+			"title": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
+			"version_submitted": "2026-07-11",
+			"source": "https://arxiv.org/abs/2607.11948v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.12717v1",
+			"title": "GRAFT: Graph-Matched Retrieval and Fusion of Tables in Data Lakes",
+			"version_submitted": "2026-07-14",
+			"source": "https://arxiv.org/abs/2607.12717v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.13017v1",
+			"title": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+			"version_submitted": "2026-07-14",
+			"source": "https://arxiv.org/abs/2607.13017v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.12894v1",
+			"title": "Hy-Embodied-VLM-1.0: Efficient Physical-World Agents",
+			"version_submitted": "2026-07-14",
+			"source": "https://arxiv.org/abs/2607.12894v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.12723v1",
+			"title": "Bulkhead: Automated Semantic Detection and Remediation of Container Escape Vulnerabilities",
+			"version_submitted": "2026-07-14",
+			"source": "https://arxiv.org/abs/2607.12723v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.11098v1",
+			"title": "AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP",
+			"version_submitted": "2026-07-13",
+			"source": "https://arxiv.org/abs/2607.11098v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"ontology-distillation-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.11948v1#page=8",
+			"item": "Figure 1",
+			"pdf_page": 8,
+			"authors": "Thanh Luong Tuan",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.11948v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [175, 180, 1313, 870],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1138, 690],
+			"sha256": "715e8e7765e1f8e540b423b71d3be03fe308a9af56fc5275be2ad1ad287da8fd",
+			"source_pdf_sha256": "af801ae311923b0bf0df3045b7e8d61e6d0ab5a9cfe6ba73570de90b785deb86"
+		}
+	},
+	"verification_notes": [
+		"Original paired interval percentage-to-task conversion is internally inconsistent; precise width not reproduced. Equal36/40 counts do not establish statistical equivalence."
+	]
+}
