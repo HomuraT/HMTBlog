@@ -1,0 +1,85 @@
+{
+	"digest_date": "2026-06-16",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.14325v1",
+			"title": "Achieving Precise Text-To-Cypher Via Grounded Knowledge Graph Data Generation",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.14325v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.14309v1",
+			"title": "Transforming Shape Schemas with Composable Property-Graph Queries (Extended Version)",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.14309v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.14409v1",
+			"title": "Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.14409v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.14249v1",
+			"title": "HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.14249v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.14589v1",
+			"title": "When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM Agent Runtime",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.14589v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.14517v2",
+			"title": "From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails",
+			"version_submitted": "2026-06-16",
+			"source": "https://arxiv.org/abs/2606.14517v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13995v1",
+			"title": "Dialogue SWE-Bench: A Benchmark for Dialogue-Driven Coding Agents",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.13995v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.14516v1",
+			"title": "Every Eval Ever: A Unifying Schema and Community Repository for AI Evaluation Results",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.14516v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"cyquark-figure2.png": {
+			"source": "https://arxiv.org/pdf/2606.14325v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"authors": "Francesco Cazzaro、Jessica Lennon、Ariadna Quattoni",
+			"license": "CC BY-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.14325v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [225, 185, 1250, 1080],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1025, 895],
+			"sha256": "56ef9ca23efb8af1962f3784c6fe7222665fa8f10bebeb79060050b50484b1ba",
+			"source_pdf_sha256": "8fe4d2c285c85ec8298de57e22fee819e33ddcca6d73dccdfe06ae7c9015ff9e"
+		}
+	},
+	"verification_notes": [
+		"Main text reports 4B mean 76.21, while equal-weight mean of four reported benchmark values is 76.38; both retained with distinction.",
+		"No-filter Text2GQL score differs between Table 5 (52.78) and Appendix Table 7 (53.78); no unique drop asserted."
+	]
+}

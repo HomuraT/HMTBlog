@@ -1,0 +1,66 @@
+{
+	"digest_date": "2026-06-19",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.18558v1",
+			"title": "MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction",
+			"version_submitted": "2026-06-17",
+			"source": "https://arxiv.org/abs/2606.18558v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.18208v1",
+			"title": "Looped World Models",
+			"version_submitted": "2026-06-16",
+			"source": "https://arxiv.org/abs/2606.18208v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.18246v1",
+			"title": "Variable-Width Transformers",
+			"version_submitted": "2026-06-16",
+			"source": "https://arxiv.org/abs/2606.18246v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.17846v2",
+			"title": "Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models",
+			"version_submitted": "2026-06-17",
+			"source": "https://arxiv.org/abs/2606.17846v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.17861v1",
+			"title": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?",
+			"version_submitted": "2026-06-16",
+			"source": "https://arxiv.org/abs/2606.17861v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.18195v1",
+			"title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+			"version_submitted": "2026-06-16",
+			"source": "https://arxiv.org/abs/2606.18195v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.19341v1",
+			"title": "Native Active Perception as Reasoning for Omni-Modal Understanding",
+			"version_submitted": "2026-06-17",
+			"source": "https://arxiv.org/abs/2606.19341v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.18558v1",
+			"item": "Figure 6",
+			"source": "https://arxiv.org/pdf/2606.18558v1#page=8",
+			"reason": "Only arXiv non-exclusive distribution license established."
+		}
+	]
+}

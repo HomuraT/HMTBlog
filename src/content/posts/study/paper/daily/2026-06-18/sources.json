@@ -1,0 +1,67 @@
+{
+	"digest_date": "2026-06-18",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.14047v1",
+			"title": "Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.14047v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2605.02881v2",
+			"title": "MolmoAct2: Action Reasoning Models for Real-world Deployment",
+			"version_submitted": "2026-05-08",
+			"source": "https://arxiv.org/abs/2605.02881v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.03546v1",
+			"title": "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+			"version_submitted": "2026-05-05",
+			"source": "https://arxiv.org/abs/2605.03546v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.04036v1",
+			"title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+			"version_submitted": "2026-05-05",
+			"source": "https://arxiv.org/abs/2605.04036v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.06548v1",
+			"title": "Continuous Latent Diffusion Language Model",
+			"version_submitted": "2026-05-07",
+			"source": "https://arxiv.org/abs/2605.06548v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.05115v1",
+			"title": "Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior",
+			"version_submitted": "2026-05-06",
+			"source": "https://arxiv.org/abs/2605.05115v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"kgermar-figure2.png": {
+			"source": "https://arxiv.org/pdf/2606.14047v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"authors": "Ghadir Alselwi、Basem Suleiman、Hao Xue、Shoaib Jameel、Hakim Hacid、Flora D. Salim、Imran Razzak",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.14047v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [180, 180, 1300, 790],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1120, 610],
+			"sha256": "00dcaca72ca1de203ed66847fd8207fd9b1cc36c33ede5dc5ba66465e793c7b5",
+			"source_pdf_sha256": "88b65bf55465e2d23aef463a5cd1312493f5fa9abb391fcf2d5089c887ae6fe2"
+		}
+	}
+}

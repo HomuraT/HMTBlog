@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-06-21",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.19847v1",
+			"title": "AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.19847v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.20515v1",
+			"title": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20515v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20562v1",
+			"title": "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20562v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20521v1",
+			"title": "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20521v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20560v1",
+			"title": "How Transparent is DiffusionGemma?",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20560v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20381v1",
+			"title": "Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20381v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20002v1",
+			"title": "Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20002v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"atommem-figure1.png": {
+			"source": "https://arxiv.org/pdf/2606.19847v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"authors": "Yanyu Yao、Shangze Li、Zhi Zheng、Hui Zheng、Qi Liu、Tong Xu、Enhong Chen",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.19847v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [170, 170, 1320, 730],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1150, 560],
+			"sha256": "21b2f707cf550fcc4c840a3b023d8258428f09165824a345a99be1cafa668617",
+			"source_pdf_sha256": "3bfd1cb51cf4d0f747e267202e5e1db7f5db60595a0ae6373a0aee9afa851b64"
+		}
+	}
+}

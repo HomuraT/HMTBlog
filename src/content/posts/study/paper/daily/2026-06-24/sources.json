@@ -1,0 +1,94 @@
+{
+	"digest_date": "2026-06-24",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.21048v1",
+			"title": "Event Ontology Expansion via LLM-Based Conceptualization",
+			"version_submitted": "2026-06-19",
+			"source": "https://arxiv.org/abs/2606.21048v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.17073v1",
+			"title": "Extracting Semantics: LLM-Guided Automatic Population of Robot Ontology from URDF",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.17073v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.23321v1",
+			"title": "Tmax: A simple recipe for terminal agents",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.23321v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.22883v1",
+			"title": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.22883v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.23050v1",
+			"title": "Unlimited OCR Works",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.23050v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20008v1",
+			"title": "VIMPO: Value-Implicit Policy Optimization for LLMs",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20008v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.23670v1",
+			"title": "Tapered Language Models",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.23670v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.23664v1",
+			"title": "MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.23664v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.21048v1",
+			"item": "Figure 2",
+			"source": "https://arxiv.org/pdf/2606.21048v1#page=3",
+			"reason": "Only arXiv non-exclusive distribution license established."
+		}
+	],
+	"other_public_sources": [
+		{
+			"title": "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models",
+			"source": "https://aclanthology.org/2026.eacl-long.388/",
+			"authors": [
+				"Alla Chepurova",
+				"Aydar Bulatov",
+				"Mikhail Burtsev",
+				"Yuri Kuratov"
+			],
+			"publication": "EACL 2026, March 2026, pp. 8304–8319",
+			"verification_scope": "Formal title, authors, publication metadata and link checked; experiments not reviewed in this digest."
+		}
+	],
+	"unverified_sources": [
+		{
+			"candidate_title": "ParallelKernelBench: Can LLMs Write Fast Multi-GPU Kernels?",
+			"source": "https://openreview.net/pdf/b1f965d99dc4c0341f70248f27b0e3dc29ce4f51.pdf",
+			"reason": "Prior access blocked by OpenReview verification; title-identifier mapping unverified; no further access attempted."
+		}
+	]
+}

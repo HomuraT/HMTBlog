@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-06-23",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.20526v2",
+			"title": "DeepSWIP: Quotient-WMC Counterfactuals for Neural Probabilistic Logic Programs",
+			"version_submitted": "2026-06-19",
+			"source": "https://arxiv.org/abs/2606.20526v2",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.20560v1",
+			"title": "How Transparent is DiffusionGemma?",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20560v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20529v1",
+			"title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20529v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20520v2",
+			"title": "Sovereign Execution Broker: Enforcing Certificate-Bound Authority in Agentic Control Planes",
+			"version_submitted": "2026-06-19",
+			"source": "https://arxiv.org/abs/2606.20520v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20545v1",
+			"title": "Current World Models Lack a Persistent State Core",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20545v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20561v1",
+			"title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20561v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.20556v1",
+			"title": "Thinking in Boxes: 3D Editing in Real Images Made Easy",
+			"version_submitted": "2026-06-18",
+			"source": "https://arxiv.org/abs/2606.20556v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"deepswip-figure1.png": {
+			"source": "https://arxiv.org/pdf/2606.20526v2#page=10",
+			"item": "Figure 1",
+			"pdf_page": 10,
+			"authors": "Saimun Habib、Vaishak Belle、Fengxiang He",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.20526v2",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [312, 812, 1220, 1540],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [908, 728],
+			"sha256": "9d311749a50de4fa55f54a49f89a24d56985ce36c4520a57cf1fc5bfdee39936",
+			"source_pdf_sha256": "f72f840816e7e94969e7d4b196b018ee6effa0d0863da149b74d079b42294f81"
+		}
+	}
+}
