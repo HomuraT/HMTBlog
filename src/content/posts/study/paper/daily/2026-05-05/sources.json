@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-05-05",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Fixed historical v1; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.01344v1",
+			"title": "IDEA2: Expert-in-the-loop competency question elicitation for collaborative ontology engineering",
+			"source": "https://arxiv.org/abs/2604.01344v1",
+			"first_submitted": "2026-04-01",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.02240v1",
+			"title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
+			"source": "https://arxiv.org/abs/2605.02240v1",
+			"first_submitted": "2026-05-04",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.00737v1",
+			"title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling",
+			"source": "https://arxiv.org/abs/2605.00737v1",
+			"first_submitted": "2026-05-01",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2603.20059v1",
+			"title": "DIAL-KG: Schema-Free Incremental Knowledge Graph Construction via Dynamic Schema Induction and Evolution-Intent Assessment",
+			"source": "https://arxiv.org/abs/2603.20059v1",
+			"first_submitted": "2026-03-20",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.01250v1",
+			"title": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
+			"source": "https://arxiv.org/abs/2605.01250v1",
+			"first_submitted": "2026-05-02",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.25850v1",
+			"title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+			"source": "https://arxiv.org/abs/2604.25850v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.26752v1",
+			"title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+			"source": "https://arxiv.org/abs/2604.26752v1",
+			"first_submitted": "2026-04-29",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.02778v1",
+			"title": "When Modalities Remember: Continual Learning for Multimodal Knowledge Graphs",
+			"source": "https://arxiv.org/abs/2604.02778v1",
+			"first_submitted": "2026-04-03",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"tool-call-figure1.png": {
+			"source": "https://arxiv.org/pdf/2605.00737v1#page=3",
+			"figure": 1,
+			"pdf_page": 3,
+			"authors": "Qinyuan Wu、Soumi Das、Mahsa Amani 等",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2605.00737v1",
+			"change": "Cropped complete original figure with labels; surrounding prose removed; no changes to figure content or colors.",
+			"crop_pixels": [320, 500, 1220, 855],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [900, 355],
+			"sha256": "685073b20d587298829d0fe813312d3879757f3514219bb05ce8b7579456b32b",
+			"source_pdf_sha256": "0a3eae6894fc4056f6dae1be8b21dcc0779ee8173f0597d879e47b4286870ed7"
+		}
+	}
+}

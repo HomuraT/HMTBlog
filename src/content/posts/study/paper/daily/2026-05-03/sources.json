@@ -1,0 +1,80 @@
+{
+	"digest_date": "2026-05-03",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Fixed historical v1; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.28190v1",
+			"title": "Representation Fréchet Loss for Visual Generation",
+			"source": "https://arxiv.org/abs/2604.28190v1",
+			"first_submitted": "2026-04-30",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.26779v1",
+			"title": "Accelerating RL Post-Training Rollouts via System-Integrated Speculative Decoding",
+			"source": "https://arxiv.org/abs/2604.26779v1",
+			"first_submitted": "2026-04-29",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.04450v1",
+			"title": "Conversational Control with Ontologies for Large Language Models: A Lightweight Framework for Constrained Generation",
+			"source": "https://arxiv.org/abs/2604.04450v1",
+			"first_submitted": "2026-04-06",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.26694v1",
+			"title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+			"source": "https://arxiv.org/abs/2604.26694v1",
+			"first_submitted": "2026-04-29",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.27077v1",
+			"title": "Learning Rate Transfer in Normalized Transformers",
+			"source": "https://arxiv.org/abs/2604.27077v1",
+			"first_submitted": "2026-04-29",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.28119v1",
+			"title": "Do Sparse Autoencoders Capture Concept Manifolds?",
+			"source": "https://arxiv.org/abs/2604.28119v1",
+			"first_submitted": "2026-04-30",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.27998v1",
+			"title": "Latent-GRPO: Group Relative Policy Optimization for Latent Reasoning",
+			"source": "https://arxiv.org/abs/2604.27998v1",
+			"first_submitted": "2026-04-30",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"specdec-figure1.png": {
+			"source": "https://arxiv.org/pdf/2604.26779v1#page=4",
+			"figure": 1,
+			"pdf_page": 4,
+			"authors": "Hayate Iso、Tiyasa Mitra、Sudipta Mondal 等",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.26779v1",
+			"change": "Cropped complete original figure with labels; surrounding prose removed; no changes to figure content or colors.",
+			"crop_pixels": [162, 215, 1312, 568],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1150, 353],
+			"sha256": "7bf60989eed767e88c07189f1ac59c7a95aebed104235896a4a2bd286c08236e",
+			"source_pdf_sha256": "7417585410d84d281d6a62224ed6aa12557e693d0bd76f048badffc651d523ba"
+		}
+	},
+	"unverified_sources": [
+		{
+			"source": "https://doi.org/10.1016/j.inffus.2026.104337",
+			"reason": "Access returned HTTP 403; no method or numerical claims published."
+		}
+	]
+}

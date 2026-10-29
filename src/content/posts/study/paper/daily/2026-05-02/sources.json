@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-05-02",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Fixed historical v1; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.24594v1",
+			"title": "Skill Retrieval Augmentation for Agentic AI",
+			"source": "https://arxiv.org/abs/2604.24594v1",
+			"first_submitted": "2026-04-27",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.25459v1",
+			"title": "GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning",
+			"source": "https://arxiv.org/abs/2604.25459v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.25840v1",
+			"title": "PSI-Bench: Towards Clinically Grounded and Interpretable Evaluation of Depression Patient Simulators",
+			"source": "https://arxiv.org/abs/2604.25840v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2512.00590v1",
+			"title": "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models",
+			"source": "https://arxiv.org/abs/2512.00590v1",
+			"first_submitted": "2025-11-29",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.26752v1",
+			"title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
+			"source": "https://arxiv.org/abs/2604.26752v1",
+			"first_submitted": "2026-04-29",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.24833v1",
+			"title": "MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives",
+			"source": "https://arxiv.org/abs/2604.24833v1",
+			"first_submitted": "2026-04-27",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.24658v1",
+			"title": "The Last Human-Written Paper: Agent-Native Research Artifacts",
+			"source": "https://arxiv.org/abs/2604.24658v1",
+			"first_submitted": "2026-04-27",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"sra-figure1.png": {
+			"source": "https://arxiv.org/pdf/2604.24594v1#page=3",
+			"figure": 1,
+			"pdf_page": 3,
+			"authors": "Weihang Su、Jianming Long、Qingyao Ai、Yichen Tang、Changyue Wang、Yiteng Tu、Yiqun Liu",
+			"license": "CC BY-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.24594v1",
+			"change": "Cropped complete original figure with labels; surrounding prose removed; no changes to figure content or colors.",
+			"crop_pixels": [265, 175, 1270, 550],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1005, 375],
+			"sha256": "dfe459d40a69ad56e359f6bf1676219295b925fdfbbfa9f6ef34ec7fe6ae016f",
+			"source_pdf_sha256": "27f477140054051a896ea4edf165873c64b9f105ee3b7d58e272ec813a36be42"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-05-06",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Fixed historical v1; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2602.03439v1",
+			"title": "Ontology-to-tools compilation for executable semantic constraint enforcement in LLM agents",
+			"source": "https://arxiv.org/abs/2602.03439v1",
+			"first_submitted": "2026-02-03",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.02087v1",
+			"title": "Model Spec Midtraining: Improving How Alignment Training Generalizes",
+			"source": "https://arxiv.org/abs/2605.02087v1",
+			"first_submitted": "2026-05-03",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.03546v1",
+			"title": "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+			"source": "https://arxiv.org/abs/2605.03546v1",
+			"first_submitted": "2026-05-05",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2605.04036v1",
+			"title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+			"source": "https://arxiv.org/abs/2605.04036v1",
+			"first_submitted": "2026-05-05",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.03269v1",
+			"title": "RLDX-1 Technical Report",
+			"source": "https://arxiv.org/abs/2605.03269v1",
+			"first_submitted": "2026-05-05",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.03941v1",
+			"title": "A Benchmark for Interactive World Models with a Unified Action Generation Framework",
+			"source": "https://arxiv.org/abs/2605.03941v1",
+			"first_submitted": "2026-05-05",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.03821v1",
+			"title": "RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models",
+			"source": "https://arxiv.org/abs/2605.03821v1",
+			"first_submitted": "2026-05-05",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"msm-figure1.png": {
+			"source": "https://arxiv.org/pdf/2605.02087v1#page=2",
+			"figure": 1,
+			"pdf_page": 2,
+			"authors": "Chloe Li、Sara Price、Samuel Marks、Jon Kutasov",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2605.02087v1",
+			"change": "Cropped complete original figure with labels; surrounding prose removed; no changes to figure content or colors.",
+			"crop_pixels": [265, 175, 1265, 534],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1000, 359],
+			"sha256": "89fc8336857103741e7bf60641e0b60b2bc5386546923cfa01fbe4c250aaed36",
+			"source_pdf_sha256": "efb05fa0be77be56ddb8c408107795f090c95589e6ad3efe94b9edf9395a23d4"
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"digest_date": "2026-05-01",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Fixed historical v1; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.25850v1",
+			"title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+			"source": "https://arxiv.org/abs/2604.25850v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.27039v1",
+			"title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
+			"source": "https://arxiv.org/abs/2604.27039v1",
+			"first_submitted": "2026-04-29",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2506.01232v1",
+			"title": "Retrieval-Augmented Generation of Ontologies from Relational Databases",
+			"source": "https://arxiv.org/abs/2506.01232v1",
+			"first_submitted": "2025-06-02",
+			"verification_scope": "Cited method and evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.12928v1",
+			"title": "MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models",
+			"source": "https://arxiv.org/abs/2604.12928v1",
+			"first_submitted": "2026-04-14",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.28192v1",
+			"title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
+			"source": "https://arxiv.org/abs/2604.28192v1",
+			"first_submitted": "2026-04-30",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.27621v1",
+			"title": "Robot Learning from Human Videos: A Survey",
+			"source": "https://arxiv.org/abs/2604.27621v1",
+			"first_submitted": "2026-04-30",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.26951v1",
+			"title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+			"source": "https://arxiv.org/abs/2604.26951v1",
+			"first_submitted": "2026-04-29",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.25135v1",
+			"title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+			"source": "https://arxiv.org/abs/2604.25135v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.24827v1",
+			"title": "Incompressible Knowledge Probes: Estimating Black-Box LLM Parameter Counts via Factual Capacity",
+			"source": "https://arxiv.org/abs/2604.24827v1",
+			"first_submitted": "2026-04-27",
+			"verification_scope": "Historical title, submission date and public link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"lenvm-figure1.png": {
+			"source": "https://arxiv.org/pdf/2604.27039v1#page=1",
+			"figure": 1,
+			"pdf_page": 1,
+			"authors": "Zhen Zhang、Changyi Yang、Zijie Xia 等",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.27039v1",
+			"change": "Cropped complete original figure with labels; surrounding prose removed; no changes to figure content or colors.",
+			"crop_pixels": [130, 1190, 1395, 1705],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1265, 515],
+			"sha256": "b530ee7cc82bcfd6d8b88c7dfb9f0275a645bbdd5429d8b35df9d3cef627f8fd",
+			"source_pdf_sha256": "66cac434158a8e4db2ab6e154f3654300bcb92f723b7545f0fc576924dcb23d1"
+		}
+	}
+}
