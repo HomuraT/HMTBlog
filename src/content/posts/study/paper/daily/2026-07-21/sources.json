@@ -1,0 +1,67 @@
+{
+	"digest_date": "2026-07-21",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.15280v1",
+			"title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+			"version_submitted": "2026-04-08",
+			"source": "https://arxiv.org/abs/2607.15280v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.15388v1",
+			"title": "Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15388v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15550v1",
+			"title": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
+			"version_submitted": "2026-07-17",
+			"source": "https://arxiv.org/abs/2607.15550v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15576v1",
+			"title": "Efficient and Effective In-place Graph-based Vector Index Updates",
+			"version_submitted": "2026-07-17",
+			"source": "https://arxiv.org/abs/2607.15576v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15877v1",
+			"title": "Verifying Isolation Levels of Database Implementations for Free Using Separation Logic",
+			"version_submitted": "2026-07-17",
+			"source": "https://arxiv.org/abs/2607.15877v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15937v1",
+			"title": "The Language of Security: How Prompt Syntax Shapes Secure Code Generation in Open LLMs",
+			"version_submitted": "2026-07-17",
+			"source": "https://arxiv.org/abs/2607.15937v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"graphdx-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.15280v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"authors": "Shaoting Tan、Ning Liu、Yuntao Du、Shuyue Wei、Wu Shuai、Qian Li、Yanyu Xu、Wei Zhang、Lizhen Cui、Haitao Yuan",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.15280v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [170, 155, 1320, 865],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1150, 710],
+			"sha256": "a9459209facff4cb2f429a3c0dc55d68ee0ff714be3f0447971a857801089130",
+			"source_pdf_sha256": "4065b4203db0367edd22b84ebf6c84662466dd64ea955146836e05d1c7bbff66"
+		}
+	}
+}

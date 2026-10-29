@@ -1,0 +1,67 @@
+{
+	"digest_date": "2026-07-22",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.17963v1",
+			"title": "OntoExtend: A Framework for Requirement-driven and Scalable Ontology Extension with LLMs",
+			"version_submitted": "2026-07-20",
+			"source": "https://arxiv.org/abs/2607.17963v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.18029v1",
+			"title": "Natural Language Access to Domain-Specific Metadata: A Reusable Framework for LLM Query Generation",
+			"version_submitted": "2026-07-20",
+			"source": "https://arxiv.org/abs/2607.18029v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.18110v1",
+			"title": "LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks",
+			"version_submitted": "2026-07-20",
+			"source": "https://arxiv.org/abs/2607.18110v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.18236v1",
+			"title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+			"version_submitted": "2026-07-20",
+			"source": "https://arxiv.org/abs/2607.18236v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.18002v1",
+			"title": "ExpertPlex: A High-Goodput Disaggregated Serving System for MoE LLMs with Adaptive Persistent Kernels",
+			"version_submitted": "2026-07-20",
+			"source": "https://arxiv.org/abs/2607.18002v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.18016v1",
+			"title": "Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation",
+			"version_submitted": "2026-07-20",
+			"source": "https://arxiv.org/abs/2607.18016v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"ontoextend-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.17963v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"authors": "Anna Sofia Lippolis、Mohammad Javad Saeedizade、Stefan Schmid、Simon Blattner、Robin Keskisärkkä、Aldo Gangemi、Eva Blomqvist、Andrea Giovanni Nuzzolese",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.17963v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [300, 365, 1190, 807],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [890, 442],
+			"sha256": "8d98aefa33d42e77f0b50a022adf99b06867c12e90a4f3e81e32430039265cea",
+			"source_pdf_sha256": "f06afe5fb6b07865b2b709f9d3aeb8ecce0fbc6d5cd718ac47b4ab15dab6c9e8"
+		}
+	}
+}

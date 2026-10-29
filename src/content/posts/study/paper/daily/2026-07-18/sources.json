@@ -1,0 +1,67 @@
+{
+	"digest_date": "2026-07-18",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.14494v1",
+			"title": "SAGA: Schema-Aware Grounding for Agentic Text-to-SPARQL Generation",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.14494v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.14777v1",
+			"title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.14777v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.14935v1",
+			"title": "VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.14935v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15275v1",
+			"title": "RoboTTT: Context Scaling for Robot Policies",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15275v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15257v1",
+			"title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15257v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15263v1",
+			"title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15263v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"saga-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.14494v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"authors": "Yiming Zhang、Koji Tsuda",
+			"license": "CC BY-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.14494v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [130, 120, 1400, 1030],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1270, 910],
+			"sha256": "66dddaef97006e7b2357d49f9adbbe014e35c671cdc7c476e6e2fba2b11527db",
+			"source_pdf_sha256": "c51f153ac668ee02990c1b5059398f8d111f26adf230e2d63899c9aff928bfd8"
+		}
+	}
+}

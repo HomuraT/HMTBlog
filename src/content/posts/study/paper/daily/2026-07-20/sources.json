@@ -1,0 +1,60 @@
+{
+	"digest_date": "2026-07-20",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.14770v1",
+			"title": "ChronoQG: Towards a Temporally Expressive and Hop-Bounded Benchmark for Temporal Knowledge Graph Question Generation",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.14770v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.14733v1",
+			"title": "GAttNHP: Group Attention Neural Hawkes Process for Extrapolation Reasoning in Temporal Knowledge Graphs",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.14733v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15247v1",
+			"title": "AutoSynthesis: An agentic system for automated meta-analysis",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15247v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.14888v1",
+			"title": "Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.14888v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.29538v1",
+			"title": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
+			"version_submitted": "2026-06-28",
+			"source": "https://arxiv.org/abs/2606.29538v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"chronoqg-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.14770v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"authors": "Xuemeng Liu、Zhengpin Li、Wanpeng Tang、Haotong Xie、Wentao Zhang",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.14770v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [130, 187, 1400, 710],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1270, 523],
+			"sha256": "cdec42e9ce1277213fad92c1041c749aa6a296acac348daebb5de92dd67274f9",
+			"source_pdf_sha256": "43b162a4d4a5d7983784470a63577d278183473213fa5ab221c1d1f434f373b2"
+		}
+	}
+}

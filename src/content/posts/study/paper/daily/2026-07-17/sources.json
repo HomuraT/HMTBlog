@@ -1,0 +1,60 @@
+{
+	"digest_date": "2026-07-17",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.13292v1",
+			"title": "Theory-Level Autoformalization: From Isolated Statements to Unified Formal Knowledge Bases",
+			"version_submitted": "2026-07-14",
+			"source": "https://arxiv.org/abs/2607.13292v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.13960v1",
+			"title": "GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch",
+			"version_submitted": "2026-07-15",
+			"source": "https://arxiv.org/abs/2607.13960v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.13988v1",
+			"title": "TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents",
+			"version_submitted": "2026-07-15",
+			"source": "https://arxiv.org/abs/2607.13988v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.14088v1",
+			"title": "VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders",
+			"version_submitted": "2026-07-15",
+			"source": "https://arxiv.org/abs/2607.14088v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.13639v1",
+			"title": "OvisOCR2 Technical Report",
+			"version_submitted": "2026-07-15",
+			"source": "https://arxiv.org/abs/2607.13639v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.12450v1",
+			"title": "Let RGB Be the Language of Vision",
+			"version_submitted": "2026-07-14",
+			"source": "https://arxiv.org/abs/2607.12450v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.13292v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.13292v1#page=1",
+			"license": "CC BY-NC-SA 4.0",
+			"reason": "本站用途与非商业限制的适用关系未确认"
+		}
+	]
+}

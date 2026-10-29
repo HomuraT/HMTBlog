@@ -1,0 +1,67 @@
+{
+	"digest_date": "2026-07-19",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.15207v1",
+			"title": "BadWAM: When World-Action Models Dream Right but Act Wrong",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15207v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.15038v1",
+			"title": "Video = World + Event Stream",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15038v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.14530v1",
+			"title": "xHC: Expanded Hyper-Connections",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.14530v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15163v1",
+			"title": "Scaling Behavior Foundation Model for Humanoid Robots",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15163v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15161v1",
+			"title": "On-Policy Delta Distillation",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15161v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.15178v1",
+			"title": "T^2MLR: Transformer with Temporal Middle-Layer Recurrence",
+			"version_submitted": "2026-07-16",
+			"source": "https://arxiv.org/abs/2607.15178v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"badwam-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.15207v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Qi Li、Xingyi Yang、Xinchao Wang",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.15207v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [130, 167, 745, 605],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [615, 438],
+			"sha256": "c674a7553e82099b053184c4ac88bf86b9fa4b2ce0e3541c247d78804a8fb2c9",
+			"source_pdf_sha256": "23d7d8083a28139b6e95055de37e54f3ffe53ec02b4e2631e799ec9b8c9b56cc"
+		}
+	}
+}
