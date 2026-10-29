@@ -1,0 +1,91 @@
+{
+	"digest_date": "2026-07-11",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2607.08740v1",
+			"title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+			"authors": "Emanuele Quinto , Carlo Andrea Rozzi , Francesco Zanitti",
+			"source": "https://arxiv.org/abs/2607.08740v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by-sa/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2607.08768v1",
+			"title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+			"authors": "Zhekai Chen , Chengqi Duan , Kaiyue Sun , Bohao Li , Yuqing Wang , Manyuan Zhang , Xihui Liu",
+			"source": "https://arxiv.org/abs/2607.08768v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08646v1",
+			"title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
+			"authors": "Xinlong Zhao , Dongsheng Liu , Hengyu Zhao , Zixuan Fu , Zheng Wang , Jie Cai , Jie Zhou , Qiang Ma , Xuanhe Zhou , Xu Han , Yudong Wang , Zhiyuan Liu",
+			"source": "https://arxiv.org/abs/2607.08646v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.04763v1",
+			"title": "Multi-Turn On-Policy Distillation with Prefix Replay",
+			"authors": "Baohao Liao , Hanze Dong , Christof Monz , Xinxing Xu , Li Dong , Furu Wei",
+			"source": "https://arxiv.org/abs/2607.04763v1",
+			"version_public_date": "2026-07-06",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08639v1",
+			"title": "Native Video-Action Pretraining for Generalizable Robot Control",
+			"authors": "Qihang Zhang , Lin Li , Luyao Zhang , Shuai Yang , Yiming Luo , Shuaiting Li , Ruilin Wang , Junke Wang , Jiahao Shao , Gangwei Xu , Jiaming Zhou , Yishu Shen , Yudong Jin , Fangyi Xu , Shuailei Ma , Jiaqi Liao , Guanxing Lu , Zifan Shi , Yongkun Wen , Yujie Zhao , Weixuan Tang , Xinyang Wang , Chaojian Li , Jiapeng Zhu , Ka Leong Cheng , Nan Xue , Xing Zhu , Yujun Shen , Yinghao Xu",
+			"source": "https://arxiv.org/abs/2607.08639v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08691v1",
+			"title": "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation",
+			"authors": "QiHong Chen , Aaron Imani , Iftekhar Ahmed",
+			"source": "https://arxiv.org/abs/2607.08691v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08700v1",
+			"title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution",
+			"authors": "Ethan Leung , Elias Lumer , Corey Feld , Austin Huber , Vamse Kumar Subbiah , Kevin Paul",
+			"source": "https://arxiv.org/abs/2607.08700v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"workflow-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.08740v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"crop_pdf_points": [70, 235, 542, 482],
+			"image_size": [1180, 618],
+			"sha256": "3fbbcdd3688929f6126d174d8c5c99b3a0b8d2f5f8204f48c3a640d8c6c1e23d",
+			"source_pdf_sha256": "0ec70c81e28a5570741d324056d1c9dcd862cab9b37c717309488a7d19062e9e",
+			"license": "CC BY-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"filename": "workflow-figure1.png",
+			"authors": "Emanuele Quinto , Carlo Andrea Rozzi , Francesco Zanitti",
+			"version": "2607.08740v1",
+			"license_evidence": "https://arxiv.org/abs/2607.08740v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

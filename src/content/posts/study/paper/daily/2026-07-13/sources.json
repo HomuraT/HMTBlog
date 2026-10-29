@@ -1,0 +1,90 @@
+{
+	"digest_date": "2026-07-13",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2607.08269v1",
+			"title": "PolyUQuest: Verifiable Structure-Aware Web RAG over Heterogeneous Graphs",
+			"authors": "Ying Liu , Yi Ye , Quanyu Feng , Mingxi Ye , Mingtao Zhang , Haoyang Li , Chen Jason Zhang , Qing Li",
+			"source": "https://arxiv.org/abs/2607.08269v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2607.07836v1",
+			"title": "Infinity-Parser2 Technical Report",
+			"authors": "Zuming Huang , Jun Huang , Kexuan Ren , Baode Wang , Weizhen Li , Jianming Feng , Yu Wang , Yichen Yao , Shijun Lin , Yige Tang , Cheng Peng , Weidi Xu , Wei Chu , Yinghui Xu , Yuan Qi",
+			"source": "https://arxiv.org/abs/2607.07836v1",
+			"version_public_date": "2026-07-08",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08233v1",
+			"title": "Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction",
+			"authors": "Sophia Koehler , Antonia Wüst , Inga Ibs , Wasu Top Piriyakulkij , Wolfgang Stammer , Constantin Rothkopf , Kevin Ellis , Kristian Kersting",
+			"source": "https://arxiv.org/abs/2607.08233v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08011v1",
+			"title": "Beware What You Autocomplete: Forensic Attribution of Backdoored Code Completions",
+			"authors": "Anjun Gao , Yueyang Quan , Zhuqing Liu , Minghong Fang",
+			"source": "https://arxiv.org/abs/2607.08011v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08024v1",
+			"title": "APIVOT: Adaptive Planning with Interleaved Vision-Language Thoughts",
+			"authors": "Emily Jin , Joy Hsu , Yiqing Xu , Weiyu Liu , Nick Haber , Jiajun Wu",
+			"source": "https://arxiv.org/abs/2607.08024v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08124v1",
+			"title": "TTHE: Test-Time Harness Evolution",
+			"authors": "Jun Nie , Yonggang Zhang , Jun Song , Qianshu Cai , Dahai Yu , Yike Guo , Xinmei Tian , Bo Han",
+			"source": "https://arxiv.org/abs/2607.08124v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.07976v1",
+			"title": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
+			"authors": "Xiuyi Lou , Zicheng Xu , Yu-Neng Chuang , Hoang Anh Duy Le , Zhaozhuo Xu , Guanchu Wang , Vladimir Braverman",
+			"source": "https://arxiv.org/abs/2607.07976v1",
+			"version_public_date": "2026-07-08",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.08448v1",
+			"title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+			"authors": "Yixian Zhang , Huanming Zhang , Feng Gao , Xiao Li , Zhihao Liu , Chunyang Zhu , Jiaxing Qiu , Yuchen Yan , Jiyuan Liu , Wenhao Tang , Zhengru Fang , Yi Nie , Changxu Wei , Yu Wang , Wenbo Ding , Chao Yu",
+			"source": "https://arxiv.org/abs/2607.08448v1",
+			"version_public_date": "2026-07-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"source": "https://arxiv.org/pdf/2607.08269v1#page=4",
+			"item": "Table 1",
+			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
+		}
+	]
+}

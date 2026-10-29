@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-08-13",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2602.13319v1",
+			"title": "Situation Graph Prediction: Structured Perspective Inference for User Modeling",
+			"authors": "Jisung Shin , Daniel Platnick , Marjan Alirezaie , Hossein Rahnama",
+			"source": "https://arxiv.org/abs/2602.13319v1",
+			"version_public_date": "2026-02-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2601.18579v1",
+			"title": "FastInsight: Fast and Insightful Retrieval via Fusion Operators for Graph RAG",
+			"authors": "Seonho An , Chaejeong Hyun , Min-Soo Kim",
+			"source": "https://arxiv.org/abs/2601.18579v1",
+			"version_public_date": "2026-01-26",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.09888v1",
+			"title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+			"authors": "Björn Engdahl , Adrian Kosowski , Jan Chorowski , Zuzanna Stamirowska , Przemysław Uznański , Junlin Jiang , Rohan Phadke , Remigiusz Kinas , Richard Zhong",
+			"source": "https://arxiv.org/abs/2608.09888v1",
+			"version_public_date": "2026-08-10",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.08888v1",
+			"title": "Full-bandwidth transformer",
+			"authors": "Xi Wang , Ziyang Cai , Zheng Zhan , Harry Dong , Ying Fan , Gustavo de Rosa , Tim Pearce , John Langford",
+			"source": "https://arxiv.org/abs/2608.08888v1",
+			"version_public_date": "2026-08-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.10232v1",
+			"title": "FACT: Failure-Aware Causal Training for World-Action Models",
+			"authors": "Quanquan Peng , Yutong Liang , Rui Yan , Nicklas Hansen , Xiaolong Wang",
+			"source": "https://arxiv.org/abs/2608.10232v1",
+			"version_public_date": "2026-08-10",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-nd/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.10875v1",
+			"title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
+			"authors": "Xiaohongshu Inc",
+			"source": "https://arxiv.org/abs/2608.10875v1",
+			"version_public_date": "2026-08-11",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"sgp-table1.png": {
+			"source": "https://arxiv.org/pdf/2602.13319v1#page=4",
+			"item": "Table 1",
+			"pdf_page": 4,
+			"crop_pdf_points": [50, 80, 295, 288],
+			"image_size": [613, 520],
+			"sha256": "3635c0720bda993dfe46798849fb16b6006e0777e5bddd44f08460a034cda2a8",
+			"source_pdf_sha256": "01cdea250da4987fad4e365961935dc8b87075d38fb2257e640923e5011c6d10",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "sgp-table1.png",
+			"authors": "Jisung Shin , Daniel Platnick , Marjan Alirezaie , Hossein Rahnama",
+			"version": "2602.13319v1",
+			"license_evidence": "https://arxiv.org/abs/2602.13319v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

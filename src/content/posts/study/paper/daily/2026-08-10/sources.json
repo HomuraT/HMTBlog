@@ -1,0 +1,63 @@
+{
+	"digest_date": "2026-08-10",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.07254v1",
+			"title": "SCALE: Scientific Concept Aggregation via LLMs and Embeddings for Fine-Grained Taxonomy Extension",
+			"authors": "Daniele Raimondi , Feichi Lu , Oliver Grun , Mariia Eremina , Andrea Perlato",
+			"source": "https://arxiv.org/abs/2608.07254v1",
+			"version_public_date": "2026-08-07",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.06992v1",
+			"title": "GPTKB 2.0: Browsing, Querying, and Auditing a Disambiguated LLM-Derived Knowledge Base",
+			"authors": "Yujia Hu , Tuan-Phong Nguyen , Simon Razniewski",
+			"source": "https://arxiv.org/abs/2608.06992v1",
+			"version_public_date": "2026-08-07",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.06346v1",
+			"title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+			"authors": "Yunjia Qi , Zehua Yin , Xintong Shi , Hao Peng , Songyuanyi Lu , Yixian Liu , Richeng Xuan , Yuhong Liu , Zhichao Hu , Xiaozhi Wang , Lei Hou , Bin Xu , Juanzi Li",
+			"source": "https://arxiv.org/abs/2608.06346v1",
+			"version_public_date": "2026-08-06",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.06361v1",
+			"title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+			"authors": "Sarvesh Baskar , Zikui Cai , Shayan Shabihi , Anirudh Satheesh , Muhammad R. Islam , Udari Madhushani Sehwag , Tom Goldstein , Furong Huang",
+			"source": "https://arxiv.org/abs/2608.06361v1",
+			"version_public_date": "2026-08-06",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.05948v1",
+			"title": "GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models",
+			"authors": "Shuai Wang , Yaxin Feng , Xuekun Jiang , Shihan Tian , Ningyu Yan , Xing Shen , Chaoyang Lyu , Hui Wang , Yunsong Zhou , Hanqing Wang , Jiangmiao Pang , Yang Xiang , Xing Gao , Chunhua Shen , Weinan Zhang",
+			"source": "https://arxiv.org/abs/2608.05948v1",
+			"version_public_date": "2026-08-06",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"source": "https://arxiv.org/pdf/2608.07254v1#page=4",
+			"item": "Figure 1",
+			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
+		}
+	]
+}

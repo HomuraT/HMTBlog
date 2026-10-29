@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-07-29",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2607.22642v1",
+			"title": "CRAFT: Learn the Schema, Execute the Plan",
+			"authors": "Aakash Kolekar , Sahika Genc , Shahriar Shariat , Bunyamin Sisman , Tibor Mezi , Barbara Poblete , Shree Vandana Kachroo , Calvin Chi , Parth Parmar , Ari Singer , Prayaas Jain , Cindy Barker , Benoit Dumoulin",
+			"source": "https://arxiv.org/abs/2607.22642v1",
+			"version_public_date": "2026-06-24",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2607.24653v1",
+			"title": "Kimi K3: Open Frontier Intelligence",
+			"authors": "Kimi Team : Tongtong Bai , Yifan Bai , Yiping Bao , M. C. , Jianfeng Cai , Xinyuan Cai , Peizhou Cao , Yuxuan Cao , Ziwei Chai , Y. Charles , H.S. Che , Guanduo Chen , Guangyu Chen , Guanzheng Chen , Huarong Chen , Jia Chen , Jianlong Chen , Jun Chen , Kexin Chen , Peng Chen , Ruijue Chen , Wentao Chen , Xin Chen , Yang Chen , Yanru Chen , Yifei Chen , Yingjiang Chen , Yuankun Chen , Yujie Chen , Yutian Chen , Zhirong Chen , Dazhi Cheng , Yean Cheng , Jialei Cui , Jingbing Cui , Anqi Dai , Jiaqi Deng , Hao Ding , Rui Ding , Shaofeng Ding , Mengfan Dong , Mengnan Dong , Yuhao Dong , Yuxin Dong , Angang Du , Chenzhuang Du , Dikang Du , Jusen Du , Yulun Du , Yu Fan , Jing Feng , Qiulin Feng , Yichen Feng , Kelin Fu , Qiang Fu , Fuxuan Gao , Hongcheng Gao , Jingyue Gao , Tong Gao , Weijia Gao , Shangyi Geng , Jie Gong , Linhu Gong , Shengao Gong , Xiaochen Gong , Qizheng Gu , Yicheng Gu , Shuhao Guan , Haiqing Guo , Shiqi Guo , Xiang Guo , Zhengyan Guo , Beixi Hao , Wenxin Hao , Xiaoru Hao , Dailan He , Haotian He , Lehan He , Qi He , Weiran He , Xinran He , Xinyi He , Yibo He , Yunjia He , Chao Hong , Tiange Hong , Hao Hu , Jiaxi Hu , Ruikun Hu , Weiming Hu , Yangyang Hu , Zhenxing Hu , Liang Hua , Jinbin Huang , Ke Huang , Ruiyuan Huang , Siying Huang , Weixiao Huang , Yan Huang , Zhengjie Huang , Zhiqi Huang , Yulong Hui , Chaobo Jia , Yutong Jiang , Zhejun Jiang , Zuoyou Jiang , Wenyi Jin , Xinyi Jin , Yu Jing , Huanjun Kong , Guokun Lai , Aidi Li , Cheng Li , Chengyuan Li , Cong Li , Fang Li , Guanyu Li , Haoyang Li , Jia Li , Junxiong Li , Lei Li , Letian Li , Lincan Li , Weihong Li , Wentao Li , Xintong Li , Yang Li , Yishen Li , Yiwei Li , Yuxiao Li , Zhaowei Li , Zhaoxi Li , Zheming Li , Zhengxiao Li , Zhiyuan Li , Jiawei Lin , Xiaohan Lin , Yibo Lin , Zichao Lin , Ziyan Lin , Bill Liu , Boxiao Liu , Chuan Liu , Liang Liu , Shaowei Liu , Shudong Liu , Shuran Liu , Tianwei Liu , Weizhou Liu , Yangyang Liu , Yanming Liu , Yibo Liu , Yipeng Liu , Zhengying Liu , Zhiheng Liu , Enzhe Lu , Haoyu Lu , Linqiang Lu , Tingzhan Lu , Zhiyuan Lu , Aotian Luo , G. Luo , Junyu Luo , Yifan Luo , B. Lyu , Wenzhou Lyu , Shaoguang Mao , Yuan Mei , Xin Men , Minqing Ni , Yixuan Niu , Siyuan Pan , Shujun Peng , Zhangyang Qi , Ruoyu Qin , ZeChao Qin , Zeyu Qin , Haiquan Qiu , Jianxin Qiu , Jiezhong Qiu , Bowen Qu , Yuhao Qu , Zeyu Shang , Youbo Shao , Han Shen , Jincheng Shi , Juanfeng Shi , Lidong Shi , Shengyuan Shi , Wingchun Siu , Pengwei Song , Xiaoxi Song , Jianlin Su , Yunfeng Su , Zhaochen Su , Lin Sui , Jingsong Sun , Junyao Sun , Shaoning Sun , Shuzhe Sun , Tongyu Sun , Yujun Sun , Yunpeng Tai , Chuning Tang , Heyi Tang , Sirui Tang , Zecheng Tang , Chaoran Tian , Rongpeng Tian , Yu Tian , Wei Tu , Chensi Wang , Chuang Wang , Chunjie Wang , Dinglu Wang , Feng Wang , Hailong Wang , Haiming Wang , Hao Wang , Hao Wang , Huaqing Wang , Hui Wang , Jiayi Wang , Jinglong Wang , Jinhong Wang , Jiuzheng Wang , Linian Wang , Shaobo Wang , Shenzhi Wang , Shuyi Wang , Si Wang , Siyuan Wang , Tianfu Wang , Wenjue Wang , Xingran Wang , Xinmei Wang , Xinyuan Wang , Xusheng Wang , Yalin Wang , Yangkun Wang , Yao Wang , Yaoyu Wang , Yejie Wang , Yiqin Wang , Yucheng Wang , Yuzhi Wang , Zhaoji Wang , Zhaowei Wang , Zhengtao Wang , Zhenhao Wang , Zhongsheng Wang , Zifan Wang , Chu Wei , Ming Wei , Shouxin Wei , Zichen Wen , Fan Wu , Haoning Wu , Rucong Wu , Wenhao Wu , Xiaoxue Wu , Yingcong Wu , Yongqi Wu , Yuxin Wu , Zijian Wu , Xinglang Xian , Chenxuan Xiang , Yuye Xiang , Bocheng Xiao , Chenjun Xiao , Xin Xiao , Jin Xie , Xiaotong Xie , Yifeng Xie , Zhe Xie , Bowei Xing , Yiming Xiong , Baosheng Xu , Boyu Xu , Jiale Xu , Jianfan Xu , Jing Xu , Jinjing Xu , L.H. Xu , Qingtao Xu , Shuyao Xu , Suting Xu , Tiantian Xu , Tianxiang Xu , Weixin Xu , Xinran Xu , Yangchuan Xu , Ye Xu , Yueni Xu , Ziyao Xu , Haonan Xue , Junjie Yan , Yaoyao Yan , Fan Yang , Guangyao Yang , Hao Yang , Junwei Yang , Ruoyu Yang , Wenjie Yang , Xiaofei Yang , Xinyu Yang , Yi Yang , Yiling Yang , Ying Yang , Yuchen Yang , Zhen Yang , Zhilin Yang , Zian Yang , Zuhao Yang , Haotian Yao , Dan Ye , Haoran Ye , Wenjie Ye , Zhanbo Ye , Bohong Yin , Haoxiang Yin , Xietong Yin , Chengzhen Yu , Haozhen Yu , Longhui Yu , Shengnan Yu , Shuying Yu , Tianxiang Yu , Enming Yuan , Mengjie Yuan , Tongtian Yue , Wei Yue , Yang Yue , Dunyuan Zha , Haobing Zhan , B.H. Zhang , Dehao Zhang , Fei Zhang , Hao Zhang , Haoyuan Zhang , Huanyu Zhang , Jiapei Zhang , Jiaxuan Zhang , Jin Zhang , Kaiyi Zhang , Miaozhen Zhang , Puqi Zhang , Qinglei Zhang , Rong Zhang , Rui Zhang , Shaoshuai Zhang , Shiyi Zhang , Xiaobin Zhang , Xiaoyun Zhang , Y. Zhang , Yangkun Zhang , Ye Zhang , Yichi Zhang , Yikun Zhang , Yizhi Zhang , Yongting Zhang , Yu Zhang , Yutao Zhang , Yutong Zhang , Zheng Zhang , Zijing Zhang , Bin Zhao , Chenguang Zhao , Feifan Zhao , Jinglun Zhao , Jinxiang Zhao , Shuai Zhao , Wenshuo Zhao , Xiangyu Zhao , Xuanle Zhao , Yikai Zhao , Zijia Zhao , Haozhi Zheng , Huabin Zheng , Ruihan Zheng , Shaojie Zheng , Tengyang Zheng , Haofeng Zhong , Lei Zhong , Longguang Zhong , M. Zhou , Qiankang Zhou , Runjie Zhou , Ruozhang Zhou , Xinyu Zhou , Yiqiao Zhou , Zaida Zhou , Jinguo Zhu , Liya Zhu , Xinhao Zhu , Yangjunfeng Zhu , Yuxuan Zhu , Zhen Zhu , Chen Zhuang , Weiyu Zhuang , Xinxing Zu et al. (302 additional authors not shown) You must enable JavaScript to view entire author list.",
+			"source": "https://arxiv.org/abs/2607.24653v1",
+			"version_public_date": "2026-07-27",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-nd/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.24744v1",
+			"title": "Data Pyramid for Embodied Manipulation",
+			"authors": "Yifan Ye , Yankai Fu , Yaoxu Lv , Bohan Hou , Jun Cen , Lingdong Kong , Duo Zheng , Tianxing Chen , Jiaming Liu , Ziang Cao , Yunfan Lou , Wei Chow , Xian Sun , Yingshuo Wang , Kuangzhi Ge , Xiaowei Chi , Xidong Zhang , Zhibo Pang , Yiwu Zhong , Sirui Han , Zhihe Lu , Weihao Yuan , Qifeng Chen , Michael Yu Wang , Yao Mu , Ziwei Liu , Jianfei Yang , Ping Luo , Shanghang Zhang",
+			"source": "https://arxiv.org/abs/2607.24744v1",
+			"version_public_date": "2026-07-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.24485v1",
+			"title": "τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision",
+			"authors": "Ning Cheng , Jinan Xu , Wanlin Li , Yangzhi Chen , Jing Gao , Yiqun Wang , Kelan Peng , Wenjuan Han",
+			"source": "https://arxiv.org/abs/2607.24485v1",
+			"version_public_date": "2026-07-27",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.24720v1",
+			"title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+			"authors": "Tianyi Men , Zhuoran Jin , Kang Liu , Jun Zhao",
+			"source": "https://arxiv.org/abs/2607.24720v1",
+			"version_public_date": "2026-07-27",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2607.23999v1",
+			"title": "ContainmentBench: Trace-Based Evaluation of Post-Injection Containment in Tool-Using LLM Agents",
+			"authors": "Wenhao Lan , Shan Li , Xinhua Lai , Meiqi Wu , Junbin Yang , Haihua Shen",
+			"source": "https://arxiv.org/abs/2607.23999v1",
+			"version_public_date": "2026-07-27",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-nd/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"craft-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.22642v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"crop_pdf_points": [315, 80, 565, 477],
+			"image_size": [626, 993],
+			"sha256": "7b19cb6713bf8469b10ad236254cdf398ea9b0b443e7bfbf969b7d1d37392edc",
+			"source_pdf_sha256": "9be67a1338696c709ec5fc8cdf6e362eac42da7f350c699bf9a520652b7d4a86",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "craft-figure1.png",
+			"authors": "Aakash Kolekar , Sahika Genc , Shahriar Shariat , Bunyamin Sisman , Tibor Mezi , Barbara Poblete , Shree Vandana Kachroo , Calvin Chi , Parth Parmar , Ari Singer , Prayaas Jain , Cindy Barker , Benoit Dumoulin",
+			"version": "2607.22642v1",
+			"license_evidence": "https://arxiv.org/abs/2607.22642v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-08-12",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.10668v1",
+			"title": "FITTER: Vocabulary-Agnostic Cross-Domain Inference on Temporal Knowledge Graphs",
+			"authors": "Jiaxin Pan , Mojtaba Nayyeri , Osama Mohammed , Daniel Hernandez , Rongchuan Zhang , Cheng Cheng , Steffen Staab",
+			"source": "https://arxiv.org/abs/2608.10668v1",
+			"version_public_date": "2026-08-11",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.10644v1",
+			"title": "Curate Before You Connect: Identity and Ontology Tagging in a Production Knowledge Graph",
+			"authors": "Vaibhav Dangaich , Kevin Lewis , Kundeshwar Pundalik",
+			"source": "https://arxiv.org/abs/2608.10644v1",
+			"version_public_date": "2026-08-11",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-sa/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.09867v1",
+			"title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+			"authors": "Alexander Panfilov , David Schmotz , Ilia Shumailov , Luca Beurer-Kellner , Joachim Schaeffer , Ameya Prabhu , Jonas Geiping , Maksym Andriushchenko",
+			"source": "https://arxiv.org/abs/2608.09867v1",
+			"version_public_date": "2026-08-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.09802v1",
+			"title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+			"authors": "Yuling Shi , Jinghan Xu , Kelin Fu , Wenhao Zeng , Shilin He , Lei Zhang , Yue Liu , Zelin Zhao , Terry Yue Zhuo , Jialun Cao , Siyu Ye , Tianyu Liu , Kai Cai , Shing-Chi Cheung , Xiaodong Gu",
+			"source": "https://arxiv.org/abs/2608.09802v1",
+			"version_public_date": "2026-08-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.09381v1",
+			"title": "JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling",
+			"authors": "Yihan Lin , Jiawei He , Shifeng Bao , Chen Zhao , Yang Li , Xiaobo Wang , Yan Wang , Cheng Chi , Jing Zhang",
+			"source": "https://arxiv.org/abs/2608.09381v1",
+			"version_public_date": "2026-08-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.09926v1",
+			"title": "Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning",
+			"authors": "Haodong Li , Shaoteng Liu , Tianyu Wang , Chongjian Ge , Sihui Ji , Jiahan Zhang , Xin Lin , Haolin Lu , Zhe Lin , Manmohan Chandraker",
+			"source": "https://arxiv.org/abs/2608.09926v1",
+			"version_public_date": "2026-08-10",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"fitter-figure1.png": {
+			"source": "https://arxiv.org/pdf/2608.10668v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"crop_pdf_points": [130, 110, 484, 390],
+			"image_size": [885, 700],
+			"sha256": "842b9bffc693699aa47ea6ca92574a178ccb0a2af8879e61bcfa418d7ef5fa6b",
+			"source_pdf_sha256": "2a15decafd878bd0d7c3e1f7968f319e465fffbc6c5f2b4bdb7f47c92ba0fd93",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "fitter-figure1.png",
+			"authors": "Jiaxin Pan , Mojtaba Nayyeri , Osama Mohammed , Daniel Hernandez , Rongchuan Zhang , Cheng Cheng , Steffen Staab",
+			"version": "2608.10668v1",
+			"license_evidence": "https://arxiv.org/abs/2608.10668v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}
