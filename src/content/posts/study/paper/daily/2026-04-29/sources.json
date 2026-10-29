@@ -1,0 +1,72 @@
+{
+	"digest_date": "2026-04-29",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 links and first submission dates; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.24763v1",
+			"title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+			"source": "https://arxiv.org/abs/2604.24763v1",
+			"first_submitted": "2026-04-27",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.24764v1",
+			"title": "World-R1: Reinforcing 3D Constraints for Text-to-Video Generation",
+			"source": "https://arxiv.org/abs/2604.24764v1",
+			"first_submitted": "2026-04-27",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.23781v1",
+			"title": "ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents",
+			"source": "https://arxiv.org/abs/2604.23781v1",
+			"first_submitted": "2026-04-26",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.24432v1",
+			"title": "Kwai Summary Attention Technical Report",
+			"source": "https://arxiv.org/abs/2604.24432v1",
+			"first_submitted": "2026-04-27",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.23747v1",
+			"title": "SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning",
+			"source": "https://arxiv.org/abs/2604.23747v1",
+			"first_submitted": "2026-04-26",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.23321v1",
+			"title": "MMEB-V3: Measuring the Performance Gaps of Omni-Modality Embedding Models",
+			"source": "https://arxiv.org/abs/2604.23321v1",
+			"first_submitted": "2026-04-25",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"clawmark-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2604.23781v1#page=3",
+			"figure": 1,
+			"pdf_page": 3,
+			"authors": ["Fanqing Meng", "Lingxiao Du", "Zijian Wu et al."],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.23781v1",
+			"change": "Cropped complete Figure 1 and essential labels/legend; removed surrounding prose, header and caption; figure contents and colors unchanged.",
+			"rendered_page_size": [1530, 1980],
+			"crop_pixels": [137, 205, 1392, 667],
+			"image_size": [1255, 462],
+			"sha256": "7ea7e2f6b475389d36e4177913186a59aa3aedf71aa53790cc91d7934b94e53a",
+			"source_pdf_sha256": "a434304cd8bda7fba635b490162d61af9ec266eb63ba5e9e399b5c5a8f8923e2"
+		}
+	},
+	"verification_notes": [
+		"ClawMark weighted score 75.8 belongs to Sonnet 4.6; strict success 20.0 belongs to Opus 4.6.",
+		"ClawMark seven-system comparison uses one OpenClaw harness and single-run protocol."
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"digest_date": "2026-04-28",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 links and first submission dates; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.21590v1",
+			"title": "AgenticQwen: Training Small Agentic Language Models with Dual Data Flywheels for Industrial-Scale Tool Use",
+			"source": "https://arxiv.org/abs/2604.21590v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.22709v1",
+			"title": "Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought",
+			"source": "https://arxiv.org/abs/2604.22709v1",
+			"first_submitted": "2026-04-24",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.22152v1",
+			"title": "dWorldEval: Scalable Robotic Policy Evaluation via Discrete Diffusion World Model",
+			"source": "https://arxiv.org/abs/2604.22152v1",
+			"first_submitted": "2026-04-24",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2410.16597v1",
+			"title": "Distill-SynthKG: Distilling Knowledge Graph Synthesis Workflow for Improved Coverage and Efficiency",
+			"source": "https://arxiv.org/abs/2410.16597v1",
+			"first_submitted": "2024-10-22",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2510.13909v1",
+			"title": "Knowledge Reasoning Language Model: Unifying Knowledge and Language for Inductive Knowledge Graph Reasoning",
+			"source": "https://arxiv.org/abs/2510.13909v1",
+			"first_submitted": "2025-10-15",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.22748v1",
+			"title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+			"source": "https://arxiv.org/abs/2604.22748v1",
+			"first_submitted": "2026-04-24",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.21254v1",
+			"title": "Hyperloop Transformers",
+			"source": "https://arxiv.org/abs/2604.21254v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.22615v1",
+			"title": "GazeVLA: Learning Human Intention for Robotic Manipulation",
+			"source": "https://arxiv.org/abs/2604.22615v1",
+			"first_submitted": "2026-04-24",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"abstract-cot-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2604.22709v1#page=2",
+			"figure": 1,
+			"pdf_page": 2,
+			"authors": ["Keshav Ramji", "Tahira Naseem", "Ramón Fernandez Astudillo"],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.22709v1",
+			"change": "Cropped complete Figure 1 and essential labels/legend; removed surrounding prose, header and caption; figure contents and colors unchanged.",
+			"rendered_page_size": [1530, 1980],
+			"crop_pixels": [275, 207, 1255, 765],
+			"image_size": [980, 558],
+			"sha256": "7d0bf009375e4ecb2b2e51db4a614d1019d8d453ab83d852957d124cb05c6ad9",
+			"source_pdf_sha256": "437e1ba0fc195be1ad18b30e9d752d2036f239683b7fa6809eb55dab40e09961"
+		}
+	},
+	"verification_notes": [
+		"Abstract-CoT token compression is task-specific, not an equal end-to-end speedup.",
+		"All links fixed to v1, including versions with later revisions before the digest date."
+	]
+}

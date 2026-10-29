@@ -1,0 +1,87 @@
+{
+	"digest_date": "2026-04-30",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 links and first submission dates; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.25149v1",
+			"title": "Semantic Layers for Reliable LLM-Powered Data Analytics: A Paired Benchmark of Accuracy and Hallucination Across Three Frontier Models",
+			"source": "https://arxiv.org/abs/2604.25149v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.25917v1",
+			"title": "Recursive Multi-Agent Systems",
+			"source": "https://arxiv.org/abs/2604.25917v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.25256v1",
+			"title": "AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery",
+			"source": "https://arxiv.org/abs/2604.25256v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.25693v1",
+			"title": "RADD: Retrieval-Augmented Discrete Diffusion for Multi-Modal Knowledge Graph Completion",
+			"source": "https://arxiv.org/abs/2604.25693v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.25727v1",
+			"title": "Toward Scalable Terminal Task Synthesis via Skill Graphs",
+			"source": "https://arxiv.org/abs/2604.25727v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.25419v1",
+			"title": "JURY-RL: Votes Propose, Proofs Dispose for Label-Free RLVR",
+			"source": "https://arxiv.org/abs/2604.25419v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.25724v1",
+			"title": "Scalable Inference Architectures for Compound AI Systems: A Production Deployment Study",
+			"source": "https://arxiv.org/abs/2604.25724v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.25544v1",
+			"title": "Medoid Prototype Alignment for Cross-Plant Unknown Attack Detection in Industrial Control Systems",
+			"source": "https://arxiv.org/abs/2604.25544v1",
+			"first_submitted": "2026-04-28",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"recursivemas-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2604.25917v1#page=1",
+			"figure": 1,
+			"pdf_page": 1,
+			"authors": ["Xiyuan Yang et al."],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.25917v1",
+			"change": "Cropped complete Figure 1 and essential labels/legend; removed surrounding prose, header and caption; figure contents and colors unchanged.",
+			"rendered_page_size": [1489, 2105],
+			"crop_pixels": [155, 1030, 1335, 1787],
+			"image_size": [1180, 757],
+			"sha256": "440adfd9edab04f657e31d2b5bb9e90987aa02113acd0aca127038b9168fdd02",
+			"source_pdf_sha256": "7b8adc094620015891940651d62608d781bb4cd1c0cd74bbfa6160057b5e59f1"
+		}
+	},
+	"verification_notes": [
+		"Semantic Layers HTML unavailable; public v1 PDF retrieved and checked.",
+		"RecursiveMAS public v1 PDF successfully retrieved, Figure 1 established on page 1; no restricted fallback used.",
+		"AutoResearchBench 9.39 accuracy and 9.31 IoU are different ReAct model results; separate end-to-end sampled systems not treated as equivalent."
+	]
+}

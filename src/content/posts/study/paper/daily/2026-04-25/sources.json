@@ -1,0 +1,182 @@
+{
+	"digest_date": "2026-04-25",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 links and first submission dates; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.20209v1",
+			"title": "Scaling Self-Play with Self-Guidance",
+			"source": "https://arxiv.org/abs/2604.20209v1",
+			"first_submitted": "2026-04-22",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.18002v1",
+			"title": "Neural Garbage Collection: Learning to Forget while Learning to Reason",
+			"source": "https://arxiv.org/abs/2604.18002v1",
+			"first_submitted": "2026-04-20",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.18805v1",
+			"title": "AI scientists produce results without reasoning scientifically",
+			"source": "https://arxiv.org/abs/2604.18805v1",
+			"first_submitted": "2026-04-20",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.09608v1",
+			"title": "Unifying Ontology Construction and Semantic Alignment for Deterministic Enterprise Reasoning at Scale",
+			"source": "https://arxiv.org/abs/2604.09608v1",
+			"first_submitted": "2026-03-11",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.20329v1",
+			"title": "Image Generators are Generalist Vision Learners",
+			"source": "https://arxiv.org/abs/2604.20329v1",
+			"first_submitted": "2026-04-22",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.02721v1",
+			"title": "GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/abs/2604.02721v1",
+			"first_submitted": "2026-04-03",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.08523v1",
+			"title": "ClawBench: Can AI Agents Complete Everyday Online Tasks?",
+			"source": "https://arxiv.org/abs/2604.08523v1",
+			"first_submitted": "2026-04-09",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.05015v1",
+			"title": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+			"source": "https://arxiv.org/abs/2604.05015v1",
+			"first_submitted": "2026-04-06",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.08626v1",
+			"title": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+			"source": "https://arxiv.org/abs/2604.08626v1",
+			"first_submitted": "2026-04-09",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2603.28032v1",
+			"title": "CARLA-Air: Fly Drones Inside a CARLA World -- A Unified Infrastructure for Air-Ground Embodied Intelligence",
+			"source": "https://arxiv.org/abs/2603.28032v1",
+			"first_submitted": "2026-03-30",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.13346v1",
+			"title": "AgentSPEX: An Agent SPecification and EXecution Language",
+			"source": "https://arxiv.org/abs/2604.13346v1",
+			"first_submitted": "2026-04-14",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.07429v1",
+			"title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+			"source": "https://arxiv.org/abs/2604.07429v1",
+			"first_submitted": "2026-04-08",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2502.07408v1",
+			"title": "No Data, No Optimization: A Lightweight Method To Disrupt Neural Networks With Sign-Flips",
+			"source": "https://arxiv.org/abs/2502.07408v1",
+			"first_submitted": "2025-02-11",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.21254v1",
+			"title": "Hyperloop Transformers",
+			"source": "https://arxiv.org/abs/2604.21254v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.19341v1",
+			"title": "Evaluation-driven Scaling for Scientific Discovery",
+			"source": "https://arxiv.org/abs/2604.19341v1",
+			"first_submitted": "2026-04-21",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.21686v1",
+			"title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+			"source": "https://arxiv.org/abs/2604.21686v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.18292v1",
+			"title": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+			"source": "https://arxiv.org/abs/2604.18292v1",
+			"first_submitted": "2026-04-20",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.15804v1",
+			"title": "Qwen3.5-Omni Technical Report",
+			"source": "https://arxiv.org/abs/2604.15804v1",
+			"first_submitted": "2026-04-17",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2504.10036v1",
+			"title": "DataMosaic: Explainable and Verifiable Multi-Modal Data Analytics through Extract-Reason-Verify",
+			"source": "https://arxiv.org/abs/2504.10036v1",
+			"first_submitted": "2025-04-14",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2505.22618v1",
+			"title": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+			"source": "https://arxiv.org/abs/2505.22618v1",
+			"first_submitted": "2025-05-28",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"scientists-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2604.18805v1#page=4",
+			"figure": 1,
+			"pdf_page": 4,
+			"authors": ["Martiño Ríos-García et al."],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.18805v1",
+			"change": "Cropped complete Figure 1 and essential labels/legend; removed surrounding prose, header and caption; figure contents and colors unchanged.",
+			"rendered_page_size": [1530, 1980],
+			"crop_pixels": [260, 242, 1270, 980],
+			"image_size": [1010, 738],
+			"sha256": "180ec67f255deea4c7580284429e166dce25eab908cd38aff1661ebe32597bd4",
+			"source_pdf_sha256": "25814f661fe57b04c003f47ed8db8e17dd54c21c7336baa36bae4ebd53a9305a"
+		}
+	},
+	"verification_notes": [
+		"Five unresolved candidate identities excluded; no unverifiable titles or experimental results published.",
+		"2502.07408v1 uses historical title No Data, No Optimization..., not a later title.",
+		"DataMosaic uses its historical v1 title.",
+		"LOM reasoning-score summary differs between abstract (94%) and main contribution (95%); no unified reasoning score asserted.",
+		"DeepSeek official preview page dated 2026-04-24, not a claim that a later arXiv archive existed on this digest date.",
+		"Science-agent process rates depend on model-assisted annotation definitions."
+	],
+	"other_public_sources": [
+		{
+			"source": "https://deepseek.com/en/news/v4-preview/",
+			"page_date": "2026-04-24",
+			"verification_scope": "Official preview announcement and date checked"
+		}
+	],
+	"unresolved_candidate_count": 5
+}

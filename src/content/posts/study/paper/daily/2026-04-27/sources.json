@@ -1,0 +1,87 @@
+{
+	"digest_date": "2026-04-27",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Historical v1 links and first submission dates; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.21748v1",
+			"title": "StructMem: Structured Memory for Long-Horizon Behavior in LLMs",
+			"source": "https://arxiv.org/abs/2604.21748v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2604.21428v1",
+			"title": "Decoupled DiLoCo for Resilient Distributed Pre-training",
+			"source": "https://arxiv.org/abs/2604.21428v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2512.05594v1",
+			"title": "Ontology Learning with LLMs: A Benchmark Study on Axiom Identification",
+			"source": "https://arxiv.org/abs/2512.05594v1",
+			"first_submitted": "2025-12-05",
+			"verification_scope": "Cited method/evaluation passages checked"
+		},
+		{
+			"arxiv": "2506.22267v1",
+			"title": "Towards Operational Data Analytics Chatbots -- Virtual Knowledge Graph is All You Need",
+			"source": "https://arxiv.org/abs/2506.22267v1",
+			"first_submitted": "2025-06-27",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.21691v1",
+			"title": "There Will Be a Scientific Theory of Deep Learning",
+			"source": "https://arxiv.org/abs/2604.21691v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.21931v1",
+			"title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+			"source": "https://arxiv.org/abs/2604.21931v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.21391v1",
+			"title": "From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges",
+			"source": "https://arxiv.org/abs/2604.21391v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2604.21681v1",
+			"title": "Sapiens2",
+			"source": "https://arxiv.org/abs/2604.21681v1",
+			"first_submitted": "2026-04-23",
+			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"diloco-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2604.21428v1#page=2",
+			"figure": 1,
+			"pdf_page": 2,
+			"authors": ["Arthur Douillard", "Keith Rush", "Yani Donchev et al."],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.21428v1",
+			"change": "Cropped complete Figure 1 and essential labels/legend; removed surrounding prose, header and caption; figure contents and colors unchanged.",
+			"rendered_page_size": [1489, 2105],
+			"crop_pixels": [155, 210, 1337, 825],
+			"image_size": [1182, 615],
+			"sha256": "43145676a1023f46e3405183111069c801f417cd768b347bafcf277e561441cd",
+			"source_pdf_sha256": "148f68931c3baaa79a3f3bd69c3e2fe3a2168051b4f08024708b4f69568d5ee1"
+		}
+	},
+	"verification_notes": [
+		"Million-chip failure environments are simulations, not million-chip physical deployments.",
+		"OntoAxiom first submitted 2025-12-05; included as background reading.",
+		"StructMem effectiveness uses LLM judges; efficiency covers memory construction."
+	]
+}
