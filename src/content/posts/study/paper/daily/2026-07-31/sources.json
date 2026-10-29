@@ -1,0 +1,53 @@
+{
+	"digest_date": "2026-07-31",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.26246v1",
+			"title": "Weak-to-Strong On-Policy Distillation",
+			"version_submitted": "2026-07-28",
+			"source": "https://arxiv.org/abs/2607.26246v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.26598v1",
+			"title": "Living-Harness Is an Interactive-Agent Evolver",
+			"version_submitted": "2026-07-29",
+			"source": "https://arxiv.org/abs/2607.26598v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.27205v1",
+			"title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+			"version_submitted": "2026-07-29",
+			"source": "https://arxiv.org/abs/2607.27205v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.27180v1",
+			"title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+			"version_submitted": "2026-07-29",
+			"source": "https://arxiv.org/abs/2607.27180v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.26055v1",
+			"title": "$π\\mathbf{R}^2$: Reactive Real-time Flow Policies",
+			"version_submitted": "2026-07-28",
+			"source": "https://arxiv.org/abs/2607.26055v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.26246v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.26246v1#page=1",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}

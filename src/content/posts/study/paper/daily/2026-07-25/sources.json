@@ -1,0 +1,58 @@
+{
+	"digest_date": "2026-07-25",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.21203v1",
+			"title": "A New Well-Supported Semantics for Description Logic Programs",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21203v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.21553v1",
+			"title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21553v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.21461v1",
+			"title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21461v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.21556v1",
+			"title": "Visual Contrastive Self-Distillation",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21556v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.18970v1",
+			"title": "Skillware: A Software Ontology and Engineering Lifecycle for Persistent Behavioral Artifacts",
+			"version_submitted": "2026-07-21",
+			"source": "https://arxiv.org/abs/2607.18970v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.21366v1",
+			"title": "Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21366v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.21203v1",
+			"reason": "No numbered original figure in the theoretical paper; none fabricated.",
+			"source": "https://arxiv.org/abs/2607.21203v1"
+		}
+	]
+}

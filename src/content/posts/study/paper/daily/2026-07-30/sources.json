@@ -1,0 +1,60 @@
+{
+	"digest_date": "2026-07-30",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.24551v1",
+			"title": "LLM-Assisted Ontology Engineering and Construction of a French Legal Knowledge Graph",
+			"version_submitted": "2026-07-27",
+			"source": "https://arxiv.org/abs/2607.24551v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.26037v1",
+			"title": "Wonder: Video World Model Done Better",
+			"version_submitted": "2026-07-28",
+			"source": "https://arxiv.org/abs/2607.26037v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.25886v1",
+			"title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+			"version_submitted": "2026-07-28",
+			"source": "https://arxiv.org/abs/2607.25886v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.25948v1",
+			"title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+			"version_submitted": "2026-07-28",
+			"source": "https://arxiv.org/abs/2607.25948v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.25895v1",
+			"title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+			"version_submitted": "2026-07-28",
+			"source": "https://arxiv.org/abs/2607.25895v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.24904v1",
+			"title": "Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+			"version_submitted": "2026-07-27",
+			"source": "https://arxiv.org/abs/2607.24904v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.24551v1",
+			"item": "Table 3",
+			"source": "https://arxiv.org/pdf/2607.24551v1#page=4",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}

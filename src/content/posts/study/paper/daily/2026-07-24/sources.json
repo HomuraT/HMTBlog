@@ -1,0 +1,67 @@
+{
+	"digest_date": "2026-07-24",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.19365v1",
+			"title": "Logic-Guided Data Extraction with Answer Set Programming and Large Language Models",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2607.19365v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.19616v1",
+			"title": "The Mechanism Matters: When Knowledge Graphs Help Reinforcement Learning",
+			"version_submitted": "2026-07-21",
+			"source": "https://arxiv.org/abs/2607.19616v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.19653v1",
+			"title": "PerfAgent: Profiler-Guided Iterative Refinement for Repository-Level Code Optimization",
+			"version_submitted": "2026-07-22",
+			"source": "https://arxiv.org/abs/2607.19653v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.20033v1",
+			"title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+			"version_submitted": "2026-07-22",
+			"source": "https://arxiv.org/abs/2607.20033v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.19396v1",
+			"title": "CrackedPDFs: A Controlled Benchmark for Hidden Prompt Injection in PDFs",
+			"version_submitted": "2026-07-03",
+			"source": "https://arxiv.org/abs/2607.19396v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.19682v1",
+			"title": "Context Matters: Improving the Practical Reliability of LLM-Based Unit Test Generation",
+			"version_submitted": "2026-07-22",
+			"source": "https://arxiv.org/abs/2607.19682v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"logic-extraction-table1.png": {
+			"source": "https://arxiv.org/pdf/2607.19365v1#page=12",
+			"item": "Table 1",
+			"pdf_page": 12,
+			"authors": "Mario Alviano、Lorenzo Grillo、Nicola Leone、Fabrizio Lo Scudo",
+			"license": "CC BY-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.19365v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [285, 345, 1255, 1105],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [970, 760],
+			"sha256": "4a48f2692f7ecb9a9e27f1f4e7aed44148c4d4b1f369a62eb18212d9d40762f0",
+			"source_pdf_sha256": "6c3863aae83b75092f6f1a094c5b0503d070ee4d008439b4b4697debf063c635"
+		}
+	}
+}

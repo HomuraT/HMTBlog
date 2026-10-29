@@ -1,0 +1,60 @@
+{
+	"digest_date": "2026-07-26",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.20465v1",
+			"title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+			"version_submitted": "2026-05-19",
+			"source": "https://arxiv.org/abs/2607.20465v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.21557v1",
+			"title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21557v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.21576v1",
+			"title": "Self-Supervised Learning of Structured Dynamics from Videos",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21576v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.21595v1",
+			"title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21595v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.21585v1",
+			"title": "Expanding Flow Maps",
+			"version_submitted": "2026-07-23",
+			"source": "https://arxiv.org/abs/2607.21585v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"dataprep-figure1.png": {
+			"source": "https://arxiv.org/pdf/2607.20465v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Hao Liang、Qifeng Cai、Yibo Lin、Jianzhuo Du、Qifeng Xia、Sizhe Qiu、Linzhuang Sun、Meiyi Qiang、Zhaoyang Han、Xiaochen Ma、Bohan Zeng、Ruichuan An、Conghui He、Wentao Zhang",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2607.20465v1",
+			"change": "Cropped complete original figure and caption with labels; no content or color modifications.",
+			"crop_pixels": [175, 190, 1360, 875],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1185, 685],
+			"sha256": "f438c2516a0a7d37b11af713a5d4ba1da568d4189eba01cc4d32677e2d91274c",
+			"source_pdf_sha256": "9f233829710cd2b6d2f8d80d1158475a8cdf43af579a05153e9a83ad0d7a9f96"
+		}
+	}
+}

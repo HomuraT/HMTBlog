@@ -1,0 +1,53 @@
+{
+	"digest_date": "2026-07-23",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.18927v1",
+			"title": "OntoBook: Ontology-Grounded Synthetic Textbooks for Medical Encoder Pretraining",
+			"version_submitted": "2026-07-21",
+			"source": "https://arxiv.org/abs/2607.18927v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.19343v1",
+			"title": "Masked Visual Actions for Unified World Modeling",
+			"version_submitted": "2026-07-21",
+			"source": "https://arxiv.org/abs/2607.19343v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.19190v1",
+			"title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+			"version_submitted": "2026-07-21",
+			"source": "https://arxiv.org/abs/2607.19190v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.19064v1",
+			"title": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+			"version_submitted": "2026-07-21",
+			"source": "https://arxiv.org/abs/2607.19064v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.19191v1",
+			"title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+			"version_submitted": "2026-07-21",
+			"source": "https://arxiv.org/abs/2607.19191v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.18927v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.18927v1#page=1",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"digest_date": "2026-07-27",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2607.20498v1",
+			"title": "AISE-Bench: A Full-Cycle Curated Benchmark for Information Seeking on Academic Knowledge Graphs",
+			"version_submitted": "2026-06-16",
+			"source": "https://arxiv.org/abs/2607.20498v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2607.20489v1",
+			"title": "EvoSQL: Memory-Augmented Critic-Generator Co-Evolution for Text-to-SQL",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2607.20489v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.20466v1",
+			"title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
+			"version_submitted": "2026-05-19",
+			"source": "https://arxiv.org/abs/2607.20466v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.20468v1",
+			"title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
+			"version_submitted": "2026-05-20",
+			"source": "https://arxiv.org/abs/2607.20468v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.20472v1",
+			"title": "Robust Critics: Defending LLMs Against Multi-Turn Attacks",
+			"version_submitted": "2026-05-24",
+			"source": "https://arxiv.org/abs/2607.20472v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2607.20630v1",
+			"title": "Demonstrating GenDB: Instance-Optimized and Customized Query Processing Code Generation via LLM Agents",
+			"version_submitted": "2026-07-22",
+			"source": "https://arxiv.org/abs/2607.20630v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2607.20498v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2607.20498v1#page=3",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}
