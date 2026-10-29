@@ -1,0 +1,90 @@
+{
+	"digest_date": "2026-09-19",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or fixed official repository commit, available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.19158v1",
+			"title": "VisKG-LM: Compiling Knowledge Graphs into Visual Memory for Multiple-Choice Question Answering",
+			"version_submitted": "2026-07-29",
+			"source": "https://arxiv.org/abs/2609.19158v1",
+			"fulltext": "https://arxiv.org/html/2609.19158v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19615v1",
+			"title": "Semantic Layer Induction from Raw Telemetry via Hierarchical LLM and RAG Abstraction",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.19615v1",
+			"fulltext": "https://arxiv.org/html/2609.19615v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20807v1",
+			"title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20807v1",
+			"fulltext": "https://arxiv.org/html/2609.20807v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20800v1",
+			"title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20800v1",
+			"fulltext": "https://arxiv.org/html/2609.20800v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19138v1",
+			"title": "In-Context Robot Learning with VLM Agents",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.19138v1",
+			"fulltext": "https://arxiv.org/html/2609.19138v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20804v1",
+			"title": "An Empirical Study of Harness Design for Coding Agents",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20804v1",
+			"fulltext": "https://arxiv.org/html/2609.20804v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20370v1",
+			"title": "The More It Says, the More You Pay: A Black-Box Audit of Provider-Side Token Inflation in LLM Services",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20370v1",
+			"fulltext": "https://arxiv.org/html/2609.20370v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19420v1",
+			"title": "Use and Effects of LLMs in Peer Review: A Randomized Experiment and Survey at ICML 2026",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.19420v1",
+			"fulltext": "https://arxiv.org/html/2609.19420v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"peer-review-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.19420v1#page=3",
+			"arxiv": "2609.19420v1",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"authors": "Sunnie S. Y. Kim , Wesley Hanwen Deng , Jennifer Wortman Vaughan , Buxin Su , Weijie Su , Alekh Agarwal , Sharon Li , Martin Jaggi , Daniel G. Goldstein , Nihar B. Shah , Miroslav Dudík",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.19420v1",
+			"change": "Screenshot crop retains complete original figure and caption; no content, color or data modification.",
+			"crop_pdf_points": [72, 92, 508, 480],
+			"render_scale": 2.5,
+			"image_size": [1090, 970],
+			"sha256": "0af4e350a97993c915f4d4ee7103ca4646018a863f78f2b2d3c1f721ff7a5980",
+			"source_pdf_sha256": "dfde563069e41b502482629291339ec36889eb90af1ccf65f8a33e3d4a27e371"
+		}
+	}
+}

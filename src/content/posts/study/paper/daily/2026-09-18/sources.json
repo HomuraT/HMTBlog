@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-18",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or fixed official repository commit, available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.18289v1",
+			"title": "Linking Speakers of the German Parliament to Wikidata: Scope and Coverage of Metadata",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.18289v1",
+			"fulltext": "https://arxiv.org/html/2609.18289v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.18135v1",
+			"title": "DualSQL: Text-to-SQL with Multi-Agent Reinforcement Learning",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.18135v1",
+			"fulltext": "https://arxiv.org/html/2609.18135v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.18207v1",
+			"title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.18207v1",
+			"fulltext": "https://arxiv.org/html/2609.18207v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19134v1",
+			"title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.19134v1",
+			"fulltext": "https://arxiv.org/html/2609.19134v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.18112v1",
+			"title": "Token Latency Fairness: Performance Isolation for Multi-Tenant LLM Serving",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.18112v1",
+			"fulltext": "https://arxiv.org/html/2609.18112v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19101v1",
+			"title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.19101v1",
+			"fulltext": "https://arxiv.org/html/2609.19101v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.18094v2",
+			"title": "Agora: Git as Shared Memory for Collective AutoResearch",
+			"version_submitted": "2026-09-18",
+			"source": "https://arxiv.org/abs/2609.18094v2",
+			"fulltext": "https://arxiv.org/html/2609.18094v2",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"dualsql-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.18135v1#page=4",
+			"arxiv": "2609.18135v1",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Shijie Chen , Yu Gan , Yeounoh Chung , Jiani Zhang , Quannan Li , Sravan Babu Bodapati , Cody J. Greer , Yu Su , Fatma Ozcan",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.18135v1",
+			"change": "Screenshot crop retains complete original figure and caption; no content, color or data modification.",
+			"crop_pdf_points": [65, 65, 550, 296],
+			"render_scale": 2.5,
+			"image_size": [1213, 578],
+			"sha256": "76395c68c5239f08cd5049f0b448bc3dc16a9b9d184f3376b32cdbbfdf63581c",
+			"source_pdf_sha256": "e2f3c8a285a2f61b81ed69a5c0f3d5232f720e14bc4bf637f2f960b0f2d54451"
+		}
+	}
+}

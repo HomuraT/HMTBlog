@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-17",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or fixed official repository commit, available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.17291v1",
+			"title": "Extracting ontology-compliant knowledge from scientific text describing irradiated materials using large language models",
+			"version_submitted": "2026-09-15",
+			"source": "https://arxiv.org/abs/2609.17291v1",
+			"fulltext": "https://arxiv.org/html/2609.17291v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.17107v1",
+			"title": "Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics",
+			"version_submitted": "2026-09-15",
+			"source": "https://arxiv.org/abs/2609.17107v1",
+			"fulltext": "https://arxiv.org/html/2609.17107v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.14858v1",
+			"title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+			"version_submitted": "2026-09-14",
+			"source": "https://arxiv.org/abs/2609.14858v1",
+			"fulltext": "https://arxiv.org/html/2609.14858v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.15903v2",
+			"title": "Discrete Beckmann Transport Models for One-Step Language Modeling and Reasoning",
+			"version_submitted": "2026-09-15",
+			"source": "https://arxiv.org/abs/2609.15903v2",
+			"fulltext": "https://arxiv.org/html/2609.15903v2",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.17524v1",
+			"title": "Modality-Autoregressive World-Action Models",
+			"version_submitted": "2026-09-15",
+			"source": "https://arxiv.org/abs/2609.17524v1",
+			"fulltext": "https://arxiv.org/html/2609.17524v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.16182v1",
+			"title": "GPU-Accelerated Presolving for Linear Programming",
+			"version_submitted": "2026-09-14",
+			"source": "https://arxiv.org/abs/2609.16182v1",
+			"fulltext": "https://arxiv.org/html/2609.16182v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.16995v1",
+			"title": "PaperDoctor: Evidence-Grounded and Actionable Feedback for Scientific Papers in Progress",
+			"version_submitted": "2026-09-15",
+			"source": "https://arxiv.org/abs/2609.16995v1",
+			"fulltext": "https://arxiv.org/html/2609.16995v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"symbolic-separation-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.17107v1#page=5",
+			"arxiv": "2609.17107v1",
+			"item": "Figure 1",
+			"pdf_page": 5,
+			"authors": "Baibek Davletiyarov , Junaid Ahmed Khan , Andrea Bartolini",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.17107v1",
+			"change": "Screenshot crop retains complete original figure and caption; no content, color or data modification.",
+			"crop_pdf_points": [48, 52, 565, 340],
+			"render_scale": 2.5,
+			"image_size": [1292, 720],
+			"sha256": "55670e8b75b3118a96d0f6d990b6bd3691d0c6c81bfe86c1cbeca09be5db92ac",
+			"source_pdf_sha256": "e39d8aa6b7c116a818396a792e548dd4315c9b081bd4c65afd58bd904d22551c"
+		}
+	}
+}

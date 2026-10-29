@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-16",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or fixed official repository commit, available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.13452v1",
+			"title": "COMPASS: Steering Distributed Vector Search with Scientific Knowledge Graphs",
+			"version_submitted": "2026-09-11",
+			"source": "https://arxiv.org/abs/2609.13452v1",
+			"fulltext": "https://arxiv.org/html/2609.13452v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.15779v1",
+			"title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+			"version_submitted": "2026-09-14",
+			"source": "https://arxiv.org/abs/2609.15779v1",
+			"fulltext": "https://arxiv.org/html/2609.15779v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.15818v1",
+			"title": "Atria Dawn: The Dawn of Agentic Superintelligence",
+			"version_submitted": "2026-09-14",
+			"source": "https://arxiv.org/abs/2609.15818v1",
+			"fulltext": "https://arxiv.org/html/2609.15818v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.13443v1",
+			"title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+			"version_submitted": "2026-09-11",
+			"source": "https://arxiv.org/abs/2609.13443v1",
+			"fulltext": "https://arxiv.org/html/2609.13443v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.13406v1",
+			"title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+			"version_submitted": "2026-09-11",
+			"source": "https://arxiv.org/abs/2609.13406v1",
+			"fulltext": "https://arxiv.org/html/2609.13406v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.15397v1",
+			"title": "When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary",
+			"version_submitted": "2026-09-14",
+			"source": "https://arxiv.org/abs/2609.15397v1",
+			"fulltext": "https://arxiv.org/html/2609.15397v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.15989v1",
+			"title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+			"version_submitted": "2026-09-14",
+			"source": "https://arxiv.org/abs/2609.15989v1",
+			"fulltext": "https://arxiv.org/html/2609.15989v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"compass-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.13452v1#page=1",
+			"arxiv": "2609.13452v1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"authors": "Song Young Oh , Amal Gueroudji , Seth Ockerman , Rob Latham , Orcun Yildiz , Ian Foster , Kyle Chard , Robert Ross",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.13452v1",
+			"change": "Screenshot crop retains complete original figure and caption; no content, color or data modification.",
+			"crop_pdf_points": [310, 215, 568, 550],
+			"render_scale": 2.5,
+			"image_size": [645, 837],
+			"sha256": "f1975cb889e44b4cac38353ff66b4e32bb2cca50dabc23351a8d5222e951d6b5",
+			"source_pdf_sha256": "56433ab35a54f7598834537df8ffcddd706145b494ea85eb1feac2cd71946e35"
+		}
+	}
+}

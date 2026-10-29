@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-15",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or fixed official repository commit, available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.05944v1",
+			"title": "sheval: An RDF data shapes evaluation tool and test-suite for recursive shapes",
+			"version_submitted": "2026-09-05",
+			"source": "https://arxiv.org/abs/2609.05944v1",
+			"fulltext": "https://arxiv.org/html/2609.05944v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.07782v1",
+			"title": "TrajectoryDB: A New Database for Agent Trajectories",
+			"version_submitted": "2026-09-07",
+			"source": "https://arxiv.org/abs/2609.07782v1",
+			"fulltext": "https://arxiv.org/html/2609.07782v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"title": "FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models",
+			"source": "https://github.com/yifanzhang-pro/FlashREINFORCE/blob/a1ebe22c6951e40b7be83395f9f15e9b41ab36dc/FlashREINFORCE.pdf",
+			"commit": "a1ebe22c6951e40b7be83395f9f15e9b41ab36dc",
+			"committed_at": "2026-09-14T21:56:18Z",
+			"source_pdf_sha256": "b82abfa7e6fff9e7812ebbdbde72a25c1805000b1da744bcc2b62483ca233800",
+			"verification_scope": "Fixed official commit date and cited PDF methods, models, results and comparison limits checked."
+		},
+		{
+			"arxiv": "2609.13082v1",
+			"title": "Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction",
+			"version_submitted": "2026-09-11",
+			"source": "https://arxiv.org/abs/2609.13082v1",
+			"fulltext": "https://arxiv.org/html/2609.13082v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.13073v1",
+			"title": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
+			"version_submitted": "2026-09-11",
+			"source": "https://arxiv.org/abs/2609.13073v1",
+			"fulltext": "https://arxiv.org/html/2609.13073v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.12808v2",
+			"title": "K-Bench: A Benchmark for LLM Unlearning in Agentic Deployments",
+			"version_submitted": "2026-09-14",
+			"source": "https://arxiv.org/abs/2609.12808v2",
+			"fulltext": "https://arxiv.org/html/2609.12808v2",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.12769v1",
+			"title": "Unified Agentic Video Editing Across Levels of Complexity and Creativity",
+			"version_submitted": "2026-09-11",
+			"source": "https://arxiv.org/abs/2609.12769v1",
+			"fulltext": "https://arxiv.org/html/2609.12769v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"benchforge-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.13082v1#page=4",
+			"arxiv": "2609.13082v1",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Baoyang Jiang , Fengchun Zhang , Leyuan Wang , Haotian Li , Yida Wang , Zhe Ji , Jinshan Lai , Xi Ren , Danyang Li , Zheng Yang , Jianwei Hu , Qiang Ma",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.13082v1",
+			"change": "Screenshot crop retains complete original figure and caption; no content, color or data modification.",
+			"crop_pdf_points": [105, 78, 507, 317],
+			"render_scale": 2.5,
+			"image_size": [1006, 597],
+			"sha256": "4182bfae266dbd244f698f4a4e722b204c4cb2d26c979034bc19e76a15e5e2b5",
+			"source_pdf_sha256": "29c0c94b8b80ae8b16f137567679bed76a04da6810e35df7966291d11b11e6e0"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-09-20",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions or fixed official repository commit, available no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.20057v1",
+			"title": "WiCleanData: Guaranteeing the Type Consistency of Wikidata by Taxonomy Refinement and Constraint Enforcement",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20057v1",
+			"fulltext": "https://arxiv.org/pdf/2609.20057v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.19969v1",
+			"title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.19969v1",
+			"fulltext": "https://arxiv.org/html/2609.19969v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20519v1",
+			"title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20519v1",
+			"fulltext": "https://arxiv.org/html/2609.20519v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20612v2",
+			"title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
+			"version_submitted": "2026-09-18",
+			"source": "https://arxiv.org/abs/2609.20612v2",
+			"fulltext": "https://arxiv.org/html/2609.20612v2",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20820v1",
+			"title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20820v1",
+			"fulltext": "https://arxiv.org/html/2609.20820v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.20818v1",
+			"title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+			"version_submitted": "2026-09-17",
+			"source": "https://arxiv.org/abs/2609.20818v1",
+			"fulltext": "https://arxiv.org/html/2609.20818v1",
+			"verification_scope": "Title, historical version submission, cited method and result conditions checked against version-specific primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"workspace-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.20820v1#page=1",
+			"arxiv": "2609.20820v1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"authors": "Nitish Dashora , Douglas Chen , Idan Shenfeld , John Marangola , Pulkit Agrawal , Max Simchowitz",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.20820v1",
+			"change": "Screenshot crop retains complete original figure and caption; no content, color or data modification.",
+			"crop_pdf_points": [68, 225, 545, 445],
+			"render_scale": 2.5,
+			"image_size": [1192, 550],
+			"sha256": "262be8f005afc238805d32b14d7ec0a2f10ab9a6819841d50e0b9a897897184f",
+			"source_pdf_sha256": "8eae4be79bde495c3f5abe0d3eaeea29fc3f896ab71854fca71d6acb56650d6e"
+		}
+	}
+}
