@@ -1,0 +1,41 @@
+{
+	"digest_date": "2026-10-18",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "LAMP",
+			"pdf_url": "https://ceur-ws.org/Vol-4245/paper9.pdf",
+			"source": "https://ceur-ws.org/Vol-4245/paper9.pdf",
+			"version_public_date": "2026-08-24",
+			"pdf_page": 12,
+			"crop_pdf_points": [65, 60, 532, 220],
+			"pages": 15,
+			"title": "Reducing Human Effort in Ontology-Based Data Integration: An LLM-Assisted Mapping Pipeline",
+			"authors": "Sulthoni Ashiddiiqi, Fajar J. Ekaputra, Muhammad Zuhri Catur Candra, Gusti Ayu Putri Saptawati Soekidjo",
+			"version": "CEUR-WS Vol-4245 paper9 publisher PDF",
+			"license": "CC BY 4.0; explicit notice in publisher PDF",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": true,
+			"cited_evidence": "表结构到本体的映射，需要同时对齐字段含义、值转换与关系结构。LAMP 用任务拆解、检索、全局上下文与术语细化降低单次提示负担。\n\n## 方法与问题\n\n类与属性映射分阶段处理，并保留跨步骤一致性信息。系统有人工反馈入口，但不能因此认为所有报告成绩都用了人工反馈。本文是对 2026 年 8 月 24 日已发表论文的补读。\n\n## 实验证据\n\nBLINKG 三个复杂度场景中，Table 4 的高抽象场景 3：Gemini 2.5 Pro 平均 F1 从单提示 BLINKG 的 0.3479 到 LAMP 的 0.7077，DeepSeek R1 却从 0.4537 到 0.4375。不同模型搭配不同 embedding，跨模型排名不能归因于拆解本身。Table 3 使用 Gemini 2.5 Flash，未加入用户反馈，高复杂场景属性映射 F1 为 0.4828。\n\n## 我的判断\n\n结构化分解值得研究，但不是自动解决映射的保证。应固定模型与嵌入，分别消融上下文、术语细化和拆解，并对低置信度属性映射进行专家复核。"
+		}
+	],
+	"figures": {
+		"lamp-table4.png": {
+			"authors": "Sulthoni Ashiddiiqi, Fajar J. Ekaputra, Muhammad Zuhri Catur Candra, Gusti Ayu Putri Saptawati Soekidjo",
+			"source": "https://ceur-ws.org/Vol-4245/paper9.pdf#page=12",
+			"item": "Table 4",
+			"pdf_page": 12,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://ceur-ws.org/Vol-4245/paper9.pdf",
+			"crop_pdf_points": [65, 60, 532, 220],
+			"change": "Rectangular original PDF screenshot; complete figure/table and caption retained; no data modification.",
+			"image_size": [1168, 400],
+			"sha256": "6161e8560ea7404ae7b1c88f0d89e92ca6f34305070b7e93e785d31ba815d59f",
+			"source_pdf_sha256": "cb1c485d9e0d7312f3d166794d588eb63d1aead2526942f01d71278a752e4c34"
+		}
+	}
+}

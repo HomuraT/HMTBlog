@@ -1,0 +1,41 @@
+{
+	"digest_date": "2026-10-22",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "2610.21466v1",
+			"pdf_url": "https://arxiv.org/pdf/2610.21466v1",
+			"source": "https://arxiv.org/abs/2610.21466v1",
+			"version_public_date": "2026-10-15",
+			"title": "Ontology Refinement with Embeddings and LLMs: A Case Study on CASTON",
+			"authors": "Hui Yang , Ziyu Li , Xuan Liu , Anders Jarfors , He Tan , Jiaoyan Chen",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"pdf_page": 4,
+			"crop_pdf_points": [65, 60, 532, 225],
+			"pages": 5,
+			"version": "2610.21466v1",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": true,
+			"cited_evidence": "CASTON 案例先以嵌入筛选可疑公理和替换候选，再由 LLM 给出修复及置信度，最后交领域专家判断。\n\n## 方法与问题\n\n默认组合为 CASTON 微调的 OnT 嵌入与 Qwen3-8B，避免一次将完整本体交给大模型。两位专家独立评分，双方均给正分才算接受；意见不一致或不明确归入 mixed。\n\n## 实验证据\n\n默认设置六条高置信度替换全部获两位专家接受，两条中置信度建议则均为 mixed。改用预训练嵌入集合，同一 Qwen3-8B 的七条高置信度建议只有四条接受。100% 的分母仅六，不能称通用修复准确率，也不能推断已覆盖所有本体错误。\n\n## 我的判断\n\n它更像专家工作台原型。应扩大随机抽样，记录候选生成漏掉的错误，并检查修复是否引入新冲突。优先级排序能否节省审核时间仍需测量，本文不编造工时收益。"
+		}
+	],
+	"figures": {
+		"caston-table1.png": {
+			"authors": "Hui Yang , Ziyu Li , Xuan Liu , Anders Jarfors , He Tan , Jiaoyan Chen",
+			"source": "https://arxiv.org/pdf/2610.21466v1#page=4",
+			"item": "Table 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.21466v1",
+			"crop_pdf_points": [65, 60, 532, 225],
+			"change": "Rectangular original PDF screenshot; complete figure/table and caption retained; no data modification.",
+			"image_size": [1168, 413],
+			"sha256": "5be72767fc1eae21870f1acc344abcc5deb3f636870e11fd77ede01368e75853",
+			"source_pdf_sha256": "95ca5bde35a411c552515dba1aeaa26444e34626bd181daa5aaefdc0742595ce"
+		}
+	}
+}

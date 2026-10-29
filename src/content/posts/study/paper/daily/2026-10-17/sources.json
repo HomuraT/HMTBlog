@@ -1,0 +1,33 @@
+{
+	"digest_date": "2026-10-17",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "2610.20401v1",
+			"pdf_url": "https://arxiv.org/pdf/2610.20401v1",
+			"source": "https://arxiv.org/abs/2610.20401v1",
+			"version_public_date": "2026-10-14",
+			"title": "Training Language Models to Fail Gracefully",
+			"authors": "Daman Arora , Xuecheng Liu , Himanshu Gaurav Singh , Fahim Tajwar , Abitha Thankaraj , Ruslan Salakhutdinov , Haiwen Feng , Yuda Song , Andrea Zanette",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"pdf_page": 6,
+			"crop_pdf_points": [65, 65, 532, 320],
+			"pages": 41,
+			"version": "2610.20401v1",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": true,
+			"cited_evidence": "如果奖励只分成功与失败，模型可能在没有把握时继续猜。GracefulRL 将结果按成功、fallback、错误排序，研究如何保留解题能力并减少危险错误。\n\n## 方法与问题\n\n它改变训练优化结构，而非在推理时额外加裁判。直接给 fallback 中间奖励，普通策略梯度仍可能塌缩为永远退回；GracefulRL 调整优化动力学，寻找成功与错误之间更有用的权衡。\n\n## 实验证据\n\nSafeMaze 要求到达目标，无法完成时返回安全位置。Figure 3 中 GRPO/RLOO 可塌缩为总去安全格；GracefulRL 在所测设置下获得更好的成功—错误前沿。Figure 4 另测数学弃答。这些任务没有一个可跨任务引用的统一准确率增幅，本文不从曲线估读百分比。\n\n## 我的判断\n\n系统必须先定义可执行、可验证的 fallback：不执行、请求人工、回滚或保留草稿。特定奖励下的行为改善，不证明真实数据库或生产代码部署已经安全。"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"item": "Figure 3",
+			"source": "https://arxiv.org/pdf/2610.20401v1#page=6",
+			"reason": "arXiv non-exclusive distribution permission does not establish open screenshot republication rights."
+		}
+	]
+}

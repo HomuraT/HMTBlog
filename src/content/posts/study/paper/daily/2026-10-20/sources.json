@@ -1,0 +1,41 @@
+{
+	"digest_date": "2026-10-20",
+	"reviewed_date": "2026-10-29",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"id": "VERSO",
+			"pdf_url": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper6.pdf",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper6.pdf",
+			"version_public_date": null,
+			"pdf_page": 11,
+			"crop_pdf_points": [65, 55, 532, 390],
+			"pages": 14,
+			"title": "Combining PageRank Modularization and Ontology Verbalization for LLM-Based Complex Ontology Matching",
+			"authors": "Igor Nascimento, Rinaldo Lima, Cassia Trojahn",
+			"version": "OM 2026 workshop PDF",
+			"license": "CC BY 4.0; explicit notice in publisher PDF",
+			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
+			"historical_availability_confirmed": false,
+			"cited_evidence": "复杂本体匹配要识别逻辑表达式之间的对应，而非只计算标签相似度。VERSO 只用 schema，通过 PageRank 模块化与本体文本化缩小输入范围。\n\n## 版本时间边界\n\n本文归档于 10 月 20 日，但本次可核验的是 10 月 29 日获取的 OM 2026 workshop PDF。研讨会日期为 10 月 25 日，首次公开时间尚未独立确认。因此这是后续补读，不能作为论文在 10 月 20 日已公开的证据。\n\n## 方法与实验\n\nQwen3-14B 推理、Qwen3-Embedding-8B 候选生成，在 OAEI Complex 的 Conference、GeoLink、Hydrography、Taxon 上比较 PageRank/PPR、邻域深度与三种文本化方式。Conference 加 PPR 后召回率 0.362→0.438，精确率 0.334→0.238。仅聚合 Conference、GeoLink、Taxon 时，依赖实例的 CANARD F1 为 0.329，VERSO 最佳配置为 0.293。更少输入前提不代表所有指标更强。\n\n## 我的判断\n\n过长上下文与 Lost in the Middle 是作者解释精度下降的假说，缺少直接因果验证。应按任务选择小而保留 IRI 的上下文，测量额外上下文究竟干扰了哪些对应。"
+		}
+	],
+	"figures": {
+		"verso-figures5-8.png": {
+			"authors": "Igor Nascimento, Rinaldo Lima, Cassia Trojahn",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper6.pdf#page=11",
+			"item": "Figures 5–8",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper6.pdf",
+			"crop_pdf_points": [65, 55, 532, 390],
+			"change": "Rectangular original PDF screenshot; complete figure/table and caption retained; no data modification.",
+			"image_size": [1168, 838],
+			"sha256": "b59c5210b8bc2f4b6e96b3222fb0bf3cfcea40bbf5a8a3c4f1c7342fc12b60a8",
+			"source_pdf_sha256": "f87dbde77c5af4fd33428df35cef8c1cd7c3bf73db24ffde18c22a4f4f4eed68"
+		}
+	}
+}
