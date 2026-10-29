@@ -1,0 +1,90 @@
+{
+	"digest_date": "2026-09-28",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions, each submitted no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.26029v1",
+			"title": "CQ4OE: A benchmark for assessing LLM-assisted ontology generation from competency questions",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26029v1",
+			"fulltext": "https://arxiv.org/html/2609.26029v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.27257v1",
+			"title": "UniDataAgent: An Ontology-Grounded Agent for Enterprise Question-to-Report Automation",
+			"version_submitted": "2026-09-23",
+			"source": "https://arxiv.org/abs/2609.27257v1",
+			"fulltext": "https://arxiv.org/html/2609.27257v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.29474v1",
+			"title": "CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.29474v1",
+			"fulltext": "https://arxiv.org/html/2609.29474v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.29845v1",
+			"title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.29845v1",
+			"fulltext": "https://arxiv.org/html/2609.29845v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30027v1",
+			"title": "Synthetic Hospital: An Open, Verifiable, Physician-Validated Longitudinal EHR Benchmark",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30027v1",
+			"fulltext": "https://arxiv.org/html/2609.30027v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30134v1",
+			"title": "Training-free Behavior Cloning",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30134v1",
+			"fulltext": "https://arxiv.org/html/2609.30134v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.26891v1",
+			"title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
+			"version_submitted": "2026-09-22",
+			"source": "https://arxiv.org/abs/2609.26891v1",
+			"fulltext": "https://arxiv.org/html/2609.26891v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.29171v1",
+			"title": "Representation World Model: Learning States, Transition and Executable Plans in Representation",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.29171v1",
+			"fulltext": "https://arxiv.org/pdf/2609.29171v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"cq4oe-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.26029v1#page=6",
+			"arxiv": "2609.26029v1",
+			"item": "Figure 1",
+			"pdf_page": 6,
+			"authors": "Jiayi Li , Ziyuan Wang , Daniel Garijo , María Poveda-Villalón",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.26029v1",
+			"change": "Screenshot crop retains complete original figure, caption and necessary labels; no redrawing or data modification.",
+			"crop_pdf_points": [132, 196, 485, 340],
+			"render_scale": 2.5,
+			"image_size": [882, 360],
+			"sha256": "d208373ae26bf0f4b50437f2c241a4bf3a01c436de4cfc28428adeef8e431a7e",
+			"source_pdf_sha256": "97b629ef312c6ed711d062a6d7c2376055b3c7910f5be96d0f85c19ec785b720"
+		}
+	}
+}

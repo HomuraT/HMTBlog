@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-09-29",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions, each submitted no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.30763v1",
+			"title": "HCOE: Hyperbolic Clinical Ontology Embeddings from Biomedical Language Models",
+			"version_submitted": "2026-09-25",
+			"source": "https://arxiv.org/abs/2609.30763v1",
+			"fulltext": "https://arxiv.org/html/2609.30763v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.31394v1",
+			"title": "InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+			"version_submitted": "2026-09-25",
+			"source": "https://arxiv.org/abs/2609.31394v1",
+			"fulltext": "https://arxiv.org/html/2609.31394v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.31620v2",
+			"title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+			"version_submitted": "2026-09-28",
+			"source": "https://arxiv.org/abs/2609.31620v2",
+			"fulltext": "https://arxiv.org/html/2609.31620v2",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.31093v1",
+			"title": "Block Sparse Attention with Log-Linear Complexity",
+			"version_submitted": "2026-09-25",
+			"source": "https://arxiv.org/abs/2609.31093v1",
+			"fulltext": "https://arxiv.org/pdf/2609.31093v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.31318v1",
+			"title": "AgentXploit: Autonomous Repository-to-Runtime Red-Teaming for AI Agents",
+			"version_submitted": "2026-09-25",
+			"source": "https://arxiv.org/abs/2609.31318v1",
+			"fulltext": "https://arxiv.org/html/2609.31318v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.31193v1",
+			"title": "Who Says What: Symbolic Trimodal Binding Mechanisms in Audio-Visual LLMs",
+			"version_submitted": "2026-09-25",
+			"source": "https://arxiv.org/abs/2609.31193v1",
+			"fulltext": "https://arxiv.org/html/2609.31193v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"fusereg-figure3.png": {
+			"source": "https://arxiv.org/pdf/2609.31620v2#page=7",
+			"arxiv": "2609.31620v2",
+			"item": "Figure 3",
+			"pdf_page": 7,
+			"authors": "Hongyang Du , Yunfei Xie , Junjie Ye , Jiawei Yang , Xiaoyan Cong , Haodong Zhang , Yongchao Huang , Haiyu Wu , Zongxia Li , Shihang Gui , Dawei Liu , Runhao Li , Jingcheng Ni , Chen Wei , Randall Balestriero , Yue Wang",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.31620v2",
+			"change": "Screenshot crop retains complete original figure, caption and necessary labels; no redrawing or data modification.",
+			"crop_pdf_points": [105, 47, 507, 248],
+			"render_scale": 2.5,
+			"image_size": [1006, 502],
+			"sha256": "0eb4a137db7b959c466e5df5ac9a00aaf9a8a2337ed5059f24611250f2589a28",
+			"source_pdf_sha256": "c08b3104e0ca89dc8021b6ed35005894426366bd1c30d00a0804d42a48c4be2c"
+		}
+	}
+}

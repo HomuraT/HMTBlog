@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-09-27",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions, each submitted no later than recommendation date.",
+	"papers": [
+		{
+			"arxiv": "2609.29876v1",
+			"title": "Ontology-Mediated Neurosymbolic Constraint Acquisition from Multiple Stakeholders",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.29876v1",
+			"fulltext": "https://arxiv.org/html/2609.29876v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30249v1",
+			"title": "RAPID: Robot Agentic Programming from Demonstrations",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30249v1",
+			"fulltext": "https://arxiv.org/html/2609.30249v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30226v1",
+			"title": "PoEM: Predicting RL Outcomes from Existing Policies",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30226v1",
+			"fulltext": "https://arxiv.org/html/2609.30226v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.29812v1",
+			"title": "FlashLoop: Fast and Memory-Efficient Looped Transformers via Lazy Updates",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.29812v1",
+			"fulltext": "https://arxiv.org/html/2609.29812v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.30222v1",
+			"title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
+			"version_submitted": "2026-09-24",
+			"source": "https://arxiv.org/abs/2609.30222v1",
+			"fulltext": "https://arxiv.org/html/2609.30222v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		},
+		{
+			"arxiv": "2609.18805v1",
+			"title": "ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
+			"version_submitted": "2026-09-16",
+			"source": "https://arxiv.org/abs/2609.18805v1",
+			"fulltext": "https://arxiv.org/html/2609.18805v1",
+			"verification_scope": "Title, historical version and cited method/result conditions checked against fixed primary source; not independently reproduced."
+		}
+	],
+	"figures": {
+		"poem-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.30226v1#page=2",
+			"arxiv": "2609.30226v1",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"authors": "Kimia Hamidieh , Giannis Daras , Antonio Torralba",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.30226v1",
+			"change": "Screenshot crop retains complete original figure, caption and necessary labels; no redrawing or data modification.",
+			"crop_pdf_points": [100, 65, 512, 342],
+			"render_scale": 2.5,
+			"image_size": [1030, 693],
+			"sha256": "47be4e79682ad87358dd21d205564cac3feb8b9731d0b3b5ecb23c476630c6c9",
+			"source_pdf_sha256": "c192d92cf766f457c9796fa588020747d86fc2edfac1801cdacd9f196f520d26"
+		}
+	}
+}
