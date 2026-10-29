@@ -1,0 +1,94 @@
+{
+	"digest_date": "2026-08-06",
+	"reviewed_date": "2026-10-29",
+	"version_policy": "All seven entries refer to v1; digest date is not publication date.",
+	"independently_reproduced": false,
+	"papers": [
+		{
+			"arxiv": "2608.02365v1",
+			"title": "Faster-WAM: Do World Action Models Need Deep Action Modules?",
+			"scope": "Fixed-version PDF/HTML methods and evaluation sections; Figure 2 and Table 1 checked",
+			"url": "https://arxiv.org/abs/2608.02365v1"
+		},
+		{
+			"arxiv": "2608.04945v1",
+			"title": "A General Sufficient Condition for Rewriting Horn-ALCHI Atomic Queries into GQL",
+			"scope": "Fixed-version PDF/HTML introduction, main rewriting constructions and theorem statements; Figure 1 checked",
+			"url": "https://arxiv.org/abs/2608.04945v1"
+		},
+		{
+			"arxiv": "2608.04457v1",
+			"title": "Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning",
+			"scope": "Public v1 title, authors, submission date and abstract",
+			"url": "https://arxiv.org/abs/2608.04457v1"
+		},
+		{
+			"arxiv": "2608.02580v1",
+			"title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
+			"scope": "Public v1 title, authors, submission date and abstract",
+			"url": "https://arxiv.org/abs/2608.02580v1"
+		},
+		{
+			"arxiv": "2608.01964v1",
+			"title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+			"scope": "Public v1 title, authors, submission date and abstract",
+			"url": "https://arxiv.org/abs/2608.01964v1"
+		},
+		{
+			"arxiv": "2608.02352v1",
+			"title": "Qwen-CUA: Native Computer Use for (almost) Everything",
+			"scope": "Public v1 title, authors, submission date and abstract",
+			"url": "https://arxiv.org/abs/2608.02352v1"
+		},
+		{
+			"arxiv": "2608.02276v1",
+			"title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+			"scope": "Public v1 title, authors, submission date and abstract",
+			"url": "https://arxiv.org/abs/2608.02276v1"
+		}
+	],
+	"figures": {
+		"faster-wam-figure2.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2608.02365v1#page=4",
+			"figure": 2,
+			"authors": [
+				"Liheng Ma",
+				"Rui Heng Yang",
+				"Zhanguang Zhang",
+				"Mateo Clemente",
+				"Ziwen Hu",
+				"Tongtong Cao",
+				"Yingxue Zhang"
+			],
+			"license": "CC BY-NC-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+			"change": "Cropped complete architecture diagram from page 4; removed caption, prose and whitespace; diagram content and colors unchanged.",
+			"rendered_page_size": [1546, 2000],
+			"crop_pixels": [290, 205, 1285, 520],
+			"use_context": "Personal research digest; current blog content license is CC BY-NC-SA 4.0; no commercial authorization independently confirmed.",
+			"sha256": "34ad9b267ee0d0cc73e4bcc43f3439523fc9bcce56b272b9377c42f15eb2a61f"
+		},
+		"gql-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2608.04945v1#page=2",
+			"figure": 1,
+			"authors": ["David Carral", "Calixte Gruson", "Quentin Manière"],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"change": "Cropped complete fact graph and blue entailed-fact labels from page 2; removed header, caption, prose and whitespace; graph content and colors unchanged.",
+			"rendered_page_size": [1546, 2000],
+			"crop_pixels": [375, 280, 1190, 480],
+			"sha256": "534da0a96b7ce129acd6b81011385071f22a46e10c1a75757038de8d39d7bc92"
+		}
+	},
+	"latency_comparison": {
+		"source": "https://arxiv.org/html/2608.02365v1#S4",
+		"same_hardware_as_reported": "24 GB consumer GPU; exact GPU model not specified in the comparison paragraph",
+		"action_horizon": 32,
+		"denoising_steps": 10,
+		"faster_wam_ms": 66.5,
+		"fast_wam_ms": 211.7,
+		"caveat": "Fast-WAM sums separately measured T5 and model latency; exact included operations can vary slightly by method. Baseline success rates are cited from prior papers."
+	}
+}
