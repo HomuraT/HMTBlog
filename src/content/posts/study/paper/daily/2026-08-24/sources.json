@@ -1,0 +1,65 @@
+{
+	"digest_date": "2026-08-24",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "All papers fixed to v1; digest date is not paper publication date.",
+	"papers": [
+		{
+			"arxiv": "2608.20092v1",
+			"url": "https://arxiv.org/abs/2608.20092v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.19880v1",
+			"url": "https://arxiv.org/abs/2608.19880v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.18899v1",
+			"url": "https://arxiv.org/abs/2608.18899v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.20318v1",
+			"url": "https://arxiv.org/abs/2608.20318v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.19197v1",
+			"url": "https://arxiv.org/abs/2608.19197v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.20314v1",
+			"url": "https://arxiv.org/abs/2608.20314v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		}
+	],
+	"figures": {
+		"arco-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2608.20092v1#page=2",
+			"figure": 1,
+			"authors": [
+				"Bianca Löhnert",
+				"Nikolaus Augsten",
+				"Cem Okulmus",
+				"Magdalena Ortiz"
+			],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2608.20092v1",
+			"change": "Cropped complete figure/table and its essential labels; removed page header, caption and unrelated prose; retained content, values and colors unchanged.",
+			"rendered_page_size": [1530, 1980],
+			"crop_pixels": [132, 795, 740, 1040],
+			"image_size": [608, 245],
+			"sha256": "7e152c7b9eb7a8add86c363ec58bcc1504cc58324b69772be885400db3e3f744",
+			"source_pdf_sha256": "7366275a6e1c72381f7cf473aa55d297e9bc4c3e16f70bd8d60cd2addae51548"
+		}
+	},
+	"verification_notes": [
+		"ARCO rewrite time differs from Neo4j evaluation time. DBpedia: 56 timeouts at 20 s; MMM: 3/5 timeouts at 1000 s.",
+		"MMM 62/100 generated queries have infeasible powerset computation at >=30 states.",
+		"EnvHarness main loop uses Stage/Contract; Chain evaluated separately."
+	]
+}

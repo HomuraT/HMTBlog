@@ -1,0 +1,66 @@
+{
+	"digest_date": "2026-08-08",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "All papers fixed to v1; digest date is not paper publication date.",
+	"papers": [
+		{
+			"arxiv": "2608.06296v1",
+			"url": "https://arxiv.org/abs/2608.06296v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.05466v1",
+			"url": "https://arxiv.org/abs/2608.05466v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.05867v1",
+			"url": "https://arxiv.org/abs/2608.05867v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.05000v1",
+			"url": "https://arxiv.org/abs/2608.05000v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.05987v1",
+			"url": "https://arxiv.org/abs/2608.05987v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.06375v1",
+			"url": "https://arxiv.org/abs/2608.06375v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		}
+	],
+	"figures": {
+		"uopsd-figure2.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2608.06296v1#page=4",
+			"figure": 2,
+			"authors": [
+				"Yijiang Li",
+				"Bingyang Wang",
+				"Yijun Liang",
+				"Yunjie Tian",
+				"Di Fu",
+				"Nuno Vasconcelos"
+			],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2608.06296v1",
+			"change": "Cropped complete figure/table and its essential labels; removed page header, caption and unrelated prose; retained content, values and colors unchanged.",
+			"rendered_page_size": [1530, 1980],
+			"crop_pixels": [265, 425, 1270, 803],
+			"image_size": [1005, 378],
+			"sha256": "1008d26c31bd748d54b8febe5ea8be221a37a2a56c0ae9f57952deb4190902f0",
+			"source_pdf_sha256": "11341ccc51ae0e36eb01203c13419052fb1f7b66bed3eafd6e525a82bacbd0e2"
+		}
+	},
+	"verification_notes": [
+		"u-OPSD non-thinking Table 1 reports best checkpoint up to step 150, evaluated every 25 steps; avg@12/avg@4 are not a common single-sample pass rate.",
+		"RST LHTB is mean partial credit; relative gain is not percentage-point gain."
+	]
+}

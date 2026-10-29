@@ -1,0 +1,59 @@
+{
+	"digest_date": "2026-08-07",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "All papers fixed to v1; digest date is not paper publication date.",
+	"papers": [
+		{
+			"arxiv": "2608.03974v1",
+			"url": "https://arxiv.org/abs/2608.03974v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.05144v1",
+			"url": "https://arxiv.org/abs/2608.05144v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.04996v1",
+			"url": "https://arxiv.org/abs/2608.04996v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.05042v1",
+			"url": "https://arxiv.org/abs/2608.05042v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.05102v1",
+			"url": "https://arxiv.org/abs/2608.05102v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.02980v1",
+			"url": "https://arxiv.org/abs/2608.02980v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		}
+	],
+	"figures": {
+		"argus-figure1.png": {
+			"kind": "cropped original paper figure",
+			"source": "https://arxiv.org/pdf/2608.05144v1#page=2",
+			"figure": 1,
+			"authors": ["Boxiu Li et al."],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2608.05144v1",
+			"change": "Cropped complete figure/table and its essential labels; removed page header, caption and unrelated prose; retained content, values and colors unchanged.",
+			"rendered_page_size": [1530, 1980],
+			"crop_pixels": [137, 115, 1393, 658],
+			"image_size": [1256, 543],
+			"sha256": "142d1dc46da5f57d770ef4293aaf895980e2d280a0ba8029e05e64057d744bc1",
+			"source_pdf_sha256": "f0be39ca1b9d658c2acb7eaf6b0193cbbe6b05f046888f6d4cb5a6bd0d90ac8f"
+		}
+	},
+	"verification_notes": [
+		"JoyAI: request-response 226 ms differs from complete 266 ms cycle on B200.",
+		"Argus reviewer results are observational, not randomized attribution."
+	]
+}

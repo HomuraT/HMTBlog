@@ -1,0 +1,60 @@
+{
+	"digest_date": "2026-08-25",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "All papers fixed to v1; digest date is not paper publication date.",
+	"papers": [
+		{
+			"arxiv": "2608.20358v1",
+			"url": "https://arxiv.org/abs/2608.20358v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.21308v1",
+			"url": "https://arxiv.org/abs/2608.21308v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.20856v1",
+			"url": "https://arxiv.org/abs/2608.20856v1",
+			"verification_scope": "Methods and cited evaluation/protocol sections checked"
+		},
+		{
+			"arxiv": "2608.21204v1",
+			"url": "https://arxiv.org/abs/2608.21204v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.20974v1",
+			"url": "https://arxiv.org/abs/2608.20974v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		},
+		{
+			"arxiv": "2608.20818v1",
+			"url": "https://arxiv.org/abs/2608.20818v1",
+			"verification_scope": "Public v1 title and link checked; full experiments not independently reviewed"
+		}
+	],
+	"figures": {
+		"docre-table3.png": {
+			"kind": "cropped original paper table",
+			"source": "https://arxiv.org/pdf/2608.20856v1#page=8",
+			"table": 3,
+			"authors": ["Laura Menotti", "Stefano Marchesin", "Gianmaria Silvello"],
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2608.20856v1",
+			"change": "Cropped complete figure/table and its essential labels; removed page header, caption and unrelated prose; retained content, values and colors unchanged.",
+			"rendered_page_size": [1489, 2105],
+			"crop_pixels": [170, 172, 1320, 602],
+			"image_size": [1150, 430],
+			"sha256": "71cbbc343699587aa6b3a05d7b05122ff0391bbc8b5eacda7ef74f3f4b83ea18",
+			"source_pdf_sha256": "71597f9cd2414f956e828577270e7ceaa5cf27c95b55af381b43ff98318fd12c"
+		}
+	},
+	"verification_notes": [
+		"bikiDATA short paper has no complete numerical timing table; no arbitrary speedup stated.",
+		"E2-TTT exact chunk-end dynamics hold under chunk-start-gradient approximation.",
+		"DocRE DREEAM compared after self-training, before manual-data fine-tuning; random-removal baseline averages 10 seeds."
+	]
+}
