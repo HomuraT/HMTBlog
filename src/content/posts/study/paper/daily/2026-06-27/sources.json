@@ -1,0 +1,88 @@
+{
+	"digest_date": "2026-06-27",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.23875v1",
+			"title": "On the Semantics of Generative SPARQL",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.23875v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.24619v1",
+			"title": "When CQs Go Wrong: Challenges in CQ Verification with OE-Assist",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24619v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24677v1",
+			"title": "One Index for Subsumption and Roll-up across Time, Geography, and Ontology",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24677v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27377v1",
+			"title": "DanceOPD: On-Policy Generative Field Distillation",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27377v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.26907v2",
+			"title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
+			"version_submitted": "2026-06-26",
+			"source": "https://arxiv.org/abs/2606.26907v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.25331v1",
+			"title": "Improved Large Language Diffusion Models",
+			"version_submitted": "2026-06-24",
+			"source": "https://arxiv.org/abs/2606.25331v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.26790v1",
+			"title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.26790v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27375v1",
+			"title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27375v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.26859v2",
+			"title": "AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems",
+			"version_submitted": "2026-06-26",
+			"source": "https://arxiv.org/abs/2606.26859v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"generative-sparql-example1.png": {
+			"source": "https://arxiv.org/pdf/2606.23875v1#page=2",
+			"item": "Example 1",
+			"pdf_page": 2,
+			"authors": "Ratan Bahadur Thapa、Steffen Staab",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2606.23875v1",
+			"change": "Cropped complete original example or results table with labels; no content or color modifications.",
+			"crop_pixels": [125, 500, 735, 800],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [610, 300],
+			"sha256": "d4f4ee4428c95de3227e94719f8bd3dc3d9dcceb91800d20979d77c7538169ab",
+			"source_pdf_sha256": "7f37f9598e9251f5d4a1a6539152ce0c85a207744d2c14ca8d16fb5ea9f75ea5"
+		}
+	}
+}

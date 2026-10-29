@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-06-25",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.24618v1",
+			"title": "Abstractions of Queries in Ontology-Based Data Access",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24618v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.24597v1",
+			"title": "Qwen-AgentWorld: Language World Models for General Agents",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24597v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24855v1",
+			"title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24855v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24530v1",
+			"title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24530v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.22902v2",
+			"title": "Agent-as-a-Router: Agentic Model Routing for Coding Tasks",
+			"version_submitted": "2026-06-24",
+			"source": "https://arxiv.org/abs/2606.22902v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24884v1",
+			"title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24884v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.23565v1",
+			"title": "HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.23565v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24888v1",
+			"title": "DiffusionBench: On Holistic Evaluation of Diffusion Transformers",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24888v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.24618v1",
+			"item": "Table 1",
+			"source": "https://arxiv.org/pdf/2606.24618v1#page=2",
+			"license": "CC BY-NC-SA 4.0",
+			"reason": "本站用途与非商业限制的适用关系未确认"
+		}
+	],
+	"unverified_sources": [
+		{
+			"candidate_title": "RML Meets LLMs: More Structure, Fewer Errors",
+			"source": "https://openreview.net/forum?id=oWt34iSOKK",
+			"reason": "Previously reported OpenReview verification barrier; title-ID mapping unverified, no further access attempted."
+		}
+	]
+}

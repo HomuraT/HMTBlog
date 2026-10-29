@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-06-26",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.25778v1",
+			"title": "Fuzzy Quantification over OWL Ontologies and Knowledge Graphs",
+			"version_submitted": "2026-06-24",
+			"source": "https://arxiv.org/abs/2606.25778v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.24965v1",
+			"title": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24965v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.25996v2",
+			"title": "Autodata: An agentic data scientist to create high quality synthetic data",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.25996v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.25041v2",
+			"title": "Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.25041v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24775v1",
+			"title": "Are We Ready For An Agent-Native Memory System?",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24775v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24020v1",
+			"title": "You Don't Need to Run Every Eval",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.24020v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.26071v2",
+			"title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.26071v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.25973v1",
+			"title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
+			"version_submitted": "2026-06-24",
+			"source": "https://arxiv.org/abs/2606.25973v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.25778v1",
+			"item": "Figure 3",
+			"source": "https://arxiv.org/pdf/2606.25778v1#page=23",
+			"license": "CC BY-NC-ND 4.0",
+			"reason": "非商业和禁止演绎限制与本站用途、裁切方式的适用关系未确认"
+		}
+	]
+}

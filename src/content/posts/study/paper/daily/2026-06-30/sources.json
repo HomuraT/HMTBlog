@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-06-30",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2511.05991v1",
+			"title": "Ontology Learning and Knowledge Graph Construction: A Comparison of Approaches and Their Impact on RAG Performance",
+			"version_submitted": "2025-11-08",
+			"source": "https://arxiv.org/abs/2511.05991v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.28745v1",
+			"title": "FreqOrtho-SR: Frequency-Guided Orthogonal Expert Learning for Real-World Image Super-Resolution",
+			"version_submitted": "2026-06-27",
+			"source": "https://arxiv.org/abs/2606.28745v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27608v1",
+			"title": "Qwen-Image-2.0-RL Technical Report",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27608v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.28128v1",
+			"title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+			"version_submitted": "2026-06-26",
+			"source": "https://arxiv.org/abs/2606.28128v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27226v1",
+			"title": "Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27226v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.28322v2",
+			"title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+			"version_submitted": "2026-06-30",
+			"source": "https://arxiv.org/abs/2606.28322v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.26383v1",
+			"title": "SOLAR: AI-Powered Speed-of-Light Performance Analysis",
+			"version_submitted": "2026-06-24",
+			"source": "https://arxiv.org/abs/2606.26383v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.24496v1",
+			"title": "Red-Teaming the Agentic Red-Team",
+			"version_submitted": "2026-06-23",
+			"source": "https://arxiv.org/abs/2606.24496v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {
+		"ontology-rag-figure4.png": {
+			"source": "https://arxiv.org/pdf/2511.05991v1#page=8",
+			"item": "Figure 4",
+			"pdf_page": 8,
+			"authors": "Tiago da Cruz、Bernardo Tavares、Francisco Belo",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2511.05991v1",
+			"change": "Cropped complete original example or results table with labels; no content or color modifications.",
+			"crop_pixels": [225, 400, 1305, 710],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1080, 310],
+			"sha256": "c2cdc8c53a917782006947da2ccd7be91f3a50c78411fa825377d1bfb0589c78",
+			"source_pdf_sha256": "5a8f51dc47139169eaccd7993d0c8a9f24964767857f22b0b55f9eb0c0ffe5ad"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-06-28",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical versions, each submission no later than digest date; recommendation date differs from publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.22645v1",
+			"title": "All Relations Lead to Rome: Automated Knowledge Graph Creation and Question Generation",
+			"version_submitted": "2026-06-21",
+			"source": "https://arxiv.org/abs/2606.22645v1",
+			"verification_scope": "Cited method, assumptions and results checked against historical PDF and HTML"
+		},
+		{
+			"arxiv": "2606.22911v1",
+			"title": "ThermoLLM: Thermodynamics-Aware HVAC Control with Spatial-Semantic Knowledge Graph",
+			"version_submitted": "2026-06-22",
+			"source": "https://arxiv.org/abs/2606.22911v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27326v1",
+			"title": "Hallucination in World Models is Predictable and Preventable",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27326v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27295v2",
+			"title": "LA4VLA: Learning to Act without Seeing via Language-Action Pretraining",
+			"version_submitted": "2026-06-26",
+			"source": "https://arxiv.org/abs/2606.27295v2",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27313v1",
+			"title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27313v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27369v1",
+			"title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27369v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27364v1",
+			"title": "PhysiFormer: Learning to Simulate Mechanics in World Space",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27364v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"arxiv": "2606.27374v1",
+			"title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+			"version_submitted": "2026-06-25",
+			"source": "https://arxiv.org/abs/2606.27374v1",
+			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.22645v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2606.22645v1#page=1",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "未确认第三方截图再发布许可"
+		}
+	]
+}
