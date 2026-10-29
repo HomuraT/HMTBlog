@@ -1,0 +1,35 @@
+{
+	"digest_date": "2026-10-01",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions available no later than digest date.",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"arxiv": "2609.34540v1",
+			"title": "APOLO: Automatic Prompt Optimization for Ontology Learning",
+			"version_submitted": "2026-09-28",
+			"source": "https://arxiv.org/abs/2609.34540v1",
+			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		}
+	],
+	"figures": {
+		"apolo-table1.png": {
+			"arxiv": "2609.34540v1",
+			"source": "https://arxiv.org/pdf/2609.34540v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"authors": "Huu Tan Mai , Roman Kochnev , Cuong Xuan Chu , Lukas Lange , Heiko Paulheim , Daria Stepanova",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2609.34540v1",
+			"change": "Original PDF screenshot crop retains complete figure or table, caption and necessary labels; no redrawing or data modification.",
+			"crop_pdf_points": [65, 60, 532, 355],
+			"render_scale": 2.5,
+			"image_size": [1168, 738],
+			"sha256": "8c8260895bc5f84546aa184654ea78639da6ee8175ca1ea9417fe2181080ee49",
+			"source_pdf_sha256": "d9e3b1aef39bcc8595c73a4d7a1635820f0615d2bf1ab92b7162dfb7d92baa1a"
+		}
+	}
+}

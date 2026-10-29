@@ -1,0 +1,35 @@
+{
+	"digest_date": "2026-10-09",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions available no later than digest date.",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"arxiv": "2610.09554v1",
+			"title": "Reliability of LLM Judges for Evaluating Entity Alignment",
+			"version_submitted": "2026-10-07",
+			"source": "https://arxiv.org/abs/2610.09554v1",
+			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		}
+	],
+	"figures": {
+		"entity-judge-figure3.png": {
+			"arxiv": "2610.09554v1",
+			"source": "https://arxiv.org/pdf/2610.09554v1#page=8",
+			"item": "Figure 3",
+			"pdf_page": 8,
+			"authors": "Vaibhava Lakshmi Ravideshik , Mayank Kejriwal",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.09554v1",
+			"change": "Original PDF screenshot crop retains complete figure or table, caption and necessary labels; no redrawing or data modification.",
+			"crop_pdf_points": [300, 65, 533, 491],
+			"render_scale": 2.5,
+			"image_size": [582, 1066],
+			"sha256": "9256f0144980e5f0d6d44ec1e9944f1294dd6a7a63f3b50bef6cfa4636226ba9",
+			"source_pdf_sha256": "5db5d6cfa665cf5768d4758433c2b3926af056ebaace2d93ee273764ae0c1036"
+		}
+	}
+}

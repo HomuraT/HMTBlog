@@ -1,0 +1,28 @@
+{
+	"digest_date": "2026-10-02",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions available no later than digest date.",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"arxiv": "2610.00682v1",
+			"title": "Ontology-Grounded, Reasoner-Verified Benchmarks for Evaluating LLM Reasoning in Scientific AI",
+			"version_submitted": "2026-09-30",
+			"source": "https://arxiv.org/abs/2610.00682v1",
+			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2610.00682v1",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"source": "https://arxiv.org/pdf/2610.00682v1#page=3",
+			"license": "arXiv non-exclusive distribution license",
+			"reason": "No verified open republication permission; original locator only."
+		}
+	]
+}

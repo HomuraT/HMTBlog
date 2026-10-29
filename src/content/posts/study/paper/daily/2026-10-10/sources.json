@@ -1,0 +1,35 @@
+{
+	"digest_date": "2026-10-10",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions available no later than digest date.",
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"arxiv": "2610.11701v1",
+			"title": "Traveling with a Map: Reducing the Search Space of Link Traversal Queries Using RDF Shapes",
+			"version_submitted": "2026-10-08",
+			"source": "https://arxiv.org/abs/2610.11701v1",
+			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		}
+	],
+	"figures": {
+		"shape-index-figure5.png": {
+			"arxiv": "2610.11701v1",
+			"source": "https://arxiv.org/pdf/2610.11701v1#page=12",
+			"item": "Figure 5",
+			"pdf_page": 12,
+			"authors": "Bryan-Elliott Tam , Joanna Van Herwegen , Pieter Colpaert , Ruben Verborgh , Ruben Taelman",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.11701v1",
+			"change": "Original PDF screenshot crop retains complete figure or table, caption and necessary labels; no redrawing or data modification.",
+			"crop_pdf_points": [45, 65, 550, 382],
+			"render_scale": 2.5,
+			"image_size": [1263, 793],
+			"sha256": "a2b4c2895dc8317a629c7973fc7bd2fc946e5053897ddf147ee85467ee8befa4",
+			"source_pdf_sha256": "8eeeaaa33064eb1595b8f5a22c643099f9083ec1d8d965ef451826f518bad49d"
+		}
+	}
+}
