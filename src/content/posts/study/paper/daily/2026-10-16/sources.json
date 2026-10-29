@@ -1,0 +1,36 @@
+{
+	"digest_date": "2026-10-16",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"id": "AutoRML",
+			"title": "AutoRML: Automated Declarative RDF Generation Leveraging Semantic Table Annotation",
+			"version_submitted": "2026-09-30",
+			"source": "https://drops.dagstuhl.de/entities/document/10.4230/TGDK.4.3.2",
+			"version": "TGDK 4(3), Article 2, publisher version",
+			"verification_scope": "Featured methods, cited table or figure results and experimental conditions checked against historical primary text. No independent reproduction.",
+			"cited_evidence": "表格语义标注能识别实体，却未必直接生成图谱；声明式建图又常假设映射已经准备好。AutoRML 将标注结果接到可检查、可修改的 RML 规则。\n\n## 方法与问题\n\n论文形式化主语、类、谓词与对象映射的生成，可接入不同标注框架。信息不足时保留专家可补充的声明式规则。下图是原文的声明式建图流程概览，不应误称为 AutoRML 独有的新架构。\n\n## 实验证据\n\nTGDK 4(3) Article 2 于 2026 年 9 月 30 日正式出版。评估结论有明确前提：自动与人工构建使用同一目标知识库作为参照时，AutoRML 可构造与人工结果一致的图谱。它验证既定注释与参照条件下的映射链路，不证明任意原始表格都可无误建图，论文也未提供可据此引用的人工小时节省数。\n\n## 我的判断\n\n留下版本化 RML 中间产物有助复查和复用。但标注错误仍会被映射过程传播，验收应分开测注释质量、映射正确性与最终图谱质量。"
+		}
+	],
+	"figures": {
+		"autorml-figure1.png": {
+			"source": "https://drops.dagstuhl.de/storage/08tgdk/tgdk-vol004/tgdk-vol004-issue003/TGDK.4.3.2/TGDK.4.3.2.pdf#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"authors": "Ioannis Dasoulas, Ali Elhalawati, Anastasia Dimou",
+			"version": "TGDK 4(3), Article 2, publisher version",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://drops.dagstuhl.de/entities/document/10.4230/TGDK.4.3.2",
+			"change": "Original PDF screenshot, rectangular crop only, complete figure/table and caption retained, no redrawing or data modification.",
+			"crop_pdf_points": [88, 90, 525, 200],
+			"render_scale": 2.5,
+			"image_size": [1092, 275],
+			"sha256": "33fbc9c3350db8205b8645fae3c6d03ba338fe85c51c57c31e9b4780ee8d4167",
+			"source_pdf_sha256": "52fd2c91c1cd49a60ff8d13c5dbeb78b34dbd25ed210c9a533a1b65ead65d3cc"
+		}
+	}
+}

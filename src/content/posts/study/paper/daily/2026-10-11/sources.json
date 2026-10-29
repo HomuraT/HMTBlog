@@ -1,0 +1,35 @@
+{
+	"digest_date": "2026-10-11",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"id": "2610.12176v1",
+			"title": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
+			"version_submitted": "2026-10-08",
+			"source": "https://arxiv.org/abs/2610.12176v1",
+			"verification_scope": "Featured methods, cited table or figure results and experimental conditions checked against historical primary text. No independent reproduction.",
+			"cited_evidence": "自我改进最难的是谁来提供可信的改进信号。MASS 用同一个基础模型扮演执行者、评估者与优化者，先搜索多 Agent 工作流，再用轨迹监督微调。\n\n## 方法与问题\n\n内循环调整角色和信息路由，外循环训练共享模型，再以新模型重启搜索。工作流结构成为学习对象，搜索同时受结构约束控制。作者分别检查解题、评估和工作流优化能力。\n\n## 实验证据\n\nQwen3.6-27B 经两个 MASS 周期，在四个开放研究类基准上的单位输出 token 表现达到基线约 1.2–1.6 倍。这不是原始准确率同比提升。Table 7 同时报告负迁移：Terminal-Bench 2.0 从 37.5±2.2 降至 35.2±1.7，SWE-bench Verified 从 62.6±1.4 降至 61.1±0.6；这些是多次试验均值及样本标准差，不能称所有 Agent 能力提高。\n\n## 我的判断\n\n工作流自监督可能学到特定任务的信息组织习惯。下一轮应固定总推理预算、外部评价与保留集，检查跨任务迁移。同模型自评仍可能有共同偏差，保留不利结果是判断闭环是否有效的必要条件。"
+		}
+	],
+	"figures": {
+		"mass-figure2.png": {
+			"source": "https://arxiv.org/pdf/2610.12176v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"authors": "Hyunin Lee , Jinglue Xu , Jeffrey Seely , Donghyun Lee , Somayeh Sojoudi , Matei Zaharia , Yujin Tang",
+			"version": "2610.12176v1",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.12176v1",
+			"change": "Original PDF screenshot, rectangular crop only, complete figure/table and caption retained, no redrawing or data modification.",
+			"crop_pdf_points": [103, 65, 510, 313],
+			"render_scale": 2.5,
+			"image_size": [1017, 620],
+			"sha256": "84be1e66c88118752faa9c581726e2f5779ed8f4af35fdf8b34b3aaed2e248f9",
+			"source_pdf_sha256": "9018fa312c4dac659426fab2b304357593f5f4ad7886d73589f34dd06012f282"
+		}
+	}
+}

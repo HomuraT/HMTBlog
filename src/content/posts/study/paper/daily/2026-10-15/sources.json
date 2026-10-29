@@ -1,0 +1,35 @@
+{
+	"digest_date": "2026-10-15",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"id": "2610.06650v3",
+			"title": "Wikidata Search Traces: A Dataset for Training Knowledge Graph Search Agents",
+			"version_submitted": "2026-10-09",
+			"source": "https://arxiv.org/abs/2610.06650v3",
+			"verification_scope": "Featured methods, cited table or figure results and experimental conditions checked against historical primary text. No independent reproduction.",
+			"cited_evidence": "如果每次图查询结果都直接进入上下文，长链路问答容易被无关信息淹没。Wikidata Search Traces 同时研究题目生成与证据管理。\n\n## 方法与问题\n\n作者在冻结 Wikidata 快照上逐步用嵌套条件替换命名实体，检查目标唯一性及条件必要性。RLM harness 批量执行图调用，将结果保留在持久 Python 状态，再用子调用解释选定证据。\n\n## 实验证据\n\n采用 10 月 9 日已公开的 v3。10,235 条保留轨迹由 9,563 条单实体和 672 条多跳轨迹组成，不能当作已接受问题数。在同一图函数、100 道题（单实体与多跳各 50 道）上，gpt-6-luna 从直接工具调用的 49 题正确升至 61 题，Qwen3.8-27B 从 60 题升至 74 题。这是接口与编排的整体比较，不是模型权重训练，也不能假定同时降低成本。\n\n## 我的判断\n\n我会先固定模型和图函数，检查证据存储与读取方式。100 题规模有限，冻结快照不能代表实时图谱；实验也未单独隔离批量调用与持久状态各自的贡献。"
+		}
+	],
+	"figures": {
+		"wikidata-traces-table4.png": {
+			"source": "https://arxiv.org/pdf/2610.06650v3#page=10",
+			"item": "Table 4",
+			"pdf_page": 10,
+			"authors": "Mohamed Chenene , Carlos Rosas-Hinostroza , Anastasia Stasenko , Shani Evenstein Sigalov , Pierre-Carl Langlais",
+			"version": "2610.06650v3",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.06650v3",
+			"change": "Original PDF screenshot, rectangular crop only, complete figure/table and caption retained, no redrawing or data modification.",
+			"crop_pdf_points": [65, 60, 547, 405],
+			"render_scale": 2.5,
+			"image_size": [1206, 862],
+			"sha256": "1e49fefa0a13c56812dcac6da130023f33adfc4170ad340ee896132762ff8cbb",
+			"source_pdf_sha256": "083e4f93d05803b6f92233e1e51a2eb357d6c52d10488472884959d235e8080a"
+		}
+	}
+}

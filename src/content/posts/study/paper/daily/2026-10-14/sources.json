@@ -1,0 +1,35 @@
+{
+	"digest_date": "2026-10-14",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"id": "2610.13648v1",
+			"title": "SPARQL-LLM in the TEXT2SPARQL 2026 Challenge",
+			"version_submitted": "2026-10-09",
+			"source": "https://arxiv.org/abs/2610.13648v1",
+			"verification_scope": "Featured methods, cited table or figure results and experimental conditions checked against historical primary text. No independent reproduction.",
+			"cited_evidence": "知识图谱问答必须同时找到实体、关系、端点与查询结构。SPARQL-LLM 的挑战赛结果值得读，但其中约 59% 的提升需要明确分母。\n\n## 方法与问题\n\n系统参加 TEXT2SPARQL 2026 的 DBpedia 与企业图谱任务。报告配置为 GPT-5.2、400K 上下文、温度 0、最大输出 16K tokens。这是完整系统的比较，不能隔离单个检索或提示模块的贡献。\n\n## 实验证据\n\n西班牙语 DBpedia F1 为 0.7810，第二名 ARUQULA v1 为 0.4904，差值 0.2906，即 29.06 个百分点；约 59% 是相对增幅。英语 DBpedia 为 0.7192 对 0.6142，增加 10.50 个百分点。系统在所报参赛方法中总体第一，但这些赛题分数不是任意企业图谱的准确率承诺。\n\n## 我的判断\n\n完整配置和逐数据集表格比排名更容易复用。应固定语言、模型版本、端点可用性、实体链接与执行判分口径。SPARQL 能运行仍可能语义错误，需要分别验证。"
+		}
+	],
+	"figures": {
+		"sparql-llm-figure1.png": {
+			"source": "https://arxiv.org/pdf/2610.13648v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"authors": "Panayiotis Smeros , Vincent Emonet , Ruijie Wang , Ana-Claudia Sima , Tarcisio Mendes de Farias",
+			"version": "2610.13648v1",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.13648v1",
+			"change": "Original PDF screenshot, rectangular crop only, complete figure/table and caption retained, no redrawing or data modification.",
+			"crop_pdf_points": [65, 65, 532, 270],
+			"render_scale": 2.5,
+			"image_size": [1168, 513],
+			"sha256": "814d078063b2dbe15b8c3fd9762d5124bd595ea13ab39d4a61b5839f54791b45",
+			"source_pdf_sha256": "736918a5b7a8cba3c25fbc88ad5f08dfdb8106109980d27d1d1ed8abff61004e"
+		}
+	}
+}
