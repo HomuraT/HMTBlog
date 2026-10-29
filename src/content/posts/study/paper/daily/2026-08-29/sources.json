@@ -1,0 +1,91 @@
+{
+	"digest_date": "2026-08-29",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.27101v1",
+			"title": "pro-team at LLMs4OL 2026 Tasks Flagship and Reuse: Retrieval-Augmented Generation and Vocabulary-Constrained Filtering for Ontology Learning",
+			"authors": "Shivam Mishra , Dhannu Ram Meena , Muneendra Ojha , Krishna Pratap Singh , Kuldeep Singh",
+			"source": "https://arxiv.org/abs/2608.27101v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.26836v1",
+			"title": "SymbolLKG: Towards Verifiable Logical Reasoning via Logical Knowledge Graph and Symbolic Solvers",
+			"authors": "Haizhao Fan , Yuchi Xiong , Jize Wang , Xinping Guan , Xinyi Le",
+			"source": "https://arxiv.org/abs/2608.26836v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.26701v1",
+			"title": "Accelerating Scientific Research with Gemini in the Real-World",
+			"authors": "Samuel Schmidgall , Xiaokai Zhu , Marian Shaw , Lin Yang , Valentin Liévin , Jingyun Yang , Yuchen Zhuang , Tim Strother , Alex Bijamov , Min Woo Sun , Anil Palepu , Justin Chen , David Steiner , Jacqueline Shreibati , Wei-Hung Weng , Yilin Zhao , Xingjian Hu , Nicholas Zahn , Sadhya Garg , Julia Kirby , Yuxiang Gan , Jiaoli Li , Divy Thakkar , Shekoofeh Azizi , David Racz , Juraj Gottweis , Vivek Natarajan , Chenglin Wu , Tal Danino , Keran Rong , Haozhe Wang , Benoit Schillings , Yong Cheng , Quoc V. Le , Tao Tu",
+			"source": "https://arxiv.org/abs/2608.26701v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-nd/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.27448v1",
+			"title": "TTPO: Test-Time Policy Optimization",
+			"authors": "Aozhe Wang , Zhengxi Lu , Jianze Wang , Shangke Lv , Ying Liu , Weiming Lu , Jun Xiao , Yueting Zhuang , Hua Yang , Qianglong Chen , Yongliang Shen",
+			"source": "https://arxiv.org/abs/2608.27448v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.27384v1",
+			"title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
+			"authors": "Zekai Li , Jiaming Tang , Zhijian Liu",
+			"source": "https://arxiv.org/abs/2608.27384v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.15917v1",
+			"title": "Pre-training Visual Dexterity in Simulation",
+			"authors": "Sarthak Kamat , Adam Rashid , Satvik Sharma , Aseem Doriwala , Chelsea Finn , Phillip Isola , C. Karen Liu",
+			"source": "https://arxiv.org/abs/2608.15917v1",
+			"version_public_date": "2026-08-16",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.25593v1",
+			"title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+			"authors": "Guibin Zhang , Leo Lu , Fangzhou Xie , Kang Zhu , Junhao Wang , Zhifei Xie , Zhaochen Yu , Zihang Liu , Zhongxiang Sun , Qiankun Li , Yue Liao , Heng Chang , Xiaobin Hu , Qibing Ren , Wangchunshu Zhou , Shuicheng Yan",
+			"source": "https://arxiv.org/abs/2608.25593v1",
+			"version_public_date": "2026-08-26",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"proteam-table2.png": {
+			"source": "https://arxiv.org/pdf/2608.27101v1#page=10",
+			"item": "Table 2",
+			"pdf_page": 10,
+			"crop_pdf_points": [65, 172, 532, 270],
+			"image_size": [1168, 245],
+			"sha256": "a191c8a9b992ee15ecc840eae42a4def0870e3c0acdb1f484834cdce25aa33c2",
+			"source_pdf_sha256": "bdb79094d91e96c93fc597d732e8a6824373941f57b5dc55a8804db32f1a57b8",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "proteam-table2.png",
+			"authors": "Shivam Mishra , Dhannu Ram Meena , Muneendra Ojha , Krishna Pratap Singh , Kuldeep Singh",
+			"version": "2608.27101v1",
+			"license_evidence": "https://arxiv.org/abs/2608.27101v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

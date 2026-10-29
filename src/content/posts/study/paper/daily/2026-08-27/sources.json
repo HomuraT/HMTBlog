@@ -1,0 +1,91 @@
+{
+	"digest_date": "2026-08-27",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.24565v1",
+			"title": "MGQL: An Executable, Small-Step Semantics of GQL",
+			"authors": "Aditya Thimmaiah , Tong-Nong Lin , Milos Gligoric",
+			"source": "https://arxiv.org/abs/2608.24565v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.24218v1",
+			"title": "Constraint-Guided Enterprise Data Mapping with Large Language Models",
+			"authors": "Sebastian Monka , Pramod Anantharam , Thien Vo Minh , Lavdim Halilaj",
+			"source": "https://arxiv.org/abs/2608.24218v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.24876v1",
+			"title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+			"authors": "Zhaochen Yu , Yingcheng Wu , Zhenfei Yin , Kaiyuan Chen , Zhe Zhao , Mengdi Wang , Shuicheng Yan , Ling Yang",
+			"source": "https://arxiv.org/abs/2608.24876v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.24855v1",
+			"title": "LeFlow: Generative Latent Flow Planning for World Models",
+			"authors": "Hsiang-Wei Huang , Jianxu Shangguan , Junbin Lu , Jenq-Neng Hwang",
+			"source": "https://arxiv.org/abs/2608.24855v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.24885v1",
+			"title": "Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning",
+			"authors": "Sixiang Chen , Jiaming Liu , Jixian Wu , Yichen Guo , Tinghao Wang , Siyuan Qian , Hao Chen , Jiajun Cao , Jian Tang , Shanghang Zhang",
+			"source": "https://arxiv.org/abs/2608.24885v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.24714v1",
+			"title": "GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models",
+			"authors": "Zijian Zhang , Yuqing Jiang , Weitao Zhou , Minglei Li , Jinhao Zhang , Yao Mu , Xiaofan Li , Hao Zhao , Haibao Yu",
+			"source": "https://arxiv.org/abs/2608.24714v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.24680v1",
+			"title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+			"authors": "Wenxuan Shen , Dongna Jin , Dongping Chen",
+			"source": "https://arxiv.org/abs/2608.24680v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"mgql-figure1.png": {
+			"source": "https://arxiv.org/pdf/2608.24565v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"crop_pdf_points": [289, 340, 446, 560],
+			"image_size": [393, 550],
+			"sha256": "0b56d6ac869414ae8ef5cae3fd7b9ffdfd100103a4e5546fee40dc40fcd5670c",
+			"source_pdf_sha256": "775a01e3127083f7a9501e4fa2fb82440118a4ae062b63afffbc6fca48ab16be",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "mgql-figure1.png",
+			"authors": "Aditya Thimmaiah , Tong-Nong Lin , Milos Gligoric",
+			"version": "2608.24565v1",
+			"license_evidence": "https://arxiv.org/abs/2608.24565v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

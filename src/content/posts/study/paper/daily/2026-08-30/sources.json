@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-08-30",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.26729v1",
+			"title": "Neural Regression with Embeddings for Numerical Attribute Prediction in Knowledge Graphs",
+			"authors": "Rupesh Sapkota , Louis Mozart Kamdem Teyou , Moshood Yekini , Caglar Demir , Axel-Cyrille Ngonga Ngomo",
+			"source": "https://arxiv.org/abs/2608.26729v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.26587v1",
+			"title": "Surgical Alignment in Knowledge Graph Training for Clinical Diagnosis with Large Language Models",
+			"authors": "Saksham Khatwani , He Cheng , Majid Afshar , Dmitriy Dligach , Yanjun Gao",
+			"source": "https://arxiv.org/abs/2608.26587v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-sa/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.27395v1",
+			"title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+			"authors": "Lukas Kuhn , Lucas Maes , Giuseppe Serra , Quentin Le Lidec , Yann LeCun , Randall Balestriero , Florian Buettner",
+			"source": "https://arxiv.org/abs/2608.27395v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.27454v1",
+			"title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+			"authors": "Liyan Tang , Cyrus Rashtchian , Chun-Sung Ferng , Andrew Tomkins , Da-Cheng Juan , Tu Vu",
+			"source": "https://arxiv.org/abs/2608.27454v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.26545v1",
+			"title": "Memory Anchors for Continual Robot Learning",
+			"authors": "Maximilian Du , Zhanyi Sun , Chen Xu , Paarth Shah , Masha Itkina , Shuran Song",
+			"source": "https://arxiv.org/abs/2608.26545v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.27370v1",
+			"title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+			"authors": "Kairong Luo , Jiarui Cui , Yaorui Yin , Shengqi Chen , Yiming Yang , Linxiang Gao , Yanmohan Wang , Mingzhe Zhang , Kaiyue Wen , Kaifeng Lyu , Wenguang Chen",
+			"source": "https://arxiv.org/abs/2608.27370v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by-sa/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"litem-table4.png": {
+			"source": "https://arxiv.org/pdf/2608.26729v1#page=9",
+			"item": "Table 4",
+			"pdf_page": 9,
+			"crop_pdf_points": [130, 110, 481, 385],
+			"image_size": [878, 688],
+			"sha256": "e481162281cd75d1ab120edae2a5f94eb3248e90daac64c5dce2a300d390b45a",
+			"source_pdf_sha256": "781572d082af5569aed5cd0ff74efc0ee7aa971f59225d40598615071eb5b103",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "litem-table4.png",
+			"authors": "Rupesh Sapkota , Louis Mozart Kamdem Teyou , Moshood Yekini , Caglar Demir , Axel-Cyrille Ngonga Ngomo",
+			"version": "2608.26729v1",
+			"license_evidence": "https://arxiv.org/abs/2608.26729v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

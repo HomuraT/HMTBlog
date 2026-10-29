@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-08-28",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.26870v1",
+			"title": "C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning",
+			"authors": "Yassir Lairgi , Ludovic Moncla , Khalid Benabdeslem , Rémy Cazabet , Pierre Cléau",
+			"source": "https://arxiv.org/abs/2608.26870v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.24846v1",
+			"title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+			"authors": "Md Saikat Islam Khan Bappy , Oshani Seneviratne",
+			"source": "https://arxiv.org/abs/2608.24846v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.25927v1",
+			"title": "Code World Model: Coding Agent as World Brain",
+			"authors": "Yiwen Chen , Guosheng Lin , Chi Zhang",
+			"source": "https://arxiv.org/abs/2608.25927v1",
+			"version_public_date": "2026-08-26",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.26103v1",
+			"title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+			"authors": "Jiaming Zhou , Qihang Zhang , Gangwei Xu , Cunxin Fan , Yujie Zhao , Ruilin Wang , Yiming Luo , Shuai Yang , Xing Zhu , Yujun Shen , Junwei Liang , Yinghao Xu",
+			"source": "https://arxiv.org/abs/2608.26103v1",
+			"version_public_date": "2026-08-26",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.26070v1",
+			"title": "Prefix Sliding for efficient test-time scaling",
+			"authors": "Niklas Muennighoff , Zhengyang Wang , Zeyi Chen , Weijia Shi , Binyuan Hui , John Yang , Dapeng Jiang , Mika Senghaas , Fares Obeid , Johannes Hagemann , Sami Jaghouar , Ludwig Schmidt , Percy Liang , Jason Wei , Andrew Y. Ng , Luke Zettlemoyer , Yejin Choi , Mike Lewis",
+			"source": "https://arxiv.org/abs/2608.26070v1",
+			"version_public_date": "2026-08-26",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.24646v1",
+			"title": "On-Policy Self-Distillation in Diffusion Models",
+			"authors": "Wei Zhou , Xiongwei Zhu , Lingdong Kong , Bo Chen , Lei Zhang , Yongyuan Liang , Xiaoxia Hou , Ye Tian , Xian Sun , Yingshuo Wang , Linfeng Li , Shengqiong Wu , Leigang Qu , Feng Li , Wei Liu , Julian McAuley , Tat-Seng Chua",
+			"source": "https://arxiv.org/abs/2608.24646v1",
+			"version_public_date": "2026-08-25",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"cunseen-table3.png": {
+			"source": "https://arxiv.org/pdf/2608.26870v1#page=10",
+			"item": "Table 3",
+			"pdf_page": 10,
+			"crop_pdf_points": [130, 110, 483, 349],
+			"image_size": [883, 598],
+			"sha256": "e42fcdbfeb62df9715fb17723a4ccdd5efea4cd7663919146442d34118ed80c5",
+			"source_pdf_sha256": "a8357149d0e0f18d01430a4ec385a95afcb619f035bc684c3df30a726b01f46b",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "cunseen-table3.png",
+			"authors": "Yassir Lairgi , Ludovic Moncla , Khalid Benabdeslem , Rémy Cazabet , Pierre Cléau",
+			"version": "2608.26870v1",
+			"license_evidence": "https://arxiv.org/abs/2608.26870v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

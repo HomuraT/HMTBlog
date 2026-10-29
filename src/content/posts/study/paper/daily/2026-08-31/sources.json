@@ -1,0 +1,63 @@
+{
+	"digest_date": "2026-08-31",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.28178v1",
+			"title": "Expert Knowledge & Machine Understanding: Bridging Reactome's Ontology with LLM Semantic Embeddings",
+			"authors": "Susanna Bravi , Riccardo De Luca , Rosa Sicilia , Christine Nardini , Mario Santoro",
+			"source": "https://arxiv.org/abs/2608.28178v1",
+			"version_public_date": "2026-08-28",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.26872v1",
+			"title": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+			"authors": "Shiyi Zhang , Mushui Liu , Yunze Tong , Wanggui He , Siyu Zou , Jinlong Liu , Yunlong Yu , Jian Song , Hao Jiang , Pipei Huang , Bo Zheng",
+			"source": "https://arxiv.org/abs/2608.26872v1",
+			"version_public_date": "2026-08-27",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.26081v1",
+			"title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+			"authors": "Subhadeep Pal , Fiona Y. Wang , Markus J. Buehler",
+			"source": "https://arxiv.org/abs/2608.26081v1",
+			"version_public_date": "2026-08-26",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-nd/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.28192v1",
+			"title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+			"authors": "Hanoona Rasheed , Haania Siddiqui , Ming-Hsuan Yang , Fahad Shahbaz Khan , Salman Khan",
+			"source": "https://arxiv.org/abs/2608.28192v1",
+			"version_public_date": "2026-08-28",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.28188v1",
+			"title": "Beyond Flat Netlist: Hierarchical Graph Representation Learning for Scalable Analysis of Sequential Circuits",
+			"authors": "Jingyi Zhou , Zhengyuan Shi , Jiaying Zhu , Ziyang Zheng , Qiang Xu",
+			"source": "https://arxiv.org/abs/2608.28188v1",
+			"version_public_date": "2026-08-28",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"source": "https://arxiv.org/pdf/2608.28178v1#page=5",
+			"item": "Figure 1",
+			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
+		}
+	]
+}

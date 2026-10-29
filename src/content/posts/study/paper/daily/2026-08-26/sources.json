@@ -1,0 +1,91 @@
+{
+	"digest_date": "2026-08-26",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2608.22981v1",
+			"title": "Hierarchy-Aware Semantic Losses for Knowledge Graph Link Prediction",
+			"authors": "Filip Kronström , Ross D. King",
+			"source": "https://arxiv.org/abs/2608.22981v1",
+			"version_public_date": "2026-08-24",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2608.22974v1",
+			"title": "Toward Effective and Reliable LLM Agents via Dynamic Ontology",
+			"authors": "Xiaohui Zhang , Zequn Sun , Chengyuan Yang , Yuanning Cui , Lingbing Guo , Wei Hu",
+			"source": "https://arxiv.org/abs/2608.22974v1",
+			"version_public_date": "2026-08-24",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.23552v1",
+			"title": "Prime Agent: A Self-Improving RLM Harness",
+			"authors": "Seth Karten , Alex L. Zhang , Kevin Thomas , Sebastian Müller , Elie Bakouch , Daniel Auras , Mika Senghaas , Fares Obeid , Konstantin Dunas , Johannes Hagemann , Sami Jaghouar",
+			"source": "https://arxiv.org/abs/2608.23552v1",
+			"version_public_date": "2026-08-24",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.23189v1",
+			"title": "EchoWM: Open and Enterable Omnimodal World Models",
+			"authors": "Songchun Zhang , Yaowei Li , Junhao Zhuang , Weiyang Jin , Haoyu Wang , Xin Lu , Yilang Sun , Shiyi Zhang , Haoran Li , Xiaoxiao Ma , Yuming Li , Yijun Liu , Yaofeng Su , Yanwen Ma , Haoyu Wu , Zihan Su , Yue Ma , Lvmin Zhang , Haoyang Huang , Zeyue Xue , Anyi Rao , Nan Duan",
+			"source": "https://arxiv.org/abs/2608.23189v1",
+			"version_public_date": "2026-08-24",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.23564v1",
+			"title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+			"authors": "Deyao Hong , Yizhe Chi , Wenyi Li , Xiaoqiu Wang , Mingju Gao , Kaisen Yang , Bingxiang He , Youjie Zheng , Calvin Xiao , Qinhuai Na",
+			"source": "https://arxiv.org/abs/2608.23564v1",
+			"version_public_date": "2026-08-24",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.22869v1",
+			"title": "UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models",
+			"authors": "Lars Osterberg , Maggie Wang , Mac Schwager",
+			"source": "https://arxiv.org/abs/2608.22869v1",
+			"version_public_date": "2026-08-24",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2608.23486v1",
+			"title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+			"authors": "Yiren Lu , Xin Ye , Jiaming Liu , Jin Yao , Yi-chung Chen , Liam Merino , Dhruva Dixith Kurra , Min Cai , Tom Lampo , Yu Yin , Danhua Guo , Burhan Yaman",
+			"source": "https://arxiv.org/abs/2608.23486v1",
+			"version_public_date": "2026-08-24",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"hierarchy-table3.png": {
+			"source": "https://arxiv.org/pdf/2608.22981v1#page=7",
+			"item": "Table 3",
+			"pdf_page": 7,
+			"crop_pdf_points": [88, 265, 525, 482],
+			"image_size": [1093, 543],
+			"sha256": "a19eea50d6a301be263f111a3be254afab31459c66d371bbdddb061ffba40118",
+			"source_pdf_sha256": "935338ddc68f01fdf84d09cdd3a8df3e1246541e2d871d46887e008a30af72ef",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "hierarchy-table3.png",
+			"authors": "Filip Kronström , Ross D. King",
+			"version": "2608.22981v1",
+			"license_evidence": "https://arxiv.org/abs/2608.22981v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}
