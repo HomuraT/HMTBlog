@@ -1,0 +1,154 @@
+{
+	"digest_date": "2026-10-08",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical arXiv versions available no later than digest date.",
+	"fulltext_featured_count": 2,
+	"all_roster_papers_verified": false,
+	"papers": [
+		{
+			"arxiv": "2610.05945v1",
+			"title": "OntoInk: Interactive Ontology Visualization, Validation, and Reasoning",
+			"source": "https://arxiv.org/abs/2610.05945v1",
+			"version_submitted": "2026-10-05",
+			"verification_scope": "Historical fulltext methods and cited evaluation conditions checked; no independent reproduction.",
+			"current_arxiv_comments_reviewed_2026_10_29": "Demo paper at ISWC 2026 Companion Volume, October 25 to 29, 2026, Bari, Italy"
+		},
+		{
+			"arxiv": "2610.08082v1",
+			"title": "POLAR: Ontology-Guided Risk Prevention for Tool-Calling LLM Agents",
+			"source": "https://arxiv.org/abs/2610.08082v1",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": "Accepted Findings of AACL-IJCNLP 2026"
+		},
+		{
+			"arxiv": "2610.06851v1",
+			"title": "Base Models Can Reason By Taking a Cue From Training Data",
+			"source": "https://arxiv.org/abs/2610.06851v1",
+			"version_submitted": "2026-10-05",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": "Project page: this https URL Code: this https URL"
+		},
+		{
+			"arxiv": "2610.06647v2",
+			"title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
+			"source": "https://arxiv.org/abs/2610.06647v2",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": "16 pages, 6 figures"
+		},
+		{
+			"arxiv": "2610.06805v1",
+			"title": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+			"source": "https://arxiv.org/abs/2610.06805v1",
+			"version_submitted": "2026-10-05",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": null
+		},
+		{
+			"arxiv": "2610.08775v1",
+			"title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+			"source": "https://arxiv.org/abs/2610.08775v1",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": null
+		},
+		{
+			"arxiv": "2610.05538v1",
+			"title": "LiFT: Loop Flow Transformers",
+			"source": "https://arxiv.org/abs/2610.05538v1",
+			"version_submitted": "2026-10-04",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": null
+		},
+		{
+			"arxiv": "2610.01393v1",
+			"title": "LLM-Assisted Discovery of Typed Semantic Links for Ontology Network Construction",
+			"source": "https://arxiv.org/abs/2610.01393v1",
+			"version_submitted": "2026-10-01",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": null
+		},
+		{
+			"arxiv": "2610.07649v1",
+			"title": "OntoPlan: An Ontology-Grounded Scene Representation and Agentic Framework for Scalable Robot Task Planning",
+			"source": "https://arxiv.org/abs/2610.07649v1",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Historical fulltext methods and cited evaluation conditions checked; no independent reproduction.",
+			"current_arxiv_comments_reviewed_2026_10_29": "Accepted at NeurIPS 2026. 32 pages, 7 figures"
+		},
+		{
+			"arxiv": "2610.08789v1",
+			"title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+			"source": "https://arxiv.org/abs/2610.08789v1",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": "Project page: this https URL"
+		},
+		{
+			"arxiv": "2610.08778v1",
+			"title": "Sherpa: Teaching LLMs to Teach Adaptively",
+			"source": "https://arxiv.org/abs/2610.08778v1",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": "32 pages, 6 figures. Code and model are available at this https URL"
+		},
+		{
+			"arxiv": "2610.08781v1",
+			"title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+			"source": "https://arxiv.org/abs/2610.08781v1",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": null
+		},
+		{
+			"arxiv": "2610.08621v1",
+			"title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+			"source": "https://arxiv.org/abs/2610.08621v1",
+			"version_submitted": "2026-10-06",
+			"verification_scope": "Original title, identifier, source and historical version checked only; experiments not deeply reviewed.",
+			"current_arxiv_comments_reviewed_2026_10_29": null
+		}
+	],
+	"figures": {
+		"ontoink-figure1.png": {
+			"arxiv": "2610.05945v1",
+			"source": "https://arxiv.org/pdf/2610.05945v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Ebrahim Norouzi , Jörg Waitelonis , Harald Sack",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/abs/2610.05945v1",
+			"change": "Original PDF screenshot crop retains complete figure or table, caption and necessary labels; no redrawing or data modification.",
+			"crop_pdf_points": [65, 60, 532, 396],
+			"render_scale": 2.5,
+			"image_size": [1168, 840],
+			"sha256": "3ac65a95fc1f5c100adadfe4c4bb742829b74468e50831b4c4653b2bbccbaaa3",
+			"source_pdf_sha256": "22005058c8743af81c5600aa15bed7a98e0b62b946a74b40bb19ab41472e5519"
+		}
+	},
+	"merged_roster_count": 13,
+	"merge_groups": {
+		"original": [
+			"2610.05945v1",
+			"2610.08082v1",
+			"2610.06851v1",
+			"2610.06647v2",
+			"2610.06805v1",
+			"2610.08775v1",
+			"2610.05538v1"
+		],
+		"supplement": [
+			"2610.01393v1",
+			"2610.07649v1",
+			"2610.08789v1",
+			"2610.08778v1",
+			"2610.08781v1",
+			"2610.08621v1"
+		]
+	},
+	"roster_title_identifier_version_verified": true,
+	"metadata_time_boundary": "Current abstract-page acceptance comments are recorded as reviewed on 2026-10-29, not evidence of status on 2026-10-08."
+}
