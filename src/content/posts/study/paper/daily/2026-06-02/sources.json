@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-06-02",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2605.09184v1",
+			"title": "Open Ontologies: Tool-Augmented Ontology Engineering with Stable Matching Alignment",
+			"version_submitted": "2026-05-09",
+			"source": "https://arxiv.org/abs/2605.09184v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2605.00845v1",
+			"title": "Graph Query Generation with Constraint-guided Large Language Agents",
+			"version_submitted": "2026-04-09",
+			"source": "https://arxiv.org/abs/2605.00845v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.31584v1",
+			"title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+			"version_submitted": "2026-05-29",
+			"source": "https://arxiv.org/abs/2605.31584v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.30280v2",
+			"title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+			"version_submitted": "2026-06-01",
+			"source": "https://arxiv.org/abs/2605.30280v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.31604v1",
+			"title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+			"version_submitted": "2026-05-29",
+			"source": "https://arxiv.org/abs/2605.31604v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.30561v1",
+			"title": "VLM3: Vision Language Models Are Native 3D Learners",
+			"version_submitted": "2026-05-28",
+			"source": "https://arxiv.org/abs/2605.30561v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.29682v1",
+			"title": "Scaling Laws for Agent Harnesses via Effective Feedback Compute",
+			"version_submitted": "2026-05-28",
+			"source": "https://arxiv.org/abs/2605.29682v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.30215v2",
+			"title": "Déjà View: Looping Transformers for Multi-View 3D Reconstruction",
+			"version_submitted": "2026-05-29",
+			"source": "https://arxiv.org/abs/2605.30215v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"open-ontologies-table3.png": {
+			"source": "https://arxiv.org/pdf/2605.09184v1#page=5",
+			"item": "Table 3",
+			"pdf_page": 5,
+			"authors": "Fabio Rovai",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2605.09184v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [515, 782, 1025, 934],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [510, 152],
+			"sha256": "ec78e7cf17eeca25ac60d6ee90b7eac0d58ef588bf9f9091a5bc39a50e4ed8ac",
+			"source_pdf_sha256": "bf1198a5017b310512ae6648c597dda6bab61f1119cda469a3581025de7713c6"
+		}
+	}
+}

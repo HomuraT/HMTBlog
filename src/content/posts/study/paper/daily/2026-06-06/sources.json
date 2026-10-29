@@ -1,0 +1,66 @@
+{
+	"digest_date": "2026-06-06",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.03458v1",
+			"title": "KVarN: Variance-Normalized KV-Cache Quantization Mitigates Error Accumulation in Reasoning Tasks",
+			"version_submitted": "2026-06-02",
+			"source": "https://arxiv.org/abs/2606.03458v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.01208v1",
+			"title": "Schema-Agnostic Knowledge Graph Construction via Hybrid Ontology Discovery for Cyber Threat Intelligence",
+			"version_submitted": "2026-05-31",
+			"source": "https://arxiv.org/abs/2606.01208v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.02373v1",
+			"title": "Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses",
+			"version_submitted": "2026-06-01",
+			"source": "https://arxiv.org/abs/2606.02373v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.31584v1",
+			"title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+			"version_submitted": "2026-05-29",
+			"source": "https://arxiv.org/abs/2605.31584v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.03264v1",
+			"title": "PaddleOCR-VL-1.6: Expanding the Frontier of Document Parsing with Under-Optimized Region Refinement and Progressive Post-Training",
+			"version_submitted": "2026-06-02",
+			"source": "https://arxiv.org/abs/2606.03264v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.01435v1",
+			"title": "Don't Ask the LLM to Track Freshness: A Deterministic Recipe for Memory Conflict Resolution",
+			"version_submitted": "2026-05-31",
+			"source": "https://arxiv.org/abs/2606.01435v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.03603v1",
+			"title": "World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning",
+			"version_submitted": "2026-06-02",
+			"source": "https://arxiv.org/abs/2606.03603v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.03458v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2606.03458v1#page=2",
+			"reason": "Only arXiv non-exclusive distribution license established."
+		}
+	]
+}

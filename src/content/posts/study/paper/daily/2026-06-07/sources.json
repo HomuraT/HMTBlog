@@ -1,0 +1,84 @@
+{
+	"digest_date": "2026-06-07",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.05405v1",
+			"title": "Agents' Last Exam",
+			"version_submitted": "2026-06-03",
+			"source": "https://arxiv.org/abs/2606.05405v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.02800v2",
+			"title": "Cosmos 3: Omnimodal World Models for Physical AI",
+			"version_submitted": "2026-06-05",
+			"source": "https://arxiv.org/abs/2606.02800v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06473v1",
+			"title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.06473v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06021v1",
+			"title": "OPRD: On-Policy Representation Distillation",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.06021v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06155v1",
+			"title": "AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.06155v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06492v1",
+			"title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.06492v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"agents-last-exam-figure1.png": {
+			"source": "https://arxiv.org/pdf/2606.05405v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"authors": "Yiyou Sun 等",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.05405v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [250, 665, 1450, 1210],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [1200, 545],
+			"sha256": "0a7abde08f61fe40a751b13764b18349f2415a686696c98d33ba062cc9fd025a",
+			"source_pdf_sha256": "db0bc77073c8906ec1b3612d72714a6f4b08bb8294a0589660186e2b887864a5"
+		}
+	},
+	"unverified_sources": [
+		{
+			"candidate_title": "Reducing Human Effort in Ontology-Based Data Integration: An LLM-Assisted Mapping Pipeline",
+			"source": "https://openreview.net/forum?id=qjJF4sIRKj",
+			"verification_scope": "Unverified title-identifier mapping; prior HTTP 403 access denial reported, no further access attempted."
+		},
+		{
+			"candidate_title": "Implementing the Semantic Units Framework using Named Graphs and R2RML in a Knowledge Graph for the Biodiversity Exploratories",
+			"source": "https://openreview.net/forum?id=JXyRcFgKuw",
+			"verification_scope": "Unverified title-identifier mapping; prior HTTP 403 access denial reported, no further access attempted."
+		},
+		{
+			"candidate_title": "NORKE: A Framework for Normative Rule-Centric Knowledge Graph Construction using Language Models",
+			"source": "https://openreview.net/forum?id=7bK5jzeH4H",
+			"verification_scope": "Unverified title-identifier mapping; prior HTTP 403 access denial reported, no further access attempted."
+		}
+	]
+}

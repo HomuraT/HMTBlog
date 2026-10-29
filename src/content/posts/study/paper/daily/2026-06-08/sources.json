@@ -1,0 +1,73 @@
+{
+	"digest_date": "2026-06-08",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.01208v1",
+			"title": "Schema-Agnostic Knowledge Graph Construction via Hybrid Ontology Discovery for Cyber Threat Intelligence",
+			"version_submitted": "2026-05-31",
+			"source": "https://arxiv.org/abs/2606.01208v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.05405v1",
+			"title": "Agents' Last Exam",
+			"version_submitted": "2026-06-03",
+			"source": "https://arxiv.org/abs/2606.05405v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06021v2",
+			"title": "OPRD: On-Policy Representation Distillation",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.06021v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06447v1",
+			"title": "Latent Reasoning with Normalizing Flows",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.06447v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.05979v1",
+			"title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.05979v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06473v1",
+			"title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.06473v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.06492v1",
+			"title": "Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution",
+			"version_submitted": "2026-06-04",
+			"source": "https://arxiv.org/abs/2606.06492v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.02800v2",
+			"title": "Cosmos 3: Omnimodal World Models for Physical AI",
+			"version_submitted": "2026-06-05",
+			"source": "https://arxiv.org/abs/2606.02800v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.01208v1",
+			"item": "Figure 2",
+			"source": "https://arxiv.org/pdf/2606.01208v1#page=5",
+			"reason": "Only arXiv non-exclusive distribution license established."
+		}
+	]
+}

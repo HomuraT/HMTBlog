@@ -1,0 +1,66 @@
+{
+	"digest_date": "2026-06-03",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2605.29168v1",
+			"title": "Better Later Than Sooner: Neuro-Symbolic Knowledge Graph Construction via Ontology-grounded Post-extraction Correction",
+			"version_submitted": "2026-05-27",
+			"source": "https://arxiv.org/abs/2605.29168v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2605.07639v1",
+			"title": "Tacit Knowledge Extraction via Logic Augmented Generation and Active Inference",
+			"version_submitted": "2026-05-08",
+			"source": "https://arxiv.org/abs/2605.07639v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.30280v2",
+			"title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+			"version_submitted": "2026-06-01",
+			"source": "https://arxiv.org/abs/2605.30280v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.31604v2",
+			"title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+			"version_submitted": "2026-06-03",
+			"source": "https://arxiv.org/abs/2605.31604v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.29548v2",
+			"title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+			"version_submitted": "2026-06-01",
+			"source": "https://arxiv.org/abs/2605.29548v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.31584v1",
+			"title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+			"version_submitted": "2026-05-29",
+			"source": "https://arxiv.org/abs/2605.31584v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.31268v1",
+			"title": "Mellum2 Technical Report",
+			"version_submitted": "2026-05-29",
+			"source": "https://arxiv.org/abs/2605.31268v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2605.29168v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2605.29168v1#page=1",
+			"reason": "CC BY-NC-SA 4.0; destination noncommercial compatibility not established."
+		}
+	]
+}

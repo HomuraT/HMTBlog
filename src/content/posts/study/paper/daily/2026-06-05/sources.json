@@ -1,0 +1,59 @@
+{
+	"digest_date": "2026-06-05",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.03712v1",
+			"title": "When Graph Tokens Sink: A Mechanistic Analysis of Graph Language Models",
+			"version_submitted": "2026-06-02",
+			"source": "https://arxiv.org/abs/2606.03712v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2605.05185v1",
+			"title": "OpenSearch-VL: An Open Recipe for Frontier Multimodal Search Agents",
+			"version_submitted": "2026-05-06",
+			"source": "https://arxiv.org/abs/2605.05185v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.06614v1",
+			"title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+			"version_submitted": "2026-05-07",
+			"source": "https://arxiv.org/abs/2605.06614v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.06665v1",
+			"title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+			"version_submitted": "2026-05-07",
+			"source": "https://arxiv.org/abs/2605.06665v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2605.06664v1",
+			"title": "BAMI: Training-Free Bias Mitigation in GUI Grounding",
+			"version_submitted": "2026-05-07",
+			"source": "https://arxiv.org/abs/2605.06664v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.02060v2",
+			"title": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories",
+			"version_submitted": "2026-06-02",
+			"source": "https://arxiv.org/abs/2606.02060v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.03712v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2606.03712v1#page=2",
+			"reason": "Only arXiv non-exclusive distribution license established."
+		}
+	]
+}
