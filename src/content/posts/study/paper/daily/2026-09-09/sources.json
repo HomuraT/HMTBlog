@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-09-09",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2609.04494v1",
+			"title": "Hakken: Predicting future discoveries to fill the gaps in today's knowledge",
+			"authors": "Tarek R. Besold , Uchenna Akujuobi , Pablo Sanchez , Alessandra Toniato , Kana Maruyama , Jihun Choi , Samy Badreddine , Frederick Gifford , Daniel Evans-Yamamoto , Sucheendra K. Palaniappan , Miquel Ferrer , Kae Nagano , Iris Rossell , Tom Joy , Hatem ElShazly , Chrysa Iliopoulou , Christoph Wehner , Thiviyan Thanapalasingam , Susana Nunes , Pedro G. Cotovio , Peter Wurman , Peter Stone , Hiroaki Kitano , Michael Spranger",
+			"source": "https://arxiv.org/abs/2609.04494v1",
+			"version_public_date": "2026-09-03",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2609.05139v1",
+			"title": "NS-ST-GraphRAG: Neuro-Symbolic Spatio-Temporal GraphRAG for Literary Knowledge Processing",
+			"authors": "Zheng Kui Lin",
+			"source": "https://arxiv.org/abs/2609.05139v1",
+			"version_public_date": "2026-09-04",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.04148v1",
+			"title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+			"authors": "Jie Wu , Zhenru Zhang , Beichen Zhang , Xuwu Wang , Yuhui Su , Mouxiang Chen , Peng Wang , Zhihai Wang , Que Shen , Hao Zhou , An Yang , Fei Huang , Yujiu Yang , Dayiheng Liu",
+			"source": "https://arxiv.org/abs/2609.04148v1",
+			"version_public_date": "2026-09-03",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.03430v1",
+			"title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+			"authors": "Heng Wang , Jielin Qiu , Wenting Zhao , Cheng Qian , Liangwei Yang , Jiawei Han , Heng Ji , Silvio Savarese , Shelby Heinecke , Huan Wang",
+			"source": "https://arxiv.org/abs/2609.03430v1",
+			"version_public_date": "2026-09-03",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.04010v1",
+			"title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+			"authors": "Subham Sekhar Sahoo , Lingjie Chen , Khiem Pham , Jonathan Geuter , Chaitanya Dwivedi , Varad Pimpalkhute , Yash Akhauri , Alexander Moreno , Mikhail Yurochkin , Zhenting Wang , Mostafa Elhoushi , Nolan Dey , Shane Bergsma , Joel Hestness , John Thickstun , Eric Xing , Zhengzhong Liu",
+			"source": "https://arxiv.org/abs/2609.04010v1",
+			"version_public_date": "2026-09-03",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.05295v1",
+			"title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+			"authors": "Yang Li , Semih Yavuz , Shafiq Joty",
+			"source": "https://arxiv.org/abs/2609.05295v1",
+			"version_public_date": "2026-09-04",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.05416v1",
+			"title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+			"authors": "Muyao Niu , Jixuan He , Ruihan Yu , Lian Fu , Yonghao Yu , Zheng-Hui Huang , Yifan Zhan , Fengbo Lan , Yongtao Ge , Yinqiang Zheng , Kaipeng Zhang , Zhixiang Wang",
+			"source": "https://arxiv.org/abs/2609.05416v1",
+			"version_public_date": "2026-09-04",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"source": "https://arxiv.org/pdf/2609.04494v1#page=10",
+			"item": "Table 1",
+			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
+		}
+	]
+}

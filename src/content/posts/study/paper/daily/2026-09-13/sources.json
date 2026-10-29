@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-09-13",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2609.11390v1",
+			"title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
+			"authors": "Peiyuan Gao , Gaoyuan Zhang , Haojie Qin , Yahui Sun , Qianyi Zhang , Yunhao Zhang , Zeyu Wang , Wei Lu",
+			"source": "https://arxiv.org/abs/2609.11390v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2609.08508v1",
+			"title": "WiDiff: Extracting Changes from Wikidata's Edit History",
+			"authors": "Carolina Cortés , Lisa Ehrlinger , Lorena Etcheverry , Felix Naumann",
+			"source": "https://arxiv.org/abs/2609.08508v1",
+			"version_public_date": "2026-09-08",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11801v1",
+			"title": "Thinking with Looped Flows",
+			"authors": "Ayhan Suleymanzade , Chanhyuk Lee , Floor Eijkelboom , Nicholas M. Boffi , İsmail İlkan Ceylan , Jinwoo Kim",
+			"source": "https://arxiv.org/abs/2609.11801v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.10745v1",
+			"title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+			"authors": "Parinthapat Pengpun , Simran Khanuja , Graham Neubig",
+			"source": "https://arxiv.org/abs/2609.10745v1",
+			"version_public_date": "2026-09-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11716v1",
+			"title": "Why Does Post-Training Quantization Work?",
+			"authors": "Yuxiang Chen , Michael Beyer , Jun Zhu , Jianfei Chen",
+			"source": "https://arxiv.org/abs/2609.11716v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11900v1",
+			"title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+			"authors": "Yunfei Ge , Anbang Liu , Qineng Wang , Johnalbert Garnica , Jianwen Lyu , Zihan Wang , Reuben Tan , Jianfeng Gao , Ruohan Zhang , Yining Hong , Jiajun Wu , Manling Li",
+			"source": "https://arxiv.org/abs/2609.11900v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.10715v1",
+			"title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+			"authors": "The Intern-NCP Team : Jiaqi Cao , Chiyu Chen , Shuang Cheng , Xu Cheng , Beiya Dai , Yufan Feng , Kewen Ge , Ruijun Ge , Jiayi Huang , Yang Jiao , Dahua Lin , Zhouhan Lin , Yifan Liu , Yuliang Liu , Biqing Qi , Mowen Ruan , Junzhe Shen , Yunchong Song , Hao Sun , Zhongbo Tian , Yixuan Wang , Rubin Wei , Jiaxin Xiong , Kangyu Yang , Qian Yao , Qi Zhang , Bowen Zhou",
+			"source": "https://arxiv.org/abs/2609.10715v1",
+			"version_public_date": "2026-09-09",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"source": "https://arxiv.org/pdf/2609.11390v1#page=3",
+			"item": "Figure 1",
+			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
+		}
+	]
+}

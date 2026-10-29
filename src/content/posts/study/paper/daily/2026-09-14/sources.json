@@ -1,0 +1,82 @@
+{
+	"digest_date": "2026-09-14",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2609.11674v1",
+			"title": "Geospatial AI, Dataverse Metadata, and the Study of Place-Based Government",
+			"authors": "Danny EBanks , Devika Jain",
+			"source": "https://arxiv.org/abs/2609.11674v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2609.11347v1",
+			"title": "Reification as a Transferable Vocabulary: Zero-Shot Link Prediction with Vanilla GNNs",
+			"authors": "Camille Pradel",
+			"source": "https://arxiv.org/abs/2609.11347v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11873v1",
+			"title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+			"authors": "Yi Duan , Ying Liu , Zirui Tang , Haodong Chen , Jun Zhou , Yumou Liu , Bangrui Xu , Yukai Wu , Sidi Chen , Yuhan Zhou , Haoyu Wang , Xiaoyou Yu , Shaokun Han , Xuzhou Zhu , Le Zhou , Bolin Lu , Wei Zhou , Jiachen Liu , Nuozhou Fang , Jiaxin Tian , Ruoyu Chen , Yuxuan Li , Kai Zuo , Kaiyan Zhang , Jiantao Qiu , Conghui He , Guoliang Li , Bowen Zhou , Zhiyuan Liu , Zhoufutu Wen , Jihua Kang , Xuanhe Zhou , Fan Wu",
+			"source": "https://arxiv.org/abs/2609.11873v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-nd/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11929v1",
+			"title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+			"authors": "Haiwen Diao , Jiahao Wang , Chenjing Ding , Hanming Deng , Jiangnan Chen , Ruixi Zhang , Ruohui Wang , Wenwen Tong , Xiangyu Fan , Yubo Wang , Yue Zhu , Yuwei Niu , Zhengqi Bai , Zhiqian Lin , Zhitao Yang , Zhongang Cai , Bo Yang , Chen Feng , Chengguang Lv , Guangjia Liu , Guanlin Wang , Hanyu Zhang , Haojia Yu , Hongcan Xiao , Hongli Wang , Huan Wu , Huaping Zhong , Jian Fang , Jianan Fan , Jiaqi Li , Jiefan Lu , Jing Zuo , Jingcheng Ni , Junxiang Xu , Linjun Dai , Mutian Xu , Peishen Yan , Penghao Wu , Ruijie Mao , Ruisi Wang , Shihao Bai , Shuang Yang , Shuya Yang , Shuyan Zheng , Silei Wu , Siying Li , Tao Chu , Tianbo Zhong , Tongxi Zhou , Weichao Luo , Weichen Fan , Wenhao Jia , Wenjie Gao , Xiangli Kong , Yan Li , Yang Yong , Zimo Wen , Zixuan Qian , Wenxiu Sun , Ruihao Gong , Quan Wang , Lewei Lu , Lei Yang , Ziwei Liu , Dahua Lin",
+			"source": "https://arxiv.org/abs/2609.11929v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11638v1",
+			"title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+			"authors": "Jintao Zhang , Kai Jiang , Jintao Chen , Xu Wang , Deyuan Liu , Jungang Li , Dechuang Chen , Ming Lin , Jingjiang Zhou , Haopeng Jin , Qi Jia , Xiaohang Wang , Yaole Wang , Zhanqiang Zhang , Ran Li , Zhengkun Huang , Shuyue Xiong , Yuji Wang , Zikun Dai , Hui He , Yang Luo , Mang Ning , Weiqi Feng , Chengyang Ye , Xinyue Lin , Min Zhao , Hongzhou Zhu , Hengkai Tan , Zeyuan Wang , Chendong Xiang , Kaiwen Zheng , Zhijie Deng , Fan Bao , Jianfei Chen , Jun Zhu",
+			"source": "https://arxiv.org/abs/2609.11638v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11083v1",
+			"title": "Learning Realistic Athletic Sprinting Without Demonstrations",
+			"authors": "William Wang , Nicholas Bianco , Guy Tevet , Jennifer Hicks , C. Karen Liu , Scott Delp , Kayvon Fatahalian",
+			"source": "https://arxiv.org/abs/2609.11083v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"dataverse-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.11674v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"crop_pdf_points": [70, 65, 542, 383],
+			"image_size": [1180, 796],
+			"sha256": "6a960ed7d48a7dce09637cc32350f0b7ded95f11cca339dedeb4c2eec1e84263",
+			"source_pdf_sha256": "96cfeafaeb0e71d53499c7b29311f10a343b5c18646987ee9fc59ff9c09c4bbe",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "dataverse-figure1.png",
+			"authors": "Danny EBanks , Devika Jain",
+			"version": "2609.11674v1",
+			"license_evidence": "https://arxiv.org/abs/2609.11674v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-09-04",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2609.02364v1",
+			"title": "Towards a Foundational Ontology for Identifying and Resolving Contradictions in Dialogue-based Human-Robot Interactions",
+			"authors": "Maitreyee Tewari , Michele Persiani",
+			"source": "https://arxiv.org/abs/2609.02364v1",
+			"version_public_date": "2026-09-02",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2609.02216v1",
+			"title": "PEARL: Path-Entity Aligned Relational Learning with Contextual Subgraphs for Inductive Knowledge Graph Completion",
+			"authors": "Yunchi Yang , Longlong Li , Cunquan Qu",
+			"source": "https://arxiv.org/abs/2609.02216v1",
+			"version_public_date": "2026-09-02",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.01938v1",
+			"title": "One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry",
+			"authors": "Satvik Sharma , Samrat Sahoo , Huang Huang , Fei-Fei Li Jiajun Wu , Dorsa Sadigh , Jeannette Bohg",
+			"source": "https://arxiv.org/abs/2609.01938v1",
+			"version_public_date": "2026-09-01",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.02886v1",
+			"title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+			"authors": "Junchao Huang , Guian Fang , Shengju Qian , Xianghao Kong , Zhuoran Zhao , Wei Huang , Yihua Du , Zixin Zhang , Justin Cui , Yuchao Gu , Yukang Chen , Xinting Hu , Tianyu He , Shaoshuai Shi , Zhuotao Tian , Xin Wang , Mike Zheng Shou , Li Jiang",
+			"source": "https://arxiv.org/abs/2609.02886v1",
+			"version_public_date": "2026-09-02",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.01481v1",
+			"title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+			"authors": "Haoyang Yan , Min-le Su , Hangfan Zhang , Zhanhao Li , Chen Zhang , Shao Zhang , Yang Chen , Lei Bai , Shuyue Hu",
+			"source": "https://arxiv.org/abs/2609.01481v1",
+			"version_public_date": "2026-09-01",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.02459v1",
+			"title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+			"authors": "Austin Tudor David Andrews , Liam Wilkinson , Jamie Heagerty , Harry Coppock , Jakob Nicolaus Foerster , Rui Ponte Costa",
+			"source": "https://arxiv.org/abs/2609.02459v1",
+			"version_public_date": "2026-09-02",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.01532v1",
+			"title": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
+			"authors": "Jacqueline He , Howard Yen , Shuyue Stella Li , Margaret Li , Hanqing Zeng , Yinglong Xia , Benyu Zhang , Zhuokai Zhao , Qiang Zhang , Pang Wei Koh , Luke Zettlemoyer , Wen-tau Yih",
+			"source": "https://arxiv.org/abs/2609.01532v1",
+			"version_public_date": "2026-09-01",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"source": "https://arxiv.org/pdf/2609.02364v1#page=2",
+			"item": "Figure 1",
+			"reason": "Figure-specific third-party copyright notice: Esteban Guerrero; adaptation rights not independently confirmed."
+		}
+	]
+}

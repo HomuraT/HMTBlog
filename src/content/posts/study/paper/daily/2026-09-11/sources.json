@@ -1,0 +1,91 @@
+{
+	"digest_date": "2026-09-11",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2609.11493v1",
+			"title": "From Document Silos to Process Intelligence: A Dual-Layer Knowledge Graph for CMC Process Development",
+			"authors": "Reza Amirmoshiri , Faryad Sahneh , Yasser Jangjou",
+			"source": "https://arxiv.org/abs/2609.11493v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2609.10430v1",
+			"title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
+			"authors": "Kostia Kudriavtsev , Parvez Rafi , Sha Sundaram",
+			"source": "https://arxiv.org/abs/2609.10430v1",
+			"version_public_date": "2026-09-09",
+			"license_links": ["http://creativecommons.org/licenses/by-nc-nd/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.10522v1",
+			"title": "Show-Harness: Just a VLM Agent Can Play Robots",
+			"authors": "Yanzhe Chen , Zechen Bai , Zhijun Cao , Wenzheng Zeng , Kevin Qinghong Lin , Yiqi Lin , Guoqiang Liang , Kevin Yuchen Ma , Qiming Huang , Mike Zheng Shou",
+			"source": "https://arxiv.org/abs/2609.10522v1",
+			"version_public_date": "2026-09-09",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.10464v1",
+			"title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+			"authors": "Andy Zeyi Liu , Haoran Sun , Lucas Baker , Randall Balestriero , John Sous",
+			"source": "https://arxiv.org/abs/2609.10464v1",
+			"version_public_date": "2026-09-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.10540v1",
+			"title": "Programmable World Model",
+			"authors": "Zheng-Hui Huang , Guixu Lin , Jiacheng Lin , Yi-Chuan Huang , Ruihan Yu , Muyao Niu , Siqi Yang , Yu-Lun Liu , Yung-Yu Chuang , Kaipeng Zhang , Zhixiang Wang",
+			"source": "https://arxiv.org/abs/2609.10540v1",
+			"version_public_date": "2026-09-09",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.08798v1",
+			"title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+			"authors": "Youngrok Park , Sangmin Bae , Hojung Jung , Jongwoo Ko , Yunseon Choi , Young Jin Kim , Pashmina Cameron , Aaron Courville , Se-Young Yun",
+			"source": "https://arxiv.org/abs/2609.08798v1",
+			"version_public_date": "2026-09-08",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.01343v1",
+			"title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+			"authors": "Shaowen Wang , Ge Zhang , Kairong Luo , Yuhao Wu , Shaofan Liu , Jiaheng Liu , Wenhao Huang , Shen Yan , Jian Li",
+			"source": "https://arxiv.org/abs/2609.01343v1",
+			"version_public_date": "2026-09-01",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"cmc-figure2.png": {
+			"source": "https://arxiv.org/pdf/2609.11493v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"crop_pdf_points": [70, 338, 542, 690],
+			"image_size": [1180, 880],
+			"sha256": "32430be2d34351b5089972d86395fb58b59c07bfdfa9a80ce5c064edadd1e310",
+			"source_pdf_sha256": "e8f831de0b7a46d0555f8db96bed2652ed4a44e8abfe41ba6e4d74131d011df1",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "cmc-figure2.png",
+			"authors": "Reza Amirmoshiri , Faryad Sahneh , Yasser Jangjou",
+			"version": "2609.11493v1",
+			"license_evidence": "https://arxiv.org/abs/2609.11493v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"digest_date": "2026-09-12",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"fulltext_featured_count": 1,
+	"roster_experiments_all_verified": false,
+	"version_policy": "Explicit v1 public by archive date. No later revisions silently included.",
+	"papers": [
+		{
+			"id": "2609.11569v1",
+			"title": "Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)",
+			"authors": "Harshdeep Singh , Yurui Zhu , Giovanni Colavizza , Matteo Romanello",
+			"source": "https://arxiv.org/abs/2609.11569v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Featured methods, results and limits checked against full text; no independent reproduction."
+		},
+		{
+			"id": "2609.11403v1",
+			"title": "From Queries to Narratives: Cultural Heritage Data Stories for Knowledge Graph Exploration and Quality Assessment",
+			"authors": "Tabea Tietz , Torsten Schrade , Etienne Posthumus , Linnaea Söhn , Jonatan Jalle Steller , Jörg Waitelonis , Harald Sack",
+			"source": "https://arxiv.org/abs/2609.11403v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11917v1",
+			"title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+			"authors": "Atindra Jha , Margaret Li , Jure Leskovec , Percy Liang , Luke Zettlemoyer",
+			"source": "https://arxiv.org/abs/2609.11917v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11875v1",
+			"title": "UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling",
+			"authors": "Wei Li , Rui Shao , Jie He , Lingsen Zhang , Ziwei Liu , Liqiang Nie",
+			"source": "https://arxiv.org/abs/2609.11875v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://arxiv.org/licenses/nonexclusive-distrib/1.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11548v1",
+			"title": "World in World: Explore the World with World Models",
+			"authors": "Chenxi Song , Yanming Yang , Chi Zhang",
+			"source": "https://arxiv.org/abs/2609.11548v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11028v1",
+			"title": "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+			"authors": "Shenghan Zheng , Zonglin Di , Yimin Liu , Kyoung Whan Choe , Jiankai Sun , Heguang Lin , Penghao Jiang , Yifeng He , Xiao Cheng , Jicheng Wang , Wenbo Chen , Alex Yates , Yinzhe Zhao , Bingran You , Yuan Gao , Ayush Munot , Shubham Gaur , Zhe Ye , Hao Wang , Xiangyi Li , Dawn Song , Christophe Hauser",
+			"source": "https://arxiv.org/abs/2609.11028v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		},
+		{
+			"id": "2609.11042v1",
+			"title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+			"authors": "Junyao Yang , Yucheng Shi , Zhongzhi Li , Ruhan Wang , Zongxia Li , Haitao Mi , Leowei Liang",
+			"source": "https://arxiv.org/abs/2609.11042v1",
+			"version_public_date": "2026-09-10",
+			"license_links": ["http://creativecommons.org/licenses/by/4.0/"],
+			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
+		}
+	],
+	"figures": {
+		"exygen-figure1.png": {
+			"source": "https://arxiv.org/pdf/2609.11569v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"crop_pdf_points": [70, 390, 525, 603],
+			"image_size": [1138, 533],
+			"sha256": "b86471434279e4a5aec56a260ba0a48025eb5582de319cb7def3f8a789517727",
+			"source_pdf_sha256": "1cb97c981dad7f8b00cb1a71f72a9845d0fe1db764a2c30c820302a6fa993532",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"filename": "exygen-figure1.png",
+			"authors": "Harshdeep Singh , Yurui Zhu , Giovanni Colavizza , Matteo Romanello",
+			"version": "2609.11569v1",
+			"license_evidence": "https://arxiv.org/abs/2609.11569v1",
+			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		}
+	}
+}
