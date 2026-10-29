@@ -1,0 +1,88 @@
+{
+	"digest_date": "2026-06-11",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.11910v1",
+			"title": "An Ontology-Guided Multi-Anchor Graph Retrieval Framework for Traffic Legal Liability Determination",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.11910v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.11722v1",
+			"title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.11722v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.09659v1",
+			"title": "End-to-End Context Compression at Scale",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09659v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.10651v1",
+			"title": "Kwai Keye-VL-2.0 Technical Report",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.10651v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.11087v1",
+			"title": "Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.11087v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.12403v1",
+			"title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.12403v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.12402v1",
+			"title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.12402v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.12406v1",
+			"title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.12406v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.12411v1",
+			"title": "Context-Driven Incremental Compression for Multi-Turn Dialogue Generation",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.12411v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"traffic-omagr-figure1.png": {
+			"source": "https://arxiv.org/pdf/2606.11910v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"authors": "Xu Li、Shuqi Tian、Xun Han、Kuncheng Zhao、Xinyi Li",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.11910v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [332, 285, 1208, 735],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [876, 450],
+			"sha256": "b10bb40bee438d7cd51db77b080af5c2561639c676b72b7ff57002e259263a8d",
+			"source_pdf_sha256": "92690a543163b3fd20610d029c9938e6878b3338f2b811f027e6e10f5a3baa8b"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"digest_date": "2026-06-14",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.11560v1",
+			"title": "LLMs+Graphs: Toward Graph-Native, Synergistic AI Systems",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.11560v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.12370v1",
+			"title": "Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.12370v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13361v1",
+			"title": "Can I Buy Your KV Cache?",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13361v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13681v1",
+			"title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13681v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13675v2",
+			"title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.13675v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13674v2",
+			"title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
+			"version_submitted": "2026-06-13",
+			"source": "https://arxiv.org/abs/2606.13674v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.12360v2",
+			"title": "Anatomy of Post-Training: Using Interpretability to Characterize Data and Shape the Learning Signal",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.12360v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"llms-graphs-outline.png": {
+			"source": "https://arxiv.org/pdf/2606.11560v1#page=2",
+			"item": "Section 3 Outline（无编号图）",
+			"pdf_page": 2,
+			"authors": "Arijit Khan、Longxu Sun、Xin Huang",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.11560v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [332, 1330, 1210, 1670],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [878, 340],
+			"sha256": "3c1394be617922eb1c7b33c930ef0ee47542f6c62d57baa8161df8c051aaa1af",
+			"source_pdf_sha256": "e3972846d15fe248d85ff1ec0044a34db4f0d9aed5d1129e5a74bd41fa3824b6"
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"digest_date": "2026-06-09",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.09134v1",
+			"title": "From USD Scenes to Knowledge Graphs: Zero-Shot Ontology Grounding with LLMs",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09134v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.07094v1",
+			"title": "MetaConfigurator: AI-Assisted RDF Authoring from JSON Data",
+			"version_submitted": "2026-06-05",
+			"source": "https://arxiv.org/abs/2606.07094v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.09828v1",
+			"title": "Latent Spatial Memory for Video World Models",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09828v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.09669v1",
+			"title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09669v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.08702v1",
+			"title": "ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems",
+			"version_submitted": "2026-06-07",
+			"source": "https://arxiv.org/abs/2606.08702v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.09079v2",
+			"title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.09079v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.09032v1",
+			"title": "Bridging the Agent-World Gap: Text World Models for LLM-based Agents",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09032v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.09498v1",
+			"title": "Self-Harness: Harnesses That Improve Themselves",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09498v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.09134v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2606.09134v1#page=1",
+			"reason": "Only arXiv non-exclusive distribution license established."
+		}
+	]
+}

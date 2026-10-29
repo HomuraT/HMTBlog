@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-06-15",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2605.20066v1",
+			"title": "Text-to-SPARQL Generation with Reinforcement Learning: A GRPO-based Approach on DBLP",
+			"version_submitted": "2026-05-19",
+			"source": "https://arxiv.org/abs/2605.20066v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.10921v1",
+			"title": "Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.10921v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.03303v2",
+			"title": "LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks",
+			"version_submitted": "2026-06-03",
+			"source": "https://arxiv.org/abs/2606.03303v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13643v1",
+			"title": "Recursive Agent Harnesses",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13643v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13663v1",
+			"title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13663v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13120v1",
+			"title": "EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13120v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.12871v1",
+			"title": "DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.12871v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13652v1",
+			"title": "World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13652v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"text-sparql-table1.png": {
+			"source": "https://arxiv.org/pdf/2605.20066v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"authors": "Jann Pfeifer、Debayan Banerjee、Ricardo Usbeck",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2605.20066v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [325, 382, 1205, 650],
+			"rendered_page_size": [1530, 1980],
+			"image_size": [880, 268],
+			"sha256": "6561434a2ffbdc7dedf1c00786c2f039f119960162ab4235fe0dc86a20b81938",
+			"source_pdf_sha256": "f100e2a33caf6b4f1397a1a86edfb6fbaabd0a814ff2cf317a985b26f81ca42e"
+		}
+	}
+}

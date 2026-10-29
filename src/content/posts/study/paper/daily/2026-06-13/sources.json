@@ -1,0 +1,81 @@
+{
+	"digest_date": "2026-06-13",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.13669v1",
+			"title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13669v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.13464v2",
+			"title": "Ontology Memory-Augmented ASR Correction for Long Text-Speech Interleaved Conversations",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.13464v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13392v2",
+			"title": "MiniMax Sparse Attention",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.13392v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13662v2",
+			"title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.13662v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.12195v1",
+			"title": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.12195v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13673v1",
+			"title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13673v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13672v1",
+			"title": "$\\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+			"version_submitted": "2026-06-11",
+			"source": "https://arxiv.org/abs/2606.13672v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.13679v2",
+			"title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+			"version_submitted": "2026-06-12",
+			"source": "https://arxiv.org/abs/2606.13679v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"agents-k1-figure2.png": {
+			"source": "https://arxiv.org/pdf/2606.13669v1#page=6",
+			"item": "Figure 2",
+			"pdf_page": 6,
+			"authors": "Zongsheng Cao 等",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2606.13669v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [150, 265, 1340, 1502],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1190, 1237],
+			"sha256": "41b98e08aae203b4e533ea6b5941af6b869f1347ab6f648b15aee5d725610bde",
+			"source_pdf_sha256": "5db948eecabf69811ec8947752b6e4a299ee062c7e244aa0f4ad315b49c63ed9"
+		}
+	}
+}

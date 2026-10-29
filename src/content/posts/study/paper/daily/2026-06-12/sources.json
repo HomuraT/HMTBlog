@@ -1,0 +1,59 @@
+{
+	"digest_date": "2026-06-12",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2606.07094v1",
+			"title": "MetaConfigurator: AI-Assisted RDF Authoring from JSON Data",
+			"version_submitted": "2026-06-05",
+			"source": "https://arxiv.org/abs/2606.07094v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.11722v1",
+			"title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.11722v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.11926v1",
+			"title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+			"version_submitted": "2026-06-10",
+			"source": "https://arxiv.org/abs/2606.11926v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.11187v1",
+			"title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.11187v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.10875v1",
+			"title": "Pushing the Limits of LLM Tool Calling via Experiential Knowledge Integration and Activation",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.10875v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.11119v1",
+			"title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.11119v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {},
+	"figure_omissions": [
+		{
+			"arxiv": "2606.07094v1",
+			"item": "Figure 1",
+			"source": "https://arxiv.org/pdf/2606.07094v1#page=3",
+			"reason": "Only arXiv non-exclusive distribution license established."
+		}
+	]
+}

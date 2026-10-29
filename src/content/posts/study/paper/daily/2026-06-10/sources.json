@@ -1,0 +1,60 @@
+{
+	"digest_date": "2026-06-10",
+	"reviewed_date": "2026-10-29",
+	"independently_reproduced": false,
+	"version_policy": "Explicit historical v1/v2, each version submission no later than digest date; recommendation date is not publication date.",
+	"papers": [
+		{
+			"arxiv": "2604.03496v1",
+			"title": "Beyond Predefined Schemas: TRACE-KG for Context-Enriched Knowledge Graphs from Complex Documents",
+			"version_submitted": "2026-04-03",
+			"source": "https://arxiv.org/abs/2604.03496v1",
+			"verification_scope": "Cited method and evaluation passages checked against historical HTML and PDF"
+		},
+		{
+			"arxiv": "2606.09079v2",
+			"title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.09079v2",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.09498v1",
+			"title": "Self-Harness: Harnesses That Improve Themselves",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09498v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.11119v1",
+			"title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.11119v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2606.11187v1",
+			"title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+			"version_submitted": "2026-06-09",
+			"source": "https://arxiv.org/abs/2606.11187v1",
+			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
+		}
+	],
+	"figures": {
+		"trace-kg-figure2.png": {
+			"source": "https://arxiv.org/pdf/2604.03496v1#page=8",
+			"item": "Figure 2",
+			"pdf_page": 8,
+			"authors": "Mohammad Sadeq Abolhasani、Yang Ba、Yixuan He、Rong Pan",
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"license_evidence": "https://arxiv.org/html/2604.03496v1",
+			"change": "Cropped complete original table/figure with labels; no changes to content or colors.",
+			"crop_pixels": [175, 440, 1280, 842],
+			"rendered_page_size": [1489, 2105],
+			"image_size": [1105, 402],
+			"sha256": "230fe3be3faa8fa22cbaf61d1aefa0518965534643ac34f4fed6d6c1a763cb49",
+			"source_pdf_sha256": "2733c00de960f979667f3867979d3b30dc2c10216f07fe534b2b8a292c5755ef"
+		}
+	}
+}
