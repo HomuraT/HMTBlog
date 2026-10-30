@@ -20,9 +20,9 @@ lang: 'zh-CN'
 
 ## 1. 学习预警：让每条警报回到原始证据
 
-**论文：**[An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning](https://arxiv.org/abs/2610.36820v1)
+**论文**：[An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning](https://arxiv.org/abs/2610.36820v1)
 
-**作者：**Le, Ngoc Luyen；Abel, Marie-Hélène；Laforge, Bertrand。**机构：**Gamaizer；Université de technologie de Compiègne / CNRS / Heudiasyc；Sorbonne Université / CNRS / LPNHE。**来源：**arXiv 专题补充。
+**作者**：Le, Ngoc Luyen；Abel, Marie-Hélène；Laforge, Bertrand。**机构**：Gamaizer；Université de technologie de Compiègne / CNRS / Heudiasyc；Sorbonne Université / CNRS / LPNHE。**来源**：arXiv 专题补充。
 
 真正值得借鉴的是实验把预测和证据治理拆开。在同样的特征和调参预算下，图谱中间层没有改变模型输出，却把警报、特征、归因、证据项和原始记录连起来。这对 OBDA/VKG 工程有启发：语义层的收益可以通过追溯与校验衡量，不必把所有价值都包装成准确率提升。
 
@@ -30,7 +30,7 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 更有信息量的是负面边界：上下文覆盖与可追溯性均为 1.000，但 Direct@3 从 0.764 降到 0.648，Fid@3 从 0.898 降到 0.744。没有活动本身难以对应一条直接活动记录，解释策略也会选择不同类型的证据。可追溯、解释忠实与预测正确是三个问题，不能混用。历史回放尚不等于真实流式集成，教师是否因此更好地干预也未被验证。
 
-**作者资源：**[作者代码](https://github.com/lengocluyen/ldt-early-warning)。
+**作者资源**：[作者代码](https://github.com/lengocluyen/ldt-early-warning)。
 
 ![增量学习者数字孪生的预测与证据追溯流程](./images/ldt-figure1.png)
 
@@ -38,9 +38,9 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 ## 2. SynthAPI：Agent 训练数据该怎样扩展
 
-**论文：**[Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis](https://arxiv.org/abs/2610.37648v1)
+**论文**：[Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis](https://arxiv.org/abs/2610.37648v1)
 
-**作者：**Szot, Andrew；Abnar, Samira；Attia, Omar；Kazerouni, Abbas；Kirchhof, Michael；Hsieh, Cheng-Yu；等。**机构：**Apple。**来源：**AlphaXiv。
+**作者**：Szot, Andrew；Abnar, Samira；Attia, Omar；Kazerouni, Abbas；Kirchhof, Michael；Hsieh, Cheng-Yu；等。**机构**：Apple。**来源**：AlphaXiv。
 
 如果有预算再生成三万条 Agent 轨迹，应增加题目措辞、增加应用种类，还是更换数据库状态？SynthAPI 把这些选择变成可控实验：工具背后有可执行 Python 代码，环境状态会随操作变化，而不是由语言模型随口模拟工具返回。
 
@@ -48,13 +48,13 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 这也提示不要把所有提升归给单一因素：上述优化同时改变多个控制量，单因素分析要回到论文对应实验。SynthAPI-Big 的 4B Test-C 达到 66.4%，但它还增加数据并训练四轮，与同预算配比实验不是一回事。规律外推仍受合成环境、训练模型与基准范围限制，生产工具的权限、失败恢复和长期状态管理需要另外验证。
 
-**原图入口：**[原论文第 6 页](https://arxiv.org/pdf/2610.37648v1#page=6)。原文采用 [arXiv 非独占分发许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)，本篇仅链接，不转载原图。
+**原图入口**：[原论文第 6 页](https://arxiv.org/pdf/2610.37648v1#page=6)。原文采用 [arXiv 非独占分发许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)，本篇仅链接，不转载原图。
 
 ## 3. CARD：迁移人手动作时保住接触和力度
 
-**论文：**[CARD: Contact-Anchored Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2610.36539v1)
+**论文**：[CARD: Contact-Anchored Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2610.36539v1)
 
-**作者：**Dai, Cunxi；He, Botao；Hogan, Francois R；Pan, Wei；Fu, Rao；Hsieh, Wen-Han；等。**机构：**Carnegie Mellon University；Amazon Frontier AI & Robotics；University of Maryland, College Park；UC Berkeley。**来源：**AlphaXiv。
+**作者**：Dai, Cunxi；He, Botao；Hogan, Francois R；Pan, Wei；Fu, Rao；Hsieh, Wen-Han；等。**机构**：Carnegie Mellon University；Amazon Frontier AI & Robotics；University of Maryland, College Park；UC Berkeley。**来源**：AlphaXiv。
 
 机械手模仿人的动作，难点不只是关节角度不同。挤瓶子需要施力，举杯子需要摩擦接触，姿势看似正确仍可能让物体滑走。CARD 先把视频、手套或动作捕捉示范转成统一的手—接触表示，再根据机械手的语义部位映射求出关节与接触力目标。主要迁移流程不要求物体模型或仿真器；论文另外讨论的物理仿真变体不应与它混为一谈。
 
@@ -62,15 +62,15 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 论文所谓开放环回放，指任务动作轨迹没有在线重新规划，内层依然用触觉纠正力。物体被大幅推离预期位置时，这种控制仍不能恢复。不同手型也不是全部使用同一传感条件：无触觉的 Unitree Dex3 使用了动作缩放。因此跨本体形态迁移展示与严格同条件比较需要分开读。
 
-**作者资源：**[作者项目页](https://card-retargeting.github.io/)。
+**作者资源**：[作者项目页](https://card-retargeting.github.io/)。
 
-**原图入口：**[原论文第 6 页](https://arxiv.org/pdf/2610.36539v1#page=6)。原文采用 [arXiv 非独占分发许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)，本篇仅链接，不转载原图。
+**原图入口**：[原论文第 6 页](https://arxiv.org/pdf/2610.36539v1#page=6)。原文采用 [arXiv 非独占分发许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)，本篇仅链接，不转载原图。
 
 ## 4. Know, then Draw：先学语义，再学画细节
 
-**论文：**[Know, then Draw: A New Learning Paradigm for Visual Generation](https://arxiv.org/abs/2610.37626v1)
+**论文**：[Know, then Draw: A New Learning Paradigm for Visual Generation](https://arxiv.org/abs/2610.37626v1)
 
-**作者：**Mao, Yucheng；Ge, Chongjian；Tu, Zhuowen；Tan, Hao；Jiang, Hanwen。**机构：**University of California, San Diego；Adobe Research。**来源：**AlphaXiv。
+**作者**：Mao, Yucheng；Ge, Chongjian；Tu, Zhuowen；Tan, Hao；Jiang, Hanwen。**机构**：University of California, San Diego；Adobe Research。**来源**：AlphaXiv。
 
 自回归和扩散模型经常被当作二选一方案。这篇论文换了问题：是否可以让前者负责知道画面应该有什么，让后者负责画出纹理和像素？语义分词器 Semantic-LM 仅通过语言监督学习，不带图像解码器或重建损失；自回归模型预测这种表示，扩散阶段再完成渲染。
 
@@ -84,9 +84,9 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 ## 5. FVQ：离散视觉表示一定会丢掉理解能力吗
 
-**论文：**[Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?](https://arxiv.org/abs/2610.37662v1)
+**论文**：[Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?](https://arxiv.org/abs/2610.37662v1)
 
-**作者：**Zou, Jialv；Li, Xiaotong；Yue, Zhengrong；Huang, Xu；Luo, Yaxin；Yan, Wenhao；等。**机构：**华中科技大学；美团 LongCat；上海交通大学；北京大学；MBZUAI；清华大学；香港中文大学。**来源：**AlphaXiv。
+**作者**：Zou, Jialv；Li, Xiaotong；Yue, Zhengrong；Huang, Xu；Luo, Yaxin；Yan, Wenhao；等。**机构**：华中科技大学；美团 LongCat；上海交通大学；北京大学；MBZUAI；清华大学；香港中文大学。**来源**：AlphaXiv。
 
 视觉 token 的量化误差大，是否一定理解得差？论文表 1 给出了反例：普通 VQ 的特征重建 MSE 为 0.027，八个理解基准的平均分为 51.2；只保留交替码本的 RVQ Odd，MSE 上升到 0.246，理解均分却达到 60.7。此处均值将 OCRBench 除以 10 后与其余指标等权计算，不是概率，也不是所有视觉能力的统一尺度。
 
@@ -94,9 +94,9 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 论文最终工业训练模型的若干理解结果接近连续表示，但不能由此证明数学意义的语义无损。主模型比较的训练数据与外部模型并不完全配对；论文也提供较受控的 LLaVA-OneVision SFT 版本，但该表的部分基线仍来自前作，基础语言模型也有差异。我的判断是将其视为视觉接口设计的证据，而不是离散表示已在所有任务中取代连续表示的结论。
 
-**作者资源：**[作者代码](https://github.com/hustvl/FVQ) · [作者项目页](https://doctor-james.github.io/FVQ-Page/)。
+**作者资源**：[作者代码](https://github.com/hustvl/FVQ) · [作者项目页](https://doctor-james.github.io/FVQ-Page/)。
 
-**原图入口：**[原论文第 3 页](https://arxiv.org/pdf/2610.37662v1#page=3)。原文采用 [arXiv 非独占分发许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)，本篇仅链接，不转载原图。
+**原图入口**：[原论文第 3 页](https://arxiv.org/pdf/2610.37662v1#page=3)。原文采用 [arXiv 非独占分发许可](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)，本篇仅链接，不转载原图。
 
 ## 我会怎样安排阅读顺序
 
