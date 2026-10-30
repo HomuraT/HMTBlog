@@ -1,0 +1,28 @@
+[
+	{
+		"paper": "2610.36820v1",
+		"title": "An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning",
+		"authors": "Le, Ngoc Luyen；Abel, Marie-Hélène；Laforge, Bertrand",
+		"figure": "Figure 1",
+		"pdf_page": 6,
+		"source": "https://arxiv.org/pdf/2610.36820v1#page=6",
+		"license": "https://creativecommons.org/licenses/by/4.0/",
+		"crop_pdf_points": [130, 112, 487, 305],
+		"transformations": ["PDF rasterization", "rectangular crop only"],
+		"image": "images/ldt-figure1.png",
+		"sha256": "be47746f65430e4544cccfa42229fa4b7c0b138284dfe3ccf1059cbfe9f11e50"
+	},
+	{
+		"paper": "2610.37626v1",
+		"title": "Know, then Draw: A New Learning Paradigm for Visual Generation",
+		"authors": "Mao, Yucheng；Ge, Chongjian；Tu, Zhuowen；Tan, Hao；Jiang, Hanwen",
+		"figure": "Figure 2",
+		"pdf_page": 3,
+		"source": "https://arxiv.org/pdf/2610.37626v1#page=3",
+		"license": "https://creativecommons.org/licenses/by/4.0/",
+		"crop_pdf_points": [105, 48, 505, 299],
+		"transformations": ["PDF rasterization", "rectangular crop only"],
+		"image": "images/know-draw-figure2.png",
+		"sha256": "d65520264184aa3df8b5253e87597adec8f721532e2583903588388b5055cd09"
+	}
+]
