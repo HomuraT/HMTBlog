@@ -76,6 +76,119 @@
 			"image_size": [900, 355],
 			"sha256": "685073b20d587298829d0fe813312d3879757f3514219bb05ce8b7579456b32b",
 			"source_pdf_sha256": "0a3eae6894fc4056f6dae1be8b21dcc0779ee8173f0597d879e47b4286870ed7"
+		},
+		"paper-260501250-figure1.png": {
+			"authors": [
+				"Ma, Sai",
+				"Li, Zhuang",
+				"Li, Sichao",
+				"Xu, Xinyue",
+				"Zhu, Ruibiao",
+				"Boston, Tony",
+				"Taylor, John A."
+			],
+			"paper_title": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
+			"source": "https://arxiv.org/pdf/2605.01250v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 67.00222778320312, 545.6647338867188, 351.2770690917969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b1097f56921f03e9f26f3b60fbc00e5489bff63c9bd604eadde39bcfadc60521",
+			"source_pdf_sha256": "d8eaaa77d7b6e7faf307f153c3e7b8b759f8b77bfea3ace719d3b264da89012a"
+		},
+		"paper-260501250-table2.png": {
+			"authors": [
+				"Ma, Sai",
+				"Li, Zhuang",
+				"Li, Sichao",
+				"Xu, Xinyue",
+				"Zhu, Ruibiao",
+				"Boston, Tony",
+				"Taylor, John A."
+			],
+			"paper_title": "EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents",
+			"source": "https://arxiv.org/pdf/2605.01250v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [67, 73, 546, 260],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ec17acff356fdbf0462a4bcd9c78ae90f4c21b6cb182a764f1f35c23a67e239b",
+			"source_pdf_sha256": "d8eaaa77d7b6e7faf307f153c3e7b8b759f8b77bfea3ace719d3b264da89012a"
+		},
+		"paper-260401344-figure1.png": {
+			"authors": [
+				"Watkiss-Leek, Elliott",
+				"Alharbi, Reham",
+				"Rostron, Harry",
+				"Ng, Andrew",
+				"Johnson, Ewan",
+				"Mitchell, Andrew",
+				"Payne, Terry R.",
+				"Tamma, Valentina",
+				"de Berardinis, Jacopo"
+			],
+			"paper_title": "IDEA2: Expert-in-the-loop competency question elicitation for collaborative ontology engineering",
+			"source": "https://arxiv.org/pdf/2604.01344v1#page=6",
+			"item": "Figure 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [130, 123, 486, 372],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3bc9813fc65c9f353358a788ff574f21817c7b7fa6c75d66410d824379a9ff8d",
+			"source_pdf_sha256": "993c146f9236898a04dc93ab9773d9a24843b0374a2c533649316863611731b5"
+		},
+		"paper-260401344-table2.png": {
+			"authors": [
+				"Watkiss-Leek, Elliott",
+				"Alharbi, Reham",
+				"Rostron, Harry",
+				"Ng, Andrew",
+				"Johnson, Ewan",
+				"Mitchell, Andrew",
+				"Payne, Terry R.",
+				"Tamma, Valentina",
+				"de Berardinis, Jacopo"
+			],
+			"paper_title": "IDEA2: Expert-in-the-loop competency question elicitation for collaborative ontology engineering",
+			"source": "https://arxiv.org/pdf/2604.01344v1#page=11",
+			"item": "Table 2",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [130, 122, 486, 274],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c0d83b8b4b12a82acb759d698e1f5dd16bb3a5003ffdbac3476710521c10c084",
+			"source_pdf_sha256": "993c146f9236898a04dc93ab9773d9a24843b0374a2c533649316863611731b5"
+		},
+		"paper-260500737-table2.png": {
+			"authors": [
+				"Wu, Qinyuan",
+				"Das, Soumi",
+				"Amani, Mahsa",
+				"Nag, Arijit",
+				"Lee, Seungeon",
+				"Gummadi, Krishna P.",
+				"Ravichander, Abhilasha",
+				"Zafar, Muhammad Bilal"
+			],
+			"paper_title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling",
+			"source": "https://arxiv.org/pdf/2605.00737v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 63, 510, 232],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "272dc148ae0649c75e21315ca3b3c31c9010f5643137f8d450905802f02ee53b",
+			"source_pdf_sha256": "0a3eae6894fc4056f6dae1be8b21dcc0779ee8173f0597d879e47b4286870ed7"
 		}
-	}
+	},
+	"published_paper_count": 8
 }
