@@ -2,13 +2,15 @@
 title: '论文日报 2026-06-30：Graph RAG 仍需保留文本证据'
 published: 2026-06-30
 updated: 2026-10-29
-description: 'Graph RAG 仍需保留文本证据。'
+description: 'Graph RAG 仍需保留文本证据，核对历史版本、结果条件及证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-06-30 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
 
 ## 重点阅读
 
@@ -26,6 +28,8 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
+以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
+
 - [FreqOrtho-SR: Frequency-Guided Orthogonal Expert Learning for Real-World Image Super-Resolution](https://arxiv.org/abs/2606.28745v1) · 2606.28745v1，该版本提交 2026-06-27。
 - [Qwen-Image-2.0-RL Technical Report](https://arxiv.org/abs/2606.27608v1) · 2606.27608v1，该版本提交 2026-06-25。
 - [PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation](https://arxiv.org/abs/2606.28128v1) · 2606.28128v1，该版本提交 2026-06-26。
@@ -34,4 +38,4 @@ lang: 'zh-CN'
 - [SOLAR: AI-Powered Speed-of-Light Performance Analysis](https://arxiv.org/abs/2606.26383v1) · 2606.26383v1，该版本提交 2026-06-24。
 - [Red-Teaming the Agentic Red-Team](https://arxiv.org/abs/2606.24496v1) · 2606.24496v1，该版本提交 2026-06-23。
 
-文中实验结果为论文作者报告，未独立复现。
+**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

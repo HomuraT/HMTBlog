@@ -2,13 +2,15 @@
 title: '论文日报 2026-10-26：驾驶知识图谱要先说清楚，验证的是哪一层'
 published: 2026-10-26
 updated: 2026-10-29
-description: '驾驶知识图谱要先说清楚，验证的是哪一层。'
+description: '驾驶知识图谱要先说清楚，验证的是哪一层，核对原文结果、条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文为 **2026-10-26 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
 
 交通场景知识图谱不等于更准的驾驶意图预测器。NIKG 在感知结果与下游模型之间提供可查询、可验证的语义上下文。
 
@@ -24,15 +26,15 @@ nuScenes mini 的 10 个场景产生 404 个关键帧、211,335 个三元组。�
 
 应把它当作语义数据产品。下一步固定预测器和数据划分，对照有无图特征的泛化效果，并加入感知误检与轨迹断裂。图规模和一致性不能替代下游预测收益证据。
 
-## 论文图表
+## 原论文视觉证据
 
 ![2610.26528v1 Figure 2 原始截图](./images/nikg-figure2.png)
 
 图源：Khaled Nowara , Mohamed Manzour , Catherine Elias，《A Semantic Knowledge Graph Construction Pipeline for Vehicle Intention Prediction in nuScenes》，2610.26528v1，Figure 2，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2610.26528v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注与标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
 
-## 论文来源
+## 原文与核验范围
 
 - [A Semantic Knowledge Graph Construction Pipeline for Vehicle Intention Prediction in nuScenes](https://arxiv.org/abs/2610.26528v1) · 2610.26528v1。
 - 版本公开日期：2026-10-19。
 
-文中实验结果为论文作者报告，未独立复现。
+本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

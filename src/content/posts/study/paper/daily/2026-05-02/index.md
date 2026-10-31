@@ -2,13 +2,15 @@
 title: '论文日报 2026-05-02：技能检索之后，还要判断是否加载'
 published: 2026-05-02
 updated: 2026-10-29
-description: '技能检索之后，还要判断是否加载。'
+description: '技能检索之后，还要判断是否加载，核对历史版本、实验条件与公开原图。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-05-02 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**；数值均为作者报告，本站未独立复现。
 
 ## SRA
 
@@ -40,9 +42,11 @@ PSI-Bench 从单轮回答、完整对话和群体分布三个层面诊断抑郁�
 
 ## 同期其他论文入口
 
+以下只核对公开 v1 的标题、日期和链接，未逐篇复核全部实验。
+
 - [Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models](https://arxiv.org/abs/2512.00590v1) · v1 首次提交 2025-11-29。
 - [GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents](https://arxiv.org/abs/2604.26752v1) · v1 首次提交 2026-04-29。
 - [MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives](https://arxiv.org/abs/2604.24833v1) · v1 首次提交 2026-04-27。
 - [The Last Human-Written Paper: Agent-Native Research Artifacts](https://arxiv.org/abs/2604.24658v1) · v1 首次提交 2026-04-27。
 
-文中实验结果为论文作者报告，未独立复现。
+**覆盖说明：**本期保留 7 篇已核验公开论文入口，详读其中 3 篇；其余仅列阅读链接。

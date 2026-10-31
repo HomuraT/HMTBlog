@@ -2,13 +2,15 @@
 title: '论文日报 2026-10-28：没有人工问答标注，图谱推理能否自己造训练题'
 published: 2026-10-28
 updated: 2026-10-29
-description: '没有人工问答标注，图谱推理能否自己造训练题。'
+description: '没有人工问答标注，图谱推理能否自己造训练题，核对原文结果、条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文为 **2026-10-28 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
 
 工业图谱往往缺少问答标注。Evolve on Graph 让同一个模型轮流出题和解题，同时用图上的可执行逻辑确定答案集合，而非完全依赖模型自评。
 
@@ -28,9 +30,9 @@ Table 2 的五个公开 KGQA 基准上，Qwen-2.5-7B 的 EoG 平均 Hit@1 为 61
 
 [Table 2，原论文 PDF 第 6 页](https://arxiv.org/pdf/2610.35598v1#page=6)。该版本仅确认 arXiv 非独占分发许可，未确认博客截图转载授权，因此只链接原图。
 
-## 论文来源
+## 原文与核验范围
 
 - [Evolve on Graph: Self-Evolving Knowledge Graph Reasoning without Question Annotations](https://arxiv.org/abs/2610.35598v1) · 2610.35598v1。
 - 版本公开日期：2026-10-26。
 
-文中实验结果为论文作者报告，未独立复现。
+本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

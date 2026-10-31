@@ -2,13 +2,15 @@
 title: '论文日报 2026-09-19：区分模型能力提升与系统评测假象'
 published: 2026-09-19
 updated: 2026-10-29
-description: '区分模型能力提升与系统评测假象。'
+description: '区分模型能力提升与系统评测假象，核对历史版本、关键数字与实验边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-09-19 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日不等于论文提交日；以下固定到当日及此前存在的版本，不混入后续修订。数字为作者在指定条件下的报告，本站未独立复现。
 
 今天的阅读重点是对照：视觉记忆是否优于相同路径文本，harness 的收益来自什么，评审政策的随机分配改变了什么。建议先读 harness 组件研究与 ICML 政策实验，再按方向选择视觉记忆、离策略训练与世界模型。机制、基线与观察窗口应分别判断。
 
@@ -64,4 +66,6 @@ ICML 2026 随机试验比较严格禁用与有限许可两种 LLM 政策。政�
 
 图：ICML 评审政策随机试验与问卷发现。Sunnie S. Y. Kim , Wesley Hanwen Deng , Jennifer Wortman Vaughan , Buxin Su , Weijie Su , Alekh Agarwal , Sharon Li , Martin Jaggi , Daniel G. Goldstein , Nihar B. Shah , Miroslav Dudík，arXiv:2609.19420v1，Figure 1，PDF 第 3 页。[原始图源](https://arxiv.org/pdf/2609.19420v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图及图注，未重绘或修改图内数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
 
-文中实验结果为论文作者报告，未独立复现。
+## 阅读说明
+
+本篇覆盖 8 项公开论文，逐项核对指定历史来源及文中方法、数字和限制，不代表完整复核每项附录或独立重复实验。系统愿景和理论贡献不补造性能分数；模型裁判、模拟任务和作者报告均保留各自边界。预印本结论可能随修订变化。

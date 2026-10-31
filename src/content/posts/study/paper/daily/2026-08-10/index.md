@@ -2,13 +2,15 @@
 title: '论文日报 2026-08-10：科学分类更细，不等于概念聚合已经正确'
 published: 2026-08-10
 updated: 2026-10-29
-description: '科学分类更细，不等于概念聚合已经正确。'
+description: '科学分类更细，不等于概念聚合已经正确，核对历史原文、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-08-10 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 在 Topic 下增加可维护的概念层
 
@@ -26,11 +28,13 @@ SCALE 从作者关键词出发，用科学文本嵌入、语言模型定义和�
 
 ## 原图入口
 
-[Figure 1，原论文 PDF 第 4 页](https://arxiv.org/pdf/2608.07254v1#page=4)。
+[Figure 1，原论文 PDF 第 4 页](https://arxiv.org/pdf/2608.07254v1#page=4)。该版本未确认开放截图转载权限，本篇仅保留原图链接。
 
-## 论文来源
+## 深读原文与范围
 
 - [SCALE: Scientific Concept Aggregation via LLMs and Embeddings for Fine-Grained Taxonomy Extension](https://arxiv.org/abs/2608.07254v1) · v1，公开于 2026-08-07。
+
+本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -39,5 +43,3 @@ SCALE 从作者关键词出发，用科学文本嵌入、语言模型定义和�
 - [TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories](https://arxiv.org/abs/2608.06346v1) · v1，2026-08-06。
 - [The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping](https://arxiv.org/abs/2608.06361v1) · v1，2026-08-06。
 - [GAUGE: A Measurement-Grounded Benchmark for Physical Fidelity in Simulation Engines and Video World Models](https://arxiv.org/abs/2608.05948v1) · v1，2026-08-06。
-
-文中实验结果为论文作者报告，未独立复现。

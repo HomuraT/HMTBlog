@@ -2,13 +2,15 @@
 title: '论文日报 2026-09-04：人机对话里的矛盾，先需要共同的表示'
 published: 2026-09-04
 updated: 2026-10-29
-description: '人机对话里的矛盾，先需要共同的表示。'
+description: '人机对话里的矛盾，先需要共同的表示，核对历史原文、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-09-04 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 为冲突建立跨场景的概念基础
 
@@ -26,11 +28,13 @@ ATFOt 研究以 Activity Theory 表示对话协作中的错误、冲突和知识
 
 ## 原图入口
 
-[Figure 1，原论文 PDF 第 2 页](https://arxiv.org/pdf/2609.02364v1#page=2)。
+[Figure 1，原论文 PDF 第 2 页](https://arxiv.org/pdf/2609.02364v1#page=2)。论文采用 CC BY 4.0，但 Figure 1 单独署 Esteban Guerrero 版权且改编自外部来源，未确认其独立复用许可，因此仅链接原图。
 
-## 论文来源
+## 深读原文与范围
 
 - [Towards a Foundational Ontology for Identifying and Resolving Contradictions in Dialogue-based Human-Robot Interactions](https://arxiv.org/abs/2609.02364v1) · v1，公开于 2026-09-02。
+
+本篇深读上述 1 篇；以下是同日公开阅读入口，题名以核验时公开记录为准，深读题名按指定 PDF 页首；仅核对版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -41,5 +45,3 @@ ATFOt 研究以 Activity Theory 表示对话协作中的错误、冲突和知识
 - [Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement](https://arxiv.org/abs/2609.01481v1) · v1，2026-09-01。
 - [CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI](https://arxiv.org/abs/2609.02459v1) · v1，2026-09-02。
 - [Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall](https://arxiv.org/abs/2609.01532v1) · v1，2026-09-01。
-
-文中实验结果为论文作者报告，未独立复现。

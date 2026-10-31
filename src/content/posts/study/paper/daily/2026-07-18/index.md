@@ -2,13 +2,15 @@
 title: '论文日报 2026-07-18：让模式约束进入查询工具接口'
 published: 2026-07-18
 updated: 2026-10-29
-description: '让模式约束进入查询工具接口。'
+description: '让模式约束进入查询工具接口，核对历史版本、结果条件及证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-07-18 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
 
 ## 重点阅读
 
@@ -26,10 +28,12 @@ SAGA 将 schema 检查前移到属性探索工具。系统维护实体、变量�
 
 ## 同期其他论文入口
 
+以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
+
 - [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777v1) · 2607.14777v1，该版本提交 2026-07-16。
 - [VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding](https://arxiv.org/abs/2607.14935v1) · 2607.14935v1，该版本提交 2026-07-16。
 - [RoboTTT: Context Scaling for Robot Policies](https://arxiv.org/abs/2607.15275v1) · 2607.15275v1，该版本提交 2026-07-16。
 - [SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration](https://arxiv.org/abs/2607.15257v1) · 2607.15257v1，该版本提交 2026-07-16。
 - [Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents](https://arxiv.org/abs/2607.15263v1) · 2607.15263v1，该版本提交 2026-07-16。
 
-文中实验结果为论文作者报告，未独立复现。
+**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

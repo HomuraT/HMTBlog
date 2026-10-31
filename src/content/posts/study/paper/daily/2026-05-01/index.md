@@ -2,13 +2,15 @@
 title: '论文日报 2026-05-01：可观测的代码智能体与可控推理长度'
 published: 2026-05-01
 updated: 2026-10-29
-description: '可观测的代码智能体与可控推理长度。'
+description: '可观测的代码智能体与可控推理长度，核对历史版本、实验条件与公开原图。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-05-01 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**；数值均为作者报告，本站未独立复现。
 
 ## AHE
 
@@ -40,6 +42,8 @@ v1 首次提交 2025-06-02 · [Retrieval-Augmented Generation of Ontologies from
 
 ## 同期其他论文入口
 
+以下只核对公开 v1 的标题、日期和链接，未逐篇复核全部实验。
+
 - [MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models](https://arxiv.org/abs/2604.12928v1) · v1 首次提交 2026-04-14。
 - [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](https://arxiv.org/abs/2604.28192v1) · v1 首次提交 2026-04-30。
 - [Robot Learning from Human Videos: A Survey](https://arxiv.org/abs/2604.27621v1) · v1 首次提交 2026-04-30。
@@ -47,4 +51,4 @@ v1 首次提交 2025-06-02 · [Retrieval-Augmented Generation of Ontologies from
 - [FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments](https://arxiv.org/abs/2604.25135v1) · v1 首次提交 2026-04-28。
 - [Incompressible Knowledge Probes: Estimating Black-Box LLM Parameter Counts via Factual Capacity](https://arxiv.org/abs/2604.24827v1) · v1 首次提交 2026-04-27。
 
-文中实验结果为论文作者报告，未独立复现。
+**覆盖说明：**本期保留 9 篇已核验公开论文入口，详读其中 3 篇；其余仅列阅读链接。

@@ -2,13 +2,15 @@
 title: '论文日报 2026-08-31：文本能重建通路层级，不等于完成生物推理'
 published: 2026-08-31
 updated: 2026-10-29
-description: '文本能重建通路层级，不等于完成生物推理。'
+description: '文本能重建通路层级，不等于完成生物推理，核对历史原文、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-08-31 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 专家描述是否携带层级信息
 
@@ -26,11 +28,13 @@ lang: 'zh-CN'
 
 ## 原图入口
 
-[Figure 1，原论文 PDF 第 5 页](https://arxiv.org/pdf/2608.28178v1#page=5)。
+[Figure 1，原论文 PDF 第 5 页](https://arxiv.org/pdf/2608.28178v1#page=5)。该版本未确认开放截图转载权限，本篇仅保留原图链接。
 
-## 论文来源
+## 深读原文与范围
 
 - [Expert Knowledge & Machine Understanding: Bridging Reactome's Ontology with LLM Semantic Embeddings](https://arxiv.org/abs/2608.28178v1) · v1，公开于 2026-08-28。
+
+本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -39,5 +43,3 @@ lang: 'zh-CN'
 - [SwarmWorld: Stigmergic technological evolution in societies of language-model agents](https://arxiv.org/abs/2608.26081v1) · v1，2026-08-26。
 - [Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding](https://arxiv.org/abs/2608.28192v1) · v1，2026-08-28。
 - [Beyond Flat Netlist: Hierarchical Graph Representation Learning for Scalable Analysis of Sequential Circuits](https://arxiv.org/abs/2608.28188v1) · v1，2026-08-28。
-
-文中实验结果为论文作者报告，未独立复现。

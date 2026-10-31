@@ -2,13 +2,15 @@
 title: '论文日报 2026-10-15：图谱搜索 Agent 的难点，有时是证据怎么放'
 published: 2026-10-15
 updated: 2026-10-29
-description: '图谱搜索 Agent 的难点，有时是证据怎么放。'
+description: '图谱搜索 Agent 的难点，有时是证据怎么放，核对历史版本、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-10-15 的精选阅读**，于 2026-10-29 核对公开原文。归档日不等于论文发表日，采用下方历史版本；数字为作者报告，本站未独立复现。
 
 如果每次图查询结果都直接进入上下文，长链路问答容易被无关信息淹没。Wikidata Search Traces 同时研究题目生成与证据管理。
 
@@ -24,14 +26,14 @@ lang: 'zh-CN'
 
 我会先固定模型和图函数，检查证据存储与读取方式。100 题规模有限，冻结快照不能代表实时图谱；实验也未单独隔离批量调用与持久状态各自的贡献。
 
-## 论文图表
+## 原论文视觉证据
 
 ![2610.06650v3 Table 4 原始截图](./images/wikidata-traces-table4.png)
 
 图源：Mohamed Chenene , Carlos Rosas-Hinostroza , Anastasia Stasenko , Shani Evenstein Sigalov , Pierre-Carl Langlais，《Wikidata Search Traces: A Dataset for Training Knowledge Graph Search Agents》，2610.06650v3，Table 4，PDF 第 10 页。[原图出处](https://arxiv.org/pdf/2610.06650v3#page=10) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
 
-## 论文来源
+## 原文与核验范围
 
 - [Wikidata Search Traces: A Dataset for Training Knowledge Graph Search Agents](https://arxiv.org/abs/2610.06650v3) · 2610.06650v3，该版本公开于 2026-10-09。
 
-文中实验结果为论文作者报告，未独立复现。
+本篇深读 1 篇，仅核对上述方法、图表数字与条件；未将其他候选二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

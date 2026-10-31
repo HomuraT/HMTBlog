@@ -2,13 +2,15 @@
 title: '论文日报 2026-07-29：企业 schema 知识，要怎样离开冗长提示词'
 published: 2026-07-29
 updated: 2026-10-29
-description: '企业 schema 知识，要怎样离开冗长提示词。'
+description: '企业 schema 知识，要怎样离开冗长提示词，核对历史原文、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-07-29 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 从提示负担到后训练目标
 
@@ -24,15 +26,17 @@ CRAFT 面向把分析请求转成专有 API 和指标代码的企业 Agent。先
 
 稳定 schema 可以进入模型能力，但变更仍需要版本化和回归测试。应分别测计划、代码和执行恢复，并检查奖励是否偏好容易完成的分析。它是企业工具调用研究，不是完整 RDF/OWL 或 OBDA 系统。
 
-## 论文图表
+## 原论文视觉证据
 
 ![2607.22642v1 Figure 1 原始截图](./images/craft-figure1.png)
 
 图源：Aakash Kolekar , Sahika Genc , Shahriar Shariat , Bunyamin Sisman , Tibor Mezi , Barbara Poblete , Shree Vandana Kachroo , Calvin Chi , Parth Parmar , Ari Singer , Prayaas Jain , Cindy Barker , Benoit Dumoulin，《CRAFT: Learn the Schema, Execute the Plan》，arXiv:2607.22642v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2607.22642v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
 
-## 论文来源
+## 深读原文与范围
 
 - [CRAFT: Learn the Schema, Execute the Plan](https://arxiv.org/abs/2607.22642v1) · v1，公开于 2026-06-24。
+
+本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -42,5 +46,3 @@ CRAFT 面向把分析请求转成专有 API 和指标代码的企业 Agent。先
 - [τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision](https://arxiv.org/abs/2607.24485v1) · v1，2026-07-27。
 - [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720v1) · v1，2026-07-27。
 - [ContainmentBench: Trace-Based Evaluation of Post-Injection Containment in Tool-Using LLM Agents](https://arxiv.org/abs/2607.23999v1) · v1，2026-07-27。
-
-文中实验结果为论文作者报告，未独立复现。

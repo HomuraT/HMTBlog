@@ -2,13 +2,15 @@
 title: '论文日报 2026-08-28：弱信号检测，要同时报告覆盖与误报'
 published: 2026-08-28
 updated: 2026-10-29
-description: '弱信号检测，要同时报告覆盖与误报。'
+description: '弱信号检测，要同时报告覆盖与误报，核对历史原文、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-08-28 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 把罕见事实放回时间和关系中
 
@@ -24,15 +26,17 @@ C-Unseen 与 BERTrend 报五次运行均值及样本标准差，BEAM、Yoon 为�
 
 解释性输出可以帮助分析，但解释文本本身不证明预测能力。应在前瞻、未见组织与固定时间窗口下检查误报、遗漏和提前量，并将匹配阈值作为评测协议公开。
 
-## 论文图表
+## 原论文视觉证据
 
 ![2608.26870v1 Table 3 原始截图](./images/cunseen-table3.png)
 
 图源：Yassir Lairgi , Ludovic Moncla , Khalid Benabdeslem , Rémy Cazabet , Pierre Cléau，《C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning》，arXiv:2608.26870v1，Table 3，PDF 第 10 页。[原图出处](https://arxiv.org/pdf/2608.26870v1#page=10) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
 
-## 论文来源
+## 深读原文与范围
 
 - [C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning](https://arxiv.org/abs/2608.26870v1) · v1，公开于 2026-08-27。
+
+本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -42,5 +46,3 @@ C-Unseen 与 BERTrend 报五次运行均值及样本标准差，BEAM、Yoon 为�
 - [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103v1) · v1，2026-08-26。
 - [Prefix Sliding for efficient test-time scaling](https://arxiv.org/abs/2608.26070v1) · v1，2026-08-26。
 - [On-Policy Self-Distillation in Diffusion Models](https://arxiv.org/abs/2608.24646v1) · v1，2026-08-25。
-
-文中实验结果为论文作者报告，未独立复现。

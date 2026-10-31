@@ -2,13 +2,15 @@
 title: '论文日报 2026-07-13：网页 RAG 的证据，不应在切块时失去结构'
 published: 2026-07-13
 updated: 2026-10-29
-description: '网页 RAG 的证据，不应在切块时失去结构。'
+description: '网页 RAG 的证据，不应在切块时失去结构，核对历史原文、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-07-13 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 三类结构进入同一检索图
 
@@ -28,9 +30,11 @@ PolyU 官方站点构成 4,240 页、31,086 个 DOM 块、29,119 个实体与 37
 
 [Table 1，原论文 PDF 第 4 页](https://arxiv.org/pdf/2607.08269v1#page=4)。该版本未确认开放截图转载权限，本篇仅保留原图链接。
 
-## 论文来源
+## 深读原文与范围
 
 - [PolyUQuest: Verifiable Structure-Aware Web RAG over Heterogeneous Graphs](https://arxiv.org/abs/2607.08269v1) · v1，公开于 2026-07-09。
+
+本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -42,5 +46,3 @@ PolyU 官方站点构成 4,240 页、31,086 个 DOM 块、29,119 个实体与 37
 - [TTHE: Test-Time Harness Evolution](https://arxiv.org/abs/2607.08124v1) · v1，2026-07-09。
 - [When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning](https://arxiv.org/abs/2607.07976v1) · v1，2026-07-08。
 - [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448v1) · v1，2026-07-09。
-
-文中实验结果为论文作者报告，未独立复现。

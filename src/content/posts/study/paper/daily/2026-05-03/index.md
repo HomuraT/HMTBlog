@@ -2,13 +2,15 @@
 title: '论文日报 2026-05-03：生成指标、强化学习吞吐与语义约束'
 published: 2026-05-03
 updated: 2026-10-29
-description: '生成指标、强化学习吞吐与语义约束。'
+description: '生成指标、强化学习吞吐与语义约束，核对历史版本、实验条件与公开原图。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-05-03 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**；数值均为作者报告，本站未独立复现。
 
 ## FD-loss
 
@@ -40,11 +42,13 @@ v1 首次提交 2026-04-06 · [Conversational Control with Ontologies for Large 
 
 ## 同期其他论文入口
 
+以下只核对公开 v1 的标题、日期和链接，未逐篇复核全部实验。
+
 - [Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694v1) · v1 首次提交 2026-04-29。
 - [Learning Rate Transfer in Normalized Transformers](https://arxiv.org/abs/2604.27077v1) · v1 首次提交 2026-04-29。
 - [Do Sparse Autoencoders Capture Concept Manifolds?](https://arxiv.org/abs/2604.28119v1) · v1 首次提交 2026-04-30。
 - [Latent-GRPO: Group Relative Policy Optimization for Latent Reasoning](https://arxiv.org/abs/2604.27998v1) · v1 首次提交 2026-04-30。
 
-另保留 [NormaKG 期刊线索（待核验）](https://doi.org/10.1016/j.inffus.2026.104337)。本文不讨论其方法或实验结论。
+另保留 [NormaKG 期刊线索（待核验）](https://doi.org/10.1016/j.inffus.2026.104337)。本次访问返回 403，未独立核验题名、方法及实验，不据此发布配置数量或加速结论。
 
-文中实验结果为论文作者报告，未独立复现。
+**覆盖说明：**本期保留 7 篇已核验公开论文入口，详读其中 3 篇；其余仅列阅读链接。另有 1 项待核验期刊线索，不计入已核验数量。

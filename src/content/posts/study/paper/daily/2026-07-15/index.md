@@ -2,13 +2,15 @@
 title: '论文日报 2026-07-15：FAIR 元数据也是检索证据'
 published: 2026-07-15
 updated: 2026-10-29
-description: 'FAIR 元数据也是检索证据。'
+description: 'FAIR 元数据也是检索证据，核对历史版本、结果条件及证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-07-15 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
 
 ## 重点阅读
 
@@ -20,9 +22,11 @@ FAIR GraphRAG 将 FAIR Digital Object 作为节点，连同元数据、持久标
 
 作者承认缺数据许可，未满足 R1.1；持久标识符和可访问接口不能替代授权。解释性指标检查查询、返回节点及 FAIR 特征，不是生成过程的形式证明，也没有临床专家有效性验证。我的判断是，应复用这种数据单元和追溯接口，再在更大、独立问题集上检验收益。下列 OBDA 论文已在 7 月 1 日深读，这里仅保留链接。
 
-**原图入口**：[Table II，PDF 第 7 页](https://arxiv.org/pdf/2607.11464v1#page=7)。
+**原图入口：**[Table II，PDF 第 7 页](https://arxiv.org/pdf/2607.11464v1#page=7)。原文标记 arXiv non-exclusive distribution license；未确认第三方截图再发布许可，本次未转载该图。
 
 ## 同期其他论文入口
+
+以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Abstractions of Queries in Ontology-Based Data Access](https://arxiv.org/abs/2606.24618v1) · 2606.24618v1，该版本提交 2026-06-23。
 - [Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model](https://arxiv.org/abs/2607.11643v1) · 2607.11643v1，该版本提交 2026-07-13。
@@ -30,4 +34,4 @@ FAIR GraphRAG 将 FAIR Digital Object 作为节点，连同元数据、持久标
 - [MonkeyOCRv2: A Visual-Text Foundation Model for Document AI](https://arxiv.org/abs/2607.11562v1) · 2607.11562v1，该版本提交 2026-07-13。
 - [Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation](https://arxiv.org/abs/2607.11886v1) · 2607.11886v1，该版本提交 2026-07-13。
 
-文中实验结果为论文作者报告，未独立复现。
+**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

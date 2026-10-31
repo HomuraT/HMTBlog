@@ -2,13 +2,15 @@
 title: '论文日报 2026-06-02：本体交给大模型之前，先设计访问方式'
 published: 2026-06-02
 updated: 2026-10-29
-description: '本体交给大模型之前，先设计访问方式。'
+description: '本体交给大模型之前，先设计访问方式，核对实验条件、历史版本及证据边界。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-06-02 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
 
 ## 重点阅读
 
@@ -28,6 +30,8 @@ Anatomy 对齐包含 2,737 个小鼠类、3,304 个人类类和 1,516 条参考�
 
 ## 同期其他论文入口
 
+以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
+
 - [Graph Query Generation with Constraint-guided Large Language Agents](https://arxiv.org/abs/2605.00845v1) · 2605.00845v1，该版本提交 2026-04-09。
 - [LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards](https://arxiv.org/abs/2605.31584v1) · 2605.31584v1，该版本提交 2026-05-29。
 - [Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments](https://arxiv.org/abs/2605.30280v2) · 2605.30280v2，该版本提交 2026-06-01。
@@ -36,4 +40,4 @@ Anatomy 对齐包含 2,737 个小鼠类、3,304 个人类类和 1,516 条参考�
 - [Scaling Laws for Agent Harnesses via Effective Feedback Compute](https://arxiv.org/abs/2605.29682v1) · 2605.29682v1，该版本提交 2026-05-28。
 - [Déjà View: Looping Transformers for Multi-View 3D Reconstruction](https://arxiv.org/abs/2605.30215v2) · 2605.30215v2，该版本提交 2026-05-29。
 
-文中实验结果为论文作者报告，未独立复现。
+**覆盖说明：**本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

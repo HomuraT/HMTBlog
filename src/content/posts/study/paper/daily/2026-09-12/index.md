@@ -2,13 +2,15 @@
 title: '论文日报 2026-09-12：知识图谱问答的上下文，要能生成也要能评测'
 published: 2026-09-12
 updated: 2026-10-29
-description: '知识图谱问答的上下文，要能生成也要能评测。'
+description: '知识图谱问答的上下文，要能生成也要能评测，核对历史原文、实验条件与证据边界。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
+
+本文补录 **2026-09-12 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 结构描述与检索共同约束查询
 
@@ -24,15 +26,17 @@ SciQA 共 2,565 对问句—查询，测试集 513 对。结合 ShEx、检索三
 
 复用 schema 上下文有潜力降低领域微调负担，但应将示例依赖、采样代表性与端点执行纳入验收。单一 SciQA 结果不能直接成为所有企业图谱的性能承诺。
 
-## 论文图表
+## 原论文视觉证据
 
 ![2609.11569v1 Figure 1 原始截图](./images/exygen-figure1.png)
 
 图源：Harshdeep Singh , Yurui Zhu , Giovanni Colavizza , Matteo Romanello，《Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)》，arXiv:2609.11569v1，Figure 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2609.11569v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
 
-## 论文来源
+## 深读原文与范围
 
 - [Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)](https://arxiv.org/abs/2609.11569v1) · v1，公开于 2026-09-10。
+
+本篇深读上述 1 篇；以下是同日公开阅读入口，题名以核验时公开记录为准，深读题名按指定 PDF 页首；仅核对版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -43,5 +47,3 @@ SciQA 共 2,565 对问句—查询，测试集 513 对。结合 ShEx、检索三
 - [World in World: Explore the World with World Models](https://arxiv.org/abs/2609.11548v1) · v1，2026-09-10。
 - [BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure](https://arxiv.org/abs/2609.11028v1) · v1，2026-09-10。
 - [T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks](https://arxiv.org/abs/2609.11042v1) · v1，2026-09-10。
-
-文中实验结果为论文作者报告，未独立复现。
