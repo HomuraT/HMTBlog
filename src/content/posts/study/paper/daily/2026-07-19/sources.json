@@ -62,6 +62,171 @@
 			"image_size": [615, 438],
 			"sha256": "c674a7553e82099b053184c4ac88bf86b9fa4b2ce0e3541c247d78804a8fb2c9",
 			"source_pdf_sha256": "23d7d8083a28139b6e95055de37e54f3ffe53ec02b4e2631e799ec9b8c9b56cc"
+		},
+		"paper-260715038-figure2.png": {
+			"authors": [
+				"Huang, Lianghua",
+				"Wu, Zhi-Fan",
+				"Shi, Yupeng",
+				"Wang, Wei",
+				"Feng, Mengyang",
+				"Yu, Cheng",
+				"Liang, Chen",
+				"He, Junjie",
+				"Xie, Chen-Wei",
+				"Liu, Yu",
+				"Zhou, Jingren",
+				"Wang, Ang",
+				"Zhang, Bang",
+				"Ai, Baole",
+				"Zhong, Chongyang",
+				"Qi, Jinwei",
+				"Zhu, Kai",
+				"Li, Pandeng",
+				"Zhang, Peng",
+				"Zhang, Wenyuan",
+				"Cheng, Xinhua",
+				"Huang, Yitong",
+				"Zheng, Yun",
+				"Bao, Yuxiang",
+				"Wang, Yuzheng",
+				"Lin, Zhiwei",
+				"Bi, Zoubin"
+			],
+			"paper_title": "Video = World + Event Stream",
+			"source": "https://arxiv.org/pdf/2607.15038v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 50.41140365600586, 546.4042358398438,
+				300.9709777832031
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e57dc338efeecc30bd6b33e2891ec7c5360f54a79fa8d7af7ac4f8f3374c8746",
+			"source_pdf_sha256": "8922b24c363530117d8c34ccdefd7477d01034978b6f7b305c7648d4cc6fd188"
+		},
+		"paper-260715038-table1.png": {
+			"authors": [
+				"Huang, Lianghua",
+				"Wu, Zhi-Fan",
+				"Shi, Yupeng",
+				"Wang, Wei",
+				"Feng, Mengyang",
+				"Yu, Cheng",
+				"Liang, Chen",
+				"He, Junjie",
+				"Xie, Chen-Wei",
+				"Liu, Yu",
+				"Zhou, Jingren",
+				"Wang, Ang",
+				"Zhang, Bang",
+				"Ai, Baole",
+				"Zhong, Chongyang",
+				"Qi, Jinwei",
+				"Zhu, Kai",
+				"Li, Pandeng",
+				"Zhang, Peng",
+				"Zhang, Wenyuan",
+				"Cheng, Xinhua",
+				"Huang, Yitong",
+				"Zheng, Yun",
+				"Bao, Yuxiang",
+				"Wang, Yuzheng",
+				"Lin, Zhiwei",
+				"Bi, Zoubin"
+			],
+			"paper_title": "Video = World + Event Stream",
+			"source": "https://arxiv.org/pdf/2607.15038v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 138, 544, 353],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5dcb64a483ed294700173b9d30c5db625cd707eeff981ef60f5be815b55c68c2",
+			"source_pdf_sha256": "8922b24c363530117d8c34ccdefd7477d01034978b6f7b305c7648d4cc6fd188"
+		},
+		"paper-260715161-figure1.png": {
+			"authors": [
+				"Heo, Byeongho",
+				"Hwang, Jaehui",
+				"Yun, Sangdoo",
+				"Han, Dongyoon"
+			],
+			"paper_title": "On-Policy Delta Distillation",
+			"source": "https://arxiv.org/pdf/2607.15161v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.84262084960938, 56.2386474609375, 541.7862548828125,
+				275.0751037597656
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a198dcbac787243913e69129689b18c6ba6f82e4146659674bfb187b00d9383c",
+			"source_pdf_sha256": "2e6f0403ccb2bd373781bfa258358e10bc965a0d8f0e50329dc2cdcb12208b30"
+		},
+		"paper-260715161-table2.png": {
+			"authors": [
+				"Heo, Byeongho",
+				"Hwang, Jaehui",
+				"Yun, Sangdoo",
+				"Han, Dongyoon"
+			],
+			"paper_title": "On-Policy Delta Distillation",
+			"source": "https://arxiv.org/pdf/2607.15161v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 74, 508, 261],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4a2dd1e0d3c3aee451f6d22e8490d3b3325eb87d53eaa4c7a55ed9389dd704da",
+			"source_pdf_sha256": "2e6f0403ccb2bd373781bfa258358e10bc965a0d8f0e50329dc2cdcb12208b30"
+		},
+		"paper-260715178-figure2.png": {
+			"authors": [
+				"Cai, Ziyang",
+				"Zhu, Xingyu",
+				"Dong, Yihe",
+				"He, Yinghui",
+				"Arora, Sanjeev"
+			],
+			"paper_title": "T^2MLR: Transformer with Temporal Middle-Layer Recurrence",
+			"source": "https://arxiv.org/pdf/2607.15178v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 536.3377685546875, 509.1961975097656, 741.2106323242188
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ace7cff2dc61bcb269a4ca852da4a38da120b1d354c797b29be3c71fe53dc710",
+			"source_pdf_sha256": "d5cd40f6dd1d689f7d48c0ed8de7fe378726e7fa05c199947f087914633ae80d"
+		},
+		"paper-260715178-table1.png": {
+			"authors": [
+				"Cai, Ziyang",
+				"Zhu, Xingyu",
+				"Dong, Yihe",
+				"He, Yinghui",
+				"Arora, Sanjeev"
+			],
+			"paper_title": "T^2MLR: Transformer with Temporal Middle-Layer Recurrence",
+			"source": "https://arxiv.org/pdf/2607.15178v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 214, 508, 377],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "352b763176a5f5cb0799be5a2562e9160467b3657c2747a66c51b8d724426771",
+			"source_pdf_sha256": "d5cd40f6dd1d689f7d48c0ed8de7fe378726e7fa05c199947f087914633ae80d"
 		}
-	}
+	},
+	"published_paper_count": 6
 }

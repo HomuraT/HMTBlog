@@ -62,6 +62,131 @@
 			"image_size": [1270, 910],
 			"sha256": "66dddaef97006e7b2357d49f9adbbe014e35c671cdc7c476e6e2fba2b11527db",
 			"source_pdf_sha256": "c51f153ac668ee02990c1b5059398f8d111f26adf230e2d63899c9aff928bfd8"
+		},
+		"paper-260715275-figure2.png": {
+			"authors": [
+				"Jiang, Yunfan",
+				"Chebotar, Yevgen",
+				"Zheng, Ruijie",
+				"Hu, Fengyuan",
+				"Ge, Yunhao",
+				"Wu, Jimmy",
+				"Dai, Tianyuan",
+				"Reed, Scott",
+				"Fei-Fei, Li",
+				"Zhu, Yuke",
+				"Fan, Linxi \"Jim\""
+			],
+			"paper_title": "RoboTTT: Context Scaling for Robot Policies",
+			"source": "https://arxiv.org/pdf/2607.15275v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 78.12725830078125, 537.9295654296875, 338.87353515625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c83cd214e04df7a40263f7fae5ad7429d06b4cea65111f1a3cc5123dbb88f729",
+			"source_pdf_sha256": "6e3cbcbc0ab4db0c20e693c905c9ff4e7f7afe726b15f8fb6dc3a6d7415e4ca0"
+		},
+		"paper-260715275-table1.png": {
+			"authors": [
+				"Jiang, Yunfan",
+				"Chebotar, Yevgen",
+				"Zheng, Ruijie",
+				"Hu, Fengyuan",
+				"Ge, Yunhao",
+				"Wu, Jimmy",
+				"Dai, Tianyuan",
+				"Reed, Scott",
+				"Fei-Fei, Li",
+				"Zhu, Yuke",
+				"Fan, Linxi \"Jim\""
+			],
+			"paper_title": "RoboTTT: Context Scaling for Robot Policies",
+			"source": "https://arxiv.org/pdf/2607.15275v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [340, 519, 538, 646],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f18ce1286c41a7b0eda51570092caf4dfd9936052efe7bec616fc9ca202ad0d0",
+			"source_pdf_sha256": "6e3cbcbc0ab4db0c20e693c905c9ff4e7f7afe726b15f8fb6dc3a6d7415e4ca0"
+		},
+		"paper-260715257-figure2.png": {
+			"authors": [
+				"Zhang, Yuyao",
+				"Gao, Junjie",
+				"Wu, Zhengxian",
+				"Fan, Jiaming",
+				"Zhang, Jin",
+				"Ma, Shihan",
+				"Yao, Yao",
+				"Qi, Weiran",
+				"Jin, Chuyan",
+				"Ma, Guiyu",
+				"Xu, Xingzhong",
+				"Yang, Kai",
+				"Wen, Ji-Rong",
+				"Dou, Zhicheng"
+			],
+			"paper_title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+			"source": "https://arxiv.org/pdf/2607.15257v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 65, 546, 395],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d58e2b072d16f276d99f7015f5ef5c65e9f5930e50894af4aa90238ae467e3ad",
+			"source_pdf_sha256": "c0a599a8961c3c0f8ccf5526a9895933fed3891b42132736bdb52d32829e19df"
+		},
+		"paper-260715257-table2.png": {
+			"authors": [
+				"Zhang, Yuyao",
+				"Gao, Junjie",
+				"Wu, Zhengxian",
+				"Fan, Jiaming",
+				"Zhang, Jin",
+				"Ma, Shihan",
+				"Yao, Yao",
+				"Qi, Weiran",
+				"Jin, Chuyan",
+				"Ma, Guiyu",
+				"Xu, Xingzhong",
+				"Yang, Kai",
+				"Wen, Ji-Rong",
+				"Dou, Zhicheng"
+			],
+			"paper_title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+			"source": "https://arxiv.org/pdf/2607.15257v1#page=10",
+			"item": "Table 2",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				68.0739974975586, 59.32270812988281, 544.3911743164062,
+				263.6510009765625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b5134923a3b0cd0f2669da4653604ffa374614efdd2e019064ed9b11707b799d",
+			"source_pdf_sha256": "c0a599a8961c3c0f8ccf5526a9895933fed3891b42132736bdb52d32829e19df"
+		},
+		"paper-260715263-table2.png": {
+			"authors": ["Kassianik, Paul", "Nelson, Blaine", "Singer, Yaron"],
+			"paper_title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+			"source": "https://arxiv.org/pdf/2607.15263v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [88, 92, 526, 325],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ee1ac029ac0fe19569f8f3c2cd77569d233d1f5b90555565d354f73cd691a0c2",
+			"source_pdf_sha256": "86ba6e9faf5ce0fbe3d3a0cc015ade3ddc0162a0a6518cdf5acbd3280822860f"
 		}
-	}
+	},
+	"published_paper_count": 6
 }

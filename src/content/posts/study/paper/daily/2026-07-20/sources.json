@@ -55,6 +55,98 @@
 			"image_size": [1270, 523],
 			"sha256": "cdec42e9ce1277213fad92c1041c749aa6a296acac348daebb5de92dd67274f9",
 			"source_pdf_sha256": "43b162a4d4a5d7983784470a63577d278183473213fa5ab221c1d1f434f373b2"
+		},
+		"paper-260714888-figure2.png": {
+			"authors": ["Graham, Robert", "Stevinson, Edward", "Barsheshat, Yariv"],
+			"paper_title": "Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs",
+			"source": "https://arxiv.org/pdf/2607.14888v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [52, 67, 546, 352],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "68e780eb9d99ac6dd28864a2eb756b05398603adc6657c6028ba8d3662ebf6dd",
+			"source_pdf_sha256": "1663a34cf593444879e52ec70d671b43b39e9fe6088c84f43830c10a6c5b3b8c"
+		},
+		"paper-260629538-figure2.png": {
+			"authors": [
+				"Fan, Yijia",
+				"Di, Zonglin",
+				"Wen, Zimo",
+				"Yang, Yifan",
+				"Cheng, Mingxi",
+				"Dai, Qi",
+				"Liu, Bei",
+				"Qiu, Kai",
+				"Dong, Yue",
+				"Li, Ji",
+				"Luo, Chong"
+			],
+			"paper_title": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
+			"source": "https://arxiv.org/pdf/2606.29538v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				99.0069580078125, 46.10935974121094, 512.4585876464844,
+				375.3770751953125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6efe336dbf582427e10a7e9f234d01a3c19f4b7961a2bc9d1ebff0bc72248338",
+			"source_pdf_sha256": "4a4c2204460cc61d6d3897e3d25512ba52942137a2b26a5b167e4bcd12e1fdf5"
+		},
+		"paper-260629538-table1.png": {
+			"authors": [
+				"Fan, Yijia",
+				"Di, Zonglin",
+				"Wen, Zimo",
+				"Yang, Yifan",
+				"Cheng, Mingxi",
+				"Dai, Qi",
+				"Liu, Bei",
+				"Qiu, Kai",
+				"Dong, Yue",
+				"Li, Ji",
+				"Luo, Chong"
+			],
+			"paper_title": "RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
+			"source": "https://arxiv.org/pdf/2606.29538v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.64099884033203, 66.14234161376953, 509.0027770996094,
+				313.7833557128906
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "17d3778c4e3065f29d9217c18736c53dfb2f54f6b193b682d5121bca2f9b36b4",
+			"source_pdf_sha256": "4a4c2204460cc61d6d3897e3d25512ba52942137a2b26a5b167e4bcd12e1fdf5"
+		},
+		"paper-260714770-table4.png": {
+			"authors": [
+				"Liu, Xuemeng",
+				"Li, Zhengpin",
+				"Tang, Wanpeng",
+				"Xie, Haotong",
+				"Zhang, Wentao"
+			],
+			"paper_title": "ChronoQG: Towards a Temporally Expressive and Hop-Bounded Benchmark for Temporal Knowledge Graph Question Generation",
+			"source": "https://arxiv.org/pdf/2607.14770v1#page=8",
+			"item": "Table 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.50199890136719, 180.6979217529297, 563.2058715820312,
+				546.5967407226562
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9e5a55bd8e6d2fdc2e6ef05fcc0597f5a6e42d8a8f98ddf379fb4e5b8808ba4c",
+			"source_pdf_sha256": "43b162a4d4a5d7983784470a63577d278183473213fa5ab221c1d1f434f373b2"
 		}
-	}
+	},
+	"published_paper_count": 5
 }
