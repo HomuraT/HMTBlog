@@ -2,15 +2,13 @@
 title: '论文日报 2026-08-13：从行为推断用户处境，合成标签只是起点'
 published: 2026-08-13
 updated: 2026-10-29
-description: '从行为推断用户处境，合成标签只是起点，核对历史原文、实验条件与证据边界。'
+description: '从行为推断用户处境，合成标签只是起点。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-08-13 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 将处境建模为结构化逆推任务
 
@@ -26,17 +24,15 @@ RA-ICL 的表层 soft F1 为 0.464，潜在状态为 0.351，说明表面提取�
 
 应将推断保留为可纠正假设，避免把合成任务分数转成对真人的确定判断。下一步需要独立人物、领域和生成机制，以及明确同意和隐私边界；更多结构不自动消除建模偏差。
 
-## 原论文视觉证据
+## 论文图表
 
 ![2602.13319v1 Table 1 原始截图](./images/sgp-table1.png)
 
 图源：Jisung Shin , Daniel Platnick , Marjan Alirezaie , Hossein Rahnama，《Situation Graph Prediction: Structured Perspective Inference for User Modeling》，arXiv:2602.13319v1，Table 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2602.13319v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
 
-## 深读原文与范围
+## 论文来源
 
 - [Situation Graph Prediction: Structured Perspective Inference for User Modeling](https://arxiv.org/abs/2602.13319v1) · v1，公开于 2026-02-10。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -46,3 +42,5 @@ RA-ICL 的表层 soft F1 为 0.464，潜在状态为 0.351，说明表面提取�
 - [Full-bandwidth transformer](https://arxiv.org/abs/2608.08888v1) · v1，2026-08-09。
 - [FACT: Failure-Aware Causal Training for World-Action Models](https://arxiv.org/abs/2608.10232v1) · v1，2026-08-10。
 - [VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?](https://arxiv.org/abs/2608.10875v1) · v1，2026-08-11。
+
+文中实验结果为论文作者报告，未独立复现。

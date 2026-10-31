@@ -2,15 +2,13 @@
 title: '论文日报 2026-06-16：小模型写 Cypher 的数据与质检'
 published: 2026-06-16
 updated: 2026-10-29
-description: '小模型写 Cypher 的数据与质检，核对实验条件、历史版本及证据边界。'
+description: '小模型写 Cypher 的数据与质检。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-06-16 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
 
 ## 重点阅读
 
@@ -28,8 +26,6 @@ Text-to-Cypher 的瓶颈常是目标图谱专属标注，而非单纯参数量�
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [Transforming Shape Schemas with Composable Property-Graph Queries (Extended Version)](https://arxiv.org/abs/2606.14309v1) · 2606.14309v1，该版本提交 2026-06-12。
 - [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v1) · 2606.14409v1，该版本提交 2026-06-12。
 - [HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry](https://arxiv.org/abs/2606.14249v1) · 2606.14249v1，该版本提交 2026-06-12。
@@ -38,4 +34,4 @@ Text-to-Cypher 的瓶颈常是目标图谱专属标注，而非单纯参数量�
 - [Dialogue SWE-Bench: A Benchmark for Dialogue-Driven Coding Agents](https://arxiv.org/abs/2606.13995v1) · 2606.13995v1，该版本提交 2026-06-12。
 - [Every Eval Ever: A Unifying Schema and Community Repository for AI Evaluation Results](https://arxiv.org/abs/2606.14516v1) · 2606.14516v1，该版本提交 2026-06-12。
 
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

@@ -2,15 +2,13 @@
 title: '论文日报 2026-09-09：知识图谱预测新关系，需要怎样的外部验证'
 published: 2026-09-09
 updated: 2026-10-29
-description: '知识图谱预测新关系，需要怎样的外部验证，核对历史原文、实验条件与证据边界。'
+description: '知识图谱预测新关系，需要怎样的外部验证。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-09-09 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 从历史关系序列提出假说
 
@@ -30,11 +28,9 @@ Hakken 将论文抽取的时序知识图谱与 LLM 语义信息结合，预测�
 
 [Table 1，原论文 PDF 第 10 页](https://arxiv.org/pdf/2609.04494v1#page=10)。该版本未确认开放截图转载权限，本篇仅保留原图链接。
 
-## 深读原文与范围
+## 论文来源
 
 - [Hakken: Predicting future discoveries to fill the gaps in today's knowledge](https://arxiv.org/abs/2609.04494v1) · v1，公开于 2026-09-03。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，题名以核验时公开记录为准，深读题名按指定 PDF 页首；仅核对版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -45,3 +41,5 @@ Hakken 将论文抽取的时序知识图谱与 LLM 语义信息结合，预测�
 - [Unlocking Lossless Speedups in LLMs via Discrete Diffusion](https://arxiv.org/abs/2609.04010v1) · v1，2026-09-03。
 - [RISE: Recursive Improvement via Self-Extrapolating Policy Distillation](https://arxiv.org/abs/2609.05295v1) · v1，2026-09-04。
 - [WorldSculpt: Generating Compositional Worlds from Grounded Videos](https://arxiv.org/abs/2609.05416v1) · v1，2026-09-04。
+
+文中实验结果为论文作者报告，未独立复现。

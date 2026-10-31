@@ -2,15 +2,13 @@
 title: '论文日报 2026-06-18：长上下文记忆中的实体关系与代价'
 published: 2026-06-18
 updated: 2026-10-29
-description: '长上下文记忆中的实体关系与代价，核对实验条件、历史版本及证据边界。'
+description: '长上下文记忆中的实体关系与代价。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-06-18 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
 
 ## 重点阅读
 
@@ -28,12 +26,10 @@ KGERMAR 在推理时从当前文本抽实体和关系，构成动态知识图谱
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [MolmoAct2: Action Reasoning Models for Real-world Deployment](https://arxiv.org/abs/2605.02881v2) · 2605.02881v2，该版本提交 2026-05-08。
 - [ProgramBench: Can Language Models Rebuild Programs From Scratch?](https://arxiv.org/abs/2605.03546v1) · 2605.03546v1，该版本提交 2026-05-05。
 - [OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories](https://arxiv.org/abs/2605.04036v1) · 2605.04036v1，该版本提交 2026-05-05。
 - [Continuous Latent Diffusion Language Model](https://arxiv.org/abs/2605.06548v1) · 2605.06548v1，该版本提交 2026-05-07。
 - [Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior](https://arxiv.org/abs/2605.05115v1) · 2605.05115v1，该版本提交 2026-05-06。
 
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇；其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

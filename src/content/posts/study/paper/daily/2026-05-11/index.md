@@ -2,15 +2,13 @@
 title: '论文日报 2026-05-11：长程推理训练与多目标蒸馏'
 published: 2026-05-11
 updated: 2026-10-29
-description: '长程推理训练与多目标蒸馏，核对历史版本、实验设置与证据边界。'
+description: '长程推理训练与多目标蒸馏。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-05-11 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于提交或发表日期，以下固定引用 **v1**；实验数值为作者报告，本站未独立复现。
 
 ## ScaleLogic
 
@@ -38,14 +36,12 @@ HumanNet 提供一百万小时、包含第一和第三人称的人类活动视�
 
 ## 同期其他论文入口
 
-以下仅核对公开 v1 的题名、日期和链接，未逐篇复核全部实验。
-
 - [Ontology-Compliant Knowledge Graphs](https://arxiv.org/abs/2603.21188v1) · v1 首次提交 2026-03-22。
 - [HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature](https://arxiv.org/abs/2603.23136v1) · v1 首次提交 2026-03-24。
 - [LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling](https://arxiv.org/abs/2605.08083v1) · v1 首次提交 2026-05-08。
 - [Normalizing Trajectory Models](https://arxiv.org/abs/2605.08078v1) · v1 首次提交 2026-05-08。
 - [ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting](https://arxiv.org/abs/2605.06593v1) · v1 首次提交 2026-05-07。
 
-**覆盖说明：**本期保留 8 篇已核验公开论文入口，详读其中 3 篇，其余仅列阅读链接。
-
 **配图说明：**ScaleLogic 的公开页面仅标示 arXiv 非独占分发许可，本站未确认图像开放复用许可，因此保留原论文入口，未转载图像。
+
+文中实验结果为论文作者报告，未独立复现。

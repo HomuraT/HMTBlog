@@ -2,15 +2,13 @@
 title: '论文日报 2026-07-17：自动形式化需要理论与依赖库'
 published: 2026-07-17
 updated: 2026-10-29
-description: '自动形式化需要理论与依赖库，核对历史版本、结果条件及证据边界。'
+description: '自动形式化需要理论与依赖库。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-07-17 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
 
 ## 重点阅读
 
@@ -22,11 +20,9 @@ Theory-Level Autoformalization 是立场论文，主张把目标从孤立声明�
 
 我的判断是，知识工程可以借鉴这种评价单位：不只检查一个输出能否解析，还要查定义是否协同、依赖是否一致、库能否复用以及后续证明是否可行。赞同研究议程并不等于某条实现路线已经获得实证支持。
 
-**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2607.13292v1#page=1)。原文标记 CC BY-NC-SA 4.0；本站用途与非商业限制的适用关系未确认，本次未转载该图。
+**原图入口**：[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2607.13292v1#page=1)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch](https://arxiv.org/abs/2607.13960v1) · 2607.13960v1，该版本提交 2026-07-15。
 - [TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents](https://arxiv.org/abs/2607.13988v1) · 2607.13988v1，该版本提交 2026-07-15。
@@ -34,4 +30,4 @@ Theory-Level Autoformalization 是立场论文，主张把目标从孤立声明�
 - [OvisOCR2 Technical Report](https://arxiv.org/abs/2607.13639v1) · 2607.13639v1，该版本提交 2026-07-15。
 - [Let RGB Be the Language of Vision](https://arxiv.org/abs/2607.12450v1) · 2607.12450v1，该版本提交 2026-07-14。
 
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

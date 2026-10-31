@@ -2,15 +2,13 @@
 title: '论文日报 2026-07-05：本体扩展的证据与反例回路'
 published: 2026-07-05
 updated: 2026-10-29
-description: '本体扩展的证据与反例回路，核对历史版本、结果条件及证据边界。'
+description: '本体扩展的证据与反例回路。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-07-05 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
 
 ## 重点阅读
 
@@ -28,8 +26,6 @@ Orphadata 罕见共济失调实验保留 122 个疾病、160 个证据可触及 
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [From "Strings" to "Things" for Personal Knowledge Graphs: Evaluating LLM Triple Extraction for Recommendation Systems](https://arxiv.org/abs/2607.00003v1) · 2607.00003v1，该版本提交 2026-04-18。
 - [OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration](https://arxiv.org/abs/2607.01531v1) · 2607.01531v1，该版本提交 2026-07-01。
 - [LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives](https://arxiv.org/abs/2607.00784v1) · 2607.00784v1，该版本提交 2026-07-01。
@@ -39,4 +35,4 @@ Orphadata 罕见共济失调实验保留 122 个疾病、160 个证据可触及 
 - [AutoSpeed: Annotation-Free Stage-Adaptive Motion Speed Learning for Robot Manipulation](https://arxiv.org/abs/2607.01051v1) · 2607.01051v1，该版本提交 2026-07-01。
 - [AdaJEPA: An Adaptive Latent World Model](https://arxiv.org/abs/2606.32026v1) · 2606.32026v1，该版本提交 2026-06-30。
 
-**覆盖说明：** 本期保留 9 篇已核验公开论文入口，详读 1 篇，其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

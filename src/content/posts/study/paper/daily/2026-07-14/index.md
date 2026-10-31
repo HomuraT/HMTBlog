@@ -2,15 +2,13 @@
 title: '论文日报 2026-07-14：引文裁判的能力与方向性偏差'
 published: 2026-07-14
 updated: 2026-10-29
-description: '引文裁判的能力与方向性偏差，核对历史版本、结果条件及证据边界。'
+description: '引文裁判的能力与方向性偏差。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-07-14 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
 
 ## 重点阅读
 
@@ -28,11 +26,9 @@ GPT-5-mini 的来源相关性 pass-class F1 为 0.908，Cohen’s κ 为 0.636�
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [RaMark: Radioactive Watermarking for Generated Tabular Data](https://arxiv.org/abs/2607.09000v1) · 2607.09000v1，该版本提交 2026-07-10。
 - [Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation](https://arxiv.org/abs/2607.09600v1) · 2607.09600v1，该版本提交 2026-07-10。
 - [The Silent Freeze: Predicting When Low-Precision Training Stops Learning](https://arxiv.org/abs/2607.09800v1) · 2607.09800v1，该版本提交 2026-07-09。
 - [AfterVibe: What Remains When the Conversation Ends](https://arxiv.org/abs/2607.09900v1) · 2607.09900v1，该版本提交 2026-07-10。
 
-**覆盖说明：** 本期保留 5 篇已核验公开论文入口，详读 1 篇，其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

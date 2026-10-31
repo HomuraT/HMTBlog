@@ -2,15 +2,13 @@
 title: '论文日报 2026-08-12：时序图谱跨域迁移，要先去掉词表重叠的假设'
 published: 2026-08-12
 updated: 2026-10-29
-description: '时序图谱跨域迁移，要先去掉词表重叠的假设，核对历史原文、实验条件与证据边界。'
+description: '时序图谱跨域迁移，要先去掉词表重叠的假设。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-08-12 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 完全归纳与时序是两条轴
 
@@ -26,17 +24,15 @@ FITTER 研究训练与推理图的实体、关系名称和时间戳都可能不�
 
 跨域评估要同时记录词表、时间跨度与训练/消息/测试划分。图越密集，训练和推理开销仍可能成为限制；一项平均排名不能代替逐目标检查。
 
-## 原论文视觉证据
+## 论文图表
 
 ![2608.10668v1 Figure 1 原始截图](./images/fitter-figure1.png)
 
 图源：Jiaxin Pan , Mojtaba Nayyeri , Osama Mohammed , Daniel Hernandez , Rongchuan Zhang , Cheng Cheng , Steffen Staab，《FITTER: Vocabulary-Agnostic Cross-Domain Inference on Temporal Knowledge Graphs》，arXiv:2608.10668v1，Figure 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2608.10668v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
 
-## 深读原文与范围
+## 论文来源
 
 - [FITTER: Vocabulary-Agnostic Cross-Domain Inference on Temporal Knowledge Graphs](https://arxiv.org/abs/2608.10668v1) · v1，公开于 2026-08-11。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -46,3 +42,5 @@ FITTER 研究训练与推理图的实体、关系名称和时间戳都可能不�
 - [SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring](https://arxiv.org/abs/2608.09802v1) · v1，2026-08-10。
 - [JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling](https://arxiv.org/abs/2608.09381v1) · v1，2026-08-10。
 - [Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning](https://arxiv.org/abs/2608.09926v1) · v1，2026-08-10。
+
+文中实验结果为论文作者报告，未独立复现。

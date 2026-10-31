@@ -12,8 +12,6 @@ lang: 'zh-CN'
 
 长期智能体和分布式训练都需要在状态变化、信息不完整时继续推进。本期分别讨论结构化记忆、异步训练与本体公理识别。
 
-本文补录 **2026 年 4 月 27 日的推荐日报清单**，于 10 月 29 日核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**。数字为作者报告，本站未独立复现。
-
 ## StructMem
 
 结构化记忆 · v1 首次提交 2026-04-23 · [StructMem: Structured Memory for Long-Horizon Behavior in LLMs](https://arxiv.org/abs/2604.21748v1) · [全文](https://arxiv.org/html/2604.21748v1)
@@ -44,12 +42,12 @@ StructMem 用时间锚定组织事件的不同视角，再周期性整合相关�
 
 ## 其他公开研究入口
 
-以下仅核对历史 v1 题名、提交日期与链接，未复核全部实验。
-
 - [Towards Operational Data Analytics Chatbots -- Virtual Knowledge Graph is All You Need](https://arxiv.org/abs/2506.22267v1) · v1 首次提交 2025-06-27。
 - [There Will Be a Scientific Theory of Deep Learning](https://arxiv.org/abs/2604.21691v1) · v1 首次提交 2026-04-23。
 - [Seeing Fast and Slow: Learning the Flow of Time in Videos](https://arxiv.org/abs/2604.21931v1) · v1 首次提交 2026-04-23。
 - [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1) · v1 首次提交 2026-04-23。
 - [Sapiens2](https://arxiv.org/abs/2604.21681v1) · v1 首次提交 2026-04-23。
 
-本期共八篇入口，展开其中三篇。外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+
+文中实验结果为论文作者报告，未独立复现。

@@ -2,15 +2,13 @@
 title: '论文日报 2026-06-27：生成式 SPARQL 的语义与终止条件'
 published: 2026-06-27
 updated: 2026-10-29
-description: '生成式 SPARQL 的语义与终止条件，核对历史版本、结果条件及证据边界。'
+description: '生成式 SPARQL 的语义与终止条件。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-06-27 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
 
 ## 重点阅读
 
@@ -28,8 +26,6 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [When CQs Go Wrong: Challenges in CQ Verification with OE-Assist](https://arxiv.org/abs/2606.24619v1) · 2606.24619v1，该版本提交 2026-06-23。
 - [One Index for Subsumption and Roll-up across Time, Geography, and Ontology](https://arxiv.org/abs/2606.24677v1) · 2606.24677v1，该版本提交 2026-06-23。
 - [DanceOPD: On-Policy Generative Field Distillation](https://arxiv.org/abs/2606.27377v1) · 2606.27377v1，该版本提交 2026-06-25。
@@ -39,4 +35,4 @@ lang: 'zh-CN'
 - [Scalable Behavior Cloning with Open Data, Training, and Evaluation](https://arxiv.org/abs/2606.27375v1) · 2606.27375v1，该版本提交 2026-06-25。
 - [AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems](https://arxiv.org/abs/2606.26859v2) · 2606.26859v2，该版本提交 2026-06-26。
 
-**覆盖说明：** 本期保留 9 篇已核验公开论文入口，详读 1 篇，其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

@@ -2,15 +2,13 @@
 title: '论文日报 2026-09-14：地理数据可发现性，难在地点怎样被描述'
 published: 2026-09-14
 updated: 2026-10-29
-description: '地理数据可发现性，难在地点怎样被描述，核对历史原文、实验条件与证据边界。'
+description: '地理数据可发现性，难在地点怎样被描述。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-09-14 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 元数据图连接数据集，而非只保存文件
 
@@ -26,17 +24,15 @@ lang: 'zh-CN'
 
 应把来源标识、版本、空间粒度与消歧决定一起保存。拓扑能帮助发现候选，却不能自动解决因果推断、代表性和缺失元数据问题，使用者仍需检查原数据。
 
-## 原论文视觉证据
+## 论文图表
 
 ![2609.11674v1 Figure 1 原始截图](./images/dataverse-figure1.png)
 
 图源：Danny EBanks , Devika Jain，《Geospatial AI, Dataverse Metadata, and the Study of Place-Based Government》，arXiv:2609.11674v1，Figure 1，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2609.11674v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
 
-## 深读原文与范围
+## 论文来源
 
 - [Geospatial AI, Dataverse Metadata, and the Study of Place-Based Government](https://arxiv.org/abs/2609.11674v1) · v1，公开于 2026-09-10。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，题名以核验时公开记录为准，深读题名按指定 PDF 页首；仅核对版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -46,3 +42,5 @@ lang: 'zh-CN'
 - [SenseNova-U1.5: Towards Native Unified Visual Intelligence](https://arxiv.org/abs/2609.11929v1) · v1，2026-09-10。
 - [Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation](https://arxiv.org/abs/2609.11638v1) · v1，2026-09-10。
 - [Learning Realistic Athletic Sprinting Without Demonstrations](https://arxiv.org/abs/2609.11083v1) · v1，2026-09-10。
+
+文中实验结果为论文作者报告，未独立复现。

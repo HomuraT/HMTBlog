@@ -2,15 +2,13 @@
 title: '论文日报 2026-06-23：神经概率逻辑的单世界反事实'
 published: 2026-06-23
 updated: 2026-10-29
-description: '神经概率逻辑的单世界反事实，核对实验条件、历史版本及证据边界。'
+description: '神经概率逻辑的单世界反事实。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-06-23 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
 
 ## 重点阅读
 
@@ -28,8 +26,6 @@ MPI3D-toy 使用 8,368 张训练图、2,000 张测试图。500 张评估图、�
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [How Transparent is DiffusionGemma?](https://arxiv.org/abs/2606.20560v1) · 2606.20560v1，该版本提交 2026-06-18。
 - [LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents](https://arxiv.org/abs/2606.20529v1) · 2606.20529v1，该版本提交 2026-06-18。
 - [Sovereign Execution Broker: Enforcing Certificate-Bound Authority in Agentic Control Planes](https://arxiv.org/abs/2606.20520v2) · 2606.20520v2，该版本提交 2026-06-19。
@@ -37,4 +33,4 @@ MPI3D-toy 使用 8,368 张训练图、2,000 张测试图。500 张评估图、�
 - [TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living](https://arxiv.org/abs/2606.20561v1) · 2606.20561v1，该版本提交 2026-06-18。
 - [Thinking in Boxes: 3D Editing in Real Images Made Easy](https://arxiv.org/abs/2606.20556v1) · 2606.20556v1，该版本提交 2026-06-18。
 
-**覆盖说明：** 本期保留 7 篇已核验公开论文入口，详读 1 篇；其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

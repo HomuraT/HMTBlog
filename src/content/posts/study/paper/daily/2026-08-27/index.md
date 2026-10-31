@@ -2,15 +2,13 @@
 title: '论文日报 2026-08-27：图查询的标准语义，需要能执行和检查'
 published: 2026-08-27
 updated: 2026-10-29
-description: '图查询的标准语义，需要能执行和检查，核对历史原文、实验条件与证据边界。'
+description: '图查询的标准语义，需要能执行和检查。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-08-27 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
 
 ## 从规范文字到机械化语义
 
@@ -26,17 +24,15 @@ MGQL 为 GQL 的一个较大只读片段建立小步操作语义与 schema-aware
 
 可执行参考语义为跨引擎差异提供了更明确的检查对象。使用时仍应核对覆盖的查询片段、路径/匹配模式与空值规则，不能将“标准有形式模型”直接当作当前产品已符合标准。
 
-## 原论文视觉证据
+## 论文图表
 
 ![2608.24565v1 Figure 1 原始截图](./images/mgql-figure1.png)
 
 图源：Aditya Thimmaiah , Tong-Nong Lin , Milos Gligoric，《MGQL: An Executable, Small-Step Semantics of GQL》，arXiv:2608.24565v1，Figure 1，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2608.24565v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
 
-## 深读原文与范围
+## 论文来源
 
 - [MGQL: An Executable, Small-Step Semantics of GQL](https://arxiv.org/abs/2608.24565v1) · v1，公开于 2026-08-25。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 
@@ -47,3 +43,5 @@ MGQL 为 GQL 的一个较大只读片段建立小步操作语义与 schema-aware
 - [Do Robotic World Models Really Follow Actions? Diagnosing and Aligning Action-Conditioned Generation for Policy Learning](https://arxiv.org/abs/2608.24885v1) · v1，2026-08-25。
 - [GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models](https://arxiv.org/abs/2608.24714v1) · v1，2026-08-25。
 - [Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training](https://arxiv.org/abs/2608.24680v1) · v1，2026-08-25。
+
+文中实验结果为论文作者报告，未独立复现。

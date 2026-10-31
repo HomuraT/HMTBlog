@@ -2,7 +2,7 @@
 title: '论文日报 2026-04-25：自博弈、缓存遗忘与科学推理'
 published: 2026-04-25
 updated: 2026-10-29
-description: '自博弈题目质量、推理缓存预算与科学智能体的证据使用，并保留核验后的历史阅读入口。'
+description: '自博弈题目质量、推理缓存预算与科学智能体的证据使用。'
 image: ''
 tags: [LLM, Agent, 科学推理]
 category: '论文或资源整理'
@@ -11,8 +11,6 @@ lang: 'zh-CN'
 ---
 
 持续提供有效挑战、减少推理工作记忆、审查科学推理过程，是三种不同的能力。本期分别讨论自博弈、缓存管理和科学智能体，并保留能够核对的其他研究入口。
-
-本文补录 **2026 年 4 月 25 日的推荐日报清单**，于 10 月 29 日核对公开来源。推荐日期不等于首次提交或发表日期；链接固定为历史 **v1**，不把后续版本的内容当作当时已发表的事实。实验数字为作者报告，本站未独立复现。
 
 ## SGS
 
@@ -49,8 +47,6 @@ NGC 让模型间歇选择淘汰的 KV cache 条目，再在剩余记忆上继续
 
 ## 其他公开研究入口
 
-以下只核对历史 v1 的题名、提交日期与链接，不表示完成全部实验复核。部分研究来自 2025 年或更早，属于本期推荐阅读。
-
 - [GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning](https://arxiv.org/abs/2604.02721v1) · v1 首次提交 2026-04-03。
 - [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://arxiv.org/abs/2604.08523v1) · v1 首次提交 2026-04-09。
 - [Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding](https://arxiv.org/abs/2604.05015v1) · v1 首次提交 2026-04-06。
@@ -69,8 +65,6 @@ NGC 让模型间歇选择淘汰的 KV cache 条目，再在剩余记忆上继续
 
 - [DeepSeek-V4 Preview 官方发布说明](https://deepseek.com/en/news/v4-preview/) · 页面标注 2026-04-24。本期保留官方预览入口，不把后续 arXiv 存档伪写成 4 月 25 日已经发表的论文。
 
-## 覆盖与未收录项
-
-本篇包含三篇精选、两篇短评及十六项其他公开入口，其中一项为官方发布说明。另有五项历史候选未能一致核对题名、编号或来源，暂不收录，也不为其补写论文、结果或发布日期。已收录入口不等于所有候选均已完成深读。
-
 外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+
+文中实验结果为论文作者报告，未独立复现。

@@ -12,8 +12,6 @@ lang: 'zh-CN'
 
 本期讨论两条效率路线，分别是训练更会使用工具的小模型，以及把自然语言推理压缩成抽象表示。机器人策略评测提供了应用端的参照。
 
-本文补录 **2026 年 4 月 28 日的推荐日报清单**，于 10 月 29 日核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## AgenticQwen
 
 工具模型训练 · v1 首次提交 2026-04-23 · [AgenticQwen: Training Small Agentic Language Models with Dual Data Flywheels for Industrial-Scale Tool Use](https://arxiv.org/abs/2604.21590v1) · [全文](https://arxiv.org/html/2604.21590v1)
@@ -50,12 +48,12 @@ dWorldEval 用统一离散 token 表示视觉、语言与动作，预测未来�
 
 ## 其他公开研究入口
 
-以下仅核对历史 v1 题名、提交日期与链接，未复核全部实验。较早的知识图谱论文属于本期推荐阅读。
-
 - [Distill-SynthKG: Distilling Knowledge Graph Synthesis Workflow for Improved Coverage and Efficiency](https://arxiv.org/abs/2410.16597v1) · v1 首次提交 2024-10-22。
 - [Knowledge Reasoning Language Model: Unifying Knowledge and Language for Inductive Knowledge Graph Reasoning](https://arxiv.org/abs/2510.13909v1) · v1 首次提交 2025-10-15。
 - [Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond](https://arxiv.org/abs/2604.22748v1) · v1 首次提交 2026-04-24。
 - [Hyperloop Transformers](https://arxiv.org/abs/2604.21254v1) · v1 首次提交 2026-04-23。
 - [GazeVLA: Learning Human Intention for Robotic Manipulation](https://arxiv.org/abs/2604.22615v1) · v1 首次提交 2026-04-24。
 
-本期共八篇入口，展开其中三篇。外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+
+文中实验结果为论文作者报告，未独立复现。

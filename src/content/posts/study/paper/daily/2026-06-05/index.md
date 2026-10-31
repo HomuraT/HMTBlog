@@ -2,15 +2,13 @@
 title: '论文日报 2026-06-05：图 token 的显著性与因果贡献'
 published: 2026-06-05
 updated: 2026-10-29
-description: '图 token 的显著性与因果贡献，核对实验条件、历史版本及证据边界。'
+description: '图 token 的显著性与因果贡献。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-06-05 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
 
 ## 重点阅读
 
@@ -24,11 +22,9 @@ lang: 'zh-CN'
 
 我的阅读判断是，颜色鲜明的激活图需要删除对照才能支撑信息利用的解释。性能差异还受采样、输入模板及干预位置影响，论文也没有提供通用修复方案。做知识图谱增强系统时，应把可视化与受控任务验收配对使用。
 
-**原图入口：**[Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2606.03712v1#page=2)。本次仅确认 arXiv 非独占分发许可，未确认第三方截图再发布权，未转载该图。
+**原图入口**：[Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2606.03712v1#page=2)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [OpenSearch-VL: An Open Recipe for Frontier Multimodal Search Agents](https://arxiv.org/abs/2605.05185v1) · 2605.05185v1，该版本提交 2026-05-06。
 - [SkillOS: Learning Skill Curation for Self-Evolving Agents](https://arxiv.org/abs/2605.06614v1) · 2605.06614v1，该版本提交 2026-05-07。
@@ -36,4 +32,4 @@ lang: 'zh-CN'
 - [BAMI: Training-Free Bias Mitigation in GUI Grounding](https://arxiv.org/abs/2605.06664v1) · 2605.06664v1，该版本提交 2026-05-07。
 - [Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories](https://arxiv.org/abs/2606.02060v2) · 2606.02060v2，该版本提交 2026-06-02。
 
-**覆盖说明：**本期保留 6 篇已核验公开论文入口，详读 1 篇；其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。

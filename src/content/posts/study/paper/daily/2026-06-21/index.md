@@ -2,15 +2,13 @@
 title: '论文日报 2026-06-21：长时对话先存对原子事实'
 published: 2026-06-21
 updated: 2026-10-29
-description: '长时对话先存对原子事实，核对实验条件、历史版本及证据边界。'
+description: '长时对话先存对原子事实。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
 draft: false
 lang: 'zh-CN'
 ---
-
-本文补录 **2026-06-21 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
 
 ## 重点阅读
 
@@ -28,8 +26,6 @@ LoCoMo 平均约 35 会话、600 多轮。实验统一 GPT-4o-mini 回答骨干�
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence](https://arxiv.org/abs/2606.20515v1) · 2606.20515v1，该版本提交 2026-06-18。
 - [MemoryWAM: Efficient World Action Modeling with Persistent Memory](https://arxiv.org/abs/2606.20562v1) · 2606.20562v1，该版本提交 2026-06-18。
 - [HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining](https://arxiv.org/abs/2606.20521v1) · 2606.20521v1，该版本提交 2026-06-18。
@@ -37,4 +33,4 @@ LoCoMo 平均约 35 会话、600 多轮。实验统一 GPT-4o-mini 回答骨干�
 - [Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe](https://arxiv.org/abs/2606.20381v1) · 2606.20381v1，该版本提交 2026-06-18。
 - [Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning](https://arxiv.org/abs/2606.20002v1) · 2606.20002v1，该版本提交 2026-06-18。
 
-**覆盖说明：** 本期保留 7 篇已核验公开论文入口，详读 1 篇；其余仅列目录。
+文中实验结果为论文作者报告，未独立复现。
