@@ -47,7 +47,48 @@
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260519518-table3.png": {
+			"authors": [
+				"Castedo, Carla",
+				"Iglesias, Enrique",
+				"Lama, Manuel",
+				"Bugarin-Diz, Alberto",
+				"Vidal, Maria-Esther",
+				"Chaves-Fraga, David"
+			],
+			"paper_title": "BLINKG: A Benchmark for LLM-Integrated Knowledge Graph Generation",
+			"source": "https://arxiv.org/pdf/2605.19518v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [94, 178, 519, 393],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "89eab841239e5496300c5f448f0fa9fa2127ded82a5c86110d28b5bfa2f74490",
+			"source_pdf_sha256": "e3050c41d1639d75771d8e4b03bc1dc63bee87ced3a933a2851aa1e162c06dd1"
+		},
+		"paper-260519518-table9.png": {
+			"authors": [
+				"Castedo, Carla",
+				"Iglesias, Enrique",
+				"Lama, Manuel",
+				"Bugarin-Diz, Alberto",
+				"Vidal, Maria-Esther",
+				"Chaves-Fraga, David"
+			],
+			"paper_title": "BLINKG: A Benchmark for LLM-Integrated Knowledge Graph Generation",
+			"source": "https://arxiv.org/pdf/2605.19518v1#page=26",
+			"item": "Table 9",
+			"pdf_page": 26,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [94, 377, 521, 466],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e43cecb3fbeeda81cb4ca00449a2c5fd96359393c891902aa8d515f6f066ce2d",
+			"source_pdf_sha256": "e3050c41d1639d75771d8e4b03bc1dc63bee87ced3a933a2851aa1e162c06dd1"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.03712v1",
@@ -55,5 +96,6 @@
 			"source": "https://arxiv.org/pdf/2606.03712v1#page=2",
 			"reason": "Only arXiv non-exclusive distribution license established."
 		}
-	]
+	],
+	"published_paper_count": 7
 }

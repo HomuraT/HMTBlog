@@ -54,7 +54,136 @@
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260602373-figure2.png": {
+			"authors": [
+				"Jiang, Pengcheng",
+				"Shi, Zhiyi",
+				"Hong, Kelly",
+				"Xu, Xueqiang",
+				"Sun, Jiashuo",
+				"Sun, Jimeng",
+				"Bashir, Hammad",
+				"Han, Jiawei"
+			],
+			"paper_title": "Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses",
+			"source": "https://arxiv.org/pdf/2606.02373v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 69, 509, 396],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b7a58a9d25c0b4444ec275449255ea990d06aa20168230e99ea8c4a628f02e53",
+			"source_pdf_sha256": "7e8eb579ee67ba36fab2bce4075fe71e1fcbe5205d7158ff1d620fe85ebd3693"
+		},
+		"paper-260602373-table2.png": {
+			"authors": [
+				"Jiang, Pengcheng",
+				"Shi, Zhiyi",
+				"Hong, Kelly",
+				"Xu, Xueqiang",
+				"Sun, Jiashuo",
+				"Sun, Jimeng",
+				"Bashir, Hammad",
+				"Han, Jiawei"
+			],
+			"paper_title": "Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses",
+			"source": "https://arxiv.org/pdf/2606.02373v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 77, 510, 443],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "137cfc45ed7765e6c8a3eb31becf4fe1a61e86e414d1d933fecb43ae6db9ea47",
+			"source_pdf_sha256": "7e8eb579ee67ba36fab2bce4075fe71e1fcbe5205d7158ff1d620fe85ebd3693"
+		},
+		"paper-260603264-figure2.png": {
+			"authors": [
+				"Zhang, Zelun",
+				"Liu, Hongen",
+				"Liang, Suyin",
+				"Zhang, Yubo",
+				"Xiang, Yiqing",
+				"Liu, Jiaxuan",
+				"Sun, Ting",
+				"Lin, Manhui",
+				"Zhang, Yue",
+				"Zhou, Changda",
+				"Gao, Tingquan",
+				"Cui, Cheng",
+				"Liu, Yi",
+				"Yu, Dianhai",
+				"Ma, Yanjun"
+			],
+			"paper_title": "PaddleOCR-VL-1.6: Expanding the Frontier of Document Parsing with Under-Optimized Region Refinement and Progressive Post-Training",
+			"source": "https://arxiv.org/pdf/2606.03264v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 78, 527, 346],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a6ad3f2ae8b3dbd691dbbacdc6e59049740533acde5fe54622e305d8b0a7b047",
+			"source_pdf_sha256": "6ad1f09beb9cb3599f70334723348ff5f3dcb6f7f3b5fa2573a6abd85df65a24"
+		},
+		"paper-260603264-table2.png": {
+			"authors": [
+				"Zhang, Zelun",
+				"Liu, Hongen",
+				"Liang, Suyin",
+				"Zhang, Yubo",
+				"Xiang, Yiqing",
+				"Liu, Jiaxuan",
+				"Sun, Ting",
+				"Lin, Manhui",
+				"Zhang, Yue",
+				"Zhou, Changda",
+				"Gao, Tingquan",
+				"Cui, Cheng",
+				"Liu, Yi",
+				"Yu, Dianhai",
+				"Ma, Yanjun"
+			],
+			"paper_title": "PaddleOCR-VL-1.6: Expanding the Frontier of Document Parsing with Under-Optimized Region Refinement and Progressive Post-Training",
+			"source": "https://arxiv.org/pdf/2606.03264v1#page=17",
+			"item": "Table 2",
+			"pdf_page": 17,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 82, 528, 446],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3f9919955e9b0a3a68e33e6ce0162728a9e649b8f14fa36f166232944bdd8286",
+			"source_pdf_sha256": "6ad1f09beb9cb3599f70334723348ff5f3dcb6f7f3b5fa2573a6abd85df65a24"
+		},
+		"paper-260601435-section3.1.png": {
+			"authors": ["Reddy, Vikas", "Challaram, Sumanth"],
+			"paper_title": "Don't Ask the LLM to Track Freshness: A Deterministic Recipe for Memory Conflict Resolution",
+			"source": "https://arxiv.org/pdf/2606.01435v1#page=9",
+			"item": "Section 3.1",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 147, 580, 410],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "105d25ec10cbef4640e1e2ca81ae74c65cbcbd804dfd05ba1418741105652d71",
+			"source_pdf_sha256": "60f5542186d6e629e00885922dd57ee18e55f7775932c6991c2d76796c75b4a1"
+		},
+		"paper-260601435-section5.3.png": {
+			"authors": ["Reddy, Vikas", "Challaram, Sumanth"],
+			"paper_title": "Don't Ask the LLM to Track Freshness: A Deterministic Recipe for Memory Conflict Resolution",
+			"source": "https://arxiv.org/pdf/2606.01435v1#page=15",
+			"item": "Section 5.3",
+			"pdf_page": 15,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 155, 543, 432],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e4189dfb043aeedfcd4122745983e2c40d92c0012c72b9169c57f808a260e6f4",
+			"source_pdf_sha256": "60f5542186d6e629e00885922dd57ee18e55f7775932c6991c2d76796c75b4a1"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.03458v1",
@@ -62,5 +191,6 @@
 			"source": "https://arxiv.org/pdf/2606.03458v1#page=2",
 			"reason": "Only arXiv non-exclusive distribution license established."
 		}
-	]
+	],
+	"published_paper_count": 7
 }
