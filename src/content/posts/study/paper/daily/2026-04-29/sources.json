@@ -63,10 +63,115 @@
 			"image_size": [1255, 462],
 			"sha256": "7ea7e2f6b475389d36e4177913186a59aa3aedf71aa53790cc91d7934b94e53a",
 			"source_pdf_sha256": "a434304cd8bda7fba635b490162d61af9ec266eb63ba5e9e399b5c5a8f8923e2"
+		},
+		"paper-260423747-figure1.png": {
+			"authors": [
+				"Limozin, Alexis",
+				"Durech, Eduard",
+				"Hoefler, Torsten",
+				"Schlag, Imanol",
+				"Pyatkin, Valentina"
+			],
+			"paper_title": "SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning",
+			"source": "https://arxiv.org/pdf/2604.23747v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 484.8519287109375, 509.0134582519531, 689.9430541992188
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "450e595aaa91420404468f28e8f075043acb5ee9cbc83247ac68553a35a46a89",
+			"source_pdf_sha256": "1ab198d2f337fc8d2074eabb4f85b3f5d599b26273c9eb8aefdf8210ca577176"
+		},
+		"paper-260423747-table1.png": {
+			"authors": [
+				"Limozin, Alexis",
+				"Durech, Eduard",
+				"Hoefler, Torsten",
+				"Schlag, Imanol",
+				"Pyatkin, Valentina"
+			],
+			"paper_title": "SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning",
+			"source": "https://arxiv.org/pdf/2604.23747v1#page=4",
+			"item": "Table 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 73.69478607177734, 509.66802978515625,
+				235.31570434570312
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "25848b2e9ea9ae98505ba754189aefca7cf9d6fa7db15294a0c47112e6e1e889",
+			"source_pdf_sha256": "1ab198d2f337fc8d2074eabb4f85b3f5d599b26273c9eb8aefdf8210ca577176"
+		},
+		"paper-260424763-figure3.png": {
+			"authors": [
+				"Liu, Zhiheng",
+				"Ren, Weiming",
+				"Huang, Xiaoke",
+				"Chen, Shoufa",
+				"Li, Tianhong",
+				"Chen, Mengzhao",
+				"Ji, Yatai",
+				"He, Sen",
+				"Schult, Jonas",
+				"Zeng, Belinda",
+				"Xiang, Tao",
+				"Chen, Wenhu",
+				"Luo, Ping",
+				"Zettlemoyer, Luke",
+				"Cong, Yuren"
+			],
+			"paper_title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+			"source": "https://arxiv.org/pdf/2604.24763v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 60, 544, 187],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "56dc4d028d83796ad0b435ff1f48de99f939a6591d61a2a61478b62ea9d97140",
+			"source_pdf_sha256": "bdf561c025291491c2241f86328b528714c8f3ff8c8fd98c5cd5d037710fe5be"
+		},
+		"paper-260424763-table1.png": {
+			"authors": [
+				"Liu, Zhiheng",
+				"Ren, Weiming",
+				"Huang, Xiaoke",
+				"Chen, Shoufa",
+				"Li, Tianhong",
+				"Chen, Mengzhao",
+				"Ji, Yatai",
+				"He, Sen",
+				"Schult, Jonas",
+				"Zeng, Belinda",
+				"Xiang, Tao",
+				"Chen, Wenhu",
+				"Luo, Ping",
+				"Zettlemoyer, Luke",
+				"Cong, Yuren"
+			],
+			"paper_title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+			"source": "https://arxiv.org/pdf/2604.24763v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				63.074623107910156, 57.45772933959961, 548.9409790039062,
+				282.59417724609375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "50a1fe9edd50f54b15929d05eefa7678bc037eb524f657d584ad2e820dbc8e8a",
+			"source_pdf_sha256": "bdf561c025291491c2241f86328b528714c8f3ff8c8fd98c5cd5d037710fe5be"
 		}
 	},
 	"verification_notes": [
 		"ClawMark weighted score 75.8 belongs to Sonnet 4.6; strict success 20.0 belongs to Opus 4.6.",
 		"ClawMark seven-system comparison uses one OpenClaw harness and single-run protocol."
-	]
+	],
+	"published_paper_count": 6
 }

@@ -69,6 +69,111 @@
 			"image_size": [1150, 353],
 			"sha256": "7bf60989eed767e88c07189f1ac59c7a95aebed104235896a4a2bd286c08236e",
 			"source_pdf_sha256": "7417585410d84d281d6a62224ed6aa12557e693d0bd76f048badffc651d523ba"
+		},
+		"paper-260427077-figure2.png": {
+			"authors": ["Shigida, Boris", "Hanin, Boris", "Gromov, Andrey"],
+			"paper_title": "Learning Rate Transfer in Normalized Transformers",
+			"source": "https://arxiv.org/pdf/2604.27077v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.77806091308594, 547.437255859375, 307.645263671875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a8a440bb66c81eb1e8f8ed28f1c76ab26e4d451f1d39658155574a3e28205cf2",
+			"source_pdf_sha256": "7de5422b68705303dfa731110fcb51df44419c5b95aeacc5c55b1bd8fbdb5ac8"
+		},
+		"paper-260428119-figure4.png": {
+			"authors": [
+				"Bhalla, Usha",
+				"Fel, Thomas",
+				"Rager, Can",
+				"Feucht, Sheridan",
+				"Haklay, Tal",
+				"Wurgaft, Daniel",
+				"Boppana, Siddharth",
+				"Kowal, Matthew",
+				"Shyam, Vasudev",
+				"Merullo, Jack",
+				"Geiger, Atticus",
+				"Lubana, Ekdeep Singh"
+			],
+			"paper_title": "Do Sparse Autoencoders Capture Concept Manifolds?",
+			"source": "https://arxiv.org/pdf/2604.28119v1#page=6",
+			"item": "Figure 4",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [35.0, 28.0, 577.0, 405.20037841796875],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "304368a311479e02f4f5884d2a695ee240597e32431d9b4a29f00ee0047276dc",
+			"source_pdf_sha256": "c7cffb27cce602e6f045b7eb38a1714b8ce5a29701147c71d1f9d9069707a2be"
+		},
+		"paper-260428190-figure2.png": {
+			"authors": [
+				"Yang, Jiawei",
+				"Geng, Zhengyang",
+				"Ju, Xuan",
+				"Tian, Yonglong",
+				"Wang, Yue"
+			],
+			"paper_title": "Representation Fr\\'echet Loss for Visual Generation",
+			"source": "https://arxiv.org/pdf/2604.28190v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [106, 55, 506, 130],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6bc235c55f3683cde18ca31b76d24ae5e0b47a298ca0cb6d9eeac45ebfdb7f55",
+			"source_pdf_sha256": "eadbfa2f5e4431dab81fa20857bfc54c8ba9e97704e6048757503c5e1d5f1529"
+		},
+		"paper-260428190-table2.png": {
+			"authors": [
+				"Yang, Jiawei",
+				"Geng, Zhengyang",
+				"Ju, Xuan",
+				"Tian, Yonglong",
+				"Wang, Yue"
+			],
+			"paper_title": "Representation Fr\\'echet Loss for Visual Generation",
+			"source": "https://arxiv.org/pdf/2604.28190v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [106, 344, 291, 496],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3ea5c4dd28eadc7df45fc43155be77bedd2692d89287ef4b7e3cd7934748fd2f",
+			"source_pdf_sha256": "eadbfa2f5e4431dab81fa20857bfc54c8ba9e97704e6048757503c5e1d5f1529"
+		},
+		"paper-260404450-figure1.png": {
+			"authors": ["Gendron, Barbara", "Guibon, Gaël", "d'Aquin, Mathieu"],
+			"paper_title": "Conversational Control with Ontologies for Large Language Models: A Lightweight Framework for Constrained Generation",
+			"source": "https://arxiv.org/pdf/2604.04450v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [70, 60, 529, 315],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8aa7195c728ffab5f4699713f14d5aea5a43a0ba3c3caef3e5db9702ef7e70b0",
+			"source_pdf_sha256": "ca8f203b89154b6d56c3c7fa3ef0742974649f51fa3e896cbcb8315ca64c35c4"
+		},
+		"paper-260404450-table2.png": {
+			"authors": ["Gendron, Barbara", "Guibon, Gaël", "d'Aquin, Mathieu"],
+			"paper_title": "Conversational Control with Ontologies for Large Language Models: A Lightweight Framework for Constrained Generation",
+			"source": "https://arxiv.org/pdf/2604.04450v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [70, 60, 527, 355],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5950d27c10908fdeb4a45493f8a94ff0d5775ef668aba80123e03c562543c7f4",
+			"source_pdf_sha256": "ca8f203b89154b6d56c3c7fa3ef0742974649f51fa3e896cbcb8315ca64c35c4"
 		}
 	},
 	"unverified_sources": [
@@ -76,5 +181,6 @@
 			"source": "https://doi.org/10.1016/j.inffus.2026.104337",
 			"reason": "Access returned HTTP 403; no method or numerical claims published."
 		}
-	]
+	],
+	"published_paper_count": 7
 }
