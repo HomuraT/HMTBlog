@@ -12,6 +12,36 @@
 			"version_submitted": "2026-10-08",
 			"source": "https://arxiv.org/abs/2610.11701v1",
 			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		},
+		{
+			"title": "Natural Language Questions as an Interface for Knowledge Graphs: QRAKEN Graph Distillation and Semantic Self-Healing",
+			"source": "https://arxiv.org/abs/2610.08095v1",
+			"version": "2610.08095v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+			"source": "https://arxiv.org/abs/2610.12242v1",
+			"version": "2610.12242v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "RSIGym: A Flexible Environment for Recursive Self-Improvement",
+			"source": "https://arxiv.org/abs/2610.10310v1",
+			"version": "2610.10310v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "RoboJEPA: Scaling Robotic Latent World Models",
+			"source": "https://arxiv.org/abs/2610.10515v1",
+			"version": "2610.10515v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+			"source": "https://arxiv.org/abs/2610.12369v1",
+			"version": "2610.12369v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -31,5 +61,6 @@
 			"sha256": "a2b4c2895dc8317a629c7973fc7bd2fc946e5053897ddf147ee85467ee8befa4",
 			"source_pdf_sha256": "8eeeaaa33064eb1595b8f5a22c643099f9083ec1d8d965ef451826f518bad49d"
 		}
-	}
+	},
+	"included_roster_count": 6
 }

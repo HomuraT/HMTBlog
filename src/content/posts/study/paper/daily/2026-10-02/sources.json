@@ -12,6 +12,42 @@
 			"version_submitted": "2026-09-30",
 			"source": "https://arxiv.org/abs/2610.00682v1",
 			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		},
+		{
+			"title": "Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying",
+			"source": "https://arxiv.org/abs/2610.00224v1",
+			"version": "2610.00224v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "LLM-Guided Ontology-Driven Knowledge Graph Construction from Unstructured Text",
+			"source": "https://arxiv.org/abs/2609.31663v1",
+			"version": "2609.31663v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Looped Diffusion Transformer",
+			"source": "https://arxiv.org/abs/2609.40305v1",
+			"version": "2609.40305v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+			"source": "https://arxiv.org/abs/2609.40285v1",
+			"version": "2609.40285v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Learning Functional Subspaces for Neural Network Compression",
+			"source": "https://arxiv.org/abs/2609.40127v1",
+			"version": "2609.40127v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control",
+			"source": "https://arxiv.org/abs/2609.39137v1",
+			"version": "2609.39137v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {},
@@ -24,5 +60,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "No verified open republication permission; original locator only."
 		}
-	]
+	],
+	"included_roster_count": 7
 }

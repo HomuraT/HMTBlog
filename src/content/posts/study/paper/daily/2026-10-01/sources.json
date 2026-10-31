@@ -12,6 +12,48 @@
 			"version_submitted": "2026-09-28",
 			"source": "https://arxiv.org/abs/2609.34540v1",
 			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		},
+		{
+			"title": "GeoOutageBench: Benchmarking Ambiguity-aware, Ontology-grounded Geospatiotemporal KGQA for Multimodal Power Outage and Resilience Analysis",
+			"source": "https://arxiv.org/abs/2609.36082v1",
+			"version": "2609.36082v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Independent Verification Paths Are Not Independent: A Case Study of Common-Mode Failure in a Satellite Catalogue Pipeline",
+			"source": "https://arxiv.org/abs/2609.37603v1",
+			"version": "2609.37603v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Context Language Models",
+			"source": "https://arxiv.org/abs/2609.37725v1",
+			"version": "2609.37725v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Can Agents Design Libraries for Agents?",
+			"source": "https://arxiv.org/abs/2609.36730v1",
+			"version": "2609.36730v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows",
+			"source": "https://arxiv.org/abs/2609.37053v1",
+			"version": "2609.37053v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "AD-E2E-JEPA: A Joint-Embedding Predictive Architecture For End-to-End Autonomous Driving",
+			"source": "https://arxiv.org/abs/2609.34085v1",
+			"version": "2609.34085v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Generalization Dynamics of LM Pre-training",
+			"source": "https://arxiv.org/abs/2609.33150v1",
+			"version": "2609.33150v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -31,5 +73,6 @@
 			"sha256": "8c8260895bc5f84546aa184654ea78639da6ee8175ca1ea9417fe2181080ee49",
 			"source_pdf_sha256": "d9e3b1aef39bcc8595c73a4d7a1635820f0615d2bf1ab92b7162dfb7d92baa1a"
 		}
-	}
+	},
+	"included_roster_count": 8
 }

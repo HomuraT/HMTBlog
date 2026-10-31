@@ -12,6 +12,36 @@
 			"version_submitted": "2026-10-07",
 			"source": "https://arxiv.org/abs/2610.09554v1",
 			"verification_scope": "Cited methods, table or figure metrics and experiment limits checked against explicit historical primary source; no independent reproduction."
+		},
+		{
+			"title": "Narrow and Deep: An Ontology Tower as the Knowledge of an LLM Agent for an Industrial Equipment System",
+			"source": "https://arxiv.org/abs/2610.11768v1",
+			"version": "2610.11768v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models",
+			"source": "https://arxiv.org/abs/2610.10478v1",
+			"version": "2610.10478v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Long-WAM: Scaling the Context of World-Action Models",
+			"source": "https://arxiv.org/abs/2610.10528v1",
+			"version": "2610.10528v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+			"source": "https://arxiv.org/abs/2610.10429v1",
+			"version": "2610.10429v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "RSI-Forge: From Research Papers to Environments for Recursive Self-Improvement",
+			"source": "https://arxiv.org/abs/2610.09426v1",
+			"version": "2610.09426v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -31,5 +61,6 @@
 			"sha256": "9256f0144980e5f0d6d44ec1e9944f1294dd6a7a63f3b50bef6cfa4636226ba9",
 			"source_pdf_sha256": "5db5d6cfa665cf5768d4758433c2b3926af056ebaace2d93ee273764ae0c1036"
 		}
-	}
+	},
+	"included_roster_count": 6
 }
