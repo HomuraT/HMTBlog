@@ -62,6 +62,56 @@
 			"image_size": [970, 760],
 			"sha256": "4a48f2692f7ecb9a9e27f1f4e7aed44148c4d4b1f369a62eb18212d9d40762f0",
 			"source_pdf_sha256": "6c3863aae83b75092f6f1a094c5b0503d070ee4d008439b4b4697debf063c635"
+		},
+		"paper-260719682-figure1.png": {
+			"authors": [
+				"Chen, Junjie",
+				"Wang, Ziqi",
+				"Yang, Lin",
+				"Yang, Chen",
+				"Chu, Xiao",
+				"Zhou, Jianyi",
+				"Liang, Guangtai",
+				"Wang, Qianxiang",
+				"Wang, Dong"
+			],
+			"paper_title": "Context Matters: Improving the Practical Reliability of LLM-Based Unit Test Generation",
+			"source": "https://arxiv.org/pdf/2607.19682v1#page=5",
+			"item": "Figure 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [44, 78, 443, 220],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7b334af1f50205225e9601e4891ee6481b2d914c1640230ebd0a5f54695f86a0",
+			"source_pdf_sha256": "ead2064fa94b3d6cec6fd9dc00ef1a97ad55782a84051d75a6a5fd92e192ada0"
+		},
+		"paper-260719682-table2.png": {
+			"authors": [
+				"Chen, Junjie",
+				"Wang, Ziqi",
+				"Yang, Lin",
+				"Yang, Chen",
+				"Chu, Xiao",
+				"Zhou, Jianyi",
+				"Liang, Guangtai",
+				"Wang, Qianxiang",
+				"Wang, Dong"
+			],
+			"paper_title": "Context Matters: Improving the Practical Reliability of LLM-Based Unit Test Generation",
+			"source": "https://arxiv.org/pdf/2607.19682v1#page=13",
+			"item": "Table 2",
+			"pdf_page": 13,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				42.929378509521484, 80.18082427978516, 445.19775390625,
+				496.62823486328125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b39b1fcb993da4ae434ab35f7428411fbafccc546277fb6c34feadfe1f4a65bb",
+			"source_pdf_sha256": "ead2064fa94b3d6cec6fd9dc00ef1a97ad55782a84051d75a6a5fd92e192ada0"
 		}
-	}
+	},
+	"published_paper_count": 6
 }

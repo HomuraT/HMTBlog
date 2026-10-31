@@ -47,12 +47,99 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260721556-figure2.png": {
+			"authors": [
+				"Liang, Yijun",
+				"Tian, Yunjie",
+				"Li, Yijiang",
+				"Jia, Yuqi",
+				"Huang, Furong",
+				"Zhou, Tianyi",
+				"Fu, Di"
+			],
+			"paper_title": "Visual Contrastive Self-Distillation",
+			"source": "https://arxiv.org/pdf/2607.21556v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 75, 508, 305],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a5e68fb13ca25ba05688e78b691caf3dab089d1a840bc64abde5a46ac3b15bc0",
+			"source_pdf_sha256": "50655d65a66dbbede8aa742fede93db830ffba4ed05e595bea6b007385b94031"
+		},
+		"paper-260721556-table1.png": {
+			"authors": [
+				"Liang, Yijun",
+				"Tian, Yunjie",
+				"Li, Yijiang",
+				"Jia, Yuqi",
+				"Huang, Furong",
+				"Zhou, Tianyi",
+				"Fu, Di"
+			],
+			"paper_title": "Visual Contrastive Self-Distillation",
+			"source": "https://arxiv.org/pdf/2607.21556v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.88652801513672, 509.0035095214844, 353.5579833984375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "91accf9059b300c2150b20a025ba52c8805a2d2e24351b7fd9991ee4e90e12c7",
+			"source_pdf_sha256": "50655d65a66dbbede8aa742fede93db830ffba4ed05e595bea6b007385b94031"
+		},
+		"paper-260718970-figure2.png": {
+			"authors": ["Fan, Haodi", "Lan, Zucong"],
+			"paper_title": "Skillware: A Software Ontology and Engineering Lifecycle for Persistent Behavioral Artifacts",
+			"source": "https://arxiv.org/pdf/2607.18970v1#page=7",
+			"item": "Figure 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 66.998046875, 545.010009765625, 447.8487548828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ac1aafeee4e27c039a08dc959671787fa0cc8b7987d3bd98edd1c08e79645408",
+			"source_pdf_sha256": "82932776450160188ea6c39c75270a943e7c8d797b2a3f2fbf1e2a17823dee11"
+		},
+		"paper-260721366-figure4.png": {
+			"authors": ["Mobahi, Hossein", "Bartlett, Peter L."],
+			"paper_title": "Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks",
+			"source": "https://arxiv.org/pdf/2607.21366v1#page=22",
+			"item": "Figure 4",
+			"pdf_page": 22,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 290, 536, 480],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "02df68b57252c5e518423ea0984330161cf90923b1abdc9090eba755eee5a135",
+			"source_pdf_sha256": "8106a86c0c72aee05b0fbcc5e13095edc03fe725538b1bfa5c50c18ea806067b"
+		},
+		"paper-260721366-table2.png": {
+			"authors": ["Mobahi, Hossein", "Bartlett, Peter L."],
+			"paper_title": "Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks",
+			"source": "https://arxiv.org/pdf/2607.21366v1#page=24",
+			"item": "Table 2",
+			"pdf_page": 24,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 326, 536, 486],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c6b1741a94026e2adae86b6923c4840f0d2ea0e45befea659accf5131591129c",
+			"source_pdf_sha256": "8106a86c0c72aee05b0fbcc5e13095edc03fe725538b1bfa5c50c18ea806067b"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.21203v1",
 			"reason": "No numbered original figure in the theoretical paper; none fabricated.",
 			"source": "https://arxiv.org/abs/2607.21203v1"
 		}
-	]
+	],
+	"published_paper_count": 6
 }
