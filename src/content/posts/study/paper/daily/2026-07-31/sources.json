@@ -40,7 +40,106 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260727180-figure2.png": {
+			"authors": [
+				"Li, Siyao",
+				"Gu, Jiawei",
+				"Liu, Shuai",
+				"Hu, Kairui",
+				"Li, Zekun",
+				"Li, Linjie",
+				"Tang, Chengcheng",
+				"Wu, Po-Chen",
+				"Shugurov, Ivan",
+				"Ma, Lingni",
+				"Zollhoefer, Michael",
+				"An, Sizhe",
+				"Mittal, Abhay",
+				"Zhao, Amy",
+				"Krishna, Ranjay",
+				"Li, Manling",
+				"Liu, Ziwei",
+				"Guo, Chuan"
+			],
+			"paper_title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+			"source": "https://arxiv.org/pdf/2607.27180v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.78038787841797, 546.4312133789062,
+				240.5909423828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7c2f8e79bc88c3538a85dafcb3aae3bfeb10baeb383a7c1cd71ee71160ae1eb8",
+			"source_pdf_sha256": "7db0ebb39ec376e29e542003fe754a0b6eb6759c0718225dd4263fd5307a447c"
+		},
+		"paper-260727180-table2.png": {
+			"authors": [
+				"Li, Siyao",
+				"Gu, Jiawei",
+				"Liu, Shuai",
+				"Hu, Kairui",
+				"Li, Zekun",
+				"Li, Linjie",
+				"Tang, Chengcheng",
+				"Wu, Po-Chen",
+				"Shugurov, Ivan",
+				"Ma, Lingni",
+				"Zollhoefer, Michael",
+				"An, Sizhe",
+				"Mittal, Abhay",
+				"Zhao, Amy",
+				"Krishna, Ranjay",
+				"Li, Manling",
+				"Liu, Ziwei",
+				"Guo, Chuan"
+			],
+			"paper_title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+			"source": "https://arxiv.org/pdf/2607.27180v1#page=12",
+			"item": "Table 2",
+			"pdf_page": 12,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.16100311279297, 159.19189453125, 547.9539184570312, 345.2497253417969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e42d1eb3d350f499bdc85c0d1a765acc87f3766832de28a3c0fee46240e45878",
+			"source_pdf_sha256": "7db0ebb39ec376e29e542003fe754a0b6eb6759c0718225dd4263fd5307a447c"
+		},
+		"paper-260726055-figure2.png": {
+			"authors": ["Park, Sungjae", "Tulsiani, Shubham"],
+			"paper_title": "$\\pi\\mathbf{R}^2$: Reactive Real-time Flow Policies",
+			"source": "https://arxiv.org/pdf/2607.26055v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.99998474121094, 69.63497924804688, 509.023193359375,
+				222.65206909179688
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bec03d087a079bb2f5c10339ca37f47ce993ab1d9fab4fe50da7b5f37b297da8",
+			"source_pdf_sha256": "cad352444bb5990cac9f8ccd05c5582189745448a987ed41a518e5ca1deebf4c"
+		},
+		"paper-260726055-table1.png": {
+			"authors": ["Park, Sungjae", "Tulsiani, Shubham"],
+			"paper_title": "$\\pi\\mathbf{R}^2$: Reactive Real-time Flow Policies",
+			"source": "https://arxiv.org/pdf/2607.26055v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 190, 505, 332],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3ddc1329b3b9fc7437c64bf266d985715a69d57ca1db15a2e5d7527e73268190",
+			"source_pdf_sha256": "cad352444bb5990cac9f8ccd05c5582189745448a987ed41a518e5ca1deebf4c"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.26246v1",
@@ -49,5 +148,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "未确认第三方截图再发布许可"
 		}
-	]
+	],
+	"published_paper_count": 5
 }

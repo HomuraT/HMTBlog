@@ -47,7 +47,183 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260725886-figure2.png": {
+			"authors": [
+				"Meng, Fanqing",
+				"Du, Lingxiao",
+				"Chen, Qiguang",
+				"Zhao, Ziqi",
+				"Lu, Haocheng",
+				"Hu, Mengkang",
+				"Shieh, Michael Qizhe"
+			],
+			"paper_title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+			"source": "https://arxiv.org/pdf/2607.25886v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [35.0, 28.0, 563.1401977539062, 290.01751708984375],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5464eb0c9ca8706500b9586493e989c5cfa3c92de2a5f52433e1713ba875c138",
+			"source_pdf_sha256": "dd38b798e36fc8402bd96fa40adfaaee5853d67d56f7151ee14621780175cbe6"
+		},
+		"paper-260725886-figure3.png": {
+			"authors": [
+				"Meng, Fanqing",
+				"Du, Lingxiao",
+				"Chen, Qiguang",
+				"Zhao, Ziqi",
+				"Lu, Haocheng",
+				"Hu, Mengkang",
+				"Shieh, Michael Qizhe"
+			],
+			"paper_title": "RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement",
+			"source": "https://arxiv.org/pdf/2607.25886v1#page=9",
+			"item": "Figure 3",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [35.0, 28.0, 563.1458740234375, 398.0675354003906],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fb5119eb84e556cbbb35a0c9b27bd8170b9e9874ebb0c7f232e80cdc05222fdd",
+			"source_pdf_sha256": "dd38b798e36fc8402bd96fa40adfaaee5853d67d56f7151ee14621780175cbe6"
+		},
+		"paper-260725948-figure2.png": {
+			"authors": [
+				"Ye, Mingqiao",
+				"An, Zhaochong",
+				"Gao, Zhitong",
+				"Liu, Xian",
+				"Fleuret, François",
+				"Li, Chuan",
+				"Zadeh, Amir",
+				"Belongie, Serge",
+				"Dehghan, Afshin",
+				"Allardice, Jesse",
+				"Mizrahi, David",
+				"Kar, Oğuzhan Fatih",
+				"Bachmann, Roman",
+				"Zamir, Amir"
+			],
+			"paper_title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+			"source": "https://arxiv.org/pdf/2607.25948v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [54, 66, 542, 334],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "aaa700a42155781aa0bda5b9055cf1a1406b238527682ee03d535f827932c49d",
+			"source_pdf_sha256": "42df9addf0b4610b50285d255592e6598b9f7b14f6397e36798c38c61b103314"
+		},
+		"paper-260725948-table1.png": {
+			"authors": [
+				"Ye, Mingqiao",
+				"An, Zhaochong",
+				"Gao, Zhitong",
+				"Liu, Xian",
+				"Fleuret, François",
+				"Li, Chuan",
+				"Zadeh, Amir",
+				"Belongie, Serge",
+				"Dehghan, Afshin",
+				"Allardice, Jesse",
+				"Mizrahi, David",
+				"Kar, Oğuzhan Fatih",
+				"Bachmann, Roman",
+				"Zamir, Amir"
+			],
+			"paper_title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+			"source": "https://arxiv.org/pdf/2607.25948v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [54, 64, 542, 282],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "42be5fb83f54c37ee349c92a2378c6fd14182ba1d3f3c130223403057afe31e1",
+			"source_pdf_sha256": "42df9addf0b4610b50285d255592e6598b9f7b14f6397e36798c38c61b103314"
+		},
+		"paper-260724904-figure2.png": {
+			"authors": [
+				"Yang, Senqiao",
+				"Zhang, Kaichen",
+				"Jia, Zhaoyang",
+				"Guo, Jinghao",
+				"Shen, Yifei",
+				"Zhang, Xinjie",
+				"Zhang, Xiaoyi",
+				"Wang, Haoqing",
+				"Li, Xiao",
+				"Zhang, Peng",
+				"An, Xiang",
+				"Xie, Yin",
+				"Liu, Zhening",
+				"Guo, Xun",
+				"Li, Jiahao",
+				"Zheng, Shicheng",
+				"Wang, Jinglu",
+				"Guo, Zongyu",
+				"Xie, Wenxuan",
+				"Zheng, Zihan",
+				"Luo, Yuxuan",
+				"Li, Bin",
+				"Lu, Yan"
+			],
+			"paper_title": "Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+			"source": "https://arxiv.org/pdf/2607.24904v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				63.03099822998047, 57.36094665527344, 532.387451171875,
+				353.15753173828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e3e9a95d6a490edf73b53e1228990b213bf687f222c42175b0e4c0917772532e",
+			"source_pdf_sha256": "afc9c99f29dc148f8e19d1d1d0ea2a4b96af77102035f762c767f329cd89cc20"
+		},
+		"paper-260724904-table5.png": {
+			"authors": [
+				"Yang, Senqiao",
+				"Zhang, Kaichen",
+				"Jia, Zhaoyang",
+				"Guo, Jinghao",
+				"Shen, Yifei",
+				"Zhang, Xinjie",
+				"Zhang, Xiaoyi",
+				"Wang, Haoqing",
+				"Li, Xiao",
+				"Zhang, Peng",
+				"An, Xiang",
+				"Xie, Yin",
+				"Liu, Zhening",
+				"Guo, Xun",
+				"Li, Jiahao",
+				"Zheng, Shicheng",
+				"Wang, Jinglu",
+				"Guo, Zongyu",
+				"Xie, Wenxuan",
+				"Zheng, Zihan",
+				"Luo, Yuxuan",
+				"Li, Bin",
+				"Lu, Yan"
+			],
+			"paper_title": "Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+			"source": "https://arxiv.org/pdf/2607.24904v1#page=20",
+			"item": "Table 5",
+			"pdf_page": 20,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 60, 530, 302],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2f564a99eee4b51279fcaaf494150235514405aed3bd48ff0939da35fd0ce8f8",
+			"source_pdf_sha256": "afc9c99f29dc148f8e19d1d1d0ea2a4b96af77102035f762c767f329cd89cc20"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.24551v1",
@@ -56,5 +232,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "未确认第三方截图再发布许可"
 		}
-	]
+	],
+	"published_paper_count": 6
 }
