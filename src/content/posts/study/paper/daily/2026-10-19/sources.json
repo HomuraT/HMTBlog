@@ -20,6 +20,36 @@
 			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
 			"historical_availability_confirmed": true,
 			"cited_evidence": "自然语言到 SPARQL 的错误可能来自概念绑定、连接或算子作用域，而不只是语法。Reflective Compositional Grounding 将概念组合与查询组合联系起来。\n\n## 方法与问题\n\n固定概念编码器表示复合表达，结合语义相似度、类型兼容与层级距离检索 schema。反思阶段定位参数、连接与作用域偏差，将反馈送回负责步骤，而非总是从头改写。\n\n## 实验证据\n\n五个基准/图谱目标的不加权平均 schema Recall@10 从 0.712 到 0.837，是关闭反思时的检索对照。固定检索结果后，反思提示改写另带来 2.27–3.33 个答案 F1 百分点。两组实验检验不同机制，不能把所有提升都归于反思；Recall@10 也不是最终答案准确率。\n\n## 我的判断\n\n先确保关系进入候选，再检查组合是否保持语义，有助归因。论文的保守改写形式条件比自由提示改写更强，实验收益不证明每次改写都满足条件。仍需查询执行与语义回归检查。"
+		},
+		{
+			"title": "DRAMA: Debate-Driven Reasoning Agents for Matching Alignments",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper2.pdf",
+			"version": "OM 2026 workshop PDF",
+			"verification_scope": "Public primary PDF abstract, architecture and evaluation; no independent reproduction. First-publication date not established."
+		},
+		{
+			"title": "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+			"source": "https://arxiv.org/abs/2610.21412v1",
+			"version": "2610.21412v1",
+			"verification_scope": "Public v1 PDF abstract and harness/evaluation protocol; no independent reproduction."
+		},
+		{
+			"title": "Can Visual Generation Expand What Unified Multimodal Models Know?",
+			"source": "https://arxiv.org/abs/2610.21459v1",
+			"version": "2610.21459v1",
+			"verification_scope": "Public v1 PDF controlled protocol and qualitative findings; no independent reproduction."
+		},
+		{
+			"title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+			"source": "https://arxiv.org/abs/2610.22192v1",
+			"version": "2610.22192v1",
+			"verification_scope": "Public v1 PDF method and LHTB results; no independent reproduction."
+		},
+		{
+			"title": "Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation",
+			"source": "https://arxiv.org/abs/2610.22342v1",
+			"version": "2610.22342v1",
+			"verification_scope": "Public v1 PDF abstract, training design and matched touch ablation; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -37,5 +67,6 @@
 			"sha256": "a332da36dd0fa382bff49cfd3a035283763c3b6f1c153f5a93feef2ec4d0f2a7",
 			"source_pdf_sha256": "6c030c7efb2da3f3f8af87e2be7556fe8464034089cbcf9b5936eac85f6de364"
 		}
-	}
+	},
+	"included_roster_count": 6
 }
