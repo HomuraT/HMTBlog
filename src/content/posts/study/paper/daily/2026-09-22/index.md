@@ -28,7 +28,7 @@ SQL 含随机 AI 算子时，完整执行结果精确匹配会误拒正确查询
 
 ![2609.21133v1 Figure 1 原始截图](./images/sql-evaluation-figure1.png)
 
-图：关系结构与 AI 语义的分层评估。Tarfah Alrashed , Fatma Ozcan , Per Jacobsson , Tal Neiman , Xianshun Chen，arXiv:2609.21133v1，Figure 1，PDF 第 4 页。[原始图源](https://arxiv.org/pdf/2609.21133v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：关系结构与 AI 语义的分层评估。Tarfah Alrashed , Fatma Ozcan , Per Jacobsson , Tal Neiman , Xianshun Chen，arXiv:2609.21133v1，Figure 1，PDF 第 4 页。[原始图源](https://arxiv.org/pdf/2609.21133v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 3. MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement
 

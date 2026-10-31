@@ -28,7 +28,7 @@ Symbolic Separation 允许深度 Agent 规划，但数据动作须经本体约�
 
 ![2609.17107v1 Figure 1 原始截图](./images/symbolic-separation-figure1.png)
 
-图：Neurosymbolic Deep Analyst 的数据接口与子 Agent 架构。Baibek Davletiyarov , Junaid Ahmed Khan , Andrea Bartolini，arXiv:2609.17107v1，Figure 1，PDF 第 5 页。[原始图源](https://arxiv.org/pdf/2609.17107v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图及图注，未重绘或修改图内数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：Neurosymbolic Deep Analyst 的数据接口与子 Agent 架构。Baibek Davletiyarov , Junaid Ahmed Khan , Andrea Bartolini，arXiv:2609.17107v1，Figure 1，PDF 第 5 页。[原始图源](https://arxiv.org/pdf/2609.17107v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 3. Dream-RSI: Recursive Self-Improvement through Evolving Worlds
 

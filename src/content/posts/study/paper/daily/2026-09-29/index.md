@@ -34,7 +34,7 @@ FuseReg 随机抽取编码器层子集训练，降低 decoder 对固定融合的
 
 ![2609.31620v2 Figure 3 原始截图](./images/fusereg-figure3.png)
 
-图：固定生成器下替换 decoder 对 gFID 和 IS 的影响。Hongyang Du , Yunfei Xie , Junjie Ye , Jiawei Yang , Xiaoyan Cong , Haodong Zhang , Yongchao Huang , Haiyu Wu , Zongxia Li , Shihang Gui , Dawei Liu , Runhao Li , Jingcheng Ni , Chen Wei , Randall Balestriero , Yue Wang，arXiv:2609.31620v2，Figure 3，PDF 第 7 页。[原始图源](https://arxiv.org/pdf/2609.31620v2#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注与必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：固定生成器下替换 decoder 对 gFID 和 IS 的影响。Hongyang Du , Yunfei Xie , Junjie Ye , Jiawei Yang , Xiaoyan Cong , Haodong Zhang , Yongchao Huang , Haiyu Wu , Zongxia Li , Shihang Gui , Dawei Liu , Runhao Li , Jingcheng Ni , Chen Wei , Randall Balestriero , Yue Wang，arXiv:2609.31620v2，Figure 3，PDF 第 7 页。[原始图源](https://arxiv.org/pdf/2609.31620v2#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 4. Block Sparse Attention with Log-Linear Complexity
 

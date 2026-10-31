@@ -22,7 +22,7 @@ SRA-Bench 将技能检索、技能纳入上下文和最终任务执行分开检�
 
 ![2604.24594v1 Figure 1：SRA 原图](./images/sra-figure1.png)
 
-原图：Weihang Su、Jianming Long、Qingyao Ai、Yichen Tang、Changyue Wang、Yiteng Tu、Yiqun Liu，arXiv:2604.24594v1，Figure 1，第 3 页。[论文来源](https://arxiv.org/pdf/2604.24594v1#page=3) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。已裁剪完整图形及必要标注，移除周围正文，图内内容与颜色未改动。 此裁剪图沿用 CC BY-SA 4.0，本站页脚许可不为其增加非商业限制。
+原图：Weihang Su、Jianming Long、Qingyao Ai、Yichen Tang、Changyue Wang、Yiteng Tu、Yiqun Liu，arXiv:2604.24594v1，Figure 1，第 3 页。[论文来源](https://arxiv.org/pdf/2604.24594v1#page=3) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。裁剪自原文。
 
 ## GS-Playground
 

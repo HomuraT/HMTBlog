@@ -30,7 +30,7 @@ Faster-WAM 将预训练的 30 层视频骨干接入单层动作头。KV-Fusion �
 
 ![Faster-WAM v1 Figure 2，视频骨干通过 KV-Fusion 与位置编码对齐连接动作头，右侧输出动作块。](./images/faster-wam-figure2.png)
 
-*图 1｜Liheng Ma、Rui Heng Yang、Zhanguang Zhang、Mateo Clemente、Ziwen Hu、Tongtong Cao、Yingxue Zhang，Faster-WAM，[v1 Figure 2，PDF 第 4 页](https://arxiv.org/pdf/2608.02365v1#page=4)，[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。截图保留完整架构图，裁去原图注、正文与空白；未改动图内文字、连线或颜色。本图及裁剪版本沿用该许可，非商业和相同方式共享条件仍适用。*
+*图 1｜Liheng Ma、Rui Heng Yang、Zhanguang Zhang、Mateo Clemente、Ziwen Hu、Tongtong Cao、Yingxue Zhang，Faster-WAM，[v1 Figure 2，PDF 第 4 页](https://arxiv.org/pdf/2608.02365v1#page=4)，[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。裁剪自原文。*
 
 ### 结果与实验条件
 

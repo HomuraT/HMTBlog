@@ -52,7 +52,7 @@ Flash-dLLM 联合 KV 缓存与并行 draft-and-verify，融合 kernel 减少 I/O
 
 ![2609.26796v1 Figure 1 原始截图](./images/flash-dllm-figure1.png)
 
-图：I/O、注意力稀疏与提前解码的动机实验。Quan Nguyen-Tri , Mukul Ranjan , Zhiqiang Shen，arXiv:2609.26796v1，Figure 1，PDF 第 2 页。[原始图源](https://arxiv.org/pdf/2609.26796v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：I/O、注意力稀疏与提前解码的动机实验。Quan Nguyen-Tri , Mukul Ranjan , Zhiqiang Shen，arXiv:2609.26796v1，Figure 1，PDF 第 2 页。[原始图源](https://arxiv.org/pdf/2609.26796v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 7. ϕ-RIE: From Photorealistic Reconstruction to Interactive Environments
 

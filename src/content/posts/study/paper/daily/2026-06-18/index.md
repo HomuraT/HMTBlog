@@ -24,7 +24,7 @@ KGERMAR 在推理时从当前文本抽实体和关系，构成动态知识图谱
 
 ![2606.14047v1 Figure 2 原始截图](./images/kgermar-figure2.png)
 
-原图：Ghadir Alselwi、Basem Suleiman、Hao Xue、Shoaib Jameel、Hakim Hacid、Flora D. Salim、Imran Razzak，arXiv:2606.14047v1，Figure 2，PDF 第 4 页。[原始来源](https://arxiv.org/pdf/2606.14047v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整表格或图形及必要标签，移除周围正文，内容和颜色未改动，未重绘。此材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Ghadir Alselwi、Basem Suleiman、Hao Xue、Shoaib Jameel、Hakim Hacid、Flora D. Salim、Imran Razzak，arXiv:2606.14047v1，Figure 2，PDF 第 4 页。[原始来源](https://arxiv.org/pdf/2606.14047v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

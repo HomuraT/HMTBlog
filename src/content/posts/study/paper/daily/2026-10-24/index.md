@@ -30,7 +30,7 @@ lang: 'zh-CN'
 
 ![2610.30755v1 Figure 1 原始截图](./images/raw-rag-figure1.png)
 
-图源：Zhengye Bao , Shengtao Zhang , Haokai Zhang , Shiqi Lou , Muning Wen , Minnan Luo，《Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought》，2610.30755v1，Figure 1，PDF 第 1 页。[原图出处](https://arxiv.org/pdf/2610.30755v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注与标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Zhengye Bao , Shengtao Zhang , Haokai Zhang , Shiqi Lou , Muning Wen , Minnan Luo，《Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought》，2610.30755v1，Figure 1，PDF 第 1 页。[原图出处](https://arxiv.org/pdf/2610.30755v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

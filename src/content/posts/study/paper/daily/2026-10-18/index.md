@@ -30,7 +30,7 @@ BLINKG 三个复杂度场景中，Table 4 的高抽象场景 3：Gemini 2.5 Pro 
 
 ![LAMP Table 4 原始截图](./images/lamp-table4.png)
 
-图源：Sulthoni Ashiddiiqi, Fajar J. Ekaputra, Muhammad Zuhri Catur Candra, Gusti Ayu Putri Saptawati Soekidjo，《Reducing Human Effort in Ontology-Based Data Integration: An LLM-Assisted Mapping Pipeline》，CEUR-WS Vol-4245 paper9 publisher PDF，Table 4，PDF 第 12 页。[原图出处](https://ceur-ws.org/Vol-4245/paper9.pdf#page=12) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注与标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Sulthoni Ashiddiiqi, Fajar J. Ekaputra, Muhammad Zuhri Catur Candra, Gusti Ayu Putri Saptawati Soekidjo，《Reducing Human Effort in Ontology-Based Data Integration: An LLM-Assisted Mapping Pipeline》，CEUR-WS Vol-4245 paper9 publisher PDF，Table 4，PDF 第 12 页。[原图出处](https://ceur-ws.org/Vol-4245/paper9.pdf#page=12) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

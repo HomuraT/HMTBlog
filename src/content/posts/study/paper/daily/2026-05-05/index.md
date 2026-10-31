@@ -38,7 +38,7 @@ v1 首次提交 2026-05-01 · [To Call or Not to Call: A Framework to Assess and
 
 ![2605.00737v1 Figure 1：To Call or Not to Call 原图](./images/tool-call-figure1.png)
 
-原图：Qinyuan Wu、Soumi Das、Mahsa Amani 等，arXiv:2605.00737v1，Figure 1，第 3 页。[论文来源](https://arxiv.org/pdf/2605.00737v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整图形及必要标注，移除周围正文，图内内容与颜色未改动。 此图沿用原始 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Qinyuan Wu、Soumi Das、Mahsa Amani 等，arXiv:2605.00737v1，Figure 1，第 3 页。[论文来源](https://arxiv.org/pdf/2605.00737v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

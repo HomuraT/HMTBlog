@@ -24,7 +24,7 @@ OntoLearner 把术语分类、分类体系发现和非分类关系抽取放入�
 
 ![2607.01977v1 Figure 1 原始截图](./images/ontolearner-figure1.png)
 
-原文：Hamed Babaei Giglou、Jennifer D’Souza、Andrei Aioanei、Nandana Mihindukulasooriya、Sören Auer，arXiv:2607.01977v1，Figure 1 架构图，PDF 第 7 页。[原始来源](https://arxiv.org/pdf/2607.01977v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Hamed Babaei Giglou、Jennifer D’Souza、Andrei Aioanei、Nandana Mihindukulasooriya、Sören Auer，arXiv:2607.01977v1，Figure 1 架构图，PDF 第 7 页。[原始来源](https://arxiv.org/pdf/2607.01977v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

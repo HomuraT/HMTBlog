@@ -32,7 +32,7 @@ OntoPlan 在五个室内环境、三种规模的 150 个一般任务中，平均
 
 ![2610.05945v1 Figure 1 原始截图](./images/ontoink-figure1.png)
 
-图源：Ebrahim Norouzi , Jörg Waitelonis , Harald Sack，《OntoInk: Interactive Ontology Visualization, Validation, and Reasoning》，arXiv:2610.05945v1，Figure 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2610.05945v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Ebrahim Norouzi , Jörg Waitelonis , Harald Sack，《OntoInk: Interactive Ontology Visualization, Validation, and Reasoning》，arXiv:2610.05945v1，Figure 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2610.05945v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 合并阅读目录：原版 7 项与增补 6 项
 

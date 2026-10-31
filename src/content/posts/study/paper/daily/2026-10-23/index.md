@@ -30,7 +30,7 @@ WDI 的 282 个请求中正确处理 223 个，为 79.1%；AQS 的 324 个请求
 
 ![2610.23317v1 Table 1 原始截图](./images/agentonto-table1.png)
 
-图源：Dayan Pan , Bincheng Zuo , Xiaojian Wang , Daogang Zhang , Jingyuan Wang，《AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics》，2610.23317v1，Table 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.23317v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注与标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Dayan Pan , Bincheng Zuo , Xiaojian Wang , Daogang Zhang , Jingyuan Wang，《AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics》，2610.23317v1，Table 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.23317v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

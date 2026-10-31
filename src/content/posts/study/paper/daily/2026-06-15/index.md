@@ -24,7 +24,7 @@ DBLP-QuAD 共 10,000 个问句—查询对，训练、验证、测试为 7,000/1
 
 ![2605.20066v1 Table 1 原始截图](./images/text-sparql-table1.png)
 
-原表：Jann Pfeifer、Debayan Banerjee、Ricardo Usbeck，arXiv:2605.20066v1，Table 1，PDF 第 7 页。[原始来源](https://arxiv.org/pdf/2605.20066v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整表格或图形及必要标签，移除周围正文，内容和颜色未改动，未重绘。此材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原表：Jann Pfeifer、Debayan Banerjee、Ricardo Usbeck，arXiv:2605.20066v1，Table 1，PDF 第 7 页。[原始来源](https://arxiv.org/pdf/2605.20066v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

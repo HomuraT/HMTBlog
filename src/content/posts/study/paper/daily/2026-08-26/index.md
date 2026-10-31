@@ -30,7 +30,7 @@ AIFB、CoDEx-L 与 BioKG 的编码器按数据集选择，在固定模型配置�
 
 ![2608.22981v1 Table 3 原始截图](./images/hierarchy-table3.png)
 
-图源：Filip Kronström , Ross D. King，《Hierarchy-Aware Semantic Losses for Knowledge Graph Link Prediction》，arXiv:2608.22981v1，Table 3，PDF 第 7 页。[原图出处](https://arxiv.org/pdf/2608.22981v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
+图源：Filip Kronström , Ross D. King，《Hierarchy-Aware Semantic Losses for Knowledge Graph Link Prediction》，arXiv:2608.22981v1，Table 3，PDF 第 7 页。[原图出处](https://arxiv.org/pdf/2608.22981v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 深读原文与范围
 

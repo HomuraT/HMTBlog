@@ -24,7 +24,7 @@ MINE-1 实验中，系统使用相同嵌入、检索超参数及严格 LLM 判�
 
 ![2604.03496v1 Figure 2 原始截图](./images/trace-kg-figure2.png)
 
-原图：Mohammad Sadeq Abolhasani、Yang Ba、Yixuan He、Rong Pan，arXiv:2604.03496v1，Figure 2，PDF 第 8 页。[原始来源](https://arxiv.org/pdf/2604.03496v1#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整表格或图形及必要标签，移除周围正文，内容和颜色未改动，未重绘。此材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Mohammad Sadeq Abolhasani、Yang Ba、Yixuan He、Rong Pan，arXiv:2604.03496v1，Figure 2，PDF 第 8 页。[原始来源](https://arxiv.org/pdf/2604.03496v1#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

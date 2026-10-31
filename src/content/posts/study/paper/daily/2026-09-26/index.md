@@ -22,7 +22,7 @@ ArticleMiner 用共享解析与协调流程处理论文和补充材料，人工�
 
 ![2609.25607v1 Figure 1 原始截图](./images/articleminer-figure1.png)
 
-图：共享协调流程与领域任务模块集成。Md Abrar Jahin , Craig A. Knoblock , Jay Pujara，arXiv:2609.25607v1，Figure 1，PDF 第 3 页。[原始图源](https://arxiv.org/pdf/2609.25607v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：共享协调流程与领域任务模块集成。Md Abrar Jahin , Craig A. Knoblock , Jay Pujara，arXiv:2609.25607v1，Figure 1，PDF 第 3 页。[原始图源](https://arxiv.org/pdf/2609.25607v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 2. Surprising Effectiveness of Self-Demonstrations in Enhancing Schema-Ontology Mapping with LLMs
 

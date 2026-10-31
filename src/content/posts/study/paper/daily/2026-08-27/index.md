@@ -30,7 +30,7 @@ MGQL 为 GQL 的一个较大只读片段建立小步操作语义与 schema-aware
 
 ![2608.24565v1 Figure 1 原始截图](./images/mgql-figure1.png)
 
-图源：Aditya Thimmaiah , Tong-Nong Lin , Milos Gligoric，《MGQL: An Executable, Small-Step Semantics of GQL》，arXiv:2608.24565v1，Figure 1，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2608.24565v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
+图源：Aditya Thimmaiah , Tong-Nong Lin , Milos Gligoric，《MGQL: An Executable, Small-Step Semantics of GQL》，arXiv:2608.24565v1，Figure 1，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2608.24565v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 深读原文与范围
 

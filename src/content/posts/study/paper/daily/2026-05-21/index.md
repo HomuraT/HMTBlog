@@ -30,7 +30,7 @@ Peek 保存的是关于反复访问上下文的方向性知识：资料如何组
 
 ![2605.19932v1 Figure 1：Peek 原图](./images/peek-figure1.png)
 
-原图：Zhuohan Gu、Qizheng Zhang、Omar Khattab、Samuel Madden，arXiv:2605.19932v1，Figure 1，第 1 页。[论文来源](https://arxiv.org/pdf/2605.19932v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整图形及必要标注，移除周围正文，图内内容和颜色未改动。此图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Zhuohan Gu、Qizheng Zhang、Omar Khattab、Samuel Madden，arXiv:2605.19932v1，Figure 1，第 1 页。[论文来源](https://arxiv.org/pdf/2605.19932v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## RAGA
 

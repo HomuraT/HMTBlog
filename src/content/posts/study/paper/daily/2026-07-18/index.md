@@ -24,7 +24,7 @@ SAGA 将 schema 检查前移到属性探索工具。系统维护实体、变量�
 
 ![2607.14494v1 Figure 1 原始截图](./images/saga-figure1.png)
 
-原文：Yiming Zhang、Koji Tsuda，arXiv:2607.14494v1，Figure 1，PDF 第 3 页。[原始来源](https://arxiv.org/pdf/2607.14494v1#page=3) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY-SA 4.0，此裁剪材料按相同 CC BY-SA 4.0 许可使用，本站页脚许可不为其增加非商业限制。
+原文：Yiming Zhang、Koji Tsuda，arXiv:2607.14494v1，Figure 1，PDF 第 3 页。[原始来源](https://arxiv.org/pdf/2607.14494v1#page=3) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

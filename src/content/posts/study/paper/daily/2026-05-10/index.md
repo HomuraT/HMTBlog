@@ -22,7 +22,7 @@ OOLONG 的 trec_coarse 比较中，Volt 与 Claude Code 均使用 Opus 4.6，并
 
 ![2605.04050v1 Figure 1：LCM 原图](./images/lcm-figure1.png)
 
-原图：Clint Ehrlich、Theodore Blackman，arXiv:2605.04050v1，Figure 1，第 2 页。[论文来源](https://arxiv.org/pdf/2605.04050v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整图形及必要标注，移除周围正文，图内内容和颜色未改动。此图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Clint Ehrlich、Theodore Blackman，arXiv:2605.04050v1，Figure 1，第 2 页。[论文来源](https://arxiv.org/pdf/2605.04050v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## ICL 的因果干预
 

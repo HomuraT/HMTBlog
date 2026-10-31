@@ -30,7 +30,7 @@ lang: 'zh-CN'
 
 ![2610.21796v1 Table 1 原始截图](./images/grounding-table1.png)
 
-图源：Isabelle Mohr , John Dujany , Andre Freitas，《Reflective Compositional Grounding for Natural-Language-to-SPARQL》，2610.21796v1，Table 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.21796v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注与标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Isabelle Mohr , John Dujany , Andre Freitas，《Reflective Compositional Grounding for Natural-Language-to-SPARQL》，2610.21796v1，Table 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.21796v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

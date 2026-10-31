@@ -24,7 +24,7 @@ Logic-Guided Data Extraction 让 LLM 提候选事实，ASP 负责验证、推导
 
 ![2607.19365v1 Table 1 原始截图](./images/logic-extraction-table1.png)
 
-原文：Mario Alviano、Lorenzo Grillo、Nicola Leone、Fabrizio Lo Scudo，arXiv:2607.19365v1，Table 1 结果表，PDF 第 12 页。[原始来源](https://arxiv.org/pdf/2607.19365v1#page=12) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY-SA 4.0，此裁剪材料按相同 CC BY-SA 4.0 许可使用，本站页脚许可不为其增加非商业限制。
+原文：Mario Alviano、Lorenzo Grillo、Nicola Leone、Fabrizio Lo Scudo，arXiv:2607.19365v1，Table 1 结果表，PDF 第 12 页。[原始来源](https://arxiv.org/pdf/2607.19365v1#page=12) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

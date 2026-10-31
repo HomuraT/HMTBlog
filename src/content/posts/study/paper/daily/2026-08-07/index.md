@@ -42,7 +42,7 @@ Argus 将 Manager、Planner、Engineer、Reviewer 放在持久工作区上。稳
 
 ![Argus v1 Figure 1，中央为角色与共享工作区，外围为采用独立尺度的七项任务评测。](./images/argus-figure1.png)
 
-*图 1｜Boxiu Li 等，Argus，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2608.05144v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留完整示意图及评测卡片，移除页眉、原图注和正文；未改动图内内容。各评测条形使用独立刻度，不构成统一排行榜。*
+*图 1｜Boxiu Li 等，Argus，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2608.05144v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。各评测条形使用独立刻度，不构成统一排行榜。*
 
 ### 结果与局限
 
@@ -61,4 +61,4 @@ Argus 将 Manager、Planner、Engineer、Reviewer 放在持久工作区上。稳
 
 ---
 
-本篇外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。其余论文仅保留公开链接。
+本篇其余论文仅保留公开链接。

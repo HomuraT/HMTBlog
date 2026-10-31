@@ -30,7 +30,7 @@ Table 1 的单次 DOID 实验中，Qwen3.5-27B 自回归学习器的 AxP 从 0.5
 
 ![2609.34540v1 Table 1 原始截图](./images/apolo-table1.png)
 
-图源：Huu Tan Mai , Roman Kochnev , Cuong Xuan Chu , Lukas Lange , Heiko Paulheim , Daria Stepanova，《APOLO: Automatic Prompt Optimization for Ontology Learning》，arXiv:2609.34540v1，Table 1，PDF 第 5 页。[原图出处](https://arxiv.org/pdf/2609.34540v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Huu Tan Mai , Roman Kochnev , Cuong Xuan Chu , Lukas Lange , Heiko Paulheim , Daria Stepanova，《APOLO: Automatic Prompt Optimization for Ontology Learning》，arXiv:2609.34540v1，Table 1，PDF 第 5 页。[原图出处](https://arxiv.org/pdf/2609.34540v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

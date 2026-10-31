@@ -24,7 +24,7 @@ lang: 'zh-CN'
 
 ![2606.23875v1 Example 1 原始截图](./images/generative-sparql-example1.png)
 
-原文：Ratan Bahadur Thapa、Steffen Staab，arXiv:2606.23875v1，示例 1 查询片段（非编号图），PDF 第 2 页。[原始来源](https://arxiv.org/pdf/2606.23875v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整查询示例或结果表及标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Ratan Bahadur Thapa、Steffen Staab，arXiv:2606.23875v1，示例 1 查询片段（非编号图），PDF 第 2 页。[原始来源](https://arxiv.org/pdf/2606.23875v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

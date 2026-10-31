@@ -30,7 +30,7 @@ TGDK 4(3) Article 2 于 2026 年 9 月 30 日正式出版。评估结论有明�
 
 ![AutoRML Figure 1 原始截图](./images/autorml-figure1.png)
 
-图源：Ioannis Dasoulas, Ali Elhalawati, Anastasia Dimou，《AutoRML: Automated Declarative RDF Generation Leveraging Semantic Table Annotation》，TGDK 4(3), Article 2, publisher version，Figure 1，PDF 第 2 页。[原图出处](https://drops.dagstuhl.de/storage/08tgdk/tgdk-vol004/tgdk-vol004-issue003/TGDK.4.3.2/TGDK.4.3.2.pdf#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Ioannis Dasoulas, Ali Elhalawati, Anastasia Dimou，《AutoRML: Automated Declarative RDF Generation Leveraging Semantic Table Annotation》，TGDK 4(3), Article 2, publisher version，Figure 1，PDF 第 2 页。[原图出处](https://drops.dagstuhl.de/storage/08tgdk/tgdk-vol004/tgdk-vol004-issue003/TGDK.4.3.2/TGDK.4.3.2.pdf#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

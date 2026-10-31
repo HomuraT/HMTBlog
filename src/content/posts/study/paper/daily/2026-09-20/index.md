@@ -46,7 +46,7 @@ Workspace Models 在训练期调用 VLM 提取当前与历史中的任务显著�
 
 ![2609.20820v1 Figure 1 原始截图](./images/workspace-figure1.png)
 
-图：显著性监督蒸馏为轻量机器人记忆。Nitish Dashora , Douglas Chen , Idan Shenfeld , John Marangola , Pulkit Agrawal , Max Simchowitz，arXiv:2609.20820v1，Figure 1，PDF 第 1 页。[原始图源](https://arxiv.org/pdf/2609.20820v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图及图注，未重绘或修改图内数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：显著性监督蒸馏为轻量机器人记忆。Nitish Dashora , Douglas Chen , Idan Shenfeld , John Marangola , Pulkit Agrawal , Max Simchowitz，arXiv:2609.20820v1，Figure 1，PDF 第 1 页。[原始图源](https://arxiv.org/pdf/2609.20820v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 6. SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos
 

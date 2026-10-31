@@ -34,7 +34,7 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 ![增量学习者数字孪生的预测与证据追溯流程](./images/ldt-figure1.png)
 
-图源：Le, Ngoc Luyen；Abel, Marie-Hélène；Laforge, Bertrand，*An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning*，2610.36820v1，Figure 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.36820v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。由公开原论文 PDF 栅格化并矩形裁切，保留图内内容和原图注，未重绘或修改数据。
+图源：Le, Ngoc Luyen；Abel, Marie-Hélène；Laforge, Bertrand，*An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning*，2610.36820v1，Figure 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.36820v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 2. SynthAPI：Agent 训练数据该怎样扩展
 
@@ -80,7 +80,7 @@ OULAD 六个测试模块的平均图规模从第 4 周约 137 万条三元组增
 
 ![自回归知识学习与扩散渲染的两阶段流程](./images/know-draw-figure2.png)
 
-图源：Mao, Yucheng；Ge, Chongjian；Tu, Zhuowen；Tan, Hao；Jiang, Hanwen，*Know, then Draw: A New Learning Paradigm for Visual Generation*，2610.37626v1，Figure 2，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2610.37626v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。由公开原论文 PDF 栅格化并矩形裁切，保留图内内容和原图注，未重绘或修改数据。
+图源：Mao, Yucheng；Ge, Chongjian；Tu, Zhuowen；Tan, Hao；Jiang, Hanwen，*Know, then Draw: A New Learning Paradigm for Visual Generation*，2610.37626v1，Figure 2，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2610.37626v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 5. FVQ：离散视觉表示一定会丢掉理解能力吗
 

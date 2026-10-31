@@ -30,7 +30,7 @@ Table 4 报五次运行均值。DB15K 的 birthDate 属性，LitEm MAE 为 13.21
 
 ![2608.26729v1 Table 4 原始截图](./images/litem-table4.png)
 
-图源：Rupesh Sapkota , Louis Mozart Kamdem Teyou , Moshood Yekini , Caglar Demir , Axel-Cyrille Ngonga Ngomo，《Neural Regression with Embeddings for Numerical Attribute Prediction in Knowledge Graphs》，arXiv:2608.26729v1，Table 4，PDF 第 9 页。[原图出处](https://arxiv.org/pdf/2608.26729v1#page=9) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
+图源：Rupesh Sapkota , Louis Mozart Kamdem Teyou , Moshood Yekini , Caglar Demir , Axel-Cyrille Ngonga Ngomo，《Neural Regression with Embeddings for Numerical Attribute Prediction in Knowledge Graphs》，arXiv:2608.26729v1，Table 4，PDF 第 9 页。[原图出处](https://arxiv.org/pdf/2608.26729v1#page=9) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 深读原文与范围
 

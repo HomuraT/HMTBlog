@@ -30,7 +30,7 @@ StructMem 用时间锚定组织事件的不同视角，再周期性整合相关�
 
 ![Decoupled DiLoCo v1 Figure 1，对比切片级弹性与解耦训练，展示局部故障时其他 learner 继续运行。](./images/diloco-figure1.png)
 
-*图 1｜Arthur Douillard、Keith Rush、Yani Donchev 等，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2604.21428v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留上下两部分、状态文字与时间方向，移除页眉、原图注及正文；未改动图内内容。*
+*图 1｜Arthur Douillard、Keith Rush、Yani Donchev 等，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2604.21428v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 作者在故障模拟中报告全局停机为零，含 120 万和 240 万模拟芯片的设置。它们属于模拟故障规模，不能当成同规模真实集群部署；模型质量实验另涵盖文本、视觉、稠密和 MoE 设置。[实验见原文](https://arxiv.org/html/2604.21428v1)。
 
@@ -52,4 +52,4 @@ StructMem 用时间锚定组织事件的不同视角，再周期性整合相关�
 - [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1) · v1 首次提交 2026-04-23。
 - [Sapiens2](https://arxiv.org/abs/2604.21681v1) · v1 首次提交 2026-04-23。
 
-本期共八篇入口，展开其中三篇。外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+本期共八篇入口，展开其中三篇。

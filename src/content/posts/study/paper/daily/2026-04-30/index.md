@@ -30,7 +30,7 @@ RecursiveLink 在异构智能体之间传递潜状态，内外循环学习共同
 
 ![RecursiveMAS v1 Figure 1，上方为训练与推理递归深度的性能图，下方为不同协作模式的比较。](./images/recursivemas-figure1.png)
 
-*图 1｜Xiyuan Yang 等，Recursive Multi-Agent Systems，[v1 Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2604.25917v1#page=1)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留完整上下两部分、坐标与图例，移除标题、作者栏、摘要、原图注及联系方式；未改动图内内容。*
+*图 1｜Xiyuan Yang 等，Recursive Multi-Agent Systems，[v1 Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2604.25917v1#page=1)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 原图上半部采用小于 1.5B 的轻量智能体，下半部采用 5–10B 智能体。两部分设置不同，应分别理解递归深度趋势和协作模式泛化，不能直接跨面板排名。
 
@@ -52,4 +52,4 @@ Deep Research 根据线索定位特定论文，Wide Research 收集满足条件�
 - [Scalable Inference Architectures for Compound AI Systems: A Production Deployment Study](https://arxiv.org/abs/2604.25724v1) · v1 首次提交 2026-04-28。
 - [Medoid Prototype Alignment for Cross-Plant Unknown Attack Detection in Industrial Control Systems](https://arxiv.org/abs/2604.25544v1) · v1 首次提交 2026-04-28。
 
-本期共八篇入口，展开其中三篇。外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+本期共八篇入口，展开其中三篇。

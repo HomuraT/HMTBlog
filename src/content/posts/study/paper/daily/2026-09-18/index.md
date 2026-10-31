@@ -28,7 +28,7 @@ DualSQL 的 schema linking 与 SQL 生成 Agent 共享模型骨干和工具，�
 
 ![2609.18135v1 Figure 1 原始截图](./images/dualsql-figure1.png)
 
-图：共享骨干的双 Agent 联合训练。Shijie Chen , Yu Gan , Yeounoh Chung , Jiani Zhang , Quannan Li , Sravan Babu Bodapati , Cody J. Greer , Yu Su , Fatma Ozcan，arXiv:2609.18135v1，Figure 1，PDF 第 4 页。[原始图源](https://arxiv.org/pdf/2609.18135v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图及图注，未重绘或修改图内数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：共享骨干的双 Agent 联合训练。Shijie Chen , Yu Gan , Yeounoh Chung , Jiani Zhang , Quannan Li , Sravan Babu Bodapati , Cody J. Greer , Yu Su , Fatma Ozcan，arXiv:2609.18135v1，Figure 1，PDF 第 4 页。[原始图源](https://arxiv.org/pdf/2609.18135v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 3. Reinforcement Learning for Real-Time Vision-Language-Action Policies
 

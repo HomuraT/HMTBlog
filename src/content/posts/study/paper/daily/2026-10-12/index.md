@@ -30,7 +30,7 @@ Table 2 的 MAVEN 句子级 micro-F1 中，CLUE-GPT-J 为 0.180，CEO 为 0.150�
 
 ![2610.12580v1 Table 2 原始截图](./images/clue-table2.png)
 
-图源：Pratik Maitra , Lauren Kwon , Qi Li，《CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation》，2610.12580v1，Table 2，PDF 第 7 页。[原图出处](https://arxiv.org/pdf/2610.12580v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Pratik Maitra , Lauren Kwon , Qi Li，《CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation》，2610.12580v1，Table 2，PDF 第 7 页。[原图出处](https://arxiv.org/pdf/2610.12580v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

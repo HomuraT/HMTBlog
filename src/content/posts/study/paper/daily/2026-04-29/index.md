@@ -38,7 +38,7 @@ World-R1 保持基础视频模型架构，以预训练三维模型和视觉语�
 
 ![ClawMark v1 Figure 1，左侧对比加权得分与严格任务成功率，右侧展示100项任务的13类情境分布。](./images/clawmark-figure1.png)
 
-*图 1｜Fanqing Meng、Lingxiao Du、Zijian Wu 等，[v1 Figure 1，PDF 第 3 页](https://arxiv.org/pdf/2604.23781v1#page=3)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留两幅图、图例、刻度和任务类别，移除页眉、原图注及正文；未改动图内数值或颜色。*
+*图 1｜Fanqing Meng、Lingxiao Du、Zijian Wu 等，[v1 Figure 1，PDF 第 3 页](https://arxiv.org/pdf/2604.23781v1#page=3)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 七个系统在统一 OpenClaw harness 下按单次运行协议比较。最高加权分 75.8 来自 Claude Sonnet 4.6；最高严格任务成功率 20.0% 来自 Claude Opus 4.6，两项并非同一模型的成绩。
 
@@ -52,4 +52,4 @@ World-R1 保持基础视频模型架构，以预训练三维模型和视觉语�
 - [SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning](https://arxiv.org/abs/2604.23747v1) · v1 首次提交 2026-04-26。
 - [MMEB-V3: Measuring the Performance Gaps of Omni-Modality Embedding Models](https://arxiv.org/abs/2604.23321v1) · v1 首次提交 2026-04-25。
 
-本期共六篇入口，展开其中三篇。外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+本期共六篇入口，展开其中三篇。

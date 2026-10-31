@@ -30,7 +30,7 @@ v1 首次提交 2026-04-29 · [Accelerating RL Post-Training Rollouts via System
 
 ![2604.26779v1 Figure 1：投机解码接入 RL 原图](./images/specdec-figure1.png)
 
-原图：Hayate Iso、Tiyasa Mitra、Sudipta Mondal 等，arXiv:2604.26779v1，Figure 1，第 4 页。[论文来源](https://arxiv.org/pdf/2604.26779v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整图形及必要标注，移除周围正文，图内内容与颜色未改动。 此图沿用原始 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Hayate Iso、Tiyasa Mitra、Sudipta Mondal 等，arXiv:2604.26779v1，Figure 1，第 4 页。[论文来源](https://arxiv.org/pdf/2604.26779v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 本体控制对话
 

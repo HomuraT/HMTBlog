@@ -24,7 +24,7 @@ lang: 'zh-CN'
 
 ![2607.15207v1 Figure 1 原始截图](./images/badwam-figure1.png)
 
-原文：Qi Li、Xingyi Yang、Xinchao Wang，arXiv:2607.15207v1，Figure 1，PDF 第 4 页。[原始来源](https://arxiv.org/pdf/2607.15207v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Qi Li、Xingyi Yang、Xinchao Wang，arXiv:2607.15207v1，Figure 1，PDF 第 4 页。[原始来源](https://arxiv.org/pdf/2607.15207v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

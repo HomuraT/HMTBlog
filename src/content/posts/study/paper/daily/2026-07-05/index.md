@@ -24,7 +24,7 @@ Orphadata 罕见共济失调实验保留 122 个疾病、160 个证据可触及 
 
 ![2607.01773v1 Figure 1 原始截图](./images/verifiable-fca-figure1.png)
 
-原文：Yujin Yang、Heejung Lee，arXiv:2607.01773v1，Figure 1 验证回路，PDF 第 3 页。[原始来源](https://arxiv.org/pdf/2607.01773v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Yujin Yang、Heejung Lee，arXiv:2607.01773v1，Figure 1 验证回路，PDF 第 3 页。[原始来源](https://arxiv.org/pdf/2607.01773v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

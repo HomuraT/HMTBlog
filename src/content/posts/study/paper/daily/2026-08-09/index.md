@@ -24,7 +24,7 @@ Agent 运行框架优化评测 · [v1 论文](https://arxiv.org/abs/2608.06301v1
 
 ![HarnessOpt-Bench v1 Figure 1，优化器沙箱通过可信评测服务提交候选，隐藏测试及预算控制位于沙箱外。](./images/harnessopt-figure1.png)
 
-*图 1｜Varun Ursekar 等，HarnessOpt-Bench，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2608.06301v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留完整基础设施示意及图例，移除页眉、原图注和正文；未改动图内内容。*
+*图 1｜Varun Ursekar 等，HarnessOpt-Bench，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2608.06301v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 ### 结果与预算边界
 
@@ -54,4 +54,4 @@ Agent 运行框架优化评测 · [v1 论文](https://arxiv.org/abs/2608.06301v1
 
 ---
 
-本篇外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。其余论文仅保留公开链接。
+本篇其余论文仅保留公开链接。

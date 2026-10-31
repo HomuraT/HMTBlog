@@ -30,7 +30,7 @@ CASTON 案例先以嵌入筛选可疑公理和替换候选，再由 LLM 给出�
 
 ![2610.21466v1 Table 1 原始截图](./images/caston-table1.png)
 
-图源：Hui Yang , Ziyu Li , Xuan Liu , Anders Jarfors , He Tan , Jiaoyan Chen，《Ontology Refinement with Embeddings and LLMs: A Case Study on CASTON》，2610.21466v1，Table 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2610.21466v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注与标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Hui Yang , Ziyu Li , Xuan Liu , Anders Jarfors , He Tan , Jiaoyan Chen，《Ontology Refinement with Embeddings and LLMs: A Case Study on CASTON》，2610.21466v1，Table 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2610.21466v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

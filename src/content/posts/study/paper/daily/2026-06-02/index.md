@@ -26,7 +26,7 @@ Anatomy 对齐包含 2,737 个小鼠类、3,304 个人类类和 1,516 条参考�
 
 ![2605.09184v1 Table 3 原始截图](./images/open-ontologies-table3.png)
 
-原表：Fabio Rovai，arXiv:2605.09184v1，Table 3，PDF 第 5 页。[原始来源](https://arxiv.org/pdf/2605.09184v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整表格或图形及必要标签，移除周围正文，内容和颜色未改动，未重绘。此材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原表：Fabio Rovai，arXiv:2605.09184v1，Table 3，PDF 第 5 页。[原始来源](https://arxiv.org/pdf/2605.09184v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

@@ -30,7 +30,7 @@ Workflow as Knowledge 将工作流定义、运行实例、推理记录、上下�
 
 ![2607.08740v1 Figure 1 原始截图](./images/workflow-figure1.png)
 
-图源：Emanuele Quinto , Carlo Andrea Rozzi , Francesco Zanitti，《Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows》，arXiv:2607.08740v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2607.08740v1#page=2) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。图片沿用其原许可，本站页脚许可不为它增加非商业或其他限制。
+图源：Emanuele Quinto , Carlo Andrea Rozzi , Francesco Zanitti，《Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows》，arXiv:2607.08740v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2607.08740v1#page=2) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。裁剪自原文。
 
 ## 深读原文与范围
 

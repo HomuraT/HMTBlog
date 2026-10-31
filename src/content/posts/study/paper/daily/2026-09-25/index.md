@@ -40,7 +40,7 @@ InternW0 让高容量视频专家提供长时域预测，轻量动作专家高�
 
 ![2609.27656v1 Figure 1 原始截图](./images/internw0-figure1.png)
 
-图：InternW 世界模型系列的多模态反馈框架。Jisong Cai , Yao Mu , Ganlin Yang , Zhe Cao , Zhangzheng Tu , Xing Gao , Kailin Li , Xinyu Zhan , Lixin Yang , Yangkun Zhu , Haoxiang Ma , Ming Zhou , Qiaojun Yu , Yufei Xue , Liqun He , Yifei Yao , Yifan Zhu , Long Ling , Bingqi Jiang , Haoyu Guo , Xueyue Zhu , Bowen Zhou , Bin Zhao , Tianfan Xue , Chunhua Shen , Weinan Zhang，arXiv:2609.27656v1，Figure 1，PDF 第 3 页。[原始图源](https://arxiv.org/pdf/2609.27656v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：InternW 世界模型系列的多模态反馈框架。Jisong Cai , Yao Mu , Ganlin Yang , Zhe Cao , Zhangzheng Tu , Xing Gao , Kailin Li , Xinyu Zhan , Lixin Yang , Yangkun Zhu , Haoxiang Ma , Ming Zhou , Qiaojun Yu , Yufei Xue , Liqun He , Yifei Yao , Yifan Zhu , Long Ling , Bingqi Jiang , Haoyu Guo , Xueyue Zhu , Bowen Zhou , Bin Zhao , Tianfan Xue , Chunhua Shen , Weinan Zhang，arXiv:2609.27656v1，Figure 1，PDF 第 3 页。[原始图源](https://arxiv.org/pdf/2609.27656v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 5. Generalizable Robotic Insertion with World Models
 

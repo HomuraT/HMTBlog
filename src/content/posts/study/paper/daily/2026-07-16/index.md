@@ -24,7 +24,7 @@ lang: 'zh-CN'
 
 ![2607.11948v1 Figure 1 原始截图](./images/ontology-distillation-figure1.png)
 
-原文：Thanh Luong Tuan，arXiv:2607.11948v1，Figure 1 分领域 grounded 计数，PDF 第 8 页。[原始来源](https://arxiv.org/pdf/2607.11948v1#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Thanh Luong Tuan，arXiv:2607.11948v1，Figure 1 分领域 grounded 计数，PDF 第 8 页。[原始来源](https://arxiv.org/pdf/2607.11948v1#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

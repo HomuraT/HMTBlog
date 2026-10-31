@@ -22,7 +22,7 @@ CQ4OE 为每条 competency question 记录所需类、属性与公理的出处�
 
 ![2609.26029v1 Figure 1 原始截图](./images/cq4oe-figure1.png)
 
-图：多阶段注释、出处与三重审查流程。Jiayi Li , Ziyuan Wang , Daniel Garijo , María Poveda-Villalón，arXiv:2609.26029v1，Figure 1，PDF 第 6 页。[原始图源](https://arxiv.org/pdf/2609.26029v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注与必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：多阶段注释、出处与三重审查流程。Jiayi Li , Ziyuan Wang , Daniel Garijo , María Poveda-Villalón，arXiv:2609.26029v1，Figure 1，PDF 第 6 页。[原始图源](https://arxiv.org/pdf/2609.26029v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 2. UniDataAgent: An Ontology-Grounded Agent for Enterprise Question-to-Report Automation
 

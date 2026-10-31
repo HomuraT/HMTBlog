@@ -24,7 +24,7 @@ MPI3D-toy 使用 8,368 张训练图、2,000 张测试图。500 张评估图、�
 
 ![2606.20526v2 Figure 1 原始截图](./images/deepswip-figure1.png)
 
-原图：Saimun Habib、Vaishak Belle、Fengxiang He，arXiv:2606.20526v2，Figure 1，PDF 第 10 页。[原始来源](https://arxiv.org/pdf/2606.20526v2#page=10) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整表格或图形及必要标签，移除周围正文，内容和颜色未改动，未重绘。此材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Saimun Habib、Vaishak Belle、Fengxiang He，arXiv:2606.20526v2，Figure 1，PDF 第 10 页。[原始来源](https://arxiv.org/pdf/2606.20526v2#page=10) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

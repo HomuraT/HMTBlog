@@ -24,7 +24,7 @@ GraphDx 研究序贯信息收集的效果—成本权衡。它构建含诊断相
 
 ![2607.15280v1 Figure 1 原始截图](./images/graphdx-figure1.png)
 
-原文：Shaoting Tan、Ning Liu、Yuntao Du、Shuyue Wei、Wu Shuai、Qian Li、Yanyu Xu、Wei Zhang、Lizhen Cui、Haitao Yuan，arXiv:2607.15280v1，Figure 1，PDF 第 3 页。[原始来源](https://arxiv.org/pdf/2607.15280v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Shaoting Tan、Ning Liu、Yuntao Du、Shuyue Wei、Wu Shuai、Qian Li、Yanyu Xu、Wei Zhang、Lizhen Cui、Haitao Yuan，arXiv:2607.15280v1，Figure 1，PDF 第 3 页。[原始来源](https://arxiv.org/pdf/2607.15280v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

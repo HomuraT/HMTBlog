@@ -22,7 +22,7 @@ COMPASS 按知识图谱社区放置向量，并按图结构选择少量分片。
 
 ![2609.13452v1 Figure 1 原始截图](./images/compass-figure1.png)
 
-图：知识图谱社区与查询分片。Song Young Oh , Amal Gueroudji , Seth Ockerman , Rob Latham , Orcun Yildiz , Ian Foster , Kyle Chard , Robert Ross，arXiv:2609.13452v1，Figure 1，PDF 第 1 页。[原始图源](https://arxiv.org/pdf/2609.13452v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图及图注，未重绘或修改图内数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：知识图谱社区与查询分片。Song Young Oh , Amal Gueroudji , Seth Ockerman , Rob Latham , Orcun Yildiz , Ian Foster , Kyle Chard , Robert Ross，arXiv:2609.13452v1，Figure 1，PDF 第 1 页。[原始图源](https://arxiv.org/pdf/2609.13452v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 2. EvoOntology: A Self-Evolving Ontology Layer for Data Agents
 

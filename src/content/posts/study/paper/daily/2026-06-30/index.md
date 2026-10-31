@@ -24,7 +24,7 @@ lang: 'zh-CN'
 
 ![2511.05991v1 Figure 4 原始截图](./images/ontology-rag-figure4.png)
 
-原文：Tiago da Cruz、Bernardo Tavares、Francisco Belo，arXiv:2511.05991v1，Figure 4 结果表，PDF 第 8 页。[原始来源](https://arxiv.org/pdf/2511.05991v1#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整查询示例或结果表及标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Tiago da Cruz、Bernardo Tavares、Francisco Belo，arXiv:2511.05991v1，Figure 4 结果表，PDF 第 8 页。[原始来源](https://arxiv.org/pdf/2511.05991v1#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

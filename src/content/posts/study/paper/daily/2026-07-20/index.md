@@ -24,7 +24,7 @@ lang: 'zh-CN'
 
 ![2607.14770v1 Figure 1 原始截图](./images/chronoqg-figure1.png)
 
-原文：Xuemeng Liu、Zhengpin Li、Wanpeng Tang、Haotong Xie、Wentao Zhang，arXiv:2607.14770v1，Figure 1，PDF 第 2 页。[原始来源](https://arxiv.org/pdf/2607.14770v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注及必要标签，未重绘或修改内容。该材料沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原文：Xuemeng Liu、Zhengpin Li、Wanpeng Tang、Haotong Xie、Wentao Zhang，arXiv:2607.14770v1，Figure 1，PDF 第 2 页。[原始来源](https://arxiv.org/pdf/2607.14770v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

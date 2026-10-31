@@ -64,7 +64,7 @@ ICML 2026 随机试验比较严格禁用与有限许可两种 LLM 政策。政�
 
 ![2609.19420v1 Figure 1 原始截图](./images/peer-review-figure1.png)
 
-图：ICML 评审政策随机试验与问卷发现。Sunnie S. Y. Kim , Wesley Hanwen Deng , Jennifer Wortman Vaughan , Buxin Su , Weijie Su , Alekh Agarwal , Sharon Li , Martin Jaggi , Daniel G. Goldstein , Nihar B. Shah , Miroslav Dudík，arXiv:2609.19420v1，Figure 1，PDF 第 3 页。[原始图源](https://arxiv.org/pdf/2609.19420v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图及图注，未重绘或修改图内数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：ICML 评审政策随机试验与问卷发现。Sunnie S. Y. Kim , Wesley Hanwen Deng , Jennifer Wortman Vaughan , Buxin Su , Weijie Su , Alekh Agarwal , Sharon Li , Martin Jaggi , Daniel G. Goldstein , Nihar B. Shah , Miroslav Dudík，arXiv:2609.19420v1，Figure 1，PDF 第 3 页。[原始图源](https://arxiv.org/pdf/2609.19420v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 阅读说明
 

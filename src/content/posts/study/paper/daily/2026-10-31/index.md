@@ -32,7 +32,7 @@ lang: 'zh-CN'
 
 ![本体检查器，也需要被检查：论文 Figure 1](./images/ontology-figure1.png)
 
-图源：Orzechowski, Michal；Tawfiq, Rund；Kosciolek, Tomasz，*What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs*，2610.37809v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2610.37809v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。由官方 PDF 栅格化并矩形裁切，保留图内内容及原图注，未重绘或修改数据。
+图源：Orzechowski, Michal；Tawfiq, Rund；Kosciolek, Tomasz，*What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs*，2610.37809v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2610.37809v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 读图：本体既能作为 Agent 的上下文，也能在查询执行后充当检查器；被标记的结果会触发重试，因此误报可能把本来正确的答案送回修改。
 
@@ -60,7 +60,7 @@ UniProt 七个模型的真实答案实验中，人工本体检查器抓到 18.9%
 
 ![JEPA：怎样选训练配对，影响跨模态对齐：论文 Figure 1](./images/jepa-figure1.png)
 
-图源：Balestriero, Randall；LeCun, Yann，*Proving and Improving the Platonic Representation Hypothesis with JEPAs*，2610.39302v1，Figure 1，PDF 第 1 页。[原图出处](https://arxiv.org/pdf/2610.39302v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。由官方 PDF 栅格化并矩形裁切，保留图内内容及原图注，未重绘或修改数据。
+图源：Balestriero, Randall；LeCun, Yann，*Proving and Improving the Platonic Representation Hypothesis with JEPAs*，2610.39302v1，Figure 1，PDF 第 1 页。[原图出处](https://arxiv.org/pdf/2610.39302v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 读图：左边比较同一场景的不同观测与单个观测的损坏版本；右边横轴是训练样本数，对齐度的样本效率不能直接当作计算或耗时节省。
 
@@ -88,7 +88,7 @@ UniProt 七个模型的真实答案实验中，人工本体检查器抓到 18.9%
 
 ![统一训练：把阶段切换改成数据配比：论文 Figure 1](./images/unified-figure1.png)
 
-图源：Song, Yuda；Zhang, Alvin；Tajwar, Fahim；Arora, Daman；Schneider, Jeff；Khashabi, Daniel；等，*Training Foundation Models with a Single Algorithm*，2610.40564v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2610.40564v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。由官方 PDF 栅格化并矩形裁切，保留图内内容及原图注，未重绘或修改数据。
+图源：Song, Yuda；Zhang, Alvin；Tajwar, Fahim；Arora, Daman；Schneider, Jeff；Khashabi, Daniel；等，*Training Foundation Models with a Single Algorithm*，2610.40564v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2610.40564v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 读图：固定数据和奖励筛选的生成数据进入同一个最大似然训练器。右侧的计算预算曲线展示指定受控实验，不能替代后文真实数据实验的预算核对。
 
@@ -137,7 +137,7 @@ MiMo-V2.5 在 DeepSWE-v1.1 的成功率由基础模型 12.39% 提升至 25.30%�
 
 ![视觉模型：看懂场景之后，能否记住和行动：论文 Figure 1](./images/spatial-figure1.png)
 
-图源：Yin, Baiqiao；Cai, Zhongang；Wang, Ruisi；Liang, Qiwei；Yang, Lei；Liu, Ziwei，*Probing Spatial State Representations in Visual Foundation Models*，2610.40636v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2610.40636v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。由官方 PDF 栅格化并矩形裁切，保留图内内容及原图注，未重绘或修改数据。
+图源：Yin, Baiqiao；Cai, Zhongang；Wang, Ruisi；Liang, Qiwei；Yang, Lei；Liu, Ziwei，*Probing Spatial State Representations in Visual Foundation Models*，2610.40636v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2610.40636v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 读图：四个层次分别是可见结构、视野外物体持存、运动后的预测更新与行动效用。这是能力定义示意图，不是机器人已经完成这些任务的实验截图。
 

@@ -30,7 +30,7 @@ lang: 'zh-CN'
 
 ![Abstract-CoT v1 Figure 1，左侧为自然语言思维链，右侧为预留抽象词表组成的短中间序列。](./images/abstract-cot-figure1.png)
 
-*图 1｜Keshav Ramji、Tahira Naseem、Ramón Fernandez Astudillo，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2604.22709v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留完整左右示例、标题与答案，移除页眉、原图注及正文；未改动图内内容。*
+*图 1｜Keshav Ramji、Tahira Naseem、Ramón Fernandez Astudillo，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2604.22709v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 | v1 报告的推理 token 压缩比 | 任务 |
 |---|---|
@@ -58,4 +58,4 @@ dWorldEval 用统一离散 token 表示视觉、语言与动作，预测未来�
 - [Hyperloop Transformers](https://arxiv.org/abs/2604.21254v1) · v1 首次提交 2026-04-23。
 - [GazeVLA: Learning Human Intention for Robotic Manipulation](https://arxiv.org/abs/2604.22615v1) · v1 首次提交 2026-04-24。
 
-本期共八篇入口，展开其中三篇。外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。
+本期共八篇入口，展开其中三篇。

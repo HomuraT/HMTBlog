@@ -24,7 +24,7 @@ u-OPSD 从同一模型的多条回答中投票形成伪答案，再把以共识�
 
 ![u-OPSD v1 Figure 2，多数票产生伪答案，教师条件分布在学生分歧轨迹上提供逐 token 蒸馏信号。](./images/uopsd-figure2.png)
 
-*图 1｜Yijiang Li、Bingyang Wang、Yijun Liang、Yunjie Tian、Di Fu、Nuno Vasconcelos，[v1 Figure 2，PDF 第 4 页](https://arxiv.org/pdf/2608.06296v1#page=4)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留完整流程图及标记，移除标题、原图注与正文；未改动图内内容。*
+*图 1｜Yijiang Li、Bingyang Wang、Yijun Liang、Yunjie Tian、Di Fu、Nuno Vasconcelos，[v1 Figure 2，PDF 第 4 页](https://arxiv.org/pdf/2608.06296v1#page=4)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 ### 结果与评测口径
 
@@ -62,4 +62,4 @@ RST 从验证过的种子任务出发，扩展参考解答，同步修改题意�
 
 ---
 
-本篇外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。其余论文仅保留公开链接。
+本篇其余论文仅保留公开链接。

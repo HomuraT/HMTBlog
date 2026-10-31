@@ -30,7 +30,7 @@ lang: 'zh-CN'
 
 ![2610.13778v1 Table 1 and Figure 2 原始截图](./images/replayssm-table1-figure2.png)
 
-图源：Ze-Wei Liou , Harris Nover , Amey Naik , Andrii Skliar , Igor Shovkun , Ido Shahaf , Tri Dao，《ReplaySSM: Cache SSM Inputs, Not State》，2610.13778v1，Table 1 and Figure 2，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.13778v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪原页面，保留完整图表、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图源：Ze-Wei Liou , Harris Nover , Amey Naik , Andrii Skliar , Igor Shovkun , Ido Shahaf , Tri Dao，《ReplaySSM: Cache SSM Inputs, Not State》，2610.13778v1，Table 1 and Figure 2，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.13778v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 原文与核验范围
 

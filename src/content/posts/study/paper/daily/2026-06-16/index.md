@@ -24,7 +24,7 @@ Text-to-Cypher 的瓶颈常是目标图谱专属标注，而非单纯参数量�
 
 ![2606.14325v1 Figure 2 原始截图](./images/cyquark-figure2.png)
 
-原图：Francesco Cazzaro、Jessica Lennon、Ariadna Quattoni，arXiv:2606.14325v1，Figure 2，PDF 第 4 页。[原始来源](https://arxiv.org/pdf/2606.14325v1#page=4) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。已裁剪完整表格或图形及必要标签，移除周围正文，内容和颜色未改动，未重绘。此材料沿用 CC BY-SA 4.0，此裁剪材料按相同 CC BY-SA 4.0 许可使用，本站页脚许可不为其增加非商业限制。
+原图：Francesco Cazzaro、Jessica Lennon、Ariadna Quattoni，arXiv:2606.14325v1，Figure 2，PDF 第 4 页。[原始来源](https://arxiv.org/pdf/2606.14325v1#page=4) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。裁剪自原文。
 
 ## 同期其他论文入口
 

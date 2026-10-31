@@ -24,7 +24,7 @@ lang: 'zh-CN'
 
 ![ARCO v1 Figure 1，将 join-on-free 导航查询结合 DL-Lite 属性图本体重写为图数据库可执行的查询。](./images/arco-figure1.png)
 
-*图 1｜Bianca Löhnert、Nikolaus Augsten、Cem Okulmus、Magdalena Ortiz，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2608.20092v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留完整重写流程及标记，移除原图注与正文；未改动图内内容。*
+*图 1｜Bianca Löhnert、Nikolaus Augsten、Cem Okulmus、Magdalena Ortiz，[v1 Figure 1，PDF 第 2 页](https://arxiv.org/pdf/2608.20092v1#page=2)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 ### 重写与执行需要分别测量
 
@@ -59,4 +59,4 @@ EnvHarness 用组件改变初始状态、交互信息流或任务连接，保留
 
 ---
 
-本篇外部原图保留 CC BY 4.0，不因本站页脚而增加非商业或相同方式共享限制。其余论文仅保留公开链接。
+本篇其余论文仅保留公开链接。

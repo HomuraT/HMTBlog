@@ -47,7 +47,7 @@ E²-TTT 在梯度按块起始权重计算的近似下，推导块末快权重与
 
 ![结构正则化论文 v1 Table 3，比较 DocRED distant、结构修正和随机删除数据训练后的各项指标，括号内为相对变化。](./images/docre-table3.png)
 
-*图 1｜Laura Menotti、Stefano Marchesin、Gianmaria Silvello，[v1 Table 3，PDF 第 8 页](https://arxiv.org/pdf/2608.20856v1#page=8)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪，保留完整表格、表头、模型标签及着色，移除原表注和正文；未改动数值。括号内为相对提升或下降，非百分点。*
+*图 1｜Laura Menotti、Stefano Marchesin、Gianmaria Silvello，[v1 Table 3，PDF 第 8 页](https://arxiv.org/pdf/2608.20856v1#page=8)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。括号内为相对提升或下降，非百分点。*
 
 结构良构性有助于识别约束冲突，仍不能证明每条关系都受原文事实支持。数据清理的效果需要与语义正确性分开衡量。
 

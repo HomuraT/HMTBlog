@@ -30,7 +30,7 @@ Model Spec Midtraining 在预训练与对齐微调之间加入讨论行为规范
 
 ![2605.02087v1 Figure 1：MSM 原图](./images/msm-figure1.png)
 
-原图：Chloe Li、Sara Price、Samuel Marks、Jon Kutasov，arXiv:2605.02087v1，Figure 1，第 2 页。[论文来源](https://arxiv.org/pdf/2605.02087v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。已裁剪完整图形及必要标注，移除周围正文，图内内容与颜色未改动。 此图沿用原始 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+原图：Chloe Li、Sara Price、Samuel Marks、Jon Kutasov，arXiv:2605.02087v1，Figure 1，第 2 页。[论文来源](https://arxiv.org/pdf/2605.02087v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## ProgramBench
 

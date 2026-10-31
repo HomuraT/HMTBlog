@@ -46,7 +46,7 @@ Pinocchio 为黑盒回答训练外部正确性校准器，不访问目标 logits
 
 ![2609.24881v2 Figure 2 原始截图](./images/pinocchio-figure2.png)
 
-图：外部校准器与模型口述置信度的可靠性图。Kevin David Hayes , Arka Pal , Haosong Zhang , Tom Goldstein , Micah Goldblum，arXiv:2609.24881v2，Figure 2，PDF 第 6 页。[原始图源](https://arxiv.org/pdf/2609.24881v2#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。仅裁剪页面，保留完整原图、图注和必要标签，未重绘或修改数据，不表示作者认可本解读。该图沿用 CC BY 4.0，本站页脚许可不为其增加非商业或相同方式共享限制。
+图：外部校准器与模型口述置信度的可靠性图。Kevin David Hayes , Arka Pal , Haosong Zhang , Tom Goldstein , Micah Goldblum，arXiv:2609.24881v2，Figure 2，PDF 第 6 页。[原始图源](https://arxiv.org/pdf/2609.24881v2#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
 ## 6. MobileCybench: Evaluating Agent Vulnerability Discovery via Executable Probes
 
