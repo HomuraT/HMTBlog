@@ -52,12 +52,86 @@
 			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260806992-figure2.png": {
+			"authors": ["Hu, Yujia", "Nguyen, Tuan-Phong", "Razniewski, Simon"],
+			"paper_title": "GPTKB 2.0: Browsing, Querying, and Auditing a Disambiguated LLM-Derived Knowledge Base",
+			"source": "https://arxiv.org/pdf/2608.06992v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [70, 68, 528, 250],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "350983700276f707ebb85615ed2f95272e81b0db28ae70bb7b93da044f1f0c97",
+			"source_pdf_sha256": "08dc85c8aed5585e7d15ad99cbffa45cd5a3985b522e188d9d510d991fdf3d87"
+		},
+		"paper-260806992-table1.png": {
+			"authors": ["Hu, Yujia", "Nguyen, Tuan-Phong", "Razniewski, Simon"],
+			"paper_title": "GPTKB 2.0: Browsing, Querying, and Auditing a Disambiguated LLM-Derived Knowledge Base",
+			"source": "https://arxiv.org/pdf/2608.06992v1#page=2",
+			"item": "Table 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [330, 68, 500, 199],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5f4281a9bd94b97e7bf88fff2bd532689e3b20e47c8100d8cc74e51ae9ff79f2",
+			"source_pdf_sha256": "08dc85c8aed5585e7d15ad99cbffa45cd5a3985b522e188d9d510d991fdf3d87"
+		},
+		"paper-260806361-figure2.png": {
+			"authors": [
+				"Baskar, Sarvesh",
+				"Cai, Zikui",
+				"Shabihi, Shayan",
+				"Satheesh, Anirudh",
+				"Islam, Muhammad R.",
+				"Sehwag, Udari Madhushani",
+				"Goldstein, Tom",
+				"Huang, Furong"
+			],
+			"paper_title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+			"source": "https://arxiv.org/pdf/2608.06361v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				49.0, 48.997283935546875, 562.9959716796875, 302.7624816894531
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5585b0de29a7cc1000cc40e72c60eb9e213e8039c9331d75cf3072ebc7012bac",
+			"source_pdf_sha256": "80effc9a2cfd6177f9c5d1998e30b17c2b58ca73c06b0b39016af2dc1ce9610c"
+		},
+		"paper-260806361-table1.png": {
+			"authors": [
+				"Baskar, Sarvesh",
+				"Cai, Zikui",
+				"Shabihi, Shayan",
+				"Satheesh, Anirudh",
+				"Islam, Muhammad R.",
+				"Sehwag, Udari Madhushani",
+				"Goldstein, Tom",
+				"Huang, Furong"
+			],
+			"paper_title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+			"source": "https://arxiv.org/pdf/2608.06361v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [52, 52, 560, 372],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "62b586091aea67fb7f607e4ff0c2f7389f58c6fc1ffb8a273922a0dabe6182f1",
+			"source_pdf_sha256": "80effc9a2cfd6177f9c5d1998e30b17c2b58ca73c06b0b39016af2dc1ce9610c"
+		}
+	},
 	"figure_omissions": [
 		{
 			"source": "https://arxiv.org/pdf/2608.07254v1#page=4",
 			"item": "Figure 1",
 			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
 		}
-	]
+	],
+	"published_paper_count": 5
 }

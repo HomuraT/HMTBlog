@@ -77,6 +77,54 @@
 			"version": "2602.13319v1",
 			"license_evidence": "https://arxiv.org/abs/2602.13319v1",
 			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		},
+		"paper-260808888-figure1.png": {
+			"authors": [
+				"Wang, Xi",
+				"Cai, Ziyang",
+				"Zhan, Zheng",
+				"Dong, Harry",
+				"Fan, Ying",
+				"de Rosa, Gustavo",
+				"Pearce, Tim",
+				"Langford, John"
+			],
+			"paper_title": "Full-bandwidth transformer",
+			"source": "https://arxiv.org/pdf/2608.08888v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.6709976196289, 66.99996948242188, 529.5174560546875,
+				379.6481018066406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5695e7077a3306664d66f0005e6dfeb76ab0330fb5f73d6c7ef34fada0c2cd72",
+			"source_pdf_sha256": "7ddb5869843aea15d72cc3fc94d69d15217a67c07effcd7a5e4631320cd52ee3"
+		},
+		"paper-260808888-table1.png": {
+			"authors": [
+				"Wang, Xi",
+				"Cai, Ziyang",
+				"Zhan, Zheng",
+				"Dong, Harry",
+				"Fan, Ying",
+				"de Rosa, Gustavo",
+				"Pearce, Tim",
+				"Langford, John"
+			],
+			"paper_title": "Full-bandwidth transformer",
+			"source": "https://arxiv.org/pdf/2608.08888v1#page=10",
+			"item": "Table 1",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 68, 530, 225],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4c477c0de25ed615542f75b7fd6dbec7387189508c37d4b6bbe2a374ea8bbc30",
+			"source_pdf_sha256": "7ddb5869843aea15d72cc3fc94d69d15217a67c07effcd7a5e4631320cd52ee3"
 		}
-	}
+	},
+	"published_paper_count": 6
 }

@@ -77,6 +77,135 @@
 			"version": "2608.10668v1",
 			"license_evidence": "https://arxiv.org/abs/2608.10668v1",
 			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		},
+		"paper-260809867-table1.png": {
+			"authors": [
+				"Panfilov, Alexander",
+				"Schmotz, David",
+				"Shumailov, Ilia",
+				"Beurer-Kellner, Luca",
+				"Schaeffer, Joachim",
+				"Prabhu, Ameya",
+				"Geiping, Jonas",
+				"Andriushchenko, Maksym"
+			],
+			"paper_title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+			"source": "https://arxiv.org/pdf/2608.09867v1#page=4",
+			"item": "Table 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 584, 528, 733],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a7b452ea7db7ca59eefad63c7e5db2678d05321f8a09c524e77667335779aeb5",
+			"source_pdf_sha256": "eb8697b6ec47c6522d17247359f949426516af8d54263bd8626d1f3e62bcef23"
+		},
+		"paper-260809802-figure3.png": {
+			"authors": [
+				"Shi, Yuling",
+				"Xu, Jinghan",
+				"Fu, Kelin",
+				"Zeng, Wenhao",
+				"He, Shilin",
+				"Zhang, Lei",
+				"Liu, Yue",
+				"Zhao, Zelin",
+				"Zhuo, Terry Yue",
+				"Cao, Jialun",
+				"Ye, Siyu",
+				"Liu, Tianyu",
+				"Cai, Kai",
+				"Cheung, Shing-Chi",
+				"Gu, Xiaodong"
+			],
+			"paper_title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+			"source": "https://arxiv.org/pdf/2608.09802v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [98, 307, 513, 522],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2aaa685534ae0b0253e8b45906565f9bc772c5e6eeec0df264e6efda26074e7e",
+			"source_pdf_sha256": "7e5beb9aa569a19aa1a7758ba6be95bd7c14070f09c56cb8e2734553a4517d82"
+		},
+		"paper-260809802-table3.png": {
+			"authors": [
+				"Shi, Yuling",
+				"Xu, Jinghan",
+				"Fu, Kelin",
+				"Zeng, Wenhao",
+				"He, Shilin",
+				"Zhang, Lei",
+				"Liu, Yue",
+				"Zhao, Zelin",
+				"Zhuo, Terry Yue",
+				"Cao, Jialun",
+				"Ye, Siyu",
+				"Liu, Tianyu",
+				"Cai, Kai",
+				"Cheung, Shing-Chi",
+				"Gu, Xiaodong"
+			],
+			"paper_title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+			"source": "https://arxiv.org/pdf/2608.09802v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 68, 543, 333],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "20384f814e37a7622877adcf1c23e2b2298d10edba3d9238fe62bfb98b422d6d",
+			"source_pdf_sha256": "7e5beb9aa569a19aa1a7758ba6be95bd7c14070f09c56cb8e2734553a4517d82"
+		},
+		"paper-260809381-figure3.png": {
+			"authors": [
+				"Lin, Yihan",
+				"He, Jiawei",
+				"Bao, Shifeng",
+				"Zhao, Chen",
+				"Li, Yang",
+				"Wang, Xiaobo",
+				"Wang, Yan",
+				"Chi, Cheng",
+				"Zhang, Jing"
+			],
+			"paper_title": "JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling",
+			"source": "https://arxiv.org/pdf/2608.09381v1#page=3",
+			"item": "Figure 3",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				49.0, 49.414398193359375, 562.997802734375, 300.2064208984375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1f77442a694dd8f21dac82d1348b44fb6d816bd9f42ff0ef77f95bed6867cbe9",
+			"source_pdf_sha256": "342e84d7920b38223a487c7cca0533f81b259fe85f29b3c3f3d8501acaea8d78"
+		},
+		"paper-260809381-table2.png": {
+			"authors": [
+				"Lin, Yihan",
+				"He, Jiawei",
+				"Bao, Shifeng",
+				"Zhao, Chen",
+				"Li, Yang",
+				"Wang, Xiaobo",
+				"Wang, Yan",
+				"Chi, Cheng",
+				"Zhang, Jing"
+			],
+			"paper_title": "JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling",
+			"source": "https://arxiv.org/pdf/2608.09381v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [51, 23, 560, 260],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "919e7f543d884785ce814e19d277ea5ef312fc9d7572161fbddc9ddb47d0f2c4",
+			"source_pdf_sha256": "342e84d7920b38223a487c7cca0533f81b259fe85f29b3c3f3d8501acaea8d78"
 		}
-	}
+	},
+	"published_paper_count": 6
 }
