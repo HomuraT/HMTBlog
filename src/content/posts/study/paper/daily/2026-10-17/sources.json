@@ -20,6 +20,42 @@
 			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
 			"historical_availability_confirmed": true,
 			"cited_evidence": "如果奖励只分成功与失败，模型可能在没有把握时继续猜。GracefulRL 将结果按成功、fallback、错误排序，研究如何保留解题能力并减少危险错误。\n\n## 方法与问题\n\n它改变训练优化结构，而非在推理时额外加裁判。直接给 fallback 中间奖励，普通策略梯度仍可能塌缩为永远退回；GracefulRL 调整优化动力学，寻找成功与错误之间更有用的权衡。\n\n## 实验证据\n\nSafeMaze 要求到达目标，无法完成时返回安全位置。Figure 3 中 GRPO/RLOO 可塌缩为总去安全格；GracefulRL 在所测设置下获得更好的成功—错误前沿。Figure 4 另测数学弃答。这些任务没有一个可跨任务引用的统一准确率增幅，本文不从曲线估读百分比。\n\n## 我的判断\n\n系统必须先定义可执行、可验证的 fallback：不执行、请求人工、回滚或保留草稿。特定奖励下的行为改善，不证明真实数据库或生产代码部署已经安全。"
+		},
+		{
+			"title": "Configuration and Optimization of Knowledge Graph Integration Pipelines",
+			"source": "https://dbs.uni-leipzig.de/research/publications/configuration-and-optimization-of-knowledge-graph-integration-pipelines",
+			"version": "DMKG 2026 作者公开版本",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
+			"source": "https://arxiv.org/abs/2610.22194v1",
+			"version": "2610.22194v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+			"source": "https://arxiv.org/abs/2610.22200v1",
+			"version": "2610.22200v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Generative Representation Learning for Scalable Latent Tokenization",
+			"source": "https://arxiv.org/abs/2610.20533v1",
+			"version": "2610.20533v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Scaling Discovery Requires Forgetting",
+			"source": "https://arxiv.org/abs/2610.20563v1",
+			"version": "2610.20563v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/abs/2610.19789v1",
+			"version": "2610.19789v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {},
@@ -29,5 +65,6 @@
 			"source": "https://arxiv.org/pdf/2610.20401v1#page=6",
 			"reason": "arXiv non-exclusive distribution permission does not establish open screenshot republication rights."
 		}
-	]
+	],
+	"included_roster_count": 7
 }

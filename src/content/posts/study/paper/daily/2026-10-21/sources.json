@@ -20,6 +20,36 @@
 			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
 			"historical_availability_confirmed": false,
 			"cited_evidence": "字符串、图嵌入和 LLM 的错误各有特点。OntoAligner-Ensemble 将输出接入可配置融合与选择流程，研究互补是否实际改善精召平衡。\n\n## 版本时间边界\n\n归档日为 10 月 21 日，本次核验于 10 月 29 日。OM 2026 研讨会日期为 10 月 25 日，所用 workshop PDF 的首次公开时间未独立确认；本文属于后续补读，不宣称该版本在归档日已公开。\n\n## 方法与实验\n\n系统支持加权投票、倒数排名融合、Condorcet、Borda，再筛选融合候选。五个 OAEI 赛道八个任务中，Table 2 的 Fish–Zooplankton：LLM 集成 F1 为 96.5，GPT-5.4-Nano 单系统为 93.3；Mouse–Human 的 Matcha 基线 94.1，却高于 LLM 集成 91.6。CEON–MatOnto 也由原基线保持最高 F1。表内 P/R/F1 为百分制，不能称集成总是最好。\n\n## 我的判断\n\n应按错误重叠选成员，而非只增加模型数量。部分基线直接取官方 OAEI 报告，并非同环境重跑；讨论成本与效果时要保留来源差异。软件 Apache 2.0 不等于论文截图许可，配图使用论文明确的 CC BY 4.0。"
+		},
+		{
+			"title": "TELLER: Dual-Path Iterative Preference Optimization for Table Entity Linking",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper1.pdf",
+			"version": "OM 2026 workshop PDF",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "MemT-1.0: Towards Memory-Native Evolution",
+			"source": "https://arxiv.org/abs/2610.26825v1",
+			"version": "2610.26825v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+			"source": "https://arxiv.org/abs/2610.26770v1",
+			"version": "2610.26770v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
+			"source": "https://arxiv.org/abs/2610.26754v1",
+			"version": "2610.26754v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Text-to-Image Generative Modeling Without Language Pretraining",
+			"source": "https://arxiv.org/abs/2610.26863v1",
+			"version": "2610.26863v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -37,5 +67,6 @@
 			"sha256": "bbd51dc059b90b654c5e624c3c9cdca89eebce1ab1a180e8b0506b87cceb8328",
 			"source_pdf_sha256": "a364730bd4368626029814144d5eb604edb4d575af031b5611f1fe9da1129da4"
 		}
-	}
+	},
+	"included_roster_count": 6
 }
