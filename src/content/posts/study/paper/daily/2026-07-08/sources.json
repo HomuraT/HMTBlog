@@ -61,7 +61,188 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260705001-figure2.png": {
+			"authors": ["Bouchiha, Mouhamed Amine", "Blanc, Gregory"],
+			"paper_title": "TACTIC-KG: Toward Small Agent Teams for Cyber Threat Intelligence Knowledge Graph Construction",
+			"source": "https://arxiv.org/pdf/2607.05001v1#page=7",
+			"item": "Figure 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [131, 119, 483, 323],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7e562f1d2cc31bcf50d9576a837efdd63fb1e6ff8b5c8ac5ff6f5209279e0186",
+			"source_pdf_sha256": "4c91db3117d6bc29c31dfa7a3c1bf0056fe6c995858d6b0eb714f4424e93b8e2"
+		},
+		"paper-260705001-table2.png": {
+			"authors": ["Bouchiha, Mouhamed Amine", "Blanc, Gregory"],
+			"paper_title": "TACTIC-KG: Toward Small Agent Teams for Cyber Threat Intelligence Knowledge Graph Construction",
+			"source": "https://arxiv.org/pdf/2607.05001v1#page=13",
+			"item": "Table 2",
+			"pdf_page": 13,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				129.76498413085938, 121.39323425292969, 305.77960205078125,
+				212.6704559326172
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d538e2906819591927aac48e88bd15a4f0e3e84580b62abdc2e34b6cbd604615",
+			"source_pdf_sha256": "4c91db3117d6bc29c31dfa7a3c1bf0056fe6c995858d6b0eb714f4424e93b8e2"
+		},
+		"paper-260704439-figure2.png": {
+			"authors": [
+				"Zhao, Qihao",
+				"Huang, Yangyu",
+				"Dai, Yalun",
+				"Xiao, Lingao",
+				"Gao, Jianjun",
+				"Zhang, Xin",
+				"Wu, Wenshan",
+				"Li, Scarlett",
+				"He, Yang",
+				"Lu, Yan",
+				"Hui, Yap Kim"
+			],
+			"paper_title": "ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes",
+			"source": "https://arxiv.org/pdf/2607.04439v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				50.784217834472656, 376.1028137207031, 546.529296875, 664.3594970703125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8fa77735feedac2079810b88375b6763fe45441c1a6e0d325141600cfe1be47d",
+			"source_pdf_sha256": "5a3249e33ad1427d7c0acccac41d028cb0c117052fa25bb6a796cd02045cc24a"
+		},
+		"paper-260704439-table11.png": {
+			"authors": [
+				"Zhao, Qihao",
+				"Huang, Yangyu",
+				"Dai, Yalun",
+				"Xiao, Lingao",
+				"Gao, Jianjun",
+				"Zhang, Xin",
+				"Wu, Wenshan",
+				"Li, Scarlett",
+				"He, Yang",
+				"Lu, Yan",
+				"Hui, Yap Kim"
+			],
+			"paper_title": "ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes",
+			"source": "https://arxiv.org/pdf/2607.04439v1#page=38",
+			"item": "Table 11",
+			"pdf_page": 38,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [54, 193, 541, 309],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "81edd43ac42d1cec57cc12547d89ce42c46672fb08c8bd6553d433b0f28892b3",
+			"source_pdf_sha256": "5a3249e33ad1427d7c0acccac41d028cb0c117052fa25bb6a796cd02045cc24a"
+		},
+		"paper-260705391-figure6.png": {
+			"authors": [
+				"Kwok, Jacky",
+				"Li, Shulu",
+				"Atreya, Pranav",
+				"Liu, Yuejiang",
+				"Jiang, Yixing",
+				"Finn, Chelsea",
+				"Pavone, Marco",
+				"Stoica, Ion",
+				"Mirhoseini, Azalia"
+			],
+			"paper_title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+			"source": "https://arxiv.org/pdf/2607.05391v1#page=6",
+			"item": "Figure 6",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				56.9370002746582, 104.09618377685547, 555.9541625976562,
+				348.4692077636719
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fd1c23c476cfc9b7354a63da9c60a24cf3e24c1c0683393c3ad74a12ebe0d169",
+			"source_pdf_sha256": "34e268ee6b4c22faaa5c5a691241d3bb49ed065b76a3a18f319eb2163025820d"
+		},
+		"paper-260705391-table2.png": {
+			"authors": [
+				"Kwok, Jacky",
+				"Li, Shulu",
+				"Atreya, Pranav",
+				"Liu, Yuejiang",
+				"Jiang, Yixing",
+				"Finn, Chelsea",
+				"Pavone, Marco",
+				"Stoica, Ion",
+				"Mirhoseini, Azalia"
+			],
+			"paper_title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
+			"source": "https://arxiv.org/pdf/2607.05391v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [59, 514, 554, 670],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "82f6b15b52b7e6be1377d163b7a37c85501dd2c010992fe7f709ea91fe115dc5",
+			"source_pdf_sha256": "34e268ee6b4c22faaa5c5a691241d3bb49ed065b76a3a18f319eb2163025820d"
+		},
+		"paper-260705394-figure1.png": {
+			"authors": [
+				"Feng, Shiyuan",
+				"Gao, Huan-ang",
+				"Chi, Haohan",
+				"Wu, Hanlin",
+				"Zhang, Zhilong",
+				"Jiang, Zheng",
+				"He, Bingxiang",
+				"Ma, Wei-Ying",
+				"Zhang, Ya-Qin",
+				"Zhou, Hao"
+			],
+			"paper_title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+			"source": "https://arxiv.org/pdf/2607.05394v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 28.0, 546.1644287109375, 257.22796630859375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "efa77eb6333ea1d0f1f2106fac33c58f6ba37ec7193976b5ed60d274a97b6ac4",
+			"source_pdf_sha256": "2c8def6e2de7c51812fb0adb36898ad10766495234203ba07a87b37fe7aaa52e"
+		},
+		"paper-260705394-table1.png": {
+			"authors": [
+				"Feng, Shiyuan",
+				"Gao, Huan-ang",
+				"Chi, Haohan",
+				"Wu, Hanlin",
+				"Zhang, Zhilong",
+				"Jiang, Zheng",
+				"He, Bingxiang",
+				"Ma, Wei-Ying",
+				"Zhang, Ya-Qin",
+				"Zhou, Hao"
+			],
+			"paper_title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+			"source": "https://arxiv.org/pdf/2607.05394v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [102, 302, 512, 462],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6510d280bbf37c20c9181eda9a298e8dcb9b800dccf262c9f86fb0ebf9ed0041",
+			"source_pdf_sha256": "2c8def6e2de7c51812fb0adb36898ad10766495234203ba07a87b37fe7aaa52e"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.05970v1",
@@ -73,5 +254,6 @@
 	],
 	"verification_notes": [
 		"Faithfulness uses model judges and different authoritative evidence by generation setting; not a uniform human factual gold standard."
-	]
+	],
+	"published_paper_count": 8
 }
