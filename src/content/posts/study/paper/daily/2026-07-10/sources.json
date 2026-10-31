@@ -33,7 +33,36 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260707508-figure2.png": {
+			"authors": ["Hou, Zhenyu", "Li, Yujiang", "Tang, Jie", "Dong, Yuxiao"],
+			"paper_title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2607.07508v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 67.0013656616211, 510.7413635253906, 232.83541870117188
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a1d8d67c3bbdfa7a03e6c8756e0a94ca0ca65183f7690e4cd7c6b837bed92e6e",
+			"source_pdf_sha256": "44c695be0428c666d06c914ba76c037e3ac77eeb5db0a81bbe239719c21bda48"
+		},
+		"paper-260707508-table2.png": {
+			"authors": ["Hou, Zhenyu", "Li, Yujiang", "Tang, Jie", "Dong, Yuxiao"],
+			"paper_title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2607.07508v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [162, 68, 449, 146],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b85bd02b0094b06f82b963b95b0df26d510fb9cbb4417fd3b51af135eec12b30",
+			"source_pdf_sha256": "44c695be0428c666d06c914ba76c037e3ac77eeb5db0a81bbe239719c21bda48"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.07459v1",
@@ -42,5 +71,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "未确认第三方截图再发布许可"
 		}
-	]
+	],
+	"published_paper_count": 4
 }
