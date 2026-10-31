@@ -77,6 +77,146 @@
 			"version": "2608.26729v1",
 			"license_evidence": "https://arxiv.org/abs/2608.26729v1",
 			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		},
+		"paper-260827395-figure1.png": {
+			"authors": [
+				"Kuhn, Lukas",
+				"Maes, Lucas",
+				"Serra, Giuseppe",
+				"Lidec, Quentin Le",
+				"LeCun, Yann",
+				"Balestriero, Randall",
+				"Buettner, Florian"
+			],
+			"paper_title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+			"source": "https://arxiv.org/pdf/2608.27395v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [50, 407, 563, 658],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9b6870553f648bfc525029b7212b76cc2de6853ed36a4608062a7ef2fa3cb6bf",
+			"source_pdf_sha256": "047a945c5ccc7846269aa077fabce672f2b6c62b1aefba38ffa23004e63bad08"
+		},
+		"paper-260827395-table3.png": {
+			"authors": [
+				"Kuhn, Lukas",
+				"Maes, Lucas",
+				"Serra, Giuseppe",
+				"Lidec, Quentin Le",
+				"LeCun, Yann",
+				"Balestriero, Randall",
+				"Buettner, Florian"
+			],
+			"paper_title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+			"source": "https://arxiv.org/pdf/2608.27395v1#page=7",
+			"item": "Table 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [49, 357, 298, 478],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9001675c6f8f80f9a924ef754e0d790c3f9fcc0eeb9b8755cff64fc7a3b71534",
+			"source_pdf_sha256": "047a945c5ccc7846269aa077fabce672f2b6c62b1aefba38ffa23004e63bad08"
+		},
+		"paper-260826545-figure5.png": {
+			"authors": [
+				"Du, Maximilian",
+				"Sun, Zhanyi",
+				"Xu, Chen",
+				"Shah, Paarth",
+				"Itkina, Masha",
+				"Song, Shuran"
+			],
+			"paper_title": "Memory Anchors for Continual Robot Learning",
+			"source": "https://arxiv.org/pdf/2608.26545v1#page=6",
+			"item": "Figure 5",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 64.67704010009766, 509.0009460449219, 260.62939453125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fde4841984e38ff8f2be0712693d394901dd76e78df237d44bf7530a3d92d1a7",
+			"source_pdf_sha256": "c7dc8d76980a6db30317b466e2fa20dede91ca2836d101d4b4c750cf45d9e15e"
+		},
+		"paper-260826545-figure6.png": {
+			"authors": [
+				"Du, Maximilian",
+				"Sun, Zhanyi",
+				"Xu, Chen",
+				"Shah, Paarth",
+				"Itkina, Masha",
+				"Song, Shuran"
+			],
+			"paper_title": "Memory Anchors for Continual Robot Learning",
+			"source": "https://arxiv.org/pdf/2608.26545v1#page=7",
+			"item": "Figure 6",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 64.551513671875, 509.0011291503906, 227.7283935546875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "914bba138f21a246b038bcb228c2eddc5beeedcdb52c69294243f36ef505caab",
+			"source_pdf_sha256": "c7dc8d76980a6db30317b466e2fa20dede91ca2836d101d4b4c750cf45d9e15e"
+		},
+		"paper-260827370-figure3.png": {
+			"authors": [
+				"Luo, Kairong",
+				"Cui, Jiarui",
+				"Yin, Yaorui",
+				"Chen, Shengqi",
+				"Yang, Yiming",
+				"Gao, Linxiang",
+				"Wang, Yanmohan",
+				"Zhang, Mingzhe",
+				"Wen, Kaiyue",
+				"Lyu, Kaifeng",
+				"Chen, Wenguang"
+			],
+			"paper_title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+			"source": "https://arxiv.org/pdf/2608.27370v1#page=6",
+			"item": "Figure 3",
+			"pdf_page": 6,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 403.6604309082031, 529.409423828125,
+				759.5228271484375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5f47e7c35e88ca58cf75248e72a023441d73e7fba1f6d9857654e3c0e269d3c8",
+			"source_pdf_sha256": "926a8f944d9721f38edf14980cca3fc10d0604c6d3a500b561ed76aeb39d6020"
+		},
+		"paper-260827370-table1.png": {
+			"authors": [
+				"Luo, Kairong",
+				"Cui, Jiarui",
+				"Yin, Yaorui",
+				"Chen, Shengqi",
+				"Yang, Yiming",
+				"Gao, Linxiang",
+				"Wang, Yanmohan",
+				"Zhang, Mingzhe",
+				"Wen, Kaiyue",
+				"Lyu, Kaifeng",
+				"Chen, Wenguang"
+			],
+			"paper_title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+			"source": "https://arxiv.org/pdf/2608.27370v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [68, 124, 528, 237],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "256ac37a73bc98b7893cf6c01c1117ec129454cd712ba6248821b8530bc8fe19",
+			"source_pdf_sha256": "926a8f944d9721f38edf14980cca3fc10d0604c6d3a500b561ed76aeb39d6020"
 		}
-	}
+	},
+	"published_paper_count": 6
 }

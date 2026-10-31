@@ -52,12 +52,148 @@
 			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260826872-figure3.png": {
+			"authors": [
+				"Zhang, Shiyi",
+				"Liu, Mushui",
+				"Tong, Yunze",
+				"He, Wanggui",
+				"Zou, Siyu",
+				"Liu, Jinlong",
+				"Yu, Yunlong",
+				"Song, Jian",
+				"Jiang, Hao",
+				"Huang, Pipei",
+				"Zheng, Bo"
+			],
+			"paper_title": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+			"source": "https://arxiv.org/pdf/2608.26872v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.62699890136719, 82.06427001953125, 546.4849243164062,
+				451.1999206542969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2ec325ff2e377b549a5d3ec4920e922eded332252799e70ee2d0894f3fb49c9f",
+			"source_pdf_sha256": "29ef991fc8913fbb531a6620f9c2570cefc41104fda5a366f7989b2a134bdd85"
+		},
+		"paper-260826872-table2.png": {
+			"authors": [
+				"Zhang, Shiyi",
+				"Liu, Mushui",
+				"Tong, Yunze",
+				"He, Wanggui",
+				"Zou, Siyu",
+				"Liu, Jinlong",
+				"Yu, Yunlong",
+				"Song, Jian",
+				"Jiang, Hao",
+				"Huang, Pipei",
+				"Zheng, Bo"
+			],
+			"paper_title": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
+			"source": "https://arxiv.org/pdf/2608.26872v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 337, 545, 496],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2199958c946999aa85ad9a15d0e9bba756fd57ad08cca7261822f5f0d047f037",
+			"source_pdf_sha256": "29ef991fc8913fbb531a6620f9c2570cefc41104fda5a366f7989b2a134bdd85"
+		},
+		"paper-260828192-figure3.png": {
+			"authors": [
+				"Rasheed, Hanoona",
+				"Siddiqui, Haania",
+				"Yang, Ming-Hsuan",
+				"Khan, Fahad Shahbaz",
+				"Khan, Salman"
+			],
+			"paper_title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+			"source": "https://arxiv.org/pdf/2608.28192v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				357.42999267578125, 292.32763671875, 547.7753295898438, 545.626953125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "cc978dda2f2ad23c109e3f5d5d64812b9ff3aa4b12ac7ed60c180f7fed14f6e6",
+			"source_pdf_sha256": "da2ff5cbabfd65c740d8fef2bcaf2223d4f99188e38bc2db19e917e869274497"
+		},
+		"paper-260828192-table1.png": {
+			"authors": [
+				"Rasheed, Hanoona",
+				"Siddiqui, Haania",
+				"Yang, Ming-Hsuan",
+				"Khan, Fahad Shahbaz",
+				"Khan, Salman"
+			],
+			"paper_title": "Locate Anything in Videos: Rethinking Efficient Generative Spatio-Temporal Video Grounding",
+			"source": "https://arxiv.org/pdf/2608.28192v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 59, 545, 225],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0e7186d134440afa1825289c15110aa302f2f68019143a28c27d1ddfa040b185",
+			"source_pdf_sha256": "da2ff5cbabfd65c740d8fef2bcaf2223d4f99188e38bc2db19e917e869274497"
+		},
+		"paper-260828188-figure1.png": {
+			"authors": [
+				"Zhou, Jingyi",
+				"Shi, Zhengyuan",
+				"Zhu, Jiaying",
+				"Zheng, Ziyang",
+				"Xu, Qiang"
+			],
+			"paper_title": "Beyond Flat Netlist: Hierarchical Graph Representation Learning for Scalable Analysis of Sequential Circuits",
+			"source": "https://arxiv.org/pdf/2608.28188v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.79800033569336, 78.68460083007812, 563.204833984375,
+				270.25579833984375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e294e89e65dfd5ad47ae4ea63b829ddf5392acb21c5e44ece272559022987faa",
+			"source_pdf_sha256": "b4b0efe81d920fb15b34d36a9e977f937a96b696236d6eadd5fe5032a0933c7b"
+		},
+		"paper-260828188-table3.png": {
+			"authors": [
+				"Zhou, Jingyi",
+				"Shi, Zhengyuan",
+				"Zhu, Jiaying",
+				"Zheng, Ziyang",
+				"Xu, Qiang"
+			],
+			"paper_title": "Beyond Flat Netlist: Hierarchical Graph Representation Learning for Scalable Analysis of Sequential Circuits",
+			"source": "https://arxiv.org/pdf/2608.28188v1#page=6",
+			"item": "Table 3",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [315, 232, 563, 359],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1a5c16d57c5d2fe3edc026f392ed9f04a619f3e617e405fb541b2a6d5b66bb16",
+			"source_pdf_sha256": "b4b0efe81d920fb15b34d36a9e977f937a96b696236d6eadd5fe5032a0933c7b"
+		}
+	},
 	"figure_omissions": [
 		{
 			"source": "https://arxiv.org/pdf/2608.28178v1#page=5",
 			"item": "Figure 1",
 			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
 		}
-	]
+	],
+	"published_paper_count": 5
 }
