@@ -66,6 +66,63 @@
 			"image_size": [1168, 488],
 			"sha256": "a332da36dd0fa382bff49cfd3a035283763c3b6f1c153f5a93feef2ec4d0f2a7",
 			"source_pdf_sha256": "6c030c7efb2da3f3f8af87e2be7556fe8464034089cbcf9b5936eac85f6de364"
+		},
+		"paper-89843f6336-figure1.png": {
+			"authors": "Yannick Oefler et al.",
+			"paper_title": "DRAMA: Debate-Driven Reasoning Agents for Matching Alignments",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper2.pdf#page=5",
+			"item": "Figure 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 60.60368347167969, 529.3744506835938, 326.25885009765625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5b43c7ef8803c5b02a0bfc9b76bd90c40bcdc6e91ce04ffe9c7b627048ce1302",
+			"source_pdf_sha256": "c6f14f466915d747bd7448d8f441b4da81516caece2afe12c51214f68d427a13"
+		},
+		"paper-89843f6336-table2.png": {
+			"authors": "Yannick Oefler et al.",
+			"paper_title": "DRAMA: Debate-Driven Reasoning Agents for Matching Alignments",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper2.pdf#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [70, 65, 525, 395],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f164f014bb466388aad6ea8ef7b838f6e57e31edd6d8bf4f2a756e7fa018f533",
+			"source_pdf_sha256": "c6f14f466915d747bd7448d8f441b4da81516caece2afe12c51214f68d427a13"
+		},
+		"paper-261022192-figure2.png": {
+			"authors": "Yang, Junyao et al.",
+			"paper_title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+			"source": "https://arxiv.org/pdf/2610.22192v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				60.196998596191406, 71.04281616210938, 535.4548950195312,
+				292.65899658203125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "97c8bab67429507c96f838f0e4e82d8be5da36b1d91124734acafbe9b1c1ea1a",
+			"source_pdf_sha256": "8a40a6bdfcbeb19c94e03343e44bea60aef47e2911304c1bd0a6190cadfbc648"
+		},
+		"paper-261022192-table2.png": {
+			"authors": "Yang, Junyao et al.",
+			"paper_title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+			"source": "https://arxiv.org/pdf/2610.22192v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 70, 540, 247],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0cbaca3a2ab7f0bb5164177ad9ea7b5b44a6d08191460aa469324cb142bc880b",
+			"source_pdf_sha256": "8a40a6bdfcbeb19c94e03343e44bea60aef47e2911304c1bd0a6190cadfbc648"
 		}
 	},
 	"included_roster_count": 6
