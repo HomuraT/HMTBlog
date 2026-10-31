@@ -60,6 +60,61 @@
 			"image_size": [1168, 300],
 			"sha256": "4946b0e4228b19ea0abce28052a4379b72f982e4faabff0c3053a1abd669d45c",
 			"source_pdf_sha256": "157e2c5d8b2652665ad975556ff65aa904def77aa46c94327e34383d2c9f710f"
+		},
+		"paper-261012742-figure1.png": {
+			"authors": "Abbas, Ahmad et al.",
+			"paper_title": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
+			"source": "https://arxiv.org/pdf/2610.12742v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 65, 540, 236],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8a6ac59c7a5f3e85cd049ceb2231a55591c27081f2a19d74794a70adcf6b1f2f",
+			"source_pdf_sha256": "d88b399ed59118009d412c4a046bad486cad4ac31a80c94e182ccad68e3c10cc"
+		},
+		"paper-261012742-table1.png": {
+			"authors": "Abbas, Ahmad et al.",
+			"paper_title": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
+			"source": "https://arxiv.org/pdf/2610.12742v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 65, 530, 267],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c183d74cf7c85d1e5b5b32d0723a7fedee100636136d4b98e4a482a2c250bcc1",
+			"source_pdf_sha256": "d88b399ed59118009d412c4a046bad486cad4ac31a80c94e182ccad68e3c10cc"
+		},
+		"paper-261012465-figure1.png": {
+			"authors": "Zhang, Octi et al.",
+			"paper_title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+			"source": "https://arxiv.org/pdf/2610.12465v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 190, 509, 400],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fde623412c59e69819f0ebcada170339c6938a053598d2d8fa26bb4f6e0f94f3",
+			"source_pdf_sha256": "1017cc0863353b02ecf237d00437e83998ee0bee67d9e22c352df281653a0ee1"
+		},
+		"paper-261012465-figure5.png": {
+			"authors": "Zhang, Octi et al.",
+			"paper_title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+			"source": "https://arxiv.org/pdf/2610.12465v1#page=7",
+			"item": "Figure 5",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.16669464111328, 57.27101135253906, 509.0012512207031,
+				244.50738525390625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "eef8f1e94144acd3c33d5a8fd7c91fd197f3314e78b7463f4a112a4839b67785",
+			"source_pdf_sha256": "1017cc0863353b02ecf237d00437e83998ee0bee67d9e22c352df281653a0ee1"
 		}
 	},
 	"included_roster_count": 6

@@ -60,6 +60,106 @@
 			"image_size": [1017, 415],
 			"sha256": "f3bbaed1c16910d7eb1480766cf5d7259188e43dfe16ffd4e66d6a6bded38b7f",
 			"source_pdf_sha256": "749c459895ed93a348cd0186c779592842e29808c7c616463a7ce8ef969cad35"
+		},
+		"paper-261011765-figure1.png": {
+			"authors": "Lei, Dianqiao et al.",
+			"paper_title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+			"source": "https://arxiv.org/pdf/2610.11765v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [65, 530, 545, 723],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d466b7f12317e5099b01ba902f361ec155e994eb6b459716005eab947a63ba70",
+			"source_pdf_sha256": "2e5c3ae37a225dedbf38d92c8ed4ec43b99ac998ca182085ee89849e9e12890e"
+		},
+		"paper-261010426-figure1.png": {
+			"authors": "Chen, Jixuan et al.",
+			"paper_title": "CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution",
+			"source": "https://arxiv.org/pdf/2610.10426v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.6709976196289, 76.85772705078125, 510.74530029296875,
+				419.0950622558594
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0b9561505b527b01fe8f5de82ecf8318d926f116f258bcfb399ee1dfad906784",
+			"source_pdf_sha256": "04895cb4eece7e1cafdc004c5130e2e238b625f6560a9a06dcdfb2fd8636a4f4"
+		},
+		"paper-261010426-table1.png": {
+			"authors": "Chen, Jixuan et al.",
+			"paper_title": "CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution",
+			"source": "https://arxiv.org/pdf/2610.10426v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				99.83200073242188, 76.93639373779297, 512.1669921875, 334.31927490234375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "462a74cb2d03f40ab26fb2f205ef69bd6bf7fecdd8bd5036d243d2deee9a5c93",
+			"source_pdf_sha256": "04895cb4eece7e1cafdc004c5130e2e238b625f6560a9a06dcdfb2fd8636a4f4"
+		},
+		"paper-261013929-figure2.png": {
+			"authors": "Wang, Changhao et al.",
+			"paper_title": "Chronos Policy: Learning Robot Policies on Physical Time",
+			"source": "https://arxiv.org/pdf/2610.13929v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.86126708984375, 509.01190185546875, 267.0700988769531
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ca76bf47d78374d36d7e696c354c765db1a3a4340d945ba20fcdf190d35452a4",
+			"source_pdf_sha256": "a08a220f4b5c6c6e90b175121bd2996b2c9a2a071959974df2332afbc669f8c3"
+		},
+		"paper-261013929-figure5.png": {
+			"authors": "Wang, Changhao et al.",
+			"paper_title": "Chronos Policy: Learning Robot Policies on Physical Time",
+			"source": "https://arxiv.org/pdf/2610.13929v1#page=9",
+			"item": "Figure 5",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.86067199707031, 510.7392883300781, 331.68988037109375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "de5ee1fe06283ddd6542facfb5199da65517d926bd0a612459c780731cc2dcb5",
+			"source_pdf_sha256": "a08a220f4b5c6c6e90b175121bd2996b2c9a2a071959974df2332afbc669f8c3"
+		},
+		"paper-261013395-figure2.png": {
+			"authors": "Yang, Chengyi et al.",
+			"paper_title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+			"source": "https://arxiv.org/pdf/2610.13395v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 268, 509, 582],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9d56962bb59a0511525893e889032dd65592cf53627d777ea888c41604cc2f8e",
+			"source_pdf_sha256": "d1c4e4c3b39c90f6702c7dd8403b128dffdb3c3c13c597f960001ef8c93d044c"
+		},
+		"paper-261013395-table2.png": {
+			"authors": "Yang, Chengyi et al.",
+			"paper_title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+			"source": "https://arxiv.org/pdf/2610.13395v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 76, 509, 330],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1920481ce8957d2e37d4f232d28a525a54964f260aeb31ff3f5a731a6a79832a",
+			"source_pdf_sha256": "d1c4e4c3b39c90f6702c7dd8403b128dffdb3c3c13c597f960001ef8c93d044c"
 		}
 	},
 	"included_roster_count": 6

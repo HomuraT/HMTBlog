@@ -60,6 +60,53 @@
 			"image_size": [1017, 620],
 			"sha256": "84be1e66c88118752faa9c581726e2f5779ed8f4af35fdf8b34b3aaed2e248f9",
 			"source_pdf_sha256": "9018fa312c4dac659426fab2b304357593f5f4ad7886d73589f34dd06012f282"
+		},
+		"paper-261012030-figure1.png": {
+			"authors": "Brunello, Andrea et al.",
+			"paper_title": "Natural Language to First-Order Logic LLM-based Autoformalization",
+			"source": "https://arxiv.org/pdf/2610.12030v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 66.07978820800781, 529.412841796875,
+				266.8960876464844
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d7f72721d86e808a142b67e545aa479c8969159630b6fbb597c280c2555e5fba",
+			"source_pdf_sha256": "deffd085cf6a31ff84f3dd7a7e820fddc15a7b84bfbf32186696fec47122e3d4"
+		},
+		"paper-261010541-figure2.png": {
+			"authors": "Silva, Marcelo Valentim et al.",
+			"paper_title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+			"source": "https://arxiv.org/pdf/2610.10541v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				72.51499938964844, 97.69869995117188, 524.2967529296875,
+				285.8338928222656
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "87899a910dea9fb28297393d973d1a177db297daae535b8d2efca5bfbb1abd26",
+			"source_pdf_sha256": "0c182f5b291b8380a735adf36ed2cb49079a57d28df0611e6a4b446185df721a"
+		},
+		"paper-261011751-figure3.png": {
+			"authors": "Ghosh, Arijit et al.",
+			"paper_title": "Dino Forcing Flow Models: Do not denoise what you can predict",
+			"source": "https://arxiv.org/pdf/2610.11751v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.86246490478516, 509.0003967285156, 251.61807250976562
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c213cca995ef1b19e54f06dafd7cdf7733d51c2a857f573b918978ecce8b1cd7",
+			"source_pdf_sha256": "fc2ff58a356d24a529348edc0a77702b8a3a8d132ad84ac825539f3bd2f16437"
 		}
 	},
 	"included_roster_count": 6

@@ -61,6 +61,65 @@
 			"image_size": [1092, 275],
 			"sha256": "33fbc9c3350db8205b8645fae3c6d03ba338fe85c51c57c31e9b4780ee8d4167",
 			"source_pdf_sha256": "52fd2c91c1cd49a60ff8d13c5dbeb78b34dbd25ed210c9a533a1b65ead65d3cc"
+		},
+		"paper-b613692603-figure1.png": {
+			"authors": "Federica Madaschi et al.",
+			"paper_title": "From visual detection to traceable progress evidence: A schedule-driven ontology framework for construction monitoring",
+			"source": "https://www.itcon.org/papers/2026_50-ITcon-SI-Madaschi.pdf#page=6",
+			"item": "Figure 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.0250015258789, 155.89999389648438, 532.1400146484375,
+				578.3300170898438
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f41873b3d2a90637742e2363ba9af0c46204b62945ba9e89a0d2aea8acd71c78",
+			"source_pdf_sha256": "5b299338fce71185f4c5d9e3c0aa7abee349ed78edea27ebfd684c093f54734d"
+		},
+		"paper-261017670-figure1.png": {
+			"authors": "Zou, Anni et al.",
+			"paper_title": "Cowork-Gym: Synthesizing Interactive Work Environments at Scale",
+			"source": "https://arxiv.org/pdf/2610.17670v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 463, 509, 702],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ad82abcd570e97fe2890bcfdd4668dbe26c1098d6f0da1b98309a63ee5d4d3cc",
+			"source_pdf_sha256": "1adce6378d203bbebc7321cce5597e5537bc34a3def9e6a79d8375deefb5d159"
+		},
+		"paper-261019975-figure3.png": {
+			"authors": "He, Zefeng et al.",
+			"paper_title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+			"source": "https://arxiv.org/pdf/2610.19975v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				302.0509948730469, 111.94921875, 539.5113525390625, 555.7214965820312
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9f2ac25a2ef30a2b178395df87bab9db9137f8547651bd61a3a02e53f274c4dd",
+			"source_pdf_sha256": "9c515a1125f430cee7be0980fd8a6a9299e168ff2fdc526dc012c38a861ce5e3"
+		},
+		"paper-261020331-figure1.png": {
+			"authors": "Park, Woobin et al.",
+			"paper_title": "Are We Overthinking One-Step Generation?",
+			"source": "https://arxiv.org/pdf/2610.20331v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				96.32208251953125, 370.8076477050781, 510.24945068359375, 549.205078125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4810e313d657e3079e24b357e1bdd4522c15cc826646ab1a64e0b9f4096efbad",
+			"source_pdf_sha256": "1e9afe769446544b48745d0df2555475cae988b12b75a6cd8fc8f3ed46941f7d"
 		}
 	},
 	"included_roster_count": 6

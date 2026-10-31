@@ -60,6 +60,106 @@
 			"image_size": [1206, 862],
 			"sha256": "1e49fefa0a13c56812dcac6da130023f33adfc4170ad340ee896132762ff8cbb",
 			"source_pdf_sha256": "083e4f93d05803b6f92233e1e51a2eb357d6c52d10488472884959d235e8080a"
+		},
+		"paper-261018615-figure1.png": {
+			"authors": "Zhu, Yuhan et al.",
+			"paper_title": "VideoJev: System One Model for Video Understanding and Interaction",
+			"source": "https://arxiv.org/pdf/2610.18615v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 482, 548, 706],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fdb95c9e2a35201a00b9555bbdc3da5aade69c8d884a02b4feae919835fc68b6",
+			"source_pdf_sha256": "4072e13ea48a1f85a9b04b3cd0c07dda7f4d9dcd1b989f880075f051409122ef"
+		},
+		"paper-261018615-figure3.png": {
+			"authors": "Zhu, Yuhan et al.",
+			"paper_title": "VideoJev: System One Model for Video Understanding and Interaction",
+			"source": "https://arxiv.org/pdf/2610.18615v1#page=10",
+			"item": "Figure 3",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.52499389648438, 322.08563232421875, 547.70458984375, 600.052978515625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "aa5b9c0555e17ef48d5a8c0f7e2adaeacd71b6c82713f97f9c186e4d570aa504",
+			"source_pdf_sha256": "4072e13ea48a1f85a9b04b3cd0c07dda7f4d9dcd1b989f880075f051409122ef"
+		},
+		"paper-261017895-figure1.png": {
+			"authors": "Chi, Wayne et al.",
+			"paper_title": "Interaction-as-a-Judge",
+			"source": "https://arxiv.org/pdf/2610.17895v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.71524047851562, 66.81307220458984, 546.909423828125,
+				271.36944580078125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c7125980b0ef5914a832f4117639b8ce16b3886570cb70f39c60f8ac39f49934",
+			"source_pdf_sha256": "d2e9bc22d7df155ddfa0c3b87f514c244d2c9ff2bf490bbc28578929ab4e2303"
+		},
+		"paper-261017895-figure3.png": {
+			"authors": "Chi, Wayne et al.",
+			"paper_title": "Interaction-as-a-Judge",
+			"source": "https://arxiv.org/pdf/2610.17895v1#page=7",
+			"item": "Figure 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 66.99932098388672, 545.01123046875, 259.512451171875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e9bc90d477896d85139829a3e9cb266af944cdcbd8b3ff5682879c8dbe6fef9d",
+			"source_pdf_sha256": "d2e9bc22d7df155ddfa0c3b87f514c244d2c9ff2bf490bbc28578929ab4e2303"
+		},
+		"paper-261018861-figure1.png": {
+			"authors": "Zou, Jiaru et al.",
+			"paper_title": "Hybrid Reasoning Agents",
+			"source": "https://arxiv.org/pdf/2610.18861v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [55, 419, 540, 767],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6eee857307cba5fd47691c791e008ce5a6fddb34545f874739a10f180cc37b78",
+			"source_pdf_sha256": "5ccf4308e48406a99e9d6afb59cdc950c46302b69940be16b0cf47f46bcf1cc4"
+		},
+		"paper-261018861-table2.png": {
+			"authors": "Zou, Jiaru et al.",
+			"paper_title": "Hybrid Reasoning Agents",
+			"source": "https://arxiv.org/pdf/2610.18861v1#page=10",
+			"item": "Table 2",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [55, 75, 540, 447],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "015384c1f281ab8e0b04955faba6f69dc506e30fda1705128ea2e66d70729bad",
+			"source_pdf_sha256": "5ccf4308e48406a99e9d6afb59cdc950c46302b69940be16b0cf47f46bcf1cc4"
+		},
+		"paper-261018835-figure2.png": {
+			"authors": "Chen, Kaiyuan et al.",
+			"paper_title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
+			"source": "https://arxiv.org/pdf/2610.18835v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 66.99836730957031, 509.0032653808594, 304.3920593261719
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "643c12139d88a01562c73c8fe85e152a3c0d4b272f680861b314f11bd7c90a4f",
+			"source_pdf_sha256": "e701248a4cd0cec436dab3fd39ce5817ea6dc953401d166b17ce46ab36f7aa04"
 		}
 	},
 	"included_roster_count": 6

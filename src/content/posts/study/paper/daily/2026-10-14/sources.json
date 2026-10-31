@@ -60,6 +60,32 @@
 			"image_size": [1168, 513],
 			"sha256": "814d078063b2dbe15b8c3fd9762d5124bd595ea13ab39d4a61b5839f54791b45",
 			"source_pdf_sha256": "736918a5b7a8cba3c25fbc88ad5f08dfdb8106109980d27d1d1ed8abff61004e"
+		},
+		"paper-8cb85310cc-figure2.png": {
+			"authors": "Donghoon Ahn et al.",
+			"paper_title": "Correction Training for Diffusion Models",
+			"source": "https://arxiv.org/pdf/2610.14136v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 65, 509, 312],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "44a4112168189ece8545c61dfe8683be7c6898a7307eeac496f2368deebcdb25",
+			"source_pdf_sha256": "8ef3b933d0966cf976d2a6f8a0a674241b5f4704c2a74d82173cfc52bf01a250"
+		},
+		"paper-8cb85310cc-table1.png": {
+			"authors": "Donghoon Ahn et al.",
+			"paper_title": "Correction Training for Diffusion Models",
+			"source": "https://arxiv.org/pdf/2610.14136v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 245, 509, 413],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "20b356f089f404e342c496c91fca65b6ffe408bcfef158cd9d58ee4fa17cad22",
+			"source_pdf_sha256": "8ef3b933d0966cf976d2a6f8a0a674241b5f4704c2a74d82173cfc52bf01a250"
 		}
 	},
 	"included_roster_count": 6
