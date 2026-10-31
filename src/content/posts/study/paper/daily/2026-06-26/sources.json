@@ -61,7 +61,206 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260624965-figure1.png": {
+			"authors": [
+				"Das, Anirban",
+				"Boisson, Joanne",
+				"Khalid, Irtaza",
+				"Garai, Sumita",
+				"Schockaert, Steven"
+			],
+			"paper_title": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
+			"source": "https://arxiv.org/pdf/2606.24965v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [298, 236, 506, 421],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0e238b4b52da6fe4abb88b00eb5a1fcbf23ae90f62b9230e36f84219a754a9e9",
+			"source_pdf_sha256": "eddd3715bc7601a9d294f215cae73efd8c598cb773c722194fff96dfa3b8e617"
+		},
+		"paper-260624965-table1.png": {
+			"authors": [
+				"Das, Anirban",
+				"Boisson, Joanne",
+				"Khalid, Irtaza",
+				"Garai, Sumita",
+				"Schockaert, Steven"
+			],
+			"paper_title": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
+			"source": "https://arxiv.org/pdf/2606.24965v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 73.97927856445312, 509.00347900390625,
+				236.92498779296875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0d7c70a4e35606af9d2e1cdcd4c57b3208754fc040c49060654553ad442bb14e",
+			"source_pdf_sha256": "eddd3715bc7601a9d294f215cae73efd8c598cb773c722194fff96dfa3b8e617"
+		},
+		"paper-260625041-figure1.png": {
+			"authors": [
+				"Huang, Lianghua",
+				"Wu, Zhi-Fan",
+				"Wang, Wei",
+				"Shi, Yupeng",
+				"Feng, Mengyang",
+				"He, Junjie",
+				"Xie, Chen-Wei",
+				"Liu, Yu",
+				"Zhou, Jingren",
+				"Wang, Ang",
+				"Zhang, Bang",
+				"Ai, Baole",
+				"Liang, Chen",
+				"Yu, Cheng",
+				"Zhong, Chongyang",
+				"Qi, Jinwei",
+				"Zhu, Kai",
+				"Li, Pandeng",
+				"Zhang, Peng",
+				"Zhang, Wenyuan",
+				"Cheng, Xinhua",
+				"Huang, Yitong",
+				"Zheng, Yun",
+				"Bi, Zoubin"
+			],
+			"paper_title": "Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models",
+			"source": "https://arxiv.org/pdf/2606.25041v2#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.57000732421875, 50.33272933959961, 546.134521484375,
+				294.8030090332031
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "06e5f55815059a9a7c9c3e086ccce938f58631ef34f9469fdcf6cdd76a36906d",
+			"source_pdf_sha256": "6cb6a5a38f7b14faf6071680039fa1a36270cb6e2c9e075e28cb4d1974f2b7f7"
+		},
+		"paper-260625041-table1.png": {
+			"authors": [
+				"Huang, Lianghua",
+				"Wu, Zhi-Fan",
+				"Wang, Wei",
+				"Shi, Yupeng",
+				"Feng, Mengyang",
+				"He, Junjie",
+				"Xie, Chen-Wei",
+				"Liu, Yu",
+				"Zhou, Jingren",
+				"Wang, Ang",
+				"Zhang, Bang",
+				"Ai, Baole",
+				"Liang, Chen",
+				"Yu, Cheng",
+				"Zhong, Chongyang",
+				"Qi, Jinwei",
+				"Zhu, Kai",
+				"Li, Pandeng",
+				"Zhang, Peng",
+				"Zhang, Wenyuan",
+				"Cheng, Xinhua",
+				"Huang, Yitong",
+				"Zheng, Yun",
+				"Bi, Zoubin"
+			],
+			"paper_title": "Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models",
+			"source": "https://arxiv.org/pdf/2606.25041v2#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 52, 544, 331],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2ea6f523d27bc9064604e3818f8b06973aa88f04be80728962108473f29124b7",
+			"source_pdf_sha256": "6cb6a5a38f7b14faf6071680039fa1a36270cb6e2c9e075e28cb4d1974f2b7f7"
+		},
+		"paper-260626071-figure1.png": {
+			"authors": [
+				"Singh, Aditya",
+				"Kroiz, Gerson",
+				"Rajamanoharan, Senthooran",
+				"Nanda, Neel"
+			],
+			"paper_title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+			"source": "https://arxiv.org/pdf/2606.26071v2#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 71.3848648071289, 509.3492431640625, 262.7410583496094
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f2e299af5a10d734f24607ef3f59fa6bb58b069b5dffe02ebd6e2922c104f64a",
+			"source_pdf_sha256": "d88293bf6543e635a5e61093ed08136ed98add30c1c93e3fe28cd4b6a0cea19a"
+		},
+		"paper-260626071-figure3.png": {
+			"authors": [
+				"Singh, Aditya",
+				"Kroiz, Gerson",
+				"Rajamanoharan, Senthooran",
+				"Nanda, Neel"
+			],
+			"paper_title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
+			"source": "https://arxiv.org/pdf/2606.26071v2#page=7",
+			"item": "Figure 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 456.73199462890625, 510.74749755859375, 648.4490356445312
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4fcec6d8b9f4eeb11a265b05b2a12509e28b0f7df86d4169b3a497772384b893",
+			"source_pdf_sha256": "d88293bf6543e635a5e61093ed08136ed98add30c1c93e3fe28cd4b6a0cea19a"
+		},
+		"paper-260625973-figure1.png": {
+			"authors": [
+				"Biolo, Giulian",
+				"Tezza, Michael",
+				"Gong, Yuanjun",
+				"Massacci, Fabio"
+			],
+			"paper_title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
+			"source": "https://arxiv.org/pdf/2606.25973v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				43.9640007019043, 140.38522338867188, 305.0220947265625, 269.6796875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ecd586e6cca8b438ae25d148ada5313056b0a0360e4616c182038894e503351a",
+			"source_pdf_sha256": "b269ea00ce96240e78d5373cc6584790d75f4dcd8bb99cbab65d5b69d50af23a"
+		},
+		"paper-260625973-tableiv.png": {
+			"authors": [
+				"Biolo, Giulian",
+				"Tezza, Michael",
+				"Gong, Yuanjun",
+				"Massacci, Fabio"
+			],
+			"paper_title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
+			"source": "https://arxiv.org/pdf/2606.25973v1#page=6",
+			"item": "Table IV",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [115, 50, 496, 120],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "20e8c9c38adf8a99bc0bfc69a94cf1a278d7e80147786881514fa6d13a176b0a",
+			"source_pdf_sha256": "b269ea00ce96240e78d5373cc6584790d75f4dcd8bb99cbab65d5b69d50af23a"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.25778v1",
@@ -70,5 +269,6 @@
 			"license": "CC BY-NC-ND 4.0",
 			"reason": "非商业和禁止演绎限制与本站用途、裁切方式的适用关系未确认"
 		}
-	]
+	],
+	"published_paper_count": 8
 }
