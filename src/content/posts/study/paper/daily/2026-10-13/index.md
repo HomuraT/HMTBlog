@@ -98,7 +98,7 @@ ProgramGym 的 Program-Env 从仓库构建沙箱和黑盒测试，并通过反�
 
 在 ProgramBench 上，轨迹微调和 Agent 工作流各自改善结果，组合也有效。这两种改变应分别比较，不能把全部收益归给数据或角色分工。黑盒测试锚定的是参考行为覆盖，并不自动涵盖安全、可访问性或所有未被测试的需求。
 
-Table 2 中，固定 Qwen3.8-27B 权重，把 Claude Code 换成 Program-Agent 后，ProgramBench 的 Tests Passed 从 34.87% 升至 55.71%；固定 Claude Code，训练后为 42.84%。这两组对照分别检验编排与训练的作用；Tests Passed 是测试通过比例，同表的完整 Resolved 仍为 0%，不能将前者当作项目完整解决率。
+Table 2 中，固定 Qwen3.8-27B 权重，把 Claude Code 换成 Program-Agent 后，ProgramBench 的 Tests Passed 从 34.87% 升至 55.71%；固定 Claude Code，训练后为 42.84%。这两组对照分别检验编排与训练的作用；Tests Passed 是测试通过比例，前两种设置的完整 Resolved 均只有 0.50%，微调后在 Claude Code 下为 0.00%，不能将前者当作项目完整解决率。
 
 ![ProgramGym Table 2](./images/paper-261013395-table2.png)
 

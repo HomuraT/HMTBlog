@@ -22,7 +22,7 @@ lang: 'zh-CN'
 
 ![SFE-O 原论文 Figure 1：模块化本体架构，以及与 QUDT、OWL-Time、PROV-O 等外部语义资源的关系。](./images/sfeo-evidence.png)
 
-*图 1｜Thomas Pallet 等，SFE-O，[Figure 1，PDF 第 6 页](https://arxiv.org/pdf/2610.37123#page=6)。原论文截图，保留完整架构图与图例，裁去页内其他文字与空白；未改动图内内容。验证依据见[原文第 7–8 页](https://arxiv.org/pdf/2610.37123#page=7)。*
+*图 1｜Thomas Pallet 等，SFE-O，[Figure 1，PDF 第 6 页](https://arxiv.org/pdf/2610.37123#page=6)。裁剪自原文。验证依据见[原文第 7–8 页](https://arxiv.org/pdf/2610.37123#page=7)。*
 
 ### 实例与验证
 
@@ -46,7 +46,7 @@ GPU 内核搜索容易停在局部有效的实现上。Evolving Agent Teams 由�
 
 ![Evolving Agent Teams 原论文 Figure 3：四类内核任务的预算受控进度曲线和逐工作负载加速比，含扩展预算结果。](./images/eat-budget.png)
 
-*图 3｜Shiyi Cao 等，Evolving Agent Teams，[Figure 3，PDF 第 7 页](https://arxiv.org/pdf/2610.36848#page=7)。原论文截图，保留 (a) 预算受控曲线和 (b) 逐工作负载加速比及图例，裁去页内其他文字与空白；未改动图内内容。(a) 实线为两次运行中的最佳结果，虚线为另一次运行；(b) 的 ext. 表示追加预算。MLA decode 匹配预算结果在图中标为 0.74×，同页正文写为 0.75×；下表追加预算的 1.21×来自正文报告，两种预算不构成等成本比较。*
+*图 3｜Shiyi Cao 等，Evolving Agent Teams，[Figure 3，PDF 第 7 页](https://arxiv.org/pdf/2610.36848#page=7)。裁剪自原文，含 (a)、(b) 及图例。(a) 实线为两次运行中的最佳结果，虚线为另一次运行；(b) 的 ext. 表示追加预算。MLA decode 匹配预算结果在图中标为 0.74×，同页正文写为 0.75×；下表追加预算的 1.21×来自正文报告，两种预算不构成等成本比较。*
 
 ### 实验结果与条件
 
@@ -88,7 +88,7 @@ Agent 系统 · 首版 2026-10-27 · [论文](https://arxiv.org/abs/2610.37651) 
 
 ![GEPA-Curator 原论文 Table 2 节选：Seed 行及 Gemini 3.1 Pro 优化器下 GEPA、ACE、GEPA-Curator 的结果，数值含标准差。](./images/gepa-appworld.png)
 
-*图 2｜Zack Yu、Nicholas Lee 等，GEPA-Curator，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.37651#page=6)。原论文表格截图，保留表头、Seed 行和 Gemini 3.1 Pro 部分；裁去 Claude Opus 5 部分及页内其他内容，未改动保留的数值。AppWorld 指标为 Task Goal Completion（%），± 后为标准差；下表摘录 AppWorld 两列。*
+*图 2｜Zack Yu、Nicholas Lee 等，GEPA-Curator，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.37651#page=6)。表格节选：Seed 行及 Gemini 3.1 Pro 部分。AppWorld 指标为 Task Goal Completion（%），± 后为标准差；下表摘录 AppWorld 两列。*
 
 ### 实验结果与条件
 
@@ -144,7 +144,7 @@ ThinkWorld 将动作思考表示成离散运动 token 的 Chain-of-Dynamics，�
 
 ![RuleTrek 原论文 Table 2 的平均分列：11 个模型的 RI、RD 与 E2E 综合评分。](./images/ruletrek-rd-e2e.png)
 
-*图 4｜Chenhao Yuan、Bohan Yu、Yinhao Xu 等，RuleTrek，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.19698#page=6)。原论文表格截图，保留全部 11 个模型的名称及 Avg. 下 RI、RD、E2E 三列，裁去六个领域的分列；未改动保留的数值、排序或着色。下表另摘录 7 个模型的 RD 与 E2E，均为 0–100 综合评分，融合答案正确性与推理评分，不是简单准确率。*
+*图 4｜Chenhao Yuan、Bohan Yu、Yinhao Xu 等，RuleTrek，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.19698#page=6)。表格节选：11 个模型的 Avg. RI、RD、E2E 三列。下表另摘录 7 个模型的 RD 与 E2E，均为 0–100 综合评分，融合答案正确性与推理评分，不是简单准确率。*
 
 ### 实验结果与条件
 
