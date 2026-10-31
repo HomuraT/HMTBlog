@@ -86,6 +86,177 @@
 			"version": "2609.11569v1",
 			"license_evidence": "https://arxiv.org/abs/2609.11569v1",
 			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		},
+		"paper-260911917-figure1.png": {
+			"authors": [
+				"Jha, Atindra",
+				"Li, Margaret",
+				"Leskovec, Jure",
+				"Liang, Percy",
+				"Zettlemoyer, Luke"
+			],
+			"paper_title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+			"source": "https://arxiv.org/pdf/2609.11917v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 65.86531066894531, 537.9155883789062,
+				262.8130187988281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3e9e75a8205fdfd1720818b4f9073d8ee7367d6455ab977e57d6fccdf440bb0e",
+			"source_pdf_sha256": "2b1930be36df847d1943f16cc91197f97de8357fb4ad77682cd0369c4f7e0e64"
+		},
+		"paper-260911548-figure2.png": {
+			"authors": ["Song, Chenxi", "Yang, Yanming", "Zhang, Chi"],
+			"paper_title": "World in World: Explore the World with World Models",
+			"source": "https://arxiv.org/pdf/2609.11548v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				44.5, 182.41787719726562, 567.5035400390625, 513.7608337402344
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "47bcc84d6dcd498a31d202ff2161e7865e24c0f5c138f279544c19d3e6837a2b",
+			"source_pdf_sha256": "bb42773727cf81cbcf9acdb1e3d7e22c7d7bbe64c7b508fc0129810a3183f623"
+		},
+		"paper-260911548-table1.png": {
+			"authors": ["Song, Chenxi", "Yang, Yanming", "Zhang, Chi"],
+			"paper_title": "World in World: Explore the World with World Models",
+			"source": "https://arxiv.org/pdf/2609.11548v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [48, 65, 565, 236],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3265e37fd6ca5de68024875cc49b9961b20a737adc1dceb3f2359e7bb27f4020",
+			"source_pdf_sha256": "bb42773727cf81cbcf9acdb1e3d7e22c7d7bbe64c7b508fc0129810a3183f623"
+		},
+		"paper-260911028-figure1.png": {
+			"authors": [
+				"Zheng, Shenghan",
+				"Di, Zonglin",
+				"Liu, Yimin",
+				"Choe, Kyoung Whan",
+				"Sun, Jiankai",
+				"Lin, Heguang",
+				"Jiang, Penghao",
+				"He, Yifeng",
+				"Cheng, Xiao",
+				"Wang, Jicheng",
+				"Chen, Wenbo",
+				"Yates, Alex",
+				"Zhao, Yinzhe",
+				"You, Bingran",
+				"Gao, Yuan",
+				"Munot, Ayush",
+				"Gaur, Shubham",
+				"Ye, Zhe",
+				"Wang, Hao",
+				"Li, Xiangyi",
+				"Song, Dawn",
+				"Hauser, Christophe"
+			],
+			"paper_title": "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+			"source": "https://arxiv.org/pdf/2609.11028v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.79800033569336, 78.68644714355469, 563.2055053710938,
+				282.57476806640625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4bb0dc9e834d4a101bceb94bc2bb513c358cfbd91f2352f0a0588675664ea2d0",
+			"source_pdf_sha256": "c0dba3c4aa89ec50e3453a61d4334c5d0ba7e29701fdb82183cccfc498e9b1d1"
+		},
+		"paper-260911028-table4.png": {
+			"authors": [
+				"Zheng, Shenghan",
+				"Di, Zonglin",
+				"Liu, Yimin",
+				"Choe, Kyoung Whan",
+				"Sun, Jiankai",
+				"Lin, Heguang",
+				"Jiang, Penghao",
+				"He, Yifeng",
+				"Cheng, Xiao",
+				"Wang, Jicheng",
+				"Chen, Wenbo",
+				"Yates, Alex",
+				"Zhao, Yinzhe",
+				"You, Bingran",
+				"Gao, Yuan",
+				"Munot, Ayush",
+				"Gaur, Shubham",
+				"Ye, Zhe",
+				"Wang, Hao",
+				"Li, Xiangyi",
+				"Song, Dawn",
+				"Hauser, Christophe"
+			],
+			"paper_title": "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+			"source": "https://arxiv.org/pdf/2609.11028v1#page=11",
+			"item": "Table 4",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [52, 300, 296, 417],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "dadf4cd0fd8cba2d98e9fa2c041d89766b07d854476b26bfc8f0a147452fce52",
+			"source_pdf_sha256": "c0dba3c4aa89ec50e3453a61d4334c5d0ba7e29701fdb82183cccfc498e9b1d1"
+		},
+		"paper-260911042-figure2.png": {
+			"authors": [
+				"Yang, Junyao",
+				"Shi, Yucheng",
+				"Li, Zhongzhi",
+				"Wang, Ruhan",
+				"Li, Zongxia",
+				"Mi, Haitao",
+				"Liang, Leowei"
+			],
+			"paper_title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+			"source": "https://arxiv.org/pdf/2609.11042v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 169.09722900390625, 547.9427490234375,
+				522.407958984375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "92f266833e0aae6869c287441d58b95d6aa4abd0980f890e65142a38be5406d4",
+			"source_pdf_sha256": "5633c5fa46f0ced3acc2939cb726bc624452622983c8da46f4cc76655c2ebbec"
+		},
+		"paper-260911042-figure1.png": {
+			"authors": [
+				"Yang, Junyao",
+				"Shi, Yucheng",
+				"Li, Zhongzhi",
+				"Wang, Ruhan",
+				"Li, Zongxia",
+				"Mi, Haitao",
+				"Liang, Leowei"
+			],
+			"paper_title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+			"source": "https://arxiv.org/pdf/2609.11042v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [86, 405, 528, 650],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e85c6bd49d1efefed73f103c68c4138e6897d7acdd87abf88caaac92a64ef7e0",
+			"source_pdf_sha256": "5633c5fa46f0ced3acc2939cb726bc624452622983c8da46f4cc76655c2ebbec"
 		}
-	}
+	},
+	"published_paper_count": 7
 }
