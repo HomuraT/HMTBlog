@@ -60,6 +60,78 @@
 			"image_size": [1168, 400],
 			"sha256": "6161e8560ea7404ae7b1c88f0d89e92ca6f34305070b7e93e785d31ba815d59f",
 			"source_pdf_sha256": "cb1c485d9e0d7312f3d166794d588eb63d1aead2526942f01d71278a752e4c34"
+		},
+		"paper-261022273-figure1.png": {
+			"authors": "Singh, Anikait et al.",
+			"paper_title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+			"source": "https://arxiv.org/pdf/2610.22273v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 80.04191589355469, 537.91357421875, 273.18603515625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "79a481721c0e0f2742c3124d26abe7265810fe926429bccc4018d12cbc7c98b5",
+			"source_pdf_sha256": "e808b57c356e4dfa1e890e42057c831207d38eb3f9746b9f9688b990bd24a1fc"
+		},
+		"paper-261022273-figure4.png": {
+			"authors": "Singh, Anikait et al.",
+			"paper_title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+			"source": "https://arxiv.org/pdf/2610.22273v1#page=8",
+			"item": "Figure 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [57, 75, 535, 270],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a52100f19a4f30ac20ef508bf456a69ddc7226e896bd30e913998315168dd4d6",
+			"source_pdf_sha256": "e808b57c356e4dfa1e890e42057c831207d38eb3f9746b9f9688b990bd24a1fc"
+		},
+		"paper-261022364-figure3.png": {
+			"authors": "Zhou, Chenyuan et al.",
+			"paper_title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+			"source": "https://arxiv.org/pdf/2610.22364v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 108.87637329101562, 520.227294921875, 385.982421875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8898609fbda2a151e250e06ed4408dea2fd765cf730c93c0f658983bcbf1d40a",
+			"source_pdf_sha256": "59fdd2b63d4a255d079473a8de529fe169ff971029421c0c7a6ef38960706b22"
+		},
+		"paper-261022364-figure5.png": {
+			"authors": "Zhou, Chenyuan et al.",
+			"paper_title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+			"source": "https://arxiv.org/pdf/2610.22364v1#page=9",
+			"item": "Figure 5",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.91757202148438, 392.18353271484375, 509.0077209472656,
+				577.597412109375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6841fc45bd3c34302fa2673953f4cbe00cea7a884a9d8901a0edd732d4b580c7",
+			"source_pdf_sha256": "59fdd2b63d4a255d079473a8de529fe169ff971029421c0c7a6ef38960706b22"
+		},
+		"paper-261022347-figure1.png": {
+			"authors": "Choi, Hyunwook et al.",
+			"paper_title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+			"source": "https://arxiv.org/pdf/2610.22347v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 160, 509, 495],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7bfc238e6f96c1b43051cdc19882c55ea935966c94b6fd4341ce0cde3695aa83",
+			"source_pdf_sha256": "3f43947fea6055d3661ffcdb0af11529dbd68c991c1e4b2cbd31004bf999a34c"
 		}
 	},
 	"included_roster_count": 5

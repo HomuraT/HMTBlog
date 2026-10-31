@@ -66,6 +66,107 @@
 			"image_size": [1168, 838],
 			"sha256": "b59c5210b8bc2f4b6e96b3222fb0bf3cfcea40bbf5a8a3c4f1c7342fc12b60a8",
 			"source_pdf_sha256": "f87dbde77c5af4fd33428df35cef8c1cd7c3bf73db24ffde18c22a4f4f4eed68"
+		},
+		"paper-eef825b5d1-figure1.png": {
+			"authors": "Jonathon Dilworth et al.",
+			"paper_title": "Which Model, Which Prompt? Selecting and Configuring LLMs as Oracles for Ontology Matching",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper5.pdf#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [67.0, 60.8052978515625, 529.36865234375, 298.703125],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b65fb234c85d25d0245e0e4cd27ec9356be355471f90bf403af0b5914f92a0e0",
+			"source_pdf_sha256": "3c3cdbc72ba0baa0c629a346dc79c8e5adf66ed75b3ac010c99c91ef5da16df3"
+		},
+		"paper-eef825b5d1-figure3.png": {
+			"authors": "Jonathon Dilworth et al.",
+			"paper_title": "Which Model, Which Prompt? Selecting and Configuring LLMs as Oracles for Ontology Matching",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper5.pdf#page=8",
+			"item": "Figure 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.71099853515625, 60.60765075683594, 528.452880859375,
+				268.19012451171875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "701f481dc7b4006f31789a8a0bf0b8e877c2e17b3a6901e8372851699d0891d7",
+			"source_pdf_sha256": "3c3cdbc72ba0baa0c629a346dc79c8e5adf66ed75b3ac010c99c91ef5da16df3"
+		},
+		"paper-261023787-figure2.png": {
+			"authors": "Xu, Jiaming et al.",
+			"paper_title": "DLite: History-free Speculative Decoding for Agentic AI",
+			"source": "https://arxiv.org/pdf/2610.23787v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				104.93199920654297, 76.86360168457031, 507.06976318359375,
+				283.8940734863281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5241c21465e61e5c299cff8c9e68a79cb5e18f53c0065cb380ebfa97d83bdf80",
+			"source_pdf_sha256": "0c0906929baf8182f11692ebe8a3916c95df8a9fff9d49c56e2864ea8ef244f8"
+		},
+		"paper-261023104-figure2.png": {
+			"authors": "Dou, Zijun et al.",
+			"paper_title": "WebCoder: Scaling General Frontend Development with Artifact-Grounded Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2610.23104v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.85908508300781, 509.0373229980469, 350.7530212402344
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "21d4c5d1a5c3d1686b0ab81e0b8e759f74c989271076f6cbe75ac1d2338758ee",
+			"source_pdf_sha256": "8971f23c90266b4e2398ff06fc0306b0f2acfca8c4c07cda2c2a6ced1ecca90e"
+		},
+		"paper-261023104-table1.png": {
+			"authors": "Dou, Zijun et al.",
+			"paper_title": "WebCoder: Scaling General Frontend Development with Artifact-Grounded Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2610.23104v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 143, 509, 452],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "cdee61e6fbdb37dd44b79b795236f18d3507d76b4f7f9138d41d5a8576e6ab35",
+			"source_pdf_sha256": "8971f23c90266b4e2398ff06fc0306b0f2acfca8c4c07cda2c2a6ced1ecca90e"
+		},
+		"paper-261023653-figure1.png": {
+			"authors": "Agarwal, Suchir et al.",
+			"paper_title": "A Language-Informed Loss for Visual Generation",
+			"source": "https://arxiv.org/pdf/2610.23653v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 370.22601318359375, 509.00335693359375, 713.2430419921875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "58886a6f5495056b62e428d74263ded14a8d1266829d83948eb76c3495ee20f3",
+			"source_pdf_sha256": "6b2082aacc167717baeaf13e3fe58220c024bb837e85b083700a73fb61aebdbf"
+		},
+		"paper-261023653-table1.png": {
+			"authors": "Agarwal, Suchir et al.",
+			"paper_title": "A Language-Informed Loss for Visual Generation",
+			"source": "https://arxiv.org/pdf/2610.23653v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 86, 509, 477],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "65b57514fddf5fcb3bb25f98a9d598498d6b49a675daf3693142622b11471f16",
+			"source_pdf_sha256": "6b2082aacc167717baeaf13e3fe58220c024bb837e85b083700a73fb61aebdbf"
 		}
 	},
 	"included_roster_count": 6

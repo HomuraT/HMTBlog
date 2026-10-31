@@ -66,6 +66,79 @@
 			"image_size": [1168, 413],
 			"sha256": "5be72767fc1eae21870f1acc344abcc5deb3f636870e11fd77ede01368e75853",
 			"source_pdf_sha256": "95ca5bde35a411c552515dba1aeaa26444e34626bd181daa5aaefdc0742595ce"
+		},
+		"paper-261028559-figure2.png": {
+			"authors": "Chavan, Arnav et al.",
+			"paper_title": "Large Flow Language Models",
+			"source": "https://arxiv.org/pdf/2610.28559v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [67.0, 67.0, 546.1595458984375, 309.8076171875],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2cead9745c3372a645c3d8b15741938e012fe817769691f005d8e4c1693ba14a",
+			"source_pdf_sha256": "025ef8a4df563c29904b9c9a5040d599114534468a54281a2a8214ff76a17e10"
+		},
+		"paper-261028559-figure7.png": {
+			"authors": "Chavan, Arnav et al.",
+			"paper_title": "Large Flow Language Models",
+			"source": "https://arxiv.org/pdf/2610.28559v1#page=8",
+			"item": "Figure 7",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 67.00004577636719, 546.296875, 289.8276062011719
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "161db47d93ad52a89fa5fa19d7614b5109218cd00d7e053c9f42db8ec2dfed06",
+			"source_pdf_sha256": "025ef8a4df563c29904b9c9a5040d599114534468a54281a2a8214ff76a17e10"
+		},
+		"paper-261028354-figure2.png": {
+			"authors": "Gong, Rui et al.",
+			"paper_title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+			"source": "https://arxiv.org/pdf/2610.28354v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.56700134277344, 80.03675842285156, 529.8017578125, 388.8229064941406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b14a9fcd3ced63a23752a373c12e121085895f7760a5c097b7fed419da20b026",
+			"source_pdf_sha256": "7f61d3f42da39df477a43d67ba67912de549d01cbb88e8cc1be1fce8fb55d249"
+		},
+		"paper-261028354-figure1.png": {
+			"authors": "Gong, Rui et al.",
+			"paper_title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+			"source": "https://arxiv.org/pdf/2610.28354v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.56700134277344, 249.05360412597656, 529.4121704101562, 568.501953125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9dbff30add285eb08c86145242543ef1c4f9ae8f0763aeee1795035d1bf9f87c",
+			"source_pdf_sha256": "7f61d3f42da39df477a43d67ba67912de549d01cbb88e8cc1be1fce8fb55d249"
+		},
+		"paper-261028594-figure2.png": {
+			"authors": "Jeon, Byungwoo et al.",
+			"paper_title": "Learning the 4D World through Point Trajectory Forecasting",
+			"source": "https://arxiv.org/pdf/2610.28594v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.57510375976562, 509.0032958984375, 331.7760314941406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "72ab402e35e82efb410b5844ddfba802ed023580436a6b783aeb7b3a2f4528c5",
+			"source_pdf_sha256": "47acbadd4b1293a0c48aac62a78cd69277b1a7ab08eaa54b6cdd6d15d68d0677"
 		}
 	},
 	"included_roster_count": 6

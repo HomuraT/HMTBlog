@@ -58,7 +58,124 @@
 			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-6f1db91f1f-figure1.png": {
+			"authors": "Marvin Hofer et al.",
+			"paper_title": "Configuration and Optimization of Knowledge Graph Integration Pipelines",
+			"source": "https://dbs.uni-leipzig.de/files/research/publications/2026-10/pdf/KGpipe_Parameter_Optimization.pdf#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 60.60699462890625, 529.81005859375, 294.4815368652344
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "48b1c9de3ffc36bfc383c533eb719ce0867d9d801ac95a74d99a9771350e0dec",
+			"source_pdf_sha256": "810b6cd2435e88a040bdcb330a7461e808821704383d2559728c9f40204a9866"
+		},
+		"paper-6f1db91f1f-table2.png": {
+			"authors": "Marvin Hofer et al.",
+			"paper_title": "Configuration and Optimization of Knowledge Graph Integration Pipelines",
+			"source": "https://dbs.uni-leipzig.de/files/research/publications/2026-10/pdf/KGpipe_Parameter_Optimization.pdf#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.70099639892578, 66.04927062988281, 532.032958984375, 311.239013671875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e74ff958549acdd32e1e22f14c7b0916ce145e2881547dd01338f34443eefccd",
+			"source_pdf_sha256": "810b6cd2435e88a040bdcb330a7461e808821704383d2559728c9f40204a9866"
+		},
+		"paper-261022194-figure1.png": {
+			"authors": "He, Bingxiang et al.",
+			"paper_title": "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
+			"source": "https://arxiv.org/pdf/2610.22194v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 77.52972412109375, 538.1852416992188,
+				413.5538330078125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "00782a7a1c6e688528887abbc4c0e7159f37831c25e1ffa2cdd0c5a9a3295acf",
+			"source_pdf_sha256": "b05c851d6cbb6d0ee1f1436927c7e6887a7791a53ffaef805ea7294fb5be3ce8"
+		},
+		"paper-261022194-figure9.png": {
+			"authors": "He, Bingxiang et al.",
+			"paper_title": "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
+			"source": "https://arxiv.org/pdf/2610.22194v1#page=10",
+			"item": "Figure 9",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				53.77107238769531, 80.03927612304688, 539.7338256835938,
+				301.61981201171875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "599321b86dce87614c30d2b6c1d0449c37326c10f1a0cc708c78791e34dc07e0",
+			"source_pdf_sha256": "b05c851d6cbb6d0ee1f1436927c7e6887a7791a53ffaef805ea7294fb5be3ce8"
+		},
+		"paper-261022200-figure2.png": {
+			"authors": "Zhou, Hanzhang et al.",
+			"paper_title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+			"source": "https://arxiv.org/pdf/2610.22200v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 65, 535, 345],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "280e948e2906e4fbcae1575fb9faebf74e84500834ae2b5b4c1f446a8eb9d667",
+			"source_pdf_sha256": "f834713558c8cdb550fca69a9c9be021ad2bccad27791475cf9bdab3905beb3e"
+		},
+		"paper-261020533-figure1.png": {
+			"authors": "Baade, Alan et al.",
+			"paper_title": "Generative Representation Learning for Scalable Latent Tokenization",
+			"source": "https://arxiv.org/pdf/2610.20533v1#page=6",
+			"item": "Figure 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 72, 509, 312],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6e1cf507a5af9a3eb4701f07d86d42fd069335aa22771287fc7d0cb16f1e5506",
+			"source_pdf_sha256": "99176e8d7d2dac40928bfaf30b53c933a2e0ad353f4df13fc2e17134d1b13a01"
+		},
+		"paper-261020533-table1.png": {
+			"authors": "Baade, Alan et al.",
+			"paper_title": "Generative Representation Learning for Scalable Latent Tokenization",
+			"source": "https://arxiv.org/pdf/2610.20533v1#page=9",
+			"item": "Table 1",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 76, 509, 263],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "48cde1183031f52e63b088a8adc4460ed7be94e23492da9b7a74af660aa96bce",
+			"source_pdf_sha256": "99176e8d7d2dac40928bfaf30b53c933a2e0ad353f4df13fc2e17134d1b13a01"
+		},
+		"paper-261020563-figure1.png": {
+			"authors": "Tan, Shangyin et al.",
+			"paper_title": "Scaling Discovery Requires Forgetting",
+			"source": "https://arxiv.org/pdf/2610.20563v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 196.34547424316406, 509.0230407714844, 504.80889892578125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4cc156f8169a8c86c53cdf59e2ede2aafca6cb477a4ac8bb0e47953f8f6584f3",
+			"source_pdf_sha256": "9c14df8357e1fb46caa8349e6225d502180ee74c20c62d5af97ec29cd4285edc"
+		}
+	},
 	"figure_omissions": [
 		{
 			"item": "Figure 3",

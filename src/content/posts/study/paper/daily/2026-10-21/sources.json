@@ -66,6 +66,50 @@
 			"image_size": [1168, 858],
 			"sha256": "bbd51dc059b90b654c5e624c3c9cdca89eebce1ab1a180e8b0506b87cceb8328",
 			"source_pdf_sha256": "a364730bd4368626029814144d5eb604edb4d575af031b5611f1fe9da1129da4"
+		},
+		"paper-160c00ab77-figure1.png": {
+			"authors": "Kehao Li et al.",
+			"paper_title": "TELLER: Dual-Path Iterative Preference Optimization for Table Entity Linking",
+			"source": "https://om.ontologymatching.org/2026/papers/om2026-LTpaper1.pdf#page=7",
+			"item": "Figure 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.64099884033203, 60.614227294921875, 528.5403442382812,
+				318.50384521484375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ec689f7b14911f997f55fc8d9d16a1f04ec199e6a5d512004c6375e30ad32d5b",
+			"source_pdf_sha256": "a54cc0bf89e6e12b2273d8c11f61303bfcf3d80d419292cea815c79bcc0fb14c"
+		},
+		"paper-261026770-table2.png": {
+			"authors": "Pan, Zhuoshi et al.",
+			"paper_title": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+			"source": "https://arxiv.org/pdf/2610.26770v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [100, 86, 512, 332],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "abf2e56ca13cb3291ceff77f69684e1102b1e7aa1eab8747d63c2e6b969868c3",
+			"source_pdf_sha256": "da167e436b2f2c2b5898789d27c22820b92ccb922a8d420e51c341227d9c8676"
+		},
+		"paper-261026754-figure1.png": {
+			"authors": "Patel, Liana et al.",
+			"paper_title": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
+			"source": "https://arxiv.org/pdf/2610.26754v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 77.1117172241211, 509.00994873046875, 360.449462890625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2e4d30c69db8817b3962852c641f2e659b06d59720cf79774ce3b745715009bc",
+			"source_pdf_sha256": "f2e65f25c0f032bea832cc7f12395350dd2c1868447edd85fe821816354eb037"
 		}
 	},
 	"included_roster_count": 6
