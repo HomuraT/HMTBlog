@@ -151,3 +151,29 @@ GPT-4.1 的 front/behind 排序任务：
 ---
 
 图 1–4 为原论文图表的必要截图节选，来源、作者及裁剪范围见各图注；对应 arXiv 版本标注 non-exclusive distribution，博客转载原图的许可尚未确认，本文不将其表述为已获授权或开放许可。这些外部图表不适用本站页脚的默认许可。图 5 按 CC BY 4.0 引用，作者与变更说明见图注。
+
+## 本期其他论文
+
+### Timestral：分离预测时域与因果上下文
+
+Timestral 提供 5M 至 209M 参数的四个概率时间序列模型。Decoupled Horizon Forecasting 将预测 token 与因果编码上下文分离，使更长预测时域不必遮掉已观察数据，并原生处理已知未来协变量；训练先用多样合成数据，再混合真实与合成序列后训练。
+
+报告在 GIFT-Eval、TIME、fev-bench 上比较预测质量。概率预测不应只看点误差，还需检查区间和分布的校准；已知未来协变量必须确实在预测时可获得，跨行业迁移也取决于数据频率、缺失机制和分布变化。
+
+[Timestral](https://arxiv.org/abs/2610.37585v1) · 2610.37585v1。
+
+### EmbeddingGemma 2：统一文本、图像、声音和视频表示
+
+EmbeddingGemma 2 将文本、图像、音频、视频及其组合编码到统一嵌入空间，采用简化逐层 embedding 和按模态、目标推进的多阶段课程。它同时检查单模态、跨模态和混合输入检索，避免只用一个文本基准代表多模态质量。
+
+模型还支持按需加载模态编码器、调整视觉 token 预算、截断嵌入维度和量化权重，为资源受限部署提供选择。不同维度与编码预算会改变质量和开销，模型大小比较也不能替代具体语料的召回、延迟与跨模态对齐评测。
+
+[EmbeddingGemma 2: Unified and Efficient Multimodal Representations](https://arxiv.org/abs/2610.37364v1) · 2610.37364v1。
+
+### ThinkWorld：用视频中的状态变化训练动作思考
+
+ThinkWorld 将动作思考表示成离散运动 token 的 Chain-of-Dynamics，描述当前到未来状态之间的变化，作为不同身体形态共享的动作表示。先用带动作标签的示范初始化，再预测每条 CoD 导致的未来，以预测和真实观测的匹配度强化学习。
+
+这种世界想象监督让没有动作标注的人类视频也能提供学习信号，论文在仿真和实机中测试跨任务、环境及人到机器人的迁移。但无动作标签并非没有监督：世界预测器、初始动作示范和观测一致性共同定义目标，预测失真也可能影响动作学习。
+
+[ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](https://arxiv.org/abs/2610.37666v1) · 2610.37666v1。

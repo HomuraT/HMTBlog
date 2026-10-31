@@ -34,3 +34,37 @@ WDI 的 282 个请求中正确处理 223 个，为 79.1%；AQS 的 324 个请求
 
 - [AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics](https://arxiv.org/abs/2610.23317v1) · 2610.23317v1。
 - 版本公开日期：2026-10-16。
+
+## 本期其他论文
+
+### FrontierCS 2：在研究仓库里补回被删除的贡献
+
+FrontierCS 2 从论文和作者代码出发，删除核心贡献，让 Agent 在可运行研究仓库中探索并提交补丁。开发集提供反馈，但评估器、最终留出测试和人工参考实现保持私有；48 个开放任务跨 13 个计算机领域，考察持续研发而非单次写程序。
+
+12 个 Agent 的比较中，最强系统通过 58% 的运行，仍有 16 项任务无人通过。论文强调综合分超过参考并不一定算通过，因为某些指标或负载仍不达标；保留多维门槛，才能避免平均收益掩盖关键退化。
+
+[FrontierCS 2: A Benchmark for Computer Science R&D](https://arxiv.org/abs/2610.29932v1) · 2610.29932v1。
+
+### 中训练数据和学习率日程应共同选择
+
+这项工作把“先预训练数据、最后全切中训练数据”视为数据混合日程的一种特例，在总计算和高价值 MT token 预算固定时比较不同安排。关键发现是，单独改变学习率日程，就可能反转哪一种数据日程更好。
+
+持续衰减学习率时，较早混入 MT 数据优于全放最后；恒定学习率下，结论可以相反。消融与理论模型因此支持在引入 MT 数据之后再安排衰减，而不是独立选数据比例与优化器。这里优化的是指定训练设置的最终 MT loss，不等于所有下游能力都同步改善。
+
+[Data Schedules and Learning Rate Schedules Should Be Designed Together](https://arxiv.org/abs/2610.29348v1) · 2610.29348v1。
+
+### LocaLeJEPA：让防塌缩正则适应表示几何
+
+LocaLeJEPA 从流形视角重写 LeJEPA 的熵最大化性质，并用局部欧式分布匹配正则 LocaLeReg 实现训练。它希望摆脱全局各向同性高斯对欧式空间的依赖，使 JEPA 能配合双曲表示、等变网络等几何先验。
+
+ImageNet-1K 上的多种骨干实验比较线性、k-NN 分类及下游任务，既包括非欧式也包括普通 ViT。结果支持局部几何约束的价值，但表示分类收益并非所有生成、控制任务的收益；几何先验和数据结构是否匹配仍是选择依据。
+
+[LocaLeJEPA: Maximum Entropy Representations under Geometric Priors](https://arxiv.org/abs/2610.28458v1) · 2610.28458v1。
+
+### AW-0：代码、未来视频和动作共同建模
+
+Agentic World Action Models 的 AW-0 用 mixture-of-transformers 将代码、未来视频和机器人动作作为三个耦合生成流。代码专家输出参数化技能与控制逻辑，一方面组织多步预测，另一方面把重复行为保存成可供后续执行的程序技能。
+
+自动整理管线为人类与机器人轨迹标注对齐程序，并归并技能库；RoboTwin 2.0 和真实双臂实验比较 VLA、WAM 基线。收益来自规划、预测与执行的整体连接，程序可复用仍依赖感知和物理预测正确，不能只凭代码形式就推断技能已跨场景泛化。
+
+[Agentic World Action Models](https://arxiv.org/abs/2610.30136v1) · 2610.30136v1。

@@ -20,6 +20,30 @@
 			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
 			"historical_availability_confirmed": true,
 			"cited_evidence": "数据库 schema 未必能解释业务指标、分析前提或哪些请求不成立。AgentOnto 将数据库、业务文档和示例任务组织为显式本体，让分析过程使用并更新业务知识。\n\n## 方法与问题\n\n流程包括本体构建、指导分析、吸收已确认反馈，以及用自生成分析任务改善本体的准备阶段。评价要求分析判断正确；需要执行时，返回结果也必须正确，不能只看 SQL 能否运行。\n\n## 实验证据\n\nWDI 的 282 个请求中正确处理 223 个，为 79.1%；AQS 的 324 个请求中正确处理 311 个，为 96.0%。两领域准确率的宏平均为 87.5%，DIN-SQL 为 55.0%。宏平均不是把 606 个请求合并计算的微平均，更不是任意企业任务成功率。\n\n## 我的判断\n\n显式业务层可以保留反馈确认与修订影响，但迁移仍依赖文档质量、指标歧义和更新权限。本文按 2026 年 arXiv 预印本讨论：PDF 的 KDD 2027 模板与未填 DOI 不能证明会议录用。"
+		},
+		{
+			"title": "FrontierCS 2: A Benchmark for Computer Science R&D",
+			"source": "https://arxiv.org/abs/2610.29932v1",
+			"version": "2610.29932v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Data Schedules and Learning Rate Schedules Should Be Designed Together",
+			"source": "https://arxiv.org/abs/2610.29348v1",
+			"version": "2610.29348v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "LocaLeJEPA: Maximum Entropy Representations under Geometric Priors",
+			"source": "https://arxiv.org/abs/2610.28458v1",
+			"version": "2610.28458v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Agentic World Action Models",
+			"source": "https://arxiv.org/abs/2610.30136v1",
+			"version": "2610.30136v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -37,5 +61,6 @@
 			"sha256": "cc37acbef0b9781ee766e4997df6d72306c6ee29b1c5562d2b8cb0631fea8e56",
 			"source_pdf_sha256": "bd781905240bd5a762ddb84ac8811ae303611c2de4beb7cbf563bbdc7cd96a36"
 		}
-	}
+	},
+	"included_roster_count": 5
 }

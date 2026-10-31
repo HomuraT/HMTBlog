@@ -69,5 +69,27 @@
 		"license": "CC BY 4.0",
 		"license_url": "https://creativecommons.org/licenses/by/4.0/",
 		"change": "Extracted Figure 2 from PDF page; no alteration of figure content or colors."
-	}
+	},
+	"papers": [
+		{
+			"title": "Timestral",
+			"source": "https://arxiv.org/abs/2610.37585v1",
+			"version": "2610.37585v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+			"source": "https://arxiv.org/abs/2610.37364v1",
+			"version": "2610.37364v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+			"source": "https://arxiv.org/abs/2610.37666v1",
+			"version": "2610.37666v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		}
+	],
+	"included_roster_count": 6,
+	"independently_reproduced": false
 }

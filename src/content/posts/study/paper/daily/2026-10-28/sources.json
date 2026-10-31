@@ -20,6 +20,36 @@
 			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
 			"historical_availability_confirmed": true,
 			"cited_evidence": "工业图谱往往缺少问答标注。Evolve on Graph 让同一个模型轮流出题和解题，同时用图上的可执行逻辑确定答案集合，而非完全依赖模型自评。\n\n## 方法与问题\n\nSVTS 采样推理拓扑并执行一阶逻辑查询，得到可验证骨架和完整答案集，再由出题者生成多跳问题。课程机制依据解题者分数方差，使题目接近能力边界。\n\n## 实验证据\n\nTable 2 的五个公开 KGQA 基准上，Qwen-2.5-7B 的 EoG 平均 Hit@1 为 61.55、F1 为 56.31；同骨干 Graph Reranker 为 54.09、44.26，均为百分制。论文另有工业图谱实验，合计六个基准。不能把公开五项均值与只覆盖部分任务的全监督方法均值直接排名。\n\n## 我的判断\n\n无标注指不依赖人工或闭源教师问答标签，不代表没有监督：图谱事实、可执行逻辑与课程共同提供信号。图谱内可验证不保证外部事实真实，部署前仍需检查题目泄漏、拓扑覆盖与推理成本。"
+		},
+		{
+			"title": "Ontology-Guided Knowledge Graph Construction from Structured Metadata and Climate Science Publications",
+			"source": "https://arxiv.org/abs/2610.32725v1",
+			"version": "2610.32725v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Work Agents: Systems, Capabilities, and Optimization",
+			"source": "https://arxiv.org/abs/2610.35845v1",
+			"version": "2610.35845v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+			"source": "https://arxiv.org/abs/2610.35868v1",
+			"version": "2610.35868v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+			"source": "https://arxiv.org/abs/2610.35862v1",
+			"version": "2610.35862v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Do vision models know that three is three?",
+			"source": "https://arxiv.org/abs/2610.35857v1",
+			"version": "2610.35857v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {},
@@ -29,5 +59,6 @@
 			"source": "https://arxiv.org/pdf/2610.35598v1#page=6",
 			"reason": "arXiv non-exclusive distribution permission does not establish open screenshot republication rights."
 		}
-	]
+	],
+	"included_roster_count": 6
 }

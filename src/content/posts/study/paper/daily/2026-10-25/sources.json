@@ -20,6 +20,42 @@
 			"verification_scope": "Cited methods/results checked against public primary PDF; no independent reproduction.",
 			"historical_availability_confirmed": true,
 			"cited_evidence": "外部世界持续变化，本体维护需要有范围和证据。COATER 将局部本体与外部资源之间的审查封装成可执行组件，称为 arrow。\n\n## 方法与问题\n\n每个 arrow 定义范围、资源与检查方式，产生支持或挑战公理的证据，再由人或 Agent 辅助分流。案例针对软件语言工程 FSL 本体，按公理汇总覆盖，涉及语言、概念化与软件工程活动。\n\n## 实验证据\n\n一个 LLM 辅助 Wikipedia 链接练习，将符合既定链接政策的实体从 600 个中的 405 个增加到 600 个。这只表示该链接规范达标，不是整体本体准确率达到 100%，也不是完备率。其他外部资源提出的挑战仍需领域判断，不能自动当成本体错误。\n\n## 我的判断\n\n维护应能说明为什么建议修改，以及尚未覆盖什么。应给 arrow 版本化，记录资源时间、失效链接和人工裁决，避免把外部来源偏差直接当作权威。原文作者名为 Ralf Lämmel。"
+		},
+		{
+			"title": "LettRAGraph at LLMs4OL 2026 Task Flagship: Prompt-Guided Ontology Extraction with Ensembling",
+			"source": "https://www.eurecom.org/en/publication/8938",
+			"version": "LLMs4OL 2026 论文，EURECOM 出版记录",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+			"source": "https://arxiv.org/abs/2610.31633v1",
+			"version": "2610.31633v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+			"source": "https://arxiv.org/abs/2610.31372v1",
+			"version": "2610.31372v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Training Small Language Models for Transferable Tool Selection",
+			"source": "https://arxiv.org/abs/2610.31483v1",
+			"version": "2610.31483v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Humanoid Mobility via Attention-based Contacts",
+			"source": "https://arxiv.org/abs/2610.31608v1",
+			"version": "2610.31608v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Action Learning for Scientific Simulations",
+			"source": "https://arxiv.org/abs/2610.31585v1",
+			"version": "2610.31585v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -37,5 +73,6 @@
 			"sha256": "9fd9060dc62f75596bacdc6d450e97e48a72a996044e0e3857f3dcb645789557",
 			"source_pdf_sha256": "030b5c283151b2fb79cc4e4a18544e8e60307794e217112f4ddcb220cc01c07b"
 		}
-	}
+	},
+	"included_roster_count": 7
 }
