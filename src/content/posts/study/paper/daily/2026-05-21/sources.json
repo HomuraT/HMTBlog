@@ -83,6 +83,195 @@
 			"image_size": [1000, 240],
 			"sha256": "e68212de119729f06a67ed11b851a8d2a865a8e78d93c97b74abfb1a62163230",
 			"source_pdf_sha256": "285c346a826761c9cc13bc752c0b75684edc77ae6a213df9236bbd5b19af1109"
+		},
+		"paper-260516068-figure2.png": {
+			"authors": ["Dutkiewicz, Jakub", "Misiorek, Paweł", "Wrembel, Robert"],
+			"paper_title": "Relational Database Data Lineage Ontology",
+			"source": "https://arxiv.org/pdf/2605.16068v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [130, 195, 486, 611],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "eb8d3c41513581a6046fe2d9322ab5efde7040e8b8beea432060a87b476302ca",
+			"source_pdf_sha256": "c03c3603401f8769d14c4c1a7bcd45ad2f87718476dd82c765588b4d686aeae8"
+		},
+		"paper-260516068-table3.png": {
+			"authors": ["Dutkiewicz, Jakub", "Misiorek, Paweł", "Wrembel, Robert"],
+			"paper_title": "Relational Database Data Lineage Ontology",
+			"source": "https://arxiv.org/pdf/2605.16068v1#page=12",
+			"item": "Table 3",
+			"pdf_page": 12,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [130, 265, 486, 528],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fa3ddac4b58b64ac4ea1e0aa2bc2665fc8096456ab972f697eca2f90e5968f95",
+			"source_pdf_sha256": "c03c3603401f8769d14c4c1a7bcd45ad2f87718476dd82c765588b4d686aeae8"
+		},
+		"paper-260516714-figure2.png": {
+			"authors": [
+				"Huang, Liangyi",
+				"Liu, Zichen",
+				"Shao, Fei",
+				"Ma, Shang",
+				"Zhang, Mengshi",
+				"Chen, Zihao",
+				"Ye, Yanfang",
+				"Xiao, Xusheng"
+			],
+			"paper_title": "GRID: Graph Representation of Intelligence Data for Security Text Knowledge Graph Construction",
+			"source": "https://arxiv.org/pdf/2605.16714v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [107, 77, 505, 250],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "721fb5db8e87efd8e1e83e82289b09da3ad3434b54849e95803e28d392b89d3e",
+			"source_pdf_sha256": "6339b24fc1e17c80fba694ee73ac211c8c19b1bebfec18790819d401c59c32be"
+		},
+		"paper-260516714-table3.png": {
+			"authors": [
+				"Huang, Liangyi",
+				"Liu, Zichen",
+				"Shao, Fei",
+				"Ma, Shang",
+				"Zhang, Mengshi",
+				"Chen, Zihao",
+				"Ye, Yanfang",
+				"Xiao, Xusheng"
+			],
+			"paper_title": "GRID: Graph Representation of Intelligence Data for Security Text Knowledge Graph Construction",
+			"source": "https://arxiv.org/pdf/2605.16714v1#page=7",
+			"item": "Table 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 77, 510, 217],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c76613c086e54fe10ce549f664301bb23252ce8c7dc7ad9d66bdc87af6cf106e",
+			"source_pdf_sha256": "6339b24fc1e17c80fba694ee73ac211c8c19b1bebfec18790819d401c59c32be"
+		},
+		"paper-260519150-figure2.png": {
+			"authors": [
+				"Terzić, Aleksandar",
+				"Carzaniga, Francesco",
+				"Menet, Nicolas",
+				"Biehl, Yannick",
+				"Hersche, Michael",
+				"Hofmann, Thomas",
+				"Rahimi, Abbas"
+			],
+			"paper_title": "Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models",
+			"source": "https://arxiv.org/pdf/2605.19150v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 508.33447265625, 510.7452697753906, 687.998046875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5d686d0cea74438d2df8ca8a0a260e4e73041a849d2fbc60dbbb51c2769a7c64",
+			"source_pdf_sha256": "6f6970bf684ded1feebe771c44b72fecf1299cd97565a3224a6a4dcfa84aa737"
+		},
+		"paper-260519150-table4.png": {
+			"authors": [
+				"Terzić, Aleksandar",
+				"Carzaniga, Francesco",
+				"Menet, Nicolas",
+				"Biehl, Yannick",
+				"Hersche, Michael",
+				"Hofmann, Thomas",
+				"Rahimi, Abbas"
+			],
+			"paper_title": "Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models",
+			"source": "https://arxiv.org/pdf/2605.19150v1#page=9",
+			"item": "Table 4",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 74, 510, 287],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "60bd6a5553742eff871ee36a3947e0295dbf70417bfb8f3c7ca9df20a7c1b882",
+			"source_pdf_sha256": "6f6970bf684ded1feebe771c44b72fecf1299cd97565a3224a6a4dcfa84aa737"
+		},
+		"paper-260519376-table1.png": {
+			"authors": [
+				"Baek, Junyeob",
+				"Jo, Mingyu",
+				"Kim, Minsu",
+				"Ren, Mengye",
+				"Bengio, Yoshua",
+				"Ahn, Sungjin"
+			],
+			"paper_title": "Generative Recursive Reasoning",
+			"source": "https://arxiv.org/pdf/2605.19376v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.7040023803711, 67.02363586425781, 509.0003967285156,
+				224.15785217285156
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1a7b5b8f4daebe220024c393919469f5b9980f331c5c4ed836b40b7321daf444",
+			"source_pdf_sha256": "cc452ae3aa64af9b4c246978a24d1abf50f27afb4230b4eb13f5599bdee24cd3"
+		},
+		"paper-260519376-figure2.png": {
+			"authors": [
+				"Baek, Junyeob",
+				"Jo, Mingyu",
+				"Kim, Minsu",
+				"Ren, Mengye",
+				"Bengio, Yoshua",
+				"Ahn, Sungjin"
+			],
+			"paper_title": "Generative Recursive Reasoning",
+			"source": "https://arxiv.org/pdf/2605.19376v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [300, 242, 510, 420],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8d0afdda8508313d9cf596627f9cf411a78bb1a7f40a2cda1b22b69fb46a2f01",
+			"source_pdf_sha256": "cc452ae3aa64af9b4c246978a24d1abf50f27afb4230b4eb13f5599bdee24cd3"
+		},
+		"paper-260521488-figure3.png": {
+			"authors": ["Huang, Benhao", "Geng, Zhengyang", "Kolter, Zico"],
+			"paper_title": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
+			"source": "https://arxiv.org/pdf/2605.21488v1#page=3",
+			"item": "Figure 3",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [50, 63, 547, 355],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4d1c5185571140baa1679e7d63182dd363356b795eb4ab07038afb341aeeecd5",
+			"source_pdf_sha256": "986b4a6a150b08a42d2e42fc3e0f5965ff8d654e001dd18f216bf85f959783c6"
+		},
+		"paper-260519932-table1.png": {
+			"authors": [
+				"Gu, Zhuohan",
+				"Zhang, Qizheng",
+				"Khattab, Omar",
+				"Madden, Samuel"
+			],
+			"paper_title": "PEEK: Context Map as an Orientation Cache for Long-Context LLM Agents",
+			"source": "https://arxiv.org/pdf/2605.19932v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 67, 510, 248],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5dde8cc0bbcd4066c5a38cd19ac356577fdb2ad741d37153d0911eafd8514a90",
+			"source_pdf_sha256": "285c346a826761c9cc13bc752c0b75684edc77ae6a213df9236bbd5b19af1109"
 		}
-	}
+	},
+	"published_paper_count": 9
 }
