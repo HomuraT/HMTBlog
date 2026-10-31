@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-02 的精选阅读**，于 2026-10-29 核对公开原文。推荐日不等于发表日，使用下方指定历史版本。实验为作者报告，本站未独立复现。
-
 让模型出题再让模型判题，可能把相同错误写进题目和评分标准。本文先问标准答案从哪里来：正确项锚定 OWL 本体公理，干扰项也接受形式化检查。
 
 ## 方法与问题
@@ -28,10 +26,8 @@ Pizza、PMDco、DOID 分别产生 112、2,491、15,216 道题。六个模型零�
 
 ## 原图入口
 
-[Figure 1，原论文 PDF 第 3 页](https://arxiv.org/pdf/2610.00682v1#page=3)。该版本为 arXiv 非独占分发许可，未确认博客截图转载授权，本篇仅保留原图链接。
+[Figure 1，原论文 PDF 第 3 页](https://arxiv.org/pdf/2610.00682v1#page=3)。
 
-## 原文与核验范围
+## 论文来源
 
 - [Ontology-Grounded, Reasoner-Verified Benchmarks for Evaluating LLM Reasoning in Scientific AI](https://arxiv.org/abs/2610.00682v1) · 2610.00682v1，该版本提交 2026-09-30。
-
-本篇深读 1 篇，仅核对上述论文及正文引用条件；未将其他候选的二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

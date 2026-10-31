@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-09-13 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 把多轮探索变成可复用路径
 
 VikingRAG 将目录结构与语义检索结合，按证据缺口进行多轮访问；再将已完成检索轨迹物化为经验边，对相似查询复用。自适应升级只在单轮证据不足时调用多轮 Agent。
@@ -28,13 +26,11 @@ VikingRAG 将目录结构与语义检索结合，按证据缺口进行多轮访�
 
 ## 原图入口
 
-[Figure 1，原论文 PDF 第 3 页](https://arxiv.org/pdf/2609.11390v1#page=3)。该版本未确认开放截图转载权限，本篇仅保留原图链接。
+[Figure 1，原论文 PDF 第 3 页](https://arxiv.org/pdf/2609.11390v1#page=3)。
 
-## 深读原文与范围
+## 论文来源
 
 - [VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents](https://arxiv.org/abs/2609.11390v1) · v1，公开于 2026-09-10。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，题名以核验时公开记录为准，深读题名按指定 PDF 页首；仅核对版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

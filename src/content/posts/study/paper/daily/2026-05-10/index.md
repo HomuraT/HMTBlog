@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-05-10 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于提交或发表日期，以下固定引用 **v1**；实验数值为作者报告，本站未独立复现。
-
 ## LCM
 
 v1 首次提交 2026-02-14 · [LCM: Lossless Context Management](https://arxiv.org/abs/2605.04050v1) · [PDF](https://arxiv.org/pdf/2605.04050v1)
@@ -42,12 +40,8 @@ v1 首次提交 2026-04-10 · [Improving Medical VQA through Trajectory-Aware Pr
 
 ## 同期其他论文入口
 
-以下仅核对公开 v1 的题名、日期和链接，未逐篇复核全部实验。
-
 - [Ontology Learning with LLMs: A Benchmark Study on Axiom Identification](https://arxiv.org/abs/2512.05594v1) · v1 首次提交 2025-12-05。
 - [Retrieval-Augmented Generation of Ontologies from Relational Databases](https://arxiv.org/abs/2506.01232v1) · v1 首次提交 2025-06-02。
 - [Free Energy-Driven Reinforcement Learning with Adaptive Advantage Shaping for Unsupervised Reasoning in LLMs](https://arxiv.org/abs/2605.04065v1) · v1 首次提交 2026-04-11。
 - [Toward Human-AI Complementarity Across Diverse Tasks](https://arxiv.org/abs/2605.04070v1) · v1 首次提交 2026-04-13。
 - [Structured Progressive Knowledge Activation for LLM-Driven Neural Architecture Search](https://arxiv.org/abs/2605.04057v1) · v1 首次提交 2026-04-10。
-
-**覆盖说明：**本期保留 8 篇已核验公开论文入口，详读其中 3 篇，其余仅列阅读链接。

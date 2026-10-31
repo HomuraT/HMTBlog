@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-01 的精选阅读**，于 2026-10-29 核对公开原文。推荐日不等于发表日，使用下方指定历史版本。实验为作者报告，本站未独立复现。
-
 把文本转成本体，难点不只是抽名词，还要让关系和公理在逻辑上成立。APOLO 不先改权重，而是把本体学习拆成模块，让优化器依据结构化反馈修改提示词。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ Table 1 的单次 DOID 实验中，Qwen3.5-27B 自回归学习器的 AxP 从 0.5
 
 图源：Huu Tan Mai , Roman Kochnev , Cuong Xuan Chu , Lukas Lange , Heiko Paulheim , Daria Stepanova，《APOLO: Automatic Prompt Optimization for Ontology Learning》，arXiv:2609.34540v1，Table 1，PDF 第 5 页。[原图出处](https://arxiv.org/pdf/2609.34540v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [APOLO: Automatic Prompt Optimization for Ontology Learning](https://arxiv.org/abs/2609.34540v1) · 2609.34540v1，该版本提交 2026-09-28。
-
-本篇深读 1 篇，仅核对上述论文及正文引用条件；未将其他候选的二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

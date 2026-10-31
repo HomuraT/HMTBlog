@@ -10,13 +10,11 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文为 **2026-10-21 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
-
 字符串、图嵌入和 LLM 的错误各有特点。OntoAligner-Ensemble 将输出接入可配置融合与选择流程，研究互补是否实际改善精召平衡。
 
 ## 版本时间边界
 
-归档日为 10 月 21 日，本次核验于 10 月 29 日。OM 2026 研讨会日期为 10 月 25 日，所用 workshop PDF 的首次公开时间未独立确认；本文属于后续补读，不宣称该版本在归档日已公开。
+本文讨论 OM 2026 workshop PDF。研讨会于 2026-10-25 举行，论文首次公开时间尚未确认；10 月 21 日是本篇阅读归档日期。
 
 ## 方法与实验
 
@@ -32,9 +30,7 @@ lang: 'zh-CN'
 
 图源：Hamed Babaei Giglou, Sören Auer, Peio Popov, Mahsa Sanaei, Jennifer D’Souza，《OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques》，OM 2026 workshop PDF，Table 2，PDF 第 8 页。[原图出处](https://om.ontologymatching.org/2026/papers/om2026-LTpaper8.pdf#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques](https://om.ontologymatching.org/2026/papers/om2026-LTpaper8.pdf) · OM 2026 workshop PDF。
 - 版本公开日期：未独立确认；仅确认 OM 2026 研讨会于 2026-10-25 举行。
-
-本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

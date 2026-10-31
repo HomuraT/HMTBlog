@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-31 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [Weak-to-Strong On-Policy Distillation](https://arxiv.org/abs/2607.26246v1) · v1 提交 2026-07-28 · [全文](https://arxiv.org/html/2607.26246v1) · [PDF](https://arxiv.org/pdf/2607.26246v1)
@@ -22,15 +20,11 @@ Qwen3 系列实验覆盖四个数学、三个代码基准。pre-RL/post-RL 条�
 
 我的判断是，将能力变化与教师原始分布分开很值得研究。复现仍须核查 tokenizer、logit 对齐、训练预算和任务分布；各类对照并不等价，当前结果不能自动推广到长程交互或所有领域知识，更不能称为免费提升。
 
-**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2607.26246v1#page=1)。原文标记 arXiv non-exclusive distribution license；未确认第三方截图再发布许可，本次未转载该图。
+**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2607.26246v1#page=1)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Living-Harness Is an Interactive-Agent Evolver](https://arxiv.org/abs/2607.26598v1) · 2607.26598v1，该版本提交 2026-07-29。
 - [TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM](https://arxiv.org/abs/2607.27205v1) · 2607.27205v1，该版本提交 2026-07-29。
 - [HumanCLAW: Can Vision-Language Models Act Through a Body?](https://arxiv.org/abs/2607.27180v1) · 2607.27180v1，该版本提交 2026-07-29。
 - [$π\mathbf{R}^2$: Reactive Real-time Flow Policies](https://arxiv.org/abs/2607.26055v1) · 2607.26055v1，该版本提交 2026-07-28。
-
-**覆盖说明：** 本期保留 5 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

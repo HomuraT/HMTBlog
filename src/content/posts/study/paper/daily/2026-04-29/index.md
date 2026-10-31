@@ -12,8 +12,6 @@ lang: 'zh-CN'
 
 从像素直接学习、在视频生成中加入三维反馈、让工作环境跨天变化，分别检验了模型接口和评测协议中的不同假设。
 
-本文补录 **2026 年 4 月 29 日的推荐日报清单**，于 10 月 29 日核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**。数字为作者报告，本站未独立复现。
-
 ## Tuna-2
 
 多模态理解与生成 · v1 首次提交 2026-04-27 · [Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation](https://arxiv.org/abs/2604.24763v1) · [全文](https://arxiv.org/html/2604.24763v1)
@@ -46,10 +44,6 @@ World-R1 保持基础视频模型架构，以预训练三维模型和视觉语�
 
 ## 其他公开研究入口
 
-以下仅核对历史 v1 题名、提交日期与链接，未复核全部实验。
-
 - [Kwai Summary Attention Technical Report](https://arxiv.org/abs/2604.24432v1) · v1 首次提交 2026-04-27。
 - [SFT-then-RL Outperforms Mixed-Policy Methods for LLM Reasoning](https://arxiv.org/abs/2604.23747v1) · v1 首次提交 2026-04-26。
 - [MMEB-V3: Measuring the Performance Gaps of Omni-Modality Embedding Models](https://arxiv.org/abs/2604.23321v1) · v1 首次提交 2026-04-25。
-
-本期共六篇入口，展开其中三篇。

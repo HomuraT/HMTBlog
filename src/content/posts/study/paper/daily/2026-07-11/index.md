@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-11 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 从执行记录到语义对象
 
 Workflow as Knowledge 将工作流定义、运行实例、推理记录、上下文快照和依赖关系放进同一持久知识底座。重点不是再画一张流程图，而是让一次判断依据什么、影响什么、如何恢复，成为可查询的对象关系。
@@ -32,11 +30,9 @@ Workflow as Knowledge 将工作流定义、运行实例、推理记录、上下�
 
 图源：Emanuele Quinto , Carlo Andrea Rozzi , Francesco Zanitti，《Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows》，arXiv:2607.08740v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2607.08740v1#page=2) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows](https://arxiv.org/abs/2607.08740v1) · v1，公开于 2026-07-09。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

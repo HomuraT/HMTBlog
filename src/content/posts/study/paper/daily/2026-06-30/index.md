@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-30 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [Ontology Learning and Knowledge Graph Construction: A Comparison of Approaches and Their Impact on RAG Performance](https://arxiv.org/abs/2511.05991v1) · v1 提交 2025-11-08 · [全文](https://arxiv.org/html/2511.05991v1) · [PDF](https://arxiv.org/pdf/2511.05991v1)
@@ -28,8 +26,6 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [FreqOrtho-SR: Frequency-Guided Orthogonal Expert Learning for Real-World Image Super-Resolution](https://arxiv.org/abs/2606.28745v1) · 2606.28745v1，该版本提交 2026-06-27。
 - [Qwen-Image-2.0-RL Technical Report](https://arxiv.org/abs/2606.27608v1) · 2606.27608v1，该版本提交 2026-06-25。
 - [PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation](https://arxiv.org/abs/2606.28128v1) · 2606.28128v1，该版本提交 2026-06-26。
@@ -37,5 +33,3 @@ lang: 'zh-CN'
 - [PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception](https://arxiv.org/abs/2606.28322v2) · 2606.28322v2，该版本提交 2026-06-30。
 - [SOLAR: AI-Powered Speed-of-Light Performance Analysis](https://arxiv.org/abs/2606.26383v1) · 2606.26383v1，该版本提交 2026-06-24。
 - [Red-Teaming the Agentic Red-Team](https://arxiv.org/abs/2606.24496v1) · 2606.24496v1，该版本提交 2026-06-23。
-
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

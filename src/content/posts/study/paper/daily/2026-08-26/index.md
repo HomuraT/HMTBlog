@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-08-26 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 本体层级怎样影响链接预测
 
 这项工作把 box embedding 的语义损失接到 GNN 编码器，鼓励表示满足本体类层级。对照不仅包括不使用层级的基线，也包括将 subClassOf 直接加入图的 SC-Edges，以区分两种注入方式。
@@ -32,11 +30,9 @@ AIFB、CoDEx-L 与 BioKG 的编码器按数据集选择，在固定模型配置�
 
 图源：Filip Kronström , Ross D. King，《Hierarchy-Aware Semantic Losses for Knowledge Graph Link Prediction》，arXiv:2608.22981v1，Table 3，PDF 第 7 页。[原图出处](https://arxiv.org/pdf/2608.22981v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [Hierarchy-Aware Semantic Losses for Knowledge Graph Link Prediction](https://arxiv.org/abs/2608.22981v1) · v1，公开于 2026-08-24。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

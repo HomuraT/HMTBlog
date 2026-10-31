@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-08-28 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 把罕见事实放回时间和关系中
 
 C-Unseen 在动态时序图谱中寻找与主叙事有张力的罕见子图，再跨快照跟踪其持续出现。这里的弱信号是作者定义的语义和时序对象，不是任意低频词，也不是未来一定发生的预言。
@@ -32,11 +30,9 @@ C-Unseen 与 BERTrend 报五次运行均值及样本标准差，BEAM、Yoon 为�
 
 图源：Yassir Lairgi , Ludovic Moncla , Khalid Benabdeslem , Rémy Cazabet , Pierre Cléau，《C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning》，arXiv:2608.26870v1，Table 3，PDF 第 10 页。[原图出处](https://arxiv.org/pdf/2608.26870v1#page=10) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [C-Unseen: Weak Signal Detection in Dynamic Temporal Knowledge Graphs via LLM Reasoning](https://arxiv.org/abs/2608.26870v1) · v1，公开于 2026-08-27。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

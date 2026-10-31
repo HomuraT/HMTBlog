@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文为 **2026-10-23 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
-
 数据库 schema 未必能解释业务指标、分析前提或哪些请求不成立。AgentOnto 将数据库、业务文档和示例任务组织为显式本体，让分析过程使用并更新业务知识。
 
 ## 方法与问题
@@ -32,9 +30,7 @@ WDI 的 282 个请求中正确处理 223 个，为 79.1%；AQS 的 324 个请求
 
 图源：Dayan Pan , Bincheng Zuo , Xiaojian Wang , Daogang Zhang , Jingyuan Wang，《AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics》，2610.23317v1，Table 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.23317v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics](https://arxiv.org/abs/2610.23317v1) · 2610.23317v1。
 - 版本公开日期：2026-10-16。
-
-本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

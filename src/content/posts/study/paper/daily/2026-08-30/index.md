@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-08-30 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 将数值属性加入表示学习
 
 LitEm 为传导式知识图谱嵌入增加神经回归，预测数值属性，并通过共同训练让链接预测模型利用 literal 信息。实验涉及 FB15K-237、YAGO15K、DB15K 与 Mutagenesis，回归主要用 MAE，关系预测另用 MRR 和 Hits。
@@ -32,11 +30,9 @@ Table 4 报五次运行均值。DB15K 的 birthDate 属性，LitEm MAE 为 13.21
 
 图源：Rupesh Sapkota , Louis Mozart Kamdem Teyou , Moshood Yekini , Caglar Demir , Axel-Cyrille Ngonga Ngomo，《Neural Regression with Embeddings for Numerical Attribute Prediction in Knowledge Graphs》，arXiv:2608.26729v1，Table 4，PDF 第 9 页。[原图出处](https://arxiv.org/pdf/2608.26729v1#page=9) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [Neural Regression with Embeddings for Numerical Attribute Prediction in Knowledge Graphs](https://arxiv.org/abs/2608.26729v1) · v1，公开于 2026-08-27。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

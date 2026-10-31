@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-19 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [MolmoMotion: Forecasting Point Trajectories in 3D with Language Instruction](https://arxiv.org/abs/2606.18558v1) · v1 提交 2026-06-17 · [全文](https://arxiv.org/html/2606.18558v1) · [PDF](https://arxiv.org/pdf/2606.18558v1)
@@ -22,11 +20,9 @@ MolmoMotion 给定短暂视觉历史、目标物体的三维查询点和语言�
 
 我更关注这个可检查的中间表示：先预测物体怎样动，再设计施力与控制。预训练每例只采 8 个查询点，密集轨迹需要多次前向；可变形对象与细致几何仍有不足。机器人规划和视频生成迁移收益，不等于闭环实体机器人成功率，作者也将后者列为后续工作。应把轨迹误差、时延与真实任务完成率分别测量。
 
-**原图入口：**[Figure 6，PDF 第 8 页](https://arxiv.org/pdf/2606.18558v1#page=8)。本次仅确认 arXiv 非独占分发许可，未确认第三方截图再发布权，未转载该图。
+**原图入口：**[Figure 6，PDF 第 8 页](https://arxiv.org/pdf/2606.18558v1#page=8)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Looped World Models](https://arxiv.org/abs/2606.18208v1) · 2606.18208v1，该版本提交 2026-06-16。
 - [Variable-Width Transformers](https://arxiv.org/abs/2606.18246v1) · 2606.18246v1，该版本提交 2026-06-16。
@@ -34,5 +30,3 @@ MolmoMotion 给定短暂视觉历史、目标物体的三维查询点和语言�
 - [GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?](https://arxiv.org/abs/2606.17861v1) · 2606.17861v1，该版本提交 2026-06-16。
 - [Learning from the Self-future: On-policy Self-distillation for dLLMs](https://arxiv.org/abs/2606.18195v1) · 2606.18195v1，该版本提交 2026-06-16。
 - [Native Active Perception as Reasoning for Omni-Modal Understanding](https://arxiv.org/abs/2606.19341v1) · 2606.19341v1，该版本提交 2026-06-17。
-
-**覆盖说明：** 本期保留 7 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

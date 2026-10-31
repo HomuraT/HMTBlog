@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-20 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [ChronoQG: Towards a Temporally Expressive and Hop-Bounded Benchmark for Temporal Knowledge Graph Question Generation](https://arxiv.org/abs/2607.14770v1) · v1 提交 2026-07-16 · [全文](https://arxiv.org/html/2607.14770v1) · [PDF](https://arxiv.org/pdf/2607.14770v1)
@@ -28,11 +26,7 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [GAttNHP: Group Attention Neural Hawkes Process for Extrapolation Reasoning in Temporal Knowledge Graphs](https://arxiv.org/abs/2607.14733v1) · 2607.14733v1，该版本提交 2026-07-16。
 - [AutoSynthesis: An agentic system for automated meta-analysis](https://arxiv.org/abs/2607.15247v1) · 2607.15247v1，该版本提交 2026-07-16。
 - [Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs](https://arxiv.org/abs/2607.14888v1) · 2607.14888v1，该版本提交 2026-07-16。
 - [RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources](https://arxiv.org/abs/2606.29538v1) · 2606.29538v1，该版本提交 2026-06-28。
-
-**覆盖说明：** 本期保留 5 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

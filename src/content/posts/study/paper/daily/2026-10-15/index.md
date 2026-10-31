@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-15 的精选阅读**，于 2026-10-29 核对公开原文。归档日不等于论文发表日，采用下方历史版本；数字为作者报告，本站未独立复现。
-
 如果每次图查询结果都直接进入上下文，长链路问答容易被无关信息淹没。Wikidata Search Traces 同时研究题目生成与证据管理。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ lang: 'zh-CN'
 
 图源：Mohamed Chenene , Carlos Rosas-Hinostroza , Anastasia Stasenko , Shani Evenstein Sigalov , Pierre-Carl Langlais，《Wikidata Search Traces: A Dataset for Training Knowledge Graph Search Agents》，2610.06650v3，Table 4，PDF 第 10 页。[原图出处](https://arxiv.org/pdf/2610.06650v3#page=10) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [Wikidata Search Traces: A Dataset for Training Knowledge Graph Search Agents](https://arxiv.org/abs/2610.06650v3) · 2610.06650v3，该版本公开于 2026-10-09。
-
-本篇深读 1 篇，仅核对上述方法、图表数字与条件；未将其他候选二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

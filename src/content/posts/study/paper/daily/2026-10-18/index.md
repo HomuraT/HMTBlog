@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文为 **2026-10-18 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
-
 表结构到本体的映射，需要同时对齐字段含义、值转换与关系结构。LAMP 用任务拆解、检索、全局上下文与术语细化降低单次提示负担。
 
 ## 方法与问题
@@ -32,9 +30,7 @@ BLINKG 三个复杂度场景中，Table 4 的高抽象场景 3：Gemini 2.5 Pro 
 
 图源：Sulthoni Ashiddiiqi, Fajar J. Ekaputra, Muhammad Zuhri Catur Candra, Gusti Ayu Putri Saptawati Soekidjo，《Reducing Human Effort in Ontology-Based Data Integration: An LLM-Assisted Mapping Pipeline》，CEUR-WS Vol-4245 paper9 publisher PDF，Table 4，PDF 第 12 页。[原图出处](https://ceur-ws.org/Vol-4245/paper9.pdf#page=12) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [Reducing Human Effort in Ontology-Based Data Integration: An LLM-Assisted Mapping Pipeline](https://ceur-ws.org/Vol-4245/paper9.pdf) · CEUR-WS Vol-4245 paper9 publisher PDF。
 - 版本公开日期：2026-08-24。
-
-本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

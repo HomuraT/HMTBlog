@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-08-27 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 从规范文字到机械化语义
 
 MGQL 为 GQL 的一个较大只读片段建立小步操作语义与 schema-aware 类型系统，并在 Lean4 中机械化。它关注表达式、路径模式和完整查询流水线如何共同处理图作用域、重复结果、空值及量化路径绑定。
@@ -32,11 +30,9 @@ MGQL 为 GQL 的一个较大只读片段建立小步操作语义与 schema-aware
 
 图源：Aditya Thimmaiah , Tong-Nong Lin , Milos Gligoric，《MGQL: An Executable, Small-Step Semantics of GQL》，arXiv:2608.24565v1，Figure 1，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2608.24565v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [MGQL: An Executable, Small-Step Semantics of GQL](https://arxiv.org/abs/2608.24565v1) · v1，公开于 2026-08-25。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

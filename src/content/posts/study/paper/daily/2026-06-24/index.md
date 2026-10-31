@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-24 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Event Ontology Expansion via LLM-Based Conceptualization](https://arxiv.org/abs/2606.21048v1) · v1 提交 2026-06-19 · [全文](https://arxiv.org/html/2606.21048v1) · [PDF](https://arxiv.org/pdf/2606.21048v1)
@@ -22,11 +20,9 @@ ACE、ERE 以最常见 10 类为已知类，MAVEN 使用 20 已知、40 未知�
 
 我认为概念中间层给维护者提供了可审查对象，但描述由模型生成，偏见或幻觉也会被后续聚类、挂接和命名继承。论文为单次运行，缺少多种子波动；开放领域还需要人工检查概念边界和父子关系。下方 Wikontic 是另列的 EACL 2026 正式阅读入口，不是当天新发表；OpenReview 候选链接未独立核验。
 
-**原图入口：**[Figure 2，PDF 第 3 页](https://arxiv.org/pdf/2606.21048v1#page=3)。本次仅确认 arXiv 非独占分发许可，未确认第三方截图再发布权，未转载该图。
+**原图入口：**[Figure 2，PDF 第 3 页](https://arxiv.org/pdf/2606.21048v1#page=3)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Extracting Semantics: LLM-Guided Automatic Population of Robot Ontology from URDF](https://arxiv.org/abs/2606.17073v1) · 2606.17073v1，该版本提交 2026-06-10。
 - [Tmax: A simple recipe for terminal agents](https://arxiv.org/abs/2606.23321v1) · 2606.23321v1，该版本提交 2026-06-22。
@@ -36,8 +32,6 @@ ACE、ERE 以最常见 10 类为已知类，MAVEN 使用 20 已知、40 未知�
 - [Tapered Language Models](https://arxiv.org/abs/2606.23670v1) · 2606.23670v1，该版本提交 2026-06-22。
 - [MAS-PromptBench: When Does Prompt Optimization Improve Multi-Agent LLM Systems?](https://arxiv.org/abs/2606.23664v1) · 2606.23664v1，该版本提交 2026-06-22。
 
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。
+另列正式阅读入口：[Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models](https://aclanthology.org/2026.eacl-long.388/)，EACL 2026，2026 年 3 月，8304–8319 页。
 
-另列正式阅读入口：[Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models](https://aclanthology.org/2026.eacl-long.388/)，EACL 2026，2026 年 3 月，8304–8319 页。仅核对正式题名、作者、出版信息与链接，未在本篇深读实验。
-
-待核验线索：[ParallelKernelBench: Can LLMs Write Fast Multi-GPU Kernels?（候选题名）](https://openreview.net/pdf/b1f965d99dc4c0341f70248f27b0e3dc29ce4f51.pdf)。原站访问遇验证，未独立确认题名与标识符对应，不计入已核验数量，未继续尝试访问。
+待核验线索：[ParallelKernelBench: Can LLMs Write Fast Multi-GPU Kernels?（候选题名）](https://openreview.net/pdf/b1f965d99dc4c0341f70248f27b0e3dc29ce4f51.pdf)。题名与链接对应关系尚未确认。

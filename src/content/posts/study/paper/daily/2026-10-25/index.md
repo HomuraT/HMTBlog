@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文为 **2026-10-25 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
-
 外部世界持续变化，本体维护需要有范围和证据。COATER 将局部本体与外部资源之间的审查封装成可执行组件，称为 arrow。
 
 ## 方法与问题
@@ -32,9 +30,7 @@ lang: 'zh-CN'
 
 图源：Ralf Lämmel，《Continuous Ontology Assurance through External Resources -- An Ontology Engineering Method with a Case Study in Software Language Engineering》，2610.24322v1，Figure 1，PDF 第 1 页。[原图出处](https://arxiv.org/pdf/2610.24322v1#page=1) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [Continuous Ontology Assurance through External Resources -- An Ontology Engineering Method with a Case Study in Software Language Engineering](https://arxiv.org/abs/2610.24322v1) · 2610.24322v1。
 - 版本公开日期：2026-10-16。
-
-本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

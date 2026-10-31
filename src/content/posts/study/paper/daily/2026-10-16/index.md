@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-16 的精选阅读**，于 2026-10-29 核对公开原文。归档日不等于论文发表日，采用下方历史版本；数字为作者报告，本站未独立复现。
-
 表格语义标注能识别实体，却未必直接生成图谱；声明式建图又常假设映射已经准备好。AutoRML 将标注结果接到可检查、可修改的 RML 规则。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ TGDK 4(3) Article 2 于 2026 年 9 月 30 日正式出版。评估结论有明�
 
 图源：Ioannis Dasoulas, Ali Elhalawati, Anastasia Dimou，《AutoRML: Automated Declarative RDF Generation Leveraging Semantic Table Annotation》，TGDK 4(3), Article 2, publisher version，Figure 1，PDF 第 2 页。[原图出处](https://drops.dagstuhl.de/storage/08tgdk/tgdk-vol004/tgdk-vol004-issue003/TGDK.4.3.2/TGDK.4.3.2.pdf#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [AutoRML: Automated Declarative RDF Generation Leveraging Semantic Table Annotation](https://drops.dagstuhl.de/entities/document/10.4230/TGDK.4.3.2) · TGDK 4(3), Article 2, publisher version，该版本公开于 2026-09-30。
-
-本篇深读 1 篇，仅核对上述方法、图表数字与条件；未将其他候选二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

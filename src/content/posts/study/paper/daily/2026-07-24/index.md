@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-24 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [Logic-Guided Data Extraction with Answer Set Programming and Large Language Models](https://arxiv.org/abs/2607.19365v1) · v1 提交 2026-06-08 · [全文](https://arxiv.org/html/2607.19365v1) · [PDF](https://arxiv.org/pdf/2607.19365v1)
@@ -28,12 +26,8 @@ Logic-Guided Data Extraction 让 LLM 提候选事实，ASP 负责验证、推导
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [The Mechanism Matters: When Knowledge Graphs Help Reinforcement Learning](https://arxiv.org/abs/2607.19616v1) · 2607.19616v1，该版本提交 2026-07-21。
 - [PerfAgent: Profiler-Guided Iterative Refinement for Repository-Level Code Optimization](https://arxiv.org/abs/2607.19653v1) · 2607.19653v1，该版本提交 2026-07-22。
 - [Robots Acquire Manipulation Skills in Seconds from a Single Human Video](https://arxiv.org/abs/2607.20033v1) · 2607.20033v1，该版本提交 2026-07-22。
 - [CrackedPDFs: A Controlled Benchmark for Hidden Prompt Injection in PDFs](https://arxiv.org/abs/2607.19396v1) · 2607.19396v1，该版本提交 2026-07-03。
 - [Context Matters: Improving the Practical Reliability of LLM-Based Unit Test Generation](https://arxiv.org/abs/2607.19682v1) · 2607.19682v1，该版本提交 2026-07-22。
-
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

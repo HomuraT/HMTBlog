@@ -12,8 +12,6 @@ lang: 'zh-CN'
 
 本体查询重写把隐含知识放入数据库查询；EnvHarness 则在既有环境上增加可编程组件。两个外部层都需要分别检查表达能力、执行代价与验收边界。
 
-本文补录 2026 年 8 月 24 日的日报清单，于 10 月 29 日核对公开原文。日报日期不代表论文发表日，以下固定引用 **v1**。数值为作者报告，本站未独立复现。
-
 ## 本体介导属性图查询
 
 本体与图数据库 · [Rewriting Ontology-Mediated Property Graph Queries into GQL v1](https://arxiv.org/abs/2608.20092v1) · [全文](https://arxiv.org/html/2608.20092v1)

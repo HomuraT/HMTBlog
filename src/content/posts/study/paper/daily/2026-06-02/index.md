@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-02 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Open Ontologies: Tool-Augmented Ontology Engineering with Stable Matching Alignment](https://arxiv.org/abs/2605.09184v1) · v1 提交 2026-05-09 · [全文](https://arxiv.org/html/2605.09184v1) · [PDF](https://arxiv.org/pdf/2605.09184v1)
@@ -30,8 +28,6 @@ Anatomy 对齐包含 2,737 个小鼠类、3,304 个人类类和 1,516 条参考�
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [Graph Query Generation with Constraint-guided Large Language Agents](https://arxiv.org/abs/2605.00845v1) · 2605.00845v1，该版本提交 2026-04-09。
 - [LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards](https://arxiv.org/abs/2605.31584v1) · 2605.31584v1，该版本提交 2026-05-29。
 - [Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments](https://arxiv.org/abs/2605.30280v2) · 2605.30280v2，该版本提交 2026-06-01。
@@ -39,5 +35,3 @@ Anatomy 对齐包含 2,737 个小鼠类、3,304 个人类类和 1,516 条参考�
 - [VLM3: Vision Language Models Are Native 3D Learners](https://arxiv.org/abs/2605.30561v1) · 2605.30561v1，该版本提交 2026-05-28。
 - [Scaling Laws for Agent Harnesses via Effective Feedback Compute](https://arxiv.org/abs/2605.29682v1) · 2605.29682v1，该版本提交 2026-05-28。
 - [Déjà View: Looping Transformers for Multi-View 3D Reconstruction](https://arxiv.org/abs/2605.30215v2) · 2605.30215v2，该版本提交 2026-05-29。
-
-**覆盖说明：**本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

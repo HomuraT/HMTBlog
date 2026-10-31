@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-07 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Agents' Last Exam](https://arxiv.org/abs/2606.05405v1) · v1 提交 2026-06-03 · [全文](https://arxiv.org/html/2606.05405v1) · [PDF](https://arxiv.org/pdf/2606.05405v1)
@@ -30,20 +28,16 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [Cosmos 3: Omnimodal World Models for Physical AI](https://arxiv.org/abs/2606.02800v2) · 2606.02800v2，该版本提交 2026-06-05。
 - [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473v1) · 2606.06473v1，该版本提交 2026-06-04。
 - [OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021v1) · 2606.06021v1，该版本提交 2026-06-04。
 - [AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding](https://arxiv.org/abs/2606.06155v1) · 2606.06155v1，该版本提交 2026-06-04。
 - [Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution](https://arxiv.org/abs/2606.06492v1) · 2606.06492v1，该版本提交 2026-06-04。
 
-## 待核验的公开线索
+## 相关阅读
 
-以下候选题名与链接的对应关系尚未独立确认。原站访问返回 403，未继续尝试访问，不计入已核验论文数量。
+以下相关阅读的题名与链接对应关系尚未确认。
 
 - 候选题名：[Reducing Human Effort in Ontology-Based Data Integration: An LLM-Assisted Mapping Pipeline](https://openreview.net/forum?id=qjJF4sIRKj)（待核验）。
 - 候选题名：[Implementing the Semantic Units Framework using Named Graphs and R2RML in a Knowledge Graph for the Biodiversity Exploratories](https://openreview.net/forum?id=JXyRcFgKuw)（待核验）。
 - 候选题名：[NORKE: A Framework for Normative Rule-Centric Knowledge Graph Construction using Language Models](https://openreview.net/forum?id=7bK5jzeH4H)（待核验）。
-
-**覆盖说明：**本期保留 6 篇已核验公开论文入口，详读 1 篇；其余仅列目录。另列 3 项待核验线索，不计入上述数量。

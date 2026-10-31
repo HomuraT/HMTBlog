@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-27 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [AISE-Bench: A Full-Cycle Curated Benchmark for Information Seeking on Academic Knowledge Graphs](https://arxiv.org/abs/2607.20498v1) · v1 提交 2026-06-16 · [全文](https://arxiv.org/html/2607.20498v1) · [PDF](https://arxiv.org/pdf/2607.20498v1)
@@ -22,16 +20,12 @@ lang: 'zh-CN'
 
 我的判断是，应把每次工具调用与最终声明连起来：参数从何而来、哪个返回值支持哪个句子。API 步骤大致走通，参数填写仍可能出错；基准聚焦特定学术图谱与接口，不能直接外推为所有网页研究助手排名。
 
-**原图入口：**[Figure 1，PDF 第 3 页](https://arxiv.org/pdf/2607.20498v1#page=3)。原文标记 arXiv non-exclusive distribution license；未确认第三方截图再发布许可，本次未转载该图。
+**原图入口：**[Figure 1，PDF 第 3 页](https://arxiv.org/pdf/2607.20498v1#page=3)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [EvoSQL: Memory-Augmented Critic-Generator Co-Evolution for Text-to-SQL](https://arxiv.org/abs/2607.20489v1) · 2607.20489v1，该版本提交 2026-06-04。
 - [JAXBench: Benchmarking Autonomous TPU Kernel Optimization](https://arxiv.org/abs/2607.20466v1) · 2607.20466v1，该版本提交 2026-05-19。
 - [InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents](https://arxiv.org/abs/2607.20468v1) · 2607.20468v1，该版本提交 2026-05-20。
 - [Robust Critics: Defending LLMs Against Multi-Turn Attacks](https://arxiv.org/abs/2607.20472v1) · 2607.20472v1，该版本提交 2026-05-24。
 - [Demonstrating GenDB: Instance-Optimized and Customized Query Processing Code Generation via LLM Agents](https://arxiv.org/abs/2607.20630v1) · 2607.20630v1，该版本提交 2026-07-22。
-
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

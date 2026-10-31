@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-13 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Agents-K1: Towards Agent-native Knowledge Orchestration](https://arxiv.org/abs/2606.13669v1) · v1 提交 2026-06-11 · [全文](https://arxiv.org/html/2606.13669v1) · [PDF](https://arxiv.org/pdf/2606.13669v1)
@@ -28,8 +26,6 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [Ontology Memory-Augmented ASR Correction for Long Text-Speech Interleaved Conversations](https://arxiv.org/abs/2606.13464v2) · 2606.13464v2，该版本提交 2026-06-12。
 - [MiniMax Sparse Attention](https://arxiv.org/abs/2606.13392v2) · 2606.13392v2，该版本提交 2026-06-12。
 - [EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery](https://arxiv.org/abs/2606.13662v2) · 2606.13662v2，该版本提交 2026-06-12。
@@ -37,5 +33,3 @@ lang: 'zh-CN'
 - [SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning](https://arxiv.org/abs/2606.13673v1) · 2606.13673v1，该版本提交 2026-06-11。
 - [$\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation](https://arxiv.org/abs/2606.13672v1) · 2606.13672v1，该版本提交 2026-06-11。
 - [InterleaveThinker: Reinforcing Agentic Interleaved Generation](https://arxiv.org/abs/2606.13679v2) · 2606.13679v2，该版本提交 2026-06-12。
-
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

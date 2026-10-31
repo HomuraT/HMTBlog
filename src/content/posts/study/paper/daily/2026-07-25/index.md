@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-25 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [A New Well-Supported Semantics for Description Logic Programs](https://arxiv.org/abs/2607.21203v1) · v1 提交 2026-07-23 · [全文](https://arxiv.org/html/2607.21203v1) · [PDF](https://arxiv.org/pdf/2607.21203v1)
@@ -26,12 +24,8 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation](https://arxiv.org/abs/2607.21553v1) · 2607.21553v1，该版本提交 2026-07-23。
 - [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v1) · 2607.21461v1，该版本提交 2026-07-23。
 - [Visual Contrastive Self-Distillation](https://arxiv.org/abs/2607.21556v1) · 2607.21556v1，该版本提交 2026-07-23。
 - [Skillware: A Software Ontology and Engineering Lifecycle for Persistent Behavioral Artifacts](https://arxiv.org/abs/2607.18970v1) · 2607.18970v1，该版本提交 2026-07-21。
 - [Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Framework for Deconstructing Learned Representations in Deep Networks](https://arxiv.org/abs/2607.21366v1) · 2607.21366v1，该版本提交 2026-07-23。
-
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

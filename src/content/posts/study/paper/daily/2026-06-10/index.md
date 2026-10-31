@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-10 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Beyond Predefined Schemas: TRACE-KG for Context-Enriched Knowledge Graphs from Complex Documents](https://arxiv.org/abs/2604.03496v1) · v1 提交 2026-04-03 · [全文](https://arxiv.org/html/2604.03496v1) · [PDF](https://arxiv.org/pdf/2604.03496v1)
@@ -28,11 +26,7 @@ MINE-1 实验中，系统使用相同嵌入、检索超参数及严格 LLM 判�
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention](https://arxiv.org/abs/2606.09079v2) · 2606.09079v2，该版本提交 2026-06-09。
 - [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498v1) · 2606.09498v1，该版本提交 2026-06-08。
 - [TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning](https://arxiv.org/abs/2606.11119v1) · 2606.11119v1，该版本提交 2026-06-09。
 - [Next Forcing: Causal World Modeling with Multi-Chunk Prediction](https://arxiv.org/abs/2606.11187v1) · 2606.11187v1，该版本提交 2026-06-09。
-
-**覆盖说明：** 本期保留 5 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

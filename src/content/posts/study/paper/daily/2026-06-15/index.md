@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-15 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Text-to-SPARQL Generation with Reinforcement Learning: A GRPO-based Approach on DBLP](https://arxiv.org/abs/2605.20066v1) · v1 提交 2026-05-19 · [全文](https://arxiv.org/html/2605.20066v1) · [PDF](https://arxiv.org/pdf/2605.20066v1)
@@ -28,8 +26,6 @@ DBLP-QuAD 共 10,000 个问句—查询对，训练、验证、测试为 7,000/1
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering](https://arxiv.org/abs/2606.10921v1) · 2606.10921v1，该版本提交 2026-06-09。
 - [LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks](https://arxiv.org/abs/2606.03303v2) · 2606.03303v2，该版本提交 2026-06-03。
 - [Recursive Agent Harnesses](https://arxiv.org/abs/2606.13643v1) · 2606.13643v1，该版本提交 2026-06-11。
@@ -37,5 +33,3 @@ DBLP-QuAD 共 10,000 个问句—查询对，训练、验证、测试为 7,000/1
 - [EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge](https://arxiv.org/abs/2606.13120v1) · 2606.13120v1，该版本提交 2026-06-11。
 - [DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks](https://arxiv.org/abs/2606.12871v1) · 2606.12871v1，该版本提交 2026-06-11。
 - [World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible](https://arxiv.org/abs/2606.13652v1) · 2606.13652v1，该版本提交 2026-06-11。
-
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-16 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study](https://arxiv.org/abs/2607.11948v1) · v1 提交 2026-07-11 · [全文](https://arxiv.org/html/2607.11948v1) · [PDF](https://arxiv.org/pdf/2607.11948v1)
@@ -28,12 +26,8 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [GRAFT: Graph-Matched Retrieval and Fusion of Tables in Data Lakes](https://arxiv.org/abs/2607.12717v1) · 2607.12717v1，该版本提交 2026-07-14。
 - [FlowWAM: Optical Flow as a Unified Action Representation for World Action Models](https://arxiv.org/abs/2607.13017v1) · 2607.13017v1，该版本提交 2026-07-14。
 - [Hy-Embodied-VLM-1.0: Efficient Physical-World Agents](https://arxiv.org/abs/2607.12894v1) · 2607.12894v1，该版本提交 2026-07-14。
 - [Bulkhead: Automated Semantic Detection and Remediation of Container Escape Vulnerabilities](https://arxiv.org/abs/2607.12723v1) · 2607.12723v1，该版本提交 2026-07-14。
 - [AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP](https://arxiv.org/abs/2607.11098v1) · 2607.11098v1，该版本提交 2026-07-13。
-
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-01 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [Abstractions of Queries in Ontology-Based Data Access](https://arxiv.org/abs/2606.24618v1) · v1 提交 2026-06-23 · [全文](https://arxiv.org/html/2606.24618v1) · [PDF](https://arxiv.org/pdf/2606.24618v1)
@@ -22,11 +20,9 @@ OBDA 通常从本体查询生成数据库查询，反方向则问：一个已有
 
 我的判断是，mapping 评审除了查生成查询是否正确，还应查哪些重要源端服务不能被语义层准确描述。这是 KR 2025 论文的扩展报告，也在 6 月 25 日日报中出现；本篇作为专题回访，侧重已有服务的语义覆盖诊断，不把它包装成新会议成果或现成部署工具。
 
-**原图入口：**[Table 1，PDF 第 2 页](https://arxiv.org/pdf/2606.24618v1#page=2)。原文标记 CC BY-NC-SA 4.0；本站用途与非商业限制的适用关系未确认，本次未转载该图。
+**原图入口：**[Table 1，PDF 第 2 页](https://arxiv.org/pdf/2606.24618v1#page=2)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Ontology-Guided Evidence Path Inference for Multi-hop Knowledge Graph Question Answering](https://arxiv.org/abs/2606.28076v1) · 2606.28076v1，该版本提交 2026-06-26。
 - [Orca: The World is in Your Mind](https://arxiv.org/abs/2606.30534v1) · 2606.30534v1，该版本提交 2026-06-29。
@@ -35,5 +31,3 @@ OBDA 通常从本体查询生成数据库查询，反方向则问：一个已有
 - [OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks](https://arxiv.org/abs/2606.29537v1) · 2606.29537v1，该版本提交 2026-06-28。
 - [Understanding and Evaluating Claw-like Agent Security Through a Computer-Systems Lens](https://arxiv.org/abs/2606.30755v1) · 2606.30755v1，该版本提交 2026-06-29。
 - [Demystifying the Design Space and Best Practices for Heterogeneous LLM Inference and Serving](https://arxiv.org/abs/2606.29708v1) · 2606.29708v1，该版本提交 2026-06-29。
-
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

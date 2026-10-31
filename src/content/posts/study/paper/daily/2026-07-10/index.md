@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-10 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [EmbodiedGen V2: An Agentic, Simulation-Ready 3D World Engine for Embodied AI](https://arxiv.org/abs/2607.07459v1) · v1 提交 2026-07-08 · [全文](https://arxiv.org/html/2607.07459v1) · [PDF](https://arxiv.org/pdf/2607.07459v1)
@@ -22,14 +20,10 @@ v1 表 4 在单张 RTX 4090 上，完全在线顺序生成 150 个交互世界�
 
 下游闭环章节汇总另一项策略学习研究，不能将该研究成功率直接当成生成器自身的控制能力。我的判断是，环境质量应以能否加载、执行与支持训练验收，仍要记录几何缺陷、尺度不匹配和初始摆放问题。离线资产复用可能节省时间，但不能省略上述完整在线成本，也不能忽略剩余未接受环境。
 
-**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2607.07459v1#page=1)。原文标记 arXiv non-exclusive distribution license；未确认第三方截图再发布许可，本次未转载该图。
+**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2607.07459v1#page=1)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.07508v1) · 2607.07508v1，该版本提交 2026-07-08。
 - [Infinite Worlds with Versatile Interactions](https://arxiv.org/abs/2607.07534v1) · 2607.07534v1，该版本提交 2026-07-08。
 - [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://arxiv.org/abs/2607.07675v1) · 2607.07675v1，该版本提交 2026-07-08。
-
-**覆盖说明：** 本期保留 4 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

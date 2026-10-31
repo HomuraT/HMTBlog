@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-05-05 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**；数值均为作者报告，本站未独立复现。
-
 ## IDEA2
 
 v1 首次提交 2026-04-01 · [IDEA2: Expert-in-the-loop competency question elicitation for collaborative ontology engineering](https://arxiv.org/abs/2604.01344v1) · [PDF](https://arxiv.org/pdf/2604.01344v1)
@@ -42,12 +40,8 @@ v1 首次提交 2026-05-01 · [To Call or Not to Call: A Framework to Assess and
 
 ## 同期其他论文入口
 
-以下只核对公开 v1 的标题、日期和链接，未逐篇复核全部实验。
-
 - [DIAL-KG: Schema-Free Incremental Knowledge Graph Construction via Dynamic Schema Induction and Evolution-Intent Assessment](https://arxiv.org/abs/2603.20059v1) · v1 首次提交 2026-03-20。
 - [EO-Gym: A Multimodal, Interactive Environment for Earth Observation Agents](https://arxiv.org/abs/2605.01250v1) · v1 首次提交 2026-05-02。
 - [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](https://arxiv.org/abs/2604.25850v1) · v1 首次提交 2026-04-28。
 - [GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents](https://arxiv.org/abs/2604.26752v1) · v1 首次提交 2026-04-29。
 - [When Modalities Remember: Continual Learning for Multimodal Knowledge Graphs](https://arxiv.org/abs/2604.02778v1) · v1 首次提交 2026-04-03。
-
-**覆盖说明：**本期保留 8 篇已核验公开论文入口，详读其中 3 篇；其余仅列阅读链接。

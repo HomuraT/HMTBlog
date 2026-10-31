@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-28 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [All Relations Lead to Rome: Automated Knowledge Graph Creation and Question Generation](https://arxiv.org/abs/2606.22645v1) · v1 提交 2026-06-21 · [全文](https://arxiv.org/html/2606.22645v1) · [PDF](https://arxiv.org/pdf/2606.22645v1)
@@ -22,11 +20,9 @@ lang: 'zh-CN'
 
 自动抽取仍可能漏实体、错连关系；同题可能存在多个合理支撑事实，严格单答案评分也会误判。我的判断是，这份历史领域材料适合检验图过滤、向量搜索与混合召回，但使用前应人工抽查实体—关系—支撑块链条，并选择允许多答案、面向召回的指标。要宣称混合检索更好，仍需补真实对照，不能以图谱规模代替效果证据。
 
-**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2606.22645v1#page=1)。原文标记 arXiv non-exclusive distribution license；未确认第三方截图再发布许可，本次未转载该图。
+**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2606.22645v1#page=1)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [ThermoLLM: Thermodynamics-Aware HVAC Control with Spatial-Semantic Knowledge Graph](https://arxiv.org/abs/2606.22911v1) · 2606.22911v1，该版本提交 2026-06-22。
 - [Hallucination in World Models is Predictable and Preventable](https://arxiv.org/abs/2606.27326v1) · 2606.27326v1，该版本提交 2026-06-25。
@@ -35,5 +31,3 @@ lang: 'zh-CN'
 - [Reinforcement Learning without Ground-Truth Solutions can Improve LLMs](https://arxiv.org/abs/2606.27369v1) · 2606.27369v1，该版本提交 2026-06-25。
 - [PhysiFormer: Learning to Simulate Mechanics in World Space](https://arxiv.org/abs/2606.27364v1) · 2606.27364v1，该版本提交 2026-06-25。
 - [World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays](https://arxiv.org/abs/2606.27374v1) · 2606.27374v1，该版本提交 2026-06-25。
-
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

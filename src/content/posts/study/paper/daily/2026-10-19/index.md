@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文为 **2026-10-19 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
-
 自然语言到 SPARQL 的错误可能来自概念绑定、连接或算子作用域，而不只是语法。Reflective Compositional Grounding 将概念组合与查询组合联系起来。
 
 ## 方法与问题
@@ -32,9 +30,7 @@ lang: 'zh-CN'
 
 图源：Isabelle Mohr , John Dujany , Andre Freitas，《Reflective Compositional Grounding for Natural-Language-to-SPARQL》，2610.21796v1，Table 1，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.21796v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [Reflective Compositional Grounding for Natural-Language-to-SPARQL](https://arxiv.org/abs/2610.21796v1) · 2610.21796v1。
 - 版本公开日期：2026-10-15。
-
-本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

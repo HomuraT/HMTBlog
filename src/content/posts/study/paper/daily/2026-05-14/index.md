@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-05-14 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于提交或发表日期，以下固定引用 **v1**；实验数值为作者报告，本站未独立复现。
-
 ## Realtime-VLA FLASH
 
 v1 首次提交 2026-05-13 · [Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs](https://arxiv.org/abs/2605.13778v1) · [PDF](https://arxiv.org/pdf/2605.13778v1)
@@ -42,11 +40,7 @@ v1 首次提交 2026-05-12 · [Solve the Loop: Attractor Models for Language and
 
 ## 同期其他论文入口
 
-以下仅核对公开 v1 的题名、日期和链接，未逐篇复核全部实验。
-
 - [A Benchmark for Gap and Overlap Analysis as a Test of KG Task Readiness](https://arxiv.org/abs/2604.10853v1) · v1 首次提交 2026-04-12。
 - [AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation](https://arxiv.org/abs/2605.13724v1) · v1 首次提交 2026-05-13。
 - [The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes](https://arxiv.org/abs/2605.11182v1) · v1 首次提交 2026-05-11。
 - [World Action Models: The Next Frontier in Embodied AI](https://arxiv.org/abs/2605.12090v1) · v1 首次提交 2026-05-12。
-
-**覆盖说明：**本期保留 7 篇已核验公开论文入口，详读其中 3 篇，其余仅列阅读链接。

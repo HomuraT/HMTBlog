@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-09-11 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 两层知识承担不同问题
 
 本文采用 9 月 10 日 v1，PDF 页首题名为 From Document Silos to Process Intelligence: A Dual-Layer Knowledge Graph for CMC Process Development；当前公开记录题名已使用 Multi-Layer，不能混用版本结果。词法层保存 Document→Section→Chunk 及来源，领域层补充本体对齐实体和跨文档关系，路由器按问题选择路径。
@@ -32,11 +30,9 @@ Claude Sonnet 4.5 在 AWS Bedrock 上运行，温度 0.2、输出上限 2,048 to
 
 图源：Reza Amirmoshiri , Faryad Sahneh , Yasser Jangjou，《From Document Silos to Process Intelligence: A Dual-Layer Knowledge Graph for CMC Process Development》，arXiv:2609.11493v1，Figure 2，PDF 第 5 页。[原图出处](https://arxiv.org/pdf/2609.11493v1#page=5) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [From Document Silos to Process Intelligence: A Dual-Layer Knowledge Graph for CMC Process Development](https://arxiv.org/abs/2609.11493v1) · v1，公开于 2026-09-10。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，题名以核验时公开记录为准，深读题名按指定 PDF 页首；仅核对版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文为 **2026-10-22 精选阅读回补**，于 2026-10-29 核对公开原文。归档日期不等于首次发表日期；数字为作者报告，本站未独立复现。
-
 CASTON 案例先以嵌入筛选可疑公理和替换候选，再由 LLM 给出修复及置信度，最后交领域专家判断。
 
 ## 方法与问题
@@ -32,9 +30,7 @@ CASTON 案例先以嵌入筛选可疑公理和替换候选，再由 LLM 给出�
 
 图源：Hui Yang , Ziyu Li , Xuan Liu , Anders Jarfors , He Tan , Jiaoyan Chen，《Ontology Refinement with Embeddings and LLMs: A Case Study on CASTON》，2610.21466v1，Table 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2610.21466v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [Ontology Refinement with Embeddings and LLMs: A Case Study on CASTON](https://arxiv.org/abs/2610.21466v1) · 2610.21466v1。
 - 版本公开日期：2026-10-15。
-
-本篇深读 1 篇，仅核对上述论文与正文引用条件；不宣称完整覆盖当天候选，也不把其余二手摘要视为已核验实验。

@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-19 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [BadWAM: When World-Action Models Dream Right but Act Wrong](https://arxiv.org/abs/2607.15207v1) · v1 提交 2026-07-16 · [全文](https://arxiv.org/html/2607.15207v1) · [PDF](https://arxiv.org/pdf/2607.15207v1)
@@ -28,12 +26,8 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [Video = World + Event Stream](https://arxiv.org/abs/2607.15038v1) · 2607.15038v1，该版本提交 2026-07-16。
 - [xHC: Expanded Hyper-Connections](https://arxiv.org/abs/2607.14530v1) · 2607.14530v1，该版本提交 2026-07-16。
 - [Scaling Behavior Foundation Model for Humanoid Robots](https://arxiv.org/abs/2607.15163v1) · 2607.15163v1，该版本提交 2026-07-16。
 - [On-Policy Delta Distillation](https://arxiv.org/abs/2607.15161v1) · 2607.15161v1，该版本提交 2026-07-16。
 - [T^2MLR: Transformer with Temporal Middle-Layer Recurrence](https://arxiv.org/abs/2607.15178v1) · 2607.15178v1，该版本提交 2026-07-16。
-
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

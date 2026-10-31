@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-13 的精选阅读**，于 2026-10-29 核对公开原文。归档日不等于论文发表日，采用下方历史版本；数字为作者报告，本站未独立复现。
-
 固定大小的循环状态仍可能造成解码带宽瓶颈，推测回滚又增加管理成本。ReplaySSM 保存检查点与最近输入，改变状态的读写周期。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ lang: 'zh-CN'
 
 图源：Ze-Wei Liou , Harris Nover , Amey Naik , Andrii Skliar , Igor Shovkun , Ido Shahaf , Tri Dao，《ReplaySSM: Cache SSM Inputs, Not State》，2610.13778v1，Table 1 and Figure 2，PDF 第 6 页。[原图出处](https://arxiv.org/pdf/2610.13778v1#page=6) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [ReplaySSM: Cache SSM Inputs, Not State](https://arxiv.org/abs/2610.13778v1) · 2610.13778v1，该版本公开于 2026-10-09。
-
-本篇深读 1 篇，仅核对上述方法、图表数字与条件；未将其他候选二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

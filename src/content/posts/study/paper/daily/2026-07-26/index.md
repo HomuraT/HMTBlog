@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-26 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [DataPrep-Bench: Benchmarking LLMs as Training Data Preparators](https://arxiv.org/abs/2607.20465v1) · v1 提交 2026-05-19 · [全文](https://arxiv.org/html/2607.20465v1) · [PDF](https://arxiv.org/pdf/2607.20465v1)
@@ -28,11 +26,7 @@ DataPrep-Bench 把准备训练数据分成两条轨道：从相同原始材料�
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [OpenForgeRL: Train Harness-native Agents in Any Environment](https://arxiv.org/abs/2607.21557v1) · 2607.21557v1，该版本提交 2026-07-23。
 - [Self-Supervised Learning of Structured Dynamics from Videos](https://arxiv.org/abs/2607.21576v1) · 2607.21576v1，该版本提交 2026-07-23。
 - [3D-Aware VLMs with Implicit and Explicit Geometries](https://arxiv.org/abs/2607.21595v1) · 2607.21595v1，该版本提交 2026-07-23。
 - [Expanding Flow Maps](https://arxiv.org/abs/2607.21585v1) · 2607.21585v1，该版本提交 2026-07-23。
-
-**覆盖说明：** 本期保留 5 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

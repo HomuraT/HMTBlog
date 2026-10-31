@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-29 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 从提示负担到后训练目标
 
 CRAFT 面向把分析请求转成专有 API 和指标代码的企业 Agent。先用 Tri-Gate 过滤验证执行、数据完整性和推理轨迹，再以去掉完整 schema 提示的 PLAN 监督微调学习计划与行为，之后通过执行结果塑造强化学习奖励。
@@ -32,11 +30,9 @@ CRAFT 面向把分析请求转成专有 API 和指标代码的企业 Agent。先
 
 图源：Aakash Kolekar , Sahika Genc , Shahriar Shariat , Bunyamin Sisman , Tibor Mezi , Barbara Poblete , Shree Vandana Kachroo , Calvin Chi , Parth Parmar , Ari Singer , Prayaas Jain , Cindy Barker , Benoit Dumoulin，《CRAFT: Learn the Schema, Execute the Plan》，arXiv:2607.22642v1，Figure 1，PDF 第 2 页。[原图出处](https://arxiv.org/pdf/2607.22642v1#page=2) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [CRAFT: Learn the Schema, Execute the Plan](https://arxiv.org/abs/2607.22642v1) · v1，公开于 2026-06-24。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

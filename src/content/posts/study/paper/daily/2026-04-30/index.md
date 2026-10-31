@@ -12,8 +12,6 @@ lang: 'zh-CN'
 
 模型之外的结构也会影响结果。业务语义文档明确数据含义，递归协作组织潜状态计算，科研检索基准则分别检验文献定位与集合覆盖。
 
-本文补录 **2026 年 4 月 30 日的推荐日报清单**，于 10 月 29 日核对公开来源。推荐日期不等于论文提交或发表日期，以下固定引用 **v1**。数字为作者报告，本站未独立复现。
-
 ## 显式语义层
 
 数据分析问答 · v1 首次提交 2026-04-28 · [Semantic Layers for Reliable LLM-Powered Data Analytics: A Paired Benchmark of Accuracy and Hallucination Across Three Frontier Models](https://arxiv.org/abs/2604.25149v1) · [PDF](https://arxiv.org/pdf/2604.25149v1)
@@ -44,12 +42,8 @@ Deep Research 根据线索定位特定论文，Wide Research 收集满足条件�
 
 ## 其他公开研究入口
 
-以下仅核对历史 v1 题名、提交日期与链接，未复核全部实验。
-
 - [RADD: Retrieval-Augmented Discrete Diffusion for Multi-Modal Knowledge Graph Completion](https://arxiv.org/abs/2604.25693v1) · v1 首次提交 2026-04-28。
 - [Toward Scalable Terminal Task Synthesis via Skill Graphs](https://arxiv.org/abs/2604.25727v1) · v1 首次提交 2026-04-28。
 - [JURY-RL: Votes Propose, Proofs Dispose for Label-Free RLVR](https://arxiv.org/abs/2604.25419v1) · v1 首次提交 2026-04-28。
 - [Scalable Inference Architectures for Compound AI Systems: A Production Deployment Study](https://arxiv.org/abs/2604.25724v1) · v1 首次提交 2026-04-28。
 - [Medoid Prototype Alignment for Cross-Plant Unknown Attack Detection in Industrial Control Systems](https://arxiv.org/abs/2604.25544v1) · v1 首次提交 2026-04-28。
-
-本期共八篇入口，展开其中三篇。

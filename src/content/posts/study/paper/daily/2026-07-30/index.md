@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-30 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [LLM-Assisted Ontology Engineering and Construction of a French Legal Knowledge Graph](https://arxiv.org/abs/2607.24551v1) · v1 提交 2026-07-27 · [全文](https://arxiv.org/html/2607.24551v1) · [PDF](https://arxiv.org/pdf/2607.24551v1)
@@ -22,16 +20,12 @@ GPT-4.1 与 mistral-large-2512 采用相同提示协议、温度 0；类引导�
 
 我的判断是，实体和谓词规范化应与签名审核一起做。新组合可能是错误，也可能暴露本体缺项，不能全部丢弃或全部接纳。原文发现类型错误会传播、过度合并可能掩盖法律语义差异；这只是信息工程案例，不构成具体法规含义或合规行为建议。
 
-**原图入口：**[Table 3，PDF 第 4 页](https://arxiv.org/pdf/2607.24551v1#page=4)。原文标记 arXiv non-exclusive distribution license；未确认第三方截图再发布许可，本次未转载该图。
+**原图入口：**[Table 3，PDF 第 4 页](https://arxiv.org/pdf/2607.24551v1#page=4)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Wonder: Video World Model Done Better](https://arxiv.org/abs/2607.26037v1) · 2607.26037v1，该版本提交 2026-07-28。
 - [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1) · 2607.25886v1，该版本提交 2026-07-28。
 - [MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities](https://arxiv.org/abs/2607.25948v1) · 2607.25948v1，该版本提交 2026-07-28。
 - [HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone](https://arxiv.org/abs/2607.25895v1) · 2607.25895v1，该版本提交 2026-07-28。
 - [Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model](https://arxiv.org/abs/2607.24904v1) · 2607.24904v1，该版本提交 2026-07-27。
-
-**覆盖说明：** 本期保留 6 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-12 的精选阅读**，于 2026-10-29 核对公开原文。归档日不等于论文发表日，采用下方历史版本；数字为作者报告，本站未独立复现。
-
 同一动词可以描述不同事件，不同动词也可能表达同类事件。CLUE 同时保留谓词中心视角与句子语义，再通过对比学习聚类、命名和标注事件类型。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ Table 2 的 MAVEN 句子级 micro-F1 中，CLUE-GPT-J 为 0.180，CEO 为 0.150�
 
 图源：Pratik Maitra , Lauren Kwon , Qi Li，《CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation》，2610.12580v1，Table 2，PDF 第 7 页。[原图出处](https://arxiv.org/pdf/2610.12580v1#page=7) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation](https://arxiv.org/abs/2610.12580v1) · 2610.12580v1，该版本公开于 2026-10-08。
-
-本篇深读 1 篇，仅核对上述方法、图表数字与条件；未将其他候选二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

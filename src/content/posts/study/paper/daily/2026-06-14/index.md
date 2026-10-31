@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-14 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [LLMs+Graphs: Toward Graph-Native, Synergistic AI Systems](https://arxiv.org/abs/2606.11560v1) · v1 提交 2026-06-10 · [全文](https://arxiv.org/html/2606.11560v1) · [PDF](https://arxiv.org/pdf/2606.11560v1)
@@ -28,13 +26,9 @@ lang: 'zh-CN'
 
 ## 同期其他论文入口
 
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
-
 - [Breaking Entropy Bounds: Accelerating RL Training via MTP with Rejection Sampling](https://arxiv.org/abs/2606.12370v1) · 2606.12370v1，该版本提交 2026-06-10。
 - [Can I Buy Your KV Cache?](https://arxiv.org/abs/2606.13361v1) · 2606.13361v1，该版本提交 2026-06-11。
 - [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://arxiv.org/abs/2606.13681v1) · 2606.13681v1，该版本提交 2026-06-11。
 - [Improving Robotic Generalist Policies via Flow Reversal Steering](https://arxiv.org/abs/2606.13675v2) · 2606.13675v2，该版本提交 2026-06-12。
 - [RepWAM: World Action Modeling with Representation Visual-Action Tokenizers](https://arxiv.org/abs/2606.13674v2) · 2606.13674v2，该版本提交 2026-06-13。
 - [Anatomy of Post-Training: Using Interpretability to Characterize Data and Shape the Learning Signal](https://arxiv.org/abs/2606.12360v2) · 2606.12360v2，该版本提交 2026-06-11。
-
-**覆盖说明：** 本期保留 7 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

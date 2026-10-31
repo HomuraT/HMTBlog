@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-03 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Better Later Than Sooner: Neuro-Symbolic Knowledge Graph Construction via Ontology-grounded Post-extraction Correction](https://arxiv.org/abs/2605.29168v1) · v1 提交 2026-05-27 · [全文](https://arxiv.org/html/2605.29168v1) · [PDF](https://arxiv.org/pdf/2605.29168v1)
@@ -24,11 +22,9 @@ lang: 'zh-CN'
 
 本体一致性只能说明满足这些结构约束，不能证明事实符合原文。我的判断是，先记录、再验证提供了实用流水线，但仍需独立验收事实忠实度和下游问答质量，不能把 96.8% 当作一般知识正确率。
 
-**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2605.29168v1#page=1)。论文为 CC BY-NC-SA 4.0，本次未确认本站用途与非商业限制的适用关系，未转载该图。
+**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2605.29168v1#page=1)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Tacit Knowledge Extraction via Logic Augmented Generation and Active Inference](https://arxiv.org/abs/2605.07639v1) · 2605.07639v1，该版本提交 2026-05-08。
 - [Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments](https://arxiv.org/abs/2605.30280v2) · 2605.30280v2，该版本提交 2026-06-01。
@@ -36,5 +32,3 @@ lang: 'zh-CN'
 - [Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention](https://arxiv.org/abs/2605.29548v2) · 2605.29548v2，该版本提交 2026-06-01。
 - [LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards](https://arxiv.org/abs/2605.31584v1) · 2605.31584v1，该版本提交 2026-05-29。
 - [Mellum2 Technical Report](https://arxiv.org/abs/2605.31268v1) · 2605.31268v1，该版本提交 2026-05-29。
-
-**覆盖说明：**本期保留 7 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

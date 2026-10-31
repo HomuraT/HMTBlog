@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-09 的精选阅读**，于 2026-10-29 核对公开原文。推荐日不等于发表日，使用下方指定历史版本。实验为作者报告，本站未独立复现。
-
 如果裁判提前看到系统的匹配或不匹配标签，评分可能变成替既有结论找理由。本文用实体对齐检查这种锚定，而非只比较裁判规模。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ lang: 'zh-CN'
 
 图源：Vaibhava Lakshmi Ravideshik , Mayank Kejriwal，《Reliability of LLM Judges for Evaluating Entity Alignment》，arXiv:2610.09554v1，Figure 3，PDF 第 8 页。[原图出处](https://arxiv.org/pdf/2610.09554v1#page=8) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [Reliability of LLM Judges for Evaluating Entity Alignment](https://arxiv.org/abs/2610.09554v1) · 2610.09554v1，该版本提交 2026-10-07。
-
-本篇深读 1 篇，仅核对上述论文及正文引用条件；未将其他候选的二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

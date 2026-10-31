@@ -12,8 +12,6 @@ lang: 'zh-CN'
 
 数据接口可以更友好，模型状态可以更紧凑，但都需要核对表达范围与评测条件。本期从知识图谱查询出发，讨论长上下文更新与关系数据的结构质量。
 
-本文补录 2026 年 8 月 25 日的日报清单，于 10 月 29 日核对公开原文。日报日期不代表论文发表日，以下固定引用 **v1**。数值为作者报告，本站未独立复现。
-
 ## bikiDATA
 
 RDF 数据探索 · [bikiDATA: A Python Library to Query and Explore Large-Scale RDF Datasets v1](https://arxiv.org/abs/2608.20358v1) · [全文](https://arxiv.org/html/2608.20358v1)

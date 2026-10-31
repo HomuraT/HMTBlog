@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-08 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [Schema-Agnostic Knowledge Graph Construction via Hybrid Ontology Discovery for Cyber Threat Intelligence](https://arxiv.org/abs/2606.01208v1) · v1 提交 2026-05-31 · [全文](https://arxiv.org/html/2606.01208v1) · [PDF](https://arxiv.org/pdf/2606.01208v1)
@@ -24,11 +22,9 @@ UCO 含 419 个类。表 III 的实体类型层级 F1 中，ANCHOR 为 0.7347，
 
 我的判断是，可导航、可检查的类型选择比一次性提示更适合大型本体，但收益取决于规模、层级与任务。通过 SHACL 不保证攻击事实真实，抽取遗漏和错误共指也仍会存在。本地运行减少部分外传路径，却不自动等于完整隐私保障。
 
-**原图入口：**[Figure 2，PDF 第 5 页](https://arxiv.org/pdf/2606.01208v1#page=5)。本次仅确认 arXiv 非独占分发许可，未确认第三方截图再发布权，未转载该图。
+**原图入口：**[Figure 2，PDF 第 5 页](https://arxiv.org/pdf/2606.01208v1#page=5)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Agents' Last Exam](https://arxiv.org/abs/2606.05405v1) · 2606.05405v1，该版本提交 2026-06-03。
 - [OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021v2) · 2606.06021v2，该版本提交 2026-06-08。
@@ -37,5 +33,3 @@ UCO 含 419 个类。表 III 的实体类型层级 F1 中，ANCHOR 为 0.7347，
 - [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473v1) · 2606.06473v1，该版本提交 2026-06-04。
 - [Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution](https://arxiv.org/abs/2606.06492v1) · 2606.06492v1，该版本提交 2026-06-04。
 - [Cosmos 3: Omnimodal World Models for Physical AI](https://arxiv.org/abs/2606.02800v2) · 2606.02800v2，该版本提交 2026-06-05。
-
-**覆盖说明：**本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

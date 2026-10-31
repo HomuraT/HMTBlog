@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-07-07 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方指定历史版本，不混入后续修订。实验数据为作者报告，本站未独立复现。理论论文不补造实验指标。
-
 ## 重点阅读
 
 [Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination](https://arxiv.org/abs/2607.00924v1) · v1 提交 2026-07-01 · [全文](https://arxiv.org/html/2607.00924v1) · [PDF](https://arxiv.org/pdf/2607.00924v1)
@@ -22,11 +20,9 @@ Graph-PRefLexOR 将机制探索、关系图、模式抽取和假设综合纳入�
 
 我认为可追踪性值得成为训练目标，但显式图不自动保证因果关系真实。增加测试时图扩展主要反映概念重组，仍需检查图边的证据来源、裁判偏差、评分尺度及外部验证。提高多样性与提高科学正确性也应分别验收。
 
-**原图入口：**[Figure 1，PDF 第 3 页](https://arxiv.org/pdf/2607.00924v1#page=3)。原文标记 CC BY-NC-ND 4.0；非商业、禁止演绎限制与本站用途及裁切方式的适用关系未确认，本次未转载该图。
+**原图入口：**[Figure 1，PDF 第 3 页](https://arxiv.org/pdf/2607.00924v1#page=3)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [Agentic generation of verifiable rules for deterministic, self-expanding reaction classification](https://arxiv.org/abs/2607.01061v1) · 2607.01061v1，该版本提交 2026-07-01。
 - [Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training](https://arxiv.org/abs/2607.01232v1) · 2607.01232v1，该版本提交 2026-07-01。
@@ -38,5 +34,3 @@ Graph-PRefLexOR 将机制探索、关系图、模式抽取和假设综合纳入�
 - [Purified OPSD: On-Policy Self-Distillation Without Losing How to Think](https://arxiv.org/abs/2607.02234v1) · 2607.02234v1，该版本提交 2026-07-02。
 
 其中 2607.01232v1 已在 7 月 3 日列为阅读入口，本篇仅保留链接，不重复展开。
-
-**覆盖说明：** 本期保留 9 篇已核验公开论文入口，详读 1 篇，其余仅列目录。

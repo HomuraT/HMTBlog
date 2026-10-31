@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-06-09 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于论文发表日期；采用下方明确标记的历史版本，不混用后续修订。数值均为作者报告，本站未独立复现。
-
 ## 重点阅读
 
 [From USD Scenes to Knowledge Graphs: Zero-Shot Ontology Grounding with LLMs](https://arxiv.org/abs/2606.09134v1) · v1 提交 2026-06-08 · [全文](https://arxiv.org/html/2606.09134v1) · [PDF](https://arxiv.org/pdf/2606.09134v1)
@@ -22,11 +20,9 @@ USD 描述三维场景层级和几何，本体定义类别与语义。From USD S
 
 这个控制实验比最高分更值得看：目标没有名字，不代表周围标签没有语义提示。系统可能主要在读场景名称，而非理解几何。方法可帮助命名良好的资产库减少手写词典，但杯、碗等形状相近对象仍会混淆。单一厨房场景、无方差估计限制了迁移结论；真实应用应将命名证据与形状证据分别审查，并保留人工确认。
 
-**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2606.09134v1#page=1)。本次仅确认 arXiv 非独占分发许可，未确认第三方截图再发布权，未转载该图。
+**原图入口：**[Figure 1，PDF 第 1 页](https://arxiv.org/pdf/2606.09134v1#page=1)。
 
 ## 同期其他论文入口
-
-以下只核对题名、标识符和指定历史版本，不代表逐篇全文深读。
 
 - [MetaConfigurator: AI-Assisted RDF Authoring from JSON Data](https://arxiv.org/abs/2606.07094v1) · 2606.07094v1，该版本提交 2026-06-05。
 - [Latent Spatial Memory for Video World Models](https://arxiv.org/abs/2606.09828v1) · 2606.09828v1，该版本提交 2026-06-08。
@@ -35,5 +31,3 @@ USD 描述三维场景层级和几何，本体定义类别与语义。From USD S
 - [FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention](https://arxiv.org/abs/2606.09079v2) · 2606.09079v2，该版本提交 2026-06-09。
 - [Bridging the Agent-World Gap: Text World Models for LLM-based Agents](https://arxiv.org/abs/2606.09032v1) · 2606.09032v1，该版本提交 2026-06-08。
 - [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498v1) · 2606.09498v1，该版本提交 2026-06-08。
-
-**覆盖说明：** 本期保留 8 篇已核验公开论文入口，详读 1 篇；其余仅列目录。

@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-14 的精选阅读**，于 2026-10-29 核对公开原文。归档日不等于论文发表日，采用下方历史版本；数字为作者报告，本站未独立复现。
-
 知识图谱问答必须同时找到实体、关系、端点与查询结构。SPARQL-LLM 的挑战赛结果值得读，但其中约 59% 的提升需要明确分母。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ lang: 'zh-CN'
 
 图源：Panayiotis Smeros , Vincent Emonet , Ruijie Wang , Ana-Claudia Sima , Tarcisio Mendes de Farias，《SPARQL-LLM in the TEXT2SPARQL 2026 Challenge》，2610.13648v1，Figure 1，PDF 第 3 页。[原图出处](https://arxiv.org/pdf/2610.13648v1#page=3) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [SPARQL-LLM in the TEXT2SPARQL 2026 Challenge](https://arxiv.org/abs/2610.13648v1) · 2610.13648v1，该版本公开于 2026-10-09。
-
-本篇深读 1 篇，仅核对上述方法、图表数字与条件；未将其他候选二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。

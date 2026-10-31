@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-05-21 的推荐日报清单**，于 2026-10-29 核对公开来源。推荐日期不等于提交或发表日期，以下固定引用 **v1**；实验数值为作者报告，本站未独立复现。
-
 ## EqR
 
 v1 首次提交 2026-05-20 · [Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning](https://arxiv.org/abs/2605.21488v1) · [PDF](https://arxiv.org/pdf/2605.21488v1)
@@ -42,13 +40,9 @@ RAGA 将阅读、搜索、核验、建图放进 ReAct 循环，以原子工具�
 
 ## 同期其他论文入口
 
-以下仅核对公开 v1 的题名、日期和链接，未逐篇复核全部实验。
-
 - [Relational Database Data Lineage Ontology](https://arxiv.org/abs/2605.16068v1) · v1 首次提交 2026-05-15。
 - [GRID: Graph Representation of Intelligence Data for Security Text Knowledge Graph Construction](https://arxiv.org/abs/2605.16714v1) · v1 首次提交 2026-05-15。
 - [Flash PD-SSM: Memory-Optimized Structured Sparse State-Space Models](https://arxiv.org/abs/2605.19150v1) · v1 首次提交 2026-05-18。
 - [Event-Grounded Sparse Autoencoders for Vision-Language-Action Policies](https://arxiv.org/abs/2605.17204v1) · v1 首次提交 2026-05-17。
 - [Generative Recursive Reasoning](https://arxiv.org/abs/2605.19376v1) · v1 首次提交 2026-05-19。
 - [EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL](https://arxiv.org/abs/2605.18703v1) · v1 首次提交 2026-05-18。
-
-**覆盖说明：**本期保留 9 篇已核验公开论文入口，详读其中 3 篇，其余仅列阅读链接。

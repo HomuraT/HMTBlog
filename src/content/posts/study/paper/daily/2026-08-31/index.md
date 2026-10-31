@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-08-31 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 专家描述是否携带层级信息
 
 这项 Reactome 研究从 Homo sapiens 的通路和反应描述出发，用 SPECTER2 表示文本，再通过修改的凝聚聚类与图重构，建立 Semantic Hierarchy，与专家整理的 Reactome Hierarchy 比较。
@@ -28,13 +26,11 @@ lang: 'zh-CN'
 
 ## 原图入口
 
-[Figure 1，原论文 PDF 第 5 页](https://arxiv.org/pdf/2608.28178v1#page=5)。该版本未确认开放截图转载权限，本篇仅保留原图链接。
+[Figure 1，原论文 PDF 第 5 页](https://arxiv.org/pdf/2608.28178v1#page=5)。
 
-## 深读原文与范围
+## 论文来源
 
 - [Expert Knowledge & Machine Understanding: Bridging Reactome's Ontology with LLM Semantic Embeddings](https://arxiv.org/abs/2608.28178v1) · v1，公开于 2026-08-28。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，仅核对标题、版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

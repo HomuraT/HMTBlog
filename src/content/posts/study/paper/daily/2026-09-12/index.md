@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-09-12 的精选阅读**，于 2026-10-29 核对公开原文。归档日不是发表日；本文固定使用下列 v1，不混入后续修订。数字为作者报告，本站未独立复现。
-
 ## 结构描述与检索共同约束查询
 
 EXYGEN 将 VoID 统计描述与 ShEx schema 接入 RAG，用图谱派生上下文指导 SPARQL。它同时研究大图如何产生这些元数据，避免完整遍历成为瓶颈。
@@ -32,11 +30,9 @@ SciQA 共 2,565 对问句—查询，测试集 513 对。结合 ShEx、检索三
 
 图源：Harshdeep Singh , Yurui Zhu , Giovanni Colavizza , Matteo Romanello，《Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)》，arXiv:2609.11569v1，Figure 1，PDF 第 4 页。[原图出处](https://arxiv.org/pdf/2609.11569v1#page=4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 深读原文与范围
+## 论文来源
 
 - [Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)](https://arxiv.org/abs/2609.11569v1) · v1，公开于 2026-09-10。
-
-本篇深读上述 1 篇；以下是同日公开阅读入口，题名以核验时公开记录为准，深读题名按指定 PDF 页首；仅核对版本日期和来源，未逐篇核验实验。
 
 ## 同日阅读目录
 

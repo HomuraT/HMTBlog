@@ -10,8 +10,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本文补录 **2026-10-10 的精选阅读**，于 2026-10-29 核对公开原文。推荐日不等于发表日，使用下方指定历史版本。实验为作者报告，本站未独立复现。
-
 去中心化图查询的瓶颈可能是访问太多无关数据源，而不是三元组匹配本身。本文把 RDF shape 从约束说明变成链接遍历的剪枝地图。
 
 ## 方法与问题
@@ -32,8 +30,6 @@ shape index 与查询—shape 包含判断决定哪些资源值得访问，主�
 
 图源：Bryan-Elliott Tam , Joanna Van Herwegen , Pieter Colpaert , Ruben Verborgh , Ruben Taelman，《Traveling with a Map: Reducing the Search Space of Link Traversal Queries Using RDF Shapes》，arXiv:2610.11701v1，Figure 5，PDF 第 12 页。[原图出处](https://arxiv.org/pdf/2610.11701v1#page=12) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。
 
-## 原文与核验范围
+## 论文来源
 
 - [Traveling with a Map: Reducing the Search Space of Link Traversal Queries Using RDF Shapes](https://arxiv.org/abs/2610.11701v1) · 2610.11701v1，该版本提交 2026-10-08。
-
-本篇深读 1 篇，仅核对上述论文及正文引用条件；未将其他候选的二手摘要算作已核验结论，也不宣称完整覆盖当天所有论文。
