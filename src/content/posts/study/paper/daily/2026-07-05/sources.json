@@ -83,6 +83,154 @@
 			"image_size": [1283, 638],
 			"sha256": "b14ef532a3cabe32ea63b47f67dcaf223d2cb970d157ef0e8cd07e88e8b2f1c0",
 			"source_pdf_sha256": "6662a81b00a6c049035857d86f2ecadd36281d1f2652a41aa97a031874f99e33"
+		},
+		"paper-260700003-table2.png": {
+			"authors": [
+				"Dasgupta, Abhirup",
+				"Spadea, Fernando",
+				"Seneviratne, Oshani"
+			],
+			"paper_title": "From \"Strings\" to \"Things\" for Personal Knowledge Graphs: Evaluating LLM Triple Extraction for Recommendation Systems",
+			"source": "https://arxiv.org/pdf/2607.00003v1#page=10",
+			"item": "Table 2",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				69.22002410888672, 66.04927062988281, 526.06884765625, 560.6268920898438
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5c5c9f7d3d906e0a864909bbc39a4fc86fd372d6625e3b8a0670ae832018e816",
+			"source_pdf_sha256": "c94dab9e59e4f7935b27360b7e8027f63f6727d9b2189d0fea7917717f3d32ca"
+		},
+		"paper-260701531-figure1.png": {
+			"authors": ["Courtis, David", "Li, Wenhao", "Sanner, Scott"],
+			"paper_title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
+			"source": "https://arxiv.org/pdf/2607.01531v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 67.00030517578125, 545.0657958984375, 296.8773193359375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e792cc6ff49a9837559308e64fdd555524e66cb05fe4dc60a5c27a07a592c475",
+			"source_pdf_sha256": "d24493c9580b60e8c21a8f9d34733449245aa32e3e8092326a2f2c02c14903f3"
+		},
+		"paper-260701531-table1.png": {
+			"authors": ["Courtis, David", "Li, Wenhao", "Sanner, Scott"],
+			"paper_title": "OPINE-World: Programmatic World Modeling with Ontology-error-Prioritized Interactive Exploration",
+			"source": "https://arxiv.org/pdf/2607.01531v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 78, 543, 234],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d89b29937c250182747f3395a5cfe68b9cec462ded2aded05e14dfb2bf809edb",
+			"source_pdf_sha256": "d24493c9580b60e8c21a8f9d34733449245aa32e3e8092326a2f2c02c14903f3"
+		},
+		"paper-260700784-figure1.png": {
+			"authors": [
+				"Kuhn, Lukas",
+				"Serra, Giuseppe",
+				"Balestriero, Randall",
+				"Buettner, Florian"
+			],
+			"paper_title": "LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives",
+			"source": "https://arxiv.org/pdf/2607.00784v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [49, 69, 564, 282],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "54422b7b0314087fb21f505ea7fcf9206a30585199cd00ed30f440a59e8b5f9a",
+			"source_pdf_sha256": "d71bbb763e25cf54dec92888f588184dc951f9033348d89ff1e2bdcbd0af392e"
+		},
+		"paper-260700784-table5.png": {
+			"authors": [
+				"Kuhn, Lukas",
+				"Serra, Giuseppe",
+				"Balestriero, Randall",
+				"Buettner, Florian"
+			],
+			"paper_title": "LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives",
+			"source": "https://arxiv.org/pdf/2607.00784v1#page=7",
+			"item": "Table 5",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [315, 73, 565, 262],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8af505c529ced9e4183f2c32e878d8e802e25c36b006549093b1d262380435a9",
+			"source_pdf_sha256": "d71bbb763e25cf54dec92888f588184dc951f9033348d89ff1e2bdcbd0af392e"
+		},
+		"paper-260701775-figure1.png": {
+			"authors": ["Arriola, Marianne", "Kuleshov, Volodymyr"],
+			"paper_title": "Set Diffusion: Interpolating Token Orderings Between Autoregression and Diffusion for Fast and Flexible Decoding",
+			"source": "https://arxiv.org/pdf/2607.01775v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [52, 68, 545, 279],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bbf0607d6a611505ce7ffc569dfb6922891e76d55698c4a00b0aa05aae409ca8",
+			"source_pdf_sha256": "a744e6614b50c065dea6732879cc1072089f9493157906630ee4fece16b67eef"
+		},
+		"paper-260701775-table1.png": {
+			"authors": ["Arriola, Marianne", "Kuleshov, Volodymyr"],
+			"paper_title": "Set Diffusion: Interpolating Token Orderings Between Autoregression and Diffusion for Fast and Flexible Decoding",
+			"source": "https://arxiv.org/pdf/2607.01775v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [52, 174, 294, 383],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3ee30b3d71c9cd209339359f4f2d3178199cd78cc378c333233e68bc479412b3",
+			"source_pdf_sha256": "a744e6614b50c065dea6732879cc1072089f9493157906630ee4fece16b67eef"
+		},
+		"paper-260632026-figure1.png": {
+			"authors": [
+				"Wang, Ying",
+				"Bounou, Oumayma",
+				"LeCun, Yann",
+				"Ren, Mengye"
+			],
+			"paper_title": "AdaJEPA: An Adaptive Latent World Model",
+			"source": "https://arxiv.org/pdf/2606.32026v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 67.00018310546875, 545.0042724609375, 320.02960205078125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7027889d1ceb0ab50e6f96b83048699ea1651360dcf3724eac099fef94d0b07c",
+			"source_pdf_sha256": "8e4dfbf66b1f4b0ef46122dab4a291a470ff55cd736a384de298516df3c4b2f1"
+		},
+		"paper-260632026-table1.png": {
+			"authors": [
+				"Wang, Ying",
+				"Bounou, Oumayma",
+				"LeCun, Yann",
+				"Ren, Mengye"
+			],
+			"paper_title": "AdaJEPA: An Adaptive Latent World Model",
+			"source": "https://arxiv.org/pdf/2606.32026v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 69, 543, 214],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "72aac706d177ff8b69cfd28b663c7b4ff536729b7bb044d87fa86824323dc4da",
+			"source_pdf_sha256": "8e4dfbf66b1f4b0ef46122dab4a291a470ff55cd736a384de298516df3c4b2f1"
 		}
-	}
+	},
+	"published_paper_count": 9
 }

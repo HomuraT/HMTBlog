@@ -76,6 +76,175 @@
 			"image_size": [1280, 715],
 			"sha256": "f34d81b01d6d8ecf29267a287b6b34ba56c81858e40eb4664638a0f9f051ecd1",
 			"source_pdf_sha256": "32f128fc00dec4022e2e184e7f9cffbee3c4a40a54836cee5af96f364bf18fed"
+		},
+		"paper-260702512-figure2.png": {
+			"authors": [
+				"Zhang, Wentao",
+				"Hotsko, Liliana",
+				"Kim, Woojeong",
+				"Nie, Pengyu",
+				"Shieber, Stuart",
+				"Deng, Yuntian"
+			],
+			"paper_title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+			"source": "https://arxiv.org/pdf/2607.02512v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 66.99864959716797, 510.74359130859375,
+				282.6210632324219
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4d17223b7dbaea78423ef24943b0aa33ef28cfec3c50e5d779647219ce57c187",
+			"source_pdf_sha256": "546f833487392f7dc31cf72c04e13eeac77c794420e575d7af2041308f7cdb7d"
+		},
+		"paper-260702512-table2.png": {
+			"authors": [
+				"Zhang, Wentao",
+				"Hotsko, Liliana",
+				"Kim, Woojeong",
+				"Nie, Pengyu",
+				"Shieber, Stuart",
+				"Deng, Yuntian"
+			],
+			"paper_title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
+			"source": "https://arxiv.org/pdf/2607.02512v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 69, 509, 294],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e6a4f9972af386b87680063e48087dfaee13a569ef211a8266e94e7b9082f31c",
+			"source_pdf_sha256": "546f833487392f7dc31cf72c04e13eeac77c794420e575d7af2041308f7cdb7d"
+		},
+		"paper-260702514-figure1.png": {
+			"authors": ["Hills, Josh", "Caspary, Ida", "Stickland, Asa Cooper"],
+			"paper_title": "Distributed Attacks in Persistent-State AI Control",
+			"source": "https://arxiv.org/pdf/2607.02514v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 77.44955444335938, 509.0035095214844, 293.3208312988281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1df7e7de73ffe81ed555ceb58616e608610ec04541d61dc71b5c67b6d45bad5a",
+			"source_pdf_sha256": "4466f578b82dbb1e8e3d9f87769e9f0c4e4a7d09c803e1d9dea374627212bbd7"
+		},
+		"paper-260702514-table3.png": {
+			"authors": ["Hills, Josh", "Caspary, Ida", "Stickland, Asa Cooper"],
+			"paper_title": "Distributed Attacks in Persistent-State AI Control",
+			"source": "https://arxiv.org/pdf/2607.02514v1#page=6",
+			"item": "Table 3",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 487, 508, 611],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d0c87d3672f76d71627c11622114ffd4695fc5edf978146510895ae881e8209d",
+			"source_pdf_sha256": "4466f578b82dbb1e8e3d9f87769e9f0c4e4a7d09c803e1d9dea374627212bbd7"
+		},
+		"paper-260702509-figure2.png": {
+			"authors": [
+				"Zhao, Yanjun",
+				"Qiu, Ruizhong",
+				"Wei, Tianxin",
+				"Bei, Yuanchen",
+				"Liu, Zhining",
+				"Chen, Lingjie",
+				"Lourentzou, Ismini",
+				"Tong, Hanghang",
+				"He, Jingrui"
+			],
+			"paper_title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+			"source": "https://arxiv.org/pdf/2607.02509v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.86412048339844, 529.4070434570312,
+				350.6270751953125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "918a32271d9b0ae6208301da194395b93a430df2132f3c8ce54e0bbf319ca1e1",
+			"source_pdf_sha256": "43659054fcd39b5d02445c1b6857e01014ebaeb035f6a02ed7c9b759b59c852f"
+		},
+		"paper-260702509-table1.png": {
+			"authors": [
+				"Zhao, Yanjun",
+				"Qiu, Ruizhong",
+				"Wei, Tianxin",
+				"Bei, Yuanchen",
+				"Liu, Zhining",
+				"Chen, Lingjie",
+				"Lourentzou, Ismini",
+				"Tong, Hanghang",
+				"He, Jingrui"
+			],
+			"paper_title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+			"source": "https://arxiv.org/pdf/2607.02509v1#page=4",
+			"item": "Table 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.55699920654297, 66.65682220458984, 529.5828247070312, 350.9609375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5ffd42baffe17bd45abd750ba731a3774426e1f299378a457ec554afa89c92f5",
+			"source_pdf_sha256": "43659054fcd39b5d02445c1b6857e01014ebaeb035f6a02ed7c9b759b59c852f"
+		},
+		"paper-260702501-figure1.png": {
+			"authors": [
+				"Xu, Ling",
+				"Han, Chuyu",
+				"Li, Borui",
+				"Wu, Hao",
+				"Jiang, Shiqi",
+				"Cao, Ting",
+				"Li, Chuanyou",
+				"Zhong, Sheng",
+				"Wang, Shuai"
+			],
+			"paper_title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+			"source": "https://arxiv.org/pdf/2607.02501v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [59, 107, 554, 388],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5a1cfdd9df06b09b5ca50e84faafb17e9f87447b4f12b9a5e26193b2a452ce32",
+			"source_pdf_sha256": "f3c66d879e1e2709fbe436fd586bb46046e69b922be53207ae31d6e5a6abb62b"
+		},
+		"paper-260702501-table4.png": {
+			"authors": [
+				"Xu, Ling",
+				"Han, Chuyu",
+				"Li, Borui",
+				"Wu, Hao",
+				"Jiang, Shiqi",
+				"Cao, Ting",
+				"Li, Chuanyou",
+				"Zhong, Sheng",
+				"Wang, Shuai"
+			],
+			"paper_title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+			"source": "https://arxiv.org/pdf/2607.02501v1#page=8",
+			"item": "Table 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [59, 215, 553, 299],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9e92fe330156a7b68adeaabfa0ea922876ad1a9860d077141c1fd121cd49eaa8",
+			"source_pdf_sha256": "f3c66d879e1e2709fbe436fd586bb46046e69b922be53207ae31d6e5a6abb62b"
 		}
-	}
+	},
+	"published_paper_count": 8
 }
