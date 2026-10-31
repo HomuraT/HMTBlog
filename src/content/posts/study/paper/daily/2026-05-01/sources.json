@@ -83,6 +83,145 @@
 			"image_size": [1265, 515],
 			"sha256": "b530ee7cc82bcfd6d8b88c7dfb9f0275a645bbdd5429d8b35df9d3cef627f8fd",
 			"source_pdf_sha256": "66cac434158a8e4db2ab6e154f3654300bcb92f723b7545f0fc576924dcb23d1"
+		},
+		"paper-260426951-figure2.png": {
+			"authors": ["Zhang, Gongbo", "Wang, Wen", "Tian, Ye", "Yuan, Li"],
+			"paper_title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+			"source": "https://arxiv.org/pdf/2604.26951v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.40585327148438, 76.85795593261719, 510.657958984375,
+				362.9919128417969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8fa33eec54b528c331fa9129886b71a46fe23f278c2e60c3b15ddb33337ad8b4",
+			"source_pdf_sha256": "32b77afcc93e203bc50112ace871a72ddbebc8e36d18bb87b6bd5bd633289415"
+		},
+		"paper-260426951-table1.png": {
+			"authors": ["Zhang, Gongbo", "Wang, Wen", "Tian, Ye", "Yuan, Li"],
+			"paper_title": "Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models",
+			"source": "https://arxiv.org/pdf/2604.26951v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 77.31723022460938, 510.6493835449219,
+				250.67724609375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ec3315b3bc8350a46d04e9cead355d34e54865bb887a040534744fb645755b8c",
+			"source_pdf_sha256": "32b77afcc93e203bc50112ace871a72ddbebc8e36d18bb87b6bd5bd633289415"
+		},
+		"paper-260425135-figure2.png": {
+			"authors": [
+				"Saeidi, Amir",
+				"Mishra, Venkatesh",
+				"Mukhopadhyay, Souradeep",
+				"Liu, Gaowen",
+				"Payani, Ali",
+				"Srinivasa, Jayanth",
+				"Baral, Chitta"
+			],
+			"paper_title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+			"source": "https://arxiv.org/pdf/2604.25135v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.8687744140625, 531.1508178710938,
+				385.4640808105469
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8b8319d1a9d1ee10d2ba00a548561c0b35a7d692b141a2e176b1ff1cddf62dae",
+			"source_pdf_sha256": "624cfe58588b6ea4b72bbfa4430a5ff080a94454d77c880ccb21e15c4a67370b"
+		},
+		"paper-260425135-table1.png": {
+			"authors": [
+				"Saeidi, Amir",
+				"Mishra, Venkatesh",
+				"Mukhopadhyay, Souradeep",
+				"Liu, Gaowen",
+				"Payani, Ali",
+				"Srinivasa, Jayanth",
+				"Baral, Chitta"
+			],
+			"paper_title": "FAMA: Failure-Aware Meta-Agentic Framework for Open-Source LLMs in Interactive Tool Use Environments",
+			"source": "https://arxiv.org/pdf/2604.25135v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 65, 532, 377],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c5eee4f5ee3286e764c908ec786cc150e89c1e1a3254cb8ef3ddca0055c858db",
+			"source_pdf_sha256": "624cfe58588b6ea4b72bbfa4430a5ff080a94454d77c880ccb21e15c4a67370b"
+		},
+		"paper-260424827-figure1.png": {
+			"authors": ["Li, Bojie"],
+			"paper_title": "Incompressible Knowledge Probes: Estimating Black-Box LLM Parameter Counts via Factual Capacity",
+			"source": "https://arxiv.org/pdf/2604.24827v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 133.6761474609375, 545.0030517578125, 515.2868347167969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f6a1b8b364afe610ec02ad6578732d11a3d083c06e332935576f25ebc89ffe1f",
+			"source_pdf_sha256": "3ad2b78cb2b7b4e58c6253815ad002146f39e38fc71b33750f7f100f3b071421"
+		},
+		"paper-260424827-figure3.png": {
+			"authors": ["Li, Bojie"],
+			"paper_title": "Incompressible Knowledge Probes: Estimating Black-Box LLM Parameter Counts via Factual Capacity",
+			"source": "https://arxiv.org/pdf/2604.24827v1#page=11",
+			"item": "Figure 3",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 142.57797241210938, 545.012451171875, 702.5507202148438
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "66af9815a4dd06fc6ab99c82e04cb7a55629bd4430d3e58b48b0d70cb3940fe7",
+			"source_pdf_sha256": "3ad2b78cb2b7b4e58c6253815ad002146f39e38fc71b33750f7f100f3b071421"
+		},
+		"paper-260427039-figure2.png": {
+			"authors": [
+				"Zhang, Zhen",
+				"Yang, Changyi",
+				"Xia, Zijie",
+				"Yang, Zhen",
+				"Liu, Chengzhi",
+				"Weng, Zhaotiao",
+				"Liu, Yepeng",
+				"Chen, Haobo",
+				"Pan, Jin",
+				"Zhao, Chenyang",
+				"Bu, Yuheng",
+				"Patel, Alkesh",
+				"Gan, Zhe",
+				"Wang, Xin Eric"
+			],
+			"paper_title": "Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling",
+			"source": "https://arxiv.org/pdf/2604.27039v1#page=10",
+			"item": "Figure 2",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				45.75212860107422, 78.35131072998047, 564.8043212890625,
+				340.1820068359375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c5584ccb6fda5086d478b87510c5b50b51feaac6575df1d9a645eeac7dfd7af7",
+			"source_pdf_sha256": "66cac434158a8e4db2ab6e154f3654300bcb92f723b7545f0fc576924dcb23d1"
 		}
-	}
+	},
+	"published_paper_count": 9
 }
