@@ -62,9 +62,86 @@
 			"image_size": [1138, 690],
 			"sha256": "715e8e7765e1f8e540b423b71d3be03fe308a9af56fc5275be2ad1ad287da8fd",
 			"source_pdf_sha256": "af801ae311923b0bf0df3045b7e8d61e6d0ab5a9cfe6ba73570de90b785deb86"
+		},
+		"paper-260712717-figure2.png": {
+			"authors": [
+				"Ji, Daomin",
+				"Luo, Hui",
+				"Bao, Zhifeng",
+				"Culpepper, Shane",
+				"Sadiq, Shazia"
+			],
+			"paper_title": "GRAFT: Graph-Matched Retrieval and Fusion of Tables in Data Lakes",
+			"source": "https://arxiv.org/pdf/2607.12717v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				312.9549865722656, 289.21527099609375, 563.1981201171875,
+				403.78662109375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "88725607f92e993a543280e83d57990b8da34a0fb65656aa221992af0625f410",
+			"source_pdf_sha256": "3901e99e25359f81e9c4426a36a4cc01e97ed32a38252a1cd801738534bd9aa3"
+		},
+		"paper-260712717-table2.png": {
+			"authors": [
+				"Ji, Daomin",
+				"Luo, Hui",
+				"Bao, Zhifeng",
+				"Culpepper, Shane",
+				"Sadiq, Shazia"
+			],
+			"paper_title": "GRAFT: Graph-Matched Retrieval and Fusion of Tables in Data Lakes",
+			"source": "https://arxiv.org/pdf/2607.12717v1#page=10",
+			"item": "Table 2",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				51.203216552734375, 77.48721313476562, 563.2092895507812,
+				213.76318359375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3ef02d2a096a35b726e99ad2dec408bd597d526b55a647c316528903ad69edda",
+			"source_pdf_sha256": "3901e99e25359f81e9c4426a36a4cc01e97ed32a38252a1cd801738534bd9aa3"
+		},
+		"paper-260711098-figure1.png": {
+			"authors": ["Mazumder, Aritra", "Lia, Nusrat jahan"],
+			"paper_title": "AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP",
+			"source": "https://arxiv.org/pdf/2607.11098v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.53700256347656, 68.78097534179688, 529.6536865234375,
+				305.8409729003906
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "dc487f26dbf9deea778cf1f1161c2756e924f473a0d583ebbe2db379e45ac5f1",
+			"source_pdf_sha256": "d2ff00f7816732bb9c86878c0a2e184433c45c3a734617adbf126448bb203d7c"
+		},
+		"paper-260711098-figure3.png": {
+			"authors": ["Mazumder, Aritra", "Lia, Nusrat jahan"],
+			"paper_title": "AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP",
+			"source": "https://arxiv.org/pdf/2607.11098v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 68.18397521972656, 530.2408447265625,
+				267.8561096191406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a3cdb273dae0c398e4d0724f2b5a49021536ef9c6aec8a596d113301f1ebff35",
+			"source_pdf_sha256": "d2ff00f7816732bb9c86878c0a2e184433c45c3a734617adbf126448bb203d7c"
 		}
 	},
 	"verification_notes": [
 		"Original paired interval percentage-to-task conversion is internally inconsistent; precise width not reproduced. Equal36/40 counts do not establish statistical equivalence."
-	]
+	],
+	"published_paper_count": 6
 }

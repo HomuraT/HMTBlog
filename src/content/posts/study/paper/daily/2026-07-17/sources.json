@@ -47,7 +47,114 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260713988-figure2.png": {
+			"authors": [
+				"Tao, Leitian",
+				"Peng, Baolin",
+				"Yao, Wenlin",
+				"Ge, Tao",
+				"Cheng, Hao",
+				"Wang, Mike Hang",
+				"Gao, Jianfeng",
+				"Li, Sharon"
+			],
+			"paper_title": "TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents",
+			"source": "https://arxiv.org/pdf/2607.13988v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.85942077636719, 508.99761962890625, 293.2950744628906
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "dfa81083816dfacf4e141317338b5385bad577376feea4abc13695fe4ce73cda",
+			"source_pdf_sha256": "9e65d72ddd97b6fd96173cd80e01656c3c2f4efca2f73b6d2846600a5a081ff9"
+		},
+		"paper-260713988-table1.png": {
+			"authors": [
+				"Tao, Leitian",
+				"Peng, Baolin",
+				"Yao, Wenlin",
+				"Ge, Tao",
+				"Cheng, Hao",
+				"Wang, Mike Hang",
+				"Gao, Jianfeng",
+				"Li, Sharon"
+			],
+			"paper_title": "TRACE: Turn-level Reward Assignment via Credit Estimation for Long-Horizon Agents",
+			"source": "https://arxiv.org/pdf/2607.13988v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 80, 510, 385],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "39dd4286008a9b326b97d8430267648dcb4d26abea3d0e8ba4e57c2f1e0e1723",
+			"source_pdf_sha256": "9e65d72ddd97b6fd96173cd80e01656c3c2f4efca2f73b6d2846600a5a081ff9"
+		},
+		"paper-260713639-figure3.png": {
+			"authors": [
+				"Lu, Shiyin",
+				"Li, Yinglun",
+				"Xia, Yu",
+				"Chen, Yuhui",
+				"Ji, An-Yang",
+				"Jiang, Jun-Peng",
+				"Chen, Qing-Guo",
+				"Zhao, Jianshan",
+				"Lin, En",
+				"Li, Haijun",
+				"Qin, Cheng",
+				"Xu, Zhao",
+				"Luo, Weihua"
+			],
+			"paper_title": "OvisOCR2 Technical Report",
+			"source": "https://arxiv.org/pdf/2607.13639v1#page=8",
+			"item": "Figure 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.40799713134766, 75.85588836669922, 530.7713012695312,
+				284.8599853515625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d8bf758f77eaa9b2214e20de84a40ca70e24e1f20a41514c466660241741313e",
+			"source_pdf_sha256": "eb8c173a206e9b0d06824559a14fdca9f7a6523f9a2ec8e8f1f90035f4ed1aa5"
+		},
+		"paper-260713639-table2.png": {
+			"authors": [
+				"Lu, Shiyin",
+				"Li, Yinglun",
+				"Xia, Yu",
+				"Chen, Yuhui",
+				"Ji, An-Yang",
+				"Jiang, Jun-Peng",
+				"Chen, Qing-Guo",
+				"Zhao, Jianshan",
+				"Lin, En",
+				"Li, Haijun",
+				"Qin, Cheng",
+				"Xu, Zhao",
+				"Luo, Weihua"
+			],
+			"paper_title": "OvisOCR2 Technical Report",
+			"source": "https://arxiv.org/pdf/2607.13639v1#page=13",
+			"item": "Table 2",
+			"pdf_page": 13,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.52799987792969, 67.52753448486328, 530.7735595703125,
+				440.0113525390625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "258c89f1580628e69c499dd969452c3748e2e5283b8d3ad95539443d4399cdd9",
+			"source_pdf_sha256": "eb8c173a206e9b0d06824559a14fdca9f7a6523f9a2ec8e8f1f90035f4ed1aa5"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.13292v1",
@@ -56,5 +163,6 @@
 			"license": "CC BY-NC-SA 4.0",
 			"reason": "本站用途与非商业限制的适用关系未确认"
 		}
-	]
+	],
+	"published_paper_count": 6
 }
