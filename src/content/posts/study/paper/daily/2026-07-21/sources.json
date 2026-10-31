@@ -62,6 +62,44 @@
 			"image_size": [1150, 710],
 			"sha256": "a9459209facff4cb2f429a3c0dc55d68ee0ff714be3f0447971a857801089130",
 			"source_pdf_sha256": "4065b4203db0367edd22b84ebf6c84662466dd64ea955146836e05d1c7bbff66"
+		},
+		"paper-260715877-figure1.png": {
+			"authors": ["Mathiasen, Anders Alnor", "Timany, Amin", "Birkedal, Lars"],
+			"paper_title": "Verifying Isolation Levels of Database Implementations for Free Using Separation Logic",
+			"source": "https://arxiv.org/pdf/2607.15877v1#page=6",
+			"item": "Figure 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [102, 78, 380, 280],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "155877e28f2b54d35fb44c53e11d08666b094214fa6d830629aee1a0de051054",
+			"source_pdf_sha256": "b71d98e716ceee0436763520197ee07ef59a8202aba3e6d48d3ab99b6d55a852"
+		},
+		"paper-260715280-table2.png": {
+			"authors": [
+				"Tan, Shaoting",
+				"Liu, Ning",
+				"Du, Yuntao",
+				"Wei, Shuyue",
+				"Shuai, Wu",
+				"Li, Qian",
+				"Xu, Yanyu",
+				"Zhang, Wei",
+				"Cui, Lizhen",
+				"Yuan, Haitao"
+			],
+			"paper_title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+			"source": "https://arxiv.org/pdf/2607.15280v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [72, 67, 522, 221],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2adf1598b725b46d70456d5aae1a012f315596000b61d99d82c51b3cbeaeb58a",
+			"source_pdf_sha256": "4065b4203db0367edd22b84ebf6c84662466dd64ea955146836e05d1c7bbff66"
 		}
-	}
+	},
+	"published_paper_count": 6
 }

@@ -62,6 +62,123 @@
 			"image_size": [890, 442],
 			"sha256": "8d98aefa33d42e77f0b50a022adf99b06867c12e90a4f3e81e32430039265cea",
 			"source_pdf_sha256": "f06afe5fb6b07865b2b709f9d3aeb8ecce0fbc6d5cd718ac47b4ab15dab6c9e8"
+		},
+		"paper-260718029-figure1.png": {
+			"authors": ["Fitch, Blake G.", "Kurtz, Cato Elia"],
+			"paper_title": "Natural Language Access to Domain-Specific Metadata: A Reusable Framework for LLM Query Generation",
+			"source": "https://arxiv.org/pdf/2607.18029v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				312.9549865722656, 78.88497924804688, 564.7314453125, 406.4197692871094
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6abb62ac567cc4a0a972d0ea147f9c0db5c3f579cb27e45aedb8498cae186f69",
+			"source_pdf_sha256": "bbb8219ec897c05ac8d791690da6751ea80e3cf9652009a02746f07e651e42a0"
+		},
+		"paper-260718029-table4.png": {
+			"authors": ["Fitch, Blake G.", "Kurtz, Cato Elia"],
+			"paper_title": "Natural Language Access to Domain-Specific Metadata: A Reusable Framework for LLM Query Generation",
+			"source": "https://arxiv.org/pdf/2607.18029v1#page=8",
+			"item": "Table 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [90, 226, 521, 355],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2af060154fb4723c7fa18b734a1656cae5f0389e136e96493d2978ce7c2747a6",
+			"source_pdf_sha256": "bbb8219ec897c05ac8d791690da6751ea80e3cf9652009a02746f07e651e42a0"
+		},
+		"paper-260718236-figure2.png": {
+			"authors": [
+				"Zhou, Gaoyue",
+				"Cui, Zichen Jeff",
+				"Langford, Ada",
+				"Tan, Bowen",
+				"LeCun, Yann",
+				"Pinto, Lerrel"
+			],
+			"paper_title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+			"source": "https://arxiv.org/pdf/2607.18236v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 67.00082397460938, 509.0035705566406, 330.3230895996094
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3cc91842c11c89e6b2683e5639473fd509dc491a05494381fa92d19fd3b395de",
+			"source_pdf_sha256": "9c4c9a5416831e337a9b76ac5edd6f0c2cc8746ec7b76f582565b53b2d37b919"
+		},
+		"paper-260718236-table2.png": {
+			"authors": [
+				"Zhou, Gaoyue",
+				"Cui, Zichen Jeff",
+				"Langford, Ada",
+				"Tan, Bowen",
+				"LeCun, Yann",
+				"Pinto, Lerrel"
+			],
+			"paper_title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+			"source": "https://arxiv.org/pdf/2607.18236v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [108, 66, 503, 290],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "34d3d4f44fc056656f909a11cb0af45216d0791ef3079c9bd20b8caddf68f021",
+			"source_pdf_sha256": "9c4c9a5416831e337a9b76ac5edd6f0c2cc8746ec7b76f582565b53b2d37b919"
+		},
+		"paper-260718002-figure3.png": {
+			"authors": [
+				"Wu, Bingyang",
+				"Jin, Chao",
+				"Zhang, Zili",
+				"Wei, Xinming",
+				"Zhong, Yinmin",
+				"Zhu, Ruidong",
+				"Yang, Chengxu",
+				"Jin, Xin",
+				"Liu, Yuliang"
+			],
+			"paper_title": "ExpertPlex: A High-Goodput Disaggregated Serving System for MoE LLMs with Adaptive Persistent Kernels",
+			"source": "https://arxiv.org/pdf/2607.18002v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [318, 68, 551, 347],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2792596e51b0a3e98baaeab954ccf9c2f35485d3cb5c87dc009bd5fd127f4557",
+			"source_pdf_sha256": "1c1f93af675e03c63f95f711f94c1fe2b2d9d56929f8eb220d21e3e7aed8afd9"
+		},
+		"paper-260718002-figure7.png": {
+			"authors": [
+				"Wu, Bingyang",
+				"Jin, Chao",
+				"Zhang, Zili",
+				"Wei, Xinming",
+				"Zhong, Yinmin",
+				"Zhu, Ruidong",
+				"Yang, Chengxu",
+				"Jin, Xin",
+				"Liu, Yuliang"
+			],
+			"paper_title": "ExpertPlex: A High-Goodput Disaggregated Serving System for MoE LLMs with Adaptive Persistent Kernels",
+			"source": "https://arxiv.org/pdf/2607.18002v1#page=9",
+			"item": "Figure 7",
+			"pdf_page": 9,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [52, 70, 559, 190],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "30dcdf0a34fc77ff23e6f9dd57bc0a776af1ad77b53cdd89e6bc0d5bff604da9",
+			"source_pdf_sha256": "1c1f93af675e03c63f95f711f94c1fe2b2d9d56929f8eb220d21e3e7aed8afd9"
 		}
-	}
+	},
+	"published_paper_count": 6
 }
