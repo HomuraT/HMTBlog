@@ -86,6 +86,214 @@
 			"version": "2608.22981v1",
 			"license_evidence": "https://arxiv.org/abs/2608.22981v1",
 			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		},
+		"paper-260822974-figure1.png": {
+			"authors": [
+				"Zhang, Xiaohui",
+				"Sun, Zequn",
+				"Yang, Chengyuan",
+				"Cui, Yuanning",
+				"Guo, Lingbing",
+				"Hu, Wei"
+			],
+			"paper_title": "Toward Effective and Reliable LLM Agents via Dynamic Ontology",
+			"source": "https://arxiv.org/pdf/2608.22974v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.67100143432617, 51.13353729248047, 563.0028686523438,
+				290.4124755859375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b555b31fe5253db613f63cdf5a9202e5abd3ccaa5a1638d2be2a156b1c653ea5",
+			"source_pdf_sha256": "0af9b0ff75638e3aa4a82bb74115d4a358cddf15d847ca9702077660c928d293"
+		},
+		"paper-260822974-table1.png": {
+			"authors": [
+				"Zhang, Xiaohui",
+				"Sun, Zequn",
+				"Yang, Chengyuan",
+				"Cui, Yuanning",
+				"Guo, Lingbing",
+				"Hu, Wei"
+			],
+			"paper_title": "Toward Effective and Reliable LLM Agents via Dynamic Ontology",
+			"source": "https://arxiv.org/pdf/2608.22974v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [52, 22, 295, 288],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ad312c779be317d2a63a345a731f69eb91d76feca5975ad7404345721bf31f7a",
+			"source_pdf_sha256": "0af9b0ff75638e3aa4a82bb74115d4a358cddf15d847ca9702077660c928d293"
+		},
+		"paper-260823552-figure2.png": {
+			"authors": [
+				"Karten, Seth",
+				"Zhang, Alex L.",
+				"Thomas, Kevin",
+				"Müller, Sebastian",
+				"Bakouch, Elie",
+				"Auras, Daniel",
+				"Senghaas, Mika",
+				"Obeid, Fares",
+				"Dunas, Konstantin",
+				"Hagemann, Johannes",
+				"Jaghouar, Sami"
+			],
+			"paper_title": "Prime Agent: A Self-Improving RLM Harness",
+			"source": "https://arxiv.org/pdf/2608.23552v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 67.00047302246094, 509.00018310546875, 234.68106079101562
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b8eac8addd5ed8f0a36766cfcd2dc366e0db10f4e634142d812894c046482e98",
+			"source_pdf_sha256": "973323f2d3d85f3ec9b21709248b65ba236cf527cd5cc9ff556909104a5fd370"
+		},
+		"paper-260823552-table1.png": {
+			"authors": [
+				"Karten, Seth",
+				"Zhang, Alex L.",
+				"Thomas, Kevin",
+				"Müller, Sebastian",
+				"Bakouch, Elie",
+				"Auras, Daniel",
+				"Senghaas, Mika",
+				"Obeid, Fares",
+				"Dunas, Konstantin",
+				"Hagemann, Johannes",
+				"Jaghouar, Sami"
+			],
+			"paper_title": "Prime Agent: A Self-Improving RLM Harness",
+			"source": "https://arxiv.org/pdf/2608.23552v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 530, 507, 675],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d157ad22f366dc62f24055465eda1fcdbe26965f0a8087342307b26f9c09e289",
+			"source_pdf_sha256": "973323f2d3d85f3ec9b21709248b65ba236cf527cd5cc9ff556909104a5fd370"
+		},
+		"paper-260823564-figure2.png": {
+			"authors": [
+				"Hong, Deyao",
+				"Chi, Yizhe",
+				"Li, Wenyi",
+				"Wang, Xiaoqiu",
+				"Gao, Mingju",
+				"Yang, Kaisen",
+				"He, Bingxiang",
+				"Zheng, Youjie",
+				"Xiao, Calvin",
+				"Na, Qinhuai"
+			],
+			"paper_title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+			"source": "https://arxiv.org/pdf/2608.23564v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.5250015258789, 343.85565185546875, 546.440185546875,
+				554.6122436523438
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1e48ea1833de0b7cc8e95873eab09cf305086775ce349ae68b9a1e21d296d40a",
+			"source_pdf_sha256": "beed95d54eaa0eabdb3b22649bc8512c4e68b070657f6d03792167ffb24f72f4"
+		},
+		"paper-260823564-table2.png": {
+			"authors": [
+				"Hong, Deyao",
+				"Chi, Yizhe",
+				"Li, Wenyi",
+				"Wang, Xiaoqiu",
+				"Gao, Mingju",
+				"Yang, Kaisen",
+				"He, Bingxiang",
+				"Zheng, Youjie",
+				"Xiao, Calvin",
+				"Na, Qinhuai"
+			],
+			"paper_title": "SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",
+			"source": "https://arxiv.org/pdf/2608.23564v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.5250015258789, 59.277870178222656, 548.4232788085938,
+				491.18109130859375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "04042bb82487fb94d713203b6da1eb44ecb9f275fa894fab33f00c7b858d917b",
+			"source_pdf_sha256": "beed95d54eaa0eabdb3b22649bc8512c4e68b070657f6d03792167ffb24f72f4"
+		},
+		"paper-260823486-figure2.png": {
+			"authors": [
+				"Lu, Yiren",
+				"Ye, Xin",
+				"Liu, Jiaming",
+				"Yao, Jin",
+				"Chen, Yi-chung",
+				"Merino, Liam",
+				"Kurra, Dhruva Dixith",
+				"Cai, Min",
+				"Lampo, Tom",
+				"Yin, Yu",
+				"Guo, Danhua",
+				"Yaman, Burhan"
+			],
+			"paper_title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+			"source": "https://arxiv.org/pdf/2608.23486v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.77882385253906, 546.505126953125,
+				331.6619567871094
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9918ac43debda4d5b0cd132b4e4c047d5513e67afd4ed72891d18c6f7774aec6",
+			"source_pdf_sha256": "ab4aab6242d8e05773e926c17e3512c2c3b51c3dd5fd4f405777895fe42c5c6a"
+		},
+		"paper-260823486-table2.png": {
+			"authors": [
+				"Lu, Yiren",
+				"Ye, Xin",
+				"Liu, Jiaming",
+				"Yao, Jin",
+				"Chen, Yi-chung",
+				"Merino, Liam",
+				"Kurra, Dhruva Dixith",
+				"Cai, Min",
+				"Lampo, Tom",
+				"Yin, Yu",
+				"Guo, Danhua",
+				"Yaman, Burhan"
+			],
+			"paper_title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+			"source": "https://arxiv.org/pdf/2608.23486v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.54100036621094, 59.485633850097656, 546.41455078125,
+				252.08001708984375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6f91ec63d618bc9fcbe93302b232296912ae6700e5b80b23e256dd293ff00fbe",
+			"source_pdf_sha256": "ab4aab6242d8e05773e926c17e3512c2c3b51c3dd5fd4f405777895fe42c5c6a"
 		}
-	}
+	},
+	"published_paper_count": 7
 }

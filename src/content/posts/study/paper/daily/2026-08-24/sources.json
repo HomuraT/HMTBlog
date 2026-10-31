@@ -55,11 +55,129 @@
 			"image_size": [608, 245],
 			"sha256": "7e152c7b9eb7a8add86c363ec58bcc1504cc58324b69772be885400db3e3f744",
 			"source_pdf_sha256": "7366275a6e1c72381f7cf473aa55d297e9bc4c3e16f70bd8d60cd2addae51548"
+		},
+		"paper-260818899-figure1.png": {
+			"authors": [
+				"Baci, Alkid",
+				"Kouagou, N'Dah Jean",
+				"Demir, Caglar",
+				"Ngomo, Axel-Cyrille Ngonga"
+			],
+			"paper_title": "Syntactic Simplification of OWL Class Expressions",
+			"source": "https://arxiv.org/pdf/2608.18899v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [308, 68, 542, 352],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b9287767b325060c9a1bd0fb2f7f04fde5e5513ac83b725ca2ba850521111cfe",
+			"source_pdf_sha256": "b96f0b71a454eed9b024c8fbe1ff82dbc500d7fd27cadcf7cbea6e8c78b7231f"
+		},
+		"paper-260820318-figure1.png": {
+			"authors": [
+				"Chi, Yizhe",
+				"Li, Wenyi",
+				"Hong, Deyao",
+				"Wang, Xiaoqiu",
+				"Gao, Mingju",
+				"Yang, Kaisen",
+				"He, Bingxiang",
+				"Zheng, Youjie",
+				"Xiao, Calvin",
+				"Na, Qinhuai"
+			],
+			"paper_title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+			"source": "https://arxiv.org/pdf/2608.20318v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.850982666015625, 546.4775390625, 502.9029846191406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0c6ebe63c5d850a73b693a367fdb224aa6d1f370608f152389bc24d19830962f",
+			"source_pdf_sha256": "93029b04f8612f4bfdd221a6f726e86a2d1408cab0a3256866f164e3c3749dfc"
+		},
+		"paper-260820318-figure2.png": {
+			"authors": [
+				"Chi, Yizhe",
+				"Li, Wenyi",
+				"Hong, Deyao",
+				"Wang, Xiaoqiu",
+				"Gao, Mingju",
+				"Yang, Kaisen",
+				"He, Bingxiang",
+				"Zheng, Youjie",
+				"Xiao, Calvin",
+				"Na, Qinhuai"
+			],
+			"paper_title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+			"source": "https://arxiv.org/pdf/2608.20318v1#page=8",
+			"item": "Figure 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 340.4248352050781, 546.147216796875, 618.97998046875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2adf40f77a3c8d12cac64f9b5cc78af8f2426edef87ccc3146aed2913783b16f",
+			"source_pdf_sha256": "93029b04f8612f4bfdd221a6f726e86a2d1408cab0a3256866f164e3c3749dfc"
+		},
+		"paper-260820314-figure2.png": {
+			"authors": [
+				"Jiang, Fengqing",
+				"Wang, Yite",
+				"Liu, Boyi",
+				"Wang, Zhaoyang",
+				"Xu, Canwen",
+				"Yao, Zhewei",
+				"Poovendran, Radha",
+				"He, Yuxiong"
+			],
+			"paper_title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+			"source": "https://arxiv.org/pdf/2608.20314v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				56.9370002746582, 69.12803649902344, 539.6475830078125,
+				346.5097961425781
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "50bc927d140b5d6fcc598a6ebdf8d37b4c671b65a9a77401f9867e8ca66cc2ad",
+			"source_pdf_sha256": "2d5a88a01a6fcfd5df6d1fa0ececd46d10d9dcbd53eb2b01c6636d2fa7843949"
+		},
+		"paper-260820314-table3.png": {
+			"authors": [
+				"Jiang, Fengqing",
+				"Wang, Yite",
+				"Liu, Boyi",
+				"Wang, Zhaoyang",
+				"Xu, Canwen",
+				"Yao, Zhewei",
+				"Poovendran, Radha",
+				"He, Yuxiong"
+			],
+			"paper_title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+			"source": "https://arxiv.org/pdf/2608.20314v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 82, 536, 298],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a87bb4170ec361b1a6990479f6dae802581e7218c5aec4b61fa2c3311967de98",
+			"source_pdf_sha256": "2d5a88a01a6fcfd5df6d1fa0ececd46d10d9dcbd53eb2b01c6636d2fa7843949"
 		}
 	},
 	"verification_notes": [
 		"ARCO rewrite time differs from Neo4j evaluation time. DBpedia: 56 timeouts at 20 s; MMM: 3/5 timeouts at 1000 s.",
 		"MMM 62/100 generated queries have infeasible powerset computation at >=30 states.",
 		"EnvHarness main loop uses Stage/Contract; Chain evaluated separately."
-	]
+	],
+	"published_paper_count": 6
 }
