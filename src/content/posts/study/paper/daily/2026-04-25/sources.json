@@ -161,6 +161,281 @@
 			"image_size": [1010, 738],
 			"sha256": "180ec67f255deea4c7580284429e166dce25eab908cd38aff1661ebe32597bd4",
 			"source_pdf_sha256": "25814f661fe57b04c003f47ed8db8e17dd54c21c7336baa36bae4ebd53a9305a"
+		},
+		"paper-260421254-figure1.png": {
+			"authors": ["Zeitoun, Abbas", "Torroba-Hennigen, Lucas", "Kim, Yoon"],
+			"paper_title": "Hyperloop Transformers",
+			"source": "https://arxiv.org/pdf/2604.21254v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.6709976196289, 65.52224731445312, 510.7449645996094,
+				371.19891357421875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e521e75bd8fd5cf155a81e1347ddad1796723ea7f70d5fba66125bd77504fab3",
+			"source_pdf_sha256": "4d10dcbe1642032e9079529f0136335557ea165fa8ca93e02c132bfb51e05a8b"
+		},
+		"paper-260421254-table1.png": {
+			"authors": ["Zeitoun, Abbas", "Torroba-Hennigen, Lucas", "Kim, Yoon"],
+			"paper_title": "Hyperloop Transformers",
+			"source": "https://arxiv.org/pdf/2604.21254v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [106, 62, 506, 279],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9712d2bee05a0908146bc004adbcd331df93f789375df54c178cb47939bde614",
+			"source_pdf_sha256": "4d10dcbe1642032e9079529f0136335557ea165fa8ca93e02c132bfb51e05a8b"
+		},
+		"paper-260421686-figure1.png": {
+			"authors": [
+				"Xu, Xiaojie",
+				"Lin, Zhengyuan",
+				"He, Kang",
+				"Feng, Yukang",
+				"Mao, Xiaofeng",
+				"Yin, Yuanyang",
+				"Zhang, Kaipeng",
+				"Ge, Yongtao"
+			],
+			"paper_title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+			"source": "https://arxiv.org/pdf/2604.21686v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.78070068359375, 547.2545776367188,
+				430.0681457519531
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "cac31346ef28330eb1638f21bbc12f474b4ba55e751f9e1d0dfa3493f70b7a0c",
+			"source_pdf_sha256": "dbb3f79b94292004a37bcbdc56a158cabbce5a9b2aabf8ef9e78fa58e73e81a8"
+		},
+		"paper-260421686-table4.png": {
+			"authors": [
+				"Xu, Xiaojie",
+				"Lin, Zhengyuan",
+				"He, Kang",
+				"Feng, Yukang",
+				"Mao, Xiaofeng",
+				"Yin, Yuanyang",
+				"Zhang, Kaipeng",
+				"Ge, Yongtao"
+			],
+			"paper_title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
+			"source": "https://arxiv.org/pdf/2604.21686v1#page=9",
+			"item": "Table 4",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 62, 544, 303],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8b2f361320f2d65394fe4f2b8d9511a8ad2053e493937a77d08db3f7cbfe6abb",
+			"source_pdf_sha256": "dbb3f79b94292004a37bcbdc56a158cabbce5a9b2aabf8ef9e78fa58e73e81a8"
+		},
+		"paper-260408626-figure3.png": {
+			"authors": [
+				"Huang, Weikai",
+				"Zhang, Jieyu",
+				"Li, Sijun",
+				"Jia, Taoyang",
+				"Duan, Jiafei",
+				"Cheng, Yunqian",
+				"Cho, Jaemin",
+				"Wallingford, Mattew",
+				"Soraki, Rustin",
+				"Kim, Chris Dongjoo",
+				"Clay, Donovan",
+				"Anderson, Taira",
+				"Han, Winson",
+				"Farhadi, Ali",
+				"Hariharan, Bharath",
+				"Ren, Zhongzheng",
+				"Krishna, Ranjay"
+			],
+			"paper_title": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+			"source": "https://arxiv.org/pdf/2604.08626v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 55, 544, 515],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b85777c338e80910abad64d76f5ba18385c8c4a25ca865703dce86c0087f2a50",
+			"source_pdf_sha256": "654ee8f0c9a479287f392d49c6f4d0d2dcb4496cc040cac5dcaa46ca4e75a9be"
+		},
+		"paper-260408626-table3.png": {
+			"authors": [
+				"Huang, Weikai",
+				"Zhang, Jieyu",
+				"Li, Sijun",
+				"Jia, Taoyang",
+				"Duan, Jiafei",
+				"Cheng, Yunqian",
+				"Cho, Jaemin",
+				"Wallingford, Mattew",
+				"Soraki, Rustin",
+				"Kim, Chris Dongjoo",
+				"Clay, Donovan",
+				"Anderson, Taira",
+				"Han, Winson",
+				"Farhadi, Ali",
+				"Hariharan, Bharath",
+				"Ren, Zhongzheng",
+				"Krishna, Ranjay"
+			],
+			"paper_title": "WildDet3D: Scaling Promptable 3D Detection in the Wild",
+			"source": "https://arxiv.org/pdf/2604.08626v1#page=15",
+			"item": "Table 3",
+			"pdf_page": 15,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 62, 544, 319],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9e2700f385a54761f643de824e7510573a162772f4ea58ec90fbd2cfb8de3ad0",
+			"source_pdf_sha256": "654ee8f0c9a479287f392d49c6f4d0d2dcb4496cc040cac5dcaa46ca4e75a9be"
+		},
+		"paper-260413346-figure1.png": {
+			"authors": [
+				"Wang, Pengcheng",
+				"Huang, Jerry",
+				"Yao, Jiarui",
+				"Pan, Rui",
+				"Niu, Peizhi",
+				"Liu, Yaowenqi",
+				"Wang, Ruida",
+				"Lu, Renhao",
+				"Guo, Yuwei",
+				"Zhang, Tong"
+			],
+			"paper_title": "AgentSPEX: An Agent SPecification and EXecution Language",
+			"source": "https://arxiv.org/pdf/2604.13346v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [106, 78, 506, 276],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "959f9b8f4ef670cc809f71384242e261b3e6ce0805cb060b368a6e754ac28c41",
+			"source_pdf_sha256": "d2e0347e8a8312c45a60753256e4b852bf5a319d0dc4ed37bdbc42c4396e5ba2"
+		},
+		"paper-260413346-table2.png": {
+			"authors": [
+				"Wang, Pengcheng",
+				"Huang, Jerry",
+				"Yao, Jiarui",
+				"Pan, Rui",
+				"Niu, Peizhi",
+				"Liu, Yaowenqi",
+				"Wang, Ruida",
+				"Lu, Renhao",
+				"Guo, Yuwei",
+				"Zhang, Tong"
+			],
+			"paper_title": "AgentSPEX: An Agent SPecification and EXecution Language",
+			"source": "https://arxiv.org/pdf/2604.13346v1#page=7",
+			"item": "Table 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [106, 77, 506, 480],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9dcc644a8213fb27ee827584cb2b341bb2060fbc739e530baab5ccd1b9055119",
+			"source_pdf_sha256": "d2e0347e8a8312c45a60753256e4b852bf5a319d0dc4ed37bdbc42c4396e5ba2"
+		},
+		"paper-250207408-figure1.png": {
+			"authors": ["Galil, Ido", "Kimhi, Moshe", "El-Yaniv, Ran"],
+			"paper_title": "No Data, No Optimization: A Lightweight Method To Disrupt Neural Networks With Sign-Flips",
+			"source": "https://arxiv.org/pdf/2502.07408v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 67.00100708007812, 568.8409423828125, 400.90509033203125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9f62e8f0d0829fcf73826c5a147ee492246a8287ef8d3dfb61e52bb6a290c7bd",
+			"source_pdf_sha256": "85813eb692e8377c7bb2814bbaec8f9677b1d9c76e5c220e983530f06c38b7d3"
+		},
+		"paper-260415804-figure2.png": {
+			"authors": ["Qwen Team"],
+			"paper_title": "Qwen3.5-Omni Technical Report",
+			"source": "https://arxiv.org/pdf/2604.15804v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.55699920654297, 65.86459350585938, 531.1575317382812,
+				454.02691650390625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a71737e54f7bb7d0926f427fa5d282741865e6663bea9958870fcb33f529cdb1",
+			"source_pdf_sha256": "9d7346ae65cdc92978c3d32ade3994b7f62a0239679c5f1ec128bead9a51d273"
+		},
+		"paper-260415804-table7.png": {
+			"authors": ["Qwen Team"],
+			"paper_title": "Qwen3.5-Omni Technical Report",
+			"source": "https://arxiv.org/pdf/2604.15804v1#page=13",
+			"item": "Table 7",
+			"pdf_page": 13,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 66, 544, 313],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "693e33767d240924fa1a035847fed56f6422e6aaceb97df85032e0ff631dac44",
+			"source_pdf_sha256": "9d7346ae65cdc92978c3d32ade3994b7f62a0239679c5f1ec128bead9a51d273"
+		},
+		"paper-250410036-figure3.png": {
+			"authors": [
+				"Zhang, Zhengxuan",
+				"Liang, Zhuowen",
+				"Wu, Yin",
+				"Lin, Teng",
+				"Luo, Yuyu",
+				"Tang, Nan"
+			],
+			"paper_title": "DataMosaic: Explainable and Verifiable Multi-Modal Data Analytics through Extract-Reason-Verify",
+			"source": "https://arxiv.org/pdf/2504.10036v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.79800033569336, 78.68374633789062, 299.03448486328125,
+				342.68878173828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "02dc7ca13518758ea78ce55c03ee0f3fa6ae28c955c1d5e0a88a32117186ed6c",
+			"source_pdf_sha256": "c0d792fed0e51cc3ee188117cfec1717cc3b90682ad62a52e36d113927ced2b7"
+		},
+		"paper-260420209-figure3.png": {
+			"authors": [
+				"Bailey, Luke",
+				"Wen, Kaiyue",
+				"Dong, Kefan",
+				"Hashimoto, Tatsunori",
+				"Ma, Tengyu"
+			],
+			"paper_title": "Scaling Self-Play with Self-Guidance",
+			"source": "https://arxiv.org/pdf/2604.20209v1#page=7",
+			"item": "Figure 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				88.32099914550781, 88.60067749023438, 525.1471557617188,
+				331.2908935546875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9c09fdc47c499e0b58bff76bb867f03eaf44e66bab51a3c58e606f726502f857",
+			"source_pdf_sha256": "0bceef5b9f21c6a2e98c43c7f20f7176692710fe80f9dc4517fc8be10fe0e215"
 		}
 	},
 	"verification_notes": [
@@ -178,5 +453,6 @@
 			"verification_scope": "Official preview announcement and date checked"
 		}
 	],
-	"unresolved_candidate_count": 5
+	"unresolved_candidate_count": 5,
+	"published_paper_count": 20
 }
