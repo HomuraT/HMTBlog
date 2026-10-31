@@ -60,6 +60,64 @@
 			"image_size": [1263, 793],
 			"sha256": "a2b4c2895dc8317a629c7973fc7bd2fc946e5053897ddf147ee85467ee8befa4",
 			"source_pdf_sha256": "8eeeaaa33064eb1595b8f5a22c643099f9083ec1d8d965ef451826f518bad49d"
+		},
+		"paper-261012242-figure1.png": {
+			"authors": "Fu, Tianyu et al.",
+			"paper_title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+			"source": "https://arxiv.org/pdf/2610.12242v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.25299835205078, 498.94873046875, 510.2474365234375,
+				687.3580322265625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2926ff74a3b770a5e526cee63425ba9f73436dd7011c05624c61a9b111aed399",
+			"source_pdf_sha256": "84b0e27acd44bffd1721aaf1ee455bb60fe08af36573e804fff32c669bc03a30"
+		},
+		"paper-261010310-figure1.png": {
+			"authors": "Meng, Fanqing et al.",
+			"paper_title": "RSIGym: A Flexible Environment for Recursive Self-Improvement",
+			"source": "https://arxiv.org/pdf/2610.10310v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.85798645019531, 77.24102020263672, 564.2384033203125,
+				452.5005187988281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5b3a94961aa473d4a5605423cdd628bb5b1040115b709c6e9e7c9565780ba366",
+			"source_pdf_sha256": "98bab004313d37140a4df322ef6d90260a2a0a0d80b0709ccf98561a69b26ce2"
+		},
+		"paper-261010310-figure2.png": {
+			"authors": "Meng, Fanqing et al.",
+			"paper_title": "RSIGym: A Flexible Environment for Recursive Self-Improvement",
+			"source": "https://arxiv.org/pdf/2610.10310v1#page=9",
+			"item": "Figure 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [49, 65, 565, 310],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5f7fa2ce4216bffeca79274075fdbb39f0cec0f059bd849ede488343d7363378",
+			"source_pdf_sha256": "98bab004313d37140a4df322ef6d90260a2a0a0d80b0709ccf98561a69b26ce2"
+		},
+		"paper-261010515-figure1.png": {
+			"authors": "Zholus, Artem et al.",
+			"paper_title": "RoboJEPA: Scaling Robotic Latent World Models",
+			"source": "https://arxiv.org/pdf/2610.10515v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 430, 548, 723],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8b16c5ad242f7c627a9a9fb76a7e2c69a13bc41d4f73b9c0ef431ed093b9a186",
+			"source_pdf_sha256": "78a0772ca15fd68f7970c3c6f66f3abfa89d12ff1ef345af5c5b699278d5794c"
 		}
 	},
 	"included_roster_count": 6

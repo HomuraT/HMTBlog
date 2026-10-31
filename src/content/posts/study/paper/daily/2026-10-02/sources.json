@@ -50,7 +50,76 @@
 			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260940305-figure2.png": {
+			"authors": "Chng, Yong Xien et al.",
+			"paper_title": "Looped Diffusion Transformer",
+			"source": "https://arxiv.org/pdf/2609.40305v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 70, 550, 365],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bc4f8882c79efa160cefeb96c83871388f6a25e72560b76d5730981e4b7c2808",
+			"source_pdf_sha256": "bc97f24d5703911433e04b1dfdedbc8f11f931de8a4158cc3592f5335563eaef"
+		},
+		"paper-260940305-figure1.png": {
+			"authors": "Chng, Yong Xien et al.",
+			"paper_title": "Looped Diffusion Transformer",
+			"source": "https://arxiv.org/pdf/2609.40305v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.8659896850586, 456.2303466796875, 546.7313842773438,
+				708.8013916015625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "48f235aae60c6a287934c200684ccc517f45ce01f93fe181fdc7d1195dab840b",
+			"source_pdf_sha256": "bc97f24d5703911433e04b1dfdedbc8f11f931de8a4158cc3592f5335563eaef"
+		},
+		"paper-260940285-figure2.png": {
+			"authors": "He, Yinghui et al.",
+			"paper_title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+			"source": "https://arxiv.org/pdf/2609.40285v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [55, 72, 545, 445],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "39454cea99f04256ee23e127c443aafa6dc682a3c178962c893cb88c089f727a",
+			"source_pdf_sha256": "415a2241f5e114d40fc5cc309393283dc94b2a0e422012f2bce5502afbb6ae86"
+		},
+		"paper-260940127-figure2.png": {
+			"authors": "Bini, Massimo et al.",
+			"paper_title": "Learning Functional Subspaces for Neural Network Compression",
+			"source": "https://arxiv.org/pdf/2609.40127v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 75, 509, 343],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "209556ec8343fc04e8ad960adb1c1ec2a6cfecd55c5314acf65b9aef791aec5b",
+			"source_pdf_sha256": "c32bb6fc12e4359455693bbd4e1db27735bc5c3b55488d87ff311a1fe429dded"
+		},
+		"paper-260940127-table2.png": {
+			"authors": "Bini, Massimo et al.",
+			"paper_title": "Learning Functional Subspaces for Neural Network Compression",
+			"source": "https://arxiv.org/pdf/2609.40127v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 70, 509, 314],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e49a2287cc319fa7bed79dd1925d35d94299b435154fef9219ee3d5623fdddb3",
+			"source_pdf_sha256": "c32bb6fc12e4359455693bbd4e1db27735bc5c3b55488d87ff311a1fe429dded"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2610.00682v1",

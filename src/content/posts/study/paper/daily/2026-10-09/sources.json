@@ -60,6 +60,35 @@
 			"image_size": [582, 1066],
 			"sha256": "9256f0144980e5f0d6d44ec1e9944f1294dd6a7a63f3b50bef6cfa4636226ba9",
 			"source_pdf_sha256": "5db5d6cfa665cf5768d4758433c2b3926af056ebaace2d93ee273764ae0c1036"
+		},
+		"paper-261010528-figure1.png": {
+			"authors": "Huang, Wei et al.",
+			"paper_title": "Long-WAM: Scaling the Context of World-Action Models",
+			"source": "https://arxiv.org/pdf/2610.10528v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [55, 382, 540, 756],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c2dd0b322f60d9b481f71840da1c8f45ebf736fb9afe0b742f29bf05b9a5f1da",
+			"source_pdf_sha256": "f04a095c14201f63f29ae41a668786627d9f3ea4a716dd2d67cec172422ee494"
+		},
+		"paper-261009426-figure1.png": {
+			"authors": "Wang, Renxiong et al.",
+			"paper_title": "RSI-Forge: From Research Papers to Environments for Recursive Self-Improvement",
+			"source": "https://arxiv.org/pdf/2610.09426v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				54.04100036621094, 66.99958801269531, 558.1610717773438,
+				298.8329162597656
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "159bc91d94be36bdf1c9c49d552ff5940c7e941422407a726875ae37955aed95",
+			"source_pdf_sha256": "df771b05fdd4c2b209976a73a16fd98c5263187eb9ff51ceec10e117b04e964b"
 		}
 	},
 	"included_roster_count": 6

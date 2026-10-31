@@ -72,6 +72,113 @@
 			"image_size": [1168, 738],
 			"sha256": "8c8260895bc5f84546aa184654ea78639da6ee8175ca1ea9417fe2181080ee49",
 			"source_pdf_sha256": "d9e3b1aef39bcc8595c73a4d7a1635820f0615d2bf1ab92b7162dfb7d92baa1a"
+		},
+		"paper-260936082-figure2.png": {
+			"authors": "Frakes, Ethan D. et al.",
+			"paper_title": "GeoOutageBench: Benchmarking Ambiguity-aware, Ontology-grounded Geospatiotemporal KGQA for Multimodal Power Outage and Resilience Analysis",
+			"source": "https://arxiv.org/pdf/2609.36082v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.79800033569336, 79.05821228027344, 563.8956298828125,
+				321.1603088378906
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "96c624dc9cc67b7e7cc306016d73b32458388cbc6ccf9ed59de23aa57465f3de",
+			"source_pdf_sha256": "f55d44e62ee5084c2e41d9c64107f5d9215eeae740632d02d031e322a2fbaa92"
+		},
+		"paper-260937603-table1.png": {
+			"authors": "Rovai, Fabio et al.",
+			"paper_title": "Independent Verification Paths Are Not Independent: A Case Study of Common-Mode Failure in a Satellite Catalogue Pipeline",
+			"source": "https://arxiv.org/pdf/2609.37603v1#page=3",
+			"item": "Table 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 65, 509, 204],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9ccc974bbc6b7bf3bef346ed16752644da6cd9fb1b9efb373399d8aed4e0002a",
+			"source_pdf_sha256": "ea73ca92a89b588205f7d24995daac7fc0d854c055d4d4896f500a61624887e7"
+		},
+		"paper-260937725-figure1.png": {
+			"authors": "Shao, Rulin et al.",
+			"paper_title": "Context Language Models",
+			"source": "https://arxiv.org/pdf/2609.37725v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.77880859375, 546.4840698242188, 365.6795349121094
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d7ba37a8b00922fa0ae514abc494c690fb192eb680bf5535c59267d39a2d8185",
+			"source_pdf_sha256": "ac5c926814434d8ad2f499183cd2a81e53b4c14f327587f99980ade9157db01b"
+		},
+		"paper-260937725-figure2.png": {
+			"authors": "Shao, Rulin et al.",
+			"paper_title": "Context Language Models",
+			"source": "https://arxiv.org/pdf/2609.37725v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.66895294189453, 69.71514129638672, 546.7368774414062,
+				344.31854248046875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0b9af103412e6fcee03c9b57bcad2d6c7b2147ef7169924c6373699d5a4bbe5f",
+			"source_pdf_sha256": "ac5c926814434d8ad2f499183cd2a81e53b4c14f327587f99980ade9157db01b"
+		},
+		"paper-260936730-figure1.png": {
+			"authors": "Orlanski, Gabriel et al.",
+			"paper_title": "Can Agents Design Libraries for Agents?",
+			"source": "https://arxiv.org/pdf/2609.36730v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 82.73973846435547, 509.00128173828125, 366.0190734863281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "665062d22018e67b2c7656b67eef3639913b677f1461281173db0c48ffdc5e73",
+			"source_pdf_sha256": "cf3848a67a7e905e2548de505ea5f9f76a5f18df4d63844f7408990545c3af4d"
+		},
+		"paper-260936730-table1.png": {
+			"authors": "Orlanski, Gabriel et al.",
+			"paper_title": "Can Agents Design Libraries for Agents?",
+			"source": "https://arxiv.org/pdf/2609.36730v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 76.8104476928711, 510.7719421386719,
+				339.6759948730469
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "cea7aeb4dcd57e172b96c0219b17001996c5e0ad9cda086044f5b480d90a4f4c",
+			"source_pdf_sha256": "cf3848a67a7e905e2548de505ea5f9f76a5f18df4d63844f7408990545c3af4d"
+		},
+		"paper-260937053-figure3.png": {
+			"authors": "Wu, Mei et al.",
+			"paper_title": "MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows",
+			"source": "https://arxiv.org/pdf/2609.37053v1#page=3",
+			"item": "Figure 3",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.64099884033203, 48.9996337890625, 564.7398071289062,
+				390.90301513671875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fb4ee1dd41de6c93845568c41517bfa14ac477d1a89001a3cd8ef4a8fce66551",
+			"source_pdf_sha256": "352cb30ddacf17b1e18fe3fb6b4aa1e047b8ead75ad2b72fcaacecdf93647a0f"
 		}
 	},
 	"included_roster_count": 8
