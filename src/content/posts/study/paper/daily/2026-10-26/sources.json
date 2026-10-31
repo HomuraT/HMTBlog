@@ -66,6 +66,50 @@
 			"image_size": [1125, 763],
 			"sha256": "c385c3dff655e1dfd6aa246f87af11064a7b8995f9f1de4049e88ce77075f088",
 			"source_pdf_sha256": "40eefc77c54effb906e93389925295b2ae56ce1d4de40e5d91d385f6028c5658"
+		},
+		"paper-260831118-figure1.png": {
+			"authors": "Giglou, Hamed Babaei et al.",
+			"paper_title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+			"source": "https://arxiv.org/pdf/2608.31118v1#page=10",
+			"item": "Figure 1",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.77100372314453, 60.607177734375, 529.3681030273438, 520.2073974609375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "383e26baa728e66331f53db553582a43121a58a183de66fd168adc97ba42cbbe",
+			"source_pdf_sha256": "a0dff8ad83d88810d4e8981df98c6e8d6362e5468896ed37e94eb3969951d350"
+		},
+		"paper-261031651-figure1.png": {
+			"authors": "Pun, Ava et al.",
+			"paper_title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+			"source": "https://arxiv.org/pdf/2610.31651v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [53, 196, 558, 485],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5c15e21aa677b0e291e7cd7afd0786111ba699cb5ac362a05edda2a559a1a4f9",
+			"source_pdf_sha256": "6285cceb7b3a0aa374235c1693fa1ddee943f6562d912fcee698bb4adbef4252"
+		},
+		"paper-261027598-figure1.png": {
+			"authors": "Hua, Ermo et al.",
+			"paper_title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+			"source": "https://arxiv.org/pdf/2610.27598v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				100.98632049560547, 470.055419921875, 509.0033874511719,
+				659.3460693359375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "93b325d6f8ba170a8a723da7d3b3ad40a5074035760acf3d758b56b994700a30",
+			"source_pdf_sha256": "b32319ea59acc412261a32bb4f6aadffb5a5e86354fe1a18aa5c213222da8e36"
 		}
 	},
 	"included_roster_count": 6

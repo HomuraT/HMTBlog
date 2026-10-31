@@ -91,5 +91,92 @@
 		}
 	],
 	"included_roster_count": 6,
-	"independently_reproduced": false
+	"independently_reproduced": false,
+	"figures": {
+		"paper-261037585-figure4.png": {
+			"authors": "Petralia, Adrien et al.",
+			"paper_title": "Timestral",
+			"source": "https://arxiv.org/pdf/2610.37585v1#page=6",
+			"item": "Figure 4",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 287, 509, 716],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c29ff41b70eec3a45700afdb6b00836d7b3153fc858d2c0f47305c9a228831cc",
+			"source_pdf_sha256": "1dc50fa5783a0c18073af041192325a59eb0af3a9e9860ebcaa887c7f0280b29"
+		},
+		"paper-261037585-figure6.png": {
+			"authors": "Petralia, Adrien et al.",
+			"paper_title": "Timestral",
+			"source": "https://arxiv.org/pdf/2610.37585v1#page=10",
+			"item": "Figure 6",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 73, 509, 314],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "72c9ce1a3fca646ce329f85abe6bafdc2a964fc2d229888069cfc22cc5ab9ed6",
+			"source_pdf_sha256": "1dc50fa5783a0c18073af041192325a59eb0af3a9e9860ebcaa887c7f0280b29"
+		},
+		"paper-261037364-figure1.png": {
+			"authors": "Vera, Henrique Schechter et al.",
+			"paper_title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+			"source": "https://arxiv.org/pdf/2610.37364v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 80.03817749023438, 537.9188232421875,
+				418.364013671875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e50f2698916f7e3f50b86330ca7c6ca6ee9a3950f92070d80dce6a55efe2d49b",
+			"source_pdf_sha256": "d27a36308db84598e8f1a6e66e45cb01a645390dfca229507ec63fea8586c83f"
+		},
+		"paper-261037364-figure2.png": {
+			"authors": "Vera, Henrique Schechter et al.",
+			"paper_title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+			"source": "https://arxiv.org/pdf/2610.37364v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 80.0391845703125, 539.435791015625, 444.3039855957031
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3887d79f12ebfaeb7f5a2e6a06098524bdda82b8145af1eb8d1ac49d15652516",
+			"source_pdf_sha256": "d27a36308db84598e8f1a6e66e45cb01a645390dfca229507ec63fea8586c83f"
+		},
+		"paper-261037666-figure1.png": {
+			"authors": "Kim, Chaehyun et al.",
+			"paper_title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+			"source": "https://arxiv.org/pdf/2610.37666v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [56, 189, 540, 518],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0821daa7b1aa878deec2864959365dd65b7b4065a3ed617867afc4ce3d388629",
+			"source_pdf_sha256": "73c6bb19781801b97d4b2d9f678edbc53f19404fbb09d3cd31323b6deca1d49f"
+		},
+		"paper-261037666-table1.png": {
+			"authors": "Kim, Chaehyun et al.",
+			"paper_title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+			"source": "https://arxiv.org/pdf/2610.37666v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.01300048828125, 309.2269287109375, 538.1693115234375, 477.60009765625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9bb8f5d592f943245bb69781b175171a7498ce3b961425be297194f3e49f49bc",
+			"source_pdf_sha256": "73c6bb19781801b97d4b2d9f678edbc53f19404fbb09d3cd31323b6deca1d49f"
+		}
+	}
 }

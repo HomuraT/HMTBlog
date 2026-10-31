@@ -1,8 +1,8 @@
 ---
-title: '论文日报 2026-10-29：知识表示与 Agent 评测'
+title: '论文日报 2026-10-29：工程本体、多模态表示与 Agent 优化'
 published: 2026-10-29
-updated: 2026-10-29
-description: '五篇论文的研究问题、关键图表与实验条件：工程本体、经验筛选、团队优化、规则推理和逻辑稳定性。'
+updated: 2026-10-31
+description: '本期介绍工程知识溯源、团队与经验优化、时间序列预测、多模态嵌入和机器人世界想象，并通过规则与逻辑评测观察模型能力的边界。'
 image: ''
 tags: [LLM, Agent, 知识图谱]
 category: '论文或资源整理'
@@ -10,19 +10,9 @@ draft: false
 lang: 'zh-CN'
 ---
 
-工程知识如何保留来源，Agent 如何利用经验，推理结果如何检验，本期五篇论文分别给出了知识模型、优化方法和评测工具。
+本期介绍工程知识溯源、团队与经验优化、时间序列预测、多模态嵌入和机器人世界想象，并通过规则与逻辑评测观察模型能力的边界。
 
-| 论文 | 研究焦点 | 本期图表 |
-|---|---|---|
-| [SFE-O](#sfe-o) | 工程参数及其来源 | 原论文架构图与实例验证 |
-| [GEPA-Curator](#gepa-curator) | 反思优化的经验筛选 | 原论文表格与 AppWorld 结果 |
-| [Evolving Agent Teams](#evolving-agent-teams) | 优化停滞后的团队调整 | 预算条件与加速比 |
-| [RuleTrek](#ruletrek) | 分散资料中的规则推理 | 给定规则与端到端评分 |
-| [CBE](#cbe) | 等价表述下的推理稳定性 | 原论文能力曲线 |
-
-10 月 29 日为整理日期，各篇首版日期见下文。实验数值均为作者报告，未独立复现；图片可点击放大，关键数据同时列在正文表格中。
-
-## SFE-O
+## 1. SFE-O
 
 本体与知识图谱 · 首版 2026-10-27 · [论文](https://arxiv.org/abs/2610.37123) · [原文架构图所在页](https://arxiv.org/pdf/2610.37123#page=6)
 
@@ -46,31 +36,7 @@ lang: 'zh-CN'
 
 这些提取数值是用于实例化的过程数据，不能解释为本体提高了提取效果。论文展示了参数、来源和分离阶段的可查询关系；数值求解与 AI 效果评测尚未包含在验证中。工程知识库可以借鉴其溯源组织方式，性能收益仍需另外实验。
 
-## GEPA-Curator
-
-Agent 系统 · 首版 2026-10-27 · [论文](https://arxiv.org/abs/2610.37651) · [全文](https://arxiv.org/html/2610.37651v1) · [原表 Table 2](https://arxiv.org/pdf/2610.37651#page=6)
-
-### 研究问题与方法
-
-失败轨迹可能包含提示词问题，也可能来自环境限制或评判噪声。GEPA-Curator 在当前批次中筛选有学习价值的任务，并检索同一任务的可靠成功轨迹，给反思优化提供对照。筛选针对当前阶段，困难任务不会因此永久退出训练。
-
-![GEPA-Curator 原论文 Table 2 节选：Seed 行及 Gemini 3.1 Pro 优化器下 GEPA、ACE、GEPA-Curator 的结果，数值含标准差。](./images/gepa-appworld.png)
-
-*图 2｜Zack Yu、Nicholas Lee 等，GEPA-Curator，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.37651#page=6)。原论文表格截图，保留表头、Seed 行和 Gemini 3.1 Pro 部分；裁去 Claude Opus 5 部分及页内其他内容，未改动保留的数值。AppWorld 指标为 Task Goal Completion（%），± 后为标准差；下表摘录 AppWorld 两列。*
-
-### 实验结果与条件
-
-| 方法 | Test-N（%） | Test-C（%） |
-|---|---:|---:|
-| GEPA | 38.0 ± 2.3 | 27.8 ± 2.1 |
-| ACE | 55.7 ± 1.8 | 34.5 ± 1.4 |
-| GEPA-Curator | 58.7 ± 1.9 | 46.2 ± 2.1 |
-
-这组实验使用 Gemini 3.1 Pro 优化器、gpt-oss-120b 执行模型、AppWorld 官方数据划分和 1,500 次训练 rollout，表中为 5 次均值 ± 标准差。Test-N 从 38.0% 到 58.7% 的差为 **20.7 个百分点**；Test-C 相比 GEPA 高 18.4 个百分点。
-
-结果支持在反思前筛选经验的设计，但收益依赖执行模型、任务与预算。标准差描述重复运行的波动，不能直接当成显著性检验；本文也没有据这两列结果推断其他 Agent 的收益。
-
-## Evolving Agent Teams
+## 2. Evolving Agent Teams
 
 Agent 系统 · 首版 2026-10-27 · [论文](https://arxiv.org/abs/2610.36848) · [全文](https://arxiv.org/html/2610.36848v1) · [原图 Figure 3](https://arxiv.org/pdf/2610.36848#page=7)
 
@@ -94,7 +60,81 @@ GPU 内核搜索容易停在局部有效的实现上。Evolving Agent Teams 由�
 
 团队调整与经验持久化为长时搜索提供了机制，但匹配预算下仍未超过生产基线。追加预算结果不能单独证明相同成本下的优势，两次运行取最佳也限制了统计结论。
 
-## RuleTrek
+## 3. Timestral：分离预测时域与因果上下文
+
+Timestral 提供 5M 至 209M 参数的四个概率时间序列模型。Decoupled Horizon Forecasting 将预测 token 与因果编码上下文分离，使更长预测时域不必遮掉已观察数据，并原生处理已知未来协变量；训练先用多样合成数据，再混合真实与合成序列后训练。
+
+![Timestral Figure 4](./images/paper-261037585-figure4.png)
+
+*图｜Petralia, Adrien 等，Timestral，[Figure 4（PDF 第 6 页）](https://arxiv.org/pdf/2610.37585v1#page=6)，[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+报告在 GIFT-Eval、TIME、fev-bench 上比较预测质量。概率预测不应只看点误差，还需检查区间和分布的校准；已知未来协变量必须确实在预测时可获得，跨行业迁移也取决于数据频率、缺失机制和分布变化。
+
+Figure 6 的 GIFT-Eval 结果同时报告 MASE 与 CRPS，均以更低为好。Timestral-209M 的几何平均 MASE 为 0.6575、CRPS 为 0.4476；Timestral-123M 分别为 0.6589 和 0.4496。两种度量反映点预测误差与概率预测质量，不能用其中一个分数替代全部预测性能。
+
+![Timestral Figure 6](./images/paper-261037585-figure6.png)
+
+*图｜Petralia, Adrien 等，Timestral，[Figure 6（PDF 第 10 页）](https://arxiv.org/pdf/2610.37585v1#page=10)，[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+[Timestral](https://arxiv.org/abs/2610.37585v1) · 2610.37585v1。
+
+## 4. GEPA-Curator
+
+Agent 系统 · 首版 2026-10-27 · [论文](https://arxiv.org/abs/2610.37651) · [全文](https://arxiv.org/html/2610.37651v1) · [原表 Table 2](https://arxiv.org/pdf/2610.37651#page=6)
+
+### 研究问题与方法
+
+失败轨迹可能包含提示词问题，也可能来自环境限制或评判噪声。GEPA-Curator 在当前批次中筛选有学习价值的任务，并检索同一任务的可靠成功轨迹，给反思优化提供对照。筛选针对当前阶段，困难任务不会因此永久退出训练。
+
+![GEPA-Curator 原论文 Table 2 节选：Seed 行及 Gemini 3.1 Pro 优化器下 GEPA、ACE、GEPA-Curator 的结果，数值含标准差。](./images/gepa-appworld.png)
+
+*图 2｜Zack Yu、Nicholas Lee 等，GEPA-Curator，[Table 2，PDF 第 6 页](https://arxiv.org/pdf/2610.37651#page=6)。原论文表格截图，保留表头、Seed 行和 Gemini 3.1 Pro 部分；裁去 Claude Opus 5 部分及页内其他内容，未改动保留的数值。AppWorld 指标为 Task Goal Completion（%），± 后为标准差；下表摘录 AppWorld 两列。*
+
+### 实验结果与条件
+
+| 方法 | Test-N（%） | Test-C（%） |
+|---|---:|---:|
+| GEPA | 38.0 ± 2.3 | 27.8 ± 2.1 |
+| ACE | 55.7 ± 1.8 | 34.5 ± 1.4 |
+| GEPA-Curator | 58.7 ± 1.9 | 46.2 ± 2.1 |
+
+这组实验使用 Gemini 3.1 Pro 优化器、gpt-oss-120b 执行模型、AppWorld 官方数据划分和 1,500 次训练 rollout，表中为 5 次均值 ± 标准差。Test-N 从 38.0% 到 58.7% 的差为 **20.7 个百分点**；Test-C 相比 GEPA 高 18.4 个百分点。
+
+结果支持在反思前筛选经验的设计，但收益依赖执行模型、任务与预算。标准差描述重复运行的波动，不能直接当成显著性检验；本文也没有据这两列结果推断其他 Agent 的收益。
+
+## 5. EmbeddingGemma 2：统一文本、图像、声音和视频表示
+
+EmbeddingGemma 2 将文本、图像、音频、视频及其组合编码到统一嵌入空间，采用简化逐层 embedding 和按模态、目标推进的多阶段课程。它同时检查单模态、跨模态和混合输入检索，避免只用一个文本基准代表多模态质量。
+
+![EmbeddingGemma 2 Figure 1](./images/paper-261037364-figure1.png)
+
+*图｜Vera, Henrique Schechter 等，EmbeddingGemma 2，[Figure 1（PDF 第 2 页）](https://arxiv.org/pdf/2610.37364v1#page=2)，[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+模型还支持按需加载模态编码器、调整视觉 token 预算、截断嵌入维度和量化权重，为资源受限部署提供选择。不同维度与编码预算会改变质量和开销，模型大小比较也不能替代具体语料的召回、延迟与跨模态对齐评测。
+
+![EmbeddingGemma 2 Figure 2](./images/paper-261037364-figure2.png)
+
+*图｜Vera, Henrique Schechter 等，EmbeddingGemma 2，[Figure 2（PDF 第 3 页）](https://arxiv.org/pdf/2610.37364v1#page=3)，[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+[EmbeddingGemma 2: Unified and Efficient Multimodal Representations](https://arxiv.org/abs/2610.37364v1) · 2610.37364v1。
+
+## 6. ThinkWorld：用视频中的状态变化训练动作思考
+
+ThinkWorld 将动作思考表示成离散运动 token 的 Chain-of-Dynamics，描述当前到未来状态之间的变化，作为不同身体形态共享的动作表示。先用带动作标签的示范初始化，再预测每条 CoD 导致的未来，以预测和真实观测的匹配度强化学习。
+
+![ThinkWorld Figure 1](./images/paper-261037666-figure1.png)
+
+*图｜Kim, Chaehyun 等，ThinkWorld，[Figure 1（PDF 第 1 页）](https://arxiv.org/pdf/2610.37666v1#page=1)，[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+这种世界想象监督让没有动作标注的人类视频也能提供学习信号，论文在仿真和实机中测试跨任务、环境及人到机器人的迁移。但无动作标签并非没有监督：世界预测器、初始动作示范和观测一致性共同定义目标，预测失真也可能影响动作学习。
+
+![ThinkWorld Table 1](./images/paper-261037666-table1.png)
+
+*图｜Kim, Chaehyun 等，ThinkWorld，[Table 1（PDF 第 8 页）](https://arxiv.org/pdf/2610.37666v1#page=8)，[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+[ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](https://arxiv.org/abs/2610.37666v1) · 2610.37666v1。
+
+## 7. RuleTrek
 
 规则推理评测 · 首版 2026-10-14 · [论文](https://arxiv.org/abs/2610.19698) · [全文](https://arxiv.org/html/2610.19698v1) · [原表 Table 2](https://arxiv.org/pdf/2610.19698#page=6)
 
@@ -122,7 +162,7 @@ GPU 内核搜索容易停在局部有效的实现上。Evolving Agent Teams 由�
 
 资料为英文，规则与场景预先固定。多语言和规则动态变化环境的表现仍需验证，表中差距也不能直接用作单一错误来源的因果估计。
 
-## CBE
+## 8. CBE
 
 逻辑推理评测 · 首版 2026-10-16 · [论文](https://arxiv.org/abs/2610.22894) · [全文](https://arxiv.org/html/2610.22894v1) · [原图 Figure 2](https://arxiv.org/pdf/2610.22894#page=6)
 
@@ -151,29 +191,3 @@ GPT-4.1 的 front/behind 排序任务：
 ---
 
 图 1–4 为原论文图表的必要截图节选，来源、作者及裁剪范围见各图注；对应 arXiv 版本标注 non-exclusive distribution，博客转载原图的许可尚未确认，本文不将其表述为已获授权或开放许可。这些外部图表不适用本站页脚的默认许可。图 5 按 CC BY 4.0 引用，作者与变更说明见图注。
-
-## 本期其他论文
-
-### Timestral：分离预测时域与因果上下文
-
-Timestral 提供 5M 至 209M 参数的四个概率时间序列模型。Decoupled Horizon Forecasting 将预测 token 与因果编码上下文分离，使更长预测时域不必遮掉已观察数据，并原生处理已知未来协变量；训练先用多样合成数据，再混合真实与合成序列后训练。
-
-报告在 GIFT-Eval、TIME、fev-bench 上比较预测质量。概率预测不应只看点误差，还需检查区间和分布的校准；已知未来协变量必须确实在预测时可获得，跨行业迁移也取决于数据频率、缺失机制和分布变化。
-
-[Timestral](https://arxiv.org/abs/2610.37585v1) · 2610.37585v1。
-
-### EmbeddingGemma 2：统一文本、图像、声音和视频表示
-
-EmbeddingGemma 2 将文本、图像、音频、视频及其组合编码到统一嵌入空间，采用简化逐层 embedding 和按模态、目标推进的多阶段课程。它同时检查单模态、跨模态和混合输入检索，避免只用一个文本基准代表多模态质量。
-
-模型还支持按需加载模态编码器、调整视觉 token 预算、截断嵌入维度和量化权重，为资源受限部署提供选择。不同维度与编码预算会改变质量和开销，模型大小比较也不能替代具体语料的召回、延迟与跨模态对齐评测。
-
-[EmbeddingGemma 2: Unified and Efficient Multimodal Representations](https://arxiv.org/abs/2610.37364v1) · 2610.37364v1。
-
-### ThinkWorld：用视频中的状态变化训练动作思考
-
-ThinkWorld 将动作思考表示成离散运动 token 的 Chain-of-Dynamics，描述当前到未来状态之间的变化，作为不同身体形态共享的动作表示。先用带动作标签的示范初始化，再预测每条 CoD 导致的未来，以预测和真实观测的匹配度强化学习。
-
-这种世界想象监督让没有动作标注的人类视频也能提供学习信号，论文在仿真和实机中测试跨任务、环境及人到机器人的迁移。但无动作标签并非没有监督：世界预测器、初始动作示范和观测一致性共同定义目标，预测失真也可能影响动作学习。
-
-[ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](https://arxiv.org/abs/2610.37666v1) · 2610.37666v1。

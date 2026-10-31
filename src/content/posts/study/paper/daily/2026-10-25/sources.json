@@ -72,6 +72,66 @@
 			"image_size": [520, 420],
 			"sha256": "9fd9060dc62f75596bacdc6d450e97e48a72a996044e0e3857f3dcb645789557",
 			"source_pdf_sha256": "030b5c283151b2fb79cc4e4a18544e8e60307794e217112f4ddcb220cc01c07b"
+		},
+		"paper-261031633-figure1.png": {
+			"authors": "Prairie, Hayden et al.",
+			"paper_title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+			"source": "https://arxiv.org/pdf/2610.31633v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 56.15272521972656, 546.4154663085938, 220.8887939453125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b209c4301fc99e8180fb9b108c1e45d8b364e6c58c10c506b953f5d79b61f9c7",
+			"source_pdf_sha256": "7feb72f5f4e4902a785129bf559fd1bbd6803bb96d98a70ee1c5e8efb576ed10"
+		},
+		"paper-261031483-figure1.png": {
+			"authors": "Zhou, Zhaoyi et al.",
+			"paper_title": "Training Small Language Models for Transferable Tool Selection",
+			"source": "https://arxiv.org/pdf/2610.31483v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.781036376953125, 546.1780395507812,
+				314.10797119140625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d460c846ff542a5db581e33d3e07b6037dcc58b585ef99cb91bbc9ed3bb0e3fc",
+			"source_pdf_sha256": "2c13c3a2558a5c18ed484d62326f62e25ac77ea55cc9dec439a033bd3259145e"
+		},
+		"paper-261031483-table2.png": {
+			"authors": "Zhou, Zhaoyi et al.",
+			"paper_title": "Training Small Language Models for Transferable Tool Selection",
+			"source": "https://arxiv.org/pdf/2610.31483v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 50, 546, 328],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c030c808272f89aed53c899718772b3f49e66c66a118bdf8e64da8165f11cfee",
+			"source_pdf_sha256": "2c13c3a2558a5c18ed484d62326f62e25ac77ea55cc9dec439a033bd3259145e"
+		},
+		"paper-261031585-figure1.png": {
+			"authors": "Liaw, Sarah et al.",
+			"paper_title": "Action Learning for Scientific Simulations",
+			"source": "https://arxiv.org/pdf/2610.31585v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				94.10855102539062, 434.85809326171875, 514.3045654296875,
+				608.8543701171875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "010fbf6980bc75c7a227714c4f2f674e23c66cf142520ca512d46c8f7c979fc4",
+			"source_pdf_sha256": "42a903c846d9b267d56a05d404aae3e8a9f14438362c4d528f71112c83ccf061"
 		}
 	},
 	"included_roster_count": 7

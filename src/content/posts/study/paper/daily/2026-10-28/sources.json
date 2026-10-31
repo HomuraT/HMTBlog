@@ -52,7 +52,81 @@
 			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-261032725-figure1.png": {
+			"authors": "Acharya, Aayush et al.",
+			"paper_title": "Ontology-Guided Knowledge Graph Construction from Structured Metadata and Climate Science Publications",
+			"source": "https://arxiv.org/pdf/2610.32725v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.86445617675781, 529.4115600585938,
+				290.4521179199219
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "53c7cfc950ccf9b289cafdc1675feb350be9e6f52fa6e5d093fe6b3f80b4d0ec",
+			"source_pdf_sha256": "90773d1bf698daea0b3d8a854591082fb64480972470391a63905f411989fb37"
+		},
+		"paper-261035845-figure1.png": {
+			"authors": "Xu, Zishan et al.",
+			"paper_title": "Work Agents: Systems, Capabilities, and Optimization",
+			"source": "https://arxiv.org/pdf/2610.35845v1#page=6",
+			"item": "Figure 1",
+			"pdf_page": 6,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 94.87156677246094, 546.3784790039062,
+				413.7459716796875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "78327d0512b9a496aea514d6d71a63ab6b6e20e430272a0e152e91a22ab2c463",
+			"source_pdf_sha256": "55158b04513f0b3979bc51a134b5813178a07e5cdd028288e32de8ba5cd0c85c"
+		},
+		"paper-261035868-figure1.png": {
+			"authors": "Wan, Chao et al.",
+			"paper_title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+			"source": "https://arxiv.org/pdf/2610.35868v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [302, 170, 547, 332],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "628f97b55e4584458afa855522ac5ad817f9c9c7e26fdea482dc37dd883a640b",
+			"source_pdf_sha256": "1f219f2e453f3d14f81fa53101a2388b9348910c1e6846a8f8d29ebccaf2d9fa"
+		},
+		"paper-261035862-figure1.png": {
+			"authors": "Li, Sihang et al.",
+			"paper_title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+			"source": "https://arxiv.org/pdf/2610.35862v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [50, 153, 562, 453],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d44fa467c069c08e6a8bb33ff27bf5ea0ad30d699693c8c17a72f6d158e649d2",
+			"source_pdf_sha256": "97222db3e0e662bb5c97cbd037642b58c7890e727cb6fb23025627e63b122953"
+		},
+		"paper-261035857-figure1.png": {
+			"authors": "Sonthalia, Ankit et al.",
+			"paper_title": "Do vision models know that three is three?",
+			"source": "https://arxiv.org/pdf/2610.35857v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 66.99789428710938, 510.37933349609375, 312.06707763671875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a98b1e6b88282bda8b12fd20d84c2df1f2dbca695d281e2a23feba9cf4499bc4",
+			"source_pdf_sha256": "21934ddac855707651b2d6cf52d32874db5e83a3221822d572be2011850c7fe2"
+		}
+	},
 	"figure_omissions": [
 		{
 			"item": "Table 2",

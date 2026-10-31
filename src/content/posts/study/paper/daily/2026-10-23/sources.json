@@ -60,6 +60,77 @@
 			"image_size": [635, 348],
 			"sha256": "cc37acbef0b9781ee766e4997df6d72306c6ee29b1c5562d2b8cb0631fea8e56",
 			"source_pdf_sha256": "bd781905240bd5a762ddb84ac8811ae303611c2de4beb7cbf563bbdc7cd96a36"
+		},
+		"paper-261029348-figure2.png": {
+			"authors": "Wen, Haodong et al.",
+			"paper_title": "Data Schedules and Learning Rate Schedules Should Be Designed Together",
+			"source": "https://arxiv.org/pdf/2610.29348v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.86056518554688, 509.3095703125, 260.2571105957031
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "305b20cd9ad01fa93e347c245c69ae53498c8b535e1ccaf037cba67233514d68",
+			"source_pdf_sha256": "e2e6e5b9e69735f994040645bb4bf8475bd1630d675e5543551c467d0d646d87"
+		},
+		"paper-261028458-figure2.png": {
+			"authors": "Tandon, Kartik et al.",
+			"paper_title": "LocaLeJEPA: Maximum Entropy Representations under Geometric Priors",
+			"source": "https://arxiv.org/pdf/2610.28458v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.85906982421875, 509.3632507324219, 418.5140686035156
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e73e34e1fe133b2594ce05558897e4f0930da2942414088d2af2f87fdb006533",
+			"source_pdf_sha256": "d32c74ce06883a8c1087d6c0724114600af602ec9b1266d1e36a0ee262a8186f"
+		},
+		"paper-261028458-table1.png": {
+			"authors": "Tandon, Kartik et al.",
+			"paper_title": "LocaLeJEPA: Maximum Entropy Representations under Geometric Priors",
+			"source": "https://arxiv.org/pdf/2610.28458v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [260, 445, 510, 675],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "cac9a403f523e65b1bae5aa029b8a9973528c67f5422da8ec0e1137490535693",
+			"source_pdf_sha256": "d32c74ce06883a8c1087d6c0724114600af602ec9b1266d1e36a0ee262a8186f"
+		},
+		"paper-261030136-figure1.png": {
+			"authors": "Liu, Zhuoyang et al.",
+			"paper_title": "Agentic World Action Models",
+			"source": "https://arxiv.org/pdf/2610.30136v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 236.70986938476562, 509.0032958984375, 497.4440612792969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "01c1a8c0ec73e0376d83eb612eaaa7aeb4e6ad36ee394cb86fdb0980229996e7",
+			"source_pdf_sha256": "481ac13869d840b0d53ad27ca01e78221f805977e4a935b55b322cb63ee494e2"
+		},
+		"paper-261030136-table1.png": {
+			"authors": "Liu, Zhuoyang et al.",
+			"paper_title": "Agentic World Action Models",
+			"source": "https://arxiv.org/pdf/2610.30136v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103.0, 83.35851287841797, 306.0, 232.573974609375],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d910414ed3e82fa255971b1b151c8dd5b191e03ac7ae3ae8875a7d08f428a672",
+			"source_pdf_sha256": "481ac13869d840b0d53ad27ca01e78221f805977e4a935b55b322cb63ee494e2"
 		}
 	},
 	"included_roster_count": 5
