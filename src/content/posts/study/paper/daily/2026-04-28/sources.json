@@ -77,10 +77,112 @@
 			"image_size": [980, 558],
 			"sha256": "7d0bf009375e4ecb2b2e51db4a614d1019d8d453ab83d852957d124cb05c6ad9",
 			"source_pdf_sha256": "437e1ba0fc195be1ad18b30e9d752d2036f239683b7fa6809eb55dab40e09961"
+		},
+		"paper-241016597-figure1.png": {
+			"authors": [
+				"Choubey, Prafulla Kumar",
+				"Su, Xin",
+				"Luo, Man",
+				"Peng, Xiangyu",
+				"Xiong, Caiming",
+				"Le, Tiep",
+				"Rosenman, Shachar",
+				"Lal, Vasudev",
+				"Mui, Phil",
+				"Ho, Ricky",
+				"Howard, Phillip",
+				"Wu, Chien-Sheng"
+			],
+			"paper_title": "Distill-SynthKG: Distilling Knowledge Graph Synthesis Workflow for Improved Coverage and Efficiency",
+			"source": "https://arxiv.org/pdf/2410.16597v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 67.19097900390625, 530.6497192382812,
+				242.04306030273438
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "55e78b9658ed698503915b263217362effb112fbba073b99dd3461405d809c59",
+			"source_pdf_sha256": "fa8dd35e8bebe1257792c5484acc1a48c0e0e21c853fbf46045610670b8b30c4"
+		},
+		"paper-241016597-table1.png": {
+			"authors": [
+				"Choubey, Prafulla Kumar",
+				"Su, Xin",
+				"Luo, Man",
+				"Peng, Xiangyu",
+				"Xiong, Caiming",
+				"Le, Tiep",
+				"Rosenman, Shachar",
+				"Lal, Vasudev",
+				"Mui, Phil",
+				"Ho, Ricky",
+				"Howard, Phillip",
+				"Wu, Chien-Sheng"
+			],
+			"paper_title": "Distill-SynthKG: Distilling Knowledge Graph Synthesis Workflow for Improved Coverage and Efficiency",
+			"source": "https://arxiv.org/pdf/2410.16597v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 60, 530, 233],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c3e8645bfc493a3d027c20dcc1fd1ead2ce2ea818a6c7f04f7b95fa3d2adbf65",
+			"source_pdf_sha256": "fa8dd35e8bebe1257792c5484acc1a48c0e0e21c853fbf46045610670b8b30c4"
+		},
+		"paper-260421254-figure1.png": {
+			"authors": ["Zeitoun, Abbas", "Torroba-Hennigen, Lucas", "Kim, Yoon"],
+			"paper_title": "Hyperloop Transformers",
+			"source": "https://arxiv.org/pdf/2604.21254v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.6709976196289, 65.52224731445312, 510.7449645996094,
+				371.19891357421875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e521e75bd8fd5cf155a81e1347ddad1796723ea7f70d5fba66125bd77504fab3",
+			"source_pdf_sha256": "4d10dcbe1642032e9079529f0136335557ea165fa8ca93e02c132bfb51e05a8b"
+		},
+		"paper-260421254-table1.png": {
+			"authors": ["Zeitoun, Abbas", "Torroba-Hennigen, Lucas", "Kim, Yoon"],
+			"paper_title": "Hyperloop Transformers",
+			"source": "https://arxiv.org/pdf/2604.21254v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 65, 510, 282],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "610785d8b57384def566fb784ad5bcb9eef4d428001c7d0f84b8a6e705dd418c",
+			"source_pdf_sha256": "4d10dcbe1642032e9079529f0136335557ea165fa8ca93e02c132bfb51e05a8b"
+		},
+		"paper-260422709-table1.png": {
+			"authors": [
+				"Ramji, Keshav",
+				"Naseem, Tahira",
+				"Astudillo, Ramón Fernandez"
+			],
+			"paper_title": "Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought",
+			"source": "https://arxiv.org/pdf/2604.22709v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 70, 509, 533],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "47e8ef7a56d0acc63aa90205eb6de7c3af8d1a198c02d45482882bbdc39e0c7a",
+			"source_pdf_sha256": "437e1ba0fc195be1ad18b30e9d752d2036f239683b7fa6809eb55dab40e09961"
 		}
 	},
 	"verification_notes": [
 		"Abstract-CoT token compression is task-specific, not an equal end-to-end speedup.",
 		"All links fixed to v1, including versions with later revisions before the digest date."
-	]
+	],
+	"published_paper_count": 8
 }

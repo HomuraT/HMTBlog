@@ -77,11 +77,125 @@
 			"image_size": [1180, 757],
 			"sha256": "440adfd9edab04f657e31d2b5bb9e90987aa02113acd0aca127038b9168fdd02",
 			"source_pdf_sha256": "7b8adc094620015891940651d62608d781bb4cd1c0cd74bbfa6160057b5e59f1"
+		},
+		"paper-260425727-figure2.png": {
+			"authors": [
+				"Fan, Zhiyuan",
+				"Yu, Tinghao",
+				"Cai, Yuanjun",
+				"Guan, Jiangtao",
+				"Yang, Yun",
+				"Hu, Dingxin",
+				"Zhou, Jiang",
+				"Wu, Xing",
+				"Han, Zhuo",
+				"Zhang, Feng",
+				"Wang, Lilin"
+			],
+			"paper_title": "Toward Scalable Terminal Task Synthesis via Skill Graphs",
+			"source": "https://arxiv.org/pdf/2604.25727v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.49817657470703, 509.0032653808594, 326.8959655761719
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "aab37f2ed9c348f2150715241b0a670c7e1149055c705cff9b40bf468f2c33de",
+			"source_pdf_sha256": "eaeb558cc5195560ef800d92166e4fcabad3920ad51981c5805ae01c2a548d4e"
+		},
+		"paper-260425727-table4.png": {
+			"authors": [
+				"Fan, Zhiyuan",
+				"Yu, Tinghao",
+				"Cai, Yuanjun",
+				"Guan, Jiangtao",
+				"Yang, Yun",
+				"Hu, Dingxin",
+				"Zhou, Jiang",
+				"Wu, Xing",
+				"Han, Zhuo",
+				"Zhang, Feng",
+				"Wang, Lilin"
+			],
+			"paper_title": "Toward Scalable Terminal Task Synthesis via Skill Graphs",
+			"source": "https://arxiv.org/pdf/2604.25727v1#page=8",
+			"item": "Table 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [160, 385, 451, 488],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fdcc344244d474cfe784548f120c6fa8ac5e9ee133428ab4f9270d8d1d2faf47",
+			"source_pdf_sha256": "eaeb558cc5195560ef800d92166e4fcabad3920ad51981c5805ae01c2a548d4e"
+		},
+		"paper-260425724-figure1.png": {
+			"authors": ["S V, Srikanta Prasad", "Arora, Utkarsh"],
+			"paper_title": "Scalable Inference Architectures for Compound AI Systems: A Production Deployment Study",
+			"source": "https://arxiv.org/pdf/2604.25724v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.46699905395508, 78.69232177734375, 563.3867797851562,
+				504.165771484375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7151b4a9a3065d5d8536ff08c575f37b7ad5ac17b8af60e43a404d8fc1db4747",
+			"source_pdf_sha256": "7a8ea3e9466660f4b078ca97c39e21511730033c2131db1de56e3f890d29596a"
+		},
+		"paper-260425724-table1.png": {
+			"authors": ["S V, Srikanta Prasad", "Arora, Utkarsh"],
+			"paper_title": "Scalable Inference Architectures for Compound AI Systems: A Production Deployment Study",
+			"source": "https://arxiv.org/pdf/2604.25724v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 78, 547, 170],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b68c03a3d2f9c1050ab9299314a4d0c661b3dcd4d88dd8ed251b09ae30d5dc11",
+			"source_pdf_sha256": "7a8ea3e9466660f4b078ca97c39e21511730033c2131db1de56e3f890d29596a"
+		},
+		"paper-260425544-figure2.png": {
+			"authors": ["Wang, Luyao"],
+			"paper_title": "Medoid Prototype Alignment for Cross-Plant Unknown Attack Detection in Industrial Control Systems",
+			"source": "https://arxiv.org/pdf/2604.25544v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [
+				306.8110046386719, 65.86343383789062, 549.2581787109375,
+				252.51377868652344
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2198dd84687fda45a0423c611676fd22ddfc529790b77cf46dd75efc525b7b8c",
+			"source_pdf_sha256": "c2d494709b097145924d1232b0ba43f82465531dd9d33159bf7f62b9f3cb6ab5"
+		},
+		"paper-260425544-figure4.png": {
+			"authors": ["Wang, Luyao"],
+			"paper_title": "Medoid Prototype Alignment for Cross-Plant Unknown Attack Detection in Industrial Control Systems",
+			"source": "https://arxiv.org/pdf/2604.25544v1#page=5",
+			"item": "Figure 4",
+			"pdf_page": 5,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [
+				46.02399826049805, 65.86593627929688, 288.4622802734375,
+				229.2128143310547
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "92bc2f459047693e4b22a2a46d352bdc27663e99fe6861c22690bfd4ad25c7fb",
+			"source_pdf_sha256": "c2d494709b097145924d1232b0ba43f82465531dd9d33159bf7f62b9f3cb6ab5"
 		}
 	},
 	"verification_notes": [
 		"Semantic Layers HTML unavailable; public v1 PDF retrieved and checked.",
 		"RecursiveMAS public v1 PDF successfully retrieved, Figure 1 established on page 1; no restricted fallback used.",
 		"AutoResearchBench 9.39 accuracy and 9.31 IoU are different ReAct model results; separate end-to-end sampled systems not treated as equivalent."
-	]
+	],
+	"published_paper_count": 8
 }

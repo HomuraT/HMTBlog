@@ -77,11 +77,238 @@
 			"image_size": [1182, 615],
 			"sha256": "43145676a1023f46e3405183111069c801f417cd768b347bafcf277e561441cd",
 			"source_pdf_sha256": "148f68931c3baaa79a3f3bd69c3e2fe3a2168051b4f08024708b4f69568d5ee1"
+		},
+		"paper-250622267-figure1.png": {
+			"authors": [
+				"Khan, Junaid Ahmed",
+				"Cavagna, Hiari Pizzini",
+				"Proia, Andrea",
+				"Bartolini, Andrea"
+			],
+			"paper_title": "Towards Operational Data Analytics Chatbots -- Virtual Knowledge Graph is All You Need",
+			"source": "https://arxiv.org/pdf/2506.22267v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [100, 45, 515, 320],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3f4cf1f4760a68e9db2e4721dee739b1f31b03d6622c68c3c6e182ea90f60c0c",
+			"source_pdf_sha256": "3344ebf5b966876db0277fdae8fd1a6b249f69597e4c29f894f66f1d48bc2570"
+		},
+		"paper-250622267-tableii.png": {
+			"authors": [
+				"Khan, Junaid Ahmed",
+				"Cavagna, Hiari Pizzini",
+				"Proia, Andrea",
+				"Bartolini, Andrea"
+			],
+			"paper_title": "Towards Operational Data Analytics Chatbots -- Virtual Knowledge Graph is All You Need",
+			"source": "https://arxiv.org/pdf/2506.22267v1#page=7",
+			"item": "Table II",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				43.9640007019043, 42.76844787597656, 568.0624389648438,
+				154.3785400390625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3b7c0894d56d1cc15c6a8f4ab05f31a64ce2aeb8690cdd76b730ca48b690240f",
+			"source_pdf_sha256": "3344ebf5b966876db0277fdae8fd1a6b249f69597e4c29f894f66f1d48bc2570"
+		},
+		"paper-260421691-table1.png": {
+			"authors": [
+				"Simon, Jamie",
+				"Kunin, Daniel",
+				"Atanasov, Alexander",
+				"Boix-Adserà, Enric",
+				"Bordelon, Blake",
+				"Cohen, Jeremy",
+				"Ghosh, Nikhil",
+				"Guth, Florentin",
+				"Jacot, Arthur",
+				"Kamb, Mason",
+				"Karkada, Dhruva",
+				"Michaud, Eric J.",
+				"Ottlik, Berkan",
+				"Turnbull, Joseph"
+			],
+			"paper_title": "There Will Be a Scientific Theory of Deep Learning",
+			"source": "https://arxiv.org/pdf/2604.21691v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 55, 546, 385],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9ffa95234040a9f6de96ccfc8ae6b99cd832053f88e458812ef1a6e4348a7cb3",
+			"source_pdf_sha256": "d707158e963df37fdeb291878b403a2ced05dc98f9ca5650c16d49b3f04f552b"
+		},
+		"paper-260421931-figure2.png": {
+			"authors": [
+				"Wu, Yen-Siang",
+				"Luo, Rundong",
+				"Zhu, Jingsen",
+				"Tu, Tao",
+				"Farhadi, Ali",
+				"Wallingford, Matthew",
+				"Wang, Yu-Chiang Frank",
+				"Marschner, Steve",
+				"Ma, Wei-Chiu"
+			],
+			"paper_title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+			"source": "https://arxiv.org/pdf/2604.21931v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.76434326171875, 72.67894744873047, 546.1716918945312,
+				231.63226318359375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b76a23ee51387173a1d6da7cfb9ac5f55926abd70f82cba09d137f32b6263cf9",
+			"source_pdf_sha256": "fc06d7ef99af0e5a83c9b6f55a411c535e14b3737b7272d4304842eb1108ff3c"
+		},
+		"paper-260421931-table2.png": {
+			"authors": [
+				"Wu, Yen-Siang",
+				"Luo, Rundong",
+				"Zhu, Jingsen",
+				"Tu, Tao",
+				"Farhadi, Ali",
+				"Wallingford, Matthew",
+				"Wang, Yu-Chiang Frank",
+				"Marschner, Steve",
+				"Ma, Wei-Chiu"
+			],
+			"paper_title": "Seeing Fast and Slow: Learning the Flow of Time in Videos",
+			"source": "https://arxiv.org/pdf/2604.21931v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.59400177001953, 73.35101318359375, 547.414794921875,
+				228.26824951171875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "eb25cdfd1b2d79c773cbb9f297d531012a63e587256b5152b11a94463e3178da",
+			"source_pdf_sha256": "fc06d7ef99af0e5a83c9b6f55a411c535e14b3737b7272d4304842eb1108ff3c"
+		},
+		"paper-260421391-figure2.png": {
+			"authors": [
+				"Zhong, Yiming",
+				"He, Yaoyu",
+				"Yang, Zemin",
+				"Tian, Pengfei",
+				"Huang, Yifan",
+				"Huang, Qingqiu",
+				"Zhu, Xinge",
+				"Ma, Yuexin"
+			],
+			"paper_title": "From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges",
+			"source": "https://arxiv.org/pdf/2604.21391v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [50, 64, 547, 275],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "69d07360e3dd62ee34a5d8239f34fdd295b3f41af50d3d5a71adb2a73bd4074a",
+			"source_pdf_sha256": "8b6e9e41a22aad3adf5e28946590b405082b35b6882ef1735dfc34177f33cbf0"
+		},
+		"paper-260421391-table1.png": {
+			"authors": [
+				"Zhong, Yiming",
+				"He, Yaoyu",
+				"Yang, Zemin",
+				"Tian, Pengfei",
+				"Huang, Yifan",
+				"Huang, Qingqiu",
+				"Zhu, Xinge",
+				"Ma, Yuexin"
+			],
+			"paper_title": "From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges",
+			"source": "https://arxiv.org/pdf/2604.21391v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [50, 62, 547, 279],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4caa03410183f14102e36b13de421e12a000419b5c96878b8e6caa9b475a0df5",
+			"source_pdf_sha256": "8b6e9e41a22aad3adf5e28946590b405082b35b6882ef1735dfc34177f33cbf0"
+		},
+		"paper-260421681-figure4.png": {
+			"authors": [
+				"Khirodkar, Rawal",
+				"Wen, He",
+				"Martinez, Julieta",
+				"Dong, Yuan",
+				"Zhaoen, Su",
+				"Saito, Shunsuke"
+			],
+			"paper_title": "Sapiens2",
+			"source": "https://arxiv.org/pdf/2604.21681v1#page=5",
+			"item": "Figure 4",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103.0, 40.5, 509.00372314453125, 256.7083740234375],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3ca7bf28a833a963b58f0ca1ce8a549a2c1e0ecbe9166d8d085ead40d2a0c07c",
+			"source_pdf_sha256": "c8e9329d9e983f15ca128519b30a0ed8136952a6565da340b255f4e71ab48230"
+		},
+		"paper-260421681-table3.png": {
+			"authors": [
+				"Khirodkar, Rawal",
+				"Wen, He",
+				"Martinez, Julieta",
+				"Dong, Yuan",
+				"Zhaoen, Su",
+				"Saito, Shunsuke"
+			],
+			"paper_title": "Sapiens2",
+			"source": "https://arxiv.org/pdf/2604.21681v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 68, 340, 264],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e1460b77d3aee63e88b877c0ecdf01734e76eba78b1d9eba3d2878ae87e5601d",
+			"source_pdf_sha256": "c8e9329d9e983f15ca128519b30a0ed8136952a6565da340b255f4e71ab48230"
+		},
+		"paper-260421681-table4.png": {
+			"authors": [
+				"Khirodkar, Rawal",
+				"Wen, He",
+				"Martinez, Julieta",
+				"Dong, Yuan",
+				"Zhaoen, Su",
+				"Saito, Shunsuke"
+			],
+			"paper_title": "Sapiens2",
+			"source": "https://arxiv.org/pdf/2604.21681v1#page=8",
+			"item": "Table 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				338.11199951171875, 84.73407745361328, 506.5125427246094,
+				262.98138427734375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "62e9d11b3d18cf372e882d50ac4259d26cece7fc95aef1b52c440854d0f1ad05",
+			"source_pdf_sha256": "c8e9329d9e983f15ca128519b30a0ed8136952a6565da340b255f4e71ab48230"
 		}
 	},
 	"verification_notes": [
 		"Million-chip failure environments are simulations, not million-chip physical deployments.",
 		"OntoAxiom first submitted 2025-12-05; included as background reading.",
 		"StructMem effectiveness uses LLM judges; efficiency covers memory construction."
-	]
+	],
+	"published_paper_count": 8
 }
