@@ -69,6 +69,152 @@
 			"image_size": [878, 340],
 			"sha256": "3c1394be617922eb1c7b33c930ef0ee47542f6c62d57baa8161df8c051aaa1af",
 			"source_pdf_sha256": "e3972846d15fe248d85ff1ec0044a34db4f0d9aed5d1129e5a74bd41fa3824b6"
+		},
+		"paper-260613681-figure7.png": {
+			"authors": [
+				"Xu, Jundong",
+				"Li, Qingchuan",
+				"Wu, Jiaying",
+				"Lan, Yihuai",
+				"Li, Shuyue Stella",
+				"Zhou, Huichi",
+				"Jiang, Bowen",
+				"Wang, Lei",
+				"Wang, Jun",
+				"Luu, Anh Tuan",
+				"Xiong, Caiming",
+				"Park, Hae Won",
+				"Hooi, Bryan",
+				"Hu, Zhiyuan"
+			],
+			"paper_title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+			"source": "https://arxiv.org/pdf/2606.13681v1#page=11",
+			"item": "Figure 7",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 65.13136291503906, 509.3132629394531, 295.37237548828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1ef57b61f94d4a08fd00bd93f5104364661d61f0cf727555ad2aab318bdbce75",
+			"source_pdf_sha256": "3552a454d8cab6ef4dc35eb20501772a7cbc320a2922555c06c2ce0396881403"
+		},
+		"paper-260613681-table3.png": {
+			"authors": [
+				"Xu, Jundong",
+				"Li, Qingchuan",
+				"Wu, Jiaying",
+				"Lan, Yihuai",
+				"Li, Shuyue Stella",
+				"Zhou, Huichi",
+				"Jiang, Bowen",
+				"Wang, Lei",
+				"Wang, Jun",
+				"Luu, Anh Tuan",
+				"Xiong, Caiming",
+				"Park, Hae Won",
+				"Hooi, Bryan",
+				"Hu, Zhiyuan"
+			],
+			"paper_title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+			"source": "https://arxiv.org/pdf/2606.13681v1#page=13",
+			"item": "Table 3",
+			"pdf_page": 13,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [106, 78, 503, 415],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3792850b6162b29c400721ad0923173738cb4634693fba652a941c7934b5769d",
+			"source_pdf_sha256": "3552a454d8cab6ef4dc35eb20501772a7cbc320a2922555c06c2ce0396881403"
+		},
+		"paper-260613675-figure2.png": {
+			"authors": [
+				"Tang, Andy",
+				"Chen, William",
+				"Wagenmaker, Andrew",
+				"Finn, Chelsea",
+				"Levine, Sergey"
+			],
+			"paper_title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+			"source": "https://arxiv.org/pdf/2606.13675v2#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 64.86082458496094, 509.0011291503906, 203.72637939453125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e2da951ef645d7a481d466bd8c4b1753454aae613941287569f77390fe5730ab",
+			"source_pdf_sha256": "96acb4801b8dbe0d4ceb412172e541dbbf47e05a28cc51cd3934e0e7b7a88049"
+		},
+		"paper-260613675-figure5.png": {
+			"authors": [
+				"Tang, Andy",
+				"Chen, William",
+				"Wagenmaker, Andrew",
+				"Finn, Chelsea",
+				"Levine, Sergey"
+			],
+			"paper_title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+			"source": "https://arxiv.org/pdf/2606.13675v2#page=7",
+			"item": "Figure 5",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 70, 360, 230],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b1d858381d87ef57059d5ce815739e06197e4e63c23743b217d56ace06a9f21b",
+			"source_pdf_sha256": "96acb4801b8dbe0d4ceb412172e541dbbf47e05a28cc51cd3934e0e7b7a88049"
+		},
+		"paper-260613674-figure1.png": {
+			"authors": [
+				"Wang, Junke",
+				"Zhang, Qihang",
+				"Yang, Shuai",
+				"Luo, Yiming",
+				"Shen, Yujun",
+				"Wu, Zuxuan",
+				"Jiang, Yu-Gang",
+				"Xu, Yinghao"
+			],
+			"paper_title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
+			"source": "https://arxiv.org/pdf/2606.13674v2#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 61.72015380859375, 546.133056640625,
+				319.16827392578125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bc58b503231a47babf89f9528752fc5ea11a12ddd3fa06ca26d0d06d0118ca8e",
+			"source_pdf_sha256": "83e43b36df758323556ff5e7ff300f914bfc29ecbf8cdfef3929ef6e219773a1"
+		},
+		"paper-260613674-table1.png": {
+			"authors": [
+				"Wang, Junke",
+				"Zhang, Qihang",
+				"Yang, Shuai",
+				"Luo, Yiming",
+				"Shen, Yujun",
+				"Wu, Zuxuan",
+				"Jiang, Yu-Gang",
+				"Xu, Yinghao"
+			],
+			"paper_title": "RepWAM: World Action Modeling with Representation Visual-Action Tokenizers",
+			"source": "https://arxiv.org/pdf/2606.13674v2#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 107, 542, 249],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c50da211ff430bb9b62a4be3aa33cff794f4ef249f947d289977156a04e03341",
+			"source_pdf_sha256": "83e43b36df758323556ff5e7ff300f914bfc29ecbf8cdfef3929ef6e219773a1"
 		}
-	}
+	},
+	"published_paper_count": 7
 }
