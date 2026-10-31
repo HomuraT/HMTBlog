@@ -143,6 +143,16 @@
 			"source": "https://arxiv.org/abs/2505.22618v1",
 			"first_submitted": "2025-05-28",
 			"verification_scope": "Public historical v1 title, submission date and link checked; full experiments not reviewed"
+		},
+		{
+			"arxiv": "2507.22606v1",
+			"title": "MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines",
+			"authors": ["Yaolun Zhang", "Xiaogeng Liu", "Chaowei Xiao"],
+			"source": "https://proceedings.mlr.press/v267/zhang25bc.html",
+			"pdf_source": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf",
+			"version": "ICML 2025, PMLR 267:75667–75694",
+			"version_submitted": "2025-07-30",
+			"verification_scope": "Publisher PDF Sections 3–4; GPT-4o temperature 0; Tables 3–4; original Figure 1. No independent reproduction."
 		}
 	],
 	"figures": {
@@ -436,6 +446,36 @@
 			"change": "Rectangular crop from original PDF.",
 			"sha256": "9c09fdc47c499e0b58bff76bb867f03eaf44e66bab51a3c58e606f726502f857",
 			"source_pdf_sha256": "0bceef5b9f21c6a2e98c43c7f20f7176692710fe80f9dc4517fc8be10fe0e215"
+		},
+		"paper-metaagent-figure1.png": {
+			"authors": ["Yaolun Zhang", "Xiaogeng Liu", "Chaowei Xiao"],
+			"paper_title": "MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines",
+			"source": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=3",
+			"publication_source": "https://proceedings.mlr.press/v267/zhang25bc.html",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"publisher_license_policy": "https://proceedings.mlr.press/pmlr-license-agreement.html",
+			"crop_pdf_points": [50, 72, 547, 326],
+			"change": "Rectangular crop from original published PDF.",
+			"sha256": "768ecca5aeff5b3594d7ab49f1c3b992b459e2cf58bf188c01a8baf8d11a2a99",
+			"source_pdf_sha256": "b195cbde523be900b258057ac1b0ced5900bf3d3b8ca692a34ac1862dc78d130"
+		},
+		"paper-metaagent-tables3-4.png": {
+			"authors": ["Yaolun Zhang", "Xiaogeng Liu", "Chaowei Xiao"],
+			"paper_title": "MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines",
+			"source": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=8",
+			"publication_source": "https://proceedings.mlr.press/v267/zhang25bc.html",
+			"item": "Tables 3–4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"publisher_license_policy": "https://proceedings.mlr.press/pmlr-license-agreement.html",
+			"crop_pdf_points": [50, 73, 547, 297],
+			"change": "Rectangular crop from original published PDF.",
+			"sha256": "93f44529787a4739294ed3fc154fefc51c400351920cdfaec05267557225d7d1",
+			"source_pdf_sha256": "b195cbde523be900b258057ac1b0ced5900bf3d3b8ca692a34ac1862dc78d130"
 		}
 	},
 	"verification_notes": [
@@ -454,5 +494,5 @@
 		}
 	],
 	"unresolved_candidate_count": 5,
-	"published_paper_count": 20
+	"published_paper_count": 21
 }

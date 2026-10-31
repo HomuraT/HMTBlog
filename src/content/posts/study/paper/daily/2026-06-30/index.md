@@ -2,7 +2,7 @@
 title: '论文日报 2026-06-30：证据建图、视觉质量与性能分析'
 published: 2026-06-30
 updated: 2026-10-31
-description: '本期八项研究介绍本体图检索、超分辨率、图像后训练、物理视频、原子评价、视觉 rubric、性能下界与 Agent 自身安全。'
+description: '本期九项研究介绍本体图检索、超分辨率、图像后训练、物理视频、原子评价、视觉 rubric、推测解码、性能下界与 Agent 自身安全。'
 image: ''
 tags: [LLM, 知识图谱, 论文笔记]
 category: '论文或资源整理'
@@ -10,7 +10,7 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本期八项研究介绍本体图检索、超分辨率、图像后训练、物理视频、原子评价、视觉 rubric、性能下界与 Agent 自身安全。
+本期九项研究介绍本体图检索、超分辨率、图像后训练、物理视频、原子评价、视觉 rubric、推测解码、性能下界与 Agent 自身安全。
 
 ## 1. 本体与 Graph RAG：图结构仍需保留文本证据
 
@@ -105,3 +105,15 @@ KernelBench、JAX/Flax 与机器人负载的实验未观察到 SOL 界被实测�
 [Red-Teaming the Agentic Red-Team](https://arxiv.org/abs/2606.24496v1) · v1。
 
 [Figure 1（原文）](https://arxiv.org/pdf/2606.24496v1#page=2)。
+
+## 9. DSpark：让草稿依赖和验证预算适应服务负载
+
+DSpark 同时优化“怎样起草”和“验证多少”。并行骨干一次提出多个候选 token，轻量顺序模块补上块内依赖，减少后部候选快速失效；置信度模型估计候选前缀能被接受的概率，再结合服务引擎的负载与吞吐曲线，为各请求选择验证长度。
+
+离线实验在 Qwen3-4B、8B、14B 上，宏平均每轮接受长度相对 Eagle3 分别提高 30.9%、26.7%、30.0%，相对 DFlash 提高 16.3%、18.4%、18.3%。这是草稿接受长度，不等于端到端吞吐同比增加。[方法图 Figure 1，PDF 第 5 页](https://github.com/deepseek-ai/DeepSpec/blob/0a03e19e1c57000d5d3d291fa57109944eba6b6a/DSpark_paper.pdf#page=5) 展示并行骨干、顺序模块和置信度调度的连接方式。
+
+线上实验使用最大草稿长度为 5 的 DSpark-5，对比生产环境 MTP-1，运行于 DeepSeek-V4-Flash 和 Pro 的 preview 服务引擎。在匹配整体吞吐时，Flash 的每用户生成速度提升 60–85%，Pro 为 57–78%。在每用户至少 80 和 35 token/s 的较温和服务目标下，两者的整体吞吐分别提升 51% 和 52%；这些口径不能互换。
+
+[实验图 Figure 7，PDF 第 18 页](https://github.com/deepseek-ai/DeepSpec/blob/0a03e19e1c57000d5d3d291fa57109944eba6b6a/DSpark_paper.pdf#page=18) 同时画出系统吞吐与每用户速度。更严格服务目标下的 +661% 和 +406% 出现在 MTP-1 已接近低并发边界的区域，反映可服务范围的扩展，不能作为普遍加速倍数。收益还取决于流量分布、并发和引擎配置。
+
+[DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://github.com/deepseek-ai/DeepSpec/blob/0a03e19e1c57000d5d3d291fa57109944eba6b6a/DSpark_paper.pdf) · 作者官方仓库版本，[固定提交 0a03e19](https://github.com/deepseek-ai/DeepSpec/commit/0a03e19e1c57000d5d3d291fa57109944eba6b6a)，2026-06-27。

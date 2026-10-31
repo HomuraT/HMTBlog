@@ -2,7 +2,7 @@
 title: '论文日报 2026-04-25：本体与自博弈、循环模型和交互评测'
 published: 2026-04-25
 updated: 2026-10-31
-description: '本期二十项研究介绍本体构建、自博弈、视觉表示、缓存管理、科学发现、交互世界、Agent 工作流与高效模型。'
+description: '本期二十一项研究介绍本体构建、自博弈、视觉表示、缓存管理、科学发现、交互世界、Agent 工作流与高效模型。'
 image: ''
 tags: [LLM, Agent, 科学推理]
 category: '论文或资源整理'
@@ -10,7 +10,7 @@ draft: false
 lang: 'zh-CN'
 ---
 
-本期二十项研究介绍本体构建、自博弈、视觉表示、缓存管理、科学发现、交互世界、Agent 工作流与高效模型。
+本期二十一项研究介绍本体构建、自博弈、视觉表示、缓存管理、科学发现、交互世界、Agent 工作流与高效模型。
 
 ## 1. LOM：构建、对齐与推理共用本体结构
 
@@ -241,3 +241,21 @@ LLaDA-Instruct 的五样例 GSM8K、生成长度 256 下，吞吐从 6.7 到 54.
 [Figure 1（原文）](https://arxiv.org/pdf/2505.22618v1#page=2)。
 
 相关资源：[DeepSeek-V4 Preview 官方发布说明](https://deepseek.com/en/news/v4-preview/)。
+
+## 21. MetaAgent：用有限状态机组织角色、检查和回退
+
+MetaAgent 从一类任务的描述出发，自动设计角色、状态和转移条件。每个状态包含执行 Agent、条件检查者与接收结果的监听者；检查失败时可以留在当前状态修正，也可以退回先前状态。构建阶段再合并冗余状态，减少无效的信息传递，形成可复用于同类问题的工作流。
+
+![MetaAgent 的状态、条件检查与回退机制](./images/paper-metaagent-figure1.png)
+
+*图｜Yaolun Zhang、Xiaogeng Liu、Chaowei Xiao，MetaAgent，ICML 2025，PMLR 267。[Figure 1，https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf 第 3 页](https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=3) · [论文](https://proceedings.mlr.press/v267/zhang25bc.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+主要实验使用 GPT-4o、温度 0，并提供代码解释器和搜索工具。ML Bench 的五项任务上，MetaAgent 的平均归一化得分为 0.83，高于 SPP 的 0.16，但低于专门面向数据分析的 Data Interpreter 的 0.86。软件开发的五项任务中，检查点平均通过比例为 0.85，MetaGPT 为 0.35；不过 Brick breaker 单项为 0.50 对 0.75，自动设计并非每个任务都领先。
+
+![MetaAgent 在 ML Bench 与软件开发任务中的实验结果](./images/paper-metaagent-tables3-4.png)
+
+*表｜Yaolun Zhang、Xiaogeng Liu、Chaowei Xiao，MetaAgent，ICML 2025，PMLR 267。[Tables 3–4，https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf 第 8 页](https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=8) · [论文](https://proceedings.mlr.press/v267/zhang25bc.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+
+这些结果支持把条件检查和回退写进协作结构，但归一化模型得分、检查点通过比例和完整软件交付成功率是不同指标。工具、模型与任务分布也共同影响比较，不能只把收益归因于使用了有限状态机。
+
+[MetaAgent: Automatically Constructing Multi-Agent Systems Based on Finite State Machines](https://proceedings.mlr.press/v267/zhang25bc.html) · ICML 2025，PMLR 267:75667–75694 · [arXiv v1（2025-07-30）](https://arxiv.org/abs/2507.22606v1)。

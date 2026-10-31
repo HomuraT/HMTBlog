@@ -59,6 +59,23 @@
 			"version_submitted": "2026-06-23",
 			"source": "https://arxiv.org/abs/2606.24496v1",
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
+		},
+		{
+			"title": "DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+			"authors": [
+				"Xin Cheng",
+				"Xingkai Yu",
+				"Chenze Shao",
+				"Jiashi Li",
+				"Yunfan Xiong",
+				"et al."
+			],
+			"source": "https://github.com/deepseek-ai/DeepSpec/blob/0a03e19e1c57000d5d3d291fa57109944eba6b6a/DSpark_paper.pdf",
+			"version": "Author official repository fixed commit 0a03e19e1c57000d5d3d291fa57109944eba6b6a",
+			"version_submitted": "2026-06-27",
+			"source_pdf_sha256": "9e1a1e9dadd51537dd02dc8dcec6a25a5bb0417f9835a719dfe05d9dfcba3c19",
+			"verification_scope": "Historical official PDF, Sections 3–5, Figures 1 and 7, pages 3, 5, 18–19. DSpark-5 versus MTP-1 on V4 preview engines. No independent reproduction.",
+			"figure_policy": "Original figure links only; historical PDF-specific reuse license not established."
 		}
 	],
 	"figures": {
@@ -164,5 +181,5 @@
 			"source_pdf_sha256": "e895d9097fad52e5357fdd46db39f7bb57dffc1ab736b758321c755f441690de"
 		}
 	},
-	"published_paper_count": 8
+	"published_paper_count": 9
 }
