@@ -76,6 +76,199 @@
 			"image_size": [880, 268],
 			"sha256": "6561434a2ffbdc7dedf1c00786c2f039f119960162ab4235fe0dc86a20b81938",
 			"source_pdf_sha256": "f100e2a33caf6b4f1397a1a86edfb6fbaabd0a814ff2cf317a985b26f81ca42e"
+		},
+		"paper-260610921-figure1.png": {
+			"authors": [
+				"Zai, Xiangjun",
+				"Tan, Xingyu",
+				"Chen, Chen",
+				"Wang, Xiaoyang",
+				"Zhang, Wenjie"
+			],
+			"paper_title": "Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering",
+			"source": "https://arxiv.org/pdf/2606.10921v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 70.63108825683594, 529.7596435546875,
+				306.7281188964844
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d04dd605e0e487e7114910d2619e813e827c3fb18c85c4025eb7b8975bb6724c",
+			"source_pdf_sha256": "ce14ef703c63cff50fbcb361fb2c07621a75886e9fa414174f4953084c56d82c"
+		},
+		"paper-260610921-table1.png": {
+			"authors": [
+				"Zai, Xiangjun",
+				"Tan, Xingyu",
+				"Chen, Chen",
+				"Wang, Xiaoyang",
+				"Zhang, Wenjie"
+			],
+			"paper_title": "Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering",
+			"source": "https://arxiv.org/pdf/2606.10921v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.62300109863281, 66.58849334716797, 528.34521484375, 219.26513671875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0318399ac7a9481f284e2a7b45d4335c83e7d841f92dc533fc8c1e7ab583a520",
+			"source_pdf_sha256": "ce14ef703c63cff50fbcb361fb2c07621a75886e9fa414174f4953084c56d82c"
+		},
+		"paper-260603303-figure1.png": {
+			"authors": [
+				"Kung, Po-Nien",
+				"Song, Linfeng",
+				"Hwang, Dawsen",
+				"Yoon, Jinsung",
+				"Li, Chun-Liang",
+				"Severini, Simone",
+				"Olšák, Mirek",
+				"Lockhart, Edward",
+				"Le, Quoc V",
+				"Gokturk, Burak",
+				"Luong, Thang",
+				"Pfister, Tomas",
+				"Peng, Nanyun"
+			],
+			"paper_title": "LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks",
+			"source": "https://arxiv.org/pdf/2606.03303v2#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 427.65924072265625, 537.912109375, 659.635986328125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "88cdb909aa68cb9479056693c6b81155e1d9d962ef2d42a7fee2d5c58742596a",
+			"source_pdf_sha256": "d12c93ee83b837a0822672b59d43bc54ba92839697c6c0325e98fd2202bdda16"
+		},
+		"paper-260603303-table4.png": {
+			"authors": [
+				"Kung, Po-Nien",
+				"Song, Linfeng",
+				"Hwang, Dawsen",
+				"Yoon, Jinsung",
+				"Li, Chun-Liang",
+				"Severini, Simone",
+				"Olšák, Mirek",
+				"Lockhart, Edward",
+				"Le, Quoc V",
+				"Gokturk, Burak",
+				"Luong, Thang",
+				"Pfister, Tomas",
+				"Peng, Nanyun"
+			],
+			"paper_title": "LEAP: Supercharging LLMs for Formal Mathematics with Agentic Frameworks",
+			"source": "https://arxiv.org/pdf/2606.03303v2#page=8",
+			"item": "Table 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 394, 535, 632],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "49167dcb92243c1b2e97de393e5b05f27ad7e3558562e6f535c244c31ec6ff38",
+			"source_pdf_sha256": "d12c93ee83b837a0822672b59d43bc54ba92839697c6c0325e98fd2202bdda16"
+		},
+		"paper-260613643-figure1.png": {
+			"authors": [
+				"Lumer, Elias",
+				"Sen, Sahil",
+				"Paul, Kevin",
+				"Subbiah, Vamse Kumar"
+			],
+			"paper_title": "Recursive Agent Harnesses",
+			"source": "https://arxiv.org/pdf/2606.13643v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				48.79800033569336, 78.68734741210938, 563.2017211914062,
+				396.9837646484375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fa754b83b6233bffaf9945c79ed79d8238e3ab125f1677a8f7046ef6d5e84711",
+			"source_pdf_sha256": "3aa2c168cb156428af1c13495e93552e6bd1f8720b05c10255184c0c3e9d5534"
+		},
+		"paper-260613643-table1.png": {
+			"authors": [
+				"Lumer, Elias",
+				"Sen, Sahil",
+				"Paul, Kevin",
+				"Subbiah, Vamse Kumar"
+			],
+			"paper_title": "Recursive Agent Harnesses",
+			"source": "https://arxiv.org/pdf/2606.13643v1#page=4",
+			"item": "Table 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [51, 82, 300, 222],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "93d4f4b8628c5f5de482fdf04a4b255a85bcd8e949b95738c2f4e5704c173158",
+			"source_pdf_sha256": "3aa2c168cb156428af1c13495e93552e6bd1f8720b05c10255184c0c3e9d5534"
+		},
+		"paper-260613663-figure2.png": {
+			"authors": [
+				"Du, Yaxin",
+				"Zhou, Yifan",
+				"Ge, Yujie",
+				"Wang, Jiajun",
+				"Pang, Xianghe",
+				"Tang, Shuo",
+				"Zheng, Tuney",
+				"Dai, Bryan",
+				"Yang, Jian",
+				"Chen, Siheng"
+			],
+			"paper_title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+			"source": "https://arxiv.org/pdf/2606.13663v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.86578369140625, 529.7570190429688,
+				342.08807373046875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "903d09e624e904ca578ee5ff8f1a9ff37911afe489bc5260dd5c80bebeec7bfc",
+			"source_pdf_sha256": "53c5ebc15de207f8d13d1bb4d418b78d9fb4948c1573467f4d0f12990a744042"
+		},
+		"paper-260613663-table1.png": {
+			"authors": [
+				"Du, Yaxin",
+				"Zhou, Yifan",
+				"Ge, Yujie",
+				"Wang, Jiajun",
+				"Pang, Xianghe",
+				"Tang, Shuo",
+				"Zheng, Tuney",
+				"Dai, Bryan",
+				"Yang, Jian",
+				"Chen, Siheng"
+			],
+			"paper_title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+			"source": "https://arxiv.org/pdf/2606.13663v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.39800262451172, 66.60427856445312, 531.150146484375,
+				373.78240966796875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9e3469b4129bb477dbe8734ab1b4176b1fe00c0e3c8395524e632fbc3b180582",
+			"source_pdf_sha256": "53c5ebc15de207f8d13d1bb4d418b78d9fb4948c1573467f4d0f12990a744042"
 		}
-	}
+	},
+	"published_paper_count": 8
 }
