@@ -61,7 +61,242 @@
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-aclanthologyorg2026eacllong388-figure1.png": {
+			"authors": [
+				"Alla Chepurova",
+				"Aydar Bulatov",
+				"Mikhail Burtsev",
+				"Yurii Kuratov"
+			],
+			"paper_title": "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models",
+			"source": "https://aclanthology.org/2026.eacl-long.388.pdf#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 65, 529, 437],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bff6e14d9c48efda117603232f70b572a383c3e3abb18c9a188974a6b75db205",
+			"source_pdf_sha256": "28a65d116c8e427cd05677f6480e273160e57a6c138858b80b9e50dbd44eac2a"
+		},
+		"paper-aclanthologyorg2026eacllong388-table1.png": {
+			"authors": [
+				"Alla Chepurova",
+				"Aydar Bulatov",
+				"Mikhail Burtsev",
+				"Yurii Kuratov"
+			],
+			"paper_title": "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models",
+			"source": "https://aclanthology.org/2026.eacl-long.388.pdf#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 565, 294, 713],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7355d0661c54fdec301adf4ab2ae3ab40f971a787d49d584a5b6a4986ada68e7",
+			"source_pdf_sha256": "28a65d116c8e427cd05677f6480e273160e57a6c138858b80b9e50dbd44eac2a"
+		},
+		"paper-260623321-figure2.png": {
+			"authors": [
+				"Ivison, Hamish",
+				"Yin, Junjie Oscar",
+				"Shao, Rulin",
+				"Xiao, Teng",
+				"Lambert, Nathan",
+				"Hajishirzi, Hannaneh"
+			],
+			"paper_title": "Tmax: A simple recipe for terminal agents",
+			"source": "https://arxiv.org/pdf/2606.23321v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.50700378417969, 65.86383056640625, 529.5811767578125,
+				317.1180725097656
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "eb5da5d571c521ae758832be2b11567bb178d6ccfc8dc53a26a396976e537a80",
+			"source_pdf_sha256": "00fd77e4a4212c7616863d13a7439d1fc3ba62bdc29455f604fbf647d456b0f3"
+		},
+		"paper-260623321-table2.png": {
+			"authors": [
+				"Ivison, Hamish",
+				"Yin, Junjie Oscar",
+				"Shao, Rulin",
+				"Xiao, Teng",
+				"Lambert, Nathan",
+				"Hajishirzi, Hannaneh"
+			],
+			"paper_title": "Tmax: A simple recipe for terminal agents",
+			"source": "https://arxiv.org/pdf/2606.23321v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 65, 529, 264],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0df44b35320fe42d81a4cc547cd15297f4289486e32abeea9101a2c0882a6114",
+			"source_pdf_sha256": "00fd77e4a4212c7616863d13a7439d1fc3ba62bdc29455f604fbf647d456b0f3"
+		},
+		"paper-260622883-figure1.png": {
+			"authors": [
+				"Hua, Zhanbo",
+				"Yao, Yifan",
+				"Xie, Weihao",
+				"Zhao, Yongchi",
+				"Liu, Minghao",
+				"Qiu, Ruizhi",
+				"Huang, Zhewei",
+				"Wang, Zun",
+				"Ji, Yiyan",
+				"Ye, Yunhai",
+				"Zhu, Letian",
+				"Lei, Xinping",
+				"Li, Han",
+				"Ma, Zhiyuan",
+				"Wang, Zili",
+				"Zhang, Zhaoxiang",
+				"Liu, Jiaheng"
+			],
+			"paper_title": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents",
+			"source": "https://arxiv.org/pdf/2606.22883v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [
+				65.1989974975586, 66.57452392578125, 529.8016357421875,
+				358.97991943359375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d7515326cb3bf7886f0e197ff5477f361169d9a5124c59141cf78d056f866df6",
+			"source_pdf_sha256": "e25e437abc8ce86e60ac6f7bd3d93e39d658f7461c55735fe20f1ff201cb954a"
+		},
+		"paper-260622883-table1.png": {
+			"authors": [
+				"Hua, Zhanbo",
+				"Yao, Yifan",
+				"Xie, Weihao",
+				"Zhao, Yongchi",
+				"Liu, Minghao",
+				"Qiu, Ruizhi",
+				"Huang, Zhewei",
+				"Wang, Zun",
+				"Ji, Yiyan",
+				"Ye, Yunhai",
+				"Zhu, Letian",
+				"Lei, Xinping",
+				"Li, Han",
+				"Ma, Zhiyuan",
+				"Wang, Zili",
+				"Zhang, Zhaoxiang",
+				"Liu, Jiaheng"
+			],
+			"paper_title": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents",
+			"source": "https://arxiv.org/pdf/2606.22883v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [68, 65, 529, 445],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1e9d399f565f5d9b22ac9e59748f1fec5cb8c23457fb255c74922dd9701b731c",
+			"source_pdf_sha256": "e25e437abc8ce86e60ac6f7bd3d93e39d658f7461c55735fe20f1ff201cb954a"
+		},
+		"paper-260623050-figure1.png": {
+			"authors": [
+				"Yin, Youyang",
+				"Liu, Huanhuan",
+				"YY",
+				"Xie, Qunyi",
+				"Liu, Chaorun",
+				"Yang, Shiqi",
+				"Wang, Shaohua",
+				"Liu, Zhanlong",
+				"Zou, Hao",
+				"Chen, Jinyue",
+				"Wei, Shu",
+				"Wu, Jingjing",
+				"Huang, Mingxin",
+				"Wu, Zhen",
+				"Wang, Guibin",
+				"Du, Tengyu",
+				"Jia, Lei"
+			],
+			"paper_title": "Unlimited OCR Works",
+			"source": "https://arxiv.org/pdf/2606.23050v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 503.30078125, 529.8362426757812, 757.4536743164062
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5201548d52976ea8765703d9dd99b73d355e330d1290bc3cf857ca85978171b2",
+			"source_pdf_sha256": "b2d623ccefe5e13b8aa61ccbcd052a91ae77d129d92aa2e9ff5e2380d80e3f91"
+		},
+		"paper-260623050-table1.png": {
+			"authors": [
+				"Yin, Youyang",
+				"Liu, Huanhuan",
+				"YY",
+				"Xie, Qunyi",
+				"Liu, Chaorun",
+				"Yang, Shiqi",
+				"Wang, Shaohua",
+				"Liu, Zhanlong",
+				"Zou, Hao",
+				"Chen, Jinyue",
+				"Wei, Shu",
+				"Wu, Jingjing",
+				"Huang, Mingxin",
+				"Wu, Zhen",
+				"Wang, Guibin",
+				"Du, Tengyu",
+				"Jia, Lei"
+			],
+			"paper_title": "Unlimited OCR Works",
+			"source": "https://arxiv.org/pdf/2606.23050v1#page=9",
+			"item": "Table 1",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 80, 529, 502],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "27cb4c7cc74522132865c5f6ff3c0151105f4a83f065f655bd4983cfe832d4f8",
+			"source_pdf_sha256": "b2d623ccefe5e13b8aa61ccbcd052a91ae77d129d92aa2e9ff5e2380d80e3f91"
+		},
+		"paper-260623670-figure3.png": {
+			"authors": ["Bayat, Reza", "Behrouz, Ali", "Courville, Aaron"],
+			"paper_title": "Tapered Language Models",
+			"source": "https://arxiv.org/pdf/2606.23670v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 85, 535, 288],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8bbfd2600c9886fe1312b83784f8f8b2c7610129afbfeca447c25df908f78feb",
+			"source_pdf_sha256": "f517e613c9e519bdb0040eef286be11a71650cfee132214bcd9ece89fd8fcbbc"
+		},
+		"paper-260623670-table2.png": {
+			"authors": ["Bayat, Reza", "Behrouz, Ali", "Courville, Aaron"],
+			"paper_title": "Tapered Language Models",
+			"source": "https://arxiv.org/pdf/2606.23670v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 80, 535, 498],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "482ad48c71274aa9535ca899458fa2028f6026472fdcb152fa51b5fa26085922",
+			"source_pdf_sha256": "f517e613c9e519bdb0040eef286be11a71650cfee132214bcd9ece89fd8fcbbc"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.21048v1",
@@ -90,5 +325,6 @@
 			"source": "https://openreview.net/pdf/b1f965d99dc4c0341f70248f27b0e3dc29ce4f51.pdf",
 			"reason": "Prior access blocked by OpenReview verification; title-identifier mapping unverified; no further access attempted."
 		}
-	]
+	],
+	"published_paper_count": 10
 }
