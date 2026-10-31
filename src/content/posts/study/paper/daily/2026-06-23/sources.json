@@ -69,6 +69,215 @@
 			"image_size": [908, 728],
 			"sha256": "9d311749a50de4fa55f54a49f89a24d56985ce36c4520a57cf1fc5bfdee39936",
 			"source_pdf_sha256": "f72f840816e7e94969e7d4b196b018ee6effa0d0863da149b74d079b42294f81"
+		},
+		"paper-260623321-figure2.png": {
+			"authors": [
+				"Ivison, Hamish",
+				"Yin, Junjie Oscar",
+				"Shao, Rulin",
+				"Xiao, Teng",
+				"Lambert, Nathan",
+				"Hajishirzi, Hannaneh"
+			],
+			"paper_title": "Tmax: A simple recipe for terminal agents",
+			"source": "https://arxiv.org/pdf/2606.23321v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.50700378417969, 65.86383056640625, 529.5811767578125,
+				317.1180725097656
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "eb5da5d571c521ae758832be2b11567bb178d6ccfc8dc53a26a396976e537a80",
+			"source_pdf_sha256": "00fd77e4a4212c7616863d13a7439d1fc3ba62bdc29455f604fbf647d456b0f3"
+		},
+		"paper-260623321-table2.png": {
+			"authors": [
+				"Ivison, Hamish",
+				"Yin, Junjie Oscar",
+				"Shao, Rulin",
+				"Xiao, Teng",
+				"Lambert, Nathan",
+				"Hajishirzi, Hannaneh"
+			],
+			"paper_title": "Tmax: A simple recipe for terminal agents",
+			"source": "https://arxiv.org/pdf/2606.23321v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 68, 528, 263],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "135b62fe7f4ca4f8c725af348575cc41fba1bcdf7486cf9543490bae643469a6",
+			"source_pdf_sha256": "00fd77e4a4212c7616863d13a7439d1fc3ba62bdc29455f604fbf647d456b0f3"
+		},
+		"paper-260620560-figure1.png": {
+			"authors": [
+				"Engels, Joshua",
+				"McDougall, Callum",
+				"Chughtai, Bilal",
+				"Kramar, Janos",
+				"Rajamanoharan, Senthoran",
+				"Wu, Cindy",
+				"Conmy, Arthur",
+				"Chen, Asic Q",
+				"Tarbouriech, Jean",
+				"Ma, Min",
+				"O'Donoghue, Brendan",
+				"de Oliveira, João Gabriel Lopes",
+				"Shah, Rohin",
+				"Nanda, Neel"
+			],
+			"paper_title": "How Transparent is DiffusionGemma?",
+			"source": "https://arxiv.org/pdf/2606.20560v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 82, 535, 546],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "575b16a60d7afb09dc99c08d10e0299e717b59f7bcadc37fc772e2f5fb39fe48",
+			"source_pdf_sha256": "638fc362b02b3dc48db73838d0ac417aa545ac165258c9da4e8b4d2070e9438e"
+		},
+		"paper-260620560-figure2.png": {
+			"authors": [
+				"Engels, Joshua",
+				"McDougall, Callum",
+				"Chughtai, Bilal",
+				"Kramar, Janos",
+				"Rajamanoharan, Senthoran",
+				"Wu, Cindy",
+				"Conmy, Arthur",
+				"Chen, Asic Q",
+				"Tarbouriech, Jean",
+				"Ma, Min",
+				"O'Donoghue, Brendan",
+				"de Oliveira, João Gabriel Lopes",
+				"Shah, Rohin",
+				"Nanda, Neel"
+			],
+			"paper_title": "How Transparent is DiffusionGemma?",
+			"source": "https://arxiv.org/pdf/2606.20560v1#page=7",
+			"item": "Figure 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				55.331573486328125, 78.27581024169922, 537.91259765625, 287.531005859375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1c3c8585d4f87069c7eaa96368213d3758e2ce07a6029366459c7c574cb8efce",
+			"source_pdf_sha256": "638fc362b02b3dc48db73838d0ac417aa545ac165258c9da4e8b4d2070e9438e"
+		},
+		"paper-260620529-figure1.png": {
+			"authors": [
+				"Uddin, Md Nayem",
+				"Saeidi, Amir",
+				"Blanco, Eduardo",
+				"Baral, Chitta"
+			],
+			"paper_title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+			"source": "https://arxiv.org/pdf/2606.20529v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.86505126953125, 530.6526489257812,
+				353.9870910644531
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4605a136a5b4dc53502e0e2b27aac28434cae184f3efe4a40a56473b2503eeca",
+			"source_pdf_sha256": "0b9e6731d0c799074a33efa3bd1bc44ce62b1f89d70ecb512a8b4cde3a8e374b"
+		},
+		"paper-260620529-table2.png": {
+			"authors": [
+				"Uddin, Md Nayem",
+				"Saeidi, Amir",
+				"Blanco, Eduardo",
+				"Baral, Chitta"
+			],
+			"paper_title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+			"source": "https://arxiv.org/pdf/2606.20529v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 68, 528, 226],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fae19d989fec3ff26bee0ba4b19d5f7581578de9e9bea905d5af551739a6d06f",
+			"source_pdf_sha256": "0b9e6731d0c799074a33efa3bd1bc44ce62b1f89d70ecb512a8b4cde3a8e374b"
+		},
+		"paper-260620520-figure2.png": {
+			"authors": ["He, Jun", "Yu, Deying"],
+			"paper_title": "Sovereign Execution Broker: Enforcing Certificate-Bound Authority in Agentic Control Planes",
+			"source": "https://arxiv.org/pdf/2606.20520v2#page=6",
+			"item": "Figure 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				49.0, 67.19869995117188, 563.34814453125, 220.07608032226562
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e53ec36b8cb4482e711c440cf0f496faecc3ec88fccef8ffe9df5a996ebf9029",
+			"source_pdf_sha256": "c7f26a3af51acaacddfb6db00538ffa4de5602bd3af89f02ebcafadaae71987d"
+		},
+		"paper-260620520-table7.png": {
+			"authors": ["He, Jun", "Yu, Deying"],
+			"paper_title": "Sovereign Execution Broker: Enforcing Certificate-Bound Authority in Agentic Control Planes",
+			"source": "https://arxiv.org/pdf/2606.20520v2#page=13",
+			"item": "Table 7",
+			"pdf_page": 13,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [51, 70, 297, 256],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a1ce5b39b8bceecd03b1ea2faa88906c29f92f4f7a05ab5a54c5d8584674fb47",
+			"source_pdf_sha256": "c7f26a3af51acaacddfb6db00538ffa4de5602bd3af89f02ebcafadaae71987d"
+		},
+		"paper-260620561-figure2.png": {
+			"authors": [
+				"Sinha, Arkaprava",
+				"Reilly, Dominick",
+				"Krishnan, Siddharth",
+				"Le, Hieu",
+				"Das, Srijan"
+			],
+			"paper_title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
+			"source": "https://arxiv.org/pdf/2606.20561v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.86457824707031, 529.40966796875, 327.4430847167969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "465bcc6e2a07a4059c5c62f441eef9ea2de08413f044f55fc309019cb6f66315",
+			"source_pdf_sha256": "ff981d3528fc38673c09507da0273803a146a598eded7778915bbc10a33d727d"
+		},
+		"paper-260620561-table3.png": {
+			"authors": [
+				"Sinha, Arkaprava",
+				"Reilly, Dominick",
+				"Krishnan, Siddharth",
+				"Le, Hieu",
+				"Das, Srijan"
+			],
+			"paper_title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
+			"source": "https://arxiv.org/pdf/2606.20561v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [216, 68, 420, 176],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5a0e7d15e39c59202fe0c27dc5f3e699c045d51912462d8d1995111544b8fe53",
+			"source_pdf_sha256": "ff981d3528fc38673c09507da0273803a146a598eded7778915bbc10a33d727d"
 		}
-	}
+	},
+	"published_paper_count": 8
 }

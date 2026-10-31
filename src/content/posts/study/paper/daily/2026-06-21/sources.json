@@ -69,6 +69,177 @@
 			"image_size": [1150, 560],
 			"sha256": "21b2f707cf550fcc4c840a3b023d8258428f09165824a345a99be1cafa668617",
 			"source_pdf_sha256": "3bfd1cb51cf4d0f747e267202e5e1db7f5db60595a0ae6373a0aee9afa851b64"
+		},
+		"paper-260620515-figure2.png": {
+			"authors": [
+				"Dai, Yalun",
+				"Li, Hao",
+				"Tian, Shulin",
+				"Yao, Runmao",
+				"Dong, Yuhao",
+				"Hong, Fangzhou",
+				"Chen, Zhaoxi",
+				"Liu, Fangfu",
+				"Tian, Baoliang",
+				"Zhang, Dingwen",
+				"Wang, Tao",
+				"Yap, Kim-Hui",
+				"Liu, Ziwei"
+			],
+			"paper_title": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
+			"source": "https://arxiv.org/pdf/2606.20515v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 68.51121520996094, 529.4351196289062,
+				339.9761047363281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "734779f431bc88f67ccf7e362a1c76e258462cf7fd923a684359df45870d3e38",
+			"source_pdf_sha256": "71f205d3d25b507eade542f8c01bc59ce2c8ba21621a28f3e0ad6c495c504b53"
+		},
+		"paper-260620515-table5.png": {
+			"authors": [
+				"Dai, Yalun",
+				"Li, Hao",
+				"Tian, Shulin",
+				"Yao, Runmao",
+				"Dong, Yuhao",
+				"Hong, Fangzhou",
+				"Chen, Zhaoxi",
+				"Liu, Fangfu",
+				"Tian, Baoliang",
+				"Zhang, Dingwen",
+				"Wang, Tao",
+				"Yap, Kim-Hui",
+				"Liu, Ziwei"
+			],
+			"paper_title": "S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence",
+			"source": "https://arxiv.org/pdf/2606.20515v1#page=11",
+			"item": "Table 5",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				312.7659912109375, 80.20829772949219, 528.8109130859375,
+				245.31146240234375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "557d493fd3c0a14b67302aca81b80d1a6a8181f9b8fd75d98e0483f3c60032c6",
+			"source_pdf_sha256": "71f205d3d25b507eade542f8c01bc59ce2c8ba21621a28f3e0ad6c495c504b53"
+		},
+		"paper-260620560-figure1.png": {
+			"authors": [
+				"Engels, Joshua",
+				"McDougall, Callum",
+				"Chughtai, Bilal",
+				"Kramar, Janos",
+				"Rajamanoharan, Senthoran",
+				"Wu, Cindy",
+				"Conmy, Arthur",
+				"Chen, Asic Q",
+				"Tarbouriech, Jean",
+				"Ma, Min",
+				"O'Donoghue, Brendan",
+				"de Oliveira, João Gabriel Lopes",
+				"Shah, Rohin",
+				"Nanda, Neel"
+			],
+			"paper_title": "How Transparent is DiffusionGemma?",
+			"source": "https://arxiv.org/pdf/2606.20560v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 82, 535, 546],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "575b16a60d7afb09dc99c08d10e0299e717b59f7bcadc37fc772e2f5fb39fe48",
+			"source_pdf_sha256": "638fc362b02b3dc48db73838d0ac417aa545ac165258c9da4e8b4d2070e9438e"
+		},
+		"paper-260620560-figure2.png": {
+			"authors": [
+				"Engels, Joshua",
+				"McDougall, Callum",
+				"Chughtai, Bilal",
+				"Kramar, Janos",
+				"Rajamanoharan, Senthoran",
+				"Wu, Cindy",
+				"Conmy, Arthur",
+				"Chen, Asic Q",
+				"Tarbouriech, Jean",
+				"Ma, Min",
+				"O'Donoghue, Brendan",
+				"de Oliveira, João Gabriel Lopes",
+				"Shah, Rohin",
+				"Nanda, Neel"
+			],
+			"paper_title": "How Transparent is DiffusionGemma?",
+			"source": "https://arxiv.org/pdf/2606.20560v1#page=7",
+			"item": "Figure 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				55.331573486328125, 78.27581024169922, 537.91259765625, 287.531005859375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1c3c8585d4f87069c7eaa96368213d3758e2ce07a6029366459c7c574cb8efce",
+			"source_pdf_sha256": "638fc362b02b3dc48db73838d0ac417aa545ac165258c9da4e8b4d2070e9438e"
+		},
+		"paper-260620381-figure3.png": {
+			"authors": [
+				"Zhao, Qian",
+				"Chen, Kunlong",
+				"Tian, Changxin",
+				"Jiang, Zhonghui",
+				"Zhang, Haitao",
+				"Yu, Chaofan",
+				"Jiang, Peijie",
+				"Gong, Mingliang",
+				"Liu, Jia",
+				"Liu, Ziqi",
+				"Zhang, Zhiqiang",
+				"Zhou, Jun"
+			],
+			"paper_title": "Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe",
+			"source": "https://arxiv.org/pdf/2606.20381v1#page=7",
+			"item": "Figure 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 60, 544, 288],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1faade364f62d30c890fb5dd30c7a39f0e4c84e52d3dc70d0a8f94f26394f239",
+			"source_pdf_sha256": "78016e3014ef7a4ffd1424d6f0c303588d7c2dcb771fa229d858ed863a263c88"
+		},
+		"paper-260620381-figure8.png": {
+			"authors": [
+				"Zhao, Qian",
+				"Chen, Kunlong",
+				"Tian, Changxin",
+				"Jiang, Zhonghui",
+				"Zhang, Haitao",
+				"Yu, Chaofan",
+				"Jiang, Peijie",
+				"Gong, Mingliang",
+				"Liu, Jia",
+				"Liu, Ziqi",
+				"Zhang, Zhiqiang",
+				"Zhou, Jun"
+			],
+			"paper_title": "Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe",
+			"source": "https://arxiv.org/pdf/2606.20381v1#page=11",
+			"item": "Figure 8",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 64, 544, 229],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ecd97f0ea23c37bc9d8a07d3641e0a094159b829c48fb601c9346141b76d33b9",
+			"source_pdf_sha256": "78016e3014ef7a4ffd1424d6f0c303588d7c2dcb771fa229d858ed863a263c88"
 		}
-	}
+	},
+	"published_paper_count": 7
 }
