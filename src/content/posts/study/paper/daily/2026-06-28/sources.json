@@ -61,7 +61,111 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260627326-figure1.png": {
+			"authors": ["Hansen, Nicklas", "Wang, Xiaolong"],
+			"paper_title": "Hallucination in World Models is Predictable and Preventable",
+			"source": "https://arxiv.org/pdf/2606.27326v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [106, 53, 507, 290],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9739403903ab1b82a7aba4217a306e3ee776e36867f7262bbe56475173e92193",
+			"source_pdf_sha256": "2f10358cff583fc00df6a434c31a01872748bd9ed767c5874ff23eaecf823beb"
+		},
+		"paper-260627326-figure5.png": {
+			"authors": ["Hansen, Nicklas", "Wang, Xiaolong"],
+			"paper_title": "Hallucination in World Models is Predictable and Preventable",
+			"source": "https://arxiv.org/pdf/2606.27326v1#page=7",
+			"item": "Figure 5",
+			"pdf_page": 7,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [
+				103.0, 66.99889373779297, 509.0033874511719, 215.46707153320312
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "94c7b9031d825f4f2076452cc02ecf772e07093a9dc3a4b9a279024015db86b3",
+			"source_pdf_sha256": "2f10358cff583fc00df6a434c31a01872748bd9ed767c5874ff23eaecf823beb"
+		},
+		"paper-260627326-table2.png": {
+			"authors": ["Hansen, Nicklas", "Wang, Xiaolong"],
+			"paper_title": "Hallucination in World Models is Predictable and Preventable",
+			"source": "https://arxiv.org/pdf/2606.27326v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [
+				102.99998474121094, 192.259033203125, 509.00341796875, 430.2503967285156
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "71fb28ffbf7cc65a58ad76307fa4aeb1378fc5a5f7f3be4e05d74fc34c896579",
+			"source_pdf_sha256": "2f10358cff583fc00df6a434c31a01872748bd9ed767c5874ff23eaecf823beb"
+		},
+		"paper-260627374-figure2.png": {
+			"authors": [
+				"Govind, Manish Kumar",
+				"Reilly, Dominick",
+				"Patel, Smit",
+				"Le, Hieu",
+				"Das, Srijan"
+			],
+			"paper_title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+			"source": "https://arxiv.org/pdf/2606.27374v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.99996948242188, 290.90966796875, 509.0028381347656,
+				477.9230651855469
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9c3bd58beecd95d5316c24937b42b89db5989fef9d489cbe0b2d3e3821946075",
+			"source_pdf_sha256": "b003b876ee0587bc5c068ebb42540ff8391d1fcb9d1ee647a3b4a6d6e32da6b1"
+		},
+		"paper-260627374-table1.png": {
+			"authors": [
+				"Govind, Manish Kumar",
+				"Reilly, Dominick",
+				"Patel, Smit",
+				"Le, Hieu",
+				"Das, Srijan"
+			],
+			"paper_title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+			"source": "https://arxiv.org/pdf/2606.27374v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 437, 507, 556],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4a462cfa17e311b2dd3d0f0a7a6c46e8f948e97161b59dfe5dbb0794d15fcd02",
+			"source_pdf_sha256": "b003b876ee0587bc5c068ebb42540ff8391d1fcb9d1ee647a3b4a6d6e32da6b1"
+		},
+		"paper-260627374-table3.png": {
+			"authors": [
+				"Govind, Manish Kumar",
+				"Reilly, Dominick",
+				"Patel, Smit",
+				"Le, Hieu",
+				"Das, Srijan"
+			],
+			"paper_title": "World Action Models Enable Continual Imitation Learning with Recurrent Generative Replays",
+			"source": "https://arxiv.org/pdf/2606.27374v1#page=7",
+			"item": "Table 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [321, 69, 508, 146],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ca35d5c9ccce0a07e71a3ddf4546364570bbc56166b1258d7e373fb267430f26",
+			"source_pdf_sha256": "b003b876ee0587bc5c068ebb42540ff8391d1fcb9d1ee647a3b4a6d6e32da6b1"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.22645v1",
@@ -70,5 +174,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "未确认第三方截图再发布许可"
 		}
-	]
+	],
+	"published_paper_count": 8
 }
