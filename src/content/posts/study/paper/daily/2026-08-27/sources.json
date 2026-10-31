@@ -86,6 +86,33 @@
 			"version": "2608.24565v1",
 			"license_evidence": "https://arxiv.org/abs/2608.24565v1",
 			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		},
+		"paper-260824680-figure1.png": {
+			"authors": ["Shen, Wenxuan", "Jin, Dongna", "Chen, Dongping"],
+			"paper_title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+			"source": "https://arxiv.org/pdf/2608.24680v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [50, 382, 562, 715],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a1cf360f8e0bcfcadc5839b6ac0f4d1c48199bc870e85b1abcee550125ed517a",
+			"source_pdf_sha256": "f092641be6153a1c36d786bf3ed79c1e769dd8c6dea3fb5d50f7395290effdb5"
+		},
+		"paper-260824680-table1.png": {
+			"authors": ["Shen, Wenxuan", "Jin, Dongna", "Chen, Dongping"],
+			"paper_title": "Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model Training",
+			"source": "https://arxiv.org/pdf/2608.24680v1#page=4",
+			"item": "Table 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [50, 80, 275, 230],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "00b73497453f510fd1c8c0342e97e4516dadc53965e9c2da770ea70fcc6d5cef",
+			"source_pdf_sha256": "f092641be6153a1c36d786bf3ed79c1e769dd8c6dea3fb5d50f7395290effdb5"
 		}
-	}
+	},
+	"published_paper_count": 7
 }
