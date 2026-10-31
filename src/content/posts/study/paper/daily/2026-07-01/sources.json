@@ -61,7 +61,37 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260629718-figure1.png": {
+			"authors": ["Xia, Shijie", "Wang, Yikun", "Huang, Zhen", "Liu, Pengfei"],
+			"paper_title": "Diagnosing and Mitigating Context Rot in Long-horizon Search",
+			"source": "https://arxiv.org/pdf/2606.29718v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 80.0401611328125, 537.9122314453125,
+				337.34100341796875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "12ae8664e144cbaf226537c226d5775d34d216e2c73af406f85dc9ddbbb32c44",
+			"source_pdf_sha256": "833c4a6b42c81e01d4affa902d6d9eb6ac07d8325de2465f8f4b612b553d0809"
+		},
+		"paper-260629718-table4.png": {
+			"authors": ["Xia, Shijie", "Wang, Yikun", "Huang, Zhen", "Liu, Pengfei"],
+			"paper_title": "Diagnosing and Mitigating Context Rot in Long-horizon Search",
+			"source": "https://arxiv.org/pdf/2606.29718v1#page=9",
+			"item": "Table 4",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 83, 537, 378],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c939cc14ce45cae7e05cfb25105c176a3cd4575425fb6064fa8e64f68ace5efb",
+			"source_pdf_sha256": "833c4a6b42c81e01d4affa902d6d9eb6ac07d8325de2465f8f4b612b553d0809"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.24618v1",
@@ -70,5 +100,6 @@
 			"license": "CC BY-NC-SA 4.0",
 			"reason": "本站用途与非商业限制的适用关系未确认"
 		}
-	]
+	],
+	"published_paper_count": 8
 }

@@ -54,7 +54,130 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260629957-figure3.png": {
+			"authors": [
+				"Wu, Yifan",
+				"Zhao, Zhuokai",
+				"Li, Songlin",
+				"Lee, Ho Hin",
+				"Zhu, Jiacheng",
+				"Wu, Shirley",
+				"Yu, Tianhe",
+				"Li, Serena",
+				"Zhang, Lizhu",
+				"Fan, Xiangjun",
+				"Li, Shengzhi"
+			],
+			"paper_title": "SWE-Together: Evaluating Coding Agents in Interactive User Sessions",
+			"source": "https://arxiv.org/pdf/2606.29957v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 58.778350830078125, 547.4381713867188,
+				306.5129699707031
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8aa59ab24e99316b7121bc9352a7757695e47b15d33850b8f614ea9707f44c4b",
+			"source_pdf_sha256": "fa0a9d888308aba4f3b01d8f12679dcc928647d5f06bb9a0912c0f0e58aee39c"
+		},
+		"paper-260629957-table2.png": {
+			"authors": [
+				"Wu, Yifan",
+				"Zhao, Zhuokai",
+				"Li, Songlin",
+				"Lee, Ho Hin",
+				"Zhu, Jiacheng",
+				"Wu, Shirley",
+				"Yu, Tianhe",
+				"Li, Serena",
+				"Zhang, Lizhu",
+				"Fan, Xiangjun",
+				"Li, Shengzhi"
+			],
+			"paper_title": "SWE-Together: Evaluating Coding Agents in Interactive User Sessions",
+			"source": "https://arxiv.org/pdf/2606.29957v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 60, 546, 236],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "142a49e4af7ed0ebaeb90af18fb9cb993727d7764046c2bb9110a13d2597b163",
+			"source_pdf_sha256": "fa0a9d888308aba4f3b01d8f12679dcc928647d5f06bb9a0912c0f0e58aee39c"
+		},
+		"paper-260701202-figure3.png": {
+			"authors": [
+				"Zhu, Liyuan",
+				"Huang, Shengyu",
+				"Mazumdar, Amrita",
+				"Li, Tianye",
+				"Gojcic, Zan",
+				"Wetzstein, Gordon",
+				"Armeni, Iro",
+				"De Mello, Shalini",
+				"Trevithick, Alex"
+			],
+			"paper_title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video",
+			"source": "https://arxiv.org/pdf/2607.01202v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 74, 507, 244],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "56cd880ec45472e8160af095edcf87bfee73299109430fd99a092b12791f7c6b",
+			"source_pdf_sha256": "cda27555ec15c0721142b32f83676c02d799bdda1050a40341b31e4ac19642b6"
+		},
+		"paper-260701202-table1.png": {
+			"authors": [
+				"Zhu, Liyuan",
+				"Huang, Shengyu",
+				"Mazumdar, Amrita",
+				"Li, Tianye",
+				"Gojcic, Zan",
+				"Wetzstein, Gordon",
+				"Armeni, Iro",
+				"De Mello, Shalini",
+				"Trevithick, Alex"
+			],
+			"paper_title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video",
+			"source": "https://arxiv.org/pdf/2607.01202v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 69, 508, 233],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5a750f470e4c110bc475294c6f00468fc800c28ae0ae53c769e88f253f266ca1",
+			"source_pdf_sha256": "cda27555ec15c0721142b32f83676c02d799bdda1050a40341b31e4ac19642b6"
+		},
+		"paper-260701202-table3.png": {
+			"authors": [
+				"Zhu, Liyuan",
+				"Huang, Shengyu",
+				"Mazumdar, Amrita",
+				"Li, Tianye",
+				"Gojcic, Zan",
+				"Wetzstein, Gordon",
+				"Armeni, Iro",
+				"De Mello, Shalini",
+				"Trevithick, Alex"
+			],
+			"paper_title": "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video",
+			"source": "https://arxiv.org/pdf/2607.01202v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [327, 245, 508, 306],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "60e07ee7f71e24ba76d8f4e15bf050ba24521fda8451dd9b45d5fb0634b650fa",
+			"source_pdf_sha256": "cda27555ec15c0721142b32f83676c02d799bdda1050a40341b31e4ac19642b6"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.00464v1",
@@ -63,5 +186,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "未确认第三方截图再发布许可"
 		}
-	]
+	],
+	"published_paper_count": 7
 }
