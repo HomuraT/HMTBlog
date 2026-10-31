@@ -47,7 +47,161 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260720489-figure2.png": {
+			"authors": [
+				"Zhou, Jiawei",
+				"Wang, Jianwei",
+				"Zhou, Chenyu",
+				"Shi, Chaojian",
+				"Dong, Ming",
+				"Wang, Kai"
+			],
+			"paper_title": "EvoSQL: Memory-Augmented Critic-Generator Co-Evolution for Text-to-SQL",
+			"source": "https://arxiv.org/pdf/2607.20489v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.86589050292969, 530.6563110351562,
+				324.9620666503906
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "eee878306a5cd25b071d1d2ca55c4d5d5f537fe0890eae47d5709c1d129d8ae4",
+			"source_pdf_sha256": "1d0683777662156856335b8a18bf5163e91f2f7c6240f2414dd248244fe6be10"
+		},
+		"paper-260720489-table1.png": {
+			"authors": [
+				"Zhou, Jiawei",
+				"Wang, Jianwei",
+				"Zhou, Chenyu",
+				"Shi, Chaojian",
+				"Dong, Ming",
+				"Wang, Kai"
+			],
+			"paper_title": "EvoSQL: Memory-Augmented Critic-Generator Co-Evolution for Text-to-SQL",
+			"source": "https://arxiv.org/pdf/2607.20489v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [302, 67, 530, 318],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "16d8db17bc58979f5784c56d2994898594ef0b642b5a3209d0a5be42db1e761c",
+			"source_pdf_sha256": "1d0683777662156856335b8a18bf5163e91f2f7c6240f2414dd248244fe6be10"
+		},
+		"paper-260720466-figure1.png": {
+			"authors": [
+				"Tschand, Arya",
+				"Hong, Charles",
+				"Walker, Julian",
+				"Cai, Nina",
+				"Wang, Shangkun",
+				"Subramanian, Suvinay",
+				"Dev, Sundar",
+				"Reddi, Vijay Janapa",
+				"Yazdanbakhsh, Amir",
+				"Sankaran, Sethu"
+			],
+			"paper_title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
+			"source": "https://arxiv.org/pdf/2607.20466v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 75, 536, 382],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b52ad9d4ecb0e3fe97790c627e5c86ce7a760f86042c4c5a56b94df4f406422f",
+			"source_pdf_sha256": "f3eb4c046474ffc338d7969d943fa6923086d6da8793645399ef70844593c23f"
+		},
+		"paper-260720466-table2.png": {
+			"authors": [
+				"Tschand, Arya",
+				"Hong, Charles",
+				"Walker, Julian",
+				"Cai, Nina",
+				"Wang, Shangkun",
+				"Subramanian, Suvinay",
+				"Dev, Sundar",
+				"Reddi, Vijay Janapa",
+				"Yazdanbakhsh, Amir",
+				"Sankaran, Sethu"
+			],
+			"paper_title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
+			"source": "https://arxiv.org/pdf/2607.20466v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 78, 537, 215],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2a8189f09d0b6d1aafbccc6c7a234e04046dcc8333a9ad02a4e53abf3eeeedfd",
+			"source_pdf_sha256": "f3eb4c046474ffc338d7969d943fa6923086d6da8793645399ef70844593c23f"
+		},
+		"paper-260720468-figure1.png": {
+			"authors": ["Yeon, Jehyeok", "Rank, Ben", "Andriushchenko, Maksym"],
+			"paper_title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
+			"source": "https://arxiv.org/pdf/2607.20468v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				76.0, 448.10540771484375, 535.9976196289062, 696.7950439453125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c092948f7b9cabdb275302b394c8b2f8327a886d5e76654b703cea0e58a8c9ed",
+			"source_pdf_sha256": "b8784e185d2167c34ef0a347e9c59490e09c29fd1085db40076f8a1ec72cf51b"
+		},
+		"paper-260720468-table2.png": {
+			"authors": ["Yeon, Jehyeok", "Rank, Ben", "Andriushchenko, Maksym"],
+			"paper_title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
+			"source": "https://arxiv.org/pdf/2607.20468v1#page=5",
+			"item": "Table 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				75.69100189208984, 66.2754135131836, 536.6719970703125,
+				496.59600830078125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7051c8189fc1fd189463a67ce6dba268c13e99f08fdd64694e79f0b76550ab6c",
+			"source_pdf_sha256": "b8784e185d2167c34ef0a347e9c59490e09c29fd1085db40076f8a1ec72cf51b"
+		},
+		"paper-260720472-figure1.png": {
+			"authors": ["Belaire, Roman", "Sinha, Arunesh", "Varakantham, Pradeep"],
+			"paper_title": "Robust Critics: Defending LLMs Against Multi-Turn Attacks",
+			"source": "https://arxiv.org/pdf/2607.20472v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 66.99921417236328, 508.9964294433594, 137.84304809570312
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c81d8b11e35deb6243d51078745882429185dcf51a26634dcf8f93141ea1b5be",
+			"source_pdf_sha256": "de5f068215ce8af2b8d07446162c0a8523568f06fbfb740a20d3a4bf9c86ca84"
+		},
+		"paper-260720472-table2.png": {
+			"authors": ["Belaire, Roman", "Sinha, Arunesh", "Varakantham, Pradeep"],
+			"paper_title": "Robust Critics: Defending LLMs Against Multi-Turn Attacks",
+			"source": "https://arxiv.org/pdf/2607.20472v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 73.97927856445312, 510.6514892578125,
+				209.40301513671875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c278c1f8b0a0c1415e90016f0099691777cc28c089421fd0ee88fcdfd344bb19",
+			"source_pdf_sha256": "de5f068215ce8af2b8d07446162c0a8523568f06fbfb740a20d3a4bf9c86ca84"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.20498v1",
@@ -56,5 +210,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "未确认第三方截图再发布许可"
 		}
-	]
+	],
+	"published_paper_count": 6
 }

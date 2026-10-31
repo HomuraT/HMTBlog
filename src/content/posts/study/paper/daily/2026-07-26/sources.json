@@ -55,6 +55,55 @@
 			"image_size": [1185, 685],
 			"sha256": "f438c2516a0a7d37b11af713a5d4ba1da568d4189eba01cc4d32677e2d91274c",
 			"source_pdf_sha256": "9f233829710cd2b6d2f8d80d1158475a8cdf43af579a05153e9a83ad0d7a9f96"
+		},
+		"paper-260721557-figure2.png": {
+			"authors": [
+				"Yu, Xiao",
+				"Peng, Baolin",
+				"Xu, Ruize",
+				"Zou, Hao",
+				"Wu, Qianhui",
+				"Cheng, Hao",
+				"Yao, Wenlin",
+				"Singh, Nikhil",
+				"Yu, Zhou",
+				"Gao, Jianfeng"
+			],
+			"paper_title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+			"source": "https://arxiv.org/pdf/2607.21557v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 70, 508, 370],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c38c56d035bcdffa22990945016bb9cf48b4185a7ca64e54be35323d9516149d",
+			"source_pdf_sha256": "2ab40353893eff95b84314067bf5cebcff34d915298c6f4f9aef9591b9b063fe"
+		},
+		"paper-260721557-table3.png": {
+			"authors": [
+				"Yu, Xiao",
+				"Peng, Baolin",
+				"Xu, Ruize",
+				"Zou, Hao",
+				"Wu, Qianhui",
+				"Cheng, Hao",
+				"Yao, Wenlin",
+				"Singh, Nikhil",
+				"Yu, Zhou",
+				"Gao, Jianfeng"
+			],
+			"paper_title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+			"source": "https://arxiv.org/pdf/2607.21557v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 78, 508, 314],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e2e4785ff813671d1f43054026875c0b07b3bff7c5fd5bd8fd6af91abd9b5666",
+			"source_pdf_sha256": "2ab40353893eff95b84314067bf5cebcff34d915298c6f4f9aef9591b9b063fe"
 		}
-	}
+	},
+	"published_paper_count": 5
 }
