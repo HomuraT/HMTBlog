@@ -62,6 +62,133 @@
 			"image_size": [1120, 610],
 			"sha256": "00dcaca72ca1de203ed66847fd8207fd9b1cc36c33ede5dc5ba66465e793c7b5",
 			"source_pdf_sha256": "88b65bf55465e2d23aef463a5cd1312493f5fa9abb391fcf2d5089c887ae6fe2"
+		},
+		"paper-260503546-figure2.png": {
+			"authors": [
+				"Yang, John",
+				"Lieret, Kilian",
+				"Ma, Jeffrey",
+				"Thakkar, Parth",
+				"Pedchenko, Dmitrii",
+				"Sootla, Sten",
+				"McMilin, Emily",
+				"Yin, Pengcheng",
+				"Hou, Rui",
+				"Synnaeve, Gabriel",
+				"Yang, Diyi",
+				"Press, Ofir"
+			],
+			"paper_title": "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+			"source": "https://arxiv.org/pdf/2605.03546v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				64.85029602050781, 58.77989959716797, 547.2337036132812,
+				193.8929443359375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9856925a0c78e16d258ac05ccb95f566b0f20a2bbf0b6c38505b9d6af513d764",
+			"source_pdf_sha256": "87c67873f06f48044ef3a1bcd5bed21be2c90d92090bfb3b73b6ca7b9b13781c"
+		},
+		"paper-260503546-table2.png": {
+			"authors": [
+				"Yang, John",
+				"Lieret, Kilian",
+				"Ma, Jeffrey",
+				"Thakkar, Parth",
+				"Pedchenko, Dmitrii",
+				"Sootla, Sten",
+				"McMilin, Emily",
+				"Yin, Pengcheng",
+				"Hou, Rui",
+				"Synnaeve, Gabriel",
+				"Yang, Diyi",
+				"Press, Ofir"
+			],
+			"paper_title": "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+			"source": "https://arxiv.org/pdf/2605.03546v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 79, 336, 266],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f9fcc6559a244a0803eca228a04845f2133ea30d848b75beb41f236f87f2d20a",
+			"source_pdf_sha256": "87c67873f06f48044ef3a1bcd5bed21be2c90d92090bfb3b73b6ca7b9b13781c"
+		},
+		"paper-260506548-figure1.png": {
+			"authors": [
+				"Guo, Hongcan",
+				"Zhao, Qinyu",
+				"Zhao, Yian",
+				"Nie, Shen",
+				"Zhu, Rui",
+				"Guo, Qiushan",
+				"Wang, Feng",
+				"Yang, Tao",
+				"Zhao, Hengshuang",
+				"Wei, Guoqiang",
+				"Zeng, Yan"
+			],
+			"paper_title": "Continuous Latent Diffusion Language Model",
+			"source": "https://arxiv.org/pdf/2605.06548v1#page=6",
+			"item": "Figure 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 75, 544, 312],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "be3a4cf36a9ae9a0279f71477388cad94ca51764c6e8094b46bd653da824d4d1",
+			"source_pdf_sha256": "83cfbc12f4a65abd7fde21eb04867412477644f3a789fe37975d1a1c1e9c47b9"
+		},
+		"paper-260506548-table5.png": {
+			"authors": [
+				"Guo, Hongcan",
+				"Zhao, Qinyu",
+				"Zhao, Yian",
+				"Nie, Shen",
+				"Zhu, Rui",
+				"Guo, Qiushan",
+				"Wang, Feng",
+				"Yang, Tao",
+				"Zhao, Hengshuang",
+				"Wei, Guoqiang",
+				"Zeng, Yan"
+			],
+			"paper_title": "Continuous Latent Diffusion Language Model",
+			"source": "https://arxiv.org/pdf/2605.06548v1#page=24",
+			"item": "Table 5",
+			"pdf_page": 24,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 337, 544, 489],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "630dadaab9bea24e11a07b7b4104dad60cb3608147454f1da72c18bc46a5c537",
+			"source_pdf_sha256": "83cfbc12f4a65abd7fde21eb04867412477644f3a789fe37975d1a1c1e9c47b9"
+		},
+		"paper-260614047-table3.png": {
+			"authors": [
+				"Alselwi, Ghadir",
+				"Suleiman, Basem",
+				"Xue, Hao",
+				"Jameel, Shoaib",
+				"Hacid, Hakim",
+				"Salim, Flora D.",
+				"Razzak, Imran"
+			],
+			"paper_title": "Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling",
+			"source": "https://arxiv.org/pdf/2606.14047v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 538, 295, 762],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6bffd872de2790779ea8f00e112405f1e5af73f4d50a4065cb284d8e32701ca4",
+			"source_pdf_sha256": "88b65bf55465e2d23aef463a5cd1312493f5fa9abb391fcf2d5089c887ae6fe2"
 		}
-	}
+	},
+	"published_paper_count": 6
 }
