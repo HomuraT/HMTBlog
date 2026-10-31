@@ -76,6 +76,164 @@
 			"image_size": [510, 152],
 			"sha256": "ec78e7cf17eeca25ac60d6ee90b7eac0d58ef588bf9f9091a5bc39a50e4ed8ac",
 			"source_pdf_sha256": "bf1198a5017b310512ae6648c597dda6bab61f1119cda469a3581025de7713c6"
+		},
+		"paper-260500845-figure2.png": {
+			"authors": [
+				"Wang, Mengying",
+				"Jedema, Nicolaas",
+				"Pandey, Rahul",
+				"Krishnan, RaviKiran",
+				"Lehmann, Jens",
+				"Wu, Yinghui"
+			],
+			"paper_title": "Graph Query Generation with Constraint-guided Large Language Agents",
+			"source": "https://arxiv.org/pdf/2605.00845v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [80, 52, 535, 166],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d3ebb1471a2c309436c841913932b6c20e4d3caa2c73a81ae10af4af5ff2b93b",
+			"source_pdf_sha256": "1d34f62a5c5be83bd767249347aaad1832fbc7571074d5e26dd8c2451baa04be"
+		},
+		"paper-260500845-figure3.png": {
+			"authors": [
+				"Wang, Mengying",
+				"Jedema, Nicolaas",
+				"Pandey, Rahul",
+				"Krishnan, RaviKiran",
+				"Lehmann, Jens",
+				"Wu, Yinghui"
+			],
+			"paper_title": "Graph Query Generation with Constraint-guided Large Language Agents",
+			"source": "https://arxiv.org/pdf/2605.00845v1#page=6",
+			"item": "Figure 3",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [383, 165, 563, 315],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e78e246b84dcf2fbf104d52a2efd0e05aaf1b690f7fedbd5c6cff350a19c59bb",
+			"source_pdf_sha256": "1d34f62a5c5be83bd767249347aaad1832fbc7571074d5e26dd8c2451baa04be"
+		},
+		"paper-260531604-figure3.png": {
+			"authors": [
+				"Wang, Yuqing",
+				"Lin, Zhijie",
+				"Yang, Ceyuan",
+				"Zhao, Yang",
+				"Xiao, Fei",
+				"He, Hao",
+				"Zhao, Qi",
+				"Ding, Zihan",
+				"Wang, Fuyun",
+				"Wang, Shuai",
+				"Zhang, Youliang",
+				"Fan, Haoqi",
+				"Liu, Xihui"
+			],
+			"paper_title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+			"source": "https://arxiv.org/pdf/2605.31604v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.62699890136719, 73.89987182617188, 546.404541015625,
+				374.94097900390625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8d0511a35c38d1f6da0130108c70089eee99695f866abe326437b6d1af6668e0",
+			"source_pdf_sha256": "d0b14766ba1fac26c4752c7985050d0c822c65bc3f9583108a66f88e98204ca8"
+		},
+		"paper-260531604-table2.png": {
+			"authors": [
+				"Wang, Yuqing",
+				"Lin, Zhijie",
+				"Yang, Ceyuan",
+				"Zhao, Yang",
+				"Xiao, Fei",
+				"He, Hao",
+				"Zhao, Qi",
+				"Ding, Zihan",
+				"Wang, Fuyun",
+				"Wang, Shuai",
+				"Zhang, Youliang",
+				"Fan, Haoqi",
+				"Liu, Xihui"
+			],
+			"paper_title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+			"source": "https://arxiv.org/pdf/2605.31604v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				64.78800201416016, 72.20761108398438, 546.4752197265625,
+				239.469970703125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "44c7858267db2a9438dc45524204cbef44f7c21d24cd3c7675fed74b1d78cb44",
+			"source_pdf_sha256": "d0b14766ba1fac26c4752c7985050d0c822c65bc3f9583108a66f88e98204ca8"
+		},
+		"paper-260530215-figure2.png": {
+			"authors": [
+				"Burzio, Alessandro",
+				"Fischer, Tobias",
+				"Elflein, Sven",
+				"Zhou, Qunjie",
+				"de Lutio, Riccardo",
+				"Ren, Jiawei",
+				"Huang, Jiahui",
+				"Huang, Shengyu",
+				"Pollefeys, Marc",
+				"Leal-Taixé, Laura",
+				"Gojcic, Zan",
+				"Turki, Haithem"
+			],
+			"paper_title": "D\\'ej\\`a View: Looping Transformers for Multi-View 3D Reconstruction",
+			"source": "https://arxiv.org/pdf/2605.30215v2#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 69.15696716308594, 510.0218505859375, 270.7860412597656
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f3de2f64954a318b94bb439ef54cfa27a7386dd749e7afc0b5f13daeb24da32e",
+			"source_pdf_sha256": "dace3513cddd82448517c3157b191192fd8a7bd5b5123841524a11c47513f2a9"
+		},
+		"paper-260530215-table3.png": {
+			"authors": [
+				"Burzio, Alessandro",
+				"Fischer, Tobias",
+				"Elflein, Sven",
+				"Zhou, Qunjie",
+				"de Lutio, Riccardo",
+				"Ren, Jiawei",
+				"Huang, Jiahui",
+				"Huang, Shengyu",
+				"Pollefeys, Marc",
+				"Leal-Taixé, Laura",
+				"Gojcic, Zan",
+				"Turki, Haithem"
+			],
+			"paper_title": "D\\'ej\\`a View: Looping Transformers for Multi-View 3D Reconstruction",
+			"source": "https://arxiv.org/pdf/2605.30215v2#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				101.1449966430664, 74.00951385498047, 510.74517822265625,
+				280.760986328125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "42478a51030264ad39c0a2d7ba35aa6840a2486fac6e28c8303cd207586db71c",
+			"source_pdf_sha256": "dace3513cddd82448517c3157b191192fd8a7bd5b5123841524a11c47513f2a9"
 		}
-	}
+	},
+	"published_paper_count": 8
 }

@@ -54,7 +54,205 @@
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260507639-figure2.png": {
+			"authors": [
+				"Lamazzi, Lorenzo",
+				"Gangemi, Aldo",
+				"Giberti, Alessio",
+				"Nuzzolese, Andrea Giovanni",
+				"Rocca, Vittorio Andrea",
+				"Torta, Mattia",
+				"Poggi, Francesco"
+			],
+			"paper_title": "Tacit Knowledge Extraction via Logic Augmented Generation and Active Inference",
+			"source": "https://arxiv.org/pdf/2605.07639v1#page=7",
+			"item": "Figure 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [132, 110, 483, 334],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d829193fa78d18266dbe9b15c0ee6e0ee10bc954c7563a84db40513c3e6e2dd7",
+			"source_pdf_sha256": "6e1011cba22dbcc5625c673ec5ef70b38cd7331fedee17e58b894dd63069c204"
+		},
+		"paper-260507639-figure4.png": {
+			"authors": [
+				"Lamazzi, Lorenzo",
+				"Gangemi, Aldo",
+				"Giberti, Alessio",
+				"Nuzzolese, Andrea Giovanni",
+				"Rocca, Vittorio Andrea",
+				"Torta, Mattia",
+				"Poggi, Francesco"
+			],
+			"paper_title": "Tacit Knowledge Extraction via Logic Augmented Generation and Active Inference",
+			"source": "https://arxiv.org/pdf/2605.07639v1#page=14",
+			"item": "Figure 4",
+			"pdf_page": 14,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [132, 115, 483, 431],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "05d7579c5d069f0af22d89d118fef0809ec50d03c72eea3405b41c13d2e682da",
+			"source_pdf_sha256": "6e1011cba22dbcc5625c673ec5ef70b38cd7331fedee17e58b894dd63069c204"
+		},
+		"paper-260531604-figure3.png": {
+			"authors": [
+				"Wang, Yuqing",
+				"Lin, Zhijie",
+				"Yang, Ceyuan",
+				"Zhao, Yang",
+				"Xiao, Fei",
+				"He, Hao",
+				"Zhao, Qi",
+				"Ding, Zihan",
+				"Wang, Fuyun",
+				"Wang, Shuai",
+				"Zhang, Youliang",
+				"Fan, Haoqi",
+				"Liu, Xihui"
+			],
+			"paper_title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+			"source": "https://arxiv.org/pdf/2605.31604v2#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.62699890136719, 73.89987182617188, 546.404541015625,
+				374.94097900390625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8d0511a35c38d1f6da0130108c70089eee99695f866abe326437b6d1af6668e0",
+			"source_pdf_sha256": "42c128eb5c16a1f4e7496b4313c92367efdbebdd60db9f625ed218af68b9cc0b"
+		},
+		"paper-260531604-table2.png": {
+			"authors": [
+				"Wang, Yuqing",
+				"Lin, Zhijie",
+				"Yang, Ceyuan",
+				"Zhao, Yang",
+				"Xiao, Fei",
+				"He, Hao",
+				"Zhao, Qi",
+				"Ding, Zihan",
+				"Wang, Fuyun",
+				"Wang, Shuai",
+				"Zhang, Youliang",
+				"Fan, Haoqi",
+				"Liu, Xihui"
+			],
+			"paper_title": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+			"source": "https://arxiv.org/pdf/2605.31604v2#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				64.78800201416016, 72.20761108398438, 546.4752197265625,
+				239.469970703125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "44c7858267db2a9438dc45524204cbef44f7c21d24cd3c7675fed74b1d78cb44",
+			"source_pdf_sha256": "42c128eb5c16a1f4e7496b4313c92367efdbebdd60db9f625ed218af68b9cc0b"
+		},
+		"paper-260529548-figure2.png": {
+			"authors": [
+				"Huang, Jing",
+				"Wurgaft, Daniel",
+				"Bansal, Rachit",
+				"Ruis, Laura",
+				"Saphra, Naomi",
+				"Alvarez-Melis, David",
+				"Lampinen, Andrew Kyle",
+				"Potts, Christopher",
+				"Lubana, Ekdeep Singh"
+			],
+			"paper_title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+			"source": "https://arxiv.org/pdf/2605.29548v2#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.69100189208984, 51.03071212768555, 509.3490295410156,
+				232.29910278320312
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0999bd18ca00af73e305b4d564e0a305edd459cd8ee9f5d90b1e067fa1570e23",
+			"source_pdf_sha256": "805de7f6a935cd16f0ee019381dafdf6e6fddeedc2583b9143b2faad2f23d66e"
+		},
+		"paper-260529548-figure4.png": {
+			"authors": [
+				"Huang, Jing",
+				"Wurgaft, Daniel",
+				"Bansal, Rachit",
+				"Ruis, Laura",
+				"Saphra, Naomi",
+				"Alvarez-Melis, David",
+				"Lampinen, Andrew Kyle",
+				"Potts, Christopher",
+				"Lubana, Ekdeep Singh"
+			],
+			"paper_title": "Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention",
+			"source": "https://arxiv.org/pdf/2605.29548v2#page=6",
+			"item": "Figure 4",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 58, 510, 383],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "86ee03ba888357508b96fb7af17ad367cbb98cd3579ed9ab1e1206a19b032596",
+			"source_pdf_sha256": "805de7f6a935cd16f0ee019381dafdf6e6fddeedc2583b9143b2faad2f23d66e"
+		},
+		"paper-260531268-table2.png": {
+			"authors": [
+				"Kojic, Marko",
+				"Bondyrev, Ivan",
+				"de Moor, Aral",
+				"Shtok, Joseph",
+				"Borovlev, Petr",
+				"Lysaniuk, Kseniia",
+				"Kannan, Madeeswaran",
+				"Dolgov, Ivan",
+				"Pavlichenko, Nikita"
+			],
+			"paper_title": "Mellum2 Technical Report",
+			"source": "https://arxiv.org/pdf/2605.31268v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [90, 300, 492, 513],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a82633b791497322cd93f432a4f2fa410d586e63cfb6f271c7880255921490ef",
+			"source_pdf_sha256": "b19e68fdef592cf39ea4634899c956bfceaf5b02e06299aee192aae0116b352f"
+		},
+		"paper-260531268-table9.png": {
+			"authors": [
+				"Kojic, Marko",
+				"Bondyrev, Ivan",
+				"de Moor, Aral",
+				"Shtok, Joseph",
+				"Borovlev, Petr",
+				"Lysaniuk, Kseniia",
+				"Kannan, Madeeswaran",
+				"Dolgov, Ivan",
+				"Pavlichenko, Nikita"
+			],
+			"paper_title": "Mellum2 Technical Report",
+			"source": "https://arxiv.org/pdf/2605.31268v1#page=23",
+			"item": "Table 9",
+			"pdf_page": 23,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 416, 533, 764],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "66df3d213d7ee930c942db24a588c341019bbd84b0bf3cbbe3076f6f00e0511e",
+			"source_pdf_sha256": "b19e68fdef592cf39ea4634899c956bfceaf5b02e06299aee192aae0116b352f"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2605.29168v1",
@@ -62,5 +260,6 @@
 			"source": "https://arxiv.org/pdf/2605.29168v1#page=1",
 			"reason": "CC BY-NC-SA 4.0; destination noncommercial compatibility not established."
 		}
-	]
+	],
+	"published_paper_count": 7
 }
