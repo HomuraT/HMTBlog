@@ -56,7 +56,7 @@ ProbeMotion 中，SDM 的 Kubric 相机运动标准化 MSE 为 0.16，直接平�
 
 VLM-IE3D 从 RGB 视频提取隐式几何 token，再将重建的三维属性编码为显式 token，以三维感知适配器连接视觉语言主干。推理无需额外点云输入，但仍借助几何模型和训练信号，RGB-only 不等于没有三维先验。
 
-ScanRefer 不做 proposal refinement 时，Acc@0.25 为 43.2%，Qwen2.5-VL-3B 为 34.0%；加入 refinement 后是另一组 55.4% 对 50.7%。三维视频检测 F1@0.25 从 30.9 到 42.8，同时 H100 处理速度由十四降至六 FPS。准确性与额外重建成本需要一起看，候选框精修也不能与原始定位混成同一个成绩。
+ScanRefer 不做 proposal refinement 时，Acc（阈值 0.25） 为 43.2%，Qwen2.5-VL-3B 为 34.0%；加入 refinement 后是另一组 55.4% 对 50.7%。三维视频检测 F1（阈值 0.25） 从 30.9 到 42.8，同时 H100 处理速度由十四降至六 FPS。准确性与额外重建成本需要一起看，候选框精修也不能与原始定位混成同一个成绩。
 
 [3D-Aware VLMs with Implicit and Explicit Geometries](https://arxiv.org/abs/2607.21595v1) · v1。
 
