@@ -79,12 +79,167 @@
 			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260708233-figure3.png": {
+			"authors": [
+				"Koehler, Sophia",
+				"Wüst, Antonia",
+				"Ibs, Inga",
+				"Piriyakulkij, Wasu Top",
+				"Stammer, Wolfgang",
+				"Rothkopf, Constantin",
+				"Ellis, Kevin",
+				"Kersting, Kristian"
+			],
+			"paper_title": "Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction",
+			"source": "https://arxiv.org/pdf/2607.08233v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.7040023803711, 65.40485382080078, 509.0009460449219,
+				201.1873779296875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f208e9de4dc99f9dffedfabc30508c404b63c1b632103724449aad10e9b86b80",
+			"source_pdf_sha256": "deef5296ef13bcb64f16233bce1b885cea431bbee386be54069c85ad713f5baa"
+		},
+		"paper-260708233-table3.png": {
+			"authors": [
+				"Koehler, Sophia",
+				"Wüst, Antonia",
+				"Ibs, Inga",
+				"Piriyakulkij, Wasu Top",
+				"Stammer, Wolfgang",
+				"Rothkopf, Constantin",
+				"Ellis, Kevin",
+				"Kersting, Kristian"
+			],
+			"paper_title": "Playing ZendoWorld: Challenging AI Agents on Active Visual Concept Induction",
+			"source": "https://arxiv.org/pdf/2607.08233v1#page=7",
+			"item": "Table 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 75, 319, 225],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e5762445532e274a75df6f6321dea18768cc54ab231c2a54312c5de36fcb21ac",
+			"source_pdf_sha256": "deef5296ef13bcb64f16233bce1b885cea431bbee386be54069c85ad713f5baa"
+		},
+		"paper-260708124-figure1.png": {
+			"authors": [
+				"Nie, Jun",
+				"Zhang, Yonggang",
+				"Song, Jun",
+				"Cai, Qianshu",
+				"Yu, Dahai",
+				"Guo, Yike",
+				"Tian, Xinmei",
+				"Han, Bo"
+			],
+			"paper_title": "TTHE: Test-Time Harness Evolution",
+			"source": "https://arxiv.org/pdf/2607.08124v1#page=5",
+			"item": "Figure 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 78, 508, 367],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "941366fd0788abd54454efcc5e97c45fe60f4953c2435b61f111500dbcfefd3f",
+			"source_pdf_sha256": "88fe9b4897555a233a052d6bd2b63952fc1d60be349a2cc60e616077e3e9f48b"
+		},
+		"paper-260708124-figure2.png": {
+			"authors": [
+				"Nie, Jun",
+				"Zhang, Yonggang",
+				"Song, Jun",
+				"Cai, Qianshu",
+				"Yu, Dahai",
+				"Guo, Yike",
+				"Tian, Xinmei",
+				"Han, Bo"
+			],
+			"paper_title": "TTHE: Test-Time Harness Evolution",
+			"source": "https://arxiv.org/pdf/2607.08124v1#page=8",
+			"item": "Figure 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [104, 82, 306, 290],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "134339831cc8927c6f09589b7cd84455f7a231454ad8438f9af4f902a106b0bf",
+			"source_pdf_sha256": "88fe9b4897555a233a052d6bd2b63952fc1d60be349a2cc60e616077e3e9f48b"
+		},
+		"paper-260708448-figure2.png": {
+			"authors": [
+				"Zhang, Yixian",
+				"Zhang, Huanming",
+				"Gao, Feng",
+				"Li, Xiao",
+				"Liu, Zhihao",
+				"Zhu, Chunyang",
+				"Qiu, Jiaxing",
+				"Yan, Yuchen",
+				"Liu, Jiyuan",
+				"Tang, Wenhao",
+				"Fang, Zhengru",
+				"Nie, Yi",
+				"Wei, Changxu",
+				"Wang, Yu",
+				"Ding, Wenbo",
+				"Yu, Chao"
+			],
+			"paper_title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+			"source": "https://arxiv.org/pdf/2607.08448v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 146.00006103515625, 545.0039672851562, 472.8737487792969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6c8a0baa3c457a5f74ea1881e7b89feb32ed471c73fdaf4bff225068adf4c84c",
+			"source_pdf_sha256": "8c076133567919afd5420dc4a200a388314fec451cb6da1e8d4de93e1a1c0deb"
+		},
+		"paper-260708448-table3.png": {
+			"authors": [
+				"Zhang, Yixian",
+				"Zhang, Huanming",
+				"Gao, Feng",
+				"Li, Xiao",
+				"Liu, Zhihao",
+				"Zhu, Chunyang",
+				"Qiu, Jiaxing",
+				"Yan, Yuchen",
+				"Liu, Jiyuan",
+				"Tang, Wenhao",
+				"Fang, Zhengru",
+				"Nie, Yi",
+				"Wei, Changxu",
+				"Wang, Yu",
+				"Ding, Wenbo",
+				"Yu, Chao"
+			],
+			"paper_title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+			"source": "https://arxiv.org/pdf/2607.08448v1#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 69, 543, 358],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8b4964461f2de7f9c3aefccb14cebc99ced6b711176868a6777e20a5d544220a",
+			"source_pdf_sha256": "8c076133567919afd5420dc4a200a388314fec451cb6da1e8d4de93e1a1c0deb"
+		}
+	},
 	"figure_omissions": [
 		{
 			"source": "https://arxiv.org/pdf/2607.08269v1#page=4",
 			"item": "Table 1",
 			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
 		}
-	]
+	],
+	"published_paper_count": 8
 }
