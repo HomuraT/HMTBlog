@@ -47,7 +47,158 @@
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260611722-figure1.png": {
+			"authors": ["Liu, Sida", "Han, Feijiang"],
+			"paper_title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+			"source": "https://arxiv.org/pdf/2606.11722v1#page=8",
+			"item": "Figure 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				49.58700180053711, 297.4306640625, 278.30084228515625, 482.7919921875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "efc75f2c3633da8031811fcb9b01f5c88773cdc621bbca7bb1d85d3a33b7b04a",
+			"source_pdf_sha256": "e5e4c7613ff07a252257ba681b17bf0af3f7625ddb8a1a14e86bed1844c0249a"
+		},
+		"paper-260611722-figure12.png": {
+			"authors": ["Liu, Sida", "Han, Feijiang"],
+			"paper_title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+			"source": "https://arxiv.org/pdf/2606.11722v1#page=25",
+			"item": "Figure 12",
+			"pdf_page": 25,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [52, 216, 562, 580],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5bf80d87a901d24055bcde3e7dbfdd18fbd389a3cc53930528e98fcad3450275",
+			"source_pdf_sha256": "e5e4c7613ff07a252257ba681b17bf0af3f7625ddb8a1a14e86bed1844c0249a"
+		},
+		"paper-260611926-figure2.png": {
+			"authors": [
+				"Jin, Jiajie",
+				"Hu, Yuyang",
+				"Qiu, Kai",
+				"Dai, Qi",
+				"Luo, Chong",
+				"Dong, Guanting",
+				"Li, Xiaoxi",
+				"Zhao, Tong",
+				"Ma, Xiaolong",
+				"Zhang, Gongrui",
+				"Wu, Zhirong",
+				"Liu, Bei",
+				"Yang, Zhengyuan",
+				"Li, Linjie",
+				"Wang, Lijuan",
+				"Qian, Hongjin",
+				"Zhu, Yutao",
+				"Dou, Zhicheng"
+			],
+			"paper_title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+			"source": "https://arxiv.org/pdf/2606.11926v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 60.123565673828125, 545.9356079101562,
+				362.51123046875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "27c78a199696b258f29a870fbeaceb32c57af82e9f361718b2d76dd51eac7d61",
+			"source_pdf_sha256": "c80931a404f5f0e0adc90d689fbedcc947fa986e4cfe9fa869238c85a7deb276"
+		},
+		"paper-260611926-table2.png": {
+			"authors": [
+				"Jin, Jiajie",
+				"Hu, Yuyang",
+				"Qiu, Kai",
+				"Dai, Qi",
+				"Luo, Chong",
+				"Dong, Guanting",
+				"Li, Xiaoxi",
+				"Zhao, Tong",
+				"Ma, Xiaolong",
+				"Zhang, Gongrui",
+				"Wu, Zhirong",
+				"Liu, Bei",
+				"Yang, Zhengyuan",
+				"Li, Linjie",
+				"Wang, Lijuan",
+				"Qian, Hongjin",
+				"Zhu, Yutao",
+				"Dou, Zhicheng"
+			],
+			"paper_title": "Toward Generalist Autonomous Research via Hypothesis-Tree Refinement",
+			"source": "https://arxiv.org/pdf/2606.11926v1#page=10",
+			"item": "Table 2",
+			"pdf_page": 10,
+			"license": "CC BY-SA 4.0",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [68, 64, 545, 380],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f51fe1b9f02fae895117b11d92f21eb46c030f1ca80db3a2eb45617e08104e8f",
+			"source_pdf_sha256": "c80931a404f5f0e0adc90d689fbedcc947fa986e4cfe9fa869238c85a7deb276"
+		},
+		"paper-260611119-figure3.png": {
+			"authors": [
+				"Zou, Heming",
+				"Wang, Qi",
+				"Qu, Yun",
+				"Jiang, Yuhang",
+				"Cai, Lizhou",
+				"Mao, Yixiu",
+				"Peng, Ru",
+				"Xu, Xin",
+				"Liu, Weijie",
+				"Yang, Kai",
+				"Yang, Saiyong",
+				"Ji, Xiangyang"
+			],
+			"paper_title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2606.11119v1#page=6",
+			"item": "Figure 3",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.56700134277344, 65.86720275878906, 529.7959594726562,
+				382.80792236328125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "63f35efb141a21d2c814eef417676fa34142739985cd580d6a70e3b21b583de3",
+			"source_pdf_sha256": "114e7402ca8948bcd3179a309b81eefe1a6f17d10fccfaa0c73f2f761a4c6d4e"
+		},
+		"paper-260611119-table1.png": {
+			"authors": [
+				"Zou, Heming",
+				"Wang, Qi",
+				"Qu, Yun",
+				"Jiang, Yuhang",
+				"Cai, Lizhou",
+				"Mao, Yixiu",
+				"Peng, Ru",
+				"Xu, Xin",
+				"Liu, Weijie",
+				"Yang, Kai",
+				"Yang, Saiyong",
+				"Ji, Xiangyang"
+			],
+			"paper_title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2606.11119v1#page=10",
+			"item": "Table 1",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 68, 528, 164],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f0fd014555e42fc5f77aba44bc51979441f2b68d03572195c41dfe6840388f79",
+			"source_pdf_sha256": "114e7402ca8948bcd3179a309b81eefe1a6f17d10fccfaa0c73f2f761a4c6d4e"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.07094v1",
@@ -55,5 +206,6 @@
 			"source": "https://arxiv.org/pdf/2606.07094v1#page=3",
 			"reason": "Only arXiv non-exclusive distribution license established."
 		}
-	]
+	],
+	"published_paper_count": 6
 }

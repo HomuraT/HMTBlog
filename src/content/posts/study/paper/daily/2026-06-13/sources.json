@@ -76,6 +76,239 @@
 			"image_size": [1190, 1237],
 			"sha256": "41b98e08aae203b4e533ea6b5941af6b869f1347ab6f648b15aee5d725610bde",
 			"source_pdf_sha256": "5db948eecabf69811ec8947752b6e4a299ee062c7e244aa0f4ad315b49c63ed9"
+		},
+		"paper-260613662-figure2.png": {
+			"authors": [
+				"Xin, Amy",
+				"Siow, Jiening",
+				"Wang, Junjie",
+				"Yao, Zijun",
+				"Zhang, Fanjin",
+				"Song, Jian",
+				"Hou, Lei",
+				"Li, Juanzi"
+			],
+			"paper_title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+			"source": "https://arxiv.org/pdf/2606.13662v2#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.86181640625, 509.0033264160156, 381.4630432128906
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "332b50f2be7dcc8a3907b8e59954589e15dacd0f4c609bad2e580cea6b43c51c",
+			"source_pdf_sha256": "ff0dc15899eced7fd276111aa0a5f5c4e72238dfd0d6a2201c1132ae39974dea"
+		},
+		"paper-260613662-table3.png": {
+			"authors": [
+				"Xin, Amy",
+				"Siow, Jiening",
+				"Wang, Junjie",
+				"Yao, Zijun",
+				"Zhang, Fanjin",
+				"Song, Jian",
+				"Hou, Lei",
+				"Li, Juanzi"
+			],
+			"paper_title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+			"source": "https://arxiv.org/pdf/2606.13662v2#page=8",
+			"item": "Table 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [130, 435, 482, 565],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "03fb706c8e52b414f270528f363a3bca1855fa92e7bf0bbcb47e5dc0e77e3a46",
+			"source_pdf_sha256": "ff0dc15899eced7fd276111aa0a5f5c4e72238dfd0d6a2201c1132ae39974dea"
+		},
+		"paper-260612195-figure2.png": {
+			"authors": [
+				"Yan, Ziang",
+				"Xia, Sheng",
+				"Yu, Jiashuo",
+				"Wu, Yue",
+				"Jiang, Tianxiang",
+				"Li, Songze",
+				"Tian, Kanghui",
+				"Xu, Yicheng",
+				"He, Yinan",
+				"Chen, Kai",
+				"Wang, Limin",
+				"Qiao, Yu",
+				"Wang, Yi"
+			],
+			"paper_title": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+			"source": "https://arxiv.org/pdf/2606.12195v1#page=7",
+			"item": "Figure 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 82, 534, 431],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4488d60e06b1209ef5116a21973e77cc4ef4c46b2fd921bd0ded40bd2d53696b",
+			"source_pdf_sha256": "4f74d7a3118db2e5bf342c5a2e607d3383f9875aaa9e729a3d16139d0abe0892"
+		},
+		"paper-260612195-table2.png": {
+			"authors": [
+				"Yan, Ziang",
+				"Xia, Sheng",
+				"Yu, Jiashuo",
+				"Wu, Yue",
+				"Jiang, Tianxiang",
+				"Li, Songze",
+				"Tian, Kanghui",
+				"Xu, Yicheng",
+				"He, Yinan",
+				"Chen, Kai",
+				"Wang, Limin",
+				"Qiao, Yu",
+				"Wang, Yi"
+			],
+			"paper_title": "InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning",
+			"source": "https://arxiv.org/pdf/2606.12195v1#page=16",
+			"item": "Table 2",
+			"pdf_page": 16,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 82, 534, 375],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "da3c60bcd37ec23779a389084973be02fd025f1886810b32f76013363b1a53c7",
+			"source_pdf_sha256": "4f74d7a3118db2e5bf342c5a2e607d3383f9875aaa9e729a3d16139d0abe0892"
+		},
+		"paper-260613673-figure3.png": {
+			"authors": [
+				"Cho, Seokju",
+				"Hachiuma, Ryo",
+				"Badki, Abhishek",
+				"Su, Hang",
+				"Lee, Byung-Kwan",
+				"Song, Chan Hee",
+				"Liu, Sifei",
+				"Radhakrishnan, Subhashree",
+				"Kim, Seungryong",
+				"Wang, Yu-Chiang Frank",
+				"Chen, Min-Hung"
+			],
+			"paper_title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+			"source": "https://arxiv.org/pdf/2606.13673v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.042999267578125, 80.04025268554688, 539.5794067382812,
+				352.1927490234375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2184b1115bcc0c233468d1f827d605d4e16592ee4eb5193bd9df8b7947aaa405",
+			"source_pdf_sha256": "4ab67eb5730e708f9db9ccd2757c950fc04dd0d97b8703f9b7494da0dc6b7d97"
+		},
+		"paper-260613673-table1.png": {
+			"authors": [
+				"Cho, Seokju",
+				"Hachiuma, Ryo",
+				"Badki, Abhishek",
+				"Su, Hang",
+				"Lee, Byung-Kwan",
+				"Song, Chan Hee",
+				"Liu, Sifei",
+				"Radhakrishnan, Subhashree",
+				"Kim, Seungryong",
+				"Wang, Yu-Chiang Frank",
+				"Chen, Min-Hung"
+			],
+			"paper_title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+			"source": "https://arxiv.org/pdf/2606.13673v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 82, 534, 486],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8e4a65ce04b98c55ca5c47cca18f63667b9c844b5a517cfb3c13492cff71b22c",
+			"source_pdf_sha256": "4ab67eb5730e708f9db9ccd2757c950fc04dd0d97b8703f9b7494da0dc6b7d97"
+		},
+		"paper-260613672-figure2.png": {
+			"authors": [
+				"Jain, Arnav Kumar",
+				"Wu, Yilin",
+				"Farebrother, Jesse",
+				"Swamy, Gokul",
+				"Bajcsy, Andrea"
+			],
+			"paper_title": "$\\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+			"source": "https://arxiv.org/pdf/2606.13672v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 66.99894714355469, 508.9992980957031, 222.74307250976562
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d64904ba333e1080f3233476f338ec9cfdece84abf4444cfd3bced4fe9a163fe",
+			"source_pdf_sha256": "f376a9b84b8e6235c5fc30f8ada7b8a3f61dd23b90a6c1219eea0e3c5c0fe789"
+		},
+		"paper-260613672-table1.png": {
+			"authors": [
+				"Jain, Arnav Kumar",
+				"Wu, Yilin",
+				"Farebrother, Jesse",
+				"Swamy, Gokul",
+				"Bajcsy, Andrea"
+			],
+			"paper_title": "$\\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+			"source": "https://arxiv.org/pdf/2606.13672v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 69, 329, 273],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8b0b24588f6d8ffbe8eb7fa61e9bf908d79485319f9b385b5f03414f23154084",
+			"source_pdf_sha256": "f376a9b84b8e6235c5fc30f8ada7b8a3f61dd23b90a6c1219eea0e3c5c0fe789"
+		},
+		"paper-260613669-table4.png": {
+			"authors": [
+				"Cao, Zongsheng",
+				"Zhan, Bihao",
+				"Shi, Jinxin",
+				"Wang, Jiong",
+				"Yu, Fangchen",
+				"Zhong, Zhijie",
+				"Guo, Zijie",
+				"Peng, Tianshuo",
+				"Liu, Zhuo",
+				"Xie, Yi",
+				"Zhuang, Xiang",
+				"Fan, Yue",
+				"Ma, Runmin",
+				"Feng, Shiyang",
+				"Yan, Xiangchao",
+				"Liu, Anran",
+				"Ye, Peng",
+				"Zhang, Wenlong",
+				"Zhang, Shufei",
+				"Song, Chunfeng",
+				"Ling, Fenghua",
+				"Zhou, Jie",
+				"He, Liang",
+				"Zhang, Bo",
+				"Bai, Lei"
+			],
+			"paper_title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+			"source": "https://arxiv.org/pdf/2606.13669v1#page=28",
+			"item": "Table 4",
+			"pdf_page": 28,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 83, 535, 412],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8acec4fa3cee7113c25c2359e2ffa29aed73d821fdc65346a0b6a7c7c7e9f70d",
+			"source_pdf_sha256": "5db948eecabf69811ec8947752b6e4a299ee062c7e244aa0f4ad315b49c63ed9"
 		}
-	}
+	},
+	"published_paper_count": 8
 }
