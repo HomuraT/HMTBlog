@@ -12,6 +12,36 @@
 			"source": "https://arxiv.org/abs/2610.13778v1",
 			"verification_scope": "Featured methods, cited table or figure results and experimental conditions checked against historical primary text. No independent reproduction.",
 			"cited_evidence": "固定大小的循环状态仍可能造成解码带宽瓶颈，推测回滚又增加管理成本。ReplaySSM 保存检查点与最近输入，改变状态的读写周期。\n\n## 方法与问题\n\n循环展开将输出计算与检查点更新分离，多数步只读需要的信息，定期刷新检查点；回滚调整输入缓冲指针。高、低精度检查点分别服务更新与输出，减少低精度误差进入循环状态。\n\n## 实验证据\n\n作者在 vLLM 实现 Mamba-2 与 Gated DeltaNet。batch size 256、缓冲长度 L=16、FP32 状态时，四个混合模型普通解码端到端加速为 1.20–1.47 倍，参照调优后的 vLLM。两个 120B 级模型的推测解码吞吐约为基线 1.8 倍，是另一项实验指标。4B 模型用单张 H100，120B 级用单张 B300，不能作等硬件横向排名。\n\n## 我的判断\n\n架构优势需要状态生命周期设计兑现。迁移时先测 batch、状态尺寸、推测长度和显存流量，再决定缓冲长度。内核倍数与端到端倍数不同，低 batch 和其他混合比例仍需实测。"
+		},
+		{
+			"title": "Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs",
+			"source": "https://arxiv.org/abs/2610.12762v1",
+			"version": "2610.12762v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+			"source": "https://arxiv.org/abs/2610.11765v1",
+			"version": "2610.11765v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "CoTrace: Data Recipes for Training Terminal Agents with Harness-Model Co-Evolution",
+			"source": "https://arxiv.org/abs/2610.10426v1",
+			"version": "2610.10426v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "Chronos Policy: Learning Robot Policies on Physical Time",
+			"source": "https://arxiv.org/abs/2610.13929v1",
+			"version": "2610.13929v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
+		},
+		{
+			"title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+			"source": "https://arxiv.org/abs/2610.13395v1",
+			"version": "2610.13395v1",
+			"verification_scope": "Public primary v1 abstract: method and reported evaluation scope; no independent reproduction."
 		}
 	],
 	"figures": {
@@ -31,5 +61,6 @@
 			"sha256": "f3bbaed1c16910d7eb1480766cf5d7259188e43dfe16ffd4e66d6a6bded38b7f",
 			"source_pdf_sha256": "749c459895ed93a348cd0186c779592842e29808c7c616463a7ce8ef969cad35"
 		}
-	}
+	},
+	"included_roster_count": 6
 }
