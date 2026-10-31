@@ -40,10 +40,10 @@
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		},
 		{
-			"arxiv": "2606.09079v2",
+			"arxiv": "2606.09079v1",
 			"title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
-			"version_submitted": "2026-06-09",
-			"source": "https://arxiv.org/abs/2606.09079v2",
+			"version_submitted": "2026-06-08",
+			"source": "https://arxiv.org/abs/2606.09079v1",
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		},
 		{
@@ -61,7 +61,255 @@
 			"verification_scope": "Historical title, identifier and specific version submission checked; full experiments not reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260609669-figure2.png": {
+			"authors": [
+				"Gao, Hongcheng",
+				"Qu, Hailong",
+				"Tang, Jingyi",
+				"Wang, Jiahao",
+				"Huang, Zihao",
+				"Qiao, Hengkang",
+				"Huang, Shihong",
+				"Yang, Junming",
+				"Li, Yi",
+				"Yuan, Hongyixuan",
+				"Li, Wenjie",
+				"Zeng, Bohan",
+				"Li, Wenbo",
+				"Wang, Bo",
+				"Liu, Jianhui",
+				"Huang, Olive",
+				"Huang, Haoyang",
+				"Zhang, Wentao",
+				"Huang, Guoqing",
+				"Duan, Nan",
+				"Dong, Yinpeng"
+			],
+			"paper_title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+			"source": "https://arxiv.org/pdf/2606.09669v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 57.17771911621094, 510.24737548828125, 382.2749328613281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bbeba085dba4260dc0ae840623de0f9eafe0be5ee4aa74de81abd64e5fd45c6d",
+			"source_pdf_sha256": "4f7f7509c087d0f9ec6ffa71badb3a89ee62a8fc63d0a09b65f946feb1e4a8fe"
+		},
+		"paper-260609669-table3.png": {
+			"authors": [
+				"Gao, Hongcheng",
+				"Qu, Hailong",
+				"Tang, Jingyi",
+				"Wang, Jiahao",
+				"Huang, Zihao",
+				"Qiao, Hengkang",
+				"Huang, Shihong",
+				"Yang, Junming",
+				"Li, Yi",
+				"Yuan, Hongyixuan",
+				"Li, Wenjie",
+				"Zeng, Bohan",
+				"Li, Wenbo",
+				"Wang, Bo",
+				"Liu, Jianhui",
+				"Huang, Olive",
+				"Huang, Haoyang",
+				"Zhang, Wentao",
+				"Huang, Guoqing",
+				"Duan, Nan",
+				"Dong, Yinpeng"
+			],
+			"paper_title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+			"source": "https://arxiv.org/pdf/2606.09669v1#page=7",
+			"item": "Table 3",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 65, 510, 327],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a266410393bd63596ae644d58d94c726354e43a5765585337bacda0350526b84",
+			"source_pdf_sha256": "4f7f7509c087d0f9ec6ffa71badb3a89ee62a8fc63d0a09b65f946feb1e4a8fe"
+		},
+		"paper-260608702-figure2.png": {
+			"authors": [
+				"Tan, Zhixun",
+				"Chen, Qiang",
+				"Huang, Tairan",
+				"Su, Xiu",
+				"Chen, Yi"
+			],
+			"paper_title": "ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems",
+			"source": "https://arxiv.org/pdf/2606.08702v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [58.85472869873047, 28.0, 577.0, 293.88604736328125],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f63a2481763f216a084fc9b067e74717ea7a192a80974e3de1e39a7548f1c047",
+			"source_pdf_sha256": "e20eb8bac7c321d45a51f05b8890108521857433bc84774efe24f19cb7b803b1"
+		},
+		"paper-260608702-figure3.png": {
+			"authors": [
+				"Tan, Zhixun",
+				"Chen, Qiang",
+				"Huang, Tairan",
+				"Su, Xiu",
+				"Chen, Yi"
+			],
+			"paper_title": "ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems",
+			"source": "https://arxiv.org/pdf/2606.08702v1#page=8",
+			"item": "Figure 3",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 65, 506, 187],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0cc20013d73cee00581d48873916d700d98d3c3062091e098c95973844c0a6fb",
+			"source_pdf_sha256": "e20eb8bac7c321d45a51f05b8890108521857433bc84774efe24f19cb7b803b1"
+		},
+		"paper-260609079-figure2.png": {
+			"authors": [
+				"Wang, Yan",
+				"Zhang, Qifan",
+				"Yu, Jiachen",
+				"Liang, Tian",
+				"Ma, Dongyang",
+				"Hu, Xiang",
+				"Lin, Zibo",
+				"Li, Chunyang",
+				"Wang, Zhichao",
+				"Li, Jia",
+				"Yang, Yujiu",
+				"Mi, Haitao",
+				"Yu, Dong"
+			],
+			"paper_title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+			"source": "https://arxiv.org/pdf/2606.09079v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [
+				65.02609252929688, 56.502166748046875, 549.574462890625,
+				309.49395751953125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1e94861a44afa7a493143d5376506f836b56d7ef24f63de73b44345ac6c2220e",
+			"source_pdf_sha256": "3a0f57baff6bac133d64d028374338b95b1dfc4c38c4ad84777d1b3cc217f169"
+		},
+		"paper-260609079-table1.png": {
+			"authors": [
+				"Wang, Yan",
+				"Zhang, Qifan",
+				"Yu, Jiachen",
+				"Liang, Tian",
+				"Ma, Dongyang",
+				"Hu, Xiang",
+				"Lin, Zibo",
+				"Li, Chunyang",
+				"Wang, Zhichao",
+				"Li, Jia",
+				"Yang, Yujiu",
+				"Mi, Haitao",
+				"Yu, Dong"
+			],
+			"paper_title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+			"source": "https://arxiv.org/pdf/2606.09079v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [68, 277, 546, 449],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6675da35021a4a2728b3ec43d8b9540cf1ca962c8966598892c70d3e60f7deb3",
+			"source_pdf_sha256": "3a0f57baff6bac133d64d028374338b95b1dfc4c38c4ad84777d1b3cc217f169"
+		},
+		"paper-260609032-figure2.png": {
+			"authors": [
+				"Li, Yixia",
+				"Wang, Hongru",
+				"Lai, Peng",
+				"Ruan, Zhiwen",
+				"Zhu, He",
+				"Zhu, Youxin",
+				"Zhao, Ganlong",
+				"Hu, Minda",
+				"Chen, Yun",
+				"Yang, Sibei",
+				"Li, Peng",
+				"Pan, Jeff Z.",
+				"Pan, Jia",
+				"Chen, Guanhua",
+				"Liu, Yang",
+				"Li, Guanbin"
+			],
+			"paper_title": "Bridging the Agent-World Gap: Text World Models for LLM-based Agents",
+			"source": "https://arxiv.org/pdf/2606.09032v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 61.31620788574219, 545.2023315429688, 298.1598205566406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "39a015bf3d4447d826017de709813df3f4d822936e3d753334f07638f7f9a156",
+			"source_pdf_sha256": "d2d5fc6cbe2618e9b1784f5126d98ef984b35d7ba925f0267036ee9dbeedd331"
+		},
+		"paper-260609498-figure1.png": {
+			"authors": [
+				"Zhang, Hangfan",
+				"Zhang, Shao",
+				"Li, Kangcong",
+				"Zhang, Chen",
+				"Chen, Yang",
+				"Zhang, Yiqun",
+				"Bai, Lei",
+				"Hu, Shuyue"
+			],
+			"paper_title": "Self-Harness: Harnesses That Improve Themselves",
+			"source": "https://arxiv.org/pdf/2606.09498v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 66.99647521972656, 509.0015869140625, 245.98507690429688
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "35d8896efb477a0a3407172ca6a10215d283b7f020ead81d78591c8a14edf53b",
+			"source_pdf_sha256": "065712f5bc1caeed717ad94e68bc0a011420417e86ef9b919ddb5e44e41398ab"
+		},
+		"paper-260609498-figure4.png": {
+			"authors": [
+				"Zhang, Hangfan",
+				"Zhang, Shao",
+				"Li, Kangcong",
+				"Zhang, Chen",
+				"Chen, Yang",
+				"Zhang, Yiqun",
+				"Bai, Lei",
+				"Hu, Shuyue"
+			],
+			"paper_title": "Self-Harness: Harnesses That Improve Themselves",
+			"source": "https://arxiv.org/pdf/2606.09498v1#page=9",
+			"item": "Figure 4",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 67.00015258789062, 509.3429870605469, 308.0550842285156
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3dfea7949260797e64617c1a9fe038a86996aadd8ed9ce5e75368bfdc1b3ab9e",
+			"source_pdf_sha256": "065712f5bc1caeed717ad94e68bc0a011420417e86ef9b919ddb5e44e41398ab"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.09134v1",
@@ -69,5 +317,6 @@
 			"source": "https://arxiv.org/pdf/2606.09134v1#page=1",
 			"reason": "Only arXiv non-exclusive distribution license established."
 		}
-	]
+	],
+	"published_paper_count": 8
 }

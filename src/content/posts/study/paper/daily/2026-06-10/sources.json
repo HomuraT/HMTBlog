@@ -55,6 +55,171 @@
 			"image_size": [1105, 402],
 			"sha256": "230fe3be3faa8fa22cbaf61d1aefa0518965534643ac34f4fed6d6c1a763cb49",
 			"source_pdf_sha256": "2733c00de960f979667f3867979d3b30dc2c10216f07fe534b2b8a292c5755ef"
+		},
+		"paper-260609079-figure2.png": {
+			"authors": [
+				"Wang, Yan",
+				"Zhang, Qifan",
+				"Yu, Jiachen",
+				"Liang, Tian",
+				"Ma, Dongyang",
+				"Hu, Xiang",
+				"Lin, Zibo",
+				"Li, Chunyang",
+				"Wang, Zhichao",
+				"Peng, Miao",
+				"Chen, Nuo",
+				"Li, Jia",
+				"Yang, Yujiu",
+				"Mi, Haitao",
+				"Yu, Dong"
+			],
+			"paper_title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+			"source": "https://arxiv.org/pdf/2606.09079v2#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [
+				65.02609252929688, 56.502166748046875, 549.574462890625,
+				309.49395751953125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1e94861a44afa7a493143d5376506f836b56d7ef24f63de73b44345ac6c2220e",
+			"source_pdf_sha256": "c2175bd788b7b76ada95875035474ac16554b42a29f152c2332ee87dca89e7de"
+		},
+		"paper-260609079-table1.png": {
+			"authors": [
+				"Wang, Yan",
+				"Zhang, Qifan",
+				"Yu, Jiachen",
+				"Liang, Tian",
+				"Ma, Dongyang",
+				"Hu, Xiang",
+				"Lin, Zibo",
+				"Li, Chunyang",
+				"Wang, Zhichao",
+				"Peng, Miao",
+				"Chen, Nuo",
+				"Li, Jia",
+				"Yang, Yujiu",
+				"Mi, Haitao",
+				"Yu, Dong"
+			],
+			"paper_title": "FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention",
+			"source": "https://arxiv.org/pdf/2606.09079v2#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [68, 277, 546, 449],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6221e946ef3336add8f03f6562d5f9ab0974d24f9be912eef9d8ae33ceee9d19",
+			"source_pdf_sha256": "c2175bd788b7b76ada95875035474ac16554b42a29f152c2332ee87dca89e7de"
+		},
+		"paper-260609498-figure1.png": {
+			"authors": [
+				"Zhang, Hangfan",
+				"Zhang, Shao",
+				"Li, Kangcong",
+				"Zhang, Chen",
+				"Chen, Yang",
+				"Zhang, Yiqun",
+				"Bai, Lei",
+				"Hu, Shuyue"
+			],
+			"paper_title": "Self-Harness: Harnesses That Improve Themselves",
+			"source": "https://arxiv.org/pdf/2606.09498v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 66.99647521972656, 509.0015869140625, 245.98507690429688
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "35d8896efb477a0a3407172ca6a10215d283b7f020ead81d78591c8a14edf53b",
+			"source_pdf_sha256": "065712f5bc1caeed717ad94e68bc0a011420417e86ef9b919ddb5e44e41398ab"
+		},
+		"paper-260609498-figure4.png": {
+			"authors": [
+				"Zhang, Hangfan",
+				"Zhang, Shao",
+				"Li, Kangcong",
+				"Zhang, Chen",
+				"Chen, Yang",
+				"Zhang, Yiqun",
+				"Bai, Lei",
+				"Hu, Shuyue"
+			],
+			"paper_title": "Self-Harness: Harnesses That Improve Themselves",
+			"source": "https://arxiv.org/pdf/2606.09498v1#page=9",
+			"item": "Figure 4",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 67.00015258789062, 509.3429870605469, 308.0550842285156
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3dfea7949260797e64617c1a9fe038a86996aadd8ed9ce5e75368bfdc1b3ab9e",
+			"source_pdf_sha256": "065712f5bc1caeed717ad94e68bc0a011420417e86ef9b919ddb5e44e41398ab"
+		},
+		"paper-260611119-figure3.png": {
+			"authors": [
+				"Zou, Heming",
+				"Wang, Qi",
+				"Qu, Yun",
+				"Jiang, Yuhang",
+				"Cai, Lizhou",
+				"Mao, Yixiu",
+				"Peng, Ru",
+				"Xu, Xin",
+				"Liu, Weijie",
+				"Yang, Kai",
+				"Yang, Saiyong",
+				"Ji, Xiangyang"
+			],
+			"paper_title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2606.11119v1#page=6",
+			"item": "Figure 3",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.56700134277344, 65.86720275878906, 529.7959594726562,
+				382.80792236328125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "63f35efb141a21d2c814eef417676fa34142739985cd580d6a70e3b21b583de3",
+			"source_pdf_sha256": "114e7402ca8948bcd3179a309b81eefe1a6f17d10fccfaa0c73f2f761a4c6d4e"
+		},
+		"paper-260611119-table1.png": {
+			"authors": [
+				"Zou, Heming",
+				"Wang, Qi",
+				"Qu, Yun",
+				"Jiang, Yuhang",
+				"Cai, Lizhou",
+				"Mao, Yixiu",
+				"Peng, Ru",
+				"Xu, Xin",
+				"Liu, Weijie",
+				"Yang, Kai",
+				"Yang, Saiyong",
+				"Ji, Xiangyang"
+			],
+			"paper_title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+			"source": "https://arxiv.org/pdf/2606.11119v1#page=10",
+			"item": "Table 1",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 68, 528, 164],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f0fd014555e42fc5f77aba44bc51979441f2b68d03572195c41dfe6840388f79",
+			"source_pdf_sha256": "114e7402ca8948bcd3179a309b81eefe1a6f17d10fccfaa0c73f2f761a4c6d4e"
 		}
-	}
+	},
+	"published_paper_count": 5
 }
