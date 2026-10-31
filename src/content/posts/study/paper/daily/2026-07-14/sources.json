@@ -55,9 +55,30 @@
 			"image_size": [1180, 903],
 			"sha256": "a69174818787108ba667e46c38c02493fe6bcc629d36d70a145e3cd69576b6ea",
 			"source_pdf_sha256": "947fc082439f4116e5b1371acbfc4315247560f6c1e09c11a072eee681a8dbb1"
+		},
+		"paper-260708700-table2.png": {
+			"authors": [
+				"Leung, Ethan",
+				"Lumer, Elias",
+				"Feld, Corey",
+				"Huber, Austin",
+				"Subbiah, Vamse Kumar",
+				"Paul, Kevin"
+			],
+			"paper_title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution",
+			"source": "https://arxiv.org/pdf/2607.08700v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [69, 72, 544, 325],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bce3b15dd54650cc17c6cf58610ca600ed9c957434ac57052764afb4d356b800",
+			"source_pdf_sha256": "947fc082439f4116e5b1371acbfc4315247560f6c1e09c11a072eee681a8dbb1"
 		}
 	},
 	"verification_notes": [
 		"Six initial council models and eight evaluated judges are distinct sets."
-	]
+	],
+	"published_paper_count": 5
 }

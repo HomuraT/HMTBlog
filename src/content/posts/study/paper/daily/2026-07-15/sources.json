@@ -47,7 +47,95 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260711562-figure3.png": {
+			"authors": [
+				"Liu, Yuliang",
+				"Li, Zhang",
+				"Zhang, Ziyang",
+				"Zhang, Shuo",
+				"Liu, Qiang",
+				"Song, Jiajun",
+				"Guo, Zidun",
+				"Wang, Xinhan",
+				"Zheng, Handong",
+				"Liu, Yang",
+				"Luo, Dongliang",
+				"Ma, Zhiyin",
+				"Zhang, Jiarui",
+				"Bai, Xiang"
+			],
+			"paper_title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+			"source": "https://arxiv.org/pdf/2607.11562v1#page=6",
+			"item": "Figure 3",
+			"pdf_page": 6,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [104, 70, 508, 345],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "17a5dc0632f45a5ce55b1f2c91869826e84ff52b4e8414038808f2112aba8b51",
+			"source_pdf_sha256": "d41aed0d883485e45520f59a72009aee15c48bf03129be7eb699de51ee31fbb5"
+		},
+		"paper-260711562-figure2.png": {
+			"authors": [
+				"Liu, Yuliang",
+				"Li, Zhang",
+				"Zhang, Ziyang",
+				"Zhang, Shuo",
+				"Liu, Qiang",
+				"Song, Jiajun",
+				"Guo, Zidun",
+				"Wang, Xinhan",
+				"Zheng, Handong",
+				"Liu, Yang",
+				"Luo, Dongliang",
+				"Ma, Zhiyin",
+				"Zhang, Jiarui",
+				"Bai, Xiang"
+			],
+			"paper_title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+			"source": "https://arxiv.org/pdf/2607.11562v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [
+				102.25299835205078, 66.45246887207031, 510.7387390136719,
+				375.18707275390625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bedc436ce27dfdb77b2a25c48b331c822705fd08e44f836e53e021951c3a6f0e",
+			"source_pdf_sha256": "d41aed0d883485e45520f59a72009aee15c48bf03129be7eb699de51ee31fbb5"
+		},
+		"paper-260711562-table6.png": {
+			"authors": [
+				"Liu, Yuliang",
+				"Li, Zhang",
+				"Zhang, Ziyang",
+				"Zhang, Shuo",
+				"Liu, Qiang",
+				"Song, Jiajun",
+				"Guo, Zidun",
+				"Wang, Xinhan",
+				"Zheng, Handong",
+				"Liu, Yang",
+				"Luo, Dongliang",
+				"Ma, Zhiyin",
+				"Zhang, Jiarui",
+				"Bai, Xiang"
+			],
+			"paper_title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+			"source": "https://arxiv.org/pdf/2607.11562v1#page=13",
+			"item": "Table 6",
+			"pdf_page": 13,
+			"license": "CC0 1.0",
+			"license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+			"crop_pdf_points": [104, 68, 508, 416],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0ced40cb30e9b13a4fdb3e89aef405de76d09df2a71476a44d7be34484043898",
+			"source_pdf_sha256": "d41aed0d883485e45520f59a72009aee15c48bf03129be7eb699de51ee31fbb5"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.11464v1",
@@ -59,5 +147,6 @@
 	],
 	"verification_notes": [
 		"RNA-sequencing, not single-cell; first80 rows,42 questions; FAIR and baseline graphs differ in information richness; missing licensing criterion R1.1 retained."
-	]
+	],
+	"published_paper_count": 6
 }
