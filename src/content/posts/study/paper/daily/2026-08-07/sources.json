@@ -50,10 +50,92 @@
 			"image_size": [1256, 543],
 			"sha256": "142d1dc46da5f57d770ef4293aaf895980e2d280a0ba8029e05e64057d744bc1",
 			"source_pdf_sha256": "f0be39ca1b9d658c2acb7eaf6b0193cbbe6b05f046888f6d4cb5a6bd0d90ac8f"
+		},
+		"paper-260805102-figure2.png": {
+			"authors": [
+				"Lu, Yijun",
+				"Ye, Rui",
+				"Wang, Jiajun",
+				"Du, Yuwen",
+				"Jin, Tian",
+				"Liu, Songhua",
+				"Chen, Siheng"
+			],
+			"paper_title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+			"source": "https://arxiv.org/pdf/2608.05102v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				74.37000274658203, 66.99765014648438, 539.5097045898438,
+				341.2596740722656
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0cbce6b91e3cf3dce4f7ddaacf14faa87b4405c7e5a02eca40d9bee6c78da085",
+			"source_pdf_sha256": "bedc60c1b0975968f22f8b1c2e64bc57012c46971188225aad3c073edb9d613d"
+		},
+		"paper-260805102-table2.png": {
+			"authors": [
+				"Lu, Yijun",
+				"Ye, Rui",
+				"Wang, Jiajun",
+				"Du, Yuwen",
+				"Jin, Tian",
+				"Liu, Songhua",
+				"Chen, Siheng"
+			],
+			"paper_title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+			"source": "https://arxiv.org/pdf/2608.05102v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [78, 78, 534, 367],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "52ffddc2352826bc6fc4b2acfc71f93ddc8cdc16f8c986e3233fb5bc111f1944",
+			"source_pdf_sha256": "bedc60c1b0975968f22f8b1c2e64bc57012c46971188225aad3c073edb9d613d"
+		},
+		"paper-260802980-figure2.png": {
+			"authors": [
+				"Lin, Lucy",
+				"Jain, Ayush",
+				"Liu, Yifan",
+				"Fragkiadaki, Katerina"
+			],
+			"paper_title": "Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding",
+			"source": "https://arxiv.org/pdf/2608.02980v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [53.5, 28.0, 558.4991455078125, 306.29827880859375],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d2f387dd1dc8a450f7cce0afdd3e87bfbf779136c86ec948ea3ca72fda192896",
+			"source_pdf_sha256": "554d32320375de535f897eaeec7ea0bbcf0b6cbaa1cb47a325b5a1a22baa07cd"
+		},
+		"paper-260802980-table1.png": {
+			"authors": [
+				"Lin, Lucy",
+				"Jain, Ayush",
+				"Liu, Yifan",
+				"Fragkiadaki, Katerina"
+			],
+			"paper_title": "Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding",
+			"source": "https://arxiv.org/pdf/2608.02980v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [55, 64, 565, 470],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6f3ffc15f269446d5f2843132ea128aa807e317c5eb353de3420991e22e077a1",
+			"source_pdf_sha256": "554d32320375de535f897eaeec7ea0bbcf0b6cbaa1cb47a325b5a1a22baa07cd"
 		}
 	},
 	"verification_notes": [
 		"JoyAI: request-response 226 ms differs from complete 266 ms cycle on B200.",
 		"Argus reviewer results are observational, not randomized attribution."
-	]
+	],
+	"published_paper_count": 6
 }

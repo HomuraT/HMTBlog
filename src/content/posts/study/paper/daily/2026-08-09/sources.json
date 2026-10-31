@@ -45,10 +45,89 @@
 			"image_size": [1243, 380],
 			"sha256": "dee55dec73abb571b42b90bc26d35aeec9e52447ed2fec27571b1da10af28fb1",
 			"source_pdf_sha256": "7e8e92f025ede0b279990a9de59827669ef143ca7bd8e1ced56faea7def28152"
+		},
+		"paper-260804689-figure1.png": {
+			"authors": ["Pasqual, Valentina", "Nazari, Ahmadreza", "Peroni, Silvio"],
+			"paper_title": "Supporting the understanding of ontologies for scientific knowledge graphs with the new version of LODE",
+			"source": "https://arxiv.org/pdf/2608.04689v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [67, 80, 524, 344],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4b535f5e0ce02b3706b09f84a107dbcb729428c59469bc4f8d2055d7ecb2a316",
+			"source_pdf_sha256": "0ee4c8f29d03021943f24e2d578f43ff107657c1fd9e5b425c7d69388de2f95b"
+		},
+		"paper-260804689-figure2.png": {
+			"authors": ["Pasqual, Valentina", "Nazari, Ahmadreza", "Peroni, Silvio"],
+			"paper_title": "Supporting the understanding of ontologies for scientific knowledge graphs with the new version of LODE",
+			"source": "https://arxiv.org/pdf/2608.04689v1#page=6",
+			"item": "Figure 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 60.604217529296875, 528.2763061523438, 396.66143798828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "2e53b9bb18d56dfc1250bffaf53a4a15055fc7c510b4bafa826cf13bfc8d79ec",
+			"source_pdf_sha256": "0ee4c8f29d03021943f24e2d578f43ff107657c1fd9e5b425c7d69388de2f95b"
+		},
+		"paper-260806332-figure2.png": {
+			"authors": [
+				"Gu, Chenghao",
+				"Yu, Hanyang",
+				"Zhang, Jingbo",
+				"Lin, Haitao",
+				"Zhang, Wenyao",
+				"Wang, Jinghe",
+				"Jin, Hanglei",
+				"Xie, Shuzhao",
+				"Jiang, Jingyan",
+				"Wang, Zhi"
+			],
+			"paper_title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+			"source": "https://arxiv.org/pdf/2608.06332v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				49.0, 45.206443786621094, 563.50830078125, 266.20367431640625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ba686af92aa4506418452a44969a64f7e43498a896236137f2200c7fc382ce3c",
+			"source_pdf_sha256": "b051bcf6e76db1263c675405351daaa4190ef921c09b6333ebea5e6e76a652ba"
+		},
+		"paper-260806332-tablei.png": {
+			"authors": [
+				"Gu, Chenghao",
+				"Yu, Hanyang",
+				"Zhang, Jingbo",
+				"Lin, Haitao",
+				"Zhang, Wenyao",
+				"Wang, Jinghe",
+				"Jin, Hanglei",
+				"Xie, Shuzhao",
+				"Jiang, Jingyan",
+				"Wang, Zhi"
+			],
+			"paper_title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+			"source": "https://arxiv.org/pdf/2608.06332v1#page=4",
+			"item": "Table I",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 44, 544, 213],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b3e3b790fe316843094d06414291ae733858b89e7856a5b66e564e394508450b",
+			"source_pdf_sha256": "b051bcf6e76db1263c675405351daaa4190ef921c09b6333ebea5e6e76a652ba"
 		}
 	},
 	"verification_notes": [
 		"HarnessOpt v1 Section 3.1 states 100 calls/partition, Section 5.3 states 200. Discrepancy preserved, not resolved by assumption.",
 		"Optimizer inference metered but uncapped; four full case passes per dev/validation partition."
-	]
+	],
+	"published_paper_count": 5
 }
