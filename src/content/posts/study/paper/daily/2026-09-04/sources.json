@@ -70,12 +70,200 @@
 			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260902886-figure2.png": {
+			"authors": [
+				"Huang, Junchao",
+				"Fang, Guian",
+				"Qian, Shengju",
+				"Kong, Xianghao",
+				"Zhao, Zhuoran",
+				"Huang, Wei",
+				"Du, Yihua",
+				"Zhang, Zixin",
+				"Cui, Justin",
+				"Gu, Yuchao",
+				"Chen, Yukang",
+				"Hu, Xinting",
+				"He, Tianyu",
+				"Shi, Shaoshuai",
+				"Tian, Zhuotao",
+				"Wang, Xin",
+				"Shou, Mike Zheng",
+				"Jiang, Li"
+			],
+			"paper_title": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+			"source": "https://arxiv.org/pdf/2609.02886v1#page=6",
+			"item": "Figure 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 80.93438720703125, 536.9334716796875, 359.6787109375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "b2e98c847f999d93c2ed601e62b91732567f459bb59a2ced048b28ca88f018f5",
+			"source_pdf_sha256": "b11f376c90bdd340cfe8f64953858ffa142ddee989d8b5bfc237400650418115"
+		},
+		"paper-260901481-figure3.png": {
+			"authors": [
+				"Yan, Haoyang",
+				"Su, Min-le",
+				"Zhang, Hangfan",
+				"Li, Zhanhao",
+				"Zhang, Chen",
+				"Zhang, Shao",
+				"Chen, Yang",
+				"Bai, Lei",
+				"Hu, Shuyue"
+			],
+			"paper_title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+			"source": "https://arxiv.org/pdf/2609.01481v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.46800231933594, 73.1572265625, 546.1327514648438, 364.7940673828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a0705c7bd6b033160fcc1bfbb2d38bf09c7e495235e2460c4a825024136c66e9",
+			"source_pdf_sha256": "df751fdde08a18788eba2653a65c51dabdefdc89dcb28f6f612721e4bf57243b"
+		},
+		"paper-260901481-table1.png": {
+			"authors": [
+				"Yan, Haoyang",
+				"Su, Min-le",
+				"Zhang, Hangfan",
+				"Li, Zhanhao",
+				"Zhang, Chen",
+				"Zhang, Shao",
+				"Chen, Yang",
+				"Bai, Lei",
+				"Hu, Shuyue"
+			],
+			"paper_title": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+			"source": "https://arxiv.org/pdf/2609.01481v1#page=11",
+			"item": "Table 1",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 63, 546, 395],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a81ffdd737e1be30a66261cc48986b738a21c1ac45e25f80b2ea8d2cb34c560d",
+			"source_pdf_sha256": "df751fdde08a18788eba2653a65c51dabdefdc89dcb28f6f612721e4bf57243b"
+		},
+		"paper-260902459-figure1.png": {
+			"authors": [
+				"Andrews, Austin Tudor David",
+				"Wilkinson, Liam",
+				"Heagerty, Jamie",
+				"Coppock, Harry",
+				"Foerster, Jakob Nicolaus",
+				"Costa, Rui Ponte"
+			],
+			"paper_title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+			"source": "https://arxiv.org/pdf/2609.02459v1#page=3",
+			"item": "Figure 1",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.6709976196289, 66.99961853027344, 510.74530029296875,
+				292.2040710449219
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c8821341f64e4a280e832787770accde6b865160cccb2ef8411015025e5733f3",
+			"source_pdf_sha256": "d7dc406f35af9ccbbdb46cc54743057298c7d9d0fb5f76b45eaa6ff3223c34c6"
+		},
+		"paper-260902459-figure4.png": {
+			"authors": [
+				"Andrews, Austin Tudor David",
+				"Wilkinson, Liam",
+				"Heagerty, Jamie",
+				"Coppock, Harry",
+				"Foerster, Jakob Nicolaus",
+				"Costa, Rui Ponte"
+			],
+			"paper_title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+			"source": "https://arxiv.org/pdf/2609.02459v1#page=8",
+			"item": "Figure 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.6709976196289, 67.00018310546875, 509.3594970703125,
+				425.8600769042969
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "45c618c44566edd52df7202cd879fe365a847387e45570ce5e3192eeae32b39e",
+			"source_pdf_sha256": "d7dc406f35af9ccbbdb46cc54743057298c7d9d0fb5f76b45eaa6ff3223c34c6"
+		},
+		"paper-260901532-figure6.png": {
+			"authors": [
+				"He, Jacqueline",
+				"Yen, Howard",
+				"Li, Shuyue Stella",
+				"Li, Margaret",
+				"Zeng, Hanqing",
+				"Xia, Yinglong",
+				"Zhang, Benyu",
+				"Zhao, Zhuokai",
+				"Zhang, Qiang",
+				"Koh, Pang Wei",
+				"Zettlemoyer, Luke",
+				"Yih, Wen-tau"
+			],
+			"paper_title": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
+			"source": "https://arxiv.org/pdf/2609.01532v1#page=7",
+			"item": "Figure 6",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 246.01199340820312, 547.4422607421875,
+				510.407958984375
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "181631456f34344042b6e666bbf00822b45029199adff8a978e2856f310f4f8c",
+			"source_pdf_sha256": "9759de11d52d291809fad217d49e3b7be9790137d73b4bc4640337d44d098db1"
+		},
+		"paper-260901532-table2.png": {
+			"authors": [
+				"He, Jacqueline",
+				"Yen, Howard",
+				"Li, Shuyue Stella",
+				"Li, Margaret",
+				"Zeng, Hanqing",
+				"Xia, Yinglong",
+				"Zhang, Benyu",
+				"Zhao, Zhuokai",
+				"Zhang, Qiang",
+				"Koh, Pang Wei",
+				"Zettlemoyer, Luke",
+				"Yih, Wen-tau"
+			],
+			"paper_title": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
+			"source": "https://arxiv.org/pdf/2609.01532v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.62200164794922, 255.3328857421875, 546.1609497070312,
+				420.90838623046875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "888b4a2aa3f6449d13c96432c584d77787328860bc485aa881c35856c76d199f",
+			"source_pdf_sha256": "9759de11d52d291809fad217d49e3b7be9790137d73b4bc4640337d44d098db1"
+		}
+	},
 	"figure_omissions": [
 		{
 			"source": "https://arxiv.org/pdf/2609.02364v1#page=2",
 			"item": "Figure 1",
 			"reason": "Figure-specific third-party copyright notice: Esteban Guerrero; adaptation rights not independently confirmed."
 		}
-	]
+	],
+	"published_paper_count": 7
 }

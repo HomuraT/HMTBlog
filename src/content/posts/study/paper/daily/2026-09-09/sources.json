@@ -70,12 +70,150 @@
 			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260903430-figure1.png": {
+			"authors": [
+				"Wang, Heng",
+				"Qiu, Jielin",
+				"Zhao, Wenting",
+				"Qian, Cheng",
+				"Yang, Liangwei",
+				"Han, Jiawei",
+				"Ji, Heng",
+				"Savarese, Silvio",
+				"Heinecke, Shelby",
+				"Wang, Huan"
+			],
+			"paper_title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+			"source": "https://arxiv.org/pdf/2609.03430v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 387, 544, 604],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "47f52ef28f0ea239259f478b83c7fb243abd50769cdc8988b36838f14bbfd562",
+			"source_pdf_sha256": "7126afd49f82a499e70bb201d32d3c11c8f75012323213c444982736926be14b"
+		},
+		"paper-260903430-table4.png": {
+			"authors": [
+				"Wang, Heng",
+				"Qiu, Jielin",
+				"Zhao, Wenting",
+				"Qian, Cheng",
+				"Yang, Liangwei",
+				"Han, Jiawei",
+				"Ji, Heng",
+				"Savarese, Silvio",
+				"Heinecke, Shelby",
+				"Wang, Huan"
+			],
+			"paper_title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+			"source": "https://arxiv.org/pdf/2609.03430v1#page=8",
+			"item": "Table 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 216.890869140625, 545.0013427734375, 328.51300048828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a7b2529d5329810219682996ad9e872e7b3eb2821c5b0218f2cbf035329f9022",
+			"source_pdf_sha256": "7126afd49f82a499e70bb201d32d3c11c8f75012323213c444982736926be14b"
+		},
+		"paper-260904010-figure1.png": {
+			"authors": [
+				"Sahoo, Subham Sekhar",
+				"Chen, Lingjie",
+				"Pham, Khiem",
+				"Geuter, Jonathan",
+				"Dwivedi, Chaitanya",
+				"Pimpalkhute, Varad",
+				"Akhauri, Yash",
+				"Moreno, Alexander",
+				"Yurochkin, Mikhail",
+				"Wang, Zhenting",
+				"Elhoushi, Mostafa",
+				"Dey, Nolan",
+				"Bergsma, Shane",
+				"Hestness, Joel",
+				"Thickstun, John",
+				"Xing, Eric",
+				"Liu, Zhengzhong"
+			],
+			"paper_title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+			"source": "https://arxiv.org/pdf/2609.04010v1#page=1",
+			"item": "Figure 1",
+			"pdf_page": 1,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 480, 508, 724],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0517203dd0d28e3f15e33c0292ee0e8c462e1c553f05be3379c4a1e48007ea2e",
+			"source_pdf_sha256": "849e47f21dffe66265e5416a50bb70fb49c3340feec970d389130c98a6c5ce67"
+		},
+		"paper-260905416-figure2.png": {
+			"authors": [
+				"Niu, Muyao",
+				"He, Jixuan",
+				"Yu, Ruihan",
+				"Fu, Lian",
+				"Yu, Yonghao",
+				"Huang, Zheng-Hui",
+				"Zhan, Yifan",
+				"Lan, Fengbo",
+				"Ge, Yongtao",
+				"Zheng, Yinqiang",
+				"Zhang, Kaipeng",
+				"Wang, Zhixiang"
+			],
+			"paper_title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+			"source": "https://arxiv.org/pdf/2609.05416v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.59700012207031, 58.77691650390625, 547.2559204101562,
+				347.18414306640625
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e48f0b6a7ec79f327db7979990bfdc36f8b0234b8f7f77bcf2311e0745348b7b",
+			"source_pdf_sha256": "1e3a6a67cbcb02fd9aca0abd2f072dba06eb8e12d096247f429fa063307915f7"
+		},
+		"paper-260905416-table4.png": {
+			"authors": [
+				"Niu, Muyao",
+				"He, Jixuan",
+				"Yu, Ruihan",
+				"Fu, Lian",
+				"Yu, Yonghao",
+				"Huang, Zheng-Hui",
+				"Zhan, Yifan",
+				"Lan, Fengbo",
+				"Ge, Yongtao",
+				"Zheng, Yinqiang",
+				"Zhang, Kaipeng",
+				"Wang, Zhixiang"
+			],
+			"paper_title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+			"source": "https://arxiv.org/pdf/2609.05416v1#page=10",
+			"item": "Table 4",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [322, 235, 546, 338],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "5e55649021e5b3841188562bfe230f9e15efcab925209cd3adbf68cc0b3bcc01",
+			"source_pdf_sha256": "1e3a6a67cbcb02fd9aca0abd2f072dba06eb8e12d096247f429fa063307915f7"
+		}
+	},
 	"figure_omissions": [
 		{
 			"source": "https://arxiv.org/pdf/2609.04494v1#page=10",
 			"item": "Table 1",
 			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
 		}
-	]
+	],
+	"published_paper_count": 7
 }
