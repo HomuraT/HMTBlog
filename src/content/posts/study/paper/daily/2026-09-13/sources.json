@@ -70,12 +70,126 @@
 			"verification_scope": "Title, historical v1 date and public source only; experiments not independently checked."
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260911801-figure2.png": {
+			"authors": [
+				"Suleymanzade, Ayhan",
+				"Lee, Chanhyuk",
+				"Eijkelboom, Floor",
+				"Boffi, Nicholas M.",
+				"Ceylan, İsmail İlkan",
+				"Kim, Jinwoo"
+			],
+			"paper_title": "Thinking with Looped Flows",
+			"source": "https://arxiv.org/pdf/2609.11801v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				60.196998596191406, 91.22212219238281, 551.8515014648438,
+				317.26220703125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "a825619cd4e9a10dbd5de9d534ed9e03f8045185507f8be07a1ee3659d281942",
+			"source_pdf_sha256": "81e99bd4babe46e6145d4b791bb791812d6bb7de684e5951de0acc01f5e8c38a"
+		},
+		"paper-260911801-table1.png": {
+			"authors": [
+				"Suleymanzade, Ayhan",
+				"Lee, Chanhyuk",
+				"Eijkelboom, Floor",
+				"Boffi, Nicholas M.",
+				"Ceylan, İsmail İlkan",
+				"Kim, Jinwoo"
+			],
+			"paper_title": "Thinking with Looped Flows",
+			"source": "https://arxiv.org/pdf/2609.11801v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [62, 61, 551, 266],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ee1af6cdf5e7c655f9d60f5e75c3eccd75b653029b7a62871610445ef5e4e9c1",
+			"source_pdf_sha256": "81e99bd4babe46e6145d4b791bb791812d6bb7de684e5951de0acc01f5e8c38a"
+		},
+		"paper-260910745-figure4.png": {
+			"authors": ["Pengpun, Parinthapat", "Khanuja, Simran", "Neubig, Graham"],
+			"paper_title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+			"source": "https://arxiv.org/pdf/2609.10745v1#page=5",
+			"item": "Figure 4",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				301.1419982910156, 66.06588745117188, 530.8987426757812,
+				244.02565002441406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4c6a37d2a29eb17b3f90ef4d408c59f153d74d51df5b77c0b649d1a87f2d5684",
+			"source_pdf_sha256": "296a02e7121b45629345f37481b5d6eeccd9e02489d661fcd2f60620b51b76b8"
+		},
+		"paper-260910745-table2.png": {
+			"authors": ["Pengpun, Parinthapat", "Khanuja, Simran", "Neubig, Graham"],
+			"paper_title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+			"source": "https://arxiv.org/pdf/2609.10745v1#page=6",
+			"item": "Table 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 69, 529, 424],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ce8cf74bf60155f76fa52b235593daebc641861c5369b786b5a645eccd705ec1",
+			"source_pdf_sha256": "296a02e7121b45629345f37481b5d6eeccd9e02489d661fcd2f60620b51b76b8"
+		},
+		"paper-260911716-figure2.png": {
+			"authors": [
+				"Chen, Yuxiang",
+				"Beyer, Michael",
+				"Zhu, Jun",
+				"Chen, Jianfei"
+			],
+			"paper_title": "Why Does Post-Training Quantization Work?",
+			"source": "https://arxiv.org/pdf/2609.11716v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.8608627319336, 509.00341796875, 239.58602905273438
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8a0679c21a9625e910a322c1a5450c44df29d3da24a1043d8900437b888e1989",
+			"source_pdf_sha256": "b3eb656b5d8b445fca0cf52d1bb4f3387cfb0cee4cc0d7bdcbf91c3169e3434b"
+		},
+		"paper-260911716-figure3.png": {
+			"authors": [
+				"Chen, Yuxiang",
+				"Beyer, Michael",
+				"Zhu, Jun",
+				"Chen, Jianfei"
+			],
+			"paper_title": "Why Does Post-Training Quantization Work?",
+			"source": "https://arxiv.org/pdf/2609.11716v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 73.4342269897461, 509.0034484863281, 248.47006225585938
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "fd1cf94f11c485b7c6f067921b21f4f08d020c409a059bfb8eef036ff053aea4",
+			"source_pdf_sha256": "b3eb656b5d8b445fca0cf52d1bb4f3387cfb0cee4cc0d7bdcbf91c3169e3434b"
+		}
+	},
 	"figure_omissions": [
 		{
 			"source": "https://arxiv.org/pdf/2609.11390v1#page=3",
 			"item": "Figure 1",
 			"reason": "arXiv non-exclusive distribution license; no verified open screenshot republication permission"
 		}
-	]
+	],
+	"published_paper_count": 7
 }

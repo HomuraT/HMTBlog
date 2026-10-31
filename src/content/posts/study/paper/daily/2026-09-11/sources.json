@@ -86,6 +86,148 @@
 			"version": "2609.11493v1",
 			"license_evidence": "https://arxiv.org/abs/2609.11493v1",
 			"change": "Original publicly available PDF screenshot, rectangular crop only, no redrawing or data modification; complete figure/table and caption visually checked."
+		},
+		"paper-260910464-figure1.png": {
+			"authors": [
+				"Liu, Andy Zeyi",
+				"Sun, Haoran",
+				"Baker, Lucas",
+				"Balestriero, Randall",
+				"Sous, John"
+			],
+			"paper_title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+			"source": "https://arxiv.org/pdf/2609.10464v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 74.30204772949219, 545.12158203125, 314.2983093261719
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f605822d2e6587ebacbee3f16d0a023191c92bc18c9ba2b9ad00bd2568ac9b4d",
+			"source_pdf_sha256": "e16ce9c1eb8edc5890ddc2a3baa50043861c5bc80bc9943b7af0c697e438a1ef"
+		},
+		"paper-260910464-figure4.png": {
+			"authors": [
+				"Liu, Andy Zeyi",
+				"Sun, Haoran",
+				"Baker, Lucas",
+				"Balestriero, Randall",
+				"Sous, John"
+			],
+			"paper_title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+			"source": "https://arxiv.org/pdf/2609.10464v1#page=7",
+			"item": "Figure 4",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 66.99708557128906, 545.0021362304688, 421.9023132324219
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4245587e3f934b12d03ff8beb783c81043f3ffdba566f01b9a88552ad918f1cb",
+			"source_pdf_sha256": "e16ce9c1eb8edc5890ddc2a3baa50043861c5bc80bc9943b7af0c697e438a1ef"
+		},
+		"paper-260910540-figure3.png": {
+			"authors": [
+				"Huang, Zheng-Hui",
+				"Lin, Guixu",
+				"Lin, Jiacheng",
+				"Huang, Yi-Chuan",
+				"Yu, Ruihan",
+				"Niu, Muyao",
+				"Yang, Siqi",
+				"Liu, Yu-Lun",
+				"Chuang, Yung-Yu",
+				"Zhang, Kaipeng",
+				"Wang, Zhixiang"
+			],
+			"paper_title": "Programmable World Model",
+			"source": "https://arxiv.org/pdf/2609.10540v1#page=6",
+			"item": "Figure 3",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 84.18461608886719, 547.6200561523438,
+				360.4121398925781
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "f3aea32b93d00e915b79d387e4ec67f4f9a2d986f86f9b2005ba3731a576f456",
+			"source_pdf_sha256": "d9d8313f851ed82dc1bc248b739cce4c07cbbb08cbd1b2c8743ca33c0bcb9c77"
+		},
+		"paper-260910540-table1.png": {
+			"authors": [
+				"Huang, Zheng-Hui",
+				"Lin, Guixu",
+				"Lin, Jiacheng",
+				"Huang, Yi-Chuan",
+				"Yu, Ruihan",
+				"Niu, Muyao",
+				"Yang, Siqi",
+				"Liu, Yu-Lun",
+				"Chuang, Yung-Yu",
+				"Zhang, Kaipeng",
+				"Wang, Zhixiang"
+			],
+			"paper_title": "Programmable World Model",
+			"source": "https://arxiv.org/pdf/2609.10540v1#page=12",
+			"item": "Table 1",
+			"pdf_page": 12,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 60, 546, 158],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "63012dcee612bd54f8d7dc91cd1c9599ef8f9c866d5e09d92cff5c83e2bf606b",
+			"source_pdf_sha256": "d9d8313f851ed82dc1bc248b739cce4c07cbbb08cbd1b2c8743ca33c0bcb9c77"
+		},
+		"paper-260908798-figure2.png": {
+			"authors": [
+				"Park, Youngrok",
+				"Bae, Sangmin",
+				"Jung, Hojung",
+				"Ko, Jongwoo",
+				"Choi, Yunseon",
+				"Kim, Young Jin",
+				"Cameron, Pashmina",
+				"Courville, Aaron",
+				"Yun, Se-Young"
+			],
+			"paper_title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+			"source": "https://arxiv.org/pdf/2609.08798v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [59, 80, 538, 339],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "12be0244261bc8caee8f79964d1a159642e9a84e3ad568f76203e4ab3620dfd5",
+			"source_pdf_sha256": "c053616aa1d8ec9df6fabf8a262eb571062260a71e5f312b2769d41249da559a"
+		},
+		"paper-260908798-table1.png": {
+			"authors": [
+				"Park, Youngrok",
+				"Bae, Sangmin",
+				"Jung, Hojung",
+				"Ko, Jongwoo",
+				"Choi, Yunseon",
+				"Kim, Young Jin",
+				"Cameron, Pashmina",
+				"Courville, Aaron",
+				"Yun, Se-Young"
+			],
+			"paper_title": "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+			"source": "https://arxiv.org/pdf/2609.08798v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [59, 81, 538, 283],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4e42e6c6a02a6638f7ada0e0044c74b56e678bf6dac7d76c77463f58218cdb9e",
+			"source_pdf_sha256": "c053616aa1d8ec9df6fabf8a262eb571062260a71e5f312b2769d41249da559a"
 		}
-	}
+	},
+	"published_paper_count": 7
 }
