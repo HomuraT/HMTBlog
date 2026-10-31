@@ -68,7 +68,150 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260701061-figure1.png": {
+			"authors": [
+				"Armstrong, Daniel",
+				"Dobbelaere, Maarten",
+				"Olikauskas, Valentas",
+				"Avila, Helena",
+				"Susanu, Octavian",
+				"Waser, Jérôme",
+				"Schwaller, Philippe"
+			],
+			"paper_title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
+			"source": "https://arxiv.org/pdf/2607.01061v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 132, 508, 658],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "bb2d93facde06a29c9873296eb2d438b333bdf1e6674d4d5b6853ccf8652495a",
+			"source_pdf_sha256": "006ffb3a59752bdc3df034fa97c1958043171f7d7069ff6189ff212ed91c5eac"
+		},
+		"paper-260701061-table3.png": {
+			"authors": [
+				"Armstrong, Daniel",
+				"Dobbelaere, Maarten",
+				"Olikauskas, Valentas",
+				"Avila, Helena",
+				"Susanu, Octavian",
+				"Waser, Jérôme",
+				"Schwaller, Philippe"
+			],
+			"paper_title": "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification",
+			"source": "https://arxiv.org/pdf/2607.01061v1#page=9",
+			"item": "Table 3",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 76, 517, 284],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e76405e26b454c9fa26ad3b01e1ca3e159e4ab68d4b02bf0d287a4be29f0c0fa",
+			"source_pdf_sha256": "006ffb3a59752bdc3df034fa97c1958043171f7d7069ff6189ff212ed91c5eac"
+		},
+		"paper-260705247-figure2.png": {
+			"authors": [
+				"Fu, Zelin",
+				"Tan, Bin",
+				"Sun, Changjiang",
+				"Liu, Shaohui",
+				"Zheng, Kecheng",
+				"Xu, Yinghao",
+				"Zhu, Xing",
+				"Shen, Yujun",
+				"Xue, Nan"
+			],
+			"paper_title": "Vision Pretraining for Dense Spatial Perception",
+			"source": "https://arxiv.org/pdf/2607.05247v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 65.86384582519531, 546.4501953125, 274.12237548828125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3c9a88224dbfffb87c2510d68e15dac98a5d55c073d1891459156605141558a5",
+			"source_pdf_sha256": "e16e6e92f603942df05713634ed7b9c103eef4d11b3320a9eea5cfb1765d4b98"
+		},
+		"paper-260705247-table1.png": {
+			"authors": [
+				"Fu, Zelin",
+				"Tan, Bin",
+				"Sun, Changjiang",
+				"Liu, Shaohui",
+				"Zheng, Kecheng",
+				"Xu, Yinghao",
+				"Zhu, Xing",
+				"Shen, Yujun",
+				"Xue, Nan"
+			],
+			"paper_title": "Vision Pretraining for Dense Spatial Perception",
+			"source": "https://arxiv.org/pdf/2607.05247v1#page=11",
+			"item": "Table 1",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 69, 545, 193],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1995b1cf55a2b0251c42b7b0312029df6edfa39dd908c018f999b8ad774c3114",
+			"source_pdf_sha256": "e16e6e92f603942df05713634ed7b9c103eef4d11b3320a9eea5cfb1765d4b98"
+		},
+		"paper-260704425-figure2.png": {
+			"authors": [
+				"Lian, Niu",
+				"Chen, Alan",
+				"Yu, Zhehao",
+				"Duan, Chengzhen",
+				"Liu, Fazhan",
+				"Liu, Hui",
+				"Fu, Pei",
+				"Luan, Jian",
+				"Wang, Yaowei",
+				"Xia, Shu-Tao",
+				"Wang, Jinpeng"
+			],
+			"paper_title": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
+			"source": "https://arxiv.org/pdf/2607.04425v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 186.9259796142578, 547.4658203125, 408.5079650878906
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "62add15e3d98bc1dd5a380fad471ae9ef9eb979abfc98a58cc0bcb04db7b1e09",
+			"source_pdf_sha256": "c9aeb2d583c499e8dee7db5c86501de0bb7326beec461cbda59ba41676e4efce"
+		},
+		"paper-260704425-table2.png": {
+			"authors": [
+				"Lian, Niu",
+				"Chen, Alan",
+				"Yu, Zhehao",
+				"Duan, Chengzhen",
+				"Liu, Fazhan",
+				"Liu, Hui",
+				"Fu, Pei",
+				"Luan, Jian",
+				"Wang, Yaowei",
+				"Xia, Shu-Tao",
+				"Wang, Jinpeng"
+			],
+			"paper_title": "UI-MOPD: Multi-Platform On-Policy Distillation for Continual GUI Agent Learning",
+			"source": "https://arxiv.org/pdf/2607.04425v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [336, 286, 545, 418],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "32710d98cb1c2d8a1af2cea6d1251ba59e7f2e1da7482b683a04def4db2499f4",
+			"source_pdf_sha256": "c9aeb2d583c499e8dee7db5c86501de0bb7326beec461cbda59ba41676e4efce"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.00924v1",
@@ -77,5 +220,6 @@
 			"license": "CC BY-NC-ND 4.0",
 			"reason": "非商业、禁止演绎限制与本站用途及裁切方式的适用关系未确认"
 		}
-	]
+	],
+	"published_paper_count": 9
 }

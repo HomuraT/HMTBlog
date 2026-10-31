@@ -68,7 +68,260 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260613669-figure2.png": {
+			"authors": [
+				"Cao, Zongsheng",
+				"Zhan, Bihao",
+				"Shi, Jinxin",
+				"Wang, Jiong",
+				"Yu, Fangchen",
+				"Zhong, Zhijie",
+				"Guo, Zijie",
+				"Peng, Tianshuo",
+				"Liu, Zhuo",
+				"Xie, Yi",
+				"Zhuang, Xiang",
+				"Fan, Yue",
+				"Ma, Runmin",
+				"Feng, Shiyang",
+				"Yan, Xiangchao",
+				"Liu, Anran",
+				"Ye, Peng",
+				"Zhang, Wenlong",
+				"Zhang, Shufei",
+				"Song, Chunfeng",
+				"Ling, Fenghua",
+				"Zhou, Jie",
+				"He, Liang",
+				"Zhang, Bo",
+				"Bai, Lei"
+			],
+			"paper_title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+			"source": "https://arxiv.org/pdf/2606.13669v1#page=6",
+			"item": "Figure 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				56.97999954223633, 80.9677734375, 537.9327392578125, 679.6908569335938
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "88682980e3f613f93ec0f8abe9b4d0617e9e29cfba4aca7e7935bea2f6482509",
+			"source_pdf_sha256": "5db948eecabf69811ec8947752b6e4a299ee062c7e244aa0f4ad315b49c63ed9"
+		},
+		"paper-260700272-figure2.png": {
+			"authors": [
+				"Lu, Runyu",
+				"Wu, Yubo",
+				"Kou, Ethan",
+				"Fu, Letian",
+				"Xiao, Wenli",
+				"Mandlekar, Ajay",
+				"Xu, Yinzhen",
+				"Shi, Guanya",
+				"Goldberg, Ken",
+				"Chen, Ang",
+				"Chowdhury, Mosharaf",
+				"Zhu, Yuke",
+				"Fan, Linxi \"Jim\"",
+				"Wang, Guanzhi"
+			],
+			"paper_title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+			"source": "https://arxiv.org/pdf/2607.00272v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [59, 84, 538, 446],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "37299a3dedd300dcb955953980c1be4cea3c75a19c4f6d69b7caf6a1e61d4e5b",
+			"source_pdf_sha256": "9df00979a6d52c7fcfbcc9d17275fc5196e6431d872a0624fea642a63f9beefc"
+		},
+		"paper-260700272-table1.png": {
+			"authors": [
+				"Lu, Runyu",
+				"Wu, Yubo",
+				"Kou, Ethan",
+				"Fu, Letian",
+				"Xiao, Wenli",
+				"Mandlekar, Ajay",
+				"Xu, Yinzhen",
+				"Shi, Guanya",
+				"Goldberg, Ken",
+				"Chen, Ang",
+				"Chowdhury, Mosharaf",
+				"Zhu, Yuke",
+				"Fan, Linxi \"Jim\"",
+				"Wang, Guanzhi"
+			],
+			"paper_title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+			"source": "https://arxiv.org/pdf/2607.00272v1#page=10",
+			"item": "Table 1",
+			"pdf_page": 10,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [59, 83, 538, 252],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "65a2683326666d3b1cf7cc70af9580c4f25941cc5483129bab498db502e9f0e9",
+			"source_pdf_sha256": "9df00979a6d52c7fcfbcc9d17275fc5196e6431d872a0624fea642a63f9beefc"
+		},
+		"paper-260702515-figure2.png": {
+			"authors": [
+				"Xu, Haofei",
+				"Wu, Rundi",
+				"Henzler, Philipp",
+				"Kalischek, Nikolai",
+				"Oechsle, Michael",
+				"Manhardt, Fabian",
+				"Pollefeys, Marc",
+				"Geiger, Andreas",
+				"Tombari, Federico",
+				"Niemeyer, Michael"
+			],
+			"paper_title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+			"source": "https://arxiv.org/pdf/2607.02515v1#page=2",
+			"item": "Figure 2",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [304, 65, 546, 360],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "835caac5a3a8ae91a394a64365420addc8c4bf6357464e3ca5a8502257bb1b5e",
+			"source_pdf_sha256": "1804873140e8725816f05b844f4d5c9bb89df0de5d68c0229e5451afb1208495"
+		},
+		"paper-260702515-table1.png": {
+			"authors": [
+				"Xu, Haofei",
+				"Wu, Rundi",
+				"Henzler, Philipp",
+				"Kalischek, Nikolai",
+				"Oechsle, Michael",
+				"Manhardt, Fabian",
+				"Pollefeys, Marc",
+				"Geiger, Andreas",
+				"Tombari, Federico",
+				"Niemeyer, Michael"
+			],
+			"paper_title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+			"source": "https://arxiv.org/pdf/2607.02515v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [304, 64, 546, 401],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "371a408dd99626310bc3cc7759cb5d250faec543f90ca18a4282c08f87da95aa",
+			"source_pdf_sha256": "1804873140e8725816f05b844f4d5c9bb89df0de5d68c0229e5451afb1208495"
+		},
+		"paper-260701233-table1.png": {
+			"authors": ["Chen, Ziyu", "Zhao, Yilun", "Cohan, Arman"],
+			"paper_title": "Measuring the Gap Between Human and LLM Research Ideas",
+			"source": "https://arxiv.org/pdf/2607.01233v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.55699920654297, 50.10945510864258, 529.7544555664062,
+				254.3634033203125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "84cca2eeaa16ccedee35425c069633d6c3ec2c61427fd28936fc99b57746b82b",
+			"source_pdf_sha256": "087145aaecf716c94694ce4b60c92bb4d2159082cf97075ce7ca1be82718f386"
+		},
+		"paper-260702375-figure3.png": {
+			"authors": [
+				"Feng, Lan",
+				"Li, Wuyang",
+				"Zablocki, Eloi",
+				"Cord, Matthieu",
+				"Alahi, Alexandre"
+			],
+			"paper_title": "Representation Distribution Matching for One-Step Visual Generation",
+			"source": "https://arxiv.org/pdf/2607.02375v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.99999237060547, 76.85919189453125, 509.0049133300781,
+				383.7329406738281
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "70d8131bed121d98768379d84772e0b65293fd3069f5759c60429934a51c2699",
+			"source_pdf_sha256": "6e8693063bf111889a0e1cd39e31d90bc3f1b348712f08713ee578da9983ef22"
+		},
+		"paper-260702375-table2.png": {
+			"authors": [
+				"Feng, Lan",
+				"Li, Wuyang",
+				"Zablocki, Eloi",
+				"Cord, Matthieu",
+				"Alahi, Alexandre"
+			],
+			"paper_title": "Representation Distribution Matching for One-Step Visual Generation",
+			"source": "https://arxiv.org/pdf/2607.02375v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 88, 507, 216],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3eaa7420a9d532d4a1425eb1d2746fb71497a6af3f731e1a788dd95d4c2d3f68",
+			"source_pdf_sha256": "6e8693063bf111889a0e1cd39e31d90bc3f1b348712f08713ee578da9983ef22"
+		},
+		"paper-260701763-figure1.png": {
+			"authors": [
+				"Wang, Meng",
+				"Zhao, Haohan",
+				"Liu, Wenzhuo",
+				"Yang, Lu",
+				"Liu, Geng",
+				"Guo, Haiyang",
+				"Xie, Guo-Sen",
+				"Meng, Gaofeng",
+				"Liu, Hongbin",
+				"Zhu, Fei"
+			],
+			"paper_title": "Denser $\\neq$ Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
+			"source": "https://arxiv.org/pdf/2607.01763v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.86095428466797, 509.0096435546875, 256.7340393066406
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "8ba40455c63e70245b45193e20c874bdf4d581d48fa7faeccc37f0bb7e1d5bf3",
+			"source_pdf_sha256": "c53597954aefc4a4c0b7d7161da8159f66f77addc405af254cbb25da8c552562"
+		},
+		"paper-260701763-table1.png": {
+			"authors": [
+				"Wang, Meng",
+				"Zhao, Haohan",
+				"Liu, Wenzhuo",
+				"Yang, Lu",
+				"Liu, Geng",
+				"Guo, Haiyang",
+				"Xie, Guo-Sen",
+				"Meng, Gaofeng",
+				"Liu, Hongbin",
+				"Zhu, Fei"
+			],
+			"paper_title": "Denser $\\neq$ Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
+			"source": "https://arxiv.org/pdf/2607.01763v1#page=5",
+			"item": "Table 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [105, 79, 507, 193],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "200761a3bbe6306a198b65486e0492ffcdb27639db070fe15de5df64f4b0ff5b",
+			"source_pdf_sha256": "c53597954aefc4a4c0b7d7161da8159f66f77addc405af254cbb25da8c552562"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2607.01179v1",
@@ -77,5 +330,6 @@
 			"license": "arXiv non-exclusive distribution license",
 			"reason": "未确认第三方截图再发布许可"
 		}
-	]
+	],
+	"published_paper_count": 9
 }
