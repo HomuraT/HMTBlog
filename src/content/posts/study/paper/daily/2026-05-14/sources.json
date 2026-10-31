@@ -69,6 +69,112 @@
 			"image_size": [1180, 510],
 			"sha256": "274aa66cce4852236430d540a9e93bcd7b980d9642e4c82e4bbfc5d8ee53ddf3",
 			"source_pdf_sha256": "c379c509c442023dceff9428e41bec4807e86fad8dedd62416d21e3cab921346"
+		},
+		"paper-260410853-figure2.png": {
+			"authors": ["Mridul, Maruf Ahmed", "Kapa, Rohit", "Seneviratne, Oshani"],
+			"paper_title": "A Benchmark for Gap and Overlap Analysis as a Test of KG Task Readiness",
+			"source": "https://arxiv.org/pdf/2604.10853v1#page=7",
+			"item": "Figure 2",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [225, 145, 528, 333],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "adfb6ff8970e5c178e49abff55a149646d2620b6ef41f8dd26ad925f912ae96e",
+			"source_pdf_sha256": "5acd9ecc088f1bfef89d6a40c7663b46eb38ccba027995f19361fd6db3e29530"
+		},
+		"paper-260410853-table1.png": {
+			"authors": ["Mridul, Maruf Ahmed", "Kapa, Rohit", "Seneviratne, Oshani"],
+			"paper_title": "A Benchmark for Gap and Overlap Analysis as a Test of KG Task Readiness",
+			"source": "https://arxiv.org/pdf/2604.10853v1#page=11",
+			"item": "Table 1",
+			"pdf_page": 11,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [67, 669, 383, 761],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e220c3d2c4301f157528b90731d379f4f647bbd7f238de9ebf58733de2fbef71",
+			"source_pdf_sha256": "5acd9ecc088f1bfef89d6a40c7663b46eb38ccba027995f19361fd6db3e29530"
+		},
+		"paper-260512357-figure1.png": {
+			"authors": [
+				"Lei, Jingdi",
+				"Zhang, Di",
+				"Li, Junxian",
+				"Wang, Weida",
+				"Fan, Kaixuan",
+				"Liu, Xiang",
+				"Liu, Qihan",
+				"Ma, Xiaoteng",
+				"Chen, Baian",
+				"Poria, Soujanya"
+			],
+			"paper_title": "$\\delta$-mem: Efficient Online Memory for Large Language Models",
+			"source": "https://arxiv.org/pdf/2605.12357v1#page=4",
+			"item": "Figure 1",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				67.0, 66.99815368652344, 545.269287109375, 343.9969482421875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3272c8019a6a4d107bd19559539617c92d48816edaa8ea7e17dcc31da5ebe6cf",
+			"source_pdf_sha256": "e14a4c14e88000c0511f22825b4f2485e6d38e5e333ac12077d6df5c0744f9d1"
+		},
+		"paper-260512357-table1.png": {
+			"authors": [
+				"Lei, Jingdi",
+				"Zhang, Di",
+				"Li, Junxian",
+				"Wang, Weida",
+				"Fan, Kaixuan",
+				"Liu, Xiang",
+				"Liu, Qihan",
+				"Ma, Xiaoteng",
+				"Chen, Baian",
+				"Poria, Soujanya"
+			],
+			"paper_title": "$\\delta$-mem: Efficient Online Memory for Large Language Models",
+			"source": "https://arxiv.org/pdf/2605.12357v1#page=7",
+			"item": "Table 1",
+			"pdf_page": 7,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [67, 145, 546, 352],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "283ee4392b435013148f9e7670ee9b65775aa8da000d7ff351d518518246d593",
+			"source_pdf_sha256": "e14a4c14e88000c0511f22825b4f2485e6d38e5e333ac12077d6df5c0744f9d1"
+		},
+		"paper-260512466-figure3.png": {
+			"authors": ["Fein-Ashley, Jacob", "Rashidinejad, Paria"],
+			"paper_title": "Solve the Loop: Attractor Models for Language and Reasoning",
+			"source": "https://arxiv.org/pdf/2605.12466v1#page=5",
+			"item": "Figure 3",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				64.66927337646484, 52.58832931518555, 546.7804565429688,
+				238.98699951171875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "aa2c68ae356ad4123245fe85a2d3444c4577e93bbd144c650fd46da8573d8051",
+			"source_pdf_sha256": "c379c509c442023dceff9428e41bec4807e86fad8dedd62416d21e3cab921346"
+		},
+		"paper-260512466-table2.png": {
+			"authors": ["Fein-Ashley, Jacob", "Rashidinejad, Paria"],
+			"paper_title": "Solve the Loop: Attractor Models for Language and Reasoning",
+			"source": "https://arxiv.org/pdf/2605.12466v1#page=9",
+			"item": "Table 2",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [66, 275, 546, 443],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1d5590fa12069e0355a4752784c8e3275c2ac2d7f9925f761948b988613504a9",
+			"source_pdf_sha256": "c379c509c442023dceff9428e41bec4807e86fad8dedd62416d21e3cab921346"
 		}
-	}
+	},
+	"published_paper_count": 7
 }

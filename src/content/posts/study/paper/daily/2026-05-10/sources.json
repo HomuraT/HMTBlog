@@ -76,6 +76,142 @@
 			"image_size": [1130, 580],
 			"sha256": "69714bdda983f98c83485f2c3580e514240a4e40594d1184cba0ca4ec7d84339",
 			"source_pdf_sha256": "342b84f1abe236d2d7a81a767ecbe3f3fe1a142a1d7b92a1e3441d5b8781f2c3"
+		},
+		"paper-260504065-figure3.png": {
+			"authors": [
+				"Huang, Yiming",
+				"Shi, Zhenbo",
+				"Wen, Xin-Cheng",
+				"Zeng, Jichuan",
+				"Gao, Cuiyun",
+				"Han, Peiyi",
+				"Liu, Chuanyi"
+			],
+			"paper_title": "Free Energy-Driven Reinforcement Learning with Adaptive Advantage Shaping for Unsupervised Reasoning in LLMs",
+			"source": "https://arxiv.org/pdf/2605.04065v1#page=4",
+			"item": "Figure 3",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				65.86599731445312, 68.86260223388672, 529.4038696289062,
+				222.86605834960938
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d85650671a7ff8ef157b076e4d4a6ec78eaefa2303defef666375a0604d28db0",
+			"source_pdf_sha256": "a5141ec1b4eb4cdf2635164a53e6b6db52c10bfceaa32106445a44a03a931eb9"
+		},
+		"paper-260504065-table1.png": {
+			"authors": [
+				"Huang, Yiming",
+				"Shi, Zhenbo",
+				"Wen, Xin-Cheng",
+				"Zeng, Jichuan",
+				"Gao, Cuiyun",
+				"Han, Peiyi",
+				"Liu, Chuanyi"
+			],
+			"paper_title": "Free Energy-Driven Reinforcement Learning with Adaptive Advantage Shaping for Unsupervised Reasoning in LLMs",
+			"source": "https://arxiv.org/pdf/2605.04065v1#page=6",
+			"item": "Table 1",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 65, 530, 398],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "d93b29f07ad14e29a01884d6d8ede17e8286c0e9f6fe9e2af40112a82f59bbec",
+			"source_pdf_sha256": "a5141ec1b4eb4cdf2635164a53e6b6db52c10bfceaa32106445a44a03a931eb9"
+		},
+		"paper-260504070-figure1.png": {
+			"authors": [
+				"Xu, Yuzheng",
+				"Dahmani, Annya",
+				"Blanchard, Matthew D.",
+				"Dern, Niclas",
+				"Nastase, Edy",
+				"Bianco, Francesca",
+				"Pavlovic, Maja",
+				"Krishna, Sukanya",
+				"Modesitt, Eric",
+				"Christ, Miranda Anna",
+				"Singh, Arth",
+				"Molinaro, Gaia",
+				"Sengupta, Sikata Bela",
+				"Pamarthi, Jaji",
+				"Menon, Arjun",
+				"Jain, Rishub"
+			],
+			"paper_title": "Toward Human-AI Complementarity Across Diverse Tasks",
+			"source": "https://arxiv.org/pdf/2605.04070v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				103.0, 76.86058044433594, 510.65087890625, 360.3409118652344
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "abd781b0d12223e4b4bbcc77213bea6ccb8246a0d942113af3550e4c47eae83d",
+			"source_pdf_sha256": "a43864666ff4a28fc5c0de171dad38690532501661f1772458655cb624b1e396"
+		},
+		"paper-260504070-table2.png": {
+			"authors": [
+				"Xu, Yuzheng",
+				"Dahmani, Annya",
+				"Blanchard, Matthew D.",
+				"Dern, Niclas",
+				"Nastase, Edy",
+				"Bianco, Francesca",
+				"Pavlovic, Maja",
+				"Krishna, Sukanya",
+				"Modesitt, Eric",
+				"Christ, Miranda Anna",
+				"Singh, Arth",
+				"Molinaro, Gaia",
+				"Sengupta, Sikata Bela",
+				"Pamarthi, Jaji",
+				"Menon, Arjun",
+				"Jain, Rishub"
+			],
+			"paper_title": "Toward Human-AI Complementarity Across Diverse Tasks",
+			"source": "https://arxiv.org/pdf/2605.04070v1#page=8",
+			"item": "Table 2",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 78, 510, 185],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "119518e5232ce70321f3473c26ba2b99b523f85d2eefe2a8bac807fd13e9dcc1",
+			"source_pdf_sha256": "a43864666ff4a28fc5c0de171dad38690532501661f1772458655cb624b1e396"
+		},
+		"paper-260504050-figure2.png": {
+			"authors": ["Ehrlich, Clint", "Blackman, Theodore"],
+			"paper_title": "LCM: Lossless Context Management",
+			"source": "https://arxiv.org/pdf/2605.04050v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [68, 69, 528, 262],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "1a99ccb4b1a5c03dbcafa37e2e1e085e08df7f554058658c11c9fbc8b62f6844",
+			"source_pdf_sha256": "342b84f1abe236d2d7a81a767ecbe3f3fe1a142a1d7b92a1e3441d5b8781f2c3"
+		},
+		"paper-260504061-figure1.png": {
+			"authors": ["Cheng, Bryan", "Zhang, Jasper"],
+			"paper_title": "Single-Position Intervention Fails: Distributed Output Templates Drive In-Context Learning",
+			"source": "https://arxiv.org/pdf/2605.04061v1#page=5",
+			"item": "Figure 1",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				66.99999237060547, 187.816162109375, 545.0191650390625, 418.9267578125
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "6448686c34a3124a9434daa00b0a7bae4eb743c9f80f7cb143f94103593ccc89",
+			"source_pdf_sha256": "88932a0c9e30902e310b1203b48dcc80e4809e7a423cf0b3a9197546c7205bf3"
 		}
-	}
+	},
+	"published_paper_count": 8
 }
