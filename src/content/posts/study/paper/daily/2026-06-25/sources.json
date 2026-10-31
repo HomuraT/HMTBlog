@@ -61,7 +61,103 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		}
 	],
-	"figures": {},
+	"figures": {
+		"paper-260622902-figure2.png": {
+			"authors": [
+				"Zhou, Pengfei",
+				"Tang, Zhiwei",
+				"Ma, Yixing",
+				"Tang, Jiasheng",
+				"Han, Yizeng",
+				"Wan, Zhenglin",
+				"Meng, Fanqing",
+				"Wang, Wei",
+				"Zhuang, Bohan",
+				"Zhao, Wangbo",
+				"You, Yang"
+			],
+			"paper_title": "Agent-as-a-Router: Agentic Model Routing for Coding Tasks",
+			"source": "https://arxiv.org/pdf/2606.22902v2#page=6",
+			"item": "Figure 2",
+			"pdf_page": 6,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				57.36199951171875, 80.04226684570312, 538.1241455078125,
+				358.8828430175781
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "e2afec675ea94024a9102d9036a5394f4c9b057656057ff2e955a2b4935584a3",
+			"source_pdf_sha256": "d85c6ef87f7836bfcaf847f42077f6eec0faee13cd5b75e2605b0c15ce098feb"
+		},
+		"paper-260622902-table3.png": {
+			"authors": [
+				"Zhou, Pengfei",
+				"Tang, Zhiwei",
+				"Ma, Yixing",
+				"Tang, Jiasheng",
+				"Han, Yizeng",
+				"Wan, Zhenglin",
+				"Meng, Fanqing",
+				"Wang, Wei",
+				"Zhuang, Bohan",
+				"Zhao, Wangbo",
+				"You, Yang"
+			],
+			"paper_title": "Agent-as-a-Router: Agentic Model Routing for Coding Tasks",
+			"source": "https://arxiv.org/pdf/2606.22902v2#page=9",
+			"item": "Table 3",
+			"pdf_page": 9,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [60, 80, 535, 510],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "9c7cec8846f21b30963756de673571dced9e8418bb7b884db1eba0f507978ca9",
+			"source_pdf_sha256": "d85c6ef87f7836bfcaf847f42077f6eec0faee13cd5b75e2605b0c15ce098feb"
+		},
+		"paper-260624884-figure2.png": {
+			"authors": [
+				"Wang, Maggie",
+				"Osterberg, Lars",
+				"Tian, Stephen",
+				"Shorinwa, Ola",
+				"Wu, Jiajun",
+				"Schwager, Mac"
+			],
+			"paper_title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+			"source": "https://arxiv.org/pdf/2606.24884v1#page=4",
+			"item": "Figure 2",
+			"pdf_page": 4,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				69.86178588867188, 28.0, 542.1397705078125, 587.9490966796875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "74726d96b7e9451346f62f8066c6327484d8cb04b4c74a299d5c2582d7e15888",
+			"source_pdf_sha256": "e84aab6b1431c0b7622869ad1bb0cb0e7b6ddec2cefb4bb478450c518c07d5f5"
+		},
+		"paper-260624884-table1.png": {
+			"authors": [
+				"Wang, Maggie",
+				"Osterberg, Lars",
+				"Tian, Stephen",
+				"Shorinwa, Ola",
+				"Wu, Jiajun",
+				"Schwager, Mac"
+			],
+			"paper_title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+			"source": "https://arxiv.org/pdf/2606.24884v1#page=8",
+			"item": "Table 1",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [304, 463, 506, 595],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "c88d48e2341555d3ecd192a7b42f642f79d919a7d42385a68f74c1d3a86d07b1",
+			"source_pdf_sha256": "e84aab6b1431c0b7622869ad1bb0cb0e7b6ddec2cefb4bb478450c518c07d5f5"
+		}
+	},
 	"figure_omissions": [
 		{
 			"arxiv": "2606.24618v1",
@@ -77,5 +173,6 @@
 			"source": "https://openreview.net/forum?id=oWt34iSOKK",
 			"reason": "Previously reported OpenReview verification barrier; title-ID mapping unverified, no further access attempted."
 		}
-	]
+	],
+	"published_paper_count": 8
 }

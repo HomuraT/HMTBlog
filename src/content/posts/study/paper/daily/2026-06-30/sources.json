@@ -40,10 +40,10 @@
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		},
 		{
-			"arxiv": "2606.28322v2",
+			"arxiv": "2606.28322v1",
 			"title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
-			"version_submitted": "2026-06-30",
-			"source": "https://arxiv.org/abs/2606.28322v2",
+			"version_submitted": "2026-06-26",
+			"source": "https://arxiv.org/abs/2606.28322v1",
 			"verification_scope": "Title, identifier and historical version submission checked; experiments not deeply reviewed"
 		},
 		{
@@ -76,6 +76,93 @@
 			"image_size": [1080, 310],
 			"sha256": "c2cdc8c53a917782006947da2ccd7be91f3a50c78411fa825377d1bfb0589c78",
 			"source_pdf_sha256": "5a8f51dc47139169eaccd7993d0c8a9f24964767857f22b0b55f9eb0c0ffe5ad"
+		},
+		"paper-260626383-figure1.png": {
+			"authors": [
+				"Huang, Qijing",
+				"Damani, Sana",
+				"Ye, Zhifan",
+				"Skiadopoulos, Athinagoras",
+				"Hari, Siva Kumar Sastry",
+				"Clemons, Jason",
+				"Modi, Sahil",
+				"Wang, Jingquan",
+				"Kane, Aditya",
+				"Lin, Edward C",
+				"Shi, Humphrey",
+				"Kozyrakis, Christos"
+			],
+			"paper_title": "SOLAR: AI-Powered Speed-of-Light Performance Analysis",
+			"source": "https://arxiv.org/pdf/2606.26383v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.64099884033203, 66.99996948242188, 510.7453918457031,
+				325.8920593261719
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "986f752fb4670806eca7b8015dfad433211eabed558f67d2c8ecf7c2e9a9f6a5",
+			"source_pdf_sha256": "e895d9097fad52e5357fdd46db39f7bb57dffc1ab736b758321c755f441690de"
+		},
+		"paper-260626383-figure4.png": {
+			"authors": [
+				"Huang, Qijing",
+				"Damani, Sana",
+				"Ye, Zhifan",
+				"Skiadopoulos, Athinagoras",
+				"Hari, Siva Kumar Sastry",
+				"Clemons, Jason",
+				"Modi, Sahil",
+				"Wang, Jingquan",
+				"Kane, Aditya",
+				"Lin, Edward C",
+				"Shi, Humphrey",
+				"Kozyrakis, Christos"
+			],
+			"paper_title": "SOLAR: AI-Powered Speed-of-Light Performance Analysis",
+			"source": "https://arxiv.org/pdf/2606.26383v1#page=8",
+			"item": "Figure 4",
+			"pdf_page": 8,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				102.6709976196289, 261.3189697265625, 510.74517822265625,
+				437.77606201171875
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "3b829a1790d717911eb06d525367192c6e097019e54974ebf8483e8a93013b2d",
+			"source_pdf_sha256": "e895d9097fad52e5357fdd46db39f7bb57dffc1ab736b758321c755f441690de"
+		},
+		"paper-260626383-figure2.png": {
+			"authors": [
+				"Huang, Qijing",
+				"Damani, Sana",
+				"Ye, Zhifan",
+				"Skiadopoulos, Athinagoras",
+				"Hari, Siva Kumar Sastry",
+				"Clemons, Jason",
+				"Modi, Sahil",
+				"Wang, Jingquan",
+				"Kane, Aditya",
+				"Lin, Edward C",
+				"Shi, Humphrey",
+				"Kozyrakis, Christos"
+			],
+			"paper_title": "SOLAR: AI-Powered Speed-of-Light Performance Analysis",
+			"source": "https://arxiv.org/pdf/2606.26383v1#page=5",
+			"item": "Figure 2",
+			"pdf_page": 5,
+			"license": "CC BY 4.0",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [
+				99.81199645996094, 69.19200134277344, 512.18798828125, 390.3060607910156
+			],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "4c9b1af11506b4277625996e6dcaa0cca9b6a73aa7e652a4d45811b9e7bc91e6",
+			"source_pdf_sha256": "e895d9097fad52e5357fdd46db39f7bb57dffc1ab736b758321c755f441690de"
 		}
-	}
+	},
+	"published_paper_count": 8
 }
