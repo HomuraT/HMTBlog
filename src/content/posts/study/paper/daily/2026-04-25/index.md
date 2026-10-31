@@ -248,13 +248,13 @@ MetaAgent 从一类任务的描述出发，自动设计角色、状态和转移�
 
 ![MetaAgent 的状态、条件检查与回退机制](./images/paper-metaagent-figure1.png)
 
-*图｜Yaolun Zhang、Xiaogeng Liu、Chaowei Xiao，MetaAgent，ICML 2025，PMLR 267。[Figure 1，https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf 第 3 页](https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=3) · [论文](https://proceedings.mlr.press/v267/zhang25bc.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+*图｜Yaolun Zhang、Xiaogeng Liu、Chaowei Xiao，MetaAgent，ICML 2025，PMLR 267。[Figure 1，PDF 第 3 页](https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=3) · [论文](https://proceedings.mlr.press/v267/zhang25bc.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 主要实验使用 GPT-4o、温度 0，并提供代码解释器和搜索工具。ML Bench 的五项任务上，MetaAgent 的平均归一化得分为 0.83，高于 SPP 的 0.16，但低于专门面向数据分析的 Data Interpreter 的 0.86。软件开发的五项任务中，检查点平均通过比例为 0.85，MetaGPT 为 0.35；不过 Brick breaker 单项为 0.50 对 0.75，自动设计并非每个任务都领先。
 
 ![MetaAgent 在 ML Bench 与软件开发任务中的实验结果](./images/paper-metaagent-tables3-4.png)
 
-*表｜Yaolun Zhang、Xiaogeng Liu、Chaowei Xiao，MetaAgent，ICML 2025，PMLR 267。[Tables 3–4，https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf 第 8 页](https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=8) · [论文](https://proceedings.mlr.press/v267/zhang25bc.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
+*表｜Yaolun Zhang、Xiaogeng Liu、Chaowei Xiao，MetaAgent，ICML 2025，PMLR 267。[Tables 3–4，PDF 第 8 页](https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhang25bc/zhang25bc.pdf#page=8) · [论文](https://proceedings.mlr.press/v267/zhang25bc.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。裁剪自原文。*
 
 这些结果支持把条件检查和回退写进协作结构，但归一化模型得分、检查点通过比例和完整软件交付成功率是不同指标。工具、模型与任务分布也共同影响比较，不能只把收益归因于使用了有限状态机。
 
