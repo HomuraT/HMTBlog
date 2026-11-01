@@ -1,0 +1,163 @@
+{
+	"digest_date": "2026-11-01",
+	"reviewed_date": "2026-11-01",
+	"independently_reproduced": false,
+	"published_paper_count": 5,
+	"papers": [
+		{
+			"id": "2610.38326",
+			"title": "Can LLMs Faithfully Solve Ontology Engineering Tasks? A Mechanistic Interpretability Study",
+			"authors": ["Zhang, Bohui", "Meroño-Peñuela, Albert", "Simperl, Elena"],
+			"date": "2026/10/28",
+			"source": "https://arxiv.org/abs/2610.38326v1",
+			"pdf_source": "https://arxiv.org/pdf/2610.38326v1",
+			"license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+			"sha256": "aac9a0855745a65fe0c6297a00de5aad2fa1354ab1c07db1ed0ff8485f5fe0bd"
+		},
+		{
+			"id": "2610.40325",
+			"title": "How to Loop Your Transformer: Loop Scaling, Specialization, and Parallel Inference",
+			"authors": [
+				"Ekbote, Chanakya",
+				"Pagnoni, Artidoro",
+				"Sachan, Devendra Singh",
+				"Bhosale, Shruti",
+				"Lewis, Mike",
+				"Fazel-Zarandi, Maryam",
+				"Rajput, Shashank",
+				"Gonugondla, Sujan Kumar"
+			],
+			"date": "2026/10/29",
+			"source": "https://arxiv.org/abs/2610.40325v1",
+			"pdf_source": "https://arxiv.org/pdf/2610.40325v1",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"sha256": "1aa2d66e4cc9908653103d5a474fcdf9c3487755386c38e9f847450ddc9c8c9d"
+		},
+		{
+			"id": "2610.40051",
+			"title": "Rethinking Pre-pretraining",
+			"authors": [
+				"Stern, Alexander",
+				"Rocktäschel, Tim",
+				"Locatelli, Acyr",
+				"Ruis, Laura"
+			],
+			"date": "2026/10/29",
+			"source": "https://arxiv.org/abs/2610.40051v1",
+			"pdf_source": "https://arxiv.org/pdf/2610.40051v1",
+			"license_url": "http://creativecommons.org/licenses/by/4.0/",
+			"sha256": "9fa34bb74245447d056f8d224ea5a112f23b2c3d8d02e9fec832d31d41fd1252"
+		},
+		{
+			"id": "2610.40655",
+			"title": "Elucidating the Design Space of LM Data Attribution",
+			"authors": [
+				"Yu, Steven",
+				"Wang, Sheng-Yu",
+				"Hamidieh, Kimia",
+				"Torralba, Antonio",
+				"Bau, David"
+			],
+			"date": "2026/10/29",
+			"source": "https://arxiv.org/abs/2610.40655v1",
+			"pdf_source": "https://arxiv.org/pdf/2610.40655v1",
+			"license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+			"sha256": "2c3adcccef9bdabf553149358a966b16cb7e35d0ffab287da6dc7aa5b4cafe99"
+		},
+		{
+			"id": "2610.40503",
+			"title": "Algebraic World Model: From Exploration to Proofs",
+			"authors": [
+				"Pan, Guancheng",
+				"Tan, Qixin",
+				"Yuan, Yang",
+				"Yao, Andrew Chi-Chih"
+			],
+			"date": "2026/10/29",
+			"source": "https://arxiv.org/abs/2610.40503v1",
+			"pdf_source": "https://arxiv.org/pdf/2610.40503v1",
+			"license_url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+			"sha256": "25984dbb8e6c80fee90fc9f9a8bbe6624b8c71d51a0dab4907cd795f060bcd8d"
+		}
+	],
+	"figures": {
+		"loop-figure1.png": {
+			"authors": [
+				"Ekbote, Chanakya",
+				"Pagnoni, Artidoro",
+				"Sachan, Devendra Singh",
+				"Bhosale, Shruti",
+				"Lewis, Mike",
+				"Fazel-Zarandi, Maryam",
+				"Rajput, Shashank",
+				"Gonugondla, Sujan Kumar"
+			],
+			"paper_title": "How to Loop Your Transformer: Loop Scaling, Specialization, and Parallel Inference",
+			"source": "https://arxiv.org/pdf/2610.40325v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [65, 45, 560, 326],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "0975ad0b39f0580d0ff2e7fe6036ce2d758637b45cbb13ba6f1cf8fbb6ff2443",
+			"source_pdf_sha256": "1aa2d66e4cc9908653103d5a474fcdf9c3487755386c38e9f847450ddc9c8c9d"
+		},
+		"pretrain-figure1.png": {
+			"authors": [
+				"Stern, Alexander",
+				"Rocktäschel, Tim",
+				"Locatelli, Acyr",
+				"Ruis, Laura"
+			],
+			"paper_title": "Rethinking Pre-pretraining",
+			"source": "https://arxiv.org/pdf/2610.40051v1#page=2",
+			"item": "Figure 1",
+			"pdf_page": 2,
+			"license": "CC BY 4.0",
+			"license_url": "https://creativecommons.org/licenses/by/4.0/",
+			"crop_pdf_points": [103, 65, 510, 454],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ab45d2b1a792bdf3b57774ae1e4abbf246ea12dd2fa2ac39df12545818915b7c",
+			"source_pdf_sha256": "9fa34bb74245447d056f8d224ea5a112f23b2c3d8d02e9fec832d31d41fd1252"
+		},
+		"catt-figure2.png": {
+			"authors": [
+				"Yu, Steven",
+				"Wang, Sheng-Yu",
+				"Hamidieh, Kimia",
+				"Torralba, Antonio",
+				"Bau, David"
+			],
+			"paper_title": "Elucidating the Design Space of LM Data Attribution",
+			"source": "https://arxiv.org/pdf/2610.40655v1#page=3",
+			"item": "Figure 2",
+			"pdf_page": 3,
+			"license": "CC BY-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [103, 70, 510, 320],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "ab029dd687df7cc577c54bf50db03c717c278dd566e60ba45e1120162bbf8905",
+			"source_pdf_sha256": "2c3adcccef9bdabf553149358a966b16cb7e35d0ffab287da6dc7aa5b4cafe99"
+		},
+		"catt-figure7.png": {
+			"authors": [
+				"Yu, Steven",
+				"Wang, Sheng-Yu",
+				"Hamidieh, Kimia",
+				"Torralba, Antonio",
+				"Bau, David"
+			],
+			"paper_title": "Elucidating the Design Space of LM Data Attribution",
+			"source": "https://arxiv.org/pdf/2610.40655v1#page=8",
+			"item": "Figure 7",
+			"pdf_page": 8,
+			"license": "CC BY-SA 4.0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"crop_pdf_points": [303, 429, 508, 674],
+			"change": "Rectangular crop from original PDF.",
+			"sha256": "7b24acfece22291fca067213142d656dc1e64883f1d82aa5c579d3aa86eded2a",
+			"source_pdf_sha256": "2c3adcccef9bdabf553149358a966b16cb7e35d0ffab287da6dc7aa5b4cafe99"
+		}
+	}
+}
