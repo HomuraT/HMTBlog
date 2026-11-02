@@ -16,7 +16,7 @@ lang: 'zh-CN'
 
 ## 1. ProbSPARQL 让查询表达测量的不确定性
 
-**论文**：[ProbSPARQL: Querying Knowledge Graphs with Multi-dimensional, Uncertain Numeric Data](https://arxiv.org/abs/2607.18262v2)。Jingcheng Wu、Ratan Bahadur Thapa、Daniel Hernandez、Hongkuan Zhou、Steffen Staab，来自斯图加特大学、Bosch Corporate Research 与南安普顿大学。本文为 ISWC 2026 In-Use Track 工作，[会议论文集](https://link.springer.com/chapter/10.1007/978-3-032-42029-9_19)于 10 月 23 日上线；所读预印本为 8 月 7 日的 v2，并非当天新稿。
+**论文**：[ProbSPARQL: Querying Knowledge Graphs with Multi-dimensional, Uncertain Numeric Data](https://arxiv.org/abs/2607.18262v2)。Jingcheng Wu、Ratan Bahadur Thapa、Daniel Hernandez、Hongkuan Zhou、Steffen Staab，来自斯图加特大学、Bosch Corporate Research 与南安普顿大学。本文为 ISWC 2026 In-Use Track 工作，[会议论文集](https://link.springer.com/chapter/10.1007/978-3-032-42029-9_19)于 10 月 23 日上线；预印本 v2 发布于 8 月 7 日。
 
 回收零件能不能重新使用，不能只看测得的长度。传感器噪声、扫描和重建误差会让数值带有不确定性。如果先把分布压成一个平均值，后续查询就无法区分“略低于阈值但很稳定”和“平均达标但波动很大”的部件。
 
@@ -30,7 +30,7 @@ ProbSPARQL 把随机变量作为图中的节点，把概率分布参数编码进
 
 ## 2. FlatCake 从写入时就安排长会话缓存
 
-**论文**：[FlatCake: A Flat KVCache Storage Architecture for LLM Serving](https://arxiv.org/abs/2610.38355v1)。Xin Huang、Teng Ma、Zhuoran Li、Yibo Zhao、Zhaoshi Li、Qianchao Zhu 等，主要单位包括复旦大学、北京大学、MetaX Technology 和中科院计算所，另有独立研究者。2026 年 10 月 28 日 arXiv cs.DC / cs.OS 预印本，会议发表场所未能稳定确认。
+**论文**：[FlatCake: A Flat KVCache Storage Architecture for LLM Serving](https://arxiv.org/abs/2610.38355v1)。Xin Huang、Teng Ma、Zhuoran Li、Yibo Zhao、Zhaoshi Li、Qianchao Zhu 等，主要单位包括复旦大学、北京大学、MetaX Technology 和中科院计算所，另有独立研究者。2026 年 10 月 28 日 arXiv cs.DC / cs.OS 预印本。
 
 长会话 Agent 反复带着历史工具输出和文件内容请求模型。KV 缓存能避免重算这些上下文，但当会话超过主机内存容量，许多命中必须从 SSD 恢复。此时，“先放内存，淘汰后落盘，再经内存搬回 GPU”的路径可能让内存成为中转瓶颈。
 
@@ -40,11 +40,11 @@ FlatCake 利用两个特点重新组织存储。KV 块生成后不再修改，�
 
 只比较传统中转与 GDS，可能混淆接口收益与布局收益。因此，论文另在 4 张 A100、Llama-3.1-70B 的上下文扫描中加入 Mooncake-GDS，它保留分层淘汰布局但改为直接读取。FlatCake 相对这个对照的平均首 token 等待最多改善 1.8 倍，说明布局和调度仍有额外作用。
 
-**局限**：轨迹回放的结果依赖会话复用、硬件带宽与存储容量，不能视为任意线上业务都能获得的加速。写入时的分配还依赖可观察的会话范围信号。对实践者更有用的下一步，是测量自身缓存恢复链路，而非直接取消所有分层。专属公开代码未能稳定确认；[原文 Figure 1 与 Figure 3](https://arxiv.org/pdf/2610.38355v1#page=5)可帮助理解数据路径，转载许可未确认，保留原图链接。
+**局限**：轨迹回放的结果依赖会话复用、硬件带宽与存储容量，不能视为任意线上业务都能获得的加速。写入时的分配还依赖可观察的会话范围信号。对实践者更有用的下一步，是测量自身缓存恢复链路，而非直接取消所有分层。[原文 Figure 1 与 Figure 3](https://arxiv.org/pdf/2610.38355v1#page=5)可帮助理解数据路径。
 
 ## 3. SpecSlot 区分需要全局协调的结构与局部细节
 
-**论文**：[Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers](https://arxiv.org/abs/2610.40647v1)。Jiongfan Yang、Weichen Fan、Haiwen Diao、Zhongang Cai、Ziwei Liu，来自北京大学、南洋理工大学和商汤科技。10 月 29 日 arXiv v1，作者标注 ICLR 2027 under review，尚不能写成接收。[代码](https://github.com/JiongfanYang/SpecSlot)。
+**论文**：[Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers](https://arxiv.org/abs/2610.40647v1)。Jiongfan Yang、Weichen Fan、Haiwen Diao、Zhongang Cai、Ziwei Liu，来自北京大学、南洋理工大学和商汤科技。10 月 29 日 arXiv v1，ICLR 2027 审稿中。[代码](https://github.com/JiongfanYang/SpecSlot)。
 
 更细的图像并不总需要更多全局通信。大体轮廓需要跨位置保持协调，而很多高频纹理只需局部信息。SpecSlot 为每个空间锚点分配多个槽位，用 DCT 系数频段指定各槽位负责的输出。只有最低频槽位参与全局注意力，其余通过局部交互交换信息，再以空间预测头补充修正。
 
@@ -58,7 +58,7 @@ FlatCake 利用两个特点重新组织存储。KV 块生成后不再修改，�
 
 ## 4. ERF 把离散采样的随机性放到初始化
 
-**论文**：[An ODE-based Sampler for Discrete Diffusion Models](https://arxiv.org/abs/2610.40618v1)。Samson Gourevitch、Yazid Janati、Eric Moulines、Eric P. Xing、Alain Durmus、Giacomo Zanella，机构包括 École polytechnique / CMAP、Institute of Foundation Models、MBZUAI、EPITA / LRE 和 Bocconi University。10 月 29 日 arXiv cs.LG / stat.ML 预印本，会议场所及专属代码未能稳定确认。
+**论文**：[An ODE-based Sampler for Discrete Diffusion Models](https://arxiv.org/abs/2610.40618v1)。Samson Gourevitch、Yazid Janati、Eric Moulines、Eric P. Xing、Alain Durmus、Giacomo Zanella，机构包括 École polytechnique / CMAP、Institute of Foundation Models、MBZUAI、EPITA / LRE 和 Bocconi University。10 月 29 日 arXiv cs.LG / stat.ML 预印本。
 
 连续扩散可以沿确定的常微分方程轨迹生成样本，但离散 token 只能跳变，不能直接平滑移动。ERF 为每个位置和候选 token 引入连续剩余量，开始时随机初始化，随后完全按规则变化；哪个剩余量先到零，就触发相应 token 切换。作者证明，在理想连续过程下，各时刻的离散状态分布与原扩散一致。
 
@@ -76,7 +76,7 @@ FlatCake 利用两个特点重新组织存储。KV 块生成后不再修改，�
 
 ## 5. IDM 用自身特征约束少步生图的统计差异
 
-**论文**：[Intrinsic Distribution Matching](https://arxiv.org/abs/2610.39633v1)。Deyuan Liu、Yansen Han、Kaiwen Zheng、Jun Xie、Jiacheng Liu、Zhenglin Cheng 等，机构包括 Inclusion AI、西湖大学、清华大学、浙江大学、上海创智学院与 MBZUAI。10 月 29 日 arXiv cs.CV / cs.AI 预印本，会议场所未能稳定确认。[代码](https://github.com/inclusionAI/IDM)。
+**论文**：[Intrinsic Distribution Matching](https://arxiv.org/abs/2610.39633v1)。Deyuan Liu、Yansen Han、Kaiwen Zheng、Jun Xie、Jiacheng Liu、Zhenglin Cheng 等，机构包括 Inclusion AI、西湖大学、清华大学、浙江大学、上海创智学院与 MBZUAI。10 月 29 日 arXiv cs.CV / cs.AI 预印本。[代码](https://github.com/inclusionAI/IDM)。
 
 少步生图缺少反复修改细节的机会，长段文字尤其容易出错。IDM 保留完整的分布匹配蒸馏指导，再用生成器的指数移动平均副本提取特征，匹配生成样本和参考样本的均值与各维标准差。移动平均副本把近期参数平滑起来，提供相对稳定的特征空间，因此无需另加一个外部视觉编码器。
 
